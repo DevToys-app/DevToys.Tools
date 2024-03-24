@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DevToys": {
+      "commandName": "Executable",
+      "executablePath": "%DevToysDebugEntryPoint%",
+      "commandLineArgs": "--extraplugin: \"$(TargetDir)\""
+    }
+  }
+}

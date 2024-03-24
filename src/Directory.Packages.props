@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <DotNetVersion>8.0.0</DotNetVersion>
+    <XUnit>2.5.0</XUnit>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="coverlet.collector" Version="6.0.0" />
+    <PackageVersion Include="CronExpressionDescriptor" Version="2.32.0" />
+    <PackageVersion Include="Cronos" Version="0.8.3" />
+    <PackageVersion Include="DevToys.Api" Version="2.0.0-pre.1" />
+    <PackageVersion Include="FluentAssertions" Version="6.11.0" />
+    <PackageVersion Include="Markdig" Version="0.34.0" />
+    <PackageVersion Include="Markdown.ColorCode" Version="2.1.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.IdentityModel.JsonWebTokens" Version="7.2.0" />
+    <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Moq" Version="4.18.4" />
+    <PackageVersion Include="xunit" Version="$(XUnit)" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="$(XUnit)" />
+    <PackageVersion Include="YamlDotNet" Version="13.7.1" />
+    <PackageVersion Include="ZXing.Net" Version="0.16.9" />
+    <PackageVersion Include="ZXing.Net.Bindings.ImageSharp.V3" Version="0.16.15" />
+  </ItemGroup>
+</Project>

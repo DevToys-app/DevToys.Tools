@@ -1,0 +1,51 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Define .NET and C# configuration -->
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <!-- https://github.com/dotnet/project-system/blob/main/docs/build-acceleration.md -->
+    <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+
+    <NetCore>net8.0</NetCore>
+
+    <!-- Define default build configuration -->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+
+    <!-- Defines the bin and obj folder paths -->
+    <RepoRoot>$([System.IO.Path]::GetDirectoryName($([MSBuild]::GetPathOfFileAbove('.gitignore', '$(MSBuildThisFileDirectory)'))))\</RepoRoot>
+    <BaseOutputPath>$(RepoRoot)bin\$(Configuration)\$(Platform)\</BaseOutputPath>
+    <OutputPath>$(BaseOutputPath)$(MSBuildProjectName)\</OutputPath>
+    <BaseIntermediateOutputPath>$(RepoRoot)obj\$(Platform)\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)\$(Configuration)</IntermediateOutputPath>
+    <PackageOutputPath>$(OutputPath)</PackageOutputPath>
+    <GeneratedFilesDir>$(BaseIntermediateOutputPath)Generated Files\</GeneratedFilesDir>
+    <PackagesConfigRestorePath>$(RepoRoot)packages\</PackagesConfigRestorePath>
+
+    <!-- Enable Central Package Management -->
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <EnablePackageVersionOverride>false</EnablePackageVersionOverride>
+
+    <!-- Keep generated code in `obj` folder -->
+    <EmitCompilerGeneratedFiles>True</EmitCompilerGeneratedFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="**\*.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>$([System.String]::Copy('%(FileName)')).Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Update="**\*.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>$([System.String]::Copy('%(Filename)').Replace('.Designer', '')).resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

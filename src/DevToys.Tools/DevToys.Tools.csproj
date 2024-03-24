@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>$(NetCore)</TargetFrameworks>
+
+    <!-- NuGet package -->
+    <Version>2.0.0-pre.0</Version>
+    <Title>DevToys.Tools</Title>
+    <Description>A set of offline tools installed by default with DevToys.</Description>
+    <PackageProjectUrl>https://devtoys.app</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/veler/DevToys</RepositoryUrl>
+    <Authors>veler,btiteux</Authors>
+    <PackageTags>devtoys-app</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CronExpressionDescriptor" />
+    <PackageReference Include="Cronos" />
+    <PackageReference Include="DevToys.Api">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Markdig" />
+    <PackageReference Include="Markdown.ColorCode" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
+    <PackageReference Include="Newtonsoft.Json" ExcludeAssets="runtime" />
+    <PackageReference Include="YamlDotNet" />
+    <PackageReference Include="ZXing.Net" />
+    <PackageReference Include="ZXing.Net.Bindings.ImageSharp.V3" />
+  </ItemGroup>
+
+  <Target Name="IncludeAllFilesInTargetDir" BeforeTargets="_GetPackageFiles">
+    <ItemGroup>
+      <None Include="$(OutputPath)\**">
+        <Pack>true</Pack>
+        <PackagePath>lib</PackagePath>
+      </None>
+    </ItemGroup>
+  </Target>
+
+</Project>
