@@ -25,7 +25,7 @@
     <PackageReference Include="Markdown.ColorCode" />
     <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
     <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
-    <PackageReference Include="Newtonsoft.Json" ExcludeAssets="runtime" />
+    <PackageReference Include="Newtonsoft.Json" />
     <PackageReference Include="YamlDotNet" />
     <PackageReference Include="ZXing.Net" />
     <PackageReference Include="ZXing.Net.Bindings.ImageSharp.V3" />
