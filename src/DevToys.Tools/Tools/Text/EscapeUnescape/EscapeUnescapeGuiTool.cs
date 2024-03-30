@@ -43,8 +43,8 @@ internal sealed class EscapeUnescapeGuiTool : IGuiTool, IDisposable
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _conversionModeSwitch = Switch("text-escape-unescape-conversion-mode-switch");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("text-escape-unescape-input-box");
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput("text-escape-unescape-output-box");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("text-escape-unescape-input-box");
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("text-escape-unescape-output-box");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

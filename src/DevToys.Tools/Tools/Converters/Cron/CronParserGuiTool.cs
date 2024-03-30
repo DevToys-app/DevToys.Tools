@@ -51,7 +51,7 @@ internal sealed class CronParserGuiTool : IGuiTool
     private readonly IUISingleLineTextInput _dateFormatText = SingleLineTextInput("cron-parser-date-format");
     private readonly IUISingleLineTextInput _cronExpressionText = SingleLineTextInput("cron-parser-cron-expression");
     private readonly IUISingleLineTextInput _outputCronDescriptionText = SingleLineTextInput("cron-parser-output-description");
-    private readonly IUIMultiLineTextInput _outputScheduleText = MultilineTextInput("cron-parser-output-schedule");
+    private readonly IUIMultiLineTextInput _outputScheduleText = MultiLineTextInput("cron-parser-output-schedule");
     private readonly IUIInfoBar _infoBar = InfoBar("cron-parser-info-bar");
 
     [ImportingConstructor]

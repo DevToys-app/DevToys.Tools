@@ -44,8 +44,8 @@ internal sealed partial class GZipEncoderDecoderGuiTool : IGuiTool, IDisposable
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _compressionModeSwitch = Switch("gzip-compression-mode-switch");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("gzip-input-box");
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput("gzip-output-box");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("gzip-input-box");
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("gzip-output-box");
     private readonly IUIInfoBar _compressionRatioInfoBar = InfoBar("gzip-compression-ratio-info-bar");
 
     private CancellationTokenSource? _cancellationTokenSource;

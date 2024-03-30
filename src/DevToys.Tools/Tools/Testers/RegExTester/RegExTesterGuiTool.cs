@@ -172,7 +172,7 @@ internal sealed class RegExTesterGuiTool : IGuiTool, IDisposable
     private readonly IUISetting _rightToLeftSetting = Setting("regex-tester-right-to-left-setting");
     private readonly IUIDataGrid _matchesDataGrid = DataGrid("regex-tester-match-information-data-grid");
     private readonly IUISingleLineTextInput _regexInput = SingleLineTextInput("regex-tester-regular-expression-input");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("regex-tester-text-input");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("regex-tester-text-input");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

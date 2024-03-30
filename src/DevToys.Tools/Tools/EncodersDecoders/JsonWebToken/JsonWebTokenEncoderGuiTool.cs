@@ -95,11 +95,11 @@ internal sealed partial class JsonWebTokenEncoderGuiTool
     private readonly IUIStack _viewStack = Stack("jwt-encode-view-stack");
     private readonly IUIStack _encodeSettingsStack = Stack("jwt-encode-settings-stack");
 
-    private readonly IUIMultiLineTextInput _tokenInput = MultilineTextInput("jwt-encode-token-input");
-    private readonly IUIMultiLineTextInput _signatureInput = MultilineTextInput("jwt-encode-signature-input");
-    private readonly IUIMultiLineTextInput _privateKeyInput = MultilineTextInput("jwt-encode-private-key-input");
-    private readonly IUIMultiLineTextInput _headerInput = MultilineTextInput("jwt-encode-header-input", "json");
-    private readonly IUIMultiLineTextInput _payloadInput = MultilineTextInput("jwt-encode-payload-input", "json");
+    private readonly IUIMultiLineTextInput _tokenInput = MultiLineTextInput("jwt-encode-token-input");
+    private readonly IUIMultiLineTextInput _signatureInput = MultiLineTextInput("jwt-encode-signature-input");
+    private readonly IUIMultiLineTextInput _privateKeyInput = MultiLineTextInput("jwt-encode-private-key-input");
+    private readonly IUIMultiLineTextInput _headerInput = MultiLineTextInput("jwt-encode-header-input", "json");
+    private readonly IUIMultiLineTextInput _payloadInput = MultiLineTextInput("jwt-encode-payload-input", "json");
 
     private DisposableSemaphore _semaphore = new();
     private CancellationTokenSource? _cancellationTokenSource;

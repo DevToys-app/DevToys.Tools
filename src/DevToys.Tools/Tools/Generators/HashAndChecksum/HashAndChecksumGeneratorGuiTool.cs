@@ -57,7 +57,7 @@ internal sealed class HashAndChecksumGeneratorGuiTool : IGuiTool, IDisposable
     private readonly IUIStack _progressStack = Stack();
     private readonly IUIProgressBar _progressBar = ProgressBar();
     private readonly IUISingleLineTextInput _hmacSecretKeyInput = SingleLineTextInput("hash-checksum-generator-hmac-secret-key");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("hash-checksum-generator-input-text");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("hash-checksum-generator-input-text");
     private readonly IUIFileSelector _fileSelector = FileSelector("hash-checksum-generator-input-file");
     private readonly IUISingleLineTextInput _output = SingleLineTextInput("hash-checksum-generator-output");
     private readonly IUISingleLineTextInput _checksumVerification = SingleLineTextInput("hash-checksum-generator-checksum-verification");

@@ -25,7 +25,7 @@ internal sealed partial class JsonTableConverterGuiTool : IGuiTool, IDisposable
     private readonly IClipboard _clipboard;
     private readonly IFileStorage _fileStorage;
 
-    private readonly IUIMultiLineTextInput _inputTextArea = MultilineTextInput("json-input-text-area");
+    private readonly IUIMultiLineTextInput _inputTextArea = MultiLineTextInput("json-input-text-area");
     private readonly IUIDataGrid _outputDataGrid = DataGrid("output-data-grid");
     private readonly IUIStack _copyOrSaveStack = Stack("copy-or-save-data-grid");
 

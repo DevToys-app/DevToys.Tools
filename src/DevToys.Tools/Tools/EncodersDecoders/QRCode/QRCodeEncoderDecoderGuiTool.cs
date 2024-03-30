@@ -36,7 +36,7 @@ internal sealed partial class QRCodeEncoderDecoderGuiTool : IGuiTool, IDisposabl
     private readonly DisposableSemaphore _semaphore = new();
     private readonly IFileStorage _fileStorage;
     private readonly ILogger _logger;
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("qrcode-input-box");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("qrcode-input-box");
     private readonly IUIFileSelector _fileSelector = FileSelector("qrcode-file-selector");
     private readonly IUIImageViewer _imageViewer = ImageViewer("qrcode-preview");
     private readonly IUIButton _exportAsSvgButton = Button("qrcode-export-as-svg-button");

@@ -31,7 +31,7 @@ internal sealed class AnalyzerAndUtilitiesGuiTool : IGuiTool, IDisposable
         Stretch
     }
 
-    private readonly IUIMultiLineTextInput _textInput = MultilineTextInput();
+    private readonly IUIMultiLineTextInput _textInput = MultiLineTextInput();
     private readonly IUISelectDropDownList _endOfLineSequenceDropDownList = SelectDropDownList();
     private readonly IUIButton _originalTextButton = Button();
     private readonly IUIDataGrid _statisticsDataGrid = DataGrid();

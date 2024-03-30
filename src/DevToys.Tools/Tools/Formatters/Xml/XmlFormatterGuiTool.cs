@@ -46,8 +46,8 @@ internal sealed partial class XmlFormatterGuiTool : IGuiTool, IDisposable
     private readonly DisposableSemaphore _semaphore = new();
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _inputTextArea = MultilineTextInput("xml-input-text-area");
-    private readonly IUIMultiLineTextInput _outputTextArea = MultilineTextInput("xml-output-text-area");
+    private readonly IUIMultiLineTextInput _inputTextArea = MultiLineTextInput("xml-input-text-area");
+    private readonly IUIMultiLineTextInput _outputTextArea = MultiLineTextInput("xml-output-text-area");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

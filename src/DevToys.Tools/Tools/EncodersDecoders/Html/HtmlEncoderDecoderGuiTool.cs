@@ -42,8 +42,8 @@ internal sealed partial class HtmlEncoderDecoderGuiTool : IGuiTool, IDisposable
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _conversionModeSwitch = Switch("html-conversion-mode-switch");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("html-input-box");
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput("html-output-box");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("html-input-box");
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("html-output-box");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

@@ -86,7 +86,7 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
     }
 
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput();
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput();
     private readonly IUISetting _excludedCharactersSetting = Setting();
     private readonly IUIInfoBar _infoBar = InfoBar();
 

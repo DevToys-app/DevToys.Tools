@@ -51,8 +51,8 @@ internal sealed partial class JsonYamlConverterGuiTool : IGuiTool, IDisposable
     private readonly DisposableSemaphore _semaphore = new();
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _inputTextArea = MultilineTextInput("json-to-yaml-input-text-area");
-    private readonly IUIMultiLineTextInput _outputTextArea = MultilineTextInput("json-to-yaml-output-text-area");
+    private readonly IUIMultiLineTextInput _inputTextArea = MultiLineTextInput("json-to-yaml-input-text-area");
+    private readonly IUIMultiLineTextInput _outputTextArea = MultiLineTextInput("json-to-yaml-output-text-area");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

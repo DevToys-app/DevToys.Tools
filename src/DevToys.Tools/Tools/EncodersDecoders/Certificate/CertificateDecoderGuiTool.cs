@@ -33,8 +33,8 @@ internal sealed class CertificateDecoderGuiTool : IGuiTool, IDisposable
     private readonly DisposableSemaphore _semaphore = new();
     private readonly IUIPasswordInput _password = PasswordInput("certificate-decoder-password-input");
     private readonly IUIFileSelector _fileSelector = FileSelector("certificate-decoder-file-selector");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("certificate-decoder-input");
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput("certificate-decoder-output");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("certificate-decoder-input");
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("certificate-decoder-output");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

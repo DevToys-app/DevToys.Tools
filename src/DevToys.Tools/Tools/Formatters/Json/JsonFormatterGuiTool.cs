@@ -47,8 +47,8 @@ internal sealed partial class JsonFormatterGuiTool : IGuiTool, IDisposable
     private readonly DisposableSemaphore _semaphore = new();
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _inputTextArea = MultilineTextInput("json-input-text-area");
-    private readonly IUIMultiLineTextInput _outputTextArea = MultilineTextInput("json-output-text-area");
+    private readonly IUIMultiLineTextInput _inputTextArea = MultiLineTextInput("json-input-text-area");
+    private readonly IUIMultiLineTextInput _outputTextArea = MultiLineTextInput("json-output-text-area");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

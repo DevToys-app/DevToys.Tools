@@ -55,8 +55,8 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _conversionModeSwitch = Switch("base64-text-conversion-mode-switch");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("base64-text-input-box");
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput("base64-text-output-box");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("base64-text-input-box");
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("base64-text-output-box");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

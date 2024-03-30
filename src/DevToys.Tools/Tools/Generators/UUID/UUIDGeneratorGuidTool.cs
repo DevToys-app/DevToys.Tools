@@ -63,7 +63,7 @@ internal sealed class UUIDGeneratorGuidTool : IGuiTool
     }
 
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput();
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput();
 
     [ImportingConstructor]
     public UUIDGeneratorGuidTool(ISettingsProvider settingsProvider)

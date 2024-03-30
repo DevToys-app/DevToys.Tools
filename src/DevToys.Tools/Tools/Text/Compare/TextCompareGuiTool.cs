@@ -100,12 +100,12 @@ internal sealed class TextCompareGuiTool : IGuiTool
                                     .Vertical()
 
                                     .WithLeftPaneChild(
-                                        MultilineTextInput()
+                                        MultiLineTextInput()
                                             .Title(TextCompare.OriginalText)
                                             .OnTextChanged(OnOriginalTextChanged))
 
                                     .WithRightPaneChild(
-                                        MultilineTextInput()
+                                        MultiLineTextInput()
                                             .Title(TextCompare.ModifiedText)
                                             .OnTextChanged(OnModifiedTextChanged)))
 

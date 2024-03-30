@@ -51,8 +51,8 @@ internal sealed partial class SqlFormatterGuiTool : IGuiTool, IDisposable
     private readonly DisposableSemaphore _semaphore = new();
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _inputTextArea = MultilineTextInput("sql-input-text-area");
-    private readonly IUIMultiLineTextInput _outputTextArea = MultilineTextInput("sql-output-text-area");
+    private readonly IUIMultiLineTextInput _inputTextArea = MultiLineTextInput("sql-input-text-area");
+    private readonly IUIMultiLineTextInput _outputTextArea = MultiLineTextInput("sql-output-text-area");
 
     private CancellationTokenSource? _cancellationTokenSource;
 

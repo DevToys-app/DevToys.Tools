@@ -52,7 +52,7 @@ internal sealed class LoremIpsumGeneratorGuiTool : IGuiTool
     }
 
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput();
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput();
 
     private LipsumGenerator _generator;
 

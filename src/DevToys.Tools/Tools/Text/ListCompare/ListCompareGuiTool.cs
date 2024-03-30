@@ -51,7 +51,7 @@ internal sealed class ListCompareGuiTool : IGuiTool
     private readonly DisposableSemaphore _semaphore = new();
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
-    private readonly IUIMultiLineTextInput _diffListResult = MultilineTextInput("text-compare-diff-list-result");
+    private readonly IUIMultiLineTextInput _diffListResult = MultiLineTextInput("text-compare-diff-list-result");
     private CancellationTokenSource? _cancellationTokenSource;
 
     [ImportingConstructor]
@@ -115,11 +115,11 @@ internal sealed class ListCompareGuiTool : IGuiTool
                                 SplitGrid()
                                     .Vertical()
                                     .WithLeftPaneChild(
-                                        MultilineTextInput()
+                                        MultiLineTextInput()
                                             .Title(ListCompare.ListA)
                                             .OnTextChanged(OnListAChanged))
                                     .WithRightPaneChild(
-                                        MultilineTextInput()
+                                        MultiLineTextInput()
                                             .Title(ListCompare.ListB)
                                             .OnTextChanged(OnListBChanged)))
                             .WithBottomPaneChild(

@@ -46,7 +46,7 @@ internal sealed class MarkdownPreviewGuiTool : IGuiTool, IDisposable
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUIWebView _webView = WebView();
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput();
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput();
     private readonly Lazy<string> _githubMarkdownIndexPage = new(() => ReadEmbeddedResource("index.html"));
 
     private CancellationTokenSource? _cancellationTokenSource;

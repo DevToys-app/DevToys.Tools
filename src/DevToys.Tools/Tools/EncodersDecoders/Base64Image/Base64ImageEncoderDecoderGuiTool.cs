@@ -36,7 +36,7 @@ internal sealed partial class Base64ImageEncoderDecoderGuiTool : IGuiTool, IDisp
     private readonly DisposableSemaphore _semaphore = new();
     private readonly IFileStorage _fileStorage;
     private readonly ILogger _logger;
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("base64-image-input-box");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("base64-image-input-box");
     private readonly IUIFileSelector _fileSelector = FileSelector("base64-image-file-selector");
     private readonly IUIImageViewer _imageViewer = ImageViewer("base64-image-preview");
 

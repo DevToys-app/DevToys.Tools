@@ -94,11 +94,11 @@ internal sealed partial class JsonWebTokenDecoderGuiTool
     private readonly IUISingleLineTextInput _validateTokenIssuersInput = SingleLineTextInput("jwt-decode-validate-token-issuers-input");
     private readonly IUISingleLineTextInput _validateTokenAudiencesInput = SingleLineTextInput("jwt-decode-validate-token-audiences-input");
 
-    private readonly IUIMultiLineTextInput _tokenInput = MultilineTextInput("jwt-decode-token-input");
-    private readonly IUIMultiLineTextInput _headerInput = MultilineTextInput("jwt-decode-header-input", "json");
-    private readonly IUIMultiLineTextInput _payloadInput = MultilineTextInput("jwt-decode-payload-input", "json");
-    private readonly IUIMultiLineTextInput _signatureInput = MultilineTextInput("jwt-decode-signature-input");
-    private readonly IUIMultiLineTextInput _publicKeyInput = MultilineTextInput("jwt-decode-public-key-input");
+    private readonly IUIMultiLineTextInput _tokenInput = MultiLineTextInput("jwt-decode-token-input");
+    private readonly IUIMultiLineTextInput _headerInput = MultiLineTextInput("jwt-decode-header-input", "json");
+    private readonly IUIMultiLineTextInput _payloadInput = MultiLineTextInput("jwt-decode-payload-input", "json");
+    private readonly IUIMultiLineTextInput _signatureInput = MultiLineTextInput("jwt-decode-signature-input");
+    private readonly IUIMultiLineTextInput _publicKeyInput = MultiLineTextInput("jwt-decode-public-key-input");
 
     private readonly IUIDataGrid _payloadClaimsDataGrid = DataGrid("jwt-decode-payload-claims-data-grid");
 

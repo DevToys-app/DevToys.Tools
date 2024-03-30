@@ -34,8 +34,8 @@ internal sealed class XMLTesterGuiTool : IGuiTool, IDisposable
 
     private readonly ILogger _logger;
     private readonly DisposableSemaphore _semaphore = new();
-    private readonly IUIMultiLineTextInput _xsdInputText = MultilineTextInput();
-    private readonly IUIMultiLineTextInput _xmlInputText = MultilineTextInput();
+    private readonly IUIMultiLineTextInput _xsdInputText = MultiLineTextInput();
+    private readonly IUIMultiLineTextInput _xmlInputText = MultiLineTextInput();
     private readonly IUIInfoBar _infoBar = InfoBar();
 
     private CancellationTokenSource? _cancellationTokenSource;

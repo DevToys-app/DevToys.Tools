@@ -42,8 +42,8 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _conversionModeSwitch = Switch("url-conversion-mode-switch");
-    private readonly IUIMultiLineTextInput _inputText = MultilineTextInput("url-input-box");
-    private readonly IUIMultiLineTextInput _outputText = MultilineTextInput("url-output-box");
+    private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("url-input-box");
+    private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("url-output-box");
 
     private CancellationTokenSource? _cancellationTokenSource;
 
