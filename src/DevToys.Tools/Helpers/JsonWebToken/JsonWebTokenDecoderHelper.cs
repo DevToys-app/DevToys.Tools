@@ -8,11 +8,12 @@ using static DevToys.Tools.Helpers.JsonWebToken.JsonWebTokenEncoderDecoderHelper
 namespace DevToys.Tools.Helpers.JsonWebToken;
 
 using System.Security.Claims;
+using DevToys.Api;
 using Microsoft.IdentityModel.JsonWebTokens;
 
 internal static class JsonWebTokenDecoderHelper
 {
-    private static readonly List<string> _dateFields = new() { "exp", "nbf", "iat", "auth_time", "updated_at" };
+    private static readonly HashSet<string> _claimDateFields = ["exp", "nbf", "iat", "auth_time", "updated_at"];
 
     public static ResultInfo<JsonWebTokenAlgorithm?> GetTokenAlgorithm(string token, ILogger logger)
     {
@@ -53,10 +54,10 @@ internal static class JsonWebTokenDecoderHelper
             JsonWebToken jsonWebToken = handler.ReadJsonWebToken(tokenParameters.Token);
 
             string decodedHeader = Base64Helper.FromBase64ToText(
-                jsonWebToken.EncodedHeader,
-                Base64Encoding.Utf8,
-                logger,
-                cancellationToken);
+                           jsonWebToken.EncodedHeader,
+                           Base64Encoding.Utf8,
+                           logger,
+                           cancellationToken);
             ResultInfo<string> headerResult = await JsonHelper.FormatAsync(
                 decodedHeader,
                 Indentation.TwoSpaces,
@@ -174,9 +175,11 @@ internal static class JsonWebTokenDecoderHelper
             tokenResult.Signature = tokenParameters.Signature;
             tokenResult.PublicKey = tokenParameters.PublicKey;
 
-            if (!decodeParameters.ValidateActors && !decodeParameters.ValidateLifetime &&
-                !decodeParameters.ValidateIssuers && !decodeParameters.ValidateAudiences &&
-                !decodeParameters.ValidateIssuersSigningKey)
+            if (!decodeParameters.ValidateActors
+                && !decodeParameters.ValidateLifetime
+                && !decodeParameters.ValidateIssuers
+                && !decodeParameters.ValidateAudiences
+                && !decodeParameters.ValidateIssuersSigningKey)
             {
                 return new ResultInfo<JsonWebTokenResult, ResultInfoSeverity>(tokenResult, JsonWebTokenEncoderDecoder.TokenNotValidated, ResultInfoSeverity.Warning);
             }
@@ -197,7 +200,7 @@ internal static class JsonWebTokenDecoderHelper
             int claimStartPosition = data.IndexOf(claim.Type);
             TextSpan span = new(claimStartPosition, claim.Type.Length);
             JsonWebTokenClaim processedClaim = new(claim.Type, claim.Value, span);
-            if (_dateFields.Contains(claim.Type) && long.TryParse(claim.Value, out long value))
+            if (_claimDateFields.Contains(claim.Type) && long.TryParse(claim.Value, out long value))
             {
                 processedClaim.Value = $"{DateTimeOffset.FromUnixTimeSeconds(value).ToLocalTime()} ({claim.Value})";
             }
