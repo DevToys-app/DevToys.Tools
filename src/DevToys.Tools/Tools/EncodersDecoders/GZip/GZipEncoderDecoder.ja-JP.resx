@@ -133,34 +133,34 @@
     <value>GZip 文字列の圧縮/展開</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
-    <value>Compression mode</value>
+    <value>圧縮 / 展開</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>Compression ratio</value>
+    <value>圧縮率 :</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
     <value>{0:0.#} %</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>構成</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compress or decompress a text in GZip</value>
+    <value>GZip と Base64 を組み合わせた圧縮 / 展開ツール</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>入力された文字列の GZip 圧縮 / 展開を行います</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>入力</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;Invalid GZip data&gt;</value>
+    <value>&lt;GZip データではありません&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>GZip と Base64 を組み合わせた圧縮 / 展開ツール</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>出力</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>
