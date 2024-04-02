@@ -724,6 +724,6 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>Текст</value>
   </data>
 </root>
