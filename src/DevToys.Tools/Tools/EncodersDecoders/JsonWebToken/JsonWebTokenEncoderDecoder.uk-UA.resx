@@ -282,7 +282,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>Налаштування</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Ні</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
@@ -450,7 +450,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Так</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
