@@ -235,10 +235,10 @@
     <value>End position</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>Length</value>
+    <value>நீளம்</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>வரி</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
     <value>Start position</value>
@@ -268,16 +268,16 @@
     <value>Statistics</value>
   </data>
   <data name="StatisticTitle" xml:space="preserve">
-    <value>Title</value>
+    <value>தலைப்பு</value>
   </data>
   <data name="StatisticValue" xml:space="preserve">
-    <value>Value</value>
+    <value>மதிப்பு</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>Text</value>
+    <value>உரை</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
-    <value>Text</value>
+    <value>உரை</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
     <value>Title Case</value>
@@ -292,6 +292,6 @@
     <value>Word frequency</value>
   </data>
   <data name="Words" xml:space="preserve">
-    <value>Words</value>
+    <value>வார்த்தைகள்</value>
   </data>
 </root>
