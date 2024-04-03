@@ -172,7 +172,7 @@
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>வெளியீடு</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
@@ -196,10 +196,10 @@
     <value>Spark SQL</value>
   </data>
   <data name="SqlLanguage" xml:space="preserve">
-    <value>Language</value>
+    <value>மொழி</value>
   </data>
   <data name="SqlLanguageDescription" xml:space="preserve">
-    <value>Which SQL language to use</value>
+    <value>எந்த SQL மொழியை பயன்படுத்துவது</value>
   </data>
   <data name="StandardSql" xml:space="preserve">
     <value>Standard SQL</value>
