@@ -166,7 +166,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>விளக்கம்</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
@@ -282,7 +282,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>அமைப்புகள்</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>இல்லை</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
@@ -362,7 +362,7 @@
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
-    <value>Public Key</value>
+    <value>பொது விசை</value>
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
@@ -450,7 +450,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>ஆமாம்</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
