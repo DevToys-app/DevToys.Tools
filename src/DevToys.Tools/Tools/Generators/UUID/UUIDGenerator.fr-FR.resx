@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil générateur UUID</value>
+    <value>Générateur de UUID</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuration</value>
@@ -133,13 +133,13 @@
     <value>Générer</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
-    <value>Astuces</value>
+    <value>Tirets</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
     <value>Si l'UUID généré doit avoir ou non des traits d'union</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Générateur UUID</value>
+    <value>Générateur de UUID</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>
@@ -166,12 +166,12 @@
     <value>1</value>
   </data>
   <data name="VersionDescription" xml:space="preserve">
-    <value>Choisir la version de l'UUID à générer</value>
+    <value>Sélectionner la version du UUID à générer</value>
   </data>
   <data name="VersionOptionDescription" xml:space="preserve">
     <value>La version UUID à générer</value>
   </data>
   <data name="VersionTitle" xml:space="preserve">
-    <value>Version UUID</value>
+    <value>Version du UUID</value>
   </data>
 </root>
