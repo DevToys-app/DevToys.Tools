@@ -145,7 +145,7 @@
     <value>உள்ளூர் தேதியும் நேரமும்</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>நிமிஷங்கள்</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
     <value>மாசம்</value>
@@ -176,7 +176,7 @@
     <value>ஆண்டு</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Now</value>
+    <value>இப்போது</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Date Converter</value>
@@ -194,7 +194,7 @@
     <value>No</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>ஆமாம்</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
     <value>Milliseconds</value>
