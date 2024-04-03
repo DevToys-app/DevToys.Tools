@@ -130,10 +130,10 @@
     <value>Différence</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
-    <value>Mode en ligne</value>
+    <value>Mode inline</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Compositeur de texte</value>
+    <value>Comparateur de texte</value>
   </data>
   <data name="ModifiedText" xml:space="preserve">
     <value>Texte modifié</value>
