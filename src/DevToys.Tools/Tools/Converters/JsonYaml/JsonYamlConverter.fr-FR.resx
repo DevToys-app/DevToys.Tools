@@ -118,43 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON to YAML and YAML to JSON converter tool</value>
+    <value>Outil de conversion JSON vers YAML et YAML vers JSON</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuration</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Sélectionnez le mode de conversion que vous souhaitez utiliser</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to convert from Json or Yaml</value>
+    <value>Convertir depuis Json ou Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>Conversion</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert JSON data to YAML and vice versa</value>
+    <value>Convertir les données JSON en YAML et vice versa</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 espaces</value>
   </data>
   <data name="Indentation" xml:space="preserve">
     <value>Indentation</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Sélectionnez l'indentation que vous souhaitez utiliser</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrée</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Le fichier sélectionné n'existe pas.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from json or yaml</value>
+    <value>Texte ou chemin vers un fichier Json ou Yaml à convertir</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Veuillez spécifier un texte d'entrée ou un fichier d'entrée</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
     <value>&lt;Invalid JSON data&gt;</value>
@@ -163,24 +163,24 @@
     <value>&lt;Invalid Yaml data&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON à YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>Convertisseur JSON &lt;&gt; YAML</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortie</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Chemin vers le fichier de sortie</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 espaces</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YAML à JSON</value>
   </data>
 </root>
