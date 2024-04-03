@@ -256,7 +256,7 @@
     <value>Analyzer &amp; Utilities</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
-    <value>Show original text</value>
+    <value>அசல் உரையை காட்டு</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
     <value>snake_case</value>
