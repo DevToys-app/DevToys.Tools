@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil d'échappement de texte et d'échappement</value>
+    <value>Échapper et Déséchapper du Texte</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuration</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Unescape</value>
+    <value>Déséchapper</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Sélectionnez le mode de conversion que vous souhaitez utiliser</value>
@@ -139,7 +139,7 @@
     <value>Conversion</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Échappe ou libère une chaîne, supprimant les caractères qui peuvent empêcher l'analyse.</value>
+    <value>Échappe ou déséchappe du texte, supprimant les caractères qui peuvent empêcher du parsing.</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Le fichier d'entrée sélectionné n'existe pas</value>
@@ -148,13 +148,13 @@
     <value>Texte ou chemin vers un fichier à convertir en texte échappé ou non échappé</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrée</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Veuillez spécifier un texte d'entrée ou un fichier d'entrée</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Échappement de texte / Réduction de l'évasion</value>
+    <value>Échapper / Déséchapper du Texte</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Chemin vers le fichier de sortie</value>
@@ -163,6 +163,6 @@
     <value>Sortie</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Échapper / Échapper</value>
+    <value>Échapper / Déséchapper</value>
   </data>
 </root>
