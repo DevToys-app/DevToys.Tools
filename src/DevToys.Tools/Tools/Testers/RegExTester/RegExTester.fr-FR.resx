@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil de testeur d'expressions régulières</value>
+    <value>Testeur d'expression reguliere</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
     <value>Tous les matchs</value>
@@ -134,7 +134,7 @@
 It can operate within a group, or on a whole expression. The patterns will be tested in order.</value>
   </data>
   <data name="CheatSheetAnyCharacter" xml:space="preserve">
-    <value>N'importe quel caractère sauf à la nouvelle ligne</value>
+    <value>N'importe quel caractère, sauf le saut de ligne</value>
   </data>
   <data name="CheatSheetAnyCharacterDetails" xml:space="preserve">
     <value>Correspond à n'importe quel caractère autre que le saut de ligne. Équivalent à [^\n\r].</value>
@@ -199,13 +199,13 @@ $1 \1 \{1}</value>
     <value>Classes de caractères</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Caractères échappés</value>
+    <value>Caractère d'échappement</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
     <value>Groupes et Références</value>
   </data>
   <data name="CheatSheetCategoryLookaround" xml:space="preserve">
-    <value>Regarder</value>
+    <value>Regarder les environs</value>
   </data>
   <data name="CheatSheetCategoryQuantifiersAlternation" xml:space="preserve">
     <value>Quantificateurs et Alternation</value>
@@ -257,10 +257,10 @@ Tout lookaround peut être utilisé comme la condition. Une anticipation commenc
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Libellé</value>
+    <value>Description</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Chiffre</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
     <value>Correspond à n'importe quel caractère numérique (0-9). Équivalent à [0-9].</value>
@@ -278,7 +278,7 @@ For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define 
     <value>Correspond à la fin de la chaîne. Contrairement à $, elle n'est pas affectée par le drapeau multiligne (m). Cela correspond à une position et non à un caractère.</value>
   </data>
   <data name="CheatSheetEsc" xml:space="preserve">
-    <value>Echap</value>
+    <value>Esc</value>
   </data>
   <data name="CheatSheetEscapedCharacters" xml:space="preserve">
     <value>Caractères échappés</value>
@@ -423,7 +423,7 @@ Il y a plusieurs syntaxes pour cette fonctionnalité : \g&lt;name&gt; \g'name' (
     <value>Groupes plusieurs jetons ensemble sans créer de groupe de capture.</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
-    <value>Ne pas chiffrer</value>
+    <value>Pas de chiffre</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
     <value>Correspond à n'importe quel caractère qui n'est pas un chiffre (0-9). Équivalent à [^0-9].</value>
