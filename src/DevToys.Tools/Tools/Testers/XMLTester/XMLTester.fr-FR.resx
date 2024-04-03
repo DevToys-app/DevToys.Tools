@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil de testeur Xml et XSD</value>
+    <value>Outil de test Xml et XSD</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Valider les données XML via un schéma XSD.</value>
+    <value>Valider un XML via un schéma XSD.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Testeur XML / XSD</value>
@@ -139,10 +139,10 @@
     <value>XML</value>
   </data>
   <data name="TargetNamespaceNotDefinedInXml" xml:space="preserve">
-    <value>Le résultat de la validation sera potentiellement toujours 'valid' car le XML ne fait pas référence au 'targetNamespace' suivant défini dans le XSD : {0}</value>
+    <value>Le résultat de la validation sera potentiellement toujours 'valide' car le XML ne fait pas référence à 'targetNamespace' défini dans le XSD: {0}</value>
   </data>
   <data name="ValidationImpossibleMsg" xml:space="preserve">
-    <value>Le contenu XML et XSD doit être défini pour effectuer une validation.</value>
+    <value>Le XML et XSD doiventt être défini pour effectuer une validation.</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
     <value>La validation a échoué pour une raison inconnue.</value>
