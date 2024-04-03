@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil de simulateur de cécité de couleur</value>
+    <value>Outil de simulation de cécité de couleur</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Simuler la cécité des couleurs sur une image ou une capture d'écran</value>
@@ -139,7 +139,7 @@
     <value>Répertoire où le résultat doit être maintenu. Par défaut, utilisez le répertoire des fichiers d'entrée</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Simulation de la protanopie</value>
+    <value>Simulation de la Protanopie</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Tritanopie Protanopie Deutéronome Daltoniste Daltoniste</value>
@@ -152,6 +152,6 @@
     <value>Masque la progression de l'opération de hachage</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>Simulation de la tritanopie</value>
+    <value>Simulation de la Tritanopie</value>
   </data>
 </root>
