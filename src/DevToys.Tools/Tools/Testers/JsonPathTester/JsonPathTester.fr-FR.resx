@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil de testeur JSONPath</value>
+    <value>Outil de test de JSONPath</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>Opérateur de tranche de tableau</value>
+    <value>Array slice operator</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
-    <value>Enfant ou enfants notés par tranches</value>
+    <value>Bracket-notated child or children</value>
   </data>
   <data name="CheatSheetCurrentObjectElement" xml:space="preserve">
-    <value>Utilisé pour les expressions de filtre. Fait référence au noeud courant pour plus de traitement.</value>
+    <value>Used for filter expressions. Refers to the current node for further processing.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Libellé</value>
+    <value>Description</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
-    <value>Enfant noté par point</value>
+    <value>Dot-notated child</value>
   </data>
   <data name="CheatSheetFilterExpression" xml:space="preserve">
     <value>Sélectionne tous les éléments d'un objet ou d'un tableau qui correspondent à l'expression booléenne spécifiée. Renvoie une liste.</value>
@@ -175,7 +175,7 @@
     <value>Texte ou chemin vers un fichier contenant le JSONPath</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
-    <value>Chemin de JSON</value>
+    <value>JSONPath</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>JSON</value>
@@ -184,10 +184,10 @@
     <value>Veuillez spécifier un texte d'entrée ou un fichier d'entrée</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Testeur JSONPath</value>
+    <value>Testeur de JSONPath</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>Aucune correspondance trouvée</value>
+    <value>Aucun résultat trouvé</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Résultat du test</value>
@@ -199,6 +199,6 @@
     <value>chemin json</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Chemin de JSON</value>
+    <value>JSONPath</value>
   </data>
 </root>
