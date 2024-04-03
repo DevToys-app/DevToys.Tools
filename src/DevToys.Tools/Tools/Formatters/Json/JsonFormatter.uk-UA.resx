@@ -175,6 +175,6 @@
     <value>Whether properties within the JSON should be sorted alphabetically</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 пробіли</value>
   </data>
 </root>

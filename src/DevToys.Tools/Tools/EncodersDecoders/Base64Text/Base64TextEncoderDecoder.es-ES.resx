@@ -163,10 +163,10 @@
     <value>Input</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Invalid Base64&gt;</value>
+    <value>&lt;Base64 inválido&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Por favor especifique un texto de entrada o un archivo de entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Base64 Text Encoder / Decoder</value>

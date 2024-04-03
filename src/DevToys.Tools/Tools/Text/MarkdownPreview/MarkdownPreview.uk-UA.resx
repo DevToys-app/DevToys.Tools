@@ -121,10 +121,10 @@
     <value>Markdown preview tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Налаштування</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Dark</value>
+    <value>Темна</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Preview a Markdown document with a GitHub-like render</value>
@@ -133,24 +133,24 @@
     <value>Markdown</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Light</value>
+    <value>Світла</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Markdown Preview</value>
+    <value>Попередній перегляд Markdown</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Preview</value>
+    <value>Попередній перегляд</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>MD</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Markdown Preview</value>
+    <value>Попередній перегляд Markdown</value>
   </data>
   <data name="ThemeDescription" xml:space="preserve">
-    <value>Select which theme to use to preview the Markdown</value>
+    <value>Виберіть тему для перегляду Markdown</value>
   </data>
   <data name="ThemeTitle" xml:space="preserve">
-    <value>Theme</value>
+    <value>Тема</value>
   </data>
 </root>
