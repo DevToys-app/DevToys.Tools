@@ -124,7 +124,7 @@
     <value>Configuration</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Dark</value>
+    <value>இருள்</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Preview a Markdown document with a GitHub-like render</value>
