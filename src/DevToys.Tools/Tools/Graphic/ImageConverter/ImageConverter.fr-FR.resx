@@ -130,7 +130,7 @@
     <value>Sélectionnez le format de l'image à convertir en</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Supprimez</value>
+    <value>Supprimer</value>
   </data>
   <data name="DeleteAll" xml:space="preserve">
     <value>Tout supprimer</value>
