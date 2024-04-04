@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil SQL Formatter</value>
+    <value>Formatteur de SQL</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuration</value>
@@ -139,7 +139,7 @@
     <value>Sélectionnez l'indentation que vous souhaitez utiliser</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrée</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Le fichier d'entrée sélectionné n'existe pas.</value>
@@ -151,13 +151,13 @@
     <value>Veuillez spécifier un texte d'entrée ou un fichier d'entrée</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
-    <value>Virgule principale</value>
+    <value>Virgule en prefix</value>
   </data>
   <data name="LeadingCommaDescription" xml:space="preserve">
-    <value>Utiliser ou non les virgules de début</value>
+    <value>Utiliser ou non les virgules en debut de ligne</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Formatter SQL</value>
+    <value>Formatteur de SQL</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -169,7 +169,7 @@
     <value>N1QL</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 tabulation</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Sortie</value>
@@ -184,10 +184,10 @@
     <value>PostgreSQL</value>
   </data>
   <data name="RedShift" xml:space="preserve">
-    <value>Déplacement rouge d'Amazon</value>
+    <value>Amazon Redshift</value>
   </data>
   <data name="SearchDisplayName" xml:space="preserve">
-    <value>Formatter SQL</value>
+    <value>Formatteur de SQL</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>SQL</value>
@@ -196,10 +196,10 @@
     <value>SQL Spark</value>
   </data>
   <data name="SqlLanguage" xml:space="preserve">
-    <value>Langue</value>
+    <value>Langage</value>
   </data>
   <data name="SqlLanguageDescription" xml:space="preserve">
-    <value>Langue SQL à utiliser</value>
+    <value>Langage SQL à utiliser</value>
   </data>
   <data name="StandardSql" xml:space="preserve">
     <value>SQL standard</value>
