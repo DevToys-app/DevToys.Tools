@@ -145,13 +145,13 @@
     <value>Configuration</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compress or decompress a text in GZip</value>
+    <value>在GZip中压缩或解压缩文本</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>要压缩的文本或要解压缩的GZIP</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
     <value>&lt;Invalid GZip data&gt;</value>
