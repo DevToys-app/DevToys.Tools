@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT Encoder and Decoder tool</value>
+    <value>JWT编码器和解码器工具</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
@@ -138,7 +138,7 @@
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Unknown token algorithm</value>
+    <value>未知令牌算法</value>
     <comment>Error message</comment>
   </data>
   <data name="amr" xml:space="preserve">
@@ -174,15 +174,15 @@
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
-    <value>Value</value>
+    <value>值</value>
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
-    <value>Decode</value>
+    <value>解压</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
@@ -226,15 +226,15 @@
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Json Web Token </value>
+    <value>编码和解码Json网络令牌 </value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
-    <value>Encode</value>
+    <value>编码</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Token hashing algorithm</value>
+    <value>令牌哈希算法</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
@@ -242,11 +242,11 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>Expire in day(s)</value>
+    <value>过期剩余(天)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>Expire in hour(s)</value>
+    <value>过期剩余(小时)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
@@ -266,27 +266,27 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>Token has expiration</value>
+    <value>令牌已过期</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
-    <value>Token has issuer</value>
+    <value>令牌有发行者</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenIssuerInputTitle" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>令牌发行者(用逗号分隔)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsDescription" xml:space="preserve">
-    <value>Select token parameters</value>
+    <value>选择令牌参数</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>设置</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
-    <value>The "exp" (expiration time) claim identifies the expiration time on or after which the JWT MUST NOT be accepted for processing. The processing of the "exp" claim requires that the current date/time MUST be before the expiration date/time listed in the "exp" claim. Implementers MAY provide for some small leeway, usually no more than a few minutes, to account for clock skew. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>“exp”(expiration time，到期时间) 声明指出不接受处理 JWT 的到期时间。对“exp”声明的处理要求当前日期/时间必须在“exp”声明所列出的到期日期/时间之前。考虑到时钟偏移，实现器可能会提供通常不多于几分钟的弹性时间。声明的值必须是一个包含 NumericDate 值的数值。此声明的使用不是必须的。</value>
     <comment>Claim</comment>
   </data>
   <data name="groups" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Claim</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JWT Encoder / Decoder</value>
+    <value>JWT编码器/解码器</value>
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
