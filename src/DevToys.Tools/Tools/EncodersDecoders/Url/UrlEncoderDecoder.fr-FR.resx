@@ -145,10 +145,10 @@
     <value>Texte à encoder ou URL à décoder</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrée</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Encodeur d'URL / décodeur</value>
+    <value>Encodeur / Décodeur d'URL</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Sortie</value>
