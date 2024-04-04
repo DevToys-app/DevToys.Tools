@@ -145,13 +145,13 @@
     <value>要编码的文本或要解码的HTML</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>HTML文本编码器/解码器</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>HTML</value>
