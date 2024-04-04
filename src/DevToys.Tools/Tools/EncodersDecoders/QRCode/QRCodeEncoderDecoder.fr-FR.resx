@@ -133,10 +133,10 @@
     <value>Chemin du fichier image contenant un QR Code pour décoder / chemin du fichier texte contenant le texte à convertir en un QR Code</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Texte du texte</value>
+    <value>Texte</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>QR Code Encoder / Decoder</value>
+    <value>Encodeur / Décodeur de QRCode</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
     <value>Aucun QR Code trouvé dans cette image</value>
