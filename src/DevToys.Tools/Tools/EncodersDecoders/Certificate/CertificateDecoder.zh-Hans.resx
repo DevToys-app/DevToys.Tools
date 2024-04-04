@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Certificate Decoder tool</value>
+    <value>证书解码工具</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Decode a certificate</value>
+    <value>解码一个证书</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>选择的输入文件不存在</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Raw certificate text or path to a certificate file to decode</value>
+    <value>要解码的原始证书文本或证书文件的路径</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>请指定输入文本或输入文件</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Invalid password.</value>
+    <value>密码错误</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Certificate Decoder</value>
+    <value>证书解码</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>输出文件路径</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="PasswordOptionDescription" xml:space="preserve">
-    <value>Certificate password</value>
+    <value>证书密码</value>
   </data>
   <data name="PasswordTitle" xml:space="preserve">
-    <value>Password</value>
+    <value>密码</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>CER PFX PEM CRT</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Certificate</value>
+    <value>证书</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
-    <value>Certificate Request format not currently supported.</value>
+    <value>目前不支持请求的证书格式。</value>
   </data>
 </root>

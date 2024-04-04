@@ -133,7 +133,7 @@
     <value>Color Blindness Simulator</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>Original</value>
+    <value>அசல்</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
     <value>Directory where the result should be persisted. By default, use input file's directory</value>

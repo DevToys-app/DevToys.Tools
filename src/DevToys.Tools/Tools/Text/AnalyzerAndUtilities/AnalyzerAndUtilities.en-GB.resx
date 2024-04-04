@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text analyzer, converter and utilities tool</value>
+    <value>Text analyser, converter and utilities tool</value>
   </data>
   <data name="ActionsOptionDescription" xml:space="preserve">
     <value>A set of treatments to apply to the input text. Actions are performed in the order they're set.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetize</value>
+    <value>Alphabetise</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
-    <value>Alphabetize by last word</value>
+    <value>Alphabetise by last word</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
     <value>aLtErNaTiNg cAsE</value>
@@ -196,7 +196,7 @@
     <value>Lines</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>Text Analyser and Utilities</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
     <value>lower case</value>
@@ -214,16 +214,16 @@
     <value>raNdoM cASe</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>Randomize</value>
+    <value>Randomise</value>
   </data>
   <data name="Reverse" xml:space="preserve">
     <value>Reverse</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
-    <value>Reverse alphabetize</value>
+    <value>Reverse alphabetise</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>Reverse alphabetize by last word</value>
+    <value>Reverse alphabetise by last word</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>string</value>
@@ -253,7 +253,7 @@
     <value>Sentences</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>Analyser &amp; Utilities</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
     <value>Show original text</value>

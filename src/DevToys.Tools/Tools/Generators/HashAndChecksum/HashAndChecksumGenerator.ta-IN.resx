@@ -127,7 +127,7 @@
     <value>A text or file containing a checksum to verify data integrity</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
-    <value>OK</value>
+    <value>சரி</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
     <value>Checksum to verify data integrity</value>

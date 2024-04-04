@@ -175,14 +175,14 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>வெளியீடு</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Text</value>
+    <value>Base64 உரை</value>
   </data>
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>

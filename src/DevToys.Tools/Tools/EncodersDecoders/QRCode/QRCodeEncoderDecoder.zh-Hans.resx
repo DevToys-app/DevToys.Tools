@@ -118,37 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>QR Code Encoder and Decoder tool</value>
+    <value>二维码编码和解码工具</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Read or generate a QR Code from a text. Can be exported as SVG.</value>
+    <value>读取二维码或从文本产生二维码。可导出为 SVG 格式。</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
-    <value>Export as SVG</value>
+    <value>导出 SVG</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>QR Code</value>
+    <value>二维码</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
+    <value>包含二维码的图像文件路径 / 包含生成二维码内容的文本文件</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Text</value>
+    <value>文本</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>QR Code Encoder / Decoder</value>
+    <value>二维码编解码工具</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>No QR Code found in this image</value>
+    <value>此图像中未找到二维码</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>输出文件路径</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>QRCode URL</value>
+    <value>二维码 网址</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>QR Code</value>
+    <value>二维码</value>
   </data>
 </root>

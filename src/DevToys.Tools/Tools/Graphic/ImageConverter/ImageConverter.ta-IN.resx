@@ -130,10 +130,10 @@
     <value>Select the image format to convert into</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>நீக்கு</value>
   </data>
   <data name="DeleteAll" xml:space="preserve">
-    <value>Delete all</value>
+    <value>எல்லாத்தையும் நீக்கு</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Lossless image converter</value>
@@ -155,7 +155,7 @@
     <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
-    <value>Save all</value>
+    <value>எல்லாத்தையும் சேமி</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
     <value>Save as</value>

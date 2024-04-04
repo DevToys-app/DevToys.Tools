@@ -121,7 +121,7 @@
     <value>XML Formatter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Indent or minify XML data</value>

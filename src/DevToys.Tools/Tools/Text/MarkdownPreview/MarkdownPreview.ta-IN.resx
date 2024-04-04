@@ -124,7 +124,7 @@
     <value>Configuration</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Dark</value>
+    <value>இருள்</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Preview a Markdown document with a GitHub-like render</value>
@@ -133,7 +133,7 @@
     <value>Markdown</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Light</value>
+    <value>வெளிச்சம்</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Markdown Preview</value>
@@ -151,6 +151,6 @@
     <value>Select which theme to use to preview the Markdown</value>
   </data>
   <data name="ThemeTitle" xml:space="preserve">
-    <value>Theme</value>
+    <value>கருப்பொருள்</value>
   </data>
 </root>

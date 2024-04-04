@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Image Encoder and Decoder tool</value>
+    <value>Encodeur et Décodeur d'image en Base64</value>
   </data>
   <data name="Base64Image" xml:space="preserve">
-    <value>Image preview</value>
+    <value>Aperçu de l'image</value>
   </data>
   <data name="Base64Input" xml:space="preserve">
-    <value>Base64 text</value>
+    <value>Texte en Base64</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 image data</value>
+    <value>Encoder et décoder une image en Base64</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to encode / text file path containing the Base64 to decode / Base64 text to decode</value>
+    <value>Chemin du fichier image pour encoder / chemin du fichier texte contenant la Base64 à décoder / le texte Base64 à décoder</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
     <value>&lt;Invalid Base64&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Image Encoder / Decoder</value>
+    <value>Encodeur et Décodeur d'image en Base64</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Chemin vers le fichier de sortie</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Image</value>
+    <value>Image Base64</value>
   </data>
 </root>
