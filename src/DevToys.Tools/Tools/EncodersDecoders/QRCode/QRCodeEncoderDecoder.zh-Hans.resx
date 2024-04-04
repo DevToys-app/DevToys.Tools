@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>QR Code Encoder and Decoder tool</value>
+    <value>二维码编码和解码工具</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Read or generate a QR Code from a text. Can be exported as SVG.</value>
