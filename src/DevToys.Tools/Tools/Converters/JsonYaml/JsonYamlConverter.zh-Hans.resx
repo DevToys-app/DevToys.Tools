@@ -118,69 +118,69 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON to YAML and YAML to JSON converter tool</value>
+    <value>JSON 和 YAML 互转工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>设置</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>选择你要使用的转换模式</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to convert from Json or Yaml</value>
+    <value>从 JSON 或 YAML 转换</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>转换</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert JSON data to YAML and vice versa</value>
+    <value>JSON 和 YAML 数据格式互相转换</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 个空格</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>缩进</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>选择你需要的缩进长度</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>选择的输入文件不存在。</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from json or yaml</value>
+    <value>要转换的文本，或指向文件的路径</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>请指定输入文本或输入文件</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
-    <value>&lt;Invalid JSON data&gt;</value>
+    <value>&lt;无效的 JSON 数据&gt;</value>
   </data>
   <data name="InvalidYaml" xml:space="preserve">
-    <value>&lt;Invalid Yaml data&gt;</value>
+    <value>&lt;无效的 YAML 数据&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON 到 YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>JSON &lt;&gt; YAML 转换工具</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>输出文件路径</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 个空格</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YAML 到 JSON</value>
   </data>
 </root>
