@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Lorem Ipsum Generator tool</value>
+    <value>Générateur de Lorem Ipsum</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuration</value>
@@ -127,7 +127,7 @@
     <value>Corps de texte à utiliser</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Générer Lorem Ipsum (ou similaire) texte placeholder</value>
+    <value>Générer Lorem Ipsum (ou un texte similaire)</value>
   </data>
   <data name="LengthDescription" xml:space="preserve">
     <value>Nombre de mots, phrases ou paragraphes à générer</value>
@@ -139,7 +139,7 @@
     <value>Longueur</value>
   </data>
   <data name="LipsumChildHarold" xml:space="preserve">
-    <value>Pèlerinage d'Enfant Harold (Lord Byron)</value>
+    <value>Childe Harold's Pilgrimage (Lord Byron)</value>
   </data>
   <data name="LipsumDecameron" xml:space="preserve">
     <value>Decameron - Novella Prima (Giovanni Boccaccio)</value>
@@ -151,19 +151,19 @@
     <value>In der Fremde (Heinrich Heine), Allemand</value>
   </data>
   <data name="LipsumLeBateauIvre" xml:space="preserve">
-    <value>Le Bateau Ivre (Arthur Rimbaud), French</value>
+    <value>Le Bateau Ivre (Arthur Rimbaud)</value>
   </data>
   <data name="LipsumLeMasque" xml:space="preserve">
-    <value>Le Masque (Charles Baudelaire), Français</value>
+    <value>Le Masque (Charles Baudelaire)</value>
   </data>
   <data name="LipsumLoremIpsum" xml:space="preserve">
     <value>Lorem Ipsum (Marcus Tullius Cicero), Latin</value>
   </data>
   <data name="LipsumNagyonFaj" xml:space="preserve">
-    <value>Nagyon fáj (József Attila), Hungarian</value>
+    <value>Nagyon fáj (József Attila), Hungarian</value>
   </data>
   <data name="LipsumOmagyar" xml:space="preserve">
-    <value>Ómagyar-Mária siralom (Ismeretlen), Hungarian</value>
+    <value>Ómagyar-Mária siralom (Ismeretlen), Hungarian</value>
   </data>
   <data name="LipsumRobinsonoKruso" xml:space="preserve">
     <value>Robinsono Kruso (Daniel Defoe), Esperanto</value>
@@ -172,13 +172,13 @@
     <value>Le Corbeau (Edward Allen Poe), Anglais</value>
   </data>
   <data name="LipsumTierrayLuna" xml:space="preserve">
-    <value>Tierra y Luna (Federico García Lorca), Spanish</value>
+    <value>Tierra y Luna (Federico García Lorca), Espagnol</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
     <value>Corps du texte</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum Generator</value>
+    <value>Générateur de Lorem Ipsum</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Sortie</value>
