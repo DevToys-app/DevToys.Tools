@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Outil générateur de hachage et de somme de contrôle</value>
+    <value>Outil générateur de hachage et checksum</value>
   </data>
   <data name="ChecksumVerificationFailed" xml:space="preserve">
     <value>ÉCHEC</value>
@@ -130,7 +130,7 @@
     <value>Ok</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
-    <value>Somme de contrôle pour vérifier l'intégrité des données</value>
+    <value>Checksum pour vérifier l'intégrité des données</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuration</value>
@@ -142,7 +142,7 @@
     <value>Le type de hachage à générer</value>
   </data>
   <data name="HashesMatch" xml:space="preserve">
-    <value>Les hashs sont les mêmes</value>
+    <value>Les hachages sont les mêmes</value>
   </data>
   <data name="HashesMismatch" xml:space="preserve">
     <value>Les hachages sont différents</value>
@@ -163,13 +163,13 @@
     <value>Texte ou chemin vers un fichier à hacher</value>
   </data>
   <data name="InputTextTitle" xml:space="preserve">
-    <value>Input text</value>
+    <value>Texte d’entrée</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Veuillez spécifier un texte d'entrée ou un fichier d'entrée</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Générateur de hachage / Checksum</value>
+    <value>Générateur de hachage / checksum</value>
   </data>
   <data name="Or" xml:space="preserve">
     <value>ou</value>
