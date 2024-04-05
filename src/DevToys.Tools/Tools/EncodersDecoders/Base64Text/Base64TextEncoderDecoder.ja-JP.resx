@@ -130,7 +130,7 @@
     <value>デコード</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>変換モードを選択してください</value>
+    <value>変換するモードの選択</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>エンコード</value>
@@ -145,13 +145,13 @@
     <value>テキストデータまたは Base64 データを相互に変換します</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
-    <value>文字コードを選択してください</value>
+    <value>文字コードの選択</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>エンコード</value>
+    <value>文字コード</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>エンコード</value>
+    <value>文字コード</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>指定されたファイルが見つかりません</value>
@@ -163,7 +163,7 @@
     <value>入力</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Base64 データではありません&gt;</value>
+    <value>&lt;Base64 データとして解析できませんでした&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>テキストの入力、またはファイルを指定してください</value>
