@@ -127,7 +127,7 @@
     <value>デコード</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>変換モードの選択</value>
+    <value>変換するモードの選択</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>エンコード</value>
@@ -142,7 +142,7 @@
     <value>URL エンティティに該当するすべての文字をエンコードまたはデコードします</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>エンコードするテキスト、またはデコードする URL</value>
+    <value>エンコードするテキストまたはデコードするテキスト</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>入力</value>
