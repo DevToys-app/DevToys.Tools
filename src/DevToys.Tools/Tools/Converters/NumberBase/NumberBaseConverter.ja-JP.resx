@@ -118,62 +118,62 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Number Base Converter tool</value>
+    <value>基数変換ツール</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>高度な基数変換</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>2 進数</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>構成</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>基数に使用する文字は2文字以上必要です</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>カスタム</value>
   </data>
   <data name="Decimal" xml:space="preserve">
-    <value>Decimal</value>
+    <value>10 進数</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>ある基数から別の基数に数値を変換</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>数字のフォーマット</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
-    <value>Hexadecimal</value>
+    <value>16 進数</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>入力</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>The base of the number to convert</value>
+    <value>変換前の基数</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>入力にて使用する辞書</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
+    <value>変換する基数</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>基数の変換</value>
   </data>
   <data name="Octal" xml:space="preserve">
-    <value>Octal</value>
+    <value>8 進数</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>出力</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>変換後の基数</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>出力にて使用する辞書</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -191,14 +191,14 @@
     <value>RFC-4648 Base64 Url Encode</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>基数</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
+    <value>{0} では使われていない文字が入力されています</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
+    <value>{0} で表せる数値 ({1}) を超えているため変換できませんでした</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>
