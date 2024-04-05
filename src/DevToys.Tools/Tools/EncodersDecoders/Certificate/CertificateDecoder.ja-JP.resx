@@ -121,7 +121,7 @@
     <value>証明書データの展開ツール</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>証明書の内容をデコードして内容を確認します</value>
+    <value>証明書のデータをデコードして内容を確認します</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>指定されたファイルが見つかりません</value>
@@ -139,7 +139,7 @@
     <value>パスワードが一致しません。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>証明書の確認ツール</value>
+    <value>証明書の展開と確認</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>保存先のパス</value>
