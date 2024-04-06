@@ -121,7 +121,7 @@
     <value>JSON 和 YAML 互转工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>设置</value>
+    <value>配置</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>选择你要使用的转换模式</value>
