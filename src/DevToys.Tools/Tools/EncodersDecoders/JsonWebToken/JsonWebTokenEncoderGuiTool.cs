@@ -289,7 +289,7 @@ internal sealed partial class JsonWebTokenEncoderGuiTool
                         ),
                     Setting("jwt-encode-token-default-time-setting")
                         .Icon("FluentSystemIcons", '\ue36e')
-                        .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasAudienceTitle)
+                        .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasDefaultTimeTitle)
                         .InteractiveElement(
                             _encodeTokenDefaultTimeSwitch
                                 .OnText(JsonWebTokenEncoderDecoder.Yes)
