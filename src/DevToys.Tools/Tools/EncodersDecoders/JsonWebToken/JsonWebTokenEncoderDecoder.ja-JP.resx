@@ -325,7 +325,7 @@ JWT が発行された日時です。
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>有効期限に誤りがあります</value>
+    <value>Expiration Date is invalid</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -388,7 +388,7 @@ nbf クレーム値の処理では、現在の日付/時刻が使用開始日時
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>対応されていない秘密鍵です</value>
+    <value>This type of private key is not supported</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
