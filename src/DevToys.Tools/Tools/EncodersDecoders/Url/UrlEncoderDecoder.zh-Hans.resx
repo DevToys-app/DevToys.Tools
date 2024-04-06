@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>URL Encoder and Decoder tool</value>
+    <value>URL 编码和解码工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>配置</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>解码</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>选择你要使用的转换模式</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>编码</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode text in a URL parameter</value>
+    <value>是否编码或解码URL参数中的文本</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>转换</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
+    <value>将所有适用的字符编码或解码为对应的 URL 输出</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or URL to decode</value>
+    <value>要编码的文本或要解码的 URL</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>URL Encoder / Decoder</value>
+    <value>URL 编码 / 解码工具</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>URL</value>
