@@ -196,7 +196,7 @@
     <value>输出文件路径</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>path json</value>
+    <value>path json 路径</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSONPath</value>
