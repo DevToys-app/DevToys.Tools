@@ -136,7 +136,7 @@
     <value>Veuillez spécifier un texte d'entrée ou un fichier d'entrée</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Mot de passe invalide.</value>
+    <value>Incorrect password.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Décodeur de certificat</value>
