@@ -154,7 +154,7 @@
     <value>縮小</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
-    <value>ノードの属性で改行する</value>
+    <value>ノードの属性で改行</value>
   </data>
   <data name="NewLineOnAttributesDescription" xml:space="preserve">
     <value>タグまたは属性で改行する</value>
