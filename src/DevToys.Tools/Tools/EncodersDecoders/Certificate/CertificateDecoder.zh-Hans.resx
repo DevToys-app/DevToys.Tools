@@ -154,7 +154,7 @@
     <value>密码</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>CER PFX PEM CRT</value>
+    <value>CER PFX PEM CRT 证书</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">

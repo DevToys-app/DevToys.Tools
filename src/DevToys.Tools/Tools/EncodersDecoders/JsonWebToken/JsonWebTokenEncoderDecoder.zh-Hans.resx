@@ -118,23 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT编码器和解码器工具</value>
+    <value>JWT编码和解码工具</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>The "acr" claim with a value of 0 indicates the end-user authentication didn't meet the requirements of ISO/IEC 29115.</value>
+    <value>“acr”声明为 0 值，指示最终用户的身份验证不符合 ISO/IEC 29115 要求。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
-    <value>The "acrs" claim indicates the Auth Context IDs of the operations that the bearer is eligible to perform. Auth Context IDs can be used to trigger a demand for step-up authentication from within your application and services. Often used along with the xms_cc claim.</value>
+    <value>“acrs”声明提供了证明持有者操作授权的 Auth Context ID。Auth Context ID 可在你的应用和服务中触发升级身份验证。 通常与 xms_cc 声明一起使用。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>The "aio" claim is an internal claim used by Microsoft Entra ID to record data for token reuse. Resources shouldn't use this claim.</value>
+    <value>“aio” 声明是由 Microsoft Entra ID 内部使用的声明，用于记录重用令牌。其它资源不应使用此声明。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
-    <value>Indicates the algorithm used to sign the token</value>
+    <value>表明用于令牌签名的算法</value>
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
@@ -142,35 +142,35 @@
     <comment>Error message</comment>
   </data>
   <data name="amr" xml:space="preserve">
-    <value>The "amr" claim identifies the authentication method of the subject of the token.</value>
+    <value>“amr”声明标识令牌的身份验证方法。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appid" xml:space="preserve">
-    <value>The "appid" claim indicate the application ID of the client using the token. The application can act as itself or on behalf of a user. The application ID typically represents an application object, but it can also represent a service principal object in Microsoft Entra ID.</value>
+    <value>“appid”声明使用令牌的客户端的应用程序 ID。 该应用程序可以自身名义或者代表用户进行操作。 应用程序 ID 通常表示应用程序对象，但它还可以表示 Microsoft Entra ID 中的服务主体对象。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appidacr" xml:space="preserve">
-    <value>The "appidacr" claim indicate the authentication method of the client. For a public client, the value is 0. When you use the client ID and client secret, the value is 1. When you use a client certificate for authentication, the value is 2.</value>
+    <value>“appidacr”声明指示客户端的身份验证方法。 对于公共客户端，值为 0。 使用客户端 ID 和客户端密码时，该值为 1。 使用客户端证书进行身份验证时，值为 2。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aud" xml:space="preserve">
-    <value>The "aud" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim. If the principal processing the claim does not identify itself with a value in the "aud" claim when this claim is present, then the JWT MUST be rejected. In the general case, the "aud" value is an array of case- sensitive strings, each containing a StringOrURI value. In the special case when the JWT has one audience, the "aud" value MAY be a single case-sensitive string containing a StringOrURI value. The interpretation of audience values is generally application specific. Use of this claim is OPTIONAL.</value>
+    <value>“aud”（目标受众）声明标识了 JWT 的预定接收者。每个预定处理此 JWT 的主体必须标识为 aud 声明中的其中一个值。当存在 aud 声明时，如果处理该声明的主体没有使用 aud 声明内的其中一个值标识，那么该主体必须拒绝此 AWT。在一般情况下，“aud”值是一个包含大小写敏感字符串的数组，每个字符串都包含一个 StringOrURI 值。在特殊情况下，当 JWT 只有一个目标受众时，“aud” 值可以是一个包含 StringOrURI 值的大小写敏感字符串。受众取值的含义通常特定于各个应用程序。这个声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="azp" xml:space="preserve">
-    <value>The "azp" claim is a replacement for appid. The application ID of the client using the token. The application can act as itself or on behalf of a user. The application ID typically represents an application object, but it can also represent a service principal object in Microsoft Entra ID.</value>
+    <value>“azp”声明是 appid 声明的替代，指示使用令牌的应用程序 ID。 该应用程序可以自身名义或者代表用户进行操作。 应用程序 ID 通常表示应用程序对象，但它还可以表示 Microsoft Entra ID 中的服务主体对象。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="azpacr" xml:space="preserve">
-    <value>The "azpacr" claim is a replacement for appidacr. Indicates the authentication method of the client. For a public client, the value is 0. When you use the client ID and client secret, the value is 1. When you use a client certificate for authentication, the value is 2.</value>
+    <value>“azpacr”声明是 appidacr 声明的替代，指示客户端的身份验证方法。 对于公共客户端，值为 0。 使用客户端 ID 和客户端密码时，该值为 1。 使用客户端证书进行身份验证时，值为 2。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>类型</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
@@ -182,47 +182,47 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
-    <value>解压</value>
+    <value>解码</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>Validate actors</value>
+    <value>验证参与者</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
-    <value>Token audiences (separated by comma)</value>
+    <value>令牌目标受众（用逗号分隔）</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>Validate audiences</value>
+    <value>验证目标受众</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>令牌发行者（用逗号分隔）</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
-    <value>Validate issuer signing key</value>
+    <value>验证签发者签名密钥</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerTitle" xml:space="preserve">
-    <value>Validate issuer</value>
+    <value>验证签发者</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenLifetimeTitle" xml:space="preserve">
-    <value>Validate lifetime</value>
+    <value>验证生存期</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Select which token parameters to validate</value>
+    <value>选择要验证的令牌参数</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
-    <value>Token validation settings</value>
+    <value>令牌验证设置</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenTitle" xml:space="preserve">
-    <value>Validate Token</value>
+    <value>验证令牌</value>
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -238,35 +238,35 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Token audience (separated by comma)</value>
+    <value>令牌目标受众（用逗号分隔）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>过期剩余(天)</value>
+    <value>过期前剩余（天）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>过期剩余(小时)</value>
+    <value>过期前剩余（小时）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
-    <value>Expire in minute(s)</value>
+    <value>过期前剩余（分钟）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMonthInputTitle" xml:space="preserve">
-    <value>Expire in month(s)</value>
+    <value>过期前剩余（月）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationYearInputTitle" xml:space="preserve">
-    <value>Expire in year(s)</value>
+    <value>过期前剩余（年）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
-    <value>Token has audience</value>
+    <value>令牌有目标受众</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>令牌已过期</value>
+    <value>令牌有过期时间</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
@@ -274,7 +274,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenIssuerInputTitle" xml:space="preserve">
-    <value>令牌发行者(用逗号分隔)</value>
+    <value>令牌发行者（用逗号分隔）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsDescription" xml:space="preserve">
@@ -286,27 +286,27 @@
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
-    <value>“exp”(expiration time，到期时间) 声明指出不接受处理 JWT 的到期时间。对“exp”声明的处理要求当前日期/时间必须在“exp”声明所列出的到期日期/时间之前。考虑到时钟偏移，实现器可能会提供通常不多于几分钟的弹性时间。声明的值必须是一个包含 NumericDate 值的数值。此声明的使用不是必须的。</value>
+    <value>“exp”（到期时间）声明指示了 JWT 超时时间，在到达或超过该时间后，此 JWT 不可再被处理。exp 声明要求本地日期/时间必须早于 exp 声明中的日期/时间。实现方允许添加数分钟的弹性时间，来补偿时钟偏移。声明的值必须是一个 NumericDate 数值。这个声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="groups" xml:space="preserve">
-    <value>The "groups" claim provides object IDs that represent the group memberships of the subject. The groupMembershipClaims property of the application manifest configures the groups claim on a per-application basis. A value of null excludes all groups, a value of SecurityGroup includes only Active Directory Security Group memberships, and a value of All includes both Security Groups and Microsoft 365 Distribution Lists.See the hasgroups claim for details on using the groups claim with the implicit grant. For other flows, if the number of groups the user is in goes over 150 for SAML and 200 for JWT, then Microsoft Entra ID adds an overage claim to the claim sources. The claim sources point to the Microsoft Graph endpoint that contains the list of groups for the user.</value>
+    <value>“groups”声明指定表示使用者的组成员身份的对象 ID。 应用程序清单的 groupMembershipClaims 属性针对每个应用程序配置组声明。 值为 null 会排除所有组；值为 SecurityGroup 会只包括“Active Directory 安全组”成员身份；值为 All 会包括安全组和 Microsoft 365 通讯组列表。有关将 groups 声明与隐式授权一起使用的详细信息，请参阅 hasgroups 声明。 对于其他流，如果用户所在的组数对于 SAML 超过 150 个，对于 JWT 超过 200 个，则 Microsoft Entra ID 会向声明源添加一个超额声明。 声明源指向包含用户的组列表的 Microsoft Graph 终结点。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="groups:src1" xml:space="preserve">
-    <value>The "groups:src1" claim includes a link to the full groups list for the user when token requests are too large for the token. For JWTs as a distributed claim, for SAML as a new claim in place of the groups claim.Example JWT Value:"groups":"src1""_claim_sources: "src1" : { "endpoint" : "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects" }</value>
+    <value>在令牌请求对于令牌来说太大时，“groups:src1”声明包括指向用户的完整组列表的链接。 对于 JWT，作为分布式声明；对于 SAML，作为新声明替代 groups 声明。JWT 值示例："groups":"src1""_claim_sources: "src1" : { "endpoint" : "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects" }</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="hasgroups" xml:space="preserve">
-    <value>If present, always true, indicates whether the user is in at least one group. Used in place of the groups claim for JWTs in implicit grant flows if the full groups claim would extend the URI fragment beyond the URL length limits (currently six or more groups). Indicates that the client should use the Microsoft Graph API to determine the groups (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects) of the user.</value>
+    <value>如果存在，则始终为 true，指示用户是否至少在一个组中。 如果完整组声明将导致 URI 片段超出 URL 长度限制（当前为 6 个或更多组），则在隐式授权流中用来替代 JWT 的 groups 声明。 指示客户端应当使用 Microsoft Graph API 来确定用户的组 (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects)。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
-    <value>Header</value>
+    <value>标头</value>
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
-    <value>The "iat" (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>“iat”（签发时间）声明指出 JWT 签发的时间。此声明可用于确定 JWT 的存在时间。声明的值必须是一个包含 NumericDate 值的数值。此声明的使用不是必须的。</value>
     <comment>Claim</comment>
   </data>
   <data name="idp" xml:space="preserve">
@@ -314,19 +314,19 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Expiartion Date is invalid</value>
+    <value>到期日期无效</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
-    <value>The "iss" (issuer) claim identifies the principal that issued the JWT. The processing of this claim is generally application specific. The "iss" value is a case-sensitive string containing a StringOrURI value. Use of this claim is OPTIONAL.</value>
+    <value>“iss”（签发者）声明表示构造并返回令牌的签发方。应用程序自行决定如何处理此声明。iss 声明的值是区分大小写的 StringOrURI 值。此声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="jti" xml:space="preserve">
-    <value>The "jti" (JWT ID) claim provides a unique identifier for the JWT. The identifier value MUST be assigned in a manner that ensures that there is a negligible probability that the same value will be accidentally assigned to a different data object; if the application uses multiple issuers, collisions MUST be prevented among values produced by different issuers as well. The "jti" claim can be used to prevent the JWT from being replayed. The "jti" value is a case- sensitive string. Use of this claim is OPTIONAL.</value>
+    <value>“jti”（JWT ID）声明提供了 JWT 的唯一标识符。此声明的值必须使用不同对象间重复几率极小的方式生成；如果应用程序使用了多个签发方，签发方之间的雷同情况也必须要排除。jti 声明可用于防止 JWT 重放。 jti 的值是一个大小写区分的字符串。此声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="kid" xml:space="preserve">
-    <value>Specifies the thumbprint for the public key used for validating the signature of the token.</value>
+    <value>指定用于验证此令牌的公钥签名的指纹。</value>
     <comment>Claim</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
@@ -334,51 +334,51 @@
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
-    <value>The "name" claim provides a human-readable value that identifies the subject of the token. The value can vary, it's mutable, and is for display purposes only. To receive this claim, use the profile scope.</value>
+    <value>“name”声明提供一个用户可读值，用于标识令牌使用者。 该值取值任选且可变，仅用于显示目的。 若要接收此声明，请使用 profile 范围。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="nbf" xml:space="preserve">
-    <value>The "nbf" (not before) claim identifies the time before which the JWT MUST NOT be accepted for processing. The processing of the "nbf" claim requires that the current date/time MUST be after or equal to the not-before date/time listed in the "nbf" claim. Implementers MAY provide for some small leeway, usually no more than a few minutes, to account for clock skew. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>“nbf”（不早于）声明指示了 JWT 生效时间，在到达或超过该时间之前，此 JWT 不可被处理。nbf 声明要求本地日期/时间必须晚于 exp 声明中的日期/时间。实现方允许添加数分钟的弹性时间，来补偿时钟偏移。声明的值必须是一个 NumericDate 数值。这个声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>否</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
-    <value>The immutable identifier for the requestor, which is the verified identity of the user or service principal. This ID uniquely identifies the requestor across applications. Two different applications signing in the same user receive the same value in the oid claim. The oid can be used when making queries to Microsoft online services, such as the Microsoft Graph. The Microsoft Graph returns this ID as the id property for a given user account. Because the oid allows multiple applications to correlate principals, to receive this claim for users use the profile scope. If a single user exists in multiple tenants, the user contains a different object ID in each tenant. Even though the user logs into each account with the same credentials, the accounts are different.</value>
+    <value>请求者的不可变标识符，即用户或服务主体的已验证标识。 此 ID 在应用程序间唯一标识请求者。 同一个用户登录两个不同的应用程序会在 oid 声明中收到相同值。 对 Microsoft 联机服务（例如 Microsoft Graph）发出查询时可以使用 oid。 Microsoft Graph 会返回此 ID 作为给定用户帐户的 id 属性。 因为 oid 允许多个应用程序关联主体，要接收用户的声明，请使用 profile 范围。 如果单个用户存在于多个租户中，该用户会包含每个租户中的不同对象 ID。 即使用户使用相同的凭据登录到每个帐户，帐户也不同。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
-    <value>Payload</value>
+    <value>载荷</value>
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
-    <value>The "preferred_username" claim indicate the primary username that represents the user. The value could be an email address, phone number, or a generic username without a specified format. Use the value for username hints and in human-readable UI as a username. To receive this claim, use the profile scope.</value>
+    <value>“preferred_username”声明用于表示用户的主用户名。 该值可以是电子邮件地址、电话号码或未指定格式的通用用户名。 将此值用于用户名提示，在人工可读的 UI 中用作用户名。 若要接收此声明，请使用 profile 范围。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of privatec key is not supported</value>
+    <value>不支持此私钥类型</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
-    <value>Public Key</value>
+    <value>公钥</value>
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
-    <value>This type of public key is not supported</value>
+    <value>不支持此公钥类型</value>
     <comment>Error message</comment>
   </data>
   <data name="rh" xml:space="preserve">
-    <value>The "rh" claim is an internal claim used by Azure to revalidate tokens. Resources shouldn't use this claim.</value>
+    <value>“rh”声明是 Azure 用来重新验证令牌的内部声明。 资源不应使用此声明。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="roles" xml:space="preserve">
-    <value>The "roles" claim indicate the set of permissions exposed by the application that the requesting application or user has been given permission to call. The client credential flow uses this set of permission in place of user scopes for application tokens. For user tokens, this set of values contains the assigned roles of the user on the target application.</value>
+    <value>“roles”声明表示应用程序公开的、请求方应用程序或用户有权调用的权限集。 对于应用程序令牌，客户端凭据流使用此权限集来取代用户范围。 对于用户令牌，此值集包含目标应用程序上分配的用户角色。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="scp" xml:space="preserve">
-    <value>The "scp" claim indicate the set of scopes exposed by the application for which the client application has requested (and received) consent. Only included for user tokens.</value>
+    <value>“scp”声明表示应用程序公开的、客户端应用程序已请求（和接收）其许可的范围集。 仅为用户令牌包含此值。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -386,11 +386,11 @@
     <comment>Gui</comment>
   </data>
   <data name="SignatureInputTitle" xml:space="preserve">
-    <value>Signature</value>
+    <value>签名</value>
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
-    <value>The "sub" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject.  The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique. The processing of this claim is generally application specific. The "sub" value is a case-sensitive string containing a StringOrURI value.  Use of this claim is OPTIONAL.</value>
+    <value>“sub”（主题）声明指出 JWT 的主题。JWT 中的声明通常是与主题相关的说明。主题的值必须在签发者上下文局部或全局唯一。对此声明的处理一般因应用而异。“sub”值是一个包含 StringOrURI 值的字符串，区分大小写。此声明的使用不是必须的。</value>
     <comment>Claim</comment>
   </data>
   <data name="tid" xml:space="preserve">
@@ -398,51 +398,51 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="TokenInputTitle" xml:space="preserve">
-    <value>Token</value>
+    <value>令牌</value>
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
-    <value>Token not validated (no parameters selected)</value>
+    <value>令牌未验证（未选择参数）</value>
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
-    <value>Select which mode you want to use</value>
+    <value>选择要使用的模式</value>
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
-    <value>Tool Mode</value>
+    <value>工具模式</value>
     <comment>Gui</comment>
   </data>
   <data name="typ" xml:space="preserve">
-    <value>Indicates the token type</value>
+    <value>指示令牌类型</value>
     <comment>Claim</comment>
   </data>
   <data name="unique_name" xml:space="preserve">
-    <value>The "unique_name" claim provides a human readable value that identifies the subject of the token.</value>
+    <value>“unique_name”声明提供一个用户可读值，用于标识令牌使用者。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="uti" xml:space="preserve">
-    <value>The "uti" claim (Token identifier claim), is equivalent to "jti" in the JWT specification. Unique, per-token identifier that is case-sensitive.</value>
+    <value>“uti”（令牌标识符）声明，等效于 JWT 规范中的 jti 声明。 区分大小写的唯一令牌标识符。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
-    <value>Audiences are empty or invalid</value>
+    <value>目标受众为空或无效</value>
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
-    <value>Issuers are empty or invalid</value>
+    <value>签发者为空或无效</value>
     <comment>Error message</comment>
   </data>
   <data name="ver" xml:space="preserve">
-    <value>The "ver" claim indicates the version of the access token.</value>
+    <value>“ver”声明表示该访问令牌的版本。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="wids" xml:space="preserve">
-    <value>The "wids" claim denotes the tenant-wide roles assigned to this user, from the section of roles present in Microsoft Entra built-in roles. The groupMembershipClaims property of the application manifest configures this claim on a per-application basis. Set the claim to All or DirectoryRole. May not be present in tokens obtained through the implicit flow due to token length concerns.</value>
+    <value>“wids”声明表示分配给此用户的租户级角色，该角色来自 Microsoft Entra 内置角色中显示的角色部分。 应用程序清单的 groupMembershipClaims 属性针对每个应用程序配置此声明。 将声明设置为 All 或 DirectoryRole。 由于令牌长度方面的原因，它在通过隐式流获取的令牌中可能不存在。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="x5t" xml:space="preserve">
-    <value>Functions the same as "kid". "x5t" is a legacy claim emitted only in v1.0 access tokens for compatibility purposes.</value>
+    <value>功能与 kid 声明相同。x5t 是在 v1.0 访问令牌中仅出于兼容目的而发出的旧式声明。</value>
     <comment>Claim</comment>
   </data>
   <data name="xms_cc" xml:space="preserve">
@@ -450,39 +450,39 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>是</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Token has default time</value>
+    <value>令牌有默认时间</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidHeader" xml:space="preserve">
-    <value>Unable to process the token header</value>
+    <value>无法处理令牌标头</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPayload" xml:space="preserve">
-    <value>Unable to process the token payload</value>
+    <value>无法处理令牌载荷</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPrivateKey" xml:space="preserve">
-    <value>Private key is either null or empty</value>
+    <value>私钥无效或为空</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPublicKey" xml:space="preserve">
-    <value>Public key is either null or empty</value>
+    <value>公钥无效或为空</value>
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>私钥</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
-    <value>Token Validated</value>
+    <value>令牌已验证</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
-    <value>Unable to process the token signature</value>
+    <value>无法处理令牌签名</value>
     <comment>Error message</comment>
   </data>
 </root>

@@ -145,7 +145,7 @@
     <value>输出文件路径</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>二维码 网址</value>
+    <value>QRCode URL 二维码 网址</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">

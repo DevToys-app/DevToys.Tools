@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>HTML エンコーダーおよびデコーダー ツール</value>
+    <value>HTML エンティティ エンコーダーおよびデコーダー ツール</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>構成</value>
@@ -127,7 +127,7 @@
     <value>デコード</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>変換モードを選択してください</value>
+    <value>変換するモードの選択</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>エンコード</value>
@@ -139,7 +139,7 @@
     <value>変換</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>HTML エンティティ該当する文字を、エンコードまたはデコードします</value>
+    <value>HTML エンティティ該当する文字をエンコードまたはデコードします</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>エンコードするテキスト、またはデコードする HTML エンティティが含まれたテキスト</value>

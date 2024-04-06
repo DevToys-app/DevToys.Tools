@@ -130,7 +130,7 @@
     <value>圧縮では文字列を GZip で圧縮した後に Base64 にエンコードされます。展開では Base64 文字列をデコードして GZip にて展開されます。</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
-    <value>GZip 文字列の圧縮/展開</value>
+    <value>GZip 文字列の圧縮 / 展開</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
     <value>圧縮 / 展開</value>
@@ -148,16 +148,16 @@
     <value>GZip と Base64 を組み合わせた圧縮 / 展開ツール</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>入力された文字列の GZip 圧縮 / 展開を行います</value>
+    <value>テキスト または GZip+Base64 化されたデータ</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>入力</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;GZip データではありません&gt;</value>
+    <value>&lt;GZip データとして解析できませんでした&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip と Base64 を組み合わせた圧縮 / 展開ツール</value>
+    <value>GZip を利用した文字列の圧縮と展開</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>出力</value>

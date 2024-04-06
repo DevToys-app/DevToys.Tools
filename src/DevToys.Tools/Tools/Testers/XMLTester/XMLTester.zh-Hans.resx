@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Xml and XSD tester tool</value>
+    <value>Xml 和 XSD 测试工具</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate XML data via an XSD scheme.</value>
+    <value>通过 XSD 约束校验 XML 数据。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>XML / XSD 测试器</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
@@ -139,39 +139,39 @@
     <value>XML</value>
   </data>
   <data name="TargetNamespaceNotDefinedInXml" xml:space="preserve">
-    <value>Validation result will potentially always be 'valid' since the XML does not reference the following "targetNamespace" defined in the XSD: {0}</value>
+    <value>校验将永远通过，因为下列 XSD 中定义的 targetNamespace，XML 没有引用：{0}</value>
   </data>
   <data name="ValidationImpossibleMsg" xml:space="preserve">
-    <value>XML and XSD content must be set in order to perform a validation.</value>
+    <value>必须设置 XML 和 XSD 内容才能进行校验。</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
-    <value>Validation failed for an unknown reason.</value>
+    <value>验证失败，原因未知。</value>
   </data>
   <data name="XmlNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XML does not define these namespace(s) defined in the XSD: {0}</value>
+    <value>校验将永远通过，因为下列 XSD 中定义的命名空间，XML 中没有定义：{0}</value>
   </data>
   <data name="XmlValidMessage" xml:space="preserve">
-    <value>XML is compliant to the defined XSD scheme.</value>
+    <value>XML 符合已定义的 XSD 约束。</value>
   </data>
   <data name="XsdNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XSD does not define these namespace(s) defined in the XML: {0}</value>
+    <value>校验将永远通过，因为下列 XML 中定义的命名空间，XSD 中没有定义：{0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XML</value>
+    <value>请指定一个输入 XML</value>
   </data>
   <data name="InvalidXsdOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XSD</value>
+    <value>请指定一个输入 XSD</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
-    <value>XML file selected doesn't exist.</value>
+    <value>选择的 XML 文件不存在。</value>
   </data>
   <data name="XmlOptionDescription" xml:space="preserve">
-    <value>Text or path to a XML file to treat.</value>
+    <value>要处理的 XML 文本或文件路径。</value>
   </data>
   <data name="XsdFileNotFound" xml:space="preserve">
-    <value>XSD file selected doesn't exist.</value>
+    <value>选择的 XSD 文件不存在。</value>
   </data>
   <data name="XsdOptionDescription" xml:space="preserve">
-    <value>Text or path to a XSD file to treat.</value>
+    <value>要处理的 XSD 文本或文件路径。</value>
   </data>
 </root>
