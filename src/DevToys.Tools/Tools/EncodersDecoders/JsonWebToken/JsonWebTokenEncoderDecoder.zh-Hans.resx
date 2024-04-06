@@ -290,15 +290,15 @@
     <comment>Claim</comment>
   </data>
   <data name="groups" xml:space="preserve">
-    <value>The "groups" claim provides object IDs that represent the group memberships of the subject. The groupMembershipClaims property of the application manifest configures the groups claim on a per-application basis. A value of null excludes all groups, a value of SecurityGroup includes only Active Directory Security Group memberships, and a value of All includes both Security Groups and Microsoft 365 Distribution Lists.See the hasgroups claim for details on using the groups claim with the implicit grant. For other flows, if the number of groups the user is in goes over 150 for SAML and 200 for JWT, then Microsoft Entra ID adds an overage claim to the claim sources. The claim sources point to the Microsoft Graph endpoint that contains the list of groups for the user.</value>
+    <value>“groups”声明指定表示使用者的组成员身份的对象 ID。 应用程序清单的 groupMembershipClaims 属性针对每个应用程序配置组声明。 值为 null 会排除所有组；值为 SecurityGroup 会只包括“Active Directory 安全组”成员身份；值为 All 会包括安全组和 Microsoft 365 通讯组列表。有关将 groups 声明与隐式授权一起使用的详细信息，请参阅 hasgroups 声明。 对于其他流，如果用户所在的组数对于 SAML 超过 150 个，对于 JWT 超过 200 个，则 Microsoft Entra ID 会向声明源添加一个超额声明。 声明源指向包含用户的组列表的 Microsoft Graph 终结点。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="groups:src1" xml:space="preserve">
-    <value>The "groups:src1" claim includes a link to the full groups list for the user when token requests are too large for the token. For JWTs as a distributed claim, for SAML as a new claim in place of the groups claim.Example JWT Value:"groups":"src1""_claim_sources: "src1" : { "endpoint" : "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects" }</value>
+    <value>在令牌请求对于令牌来说太大时，“groups:src1”声明包括指向用户的完整组列表的链接。 对于 JWT，作为分布式声明；对于 SAML，作为新声明替代 groups 声明。JWT 值示例："groups":"src1""_claim_sources: "src1" : { "endpoint" : "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects" }</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="hasgroups" xml:space="preserve">
-    <value>If present, always true, indicates whether the user is in at least one group. Used in place of the groups claim for JWTs in implicit grant flows if the full groups claim would extend the URI fragment beyond the URL length limits (currently six or more groups). Indicates that the client should use the Microsoft Graph API to determine the groups (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects) of the user.</value>
+    <value>如果存在，则始终为 true，指示用户是否至少在一个组中。 如果完整组声明将导致 URI 片段超出 URL 长度限制（当前为 6 个或更多组），则在隐式授权流中用来替代 JWT 的 groups 声明。 指示客户端应当使用 Microsoft Graph API 来确定用户的组 (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects)。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
@@ -306,7 +306,7 @@
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
-    <value>The "iat" (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>“iat”（签发时间）声明指出 JWT 签发的时间。此声明可用于确定 JWT 的存在时间。声明的值必须是一个包含 NumericDate 值的数值。此声明的使用不是必须的。</value>
     <comment>Claim</comment>
   </data>
   <data name="idp" xml:space="preserve">
@@ -318,15 +318,15 @@
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
-    <value>The "iss" (issuer) claim identifies the principal that issued the JWT. The processing of this claim is generally application specific. The "iss" value is a case-sensitive string containing a StringOrURI value. Use of this claim is OPTIONAL.</value>
+    <value>“iss”（签发者）声明表示构造并返回令牌的签发方。应用程序自行决定如何处理此声明。iss 声明的值是区分大小写的 StringOrURI 值。此声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="jti" xml:space="preserve">
-    <value>The "jti" (JWT ID) claim provides a unique identifier for the JWT. The identifier value MUST be assigned in a manner that ensures that there is a negligible probability that the same value will be accidentally assigned to a different data object; if the application uses multiple issuers, collisions MUST be prevented among values produced by different issuers as well. The "jti" claim can be used to prevent the JWT from being replayed. The "jti" value is a case- sensitive string. Use of this claim is OPTIONAL.</value>
+    <value>“jti”（JWT ID）声明提供了 JWT 的唯一标识符。此声明的值必须使用不同对象间重复几率极小的方式生成；如果应用程序使用了多个签发方，签发方之间的雷同情况也必须要排除。jti 声明可用于防止 JWT 重放。 jti 的值是一个大小写区分的字符串。此声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="kid" xml:space="preserve">
-    <value>Specifies the thumbprint for the public key used for validating the signature of the token.</value>
+    <value>指定用于验证此令牌的公钥签名的指纹。</value>
     <comment>Claim</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
@@ -334,11 +334,11 @@
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
-    <value>The "name" claim provides a human-readable value that identifies the subject of the token. The value can vary, it's mutable, and is for display purposes only. To receive this claim, use the profile scope.</value>
+    <value>“name”声明提供一个用户可读值，用于标识令牌使用者。 该值取值任选且可变，仅用于显示目的。 若要接收此声明，请使用 profile 范围。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="nbf" xml:space="preserve">
-    <value>The "nbf" (not before) claim identifies the time before which the JWT MUST NOT be accepted for processing. The processing of the "nbf" claim requires that the current date/time MUST be after or equal to the not-before date/time listed in the "nbf" claim. Implementers MAY provide for some small leeway, usually no more than a few minutes, to account for clock skew. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>“nbf”（不早于）声明指示了 JWT 生效时间，在到达或超过该时间之前，此 JWT 不可被处理。nbf 声明要求本地日期/时间必须晚于 exp 声明中的日期/时间。实现方允许添加数分钟的弹性时间，来补偿时钟偏移。声明的值必须是一个 NumericDate 数值。这个声明是可选的。</value>
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
@@ -346,7 +346,7 @@
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
-    <value>The immutable identifier for the requestor, which is the verified identity of the user or service principal. This ID uniquely identifies the requestor across applications. Two different applications signing in the same user receive the same value in the oid claim. The oid can be used when making queries to Microsoft online services, such as the Microsoft Graph. The Microsoft Graph returns this ID as the id property for a given user account. Because the oid allows multiple applications to correlate principals, to receive this claim for users use the profile scope. If a single user exists in multiple tenants, the user contains a different object ID in each tenant. Even though the user logs into each account with the same credentials, the accounts are different.</value>
+    <value>请求者的不可变标识符，即用户或服务主体的已验证标识。 此 ID 在应用程序间唯一标识请求者。 同一个用户登录两个不同的应用程序会在 oid 声明中收到相同值。 对 Microsoft 联机服务（例如 Microsoft Graph）发出查询时可以使用 oid。 Microsoft Graph 会返回此 ID 作为给定用户帐户的 id 属性。 因为 oid 允许多个应用程序关联主体，要接收用户的声明，请使用 profile 范围。 如果单个用户存在于多个租户中，该用户会包含每个租户中的不同对象 ID。 即使用户使用相同的凭据登录到每个帐户，帐户也不同。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
@@ -354,7 +354,7 @@
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
-    <value>The "preferred_username" claim indicate the primary username that represents the user. The value could be an email address, phone number, or a generic username without a specified format. Use the value for username hints and in human-readable UI as a username. To receive this claim, use the profile scope.</value>
+    <value>“preferred_username”声明用于表示用户的主用户名。 该值可以是电子邮件地址、电话号码或未指定格式的通用用户名。 将此值用于用户名提示，在人工可读的 UI 中用作用户名。 若要接收此声明，请使用 profile 范围。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
@@ -370,15 +370,15 @@
     <comment>Error message</comment>
   </data>
   <data name="rh" xml:space="preserve">
-    <value>The "rh" claim is an internal claim used by Azure to revalidate tokens. Resources shouldn't use this claim.</value>
+    <value>“rh”声明是 Azure 用来重新验证令牌的内部声明。 资源不应使用此声明。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="roles" xml:space="preserve">
-    <value>The "roles" claim indicate the set of permissions exposed by the application that the requesting application or user has been given permission to call. The client credential flow uses this set of permission in place of user scopes for application tokens. For user tokens, this set of values contains the assigned roles of the user on the target application.</value>
+    <value>“roles”声明表示应用程序公开的、请求方应用程序或用户有权调用的权限集。 对于应用程序令牌，客户端凭据流使用此权限集来取代用户范围。 对于用户令牌，此值集包含目标应用程序上分配的用户角色。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="scp" xml:space="preserve">
-    <value>The "scp" claim indicate the set of scopes exposed by the application for which the client application has requested (and received) consent. Only included for user tokens.</value>
+    <value>“scp”声明表示应用程序公开的、客户端应用程序已请求（和接收）其许可的范围集。 仅为用户令牌包含此值。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -390,7 +390,7 @@
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
-    <value>The "sub" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject.  The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique. The processing of this claim is generally application specific. The "sub" value is a case-sensitive string containing a StringOrURI value.  Use of this claim is OPTIONAL.</value>
+    <value>“sub”（主题）声明指出 JWT 的主题。JWT 中的声明通常是与主题相关的说明。主题的值必须在签发者上下文局部或全局唯一。对此声明的处理一般因应用而异。“sub”值是一个包含 StringOrURI 值的字符串，区分大小写。此声明的使用不是必须的。</value>
     <comment>Claim</comment>
   </data>
   <data name="tid" xml:space="preserve">
@@ -418,11 +418,11 @@
     <comment>Claim</comment>
   </data>
   <data name="unique_name" xml:space="preserve">
-    <value>The "unique_name" claim provides a human readable value that identifies the subject of the token.</value>
+    <value>“unique_name”声明提供一个用户可读值，用于标识令牌使用者。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="uti" xml:space="preserve">
-    <value>The "uti" claim (Token identifier claim), is equivalent to "jti" in the JWT specification. Unique, per-token identifier that is case-sensitive.</value>
+    <value>“uti”（令牌标识符）声明，等效于 JWT 规范中的 jti 声明。 区分大小写的唯一令牌标识符。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
@@ -438,11 +438,11 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="wids" xml:space="preserve">
-    <value>The "wids" claim denotes the tenant-wide roles assigned to this user, from the section of roles present in Microsoft Entra built-in roles. The groupMembershipClaims property of the application manifest configures this claim on a per-application basis. Set the claim to All or DirectoryRole. May not be present in tokens obtained through the implicit flow due to token length concerns.</value>
+    <value>“wids”声明表示分配给此用户的租户级角色，该角色来自 Microsoft Entra 内置角色中显示的角色部分。 应用程序清单的 groupMembershipClaims 属性针对每个应用程序配置此声明。 将声明设置为 All 或 DirectoryRole。 由于令牌长度方面的原因，它在通过隐式流获取的令牌中可能不存在。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="x5t" xml:space="preserve">
-    <value>Functions the same as "kid". "x5t" is a legacy claim emitted only in v1.0 access tokens for compatibility purposes.</value>
+    <value>功能与 kid 声明相同。x5t 是在 v1.0 访问令牌中仅出于兼容目的而发出的旧式声明。</value>
     <comment>Claim</comment>
   </data>
   <data name="xms_cc" xml:space="preserve">
