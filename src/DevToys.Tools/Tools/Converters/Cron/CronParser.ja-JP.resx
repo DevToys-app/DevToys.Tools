@@ -133,7 +133,7 @@
     <value>解析する Cron 式</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>生成するスケジュールの出力フォーマット</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Cron 式を解析してスケジュールを表示します</value>
