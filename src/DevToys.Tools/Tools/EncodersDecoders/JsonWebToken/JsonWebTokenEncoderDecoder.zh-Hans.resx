@@ -358,7 +358,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of privatec key is not supported</value>
+    <value>不支持此私钥类型</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
@@ -402,11 +402,11 @@
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
-    <value>Token not validated (no parameters selected)</value>
+    <value>令牌未验证（未选择参数）</value>
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
-    <value>Select which mode you want to use</value>
+    <value>选择要使用的模式</value>
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
@@ -466,23 +466,23 @@
     <comment>Error message</comment>
   </data>
   <data name="InvalidPrivateKey" xml:space="preserve">
-    <value>Private key is either null or empty</value>
+    <value>私钥无效或为空</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPublicKey" xml:space="preserve">
-    <value>Public key is either null or empty</value>
+    <value>公钥无效或为空</value>
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>私钥</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
-    <value>Token Validated</value>
+    <value>令牌已验证</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
-    <value>Unable to process the token signature</value>
+    <value>无法处理令牌签名</value>
     <comment>Error message</comment>
   </data>
 </root>
