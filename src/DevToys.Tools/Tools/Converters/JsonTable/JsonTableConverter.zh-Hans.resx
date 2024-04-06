@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON array to tabular form converter tool</value>
+    <value>JSON 数组到表格转换工具</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Array to Table</value>
+    <value>JSON 数组到表格</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert a JSON array to tabular format, export to CSV or TSV</value>
+    <value>将 JSON 数组转换为表格，导出至 CSV 或 TSV 格式。</value>
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>JSON &gt; Table</value>
+    <value>JSON &gt; 表格</value>
     <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>JSON CSV TSV French Excel Tabular Data</value>
+    <value>JSON CSV TSV French Excel Tabular Data 表格 数据</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
+    <value>请提供一个有效的 JSON 对象数组</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>选择复制到剪贴板的格式</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>剪贴板格式</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>Comma separated values (CSV)</value>
+    <value>逗号分隔值（CSV）</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>Tab separated values (TSV)</value>
+    <value>制表符分隔值（TSV）</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>Semicolon separated values (CSV French)</value>
+    <value>分号分隔值（CSV 法语）</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>要转换的 JSON 文本，或指向文件的路径</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>File where the result should be persisted.</value>
+    <value>保存转换结果的文件。</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>选择要输出的格式</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>复制为</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>另存为</value>
   </data>
 </root>
