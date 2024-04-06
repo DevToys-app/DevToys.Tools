@@ -118,75 +118,75 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Hash and Checksum Generator tool</value>
+    <value>ハッシュおよびチェックサムの生成ツール</value>
   </data>
   <data name="ChecksumVerificationFailed" xml:space="preserve">
-    <value>FAILED</value>
+    <value>不一致</value>
   </data>
   <data name="ChecksumVerificationOptionDescription" xml:space="preserve">
-    <value>A text or file containing a checksum to verify data integrity</value>
+    <value>検証用チェックサムのテキストまたはファイル</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
-    <value>OK</value>
+    <value>一致しました</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
-    <value>Checksum to verify data integrity</value>
+    <value>検証用チェックサム</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>構成</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Calculate hash from text or binary data</value>
+    <value>テキストまたはバイナリデータからハッシュ値を生成、検証</value>
   </data>
   <data name="HashAlgorithmOptionDescription" xml:space="preserve">
-    <value>The type of hash to generate</value>
+    <value>ハッシュアルゴリズム</value>
   </data>
   <data name="HashesMatch" xml:space="preserve">
-    <value>The hashes are the same</value>
+    <value>一致しました</value>
   </data>
   <data name="HashesMismatch" xml:space="preserve">
-    <value>The hashes are different</value>
+    <value>一致しません</value>
   </data>
   <data name="HashingAlgorithmDescription" xml:space="preserve">
-    <value>Select which hashing algorithm you want to use</value>
+    <value>出力するハッシュアルゴリズム</value>
   </data>
   <data name="HashingAlgorithmTitle" xml:space="preserve">
-    <value>Hashing Algorithm</value>
+    <value>ハッシュアルゴリズム</value>
   </data>
   <data name="HmacSecret" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>HMAC 秘密鍵</value>
   </data>
   <data name="HmacSecretOptionDescription" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>HMAC 秘密鍵</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to hash</value>
+    <value>テキストまたはファイル名</value>
   </data>
   <data name="InputTextTitle" xml:space="preserve">
-    <value>Input text</value>
+    <value>入力</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>テキストの入力、またはファイルを指定してください</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum Generator</value>
+    <value>ハッシュ / チェックサム 生成</value>
   </data>
   <data name="Or" xml:space="preserve">
-    <value>or</value>
+    <value>｜</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>出力</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum</value>
+    <value>ハッシュ / チェックサム</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>処理中の出力を抑制する</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated hash should be in uppercase or not</value>
+    <value>ハッシュ値を大文字で出力</value>
   </data>
   <data name="UppercaseTitle" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>大文字を使用</value>
   </data>
 </root>
