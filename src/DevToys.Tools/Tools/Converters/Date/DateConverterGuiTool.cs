@@ -44,7 +44,10 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
     private static readonly SettingDefinition<DateTimeOffset> currentTimeSettings
         = new(
             name: $"{nameof(DateConverterGuiTool)}.{nameof(currentTimeSettings)}",
-            defaultValue: DateTime.UtcNow);
+            /* Do not use DateTime.UTCNow because it will include nanoseconds,
+             * which we don't support this amount of precision.
+             * The nanoseconds can impact the Ticks. */
+            defaultValue: DateTime.Today.ToUniversalTime());
 
     /// <summary>
     /// The timeZone to use.
