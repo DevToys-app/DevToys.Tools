@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text analyzer, converter and utilities tool</value>
+    <value>文字列の分析と変換およびユーティリティツール</value>
   </data>
   <data name="ActionsOptionDescription" xml:space="preserve">
-    <value>A set of treatments to apply to the input text. Actions are performed in the order they're set.</value>
+    <value>入力に適用する一連の処理。処理は設定された順序で実行されます</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetize</value>
+    <value>昇順</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
-    <value>Alphabetize by last word</value>
+    <value>昇順 (最後の単語)</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
     <value>aLtErNaTiNg cAsE</value>
   </data>
   <data name="Bytes" xml:space="preserve">
-    <value>Bytes</value>
+    <value>バイト数</value>
   </data>
   <data name="CamelCase" xml:space="preserve">
     <value>camelCase</value>
   </data>
   <data name="CharacterFrequency" xml:space="preserve">
-    <value>Character frequency</value>
+    <value>文字の頻度</value>
   </data>
   <data name="Characters" xml:space="preserve">
-    <value>Characters</value>
+    <value>文字数</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
     <value>COBOL-CASE</value>
@@ -151,16 +151,16 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>Convert case</value>
+    <value>変換</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Convert line break</value>
+    <value>改行コード</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Analyze text and provide some basic utility tools</value>
+    <value>テキストの分析、変換および情報の表示</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
-    <value>Line break</value>
+    <value>改行コード</value>
   </data>
   <data name="EndOfLineSequenceCR" xml:space="preserve">
     <value>CR (\r)</value>
@@ -172,19 +172,19 @@
     <value>LF (\n)</value>
   </data>
   <data name="EndOfLineSequenceMixed" xml:space="preserve">
-    <value>Mixed</value>
+    <value>混在</value>
   </data>
   <data name="EndOfLineSequenceUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>不明</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>指定されたファイルが見つかりません</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to treat.</value>
+    <value>テキストまたはファイルのパス</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>テキストまたはファイルのパスを指定してください</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
     <value>InVeRsE CaSe</value>
@@ -193,19 +193,19 @@
     <value>kebab-case</value>
   </data>
   <data name="Lines" xml:space="preserve">
-    <value>Lines</value>
+    <value>行数</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>文字列の分析と変換</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
     <value>lower case</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>出力先のパス</value>
   </data>
   <data name="Paragraphs" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>段落数</value>
   </data>
   <data name="PascalCase" xml:space="preserve">
     <value>PascalCase</value>
@@ -214,70 +214,70 @@
     <value>raNdoM cASe</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>Randomize</value>
+    <value>ランダム</value>
   </data>
   <data name="Reverse" xml:space="preserve">
-    <value>Reverse</value>
+    <value>反転</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
-    <value>Reverse alphabetize</value>
+    <value>降順</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>Reverse alphabetize by last word</value>
+    <value>降順 (最後の単語)</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>string</value>
+    <value>text string</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
-    <value>Column</value>
+    <value>列</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
-    <value>End position</value>
+    <value>選択終了</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>Length</value>
+    <value>選択文字数</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>行</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
-    <value>Start position</value>
+    <value>選択開始</value>
   </data>
   <data name="SelectionStatistics" xml:space="preserve">
-    <value>Selection</value>
+    <value>カーソルと位置</value>
   </data>
   <data name="SentenceCase" xml:space="preserve">
     <value>Sentence case</value>
   </data>
   <data name="Sentences" xml:space="preserve">
-    <value>Sentences</value>
+    <value>文数</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>分析と変換</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
-    <value>Show original text</value>
+    <value>オリジナル テキスト</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
     <value>snake_case</value>
   </data>
   <data name="SortLines" xml:space="preserve">
-    <value>Sort lines</value>
+    <value>行のソート</value>
   </data>
   <data name="Statistics" xml:space="preserve">
-    <value>Statistics</value>
+    <value>統計</value>
   </data>
   <data name="StatisticTitle" xml:space="preserve">
-    <value>Title</value>
+    <value>名前</value>
   </data>
   <data name="StatisticValue" xml:space="preserve">
-    <value>Value</value>
+    <value>値</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>Text</value>
+    <value>入力</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
-    <value>Text</value>
+    <value>テキスト</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
     <value>Title Case</value>
@@ -289,9 +289,9 @@
     <value>UPPER CASE</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
-    <value>Word frequency</value>
+    <value>単語の頻度</value>
   </data>
   <data name="Words" xml:space="preserve">
-    <value>Words</value>
+    <value>単語数</value>
   </data>
 </root>
