@@ -485,4 +485,16 @@
     <value>Unable to process the token signature</value>
     <comment>Error message</comment>
   </data>
+  <data name="Base64" xml:space="preserve">
+    <value>Base64</value>
+    <comment>Gui</comment>
+  </data>
+  <data name="PlainText" xml:space="preserve">
+    <value>Простий текст</value>
+    <comment>Gui</comment>
+  </data>
+  <data name="SignatureFormat" xml:space="preserve">
+    <value>Формат підпису</value>
+    <comment>Gui</comment>
+  </data>
 </root>
