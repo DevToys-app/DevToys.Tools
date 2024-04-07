@@ -151,60 +151,60 @@
     <value>《在异乡》（海因里希·海涅），德语</value>
   </data>
   <data name="LipsumLeBateauIvre" xml:space="preserve">
-    <value>Le Bateau Ivre (Arthur Rimbaud), French</value>
+    <value>《醉舟》（阿蒂尔·兰波），法文</value>
   </data>
   <data name="LipsumLeMasque" xml:space="preserve">
-    <value>Le Masque (Charles Baudelaire), French</value>
+    <value>《面具》（查尔斯·波德莱尔），法文</value>
   </data>
   <data name="LipsumLoremIpsum" xml:space="preserve">
-    <value>Lorem Ipsum (Marcus Tullius Cicero), Latin</value>
+    <value>乱数假文（马库斯·图留斯·西塞罗），拉丁文</value>
   </data>
   <data name="LipsumNagyonFaj" xml:space="preserve">
-    <value>Nagyon fáj (József Attila), Hungarian</value>
+    <value>《Nagyon fáj》（约瑟夫·阿蒂拉），匈牙利文</value>
   </data>
   <data name="LipsumOmagyar" xml:space="preserve">
-    <value>Ómagyar-Mária siralom (Ismeretlen), Hungarian</value>
+    <value>《Ómagyar-Mária siralom》（佚名），匈牙利文</value>
   </data>
   <data name="LipsumRobinsonoKruso" xml:space="preserve">
-    <value>Robinsono Kruso (Daniel Defoe), Esperanto</value>
+    <value>《鲁滨逊漂流记》（丹尼尔·笛福），世界语</value>
   </data>
   <data name="LipsumTheRaven" xml:space="preserve">
-    <value>The Raven (Edward Allen Poe), English</value>
+    <value>《乌鸦》（爱德华·艾伦·坡），英文</value>
   </data>
   <data name="LipsumTierrayLuna" xml:space="preserve">
-    <value>Tierra y Luna (Federico García Lorca), Spanish</value>
+    <value>《Tierra y Luna》（费德里科·加西亚·洛尔迦），西班牙文</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
-    <value>Text corpus</value>
+    <value>文本库</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum Generator</value>
+    <value>乱数假文生成器</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="ParagraphsType" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>段落</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>刷新</value>
   </data>
   <data name="SentencesType" xml:space="preserve">
-    <value>Sentences</value>
+    <value>句子</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum</value>
+    <value>乱数假文</value>
   </data>
   <data name="TypeDescription" xml:space="preserve">
-    <value>Generate words, sentences or paragraphs of Lorem Ipsum</value>
+    <value>生成单词、句子或段落形式的乱数假文</value>
   </data>
   <data name="TypeOptionDescription" xml:space="preserve">
-    <value>Whether words, sentences or paragraphs should be generated</value>
+    <value>是否生成单词、句子或段落</value>
   </data>
   <data name="TypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>类型</value>
   </data>
   <data name="WordsType" xml:space="preserve">
-    <value>Words</value>
+    <value>单词</value>
   </data>
 </root>
