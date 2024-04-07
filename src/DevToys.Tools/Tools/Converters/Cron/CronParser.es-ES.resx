@@ -133,7 +133,7 @@
     <value>The Cron expression to parse</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>Formato para la fecha y la hora de la planificación generada de fechas</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Parse Cron expression to get scheduled dates</value>
