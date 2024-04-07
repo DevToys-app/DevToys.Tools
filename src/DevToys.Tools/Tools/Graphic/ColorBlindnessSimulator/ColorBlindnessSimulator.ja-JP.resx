@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Color Blindness Simulator tool</value>
+    <value>色覚異常シミュレーターツール</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Simulate color blindness on a picture or screenshot</value>
+    <value>画像またはスクリーンショットの色覚異常シミュレーター</value>
   </data>
   <data name="DeuteranopiaSimulation" xml:space="preserve">
-    <value>Deuteranopia simulation</value>
+    <value>(D) 2 型 2 色覚</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to treat</value>
+    <value>画像ファイルのパス</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Color Blindness Simulator</value>
+    <value>色覚異常シミュレーター</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>Original</value>
+    <value>(C) オリジナル</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be persisted. By default, use input file's directory</value>
+    <value>出力先のパス。既定では入力ファイルと同じ場所が選択されます</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Protanopia simulation</value>
+    <value>(P) 1 型 2 色覚</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
+    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist Color Blindness 色弱 色盲 色覚</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Color Blindness Simulator</value>
+    <value>色覚シミュレーター</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>処理中の出力を抑制する</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>Tritanopia simulation</value>
+    <value>(T) 3 型 2 色覚</value>
   </data>
 </root>

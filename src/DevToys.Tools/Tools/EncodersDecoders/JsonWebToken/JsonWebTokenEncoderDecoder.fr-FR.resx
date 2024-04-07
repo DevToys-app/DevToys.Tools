@@ -314,7 +314,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>La date d'expiration n'est pas valide</value>
+    <value>Expiration Date is invalid</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -358,7 +358,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>Ce type de clé privée n'est pas pris en charge</value>
+    <value>This type of private key is not supported</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">

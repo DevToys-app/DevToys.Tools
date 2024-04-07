@@ -136,7 +136,7 @@
     <value>テキストの入力、またはファイルを指定してください</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>パスワードが一致しません。</value>
+    <value>パスワードが間違っています。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>証明書の展開と確認</value>

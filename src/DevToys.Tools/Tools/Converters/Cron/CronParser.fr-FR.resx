@@ -133,7 +133,7 @@
     <value>L'expression Cron à analyser</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Fomat des dates générées</value>
+    <value>Date time format of generated scheduled dates</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Analyser l'expression Cron pour obtenir les dates planifiées</value>
