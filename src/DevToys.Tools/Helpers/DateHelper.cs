@@ -76,7 +76,7 @@ internal static class DateHelper
             /* Do not use DateTime.UTCNow because it will include nanoseconds,
              * which we don't support this amount of precision.
              * The nanoseconds can impact the Ticks. */
-            return DateTime.Today;
+            return DateTime.Today.ToUniversalTime();
         }
 
         if (!DateTime.IsLeapYear(value) && target.Month == 2 && target.Day > 28)
