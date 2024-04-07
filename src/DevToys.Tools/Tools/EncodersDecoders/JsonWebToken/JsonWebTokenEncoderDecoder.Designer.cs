@@ -169,6 +169,15 @@ namespace DevToys.Tools.Tools.EncodersDecoders.JsonWebToken {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Base64.
+        /// </summary>
+        internal static string Base64 {
+            get {
+                return ResourceManager.GetString("Base64", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Description.
         /// </summary>
         internal static string ClaimDescriptionTitle {
@@ -646,6 +655,15 @@ namespace DevToys.Tools.Tools.EncodersDecoders.JsonWebToken {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Plain text.
+        /// </summary>
+        internal static string PlainText {
+            get {
+                return ResourceManager.GetString("PlainText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The &quot;preferred_username&quot; claim indicate the primary username that represents the user. The value could be an email address, phone number, or a generic username without a specified format. Use the value for username hints and in human-readable UI as a username. To receive this claim, use the profile scope..
         /// </summary>
         internal static string preferred_username {
@@ -723,6 +741,15 @@ namespace DevToys.Tools.Tools.EncodersDecoders.JsonWebToken {
         internal static string ShortDisplayTitle {
             get {
                 return ResourceManager.GetString("ShortDisplayTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Signature format.
+        /// </summary>
+        internal static string SignatureFormat {
+            get {
+                return ResourceManager.GetString("SignatureFormat", resourceCulture);
             }
         }
         

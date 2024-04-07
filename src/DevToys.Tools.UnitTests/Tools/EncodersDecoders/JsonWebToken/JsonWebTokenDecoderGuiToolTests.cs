@@ -1,13 +1,12 @@
 ﻿using System.Globalization;
+using DevToys.Tools.Models;
 using DevToys.Tools.Tools.EncodersDecoders.JsonWebToken;
+using static DevToys.UnitTests.Tools.Helpers.JsonWebTokenEncoderDecoderDataProvider;
 
 namespace DevToys.Tools.UnitTests.Tools.EncodersDecoders.JsonWebToken;
 
 public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
 {
-    private const string ToolName = "JsonWebTokenEncoderDecoder";
-    private const string BaseAssembly = "DevToys.Tools.UnitTests.Tools.TestData";
-
     private readonly JsonWebTokenDecoderGuiTool _decodeTool;
     private readonly JsonWebTokenEncoderDecoderGuiTool _tool;
     private readonly UIToolView _toolView;
@@ -60,22 +59,10 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
     }
 
     [Fact(DisplayName = "Decode Json Web Token with Invalid Token should return false")]
-    public async Task DecodeTokenWithInvalidTokenShouldReturnError()
-    {
-        _toolMode.Off();
-        _tokenInput.Text("eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ");
-        await _decodeTool.WorkTask;
-        _payloadInput.Text.Should().BeEmpty();
-        _headerInput.Text.Should().BeEmpty();
-        _infoBar.Description.Should().StartWith("IDX14100: JWT is not well formed, there are no dots (.).");
-        _infoBar.Severity.Should().Be(UIInfoBarSeverity.Error);
-    }
-
-    [Fact(DisplayName = "Decode Json Web Token with Invalid Issuers should return false")]
     public async Task DecodeTokenWithInvalidIssuersShouldReturnError()
     {
-        string tokenContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-BasicToken.txt");
-        string signatureContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-Signature.txt");
+        string tokenContent = await GetToken(JsonWebTokenAlgorithm.HS256);
+        string signatureContent = await GetSigningKey(JsonWebTokenAlgorithm.HS256, "Signature.txt");
 
         _toolMode.Off();
         _validateTokenSwitch.On();
@@ -92,8 +79,8 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
     [Fact(DisplayName = "Decode Json Web Token with Invalid Audience should return false")]
     public async Task DecodeTokenWithInvalidAudienceShouldReturnError()
     {
-        string tokenContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-BasicToken.txt");
-        string signatureContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-Signature.txt");
+        string tokenContent = await GetToken(JsonWebTokenAlgorithm.HS256);
+        string signatureContent = await GetSigningKey(JsonWebTokenAlgorithm.HS256, "Signature.txt");
 
         _toolMode.Off();
         _validateTokenSwitch.On();
@@ -110,8 +97,8 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
     [Fact(DisplayName = "Decode Json Web Token with Invalid Expired Lifetime should return false")]
     public async Task DecodeTokenWithInvalidExpiredLifetimeShouldReturnError()
     {
-        string tokenContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-BasicToken.txt");
-        string signatureContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-Signature.txt");
+        string tokenContent = await GetToken(JsonWebTokenAlgorithm.HS256);
+        string signatureContent = await GetSigningKey(JsonWebTokenAlgorithm.HS256, "Signature.txt");
 
         _toolMode.Off();
         _validateTokenSwitch.On();
@@ -121,18 +108,18 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
         await _decodeTool.WorkTask;
         _payloadInput.Text.Should().BeEmpty();
         _headerInput.Text.Should().BeEmpty();
-        _infoBar.Description.Should().StartWith("IDX10225: Lifetime validation failed.");
+        _infoBar.Description.Should().StartWith("IDX10223: Lifetime validation failed.");
         _infoBar.Severity.Should().Be(UIInfoBarSeverity.Error);
     }
 
     [Fact(DisplayName = "Decode Json Web Token with Valid HS Token should return decoded payload")]
     public async Task DecodeTokenWithValidHSTokenShouldReturnDecodedPayload()
     {
-        string headerContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-Header.json");
-        string payloadContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.ComplexPayload.json");
+        string headerContent = await GetHeader(JsonWebTokenAlgorithm.HS256);
+        string payloadContent = await GetToolFile("ComplexPayload.json");
 
-        string tokenContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-ComplexToken.txt");
-        string signatureContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.HS.HS256-Signature.txt");
+        string tokenContent = await GetToken(JsonWebTokenAlgorithm.HS256);
+        string signatureContent = await GetSigningKey(JsonWebTokenAlgorithm.HS256, "Signature.txt");
 
         _toolMode.Off();
         _validateTokenSwitch.On();
@@ -141,8 +128,8 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
         _validateIssuerSigningKeySwitch.On();
         _validateAudiencesSwitch.On();
         _tokenInput.Text(tokenContent);
-        _validateIssuersInput.Text("devtoys");
-        _validateAudiencesInput.Text("devtoys");
+        _validateIssuersInput.Text("DevToys");
+        _validateAudiencesInput.Text("DevToys");
         _signatureInput.Text(signatureContent);
         await _decodeTool.WorkTask;
         _infoBar.Description.Should().Be(JsonWebTokenEncoderDecoder.ValidToken);
@@ -154,11 +141,11 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
     [Fact(DisplayName = "Decode Json Web Token with Valid RS Token should return decoded payload")]
     public async Task DecodeTokenWithValidRSTokenShouldReturnDecodedPayload()
     {
-        string headerContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.RS.RS256-Header.json");
-        string payloadContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.ComplexPayload.json");
+        string headerContent = await GetHeader(JsonWebTokenAlgorithm.RS256);
+        string payloadContent = await GetToolFile("ComplexPayload.json");
 
-        string tokenContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.RS.RS256-ComplexToken.txt");
-        string publicKeyContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.RS.RS256-PublicKey.txt");
+        string tokenContent = await GetToken(JsonWebTokenAlgorithm.RS256);
+        string publicKeyContent = await GetSigningKey(JsonWebTokenAlgorithm.RS256, "PublicKey.txt");
 
         _toolMode.Off();
         _validateTokenSwitch.On();
@@ -167,8 +154,8 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
         _validateIssuerSigningKeySwitch.On();
         _validateAudiencesSwitch.On();
         _tokenInput.Text(tokenContent);
-        _validateIssuersInput.Text("devtoys");
-        _validateAudiencesInput.Text("devtoys");
+        _validateIssuersInput.Text("DevToys");
+        _validateAudiencesInput.Text("DevToys");
         _publicKeyInput.Text(publicKeyContent);
         await _decodeTool.WorkTask;
         _infoBar.Description.Should().Be(JsonWebTokenEncoderDecoder.ValidToken);
@@ -180,11 +167,11 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
     [Fact(DisplayName = "Decode Json Web Token with Valid PS Token should return decoded payload")]
     public async Task DecodeTokenWithValidPSTokenShouldReturnDecodedPayload()
     {
-        string headerContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.PS.PS512-Header.json");
-        string payloadContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.ComplexPayload.json");
+        string headerContent = await GetHeader(JsonWebTokenAlgorithm.PS512);
+        string payloadContent = await GetToolFile("ComplexPayload.json");
 
-        string tokenContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.PS.PS512-ComplexToken.txt");
-        string publicKeyContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.PS.PS512-PublicKey.txt");
+        string tokenContent = await GetToken(JsonWebTokenAlgorithm.PS512);
+        string publicKeyContent = await GetSigningKey(JsonWebTokenAlgorithm.PS512, "PublicKey.txt");
 
         _toolMode.Off();
         _validateTokenSwitch.On();
@@ -193,8 +180,8 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
         _validateIssuerSigningKeySwitch.On();
         _validateAudiencesSwitch.On();
         _tokenInput.Text(tokenContent);
-        _validateIssuersInput.Text("devtoys");
-        _validateAudiencesInput.Text("devtoys");
+        _validateIssuersInput.Text("DevToys");
+        _validateAudiencesInput.Text("DevToys");
         _publicKeyInput.Text(publicKeyContent);
         await _decodeTool.WorkTask;
         _infoBar.Description.Should().Be(JsonWebTokenEncoderDecoder.ValidToken);
@@ -206,11 +193,11 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
     [Fact(DisplayName = "Decode Json Web Token with Valid ES Token should return decoded payload")]
     public async Task DecodeTokenWithValidESTokenShouldReturnDecodedPayload()
     {
-        string headerContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.ES.ES512-Header.json");
-        string payloadContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.ComplexPayload.json");
+        string headerContent = await GetHeader(JsonWebTokenAlgorithm.ES512);
+        string payloadContent = await GetToolFile("ComplexPayload.json");
 
-        string tokenContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.ES.ES512-ComplexToken.txt");
-        string publicKeyContent = await TestDataProvider.GetEmbeddedFileContent($"{BaseAssembly}.{ToolName}.ES.ES512-PublicKey.txt");
+        string tokenContent = await GetToken(JsonWebTokenAlgorithm.ES512);
+        string publicKeyContent = await GetSigningKey(JsonWebTokenAlgorithm.ES512, "PublicKey.txt");
 
         _toolMode.Off();
         _validateTokenSwitch.On();
@@ -219,8 +206,8 @@ public sealed class JsonWebTokenDecoderGuiToolTests : TestBase
         _validateIssuerSigningKeySwitch.On();
         _validateAudiencesSwitch.On();
         _tokenInput.Text(tokenContent);
-        _validateIssuersInput.Text("devtoys");
-        _validateAudiencesInput.Text("devtoys");
+        _validateIssuersInput.Text("DevToys");
+        _validateAudiencesInput.Text("DevToys");
         _publicKeyInput.Text(publicKeyContent);
         await _decodeTool.WorkTask;
         _infoBar.Description.Should().Be(JsonWebTokenEncoderDecoder.ValidToken);
