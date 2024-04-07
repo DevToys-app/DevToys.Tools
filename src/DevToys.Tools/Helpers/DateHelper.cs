@@ -73,7 +73,10 @@ internal static class DateHelper
     {
         if (value <= 0)
         {
-            return DateTimeOffset.UtcNow;
+            /* Do not use DateTime.UTCNow because it will include nanoseconds,
+             * which we don't support this amount of precision.
+             * The nanoseconds can impact the Ticks. */
+            return DateTime.Today;
         }
 
         if (!DateTime.IsLeapYear(value) && target.Month == 2 && target.Day > 28)
