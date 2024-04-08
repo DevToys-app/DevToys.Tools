@@ -118,60 +118,60 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>XML Formatter tool</value>
+    <value>XML 格式化工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify XML data</value>
+    <value>格式化或精简 XML 数据</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 个空格</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>缩进</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>选择你想使用的缩进类型</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>选择的输入文件不存在。</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the xml to format</value>
+    <value>XML 文本或文件路径</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>请指定输入文本或输入文件</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML Formatter</value>
+    <value>XML 格式化器</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>精简</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
-    <value>Put attributes on a new line</value>
+    <value>属性另起一行</value>
   </data>
   <data name="NewLineOnAttributesDescription" xml:space="preserve">
-    <value>Whether to put attributes on a new line</value>
+    <value>是否将属性另起一行放置</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 个制表符</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>输出文件路径</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>XML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 个空格</value>
   </data>
 </root>

@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Image Encoder and Decoder tool</value>
+    <value>Base64图片编码与解码工具</value>
   </data>
   <data name="Base64Image" xml:space="preserve">
-    <value>Image preview</value>
+    <value>图片预览</value>
   </data>
   <data name="Base64Input" xml:space="preserve">
-    <value>Base64 text</value>
+    <value>Base64文本</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 image data</value>
+    <value>编码与解码Base64图片数据</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to encode / text file path containing the Base64 to decode / Base64 text to decode</value>
+    <value>需要编码的图片文件路径 / 需要解码的文本文件路径 / 需要解码的Base64文本</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Invalid Base64&gt;</value>
+    <value>&lt;非法的Base64编码&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Image Encoder / Decoder</value>
+    <value>Base64图片编码/解码</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>输出文件路径</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Image</value>
+    <value>Base64图片</value>
   </data>
 </root>

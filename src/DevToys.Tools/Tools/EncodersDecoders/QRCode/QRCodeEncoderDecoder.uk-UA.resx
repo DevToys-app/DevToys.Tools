@@ -133,7 +133,7 @@
     <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Text</value>
+    <value>Текст</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>QR Code Encoder / Decoder</value>

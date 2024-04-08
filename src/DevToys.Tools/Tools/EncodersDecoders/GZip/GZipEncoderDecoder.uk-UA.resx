@@ -139,7 +139,7 @@
     <value>Compression ratio</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
-    <value>{0:0.#} %</value>
+    <value>{0:0,#}%</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuration</value>

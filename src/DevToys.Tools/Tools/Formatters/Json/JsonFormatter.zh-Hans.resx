@@ -118,63 +118,63 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON Formatter tool</value>
+    <value>JSON 格式化工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify JSON data</value>
+    <value>格式化或精简 JSON 数据</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 个空格</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>缩进</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>选择你需要的缩进长度</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>输入</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>选择的输入文件不存在。</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON to format</value>
+    <value>JSON 文本或文件路径</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>请指定输入文本或输入文件</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Formatter</value>
+    <value>JSON 格式化器</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>精简</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 个制表符</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>输出:</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>输出文件路径</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>sort order alphabetize</value>
+    <value>sort order alphabetize 排序 顺序</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON</value>
   </data>
   <data name="SortProperties" xml:space="preserve">
-    <value>Sort JSON Properties alphabetically</value>
+    <value>按字母顺序排列 JSON 属性</value>
   </data>
   <data name="SortPropertiesOptionDescription" xml:space="preserve">
-    <value>Whether properties within the JSON should be sorted alphabetically</value>
+    <value>JSON 中的属性是否按照字母排序</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 个空格</value>
   </data>
 </root>

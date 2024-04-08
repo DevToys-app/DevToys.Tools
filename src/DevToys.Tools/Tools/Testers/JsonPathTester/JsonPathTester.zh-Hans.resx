@@ -118,61 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath Tester tool</value>
+    <value>JSONPath 测试工具</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>Array slice operator</value>
+    <value>数组切片运算符</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
-    <value>Bracket-notated child or children</value>
+    <value>括号记法引用子元素</value>
   </data>
   <data name="CheatSheetCurrentObjectElement" xml:space="preserve">
-    <value>Used for filter expressions. Refers to the current node for further processing.</value>
+    <value>在过滤表达式内使用。指向被过滤的当前节点，以作进一步处理。</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
-    <value>Dot-notated child</value>
+    <value>点记法引用子元素</value>
   </data>
   <data name="CheatSheetFilterExpression" xml:space="preserve">
-    <value>Selects all elements in an object or array that match the specified boolean expression. Returns a list.</value>
+    <value>在对象或数组内选择所有满足布尔表达式的元素。返回一个列表。</value>
   </data>
   <data name="CheatSheetRecursiveDescent" xml:space="preserve">
-    <value>Performs a deep scan for the specified property in all available objects. Always returns a list, even for a single match.</value>
+    <value>在所有可用对象中深度搜索指定的元素。总是返回一个列表，无论匹配个数。</value>
   </data>
   <data name="CheatSheetRootObjectElement" xml:space="preserve">
-    <value>The root object or array.</value>
+    <value>根对象或数组。</value>
   </data>
   <data name="CheatSheetScriptExpression" xml:space="preserve">
-    <value>Script expression.</value>
+    <value>脚本表达式。</value>
   </data>
   <data name="CheatSheetSubscriptOperator" xml:space="preserve">
-    <value>Selects the n-th element from an array. Indexes start from 0.</value>
+    <value>从数组中选择第 n 个元素。索引从 0 开始。</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>语法</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>速查表</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
-    <value>Selects n1 and n2 array items. Returns a list.</value>
+    <value>选择数组中第 n1 和 n2 个元素。返回一个列表。</value>
   </data>
   <data name="CheatSheetWildcard" xml:space="preserve">
-    <value>Wildcard. Selects all elements in an object or array, regardless of their names or indexes.</value>
+    <value>通配符。选择对象或数组中的所有元素，不论其名称或索引。</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>测试 JSONPath</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>选择的输入文件不存在。</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>JSON 文本或文件路径</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSONPath</value>
+    <value>JSONPath 文本或文件路径</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
     <value>JSONPath</value>
@@ -181,22 +181,22 @@
     <value>JSON</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>请指定输入文本或输入文件</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>JSONPath 测试器</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>未找到匹配项</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>测试结果</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>输出文件路径</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>path json</value>
+    <value>path json 路径</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSONPath</value>

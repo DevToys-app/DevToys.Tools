@@ -631,7 +631,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>வார்த்தை</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
     <value>Word boundary</value>
@@ -682,16 +682,16 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Match information</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
-    <value>Location</value>
+    <value>இருப்பிடம்</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>பேர்</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
     <value>Match</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>மதிப்பு</value>
   </data>
   <data name="Multiline" xml:space="preserve">
     <value>Multiline</value>

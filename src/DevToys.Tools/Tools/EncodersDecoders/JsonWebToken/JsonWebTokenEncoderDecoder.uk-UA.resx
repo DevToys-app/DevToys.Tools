@@ -282,7 +282,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>Налаштування</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
@@ -314,7 +314,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Expiartion Date is invalid</value>
+    <value>Expiration Date is invalid</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Ні</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
@@ -358,7 +358,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of privatec key is not supported</value>
+    <value>This type of private key is not supported</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
@@ -450,7 +450,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Так</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
@@ -484,5 +484,17 @@
   <data name="InvalidSignature" xml:space="preserve">
     <value>Unable to process the token signature</value>
     <comment>Error message</comment>
+  </data>
+  <data name="Base64" xml:space="preserve">
+    <value>Base64</value>
+    <comment>Gui</comment>
+  </data>
+  <data name="PlainText" xml:space="preserve">
+    <value>Простий текст</value>
+    <comment>Gui</comment>
+  </data>
+  <data name="SignatureFormat" xml:space="preserve">
+    <value>Формат підпису</value>
+    <comment>Gui</comment>
   </data>
 </root>

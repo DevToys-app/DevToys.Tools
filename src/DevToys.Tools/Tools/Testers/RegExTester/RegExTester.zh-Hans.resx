@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Regular Expression Tester tool</value>
+    <value>正则表达式测试工具</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
-    <value>All matches</value>
+    <value>全部匹配</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
     <value>Find all the matches in the text or stop after the first match.</value>
@@ -162,7 +162,7 @@ For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option
     <value>Bell</value>
   </data>
   <data name="CheatSheetBellDetails" xml:space="preserve">
-    <value>Matches a BELL character (char code 7).</value>
+    <value>匹配一个 BELL 字符（码表7）。</value>
   </data>
   <data name="CheatSheetBranchResetGroup" xml:space="preserve">
     <value>Branch reset group</value>
@@ -172,7 +172,7 @@ For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option
 For example, in (?|(a)|(b)) both groups (a and b) would be counted as group #1.</value>
   </data>
   <data name="CheatSheetCaptureGroup" xml:space="preserve">
-    <value>Capture group</value>
+    <value>捕获组</value>
   </data>
   <data name="CheatSheetCaptureGroupDetails" xml:space="preserve">
     <value>Inserts the results of the specified capture group. For example, $3 would insert the third capture group.
@@ -181,13 +181,13 @@ There are multiple syntaxes for this feature:
 $1 \1 \{1}</value>
   </data>
   <data name="CheatSheetCapturingGroup" xml:space="preserve">
-    <value>Capturing group</value>
+    <value>捕获组</value>
   </data>
   <data name="CheatSheetCapturingGroupDetails" xml:space="preserve">
     <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
-    <value>Carriage return</value>
+    <value>回车符</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
     <value>Matches a CARRIAGE RETURN character (char code 13).</value>
@@ -229,7 +229,7 @@ $1 \1 \{1}</value>
     <value>Matches either an A, b or c character</value>
   </data>
   <data name="CheatSheetComment" xml:space="preserve">
-    <value>Comment</value>
+    <value>注释</value>
   </data>
   <data name="CheatSheetCommentDetails" xml:space="preserve">
     <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
@@ -423,7 +423,7 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>Groups multiple tokens together without creating a capture group.</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
-    <value>Not digit</value>
+    <value>非数字</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
     <value>Matches any character that is not a digit character (0-9). Equivalent to [^0-9].</value>
@@ -583,7 +583,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>语法</value>
   </data>
   <data name="CheatSheetTab" xml:space="preserve">
     <value>Tab</value>
@@ -592,7 +592,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches a TAB character (char code 9).</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>速查表</value>
   </data>
   <data name="CheatSheetUnicodeCategory" xml:space="preserve">
     <value>Unicode category</value>
@@ -643,7 +643,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
     <value>Culture Invariant</value>
@@ -715,15 +715,15 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>regular expression</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>RegEx</value>
+    <value>正则表达式</value>
   </data>
   <data name="Singleline" xml:space="preserve">
-    <value>Singleline</value>
+    <value>单行模式</value>
   </data>
   <data name="SinglelineDescription" xml:space="preserve">
-    <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
+    <value>更改点 (.) 的含义，以使它与每个字符（而不是除 \n 之外的所有字符）匹配。</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>文本</value>
   </data>
 </root>

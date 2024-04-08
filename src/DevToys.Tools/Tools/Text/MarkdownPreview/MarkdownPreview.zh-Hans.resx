@@ -118,39 +118,39 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Markdown preview tool</value>
+    <value>Markdown 预览工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Dark</value>
+    <value>暗色</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Preview a Markdown document with a GitHub-like render</value>
+    <value>使用类似 Github 的渲染器预览 Markdown 文档</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Markdown</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Light</value>
+    <value>亮色</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Markdown Preview</value>
+    <value>Markdown 预览</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Preview</value>
+    <value>预览</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>MD</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Markdown Preview</value>
+    <value>Markdown 预览</value>
   </data>
   <data name="ThemeDescription" xml:space="preserve">
-    <value>Select which theme to use to preview the Markdown</value>
+    <value>选择使用哪个主题来预览 Markdown</value>
   </data>
   <data name="ThemeTitle" xml:space="preserve">
-    <value>Theme</value>
+    <value>主题</value>
   </data>
 </root>

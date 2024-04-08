@@ -349,7 +349,7 @@ public class DateHelperTests
             TimeZoneInfo.Utc,
             DateValueType.Year);
         result.HasSucceeded.Should().BeTrue();
-        result.Data.Should().BeCloseTo(DateTimeOffset.Now, TimeSpan.FromSeconds(10));
+        result.Data.Should().BeCloseTo(DateTime.Today.ToUniversalTime(), TimeSpan.FromSeconds(10));
     }
 
     [Theory]

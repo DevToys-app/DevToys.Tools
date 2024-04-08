@@ -118,46 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>SQL Formatter tool</value>
+    <value>SQL フォーマッター ツール</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>構成</value>
   </data>
   <data name="Db2" xml:space="preserve">
     <value>Db2</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Format SQL data</value>
+    <value>SQL クエリを整形します</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 スペース</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>インデント</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>インデントの選択</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>入力</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>指定されたファイルが見つかりません</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the sql to format</value>
+    <value>整形するテキストまたはファイルのパス</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>テキストの入力、またはファイルを指定してください</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
-    <value>Leading comma</value>
+    <value>カンマを先頭に配置</value>
   </data>
   <data name="LeadingCommaDescription" xml:space="preserve">
-    <value>Whether to use leading commas or not</value>
+    <value>整形する際にカンマを行の先頭に配置します</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>SQL フォーマッター</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -169,13 +169,13 @@
     <value>N1QL</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 タブ</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>出力</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>保存先のパス</value>
   </data>
   <data name="PlSql" xml:space="preserve">
     <value>PL/SQL</value>
@@ -187,7 +187,7 @@
     <value>Amazon Redshift</value>
   </data>
   <data name="SearchDisplayName" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>SQL フォーマッター</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>SQL</value>
@@ -196,10 +196,10 @@
     <value>Spark SQL</value>
   </data>
   <data name="SqlLanguage" xml:space="preserve">
-    <value>Language</value>
+    <value>言語</value>
   </data>
   <data name="SqlLanguageDescription" xml:space="preserve">
-    <value>Which SQL language to use</value>
+    <value>使用する SQL</value>
   </data>
   <data name="StandardSql" xml:space="preserve">
     <value>Standard SQL</value>
@@ -208,6 +208,6 @@
     <value>Transact-SQL</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 スペース</value>
   </data>
 </root>

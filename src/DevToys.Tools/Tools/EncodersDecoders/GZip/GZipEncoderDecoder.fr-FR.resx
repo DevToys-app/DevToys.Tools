@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>GZip Compressor and Decompressor tool</value>
+    <value>Compresseur et Decompresseur GZip </value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
-    <value>Compress</value>
+    <value>Compresser</value>
   </data>
   <data name="CompressionModeDecompress" xml:space="preserve">
-    <value>Decompress</value>
+    <value>Décompresser</value>
   </data>
   <data name="CompressionModeDescription" xml:space="preserve">
-    <value>Select whether the input should be compressed or decompressed</value>
+    <value>Indiquez si l'entrée doit être compressée ou décompressée</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
-    <value>Whether to compress or decompress a GZip string</value>
+    <value>Compresser ou décompresser un texte en GZip</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
-    <value>Compression mode</value>
+    <value>Mode de compression</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>Compression ratio</value>
+    <value>Ratio de compression</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
     <value>{0:0.#} %</value>
@@ -145,22 +145,22 @@
     <value>Configuration</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compress or decompress a text in GZip</value>
+    <value>Compresser ou décompresser un texte en GZip</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>Texte à compresser ou GZip pour décompresser</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrée</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
     <value>&lt;Invalid GZip data&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>Compresseur / Décompresseur GZip</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortie</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>

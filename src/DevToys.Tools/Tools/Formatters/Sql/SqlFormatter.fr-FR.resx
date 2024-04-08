@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>SQL Formatter tool</value>
+    <value>Formatteur de SQL</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuration</value>
@@ -127,37 +127,37 @@
     <value>Db2</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Format SQL data</value>
+    <value>Formater les données SQL</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 espaces</value>
   </data>
   <data name="Indentation" xml:space="preserve">
     <value>Indentation</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Sélectionnez l'indentation que vous souhaitez utiliser</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrée</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Le fichier d'entrée sélectionné n'existe pas.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the sql to format</value>
+    <value>Texte ou chemin vers un fichier contenant le format sql</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Veuillez spécifier un texte d'entrée ou un fichier d'entrée</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
-    <value>Leading comma</value>
+    <value>Virgule en prefix</value>
   </data>
   <data name="LeadingCommaDescription" xml:space="preserve">
-    <value>Whether to use leading commas or not</value>
+    <value>Utiliser ou non les virgules en debut de ligne</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>Formatteur de SQL</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -169,13 +169,13 @@
     <value>N1QL</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 tabulation</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortie</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Chemin vers le fichier de sortie</value>
   </data>
   <data name="PlSql" xml:space="preserve">
     <value>PL/SQL</value>
@@ -187,27 +187,27 @@
     <value>Amazon Redshift</value>
   </data>
   <data name="SearchDisplayName" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>Formatteur de SQL</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>SQL</value>
   </data>
   <data name="SparkSql" xml:space="preserve">
-    <value>Spark SQL</value>
+    <value>SQL Spark</value>
   </data>
   <data name="SqlLanguage" xml:space="preserve">
-    <value>Language</value>
+    <value>Langage</value>
   </data>
   <data name="SqlLanguageDescription" xml:space="preserve">
-    <value>Which SQL language to use</value>
+    <value>Langage SQL à utiliser</value>
   </data>
   <data name="StandardSql" xml:space="preserve">
-    <value>Standard SQL</value>
+    <value>SQL standard</value>
   </data>
   <data name="TransactSql" xml:space="preserve">
     <value>Transact-SQL</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 espaces</value>
   </data>
 </root>

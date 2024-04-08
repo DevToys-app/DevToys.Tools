@@ -1,17 +1,7 @@
 ﻿namespace DevToys.Tools.Models;
 
-internal class JsonWebTokenClaim
+internal record JsonWebTokenClaim(string Key, string Value, string? FormattedValue, TextSpan Span)
 {
-    public string Key { get; }
-
-    public TextSpan Span { get; }
-
-    public string Value { get; set; }
-
-    public JsonWebTokenClaim(string key, string value, TextSpan span)
-    {
-        Key = key;
-        Value = value;
-        Span = span;
-    }
+    public string ActualValue => FormattedValue ?? Value;
 }
+

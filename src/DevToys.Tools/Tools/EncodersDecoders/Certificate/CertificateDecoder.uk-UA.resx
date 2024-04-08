@@ -136,7 +136,7 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Invalid password.</value>
+    <value>Incorrect password.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Certificate Decoder</value>
@@ -151,7 +151,7 @@
     <value>Certificate password</value>
   </data>
   <data name="PasswordTitle" xml:space="preserve">
-    <value>Password</value>
+    <value>Пароль</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>CER PFX PEM CRT</value>

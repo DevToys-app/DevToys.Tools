@@ -118,75 +118,75 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Hash and Checksum Generator tool</value>
+    <value>哈希和校验和生成工具</value>
   </data>
   <data name="ChecksumVerificationFailed" xml:space="preserve">
-    <value>FAILED</value>
+    <value>失败</value>
   </data>
   <data name="ChecksumVerificationOptionDescription" xml:space="preserve">
-    <value>A text or file containing a checksum to verify data integrity</value>
+    <value>要验证数据完整性的文本或文件</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
-    <value>OK</value>
+    <value>确定</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
-    <value>Checksum to verify data integrity</value>
+    <value>要验证的数据校验和</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Calculate hash from text or binary data</value>
+    <value>从文本或二进制数据计算哈希值</value>
   </data>
   <data name="HashAlgorithmOptionDescription" xml:space="preserve">
-    <value>The type of hash to generate</value>
+    <value>要生成的哈希类型</value>
   </data>
   <data name="HashesMatch" xml:space="preserve">
-    <value>The hashes are the same</value>
+    <value>哈希值相同</value>
   </data>
   <data name="HashesMismatch" xml:space="preserve">
-    <value>The hashes are different</value>
+    <value>哈希值不匹配</value>
   </data>
   <data name="HashingAlgorithmDescription" xml:space="preserve">
-    <value>Select which hashing algorithm you want to use</value>
+    <value>选择您想使用的哈希算法</value>
   </data>
   <data name="HashingAlgorithmTitle" xml:space="preserve">
-    <value>Hashing Algorithm</value>
+    <value>哈希算法</value>
   </data>
   <data name="HmacSecret" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>产生 HMAC 哈希的密钥</value>
   </data>
   <data name="HmacSecretOptionDescription" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>产生 HMAC 哈希的密钥</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to hash</value>
+    <value>要哈希的文本或文件路径</value>
   </data>
   <data name="InputTextTitle" xml:space="preserve">
-    <value>Input text</value>
+    <value>输入文本</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>请指定输入文本或输入文件</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum Generator</value>
+    <value>哈希 / 校验和生成器</value>
   </data>
   <data name="Or" xml:space="preserve">
-    <value>or</value>
+    <value>或</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>输出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum</value>
+    <value>哈希 / 校验和</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>隐藏哈希处理进度</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated hash should be in uppercase or not</value>
+    <value>生成的哈希是否全大写</value>
   </data>
   <data name="UppercaseTitle" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>大写</value>
   </data>
 </root>
