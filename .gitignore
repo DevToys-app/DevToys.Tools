@@ -237,6 +237,7 @@ ClientBin/
 *.dbproj.schemaview
 *.jfm
 *.pfx
+!src/DevToys.Tools.UnitTests/**/*.pfx
 *.publishsettings
 orleans.codegen.cs
 
