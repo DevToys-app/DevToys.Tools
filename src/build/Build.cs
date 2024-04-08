@@ -71,6 +71,6 @@ class Build : NukeBuild
                     DotNetTest(s => s
                     .SetProjectFile(f)
                     .SetConfiguration(Configuration)
-                    .SetVerbosity(DotNetVerbosity.quiet)));
+                    .SetVerbosity(DotNetVerbosity.minimal)));
         });
 }
