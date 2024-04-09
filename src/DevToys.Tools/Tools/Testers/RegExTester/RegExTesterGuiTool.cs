@@ -38,7 +38,7 @@ internal sealed class RegExTesterGuiTool : IGuiTool, IDisposable
             CreateCheatSheetRow(@"\S", RegExTester.CheatSheetNotWhitespace, RegExTester.CheatSheetNotWhitespaceDetails),
             CreateCheatSheetRow(@"\h", RegExTester.CheatSheetHorizontalWhitespace, RegExTester.CheatSheetHorizontalWhitespaceDetails),
             CreateCheatSheetRow(@"\H", RegExTester.CheatSheetNotHorizontalWhitespace, RegExTester.CheatSheetNotHorizontalWhitespaceDetails),
-            CreateCheatSheetRow(@"\V", RegExTester.CheatSheetVerticalWhitespace, RegExTester.CheatSheetVerticalWhitespaceDetails),
+            CreateCheatSheetRow(@"\v", RegExTester.CheatSheetVerticalWhitespace, RegExTester.CheatSheetVerticalWhitespaceDetails),
             CreateCheatSheetRow(@"\V", RegExTester.CheatSheetNotVerticalWhitespace, RegExTester.CheatSheetNotVerticalWhitespaceDetails),
             CreateCheatSheetRow(@"\R", RegExTester.CheatSheetLineBreak, RegExTester.CheatSheetLineBreakDetails),
             CreateCheatSheetRow(@"\N", RegExTester.CheatSheetNotLineBreak, RegExTester.CheatSheetNotLineBreakDetails),
