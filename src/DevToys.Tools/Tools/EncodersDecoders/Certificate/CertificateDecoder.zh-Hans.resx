@@ -136,7 +136,7 @@
     <value>请指定输入文本或输入文件</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Incorrect password.</value>
+    <value>密码错误。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>证书解码</value>
