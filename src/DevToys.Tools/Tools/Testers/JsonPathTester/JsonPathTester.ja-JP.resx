@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath Tester tool</value>
+    <value>JSONPath のテストツール</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>Array slice operator</value>
+    <value>配列のスライス。</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
-    <value>Bracket-notated child or children</value>
+    <value>ブラケット表記のオブジェクト内のプロパティ (名前にスペースなどが使われている場合に使用)。</value>
   </data>
   <data name="CheatSheetCurrentObjectElement" xml:space="preserve">
     <value>Used for filter expressions. Refers to the current node for further processing.</value>
