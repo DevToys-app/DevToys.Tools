@@ -314,7 +314,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Expiration Date is invalid</value>
+    <value>到期日期无效</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -358,7 +358,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of private key is not supported</value>
+    <value>不支持此私钥类型</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Plain text</value>
+    <value>纯文本</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>签名格式</value>
     <comment>Gui</comment>
   </data>
 </root>
