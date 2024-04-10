@@ -127,7 +127,7 @@
     <value>Unescape</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Kullanmak istediğiniz dönüştürme kipini seçin</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>Escape</value>
