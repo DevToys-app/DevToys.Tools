@@ -121,7 +121,7 @@
     <value>64 tabanında Görsel Kodlama ve Kod Çözme aracı</value>
   </data>
   <data name="Base64Image" xml:space="preserve">
-    <value>Image preview</value>
+    <value>Görsel önizlemesi</value>
   </data>
   <data name="Base64Input" xml:space="preserve">
     <value>64 tabanında metin</value>
@@ -133,19 +133,19 @@
     <value>Kodlanacak görsel dosya yolu / kodu çözülecek 64 tabanındakini içeren metin dosyası yolu / kodu çözülecek 64 tabanında metin</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Invalid Base64&gt;</value>
+    <value>&lt;Geçersiz 64 tabanında&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>64 tabanında Görsel Kodlayıcı / Kod Çözücü</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Çıktı dosyasının yolu</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Image</value>
+    <value>64 tabanında Görsel</value>
   </data>
 </root>
