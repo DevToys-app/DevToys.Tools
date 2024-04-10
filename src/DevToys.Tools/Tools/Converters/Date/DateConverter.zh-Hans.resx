@@ -154,7 +154,7 @@
     <value>偏移</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks 时间 日期 时间戳 时刻 刻</value>
+    <value>时间 日期 时区 Epoch 时间戳 Ticks</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
