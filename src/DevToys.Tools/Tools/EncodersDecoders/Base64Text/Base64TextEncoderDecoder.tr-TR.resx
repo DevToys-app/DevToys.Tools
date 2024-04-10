@@ -130,7 +130,7 @@
     <value>Kod çöz</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Kullanmak istediğiniz dönüşüm kipini seçin</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>Kodla</value>
@@ -145,10 +145,10 @@
     <value>64 tabanında metin verisini kodla ve kodunu çöz</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
-    <value>Select which encoding you want to use</value>
+    <value>Kullanmak istediğiniz kodlamayı seçin</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Kodlama</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
     <value>Kodlama türü</value>
