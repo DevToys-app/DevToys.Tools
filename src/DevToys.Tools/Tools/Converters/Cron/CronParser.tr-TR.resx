@@ -121,7 +121,7 @@
     <value>Cron ayrıştırma aracı</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
     <value>Cron description</value>
