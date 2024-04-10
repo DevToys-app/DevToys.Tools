@@ -133,10 +133,10 @@
     <value>B Only</value>
   </data>
   <data name="ComparisonOptionDescription" xml:space="preserve">
-    <value>Please specify comparison mode (A ∩ B, A ∪ B, A Only, B Only)</value>
+    <value>Lütfen karşılaştırma kipini belirtin (A ∩ B, A ∪ B, Yalnız A, Yalnız B)</value>
   </data>
   <data name="ComparisonOptionTitle" xml:space="preserve">
-    <value>Comparison mode</value>
+    <value>Sıkıştırma kipi</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuration</value>
