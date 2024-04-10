@@ -124,13 +124,13 @@
     <value>Bir sertifika kodu çöz</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>Seçilen girdi dosyası yok</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Düz sertifika metni veya kodu çözülecek sertifika dosyasının yolu</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Girdi</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Please specify an input text or an input file</value>
@@ -145,7 +145,7 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Çıktı</value>
   </data>
   <data name="PasswordOptionDescription" xml:space="preserve">
     <value>Certificate password</value>
