@@ -11,15 +11,39 @@ public class GZipHelperTests
     [InlineData("Hello World!", "H4sIAAAAAAAACvNIzcnJVwjPL8pJUQQAoxwpHAwAAAA=")]
     [InlineData("Hello World! é)à", "H4sIAAAAAAAACvNIzcnJVwjPL8pJUVQ4vFLz8AIAeJm72xIAAAA=")]
     [InlineData("H4sIAAAAAAAACvNIzcnJVwjPL8pJUVQ4vFLz8AIAeJm72xIAAAA=", "H4sIAAAAAAAACvMwKfZ0hALnMj/PquQ8r7DyrAAfiwKv0LBAkzI3nyoLR0/HVK9cc6MKsFJbAI7LDrY0AAAA")]
-    internal async Task CompressToGZip(string input, string expectedResult)
+    internal async Task CompressToGZipWindows(string input, string expectedResult)
     {
-        (await GZipHelper.CompressGZipDataAsync(
-            input,
-            new MockILogger(),
-            CancellationToken.None))
-            .compressedData
-            .Should()
-            .Be(expectedResult);
+        if (OperatingSystem.IsWindows())
+        {
+            (await GZipHelper.CompressGZipDataAsync(
+                    input,
+                    new MockILogger(),
+                    CancellationToken.None))
+                .compressedData
+                .Should()
+                .Be(expectedResult);
+        }
+    }
+
+    [Theory]
+    [InlineData(null, "")]
+    [InlineData("", "H4sIAAAAAAAAEwMAAAAAAAAAAAA=")]
+    [InlineData("  ", "H4sIAAAAAAAAE1NQAACVFjPvAgAAAA==")]
+    [InlineData("Hello World!", "H4sIAAAAAAAAE/NIzcnJVwjPL8pJUQQAoxwpHAwAAAA=")]
+    [InlineData("Hello World! é)à", "H4sIAAAAAAAAE/NIzcnJVwjPL8pJUVQ4vFLz8AIAeJm72xIAAAA=")]
+    [InlineData("H4sIAAAAAAAACvNIzcnJVwjPL8pJUVQ4vFLz8AIAeJm72xIAAAA=", "H4sIAAAAAAAAE/MwKfZ0hALnMj/PquQ8r7DyrAAfiwKv0LBAkzI3nyoLR0/HVK9cc6MKsFJbAI7LDrY0AAAA")]
+    internal async Task CompressToGZipUnix(string input, string expectedResult)
+    {
+        if (!OperatingSystem.IsWindows())
+        {
+            (await GZipHelper.CompressGZipDataAsync(
+                    input,
+                    new MockILogger(),
+                    CancellationToken.None))
+                .compressedData
+                .Should()
+                .Be(expectedResult);
+        }
     }
 
     [Theory]

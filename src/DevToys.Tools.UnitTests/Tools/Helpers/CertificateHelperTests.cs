@@ -17,8 +17,30 @@ public class CertificateHelperTests
     [InlineData("PemCertPublicWithExtensions.txt", null, true, "CertWithExtensionsDecoded.txt")]
     [InlineData("PemCertWithPrivateKeyWithExtensions.txt", null, true, "CertWithExtensionsDecoded.txt")]
     [InlineData("PfxWithExtensionsNoPassword.pfx", null, true, "CertWithExtensionsDecoded.txt")]
-    public void DecodeCertificateSuccess(string input, string password, bool successfullyDecoded, string expectedResult)
-            => DecodeCertificate(input, password, successfullyDecoded, expectedResult);
+    public void DecodeCertificateSuccessWindows(string input, string password, bool successfullyDecoded, string expectedResult)
+    {
+        if (OperatingSystem.IsWindows())
+        {
+            DecodeCertificate(input, password, successfullyDecoded, expectedResult);
+        }
+    }
+
+    [Theory]
+    [InlineData("PemCertPublic.txt", null, true, "CertDecoded.txt")]
+    [InlineData("PemCertWithPrivateKey.txt", null, true, "CertDecoded.txt")]
+    [InlineData("PfxNoPassword.pfx", null, true, "CertDecoded.txt")]
+    [InlineData("PfxWithPassword.pfx", "test1234", true, "CertDecoded.txt")]
+    [InlineData("PemCertPublicWithExtensions.txt", null, true, "CertWithExtensionsDecoded-Unix.txt")]
+    [InlineData("PemCertWithPrivateKeyWithExtensions.txt", null, true, "CertWithExtensionsDecoded-Unix.txt")]
+    [InlineData("PfxWithExtensionsNoPassword.pfx", null, true, "CertWithExtensionsDecoded-Unix.txt")]
+    public void DecodeCertificateSuccessUnix(string input, string password, bool successfullyDecoded,
+        string expectedResult)
+    {
+        if (!OperatingSystem.IsWindows())
+        {
+            DecodeCertificate(input, password, successfullyDecoded, expectedResult);
+        }
+    }
 
     [Fact]
     public void DecodeCertificateErrors()
