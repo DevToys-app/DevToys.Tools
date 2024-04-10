@@ -136,7 +136,7 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Incorrect password.</value>
+    <value>Yanlış parola.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Sertifika Kod Çözücü</value>
@@ -148,10 +148,10 @@
     <value>Çıktı</value>
   </data>
   <data name="PasswordOptionDescription" xml:space="preserve">
-    <value>Certificate password</value>
+    <value>Sertifika parolası</value>
   </data>
   <data name="PasswordTitle" xml:space="preserve">
-    <value>Password</value>
+    <value>Parola</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>CER PFX PEM CRT</value>
