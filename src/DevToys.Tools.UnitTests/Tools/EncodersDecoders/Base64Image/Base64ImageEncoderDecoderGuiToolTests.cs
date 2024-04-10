@@ -32,13 +32,13 @@ public sealed class Base64ImageEncoderDecoderGuiToolTests : TestBase
 
         _fileSelector.WithFiles(fileStream);
         await _tool.WorkTask;
-        _inputBox.Text.Should().Be(File.ReadAllText(TestDataProvider.GetFile(Path.Combine(_baseTestDataDirectory, "PNG_transparency_demonstration_1_base64.txt")).FullName));
+        _inputBox.Text.Should().Be(File.ReadAllText(TestDataProvider.GetFile(Path.Combine(_baseTestDataDirectory, "Png_transparency_demonstration_1_base64.txt")).FullName));
     }
 
     [Fact]
     public async Task DecodeImage()
     {
-        string filePath = Path.Combine(_baseTestDataDirectory, "PNG_transparency_demonstration_1_base64.txt");
+        string filePath = Path.Combine(_baseTestDataDirectory, "Png_transparency_demonstration_1_base64.txt");
         FileInfo inputFile = TestDataProvider.GetFile(filePath);
 
         _inputBox.Text(File.ReadAllText(inputFile.FullName));

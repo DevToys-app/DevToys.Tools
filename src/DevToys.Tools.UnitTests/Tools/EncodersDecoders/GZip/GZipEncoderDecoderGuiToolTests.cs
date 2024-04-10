@@ -30,9 +30,13 @@ public sealed class GZipEncoderDecoderGuiToolTests : TestBase
         {
             _outputBox.Text.Should().Be("H4sIAAAAAAAACrPJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
         }
-        else
+        else if (OperatingSystem.IsMacOS())
         {
             _outputBox.Text.Should().Be("H4sIAAAAAAAAE7PJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        }
+        else if (OperatingSystem.IsLinux())
+        {
+            _outputBox.Text.Should().Be("H4sIAAAAAAAAA7PJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
         }
 
         conversionMode.Off(); // Switch to Decompress
@@ -49,9 +53,13 @@ public sealed class GZipEncoderDecoderGuiToolTests : TestBase
         {
             _outputBox.Text.Should().Be("H4sIAAAAAAAACrPJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
         }
-        else
+        else if (OperatingSystem.IsMacOS())
         {
             _outputBox.Text.Should().Be("H4sIAAAAAAAAE7PJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        }
+        else if (OperatingSystem.IsLinux())
+        {
+            _outputBox.Text.Should().Be("H4sIAAAAAAAAA7PJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
         }
     }
 }
