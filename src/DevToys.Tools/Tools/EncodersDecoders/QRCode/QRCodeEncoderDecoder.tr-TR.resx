@@ -118,37 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>QR Kod Kodlama ve Kod Çözme aracı</value>
+    <value>Karekod Kodlama ve Kod Çözme aracı</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Metinden QR kod oku veya oluştur. SVG olarak dışa aktarılabilir.</value>
+    <value>Metinden karekod oku veya oluştur. SVG olarak dışa aktarılabilir.</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
     <value>SVG olarak dışa aktar</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>QR Code</value>
+    <value>Karekod</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Kodu çözülecek QR kod içeren görsel dosya yolu / QR Kod'a dönüştürülecek metin içeren metin dosyası yolu</value>
+    <value>Kodu çözülecek karekod içeren görsel dosya yolu / karekoda dönüştürülecek metin içeren metin dosyası yolu</value>
   </data>
   <data name="InputText" xml:space="preserve">
     <value>Metin</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>QR Kod Kodlayıcı / Kod Çözücü</value>
+    <value>Karekod Kodlayıcı / Kod Çözücü</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>No QR Code found in this image</value>
+    <value>Bu görselde karekod bulunamadı</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>QRCode URL</value>
+    <value>Karekod URL</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>QR Code</value>
+    <value>Karekod</value>
   </data>
 </root>
