@@ -142,7 +142,7 @@
     <value>% {0:0.#}</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>GZip ile bir metni sıkıştır veya ayıkla</value>
