@@ -139,7 +139,7 @@
     <value>Markdown Preview</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Preview</value>
+    <value>Önizleme</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>MD</value>
@@ -148,7 +148,7 @@
     <value>Markdown Preview</value>
   </data>
   <data name="ThemeDescription" xml:space="preserve">
-    <value>Select which theme to use to preview the Markdown</value>
+    <value>Markdown önizlemesinde kullanılacak temayı seçin</value>
   </data>
   <data name="ThemeTitle" xml:space="preserve">
     <value>Theme</value>
