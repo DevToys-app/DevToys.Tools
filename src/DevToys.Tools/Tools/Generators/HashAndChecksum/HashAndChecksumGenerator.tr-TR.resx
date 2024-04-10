@@ -133,7 +133,7 @@
     <value>Checksum to verify data integrity</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Calculate hash from text or binary data</value>
