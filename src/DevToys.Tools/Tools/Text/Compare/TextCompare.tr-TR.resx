@@ -130,7 +130,7 @@
     <value>Difference</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
-    <value>Inline mode</value>
+    <value>Satır içi kipi</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Text Comparer</value>
