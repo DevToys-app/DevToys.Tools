@@ -121,7 +121,7 @@
     <value>XML Formatter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Indent or minify XML data</value>
@@ -130,16 +130,16 @@
     <value>4 spaces</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Girinti</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Kullanmak istediğiniz girintiyi seçin</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Girdi</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Seçilen girdi dosyası yok.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file containing the xml to format</value>
@@ -148,7 +148,7 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML Formatter</value>
+    <value>XML Biçimlendirici</value>
   </data>
   <data name="Minified" xml:space="preserve">
     <value>Minified</value>
@@ -163,7 +163,7 @@
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Çıktı</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>

@@ -149,7 +149,7 @@
     <value>Color Blindness Simulator</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>Öz alma işleminin ilerlemesini gizler</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
     <value>Tritanopia simulation</value>

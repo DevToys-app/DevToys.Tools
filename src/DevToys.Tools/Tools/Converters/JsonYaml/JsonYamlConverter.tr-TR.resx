@@ -121,34 +121,34 @@
     <value>JSON to YAML and YAML to JSON converter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Kullanmak istediğiniz dönüşüm kipini seçin</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to convert from Json or Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Dönüşüm</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert JSON data to YAML and vice versa</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 boşluk</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Girinti</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Kullanmak istediğiniz girintiyi seçin</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Girdi</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Seçilen girdi dosyası yok.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file to convert from json or yaml</value>
@@ -157,30 +157,30 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
-    <value>&lt;Invalid JSON data&gt;</value>
+    <value>&lt;Geçersiz JSON verisi&gt;</value>
   </data>
   <data name="InvalidYaml" xml:space="preserve">
-    <value>&lt;Invalid Yaml data&gt;</value>
+    <value>&lt;Geçersiz YAML verisi&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON'dan YAML'a</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>JSON &lt;&gt; YAML Dönüştürücü</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Çıktı</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Çıktı dosyasının yolu</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 boşluk</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YAML'dan JSON'a</value>
   </data>
 </root>
