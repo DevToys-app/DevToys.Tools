@@ -133,7 +133,7 @@
     <value>Indentation</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Kullanmak istediğiniz girintiyi seçin</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Girdi</value>
@@ -154,10 +154,10 @@
     <value>Minified</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 sekme</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Çıktı</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
