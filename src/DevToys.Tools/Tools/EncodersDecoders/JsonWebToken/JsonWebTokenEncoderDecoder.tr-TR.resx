@@ -230,7 +230,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Kodla</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
