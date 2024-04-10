@@ -186,7 +186,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>Aktörleri doğrula</value>
+    <value>Aktörleri geçerle</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
@@ -194,35 +194,35 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>Seyircileri doğrula</value>
+    <value>Seyircileri geçerle</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>Jeton sağlayıcısı (virgül ile ayrılmış)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
-    <value>Validate issuer signing key</value>
+    <value>Sağlayıcı imza anahtarını geçerle</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerTitle" xml:space="preserve">
-    <value>Validate issuer</value>
+    <value>Sağlayıcıyı geçerle</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenLifetimeTitle" xml:space="preserve">
-    <value>Validate lifetime</value>
+    <value>Varlık süresini geçerle</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Select which token parameters to validate</value>
+    <value>Geçerlenecek jeton parametrelerini seçin</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
-    <value>Token validation settings</value>
+    <value>Jeton geçerleme ayarları</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenTitle" xml:space="preserve">
-    <value>Validate Token</value>
+    <value>Jetonu Geçerle</value>
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -402,7 +402,7 @@
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
-    <value>Token not validated (no parameters selected)</value>
+    <value>Jeton geçerlenmedi (hiçbir parametre seçilmedi)</value>
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
@@ -478,7 +478,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
-    <value>Token Validated</value>
+    <value>Jeton Geçerlendi</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
