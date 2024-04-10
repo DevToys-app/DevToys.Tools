@@ -121,7 +121,7 @@
     <value>URL Kodlama ve Kod Çözme aracı</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
     <value>Kod çöz</value>
@@ -130,7 +130,7 @@
     <value>Select which conversion mode you want to use</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Kodla</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>URL parametresindeki metin kodlanacak mı kodu mu çözülecek</value>
@@ -145,7 +145,7 @@
     <value>Kodlanacak metin veya kodu çözülecek URL</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Girdi</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>URL Kodlayıcı / Kod Çözücü</value>
