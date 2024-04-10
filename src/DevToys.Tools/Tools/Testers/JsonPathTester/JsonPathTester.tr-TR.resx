@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath Tester tool</value>
+    <value>JSONPath Sınama aracı</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
     <value>Dizi dilimleme işleci</value>
@@ -163,7 +163,7 @@
     <value>Joker. İsimlerine veya dizinlerine bakmadan bir nesne veya dizideki tüm unsurları seçer.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>Bir JSONPath sına</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Seçilen girdi dosyası yok.</value>
@@ -184,13 +184,13 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>JSONPath Sınayıcı</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
     <value>No match found</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Sınama sonucu</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
