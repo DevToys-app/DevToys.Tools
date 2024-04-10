@@ -16,7 +16,10 @@
 
 name: ci
 
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - crowdin_main
 
 jobs:
   windows-latest:

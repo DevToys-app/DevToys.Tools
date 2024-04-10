@@ -12,9 +12,12 @@ using static Nuke.Common.Tools.DotNet.DotNetTasks;
     GitHubActionsImage.WindowsLatest,
     GitHubActionsImage.UbuntuLatest,
     GitHubActionsImage.MacOsLatest,
-    On = [GitHubActionsTrigger.Push],
     InvokedTargets = [nameof(RunTests)],
     TimeoutMinutes = 30,
+    OnPushBranchesIgnore =
+    [
+        "crowdin_main" // excludes crowdin_main
+    ],
     AutoGenerate = true)]
 class Build : NukeBuild
 {
