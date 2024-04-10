@@ -121,7 +121,7 @@
     <value>Lorem Ipsum Generator tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="CorpusOptionDescription" xml:space="preserve">
     <value>Text corpus to use</value>
