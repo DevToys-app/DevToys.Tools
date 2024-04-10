@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Text Encoder and Decoder tool</value>
+    <value>64 tabanında Metin Kodlama ve Kod Çözme aracı</value>
   </data>
   <data name="Ascii" xml:space="preserve">
     <value>ASCII</value>
@@ -127,22 +127,22 @@
     <value>Configuration</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Kod çöz</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Kodla</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode Base64 text</value>
+    <value>64 tabanında metin kodlanacak mı kodu mu çözülecek</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Dönüşüm</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 text data</value>
+    <value>64 tabanında metin verisini kodla ve kodunu çöz</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
     <value>Select which encoding you want to use</value>
@@ -151,38 +151,38 @@
     <value>Encoding</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Kodlama türü</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>Seçilen girdi dosyayı yok</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to encode or Base64 to decode</value>
+    <value>Kodlanacak metin veya dosya yolu ya da kodu çözülecek 64 tabanındaki veri</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Girdi</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Invalid Base64&gt;</value>
+    <value>&lt;Geçersiz 64 tabanında&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Text Encoder / Decoder</value>
+    <value>64 tabanında Metin Kodlayıcı / Kod Çözücü</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Çıktı</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Text</value>
+    <value>64 tabanında Metin</value>
   </data>
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>
