@@ -139,7 +139,7 @@
     <value>生成時にハイフンを含める</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>UUID 生成ツール</value>
+    <value>UUID 生成</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>

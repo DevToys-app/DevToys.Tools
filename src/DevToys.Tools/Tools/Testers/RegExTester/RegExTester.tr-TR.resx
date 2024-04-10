@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Regular Expression Tester tool</value>
+    <value>Düzenli İfade Sınama aracı</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
     <value>All matches</value>
@@ -130,8 +130,8 @@
     <value>Alternation</value>
   </data>
   <data name="CheatSheetAlternationDetails" xml:space="preserve">
-    <value>Acts like a boolean OR. Matches the expression before or after the |.
-It can operate within a group, or on a whole expression. The patterns will be tested in order.</value>
+    <value>Bir boole VEYA gibi davranır. | öncesinde veya sonrasındaki ifadeyi eşler.
+Bir grup içerisinde veya bütün ifadede işleyebilir. Örüntüler sırayla sınanacaktır.</value>
   </data>
   <data name="CheatSheetAnyCharacter" xml:space="preserve">
     <value>Any character except newline</value>
@@ -643,7 +643,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
     <value>Culture Invariant</value>
@@ -652,7 +652,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Specifies that cultural differences in language is ignored.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate and test regular expressions</value>
+    <value>Düzenli ifadeleri geçerle ve sına</value>
   </data>
   <data name="EcmaScript" xml:space="preserve">
     <value>ECMA Script</value>
@@ -673,7 +673,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Eliminates unescaped white space from the pattern and enables comments marked with #. However, this value does not affect or eliminate white space in character classes, numeric quantifiers, or tokens that mark the beginning of individual regular expression language elements.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Regular Expression Tester</value>
+    <value>Düzenli İfade Sınayıcı</value>
   </data>
   <data name="MatchGroupPrefix" xml:space="preserve">
     <value>Group</value>
