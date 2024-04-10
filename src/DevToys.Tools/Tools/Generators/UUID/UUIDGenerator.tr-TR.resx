@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>UUID Generator tool</value>
+    <value>UUID Üretme aracı</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Yapılandırma</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generate UUIDs version 1 and 4 (GUID)</value>
+    <value>UUID sürüm 1 ve 4 (GUID) üret</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
-    <value>Generate UUID(s)</value>
+    <value>UUID(ler) Üret</value>
   </data>
   <data name="GenerateTitle" xml:space="preserve">
-    <value>Generate</value>
+    <value>Üret</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
     <value>Hyphens</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should have hyphens or not</value>
+    <value>Üretilen UUID'lerin tire içerip içermeyeceği</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>UUID Generator</value>
+    <value>UUID Üretici</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>UUID(s)</value>
+    <value>UUID(ler)</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>GUID</value>
@@ -157,7 +157,7 @@
     <value>Uppercase</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should be in uppercase or not</value>
+    <value>Üretilen UUID'lerin büyük harfli olup olmayacağı</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -166,10 +166,10 @@
     <value>1</value>
   </data>
   <data name="VersionDescription" xml:space="preserve">
-    <value>Choose the version of UUID to generate</value>
+    <value>Üretilecek UUID sürümünü seçin</value>
   </data>
   <data name="VersionOptionDescription" xml:space="preserve">
-    <value>The UUID version to generate</value>
+    <value>Üretilecek UUID sürümü</value>
   </data>
   <data name="VersionTitle" xml:space="preserve">
     <value>UUID version</value>
