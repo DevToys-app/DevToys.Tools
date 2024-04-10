@@ -643,7 +643,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
     <value>Culture Invariant</value>
