@@ -175,7 +175,7 @@ internal sealed partial class XmlFormatterGuiTool : IGuiTool, IDisposable
                 newLineOnAttributeSetting,
                 _logger);
 
-            _outputTextArea.Text(formatResult.Data);
+            _outputTextArea.Text(formatResult.Data ?? string.Empty);
         }
     }
 }

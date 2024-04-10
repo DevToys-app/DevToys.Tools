@@ -188,7 +188,7 @@ internal sealed class JsonPathTesterGuiTool : IGuiTool, IDisposable
                     ResultInfo<string> resultInfo = JsonHelper.TestJsonPath(jsonObject, jsonPath, _logger, cancellationToken);
                     if (resultInfo.HasSucceeded)
                     {
-                        result = resultInfo.Data;
+                        result = resultInfo.Data ?? string.Empty;
                     }
                 }
             }

@@ -244,7 +244,6 @@ public class JsonWebTokenDecoderHelperTests
 
         ResultInfo<string> formattedHeader = await GetFormattedDataAsync(headerContent);
         ResultInfo<string> formattedPayload = await GetFormattedDataAsync(payloadContent);
-        ResultInfo<string> formattedPayload222 = await GetFormattedDataAsync(tokenResult.Payload);
 
         tokenResult.Header.Should().Be(formattedHeader.Data);
         tokenResult.Payload.Should().Be(formattedPayload.Data);

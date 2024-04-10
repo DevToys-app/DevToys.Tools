@@ -172,7 +172,6 @@ public class JsonWebTokenEncoderHelperTests
         result.Data.Token[..lastIndexOfDot].Should().Be(expectedResult[..lastIndexOfDot]);
     }
 
-
     [Theory(DisplayName = "Encode HMAC JWT with Valid Payload and Parameters Should Return Valid Token")]
     [InlineData(JsonWebTokenAlgorithm.HS256, false)]
     [InlineData(JsonWebTokenAlgorithm.HS256, true)]

@@ -61,7 +61,12 @@ internal sealed class XMLTesterCommandLineTool : ICommandLineTool
             return -1;
         }
 
-        ResultInfo<string, XMLTesterResultSeverity> result = XsdHelper.ValidateXmlAgainstXsd(xsd.Data, xml.Data, logger, cancellationToken);
+        ResultInfo<string, XMLTesterResultSeverity> result
+            = XsdHelper.ValidateXmlAgainstXsd(
+                xsd.Data ?? string.Empty,
+                xml.Data ?? string.Empty,
+                logger,
+                cancellationToken);
 
         switch (result.Severity)
         {
