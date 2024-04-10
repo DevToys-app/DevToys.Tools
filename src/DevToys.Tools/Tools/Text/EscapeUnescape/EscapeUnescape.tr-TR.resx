@@ -127,7 +127,7 @@
     <value>Unescape</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Kullanmak istediğiniz dönüştürme kipini seçin</value>
+    <value>Kullanmak istediğiniz dönüşüm kipini seçin</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>Escape</value>
@@ -136,7 +136,7 @@
     <value>Whether to escape or unescape the input text</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Dönüşüm</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Bir dizeye kaçış karakteri ekler veya dizeden çıkarır, ayrıştırmayı önleyecek karakterleri ortadan kaldırır.</value>
@@ -148,7 +148,7 @@
     <value>Text or path to a file to convert to escaped or unescaped text</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Girdi</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Please specify an input text or an input file</value>
@@ -160,7 +160,7 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Çıktı</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Escape / Unescape</value>
