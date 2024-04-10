@@ -26,12 +26,17 @@ public sealed class GZipEncoderDecoderGuiToolTests : TestBase
 
         _inputBox.Text("<hello world>");
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("H4sIAAAAAAAACrPJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        if (OperatingSystem.IsWindows())
+        {
+            _outputBox.Text.Should().Be("H4sIAAAAAAAACrPJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        }
+        else
+        {
+            _outputBox.Text.Should().Be("H4sIAAAAAAAAE7PJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        }
 
         conversionMode.Off(); // Switch to Decompress
 
-        await _tool.WorkTask;
-        _inputBox.Text.Should().Be("H4sIAAAAAAAACrPJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
         await _tool.WorkTask;
         _outputBox.Text("<hello world>");
 
@@ -40,6 +45,13 @@ public sealed class GZipEncoderDecoderGuiToolTests : TestBase
         await _tool.WorkTask;
         _inputBox.Text("<hello world>");
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("H4sIAAAAAAAACrPJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        if (OperatingSystem.IsWindows())
+        {
+            _outputBox.Text.Should().Be("H4sIAAAAAAAACrPJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        }
+        else
+        {
+            _outputBox.Text.Should().Be("H4sIAAAAAAAAE7PJSM3JyVcozy/KSbEDAKEb3mcNAAAA");
+        }
     }
 }

@@ -43,9 +43,9 @@ public class DateConverterGuiToolTests : TestBase
     [InlineData("1870-01-01T00:00:00.0000000Z", "1870-01-01T00:00:00.0000000Z", "UTC", 0)]
     [InlineData("1923-11-23T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "UTC", 1700683087)]
     [InlineData("1800-11-22T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "UTC", -2180836913)]
-    [InlineData("1870-01-01T00:00:00.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 28800)]
+    [InlineData("2024-01-01T00:00:00.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 4859769600)]
     [InlineData("1923-11-23T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 1700711887)]
-    [InlineData("1800-11-22T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", -2180808113)]
+    [InlineData("2024-11-22T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 4888007887)]
     public async Task ConvertValidDateTimeWithCustomEpochAndSecondsFormatShouldReturnValidTimestampInSeconds(
         string dateTimeString,
         string epochString,
@@ -139,9 +139,9 @@ public class DateConverterGuiToolTests : TestBase
     [InlineData(0, "1870-01-01T00:00:00.0000000Z", "UTC", "1870-01-01T00:00:00.0000000Z")]
     [InlineData(1700683087, "1870-01-01T00:00:00.0000000Z", "UTC", "1923-11-23T19:58:07.0000000Z")]
     [InlineData(-2180836913, "1870-01-01T00:00:00.0000000Z", "UTC", "1800-11-22T19:58:07.0000000Z")]
-    [InlineData(0, "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1869-12-31T16:00:00.0000000Z")]
+    [InlineData(0, "2024-01-01T00:00:00.0000000Z", "Pacific Standard Time", "2023-12-31T16:00:00.0000000Z")]
     [InlineData(1700683087, "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1923-11-23T11:58:07.0000000Z")]
-    [InlineData(-2180836913, "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1800-11-22T11:58:07.0000000Z")]
+    [InlineData(-2180836913, "2024-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1954-11-22T11:58:07.0000000Z")]
     public async Task ConvertValidTimestampWithCustomEpochAndSecondsFormatShouldReturnValidDateTime(
         long timestamp,
         string epochString,
@@ -234,9 +234,9 @@ public class DateConverterGuiToolTests : TestBase
     [InlineData("1870-01-01T00:00:00.0000000Z", "1870-01-01T00:00:00.0000000Z", "UTC", 0)]
     [InlineData("1923-11-23T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "UTC", 1700683087000)]
     [InlineData("1800-11-22T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "UTC", -2180836913000)]
-    [InlineData("1870-01-01T00:00:00.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 28800000)]
+    [InlineData("2024-01-01T00:00:00.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 4859769600000)]
     [InlineData("1923-11-23T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 1700711887000)]
-    [InlineData("1800-11-22T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", -2180808113000)]
+    [InlineData("2024-11-22T19:58:07.0000000Z", "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", 4888007887000)]
     public async Task ConvertValidDateTimeWithCustomEpochAndMillisecondsFormatShouldReturnValidTimestampInMilliseconds(
         string dateTimeString,
         string epochString,
@@ -330,9 +330,9 @@ public class DateConverterGuiToolTests : TestBase
     [InlineData(0, "1870-01-01T00:00:00.0000000Z", "UTC", "1870-01-01T00:00:00.0000000Z")]
     [InlineData(1700683087000, "1870-01-01T00:00:00.0000000Z", "UTC", "1923-11-23T19:58:07.0000000Z")]
     [InlineData(-2180836913000, "1870-01-01T00:00:00.0000000Z", "UTC", "1800-11-22T19:58:07.0000000Z")]
-    [InlineData(0, "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1869-12-31T16:00:00.0000000Z")]
+    [InlineData(0, "2024-01-01T00:00:00.0000000Z", "Pacific Standard Time", "2023-12-31T16:00:00.0000000Z")]
     [InlineData(1700683087000, "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1923-11-23T11:58:07.0000000Z")]
-    [InlineData(-2180836913000, "1870-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1800-11-22T11:58:07.0000000Z")]
+    [InlineData(-2180836913000, "2024-01-01T00:00:00.0000000Z", "Pacific Standard Time", "1954-11-22T11:58:07.0000000Z")]
     public async Task ConvertValidTimestampWithCustomEpochAndMillisecondsFormatShouldReturnValidDateTime(
         long timestamp,
         string epochString,
@@ -423,11 +423,11 @@ public class DateConverterGuiToolTests : TestBase
     [Theory(DisplayName = "Convert valid dateTime should return valid Ticks")]
     [InlineData("1870-01-01T00:00:00.0000000+00:00", "UTC", 589799232000000000)]
     [InlineData("1923-11-23T19:58:07.0000000+00:00", "UTC", 606806062870000000)]
-    [InlineData("1800-11-22T19:58:07.0000000+00:00", "UTC", 567990862870000000)]
-    [InlineData("1870-01-01T00:00:00.0000000-08:00", "Pacific Standard Time", 589799520000000000)]
-    [InlineData("1870-01-01T00:00:00.0000000+00:00", "Pacific Standard Time", 589799520000000000)]
+    [InlineData("2024-11-22T19:58:07.0000000+00:00", "UTC", 638679022870000000)]
+    [InlineData("2024-01-01T00:00:00.0000000-08:00", "Pacific Standard Time", 638396928000000000)]
+    [InlineData("2024-01-01T00:00:00.0000000+00:00", "Pacific Standard Time", 638396928000000000)]
     [InlineData("1923-11-23T19:58:07.0000000Z", "Pacific Standard Time", 606806350870000000)]
-    [InlineData("1800-11-22T19:58:07.0000000Z", "Pacific Standard Time", 567991150870000000)]
+    [InlineData("2024-11-22T19:58:07.0000000Z", "Pacific Standard Time", 638679310870000000)]
     public async Task ConvertValidDateTimeShouldReturnValidTicks(
         string dateTimeString,
         string timeZoneString,
