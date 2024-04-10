@@ -127,7 +127,7 @@
     <value>Kod çöz</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Kullanmak istediğiniz dönüşüm kipini seçin</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>Kodla</value>
@@ -136,7 +136,7 @@
     <value>HTML kodlanacak mı kodu mu çözülecek</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Dönüşüm</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>HTML metin verisini kodla veya kodunu çöz</value>
@@ -151,7 +151,7 @@
     <value>HTML Metin Kodlayıcı / Kod Çözücü</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Çıktı</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>HTML</value>
