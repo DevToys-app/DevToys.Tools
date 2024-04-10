@@ -124,7 +124,7 @@
     <value>Yapılandırma</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Kullanacağınız dönüşüm kipini seçin</value>
+    <value>Kullanmak istediğiniz dönüşüm kipini seçin</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to convert from Json or Yaml</value>
@@ -142,7 +142,7 @@
     <value>Girinti</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Kullanacağınız girintiyi seçin</value>
+    <value>Kullanmak istediğiniz girintiyi seçin</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Girdi</value>
