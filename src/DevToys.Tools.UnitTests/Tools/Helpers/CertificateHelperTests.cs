@@ -30,13 +30,28 @@ public class CertificateHelperTests
     [InlineData("PemCertWithPrivateKey.txt", null, true, "CertDecoded.txt")]
     [InlineData("PfxNoPassword.pfx", null, true, "CertDecoded.txt")]
     [InlineData("PfxWithPassword.pfx", "test1234", true, "CertDecoded.txt")]
-    [InlineData("PemCertPublicWithExtensions.txt", null, true, "CertWithExtensionsDecoded-Unix.txt")]
-    [InlineData("PemCertWithPrivateKeyWithExtensions.txt", null, true, "CertWithExtensionsDecoded-Unix.txt")]
-    [InlineData("PfxWithExtensionsNoPassword.pfx", null, true, "CertWithExtensionsDecoded-Unix.txt")]
-    public void DecodeCertificateSuccessUnix(string input, string password, bool successfullyDecoded,
-        string expectedResult)
+    [InlineData("PemCertPublicWithExtensions.txt", null, true, "CertWithExtensionsDecoded-MacOS.txt")]
+    [InlineData("PemCertWithPrivateKeyWithExtensions.txt", null, true, "CertWithExtensionsDecoded-MacOS.txt")]
+    [InlineData("PfxWithExtensionsNoPassword.pfx", null, true, "CertWithExtensionsDecoded-MacOS.txt")]
+    public void DecodeCertificateSuccessMacOS(string input, string password, bool successfullyDecoded, string expectedResult)
     {
-        if (!OperatingSystem.IsWindows())
+        if (OperatingSystem.IsMacOS())
+        {
+            DecodeCertificate(input, password, successfullyDecoded, expectedResult);
+        }
+    }
+
+    [Theory]
+    [InlineData("PemCertPublic.txt", null, true, "CertDecoded.txt")]
+    [InlineData("PemCertWithPrivateKey.txt", null, true, "CertDecoded.txt")]
+    [InlineData("PfxNoPassword.pfx", null, true, "CertDecoded.txt")]
+    [InlineData("PfxWithPassword.pfx", "test1234", true, "CertDecoded.txt")]
+    [InlineData("PemCertPublicWithExtensions.txt", null, true, "CertWithExtensionsDecoded-Linux.txt")]
+    [InlineData("PemCertWithPrivateKeyWithExtensions.txt", null, true, "CertWithExtensionsDecoded-Linux.txt")]
+    [InlineData("PfxWithExtensionsNoPassword.pfx", null, true, "CertWithExtensionsDecoded-Linux.txt")]
+    public void DecodeCertificateSuccessLinux(string input, string password, bool successfullyDecoded, string expectedResult)
+    {
+        if (OperatingSystem.IsLinux())
         {
             DecodeCertificate(input, password, successfullyDecoded, expectedResult);
         }

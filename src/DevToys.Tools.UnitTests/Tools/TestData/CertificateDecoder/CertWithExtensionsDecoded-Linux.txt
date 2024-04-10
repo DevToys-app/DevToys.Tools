@@ -1,0 +1,24 @@
+[Subject]
+  O=Dev-Toys, S=Some-State, C=DT
+
+[Issuer]
+  O=Dev-Toys, S=Some-State, C=DT
+
+[Serial Number]
+  0A2D679783C5DB71139A0EEB3479D4F7D5C76E79
+
+[Not Before]
+  06/02/2023 00:00:00
+
+[Not After]
+  05/30/2033 00:00:00
+
+[Thumbprint]
+  41D8D90FE633CFF63CED9E4A53889C0133AEF106
+
+[X509v3 Subject Key Identifier]
+  26:9D:FE:AD:A0:87:2C:C6:43:50:79:2C:25:58:DF:6F:A0:86:C4:1B
+[X509v3 Authority Key Identifier]
+  26:9D:FE:AD:A0:87:2C:C6:43:50:79:2C:25:58:DF:6F:A0:86:C4:1B
+[X509v3 Basic Constraints]
+  CA:TRUE
