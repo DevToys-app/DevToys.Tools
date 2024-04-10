@@ -121,7 +121,7 @@
     <value>JSON Formatter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Yapılandırma</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Indent or minify JSON data</value>
@@ -136,10 +136,10 @@
     <value>Select which indentation you want to use</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Girdi</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Seçilen girdi dosyası yok.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file containing the JSON to format</value>
