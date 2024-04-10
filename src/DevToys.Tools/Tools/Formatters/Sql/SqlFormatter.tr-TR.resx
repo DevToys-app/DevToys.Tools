@@ -133,10 +133,10 @@
     <value>4 spaces</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Girinti</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Kullanmak istediğiniz girintiyi seçin</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Input</value>
