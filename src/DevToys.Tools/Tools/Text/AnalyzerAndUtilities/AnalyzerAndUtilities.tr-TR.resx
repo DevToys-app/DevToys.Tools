@@ -178,7 +178,7 @@
     <value>Unknown</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Seçilen girdi dosyası yok.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file to treat.</value>
