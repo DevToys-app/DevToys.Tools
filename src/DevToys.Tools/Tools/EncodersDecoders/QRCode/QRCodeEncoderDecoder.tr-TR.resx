@@ -133,7 +133,7 @@
     <value>Kodu çözülecek QR kod içeren görsel dosya yolu / QR Kod'a dönüştürülecek metin içeren metin dosyası yolu</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Text</value>
+    <value>Metin</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>QR Kod Kodlayıcı / Kod Çözücü</value>
