@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bytes" xml:space="preserve">
-    <value>Bytes</value>
+    <value>Bayt</value>
   </data>
   <data name="FileNotFound" xml:space="preserve">
-    <value>File '{0}' was not found.</value>
+    <value>'{0}' adlı dosya bulunamadı.</value>
     <comment>{0} is a file name.</comment>
   </data>
   <data name="FileTypeNotSupported" xml:space="preserve">
-    <value>File '{0}' is not supported. Only files of type {1} are supported.</value>
+    <value>'{0}' adlı dosya desteklenmiyor. Yalnızca {1} türündeki dosyalar desteklenmektedir.</value>
     <comment>{0} is a file name. {1} is a list of file extensions</comment>
   </data>
   <data name="Gigabytes" xml:space="preserve">

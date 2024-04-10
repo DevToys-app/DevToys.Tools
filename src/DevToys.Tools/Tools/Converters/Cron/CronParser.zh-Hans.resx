@@ -133,7 +133,7 @@
     <value>要解析的 Cron 表达式</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>生成的计划执行时间的日期时间格式</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>解析 Cron 表达式，获取下次计划执行时间</value>
