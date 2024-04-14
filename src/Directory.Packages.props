@@ -15,8 +15,9 @@
     <PackageVersion Include="Microsoft.IdentityModel.JsonWebTokens" Version="7.2.0" />
     <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.0" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
-    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="Moq" Version="4.18.4" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Nuke.Common" Version="8.0.0" />
     <PackageVersion Include="xunit" Version="$(XUnit)" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="$(XUnit)" />
     <PackageVersion Include="YamlDotNet" Version="13.7.1" />

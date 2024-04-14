@@ -25,7 +25,7 @@ public sealed class Base64ImageEncoderDecoderCommandLineToolTests : TestBase
         using var consoleOutput = new ConsoleOutputMonitor();
         await _tool.InvokeAsync(new MockILogger(), CancellationToken.None);
 
-        string expectedResult = File.ReadAllText(TestDataProvider.GetFile(Path.Combine(_baseTestDataDirectory, "PNG_transparency_demonstration_1_base64.txt")).FullName);
+        string expectedResult = File.ReadAllText(TestDataProvider.GetFile(Path.Combine(_baseTestDataDirectory, "Png_transparency_demonstration_1_base64.txt")).FullName);
         string result = consoleOutput.GetOutput().Trim();
         result.Should().Be(expectedResult);
     }
@@ -34,7 +34,7 @@ public sealed class Base64ImageEncoderDecoderCommandLineToolTests : TestBase
     public async Task DecodeImageFromText()
     {
         byte[] expectedOutput = File.ReadAllBytes(Path.Combine(_baseTestDataDirectory, "PNG_transparency_demonstration_1.png"));
-        string filePath = Path.Combine(_baseTestDataDirectory, "PNG_transparency_demonstration_1_base64.txt");
+        string filePath = Path.Combine(_baseTestDataDirectory, "Png_transparency_demonstration_1_base64.txt");
         FileInfo inputFile = TestDataProvider.GetFile(filePath);
 
         _tool.Input = File.ReadAllText(inputFile.FullName);
@@ -52,7 +52,7 @@ public sealed class Base64ImageEncoderDecoderCommandLineToolTests : TestBase
     public async Task DecodeImageFromFile()
     {
         byte[] expectedOutput = File.ReadAllBytes(TestDataProvider.GetFile(Path.Combine(_baseTestDataDirectory, "PNG_transparency_demonstration_1.png")).FullName);
-        string filePath = Path.Combine(_baseTestDataDirectory, "PNG_transparency_demonstration_1_base64.txt");
+        string filePath = Path.Combine(_baseTestDataDirectory, "Png_transparency_demonstration_1_base64.txt");
         FileInfo inputFile = TestDataProvider.GetFile(filePath);
 
         _tool.Input = inputFile;

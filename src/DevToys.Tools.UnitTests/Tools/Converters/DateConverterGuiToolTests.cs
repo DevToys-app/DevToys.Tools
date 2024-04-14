@@ -63,7 +63,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.On();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Seconds));
@@ -112,7 +112,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.Off();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Seconds));
@@ -159,7 +159,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.On();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Seconds));
@@ -207,7 +207,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.Off();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Seconds));
@@ -254,7 +254,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.On();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Milliseconds));
@@ -303,7 +303,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.Off();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Milliseconds));
@@ -350,7 +350,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.On();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Milliseconds));
@@ -399,7 +399,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.Off();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Milliseconds));
@@ -443,7 +443,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.Off();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Ticks));
@@ -484,7 +484,7 @@ public class DateConverterGuiToolTests : TestBase
 
         epochSettings.Off();
 
-        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => w.Value.Equals(timeZoneString));
+        int timezoneIndex = Array.FindIndex(timeZoneDropDownList.Items, w => (timeZoneString != "UTC" && w.Text.ToString().Contains(timeZoneString)) || w.Value.Equals(timeZoneString));
         timeZoneDropDownList.Select(timezoneIndex);
 
         int formatIndex = Array.FindIndex(formatDropdownList.Items, w => w.Value.Equals(DateFormat.Ticks));
