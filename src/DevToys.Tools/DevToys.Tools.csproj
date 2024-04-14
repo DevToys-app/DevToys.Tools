@@ -5,16 +5,18 @@
 
     <!-- NuGet package -->
     <Version>2.0.0-pre.0</Version>
+    <Authors>veler,btiteux</Authors>
     <Title>DevToys.Tools</Title>
     <Description>A set of offline tools installed by default with DevToys.</Description>
     <PackageProjectUrl>https://devtoys.app</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/veler/DevToys</RepositoryUrl>
-    <Authors>veler,btiteux</Authors>
+    <RepositoryUrl>https://github.com/DevToys-app/DevToys.Tools</RepositoryUrl>
     <PackageTags>devtoys-app</PackageTags>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\**" />
+    <None Include="$(RepoRoot)LICENSE.md" Link="LICENSE.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
