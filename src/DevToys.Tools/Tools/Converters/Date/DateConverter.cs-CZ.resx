@@ -224,26 +224,26 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
-    <value>Input to convert in long or Date supported format "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>Vstup k převodu v longu nebo podporovaném formátu "ISO 8601" příklad 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
-    <value>Timezone to use (supported timezones: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
+    <value>Časové pásmo k použití (podporovaná časová pásma: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
-    <value>Unable to parse date</value>
+    <value>Datum nelze zpracovat</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
-    <value>Unable to parse epoch</value>
+    <value>Epochu nelze zpracovat</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
-    <value>Unable to find the Timezone Provided please check if the timezone exist here https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
+    <value>Nelze najít poskytnuté časové pásmo, zkontrolujte prosím, zda časová zóna existuje zde https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
-    <value>Please specify an input number or date</value>
+    <value>Zadejte prosím vstupní číslo nebo datum</value>
   </data>
 </root>
