@@ -118,109 +118,109 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Date converter tool</value>
+    <value>Nástroj pro převod dat</value>
   </data>
   <data name="DaylightSavingTime" xml:space="preserve">
-    <value>Daylight saving time.</value>
+    <value>Letní čas.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>Den</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert date to human-readable date and vice versa</value>
+    <value>Převést datum na člověkem čitelné datum a naopak</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
-    <value>There is no daylight saving time.</value>
+    <value>Není k dispozici žádný letní čas.</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>DST Ambiguous time.</value>
+    <value>DST Nejednoznačný čas.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>Hour (24 hour)</value>
+    <value>Hodina (24 hodin)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>Časové pásmo</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
-    <value>Local Date and Time</value>
+    <value>Místní datum a čas</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Minuty</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
-    <value>Month</value>
+    <value>Měsíc</value>
   </data>
   <data name="OffsetTitle" xml:space="preserve">
-    <value>Offset</value>
+    <value>Posun</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks</value>
+    <value>Čas Datum Časové pásmo Epocha Časové razítko Ticky</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
-    <value>Seconds</value>
+    <value>Vteřiny</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
-    <value>There is daylight saving time.</value>
+    <value>Je k dispozici letní čas.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Datum</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>UTC Date and Time</value>
+    <value>UTC datum a čas</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
-    <value>UtcTicks</value>
+    <value>UtcTicky</value>
   </data>
   <data name="YearTitle" xml:space="preserve">
-    <value>Year</value>
+    <value>Rok</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Now</value>
+    <value>Nyní</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Date Converter</value>
+    <value>Převodník dat</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Datum</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>Default Epoch</value>
+    <value>Výchozí epocha</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>Použít uživatelem definovanou epochu</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Ne</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Ano</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>Milisekundy</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>Format</value>
+    <value>Formát</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>Ticks</value>
+    <value>Ticky</value>
   </data>
   <data name="Seconds" xml:space="preserve">
-    <value>Seconds</value>
+    <value>Vteřiny</value>
   </data>
   <data name="Milliseconds" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>Milisekundy</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
-    <value>Date to convert. Supported format: "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>Datum k převodu. Podporovaný formát: "ISO 8601" příklad 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
-    <value>Epoch to use. Supported format: "ISO 8601" example 1970-01-01T00:00:00.0000000+00:00</value>
+    <value>Epoch k použití. Podporovaný formát: "ISO 8601" příklad 1970-01-01T00:00:00.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>Format to use default Seconds</value>
+    <value>Formát k použití výchozí Vteřiny</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
