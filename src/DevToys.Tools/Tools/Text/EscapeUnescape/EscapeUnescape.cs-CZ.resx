@@ -139,7 +139,7 @@
     <value>Conversion</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Escapes or unescapes a string, removing characters that could prevent parsing.</value>
+    <value>Escapuje nebo unescapuje řetězec, čímž odstraní znaky, které by mohly zabránit jeho zpracování.</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist</value>
