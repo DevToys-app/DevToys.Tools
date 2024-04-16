@@ -175,6 +175,6 @@
     <value>Whether the Cron expression should include seconds in its definition</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>Zahrnout vteřiny</value>
   </data>
 </root>
