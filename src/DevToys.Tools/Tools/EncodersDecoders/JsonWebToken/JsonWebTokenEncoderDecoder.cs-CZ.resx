@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT Encoder and Decoder tool</value>
+    <value>Nástroj pro kódování a dekódování JWT</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
@@ -178,11 +178,11 @@
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurace</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Dekódovat</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
@@ -230,7 +230,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Kódovat</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Claim</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JWT Encoder / Decoder</value>
+    <value>Kodér / Dekodér JWT</value>
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
