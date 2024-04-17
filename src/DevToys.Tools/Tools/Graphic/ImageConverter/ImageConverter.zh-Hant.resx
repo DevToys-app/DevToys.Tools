@@ -121,7 +121,7 @@
     <value>Image Converter tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>Conversion</value>
@@ -158,7 +158,7 @@
     <value>Save all</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>儲存為</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Image Converter</value>
