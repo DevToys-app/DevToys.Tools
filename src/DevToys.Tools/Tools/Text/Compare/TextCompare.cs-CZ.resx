@@ -121,7 +121,7 @@
     <value>Text comparer tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurace</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Compare two texts</value>
