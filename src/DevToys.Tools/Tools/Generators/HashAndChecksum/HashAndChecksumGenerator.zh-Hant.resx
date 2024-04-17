@@ -127,13 +127,13 @@
     <value>A text or file containing a checksum to verify data integrity</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
-    <value>OK</value>
+    <value>好的</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
     <value>Checksum to verify data integrity</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Calculate hash from text or binary data</value>
@@ -175,7 +175,7 @@
     <value>or</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>輸出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Hash / Checksum</value>
@@ -187,6 +187,6 @@
     <value>Whether the generated hash should be in uppercase or not</value>
   </data>
   <data name="UppercaseTitle" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>大寫</value>
   </data>
 </root>
