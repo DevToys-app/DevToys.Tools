@@ -169,12 +169,12 @@
     <value>Next scheduled dates</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Cron parser</value>
+    <value>Cron 剖析器</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
     <value>Whether the Cron expression should include seconds in its definition</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>包含秒數</value>
   </data>
 </root>
