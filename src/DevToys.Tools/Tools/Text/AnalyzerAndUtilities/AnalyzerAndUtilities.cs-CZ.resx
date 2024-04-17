@@ -157,7 +157,7 @@
     <value>Převést konec řádku</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Analyze text and provide some basic utility tools</value>
+    <value>Analyzovat text a poskytovat některé základní nástroje</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
     <value>Konec řádku</value>
@@ -181,7 +181,7 @@
     <value>Vybraný vstupní soubor neexistuje.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to treat.</value>
+    <value>Text nebo cesta k souboru k úpravě.</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Zadejte prosím vstupní text nebo soubor</value>
@@ -196,7 +196,7 @@
     <value>Řádky</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>Analyzátor textu a nástroje</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
     <value>malá písmena</value>
@@ -253,7 +253,7 @@
     <value>Věty</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>Analyzátor a nástroje</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
     <value>Zobrazit originální text</value>
