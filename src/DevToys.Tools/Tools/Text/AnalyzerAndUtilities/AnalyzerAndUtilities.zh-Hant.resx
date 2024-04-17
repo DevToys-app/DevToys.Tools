@@ -229,7 +229,7 @@
     <value>string</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
-    <value>Column</value>
+    <value>欄</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
     <value>End position</value>
@@ -238,7 +238,7 @@
     <value>Length</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>行</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
     <value>Start position</value>
