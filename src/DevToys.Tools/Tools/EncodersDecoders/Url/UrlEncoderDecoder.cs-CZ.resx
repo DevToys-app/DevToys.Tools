@@ -139,7 +139,7 @@
     <value>Převod</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
+    <value>Kódovat nebo dekódovat všechny příslušné znaky do odpovídajících URL entit</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text ke kódování nebo URL k dekódování</value>
