@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text Escape and Unescape tool</value>
+    <value>文字跳脫及取消跳脫工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>設置</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Unescape</value>
+    <value>取消跳脫</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Escape</value>
+    <value>跳脫</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to escape or unescape the input text</value>
@@ -148,7 +148,7 @@
     <value>Text or path to a file to convert to escaped or unescaped text</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>輸入</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Please specify an input text or an input file</value>
@@ -160,7 +160,7 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>輸出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Escape / Unescape</value>
