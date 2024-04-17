@@ -121,7 +121,7 @@
     <value>JSON to YAML and YAML to JSON converter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
@@ -133,19 +133,19 @@
     <value>Conversion</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert JSON data to YAML and vice versa</value>
+    <value>將 JSON 資料轉換為 YAML，反之亦然</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 個空格</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>縮排</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>選擇你想要使用的縮排方式</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>輸入</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist.</value>
@@ -157,19 +157,19 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
-    <value>&lt;Invalid JSON data&gt;</value>
+    <value>&lt;無效的 JSON 資料&gt;</value>
   </data>
   <data name="InvalidYaml" xml:space="preserve">
-    <value>&lt;Invalid Yaml data&gt;</value>
+    <value>&lt;無效的 YAML 資料&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON 至 YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>JSON &lt;&gt; YAML 轉換器</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>輸出</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
@@ -178,9 +178,9 @@
     <value>JSON &lt;&gt; YAML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 個空格</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YAML 至 JSON</value>
   </data>
 </root>
