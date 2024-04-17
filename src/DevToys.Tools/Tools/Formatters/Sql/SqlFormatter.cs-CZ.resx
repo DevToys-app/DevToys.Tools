@@ -121,7 +121,7 @@
     <value>SQL Formatter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurace</value>
   </data>
   <data name="Db2" xml:space="preserve">
     <value>Db2</value>
@@ -139,7 +139,7 @@
     <value>Select which indentation you want to use</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Vstup</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist.</value>
@@ -148,7 +148,7 @@
     <value>Text or path to a file containing the sql to format</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Zadejte prosím vstupní text nebo soubor</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
     <value>Leading comma</value>
@@ -172,10 +172,10 @@
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Výstup</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Cesta k výstupnímu souboru</value>
   </data>
   <data name="PlSql" xml:space="preserve">
     <value>PL/SQL</value>
