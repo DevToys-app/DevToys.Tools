@@ -181,7 +181,7 @@
     <value>JSON</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Zadejte prosím vstupní text nebo soubor</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSONPath Tester</value>
@@ -193,7 +193,7 @@
     <value>Test result</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Cesta k výstupnímu souboru</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>path json</value>
