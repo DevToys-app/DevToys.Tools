@@ -121,7 +121,7 @@
     <value>UUID Generator tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurace</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Generate UUIDs version 1 and 4 (GUID)</value>
@@ -145,7 +145,7 @@
     <value>x</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>UUID(s)</value>
+    <value>UUID(y)</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>GUID</value>
