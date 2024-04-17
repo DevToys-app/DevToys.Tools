@@ -121,10 +121,10 @@
     <value>Image Converter tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurace</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Převod</value>
   </data>
   <data name="ConvertedFormatDescription" xml:space="preserve">
     <value>Select the image format to convert into</value>
@@ -152,7 +152,7 @@
     <value>Image Converter</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
+    <value>Adresář, kde by měl být výsledek uložen nebo cesta k jednomu souboru, pokud je vstup také pouze jeden soubor.</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
     <value>Save all</value>
