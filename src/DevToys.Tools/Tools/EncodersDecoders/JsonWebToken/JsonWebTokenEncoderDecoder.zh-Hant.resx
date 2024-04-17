@@ -178,7 +178,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
@@ -282,7 +282,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>設定</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>否</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
@@ -450,7 +450,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>是</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
