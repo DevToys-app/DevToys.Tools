@@ -154,7 +154,7 @@
     <value>UUID</value>
   </data>
   <data name="Uppercase" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>大寫</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
     <value>Whether the generated UUID should be in uppercase or not</value>
