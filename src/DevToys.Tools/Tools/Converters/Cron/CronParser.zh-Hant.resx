@@ -121,7 +121,7 @@
     <value>Cron parsing tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
     <value>Cron description</value>
@@ -163,7 +163,7 @@
     <value>Output date time format is not valid</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>輸出格式</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
     <value>Next scheduled dates</value>
