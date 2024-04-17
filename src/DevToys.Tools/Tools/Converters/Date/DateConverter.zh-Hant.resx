@@ -121,7 +121,7 @@
     <value>Date converter tool</value>
   </data>
   <data name="DaylightSavingTime" xml:space="preserve">
-    <value>Daylight saving time.</value>
+    <value>日光節約時間。</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
     <value>日</value>
@@ -130,13 +130,13 @@
     <value>Convert date to human-readable date and vice versa</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
-    <value>There is no daylight saving time.</value>
+    <value>沒有日光節約時間。</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
     <value>DST Ambiguous time.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>Hour (24 hour)</value>
+    <value>小時（24 小時制式）</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
     <value>時區</value>
@@ -145,13 +145,13 @@
     <value>Local Date and Time</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>分</value>
+    <value>分鐘</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
     <value>月</value>
   </data>
   <data name="OffsetTitle" xml:space="preserve">
-    <value>Offset</value>
+    <value>偏移</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Time Date Timezone Epoch Timestamp Ticks</value>
@@ -161,13 +161,13 @@
     <value>秒</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
-    <value>There is daylight saving time.</value>
+    <value>有日光節約時間。</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
     <value>日期</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>UTC Date and Time</value>
+    <value>世界標準時間（UTC）日期和時間</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
     <value>UtcTicks</value>
@@ -179,7 +179,7 @@
     <value>現在</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Date Converter</value>
+    <value>日期轉換器</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>日期</value>
@@ -232,7 +232,7 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
-    <value>Unable to parse date</value>
+    <value>無法解析日期</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
@@ -240,7 +240,7 @@
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
-    <value>Unable to find the Timezone Provided please check if the timezone exist here https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
+    <value>無法找到所指定的時區，請檢查該時區是否存在於此處：https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
