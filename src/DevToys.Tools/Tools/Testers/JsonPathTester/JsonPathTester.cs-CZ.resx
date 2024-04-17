@@ -118,61 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath Tester tool</value>
+    <value>Nástroj pro testování JSONPath</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>Array slice operator</value>
+    <value>Operátor řezu pole</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
-    <value>Bracket-notated child or children</value>
+    <value>Závorkový zápis dítěte nebo dětí</value>
   </data>
   <data name="CheatSheetCurrentObjectElement" xml:space="preserve">
-    <value>Used for filter expressions. Refers to the current node for further processing.</value>
+    <value>Používá se pro výrazy filtrů. Pro další zpracování odkazuje na aktuální uzel.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Popis</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
-    <value>Dot-notated child</value>
+    <value>Tečkový zápis dítěte</value>
   </data>
   <data name="CheatSheetFilterExpression" xml:space="preserve">
-    <value>Selects all elements in an object or array that match the specified boolean expression. Returns a list.</value>
+    <value>Vybere všechny prvky objektu nebo pole, které odpovídají zadanému booleovskému výrazu. Vrací list.</value>
   </data>
   <data name="CheatSheetRecursiveDescent" xml:space="preserve">
-    <value>Performs a deep scan for the specified property in all available objects. Always returns a list, even for a single match.</value>
+    <value>Provede hluboký sken zadané vlastnosti ve všech dostupných objektech. Vždy vrátí list, a to i v případě jediné shody.</value>
   </data>
   <data name="CheatSheetRootObjectElement" xml:space="preserve">
-    <value>The root object or array.</value>
+    <value>Kořenový objekt nebo pole.</value>
   </data>
   <data name="CheatSheetScriptExpression" xml:space="preserve">
-    <value>Script expression.</value>
+    <value>Výraz skriptu.</value>
   </data>
   <data name="CheatSheetSubscriptOperator" xml:space="preserve">
-    <value>Selects the n-th element from an array. Indexes start from 0.</value>
+    <value>Vybere n-tý prvek pole. Indexy začínají od 0.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
     <value>Syntax</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Tahák</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
-    <value>Selects n1 and n2 array items. Returns a list.</value>
+    <value>Vyberte n1-tou a n2-tou položku pole. Vrátí list.</value>
   </data>
   <data name="CheatSheetWildcard" xml:space="preserve">
-    <value>Wildcard. Selects all elements in an object or array, regardless of their names or indexes.</value>
+    <value>Žolík. Vybere všechny prvky objektu nebo pole bez ohledu na jejich názvy nebo indexy.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>Otestovat JSONPath</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Vybraný vstupní soubor neexistuje.</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>Text nebo cesta k souboru, který obsahuje JSON</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSONPath</value>
+    <value>Text nebo cesta k souboru, který obsahuje JSONPath</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
     <value>JSONPath</value>
@@ -184,19 +184,19 @@
     <value>Zadejte prosím vstupní text nebo soubor</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>Tester JSONPath</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>Nenalezena žádná shoda</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Výsledek testu</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Cesta k výstupnímu souboru</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>path json</value>
+    <value>cesta json</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSONPath</value>
