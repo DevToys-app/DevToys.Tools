@@ -127,7 +127,7 @@
     <value>Binary</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
     <value>Please set at least two characters in the custom dictionary</value>
@@ -167,7 +167,7 @@
     <value>Octal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>輸出</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
     <value>The desired base to convert to.</value>
