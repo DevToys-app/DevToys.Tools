@@ -184,7 +184,7 @@
     <value>Text or path to a file to treat.</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Zadejte prosím vstupní text nebo soubor</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
     <value>InVeRsE CaSe</value>
@@ -202,7 +202,7 @@
     <value>lower case</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Cesta k výstupnímu souboru</value>
   </data>
   <data name="Paragraphs" xml:space="preserve">
     <value>Paragraphs</value>
