@@ -124,7 +124,7 @@
     <value>Read or generate a QR Code from a text. Can be exported as SVG.</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
-    <value>Export as SVG</value>
+    <value>匯出為 SVG</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
     <value>QR Code</value>
@@ -133,7 +133,7 @@
     <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Text</value>
+    <value>文字</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>QR Code Encoder / Decoder</value>
