@@ -136,31 +136,31 @@
     <value>Compression mode</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>Compression ratio</value>
+    <value>Степень сжатия</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
     <value>{0:0.#} %</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Конфигурация</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compress or decompress a text in GZip</value>
+    <value>Сжать или распаковать текст в GZip</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>Текст для сжатия или GZip для распаковки</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Ввод</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;Invalid GZip data&gt;</value>
+    <value>&lt;Невалидные данные GZip&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>Сжатие / распаковка GZip</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Вывод</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>
