@@ -154,7 +154,7 @@
     <value>Смещение</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks</value>
+    <value>Время Дата Часовой пояс Эпоха Отметка времени Тики</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
