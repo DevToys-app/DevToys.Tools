@@ -118,94 +118,93 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Regular Expression Tester tool</value>
+    <value>正規表現のテストツール</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
     <value>All matches</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
-    <value>Find all the matches in the text or stop after the first match.</value>
+    <value>テキスト内の一致するものをすべて検索します</value>
   </data>
   <data name="CheatSheetAlternation" xml:space="preserve">
-    <value>Alternation</value>
+    <value>Alternation (選択)</value>
   </data>
   <data name="CheatSheetAlternationDetails" xml:space="preserve">
-    <value>Acts like a boolean OR. Matches the expression before or after the |.
-It can operate within a group, or on a whole expression. The patterns will be tested in order.</value>
+    <value>bool 値の OR のように機能する。| の前後の式と一致。
+グループ内または式全体で操作できる。パターンは順番にテストされる</value>
   </data>
   <data name="CheatSheetAnyCharacter" xml:space="preserve">
-    <value>Any character except newline</value>
+    <value>改行を除く任意の文字</value>
   </data>
   <data name="CheatSheetAnyCharacterDetails" xml:space="preserve">
-    <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
+    <value>改行以外の任意の文字と一致。[^\n\r] と同等</value>
   </data>
   <data name="CheatSheetAtomicGroup" xml:space="preserve">
-    <value>Atomic group</value>
+    <value>アトミックグループ</value>
   </data>
   <data name="CheatSheetAtomicGroupDetails" xml:space="preserve">
-    <value>Non-capturing group that discards backtracking positions once matched.
-For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option has matched, the atomic group prevents backtracking to retry with the a option.</value>
+    <value>一度一致すると、バックトラックの位置を破棄する非捕捉グループ。
+たとえば、/(?&gt;ab|a)b/ は最長の文字列 abb には一致するが、ab には一致しない。
+これは、ab オプションが一致すると、アトミックグループが、a オプションを使用して再試行するバックトラックを抑制するためである。</value>
   </data>
   <data name="CheatSheetBeginning" xml:space="preserve">
-    <value>Beginning</value>
+    <value>文字列の先頭</value>
   </data>
   <data name="CheatSheetBeginningDetails" xml:space="preserve">
-    <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
+    <value>文字列の先頭、または複数行フラグ (m) が有効な場合は行の先頭と一致。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetBeginningOfString" xml:space="preserve">
-    <value>Beginning of string</value>
+    <value>文字列の始端</value>
   </data>
   <data name="CheatSheetBeginningOfStringDetails" xml:space="preserve">
-    <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>文字列全体の先頭のみに一致。^ とは異なり、複数行フラグ (m) の影響を受けない (無視される)。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetBell" xml:space="preserve">
     <value>Bell</value>
   </data>
   <data name="CheatSheetBellDetails" xml:space="preserve">
-    <value>Matches a BELL character (char code 7).</value>
+    <value>BELL 文字 (文字コード 7) と一致する</value>
   </data>
   <data name="CheatSheetBranchResetGroup" xml:space="preserve">
-    <value>Branch reset group</value>
+    <value>ブランチリセットグループ</value>
   </data>
   <data name="CheatSheetBranchResetGroupDetails" xml:space="preserve">
-    <value>Define alternative groups that share the same group numbers.
-For example, in (?|(a)|(b)) both groups (a and b) would be counted as group #1.</value>
+    <value>同じグループ番号を共有する代替グループを定義する。
+(?|(a)|(b)) では、a と b の両方のグループがグループ #1 としてカウントされる</value>
   </data>
   <data name="CheatSheetCaptureGroup" xml:space="preserve">
-    <value>Capture group</value>
+    <value>番号付きグループ</value>
   </data>
   <data name="CheatSheetCaptureGroupDetails" xml:space="preserve">
-    <value>Inserts the results of the specified capture group. For example, $3 would insert the third capture group.
-There are multiple syntaxes for this feature:
-
+    <value>指定されたキャプチャグループの結果が代入される。 例えば $3 は 3 番目のキャプチャグループが代入される。この式には複数の構文がある。
 $1 \1 \{1}</value>
   </data>
   <data name="CheatSheetCapturingGroup" xml:space="preserve">
-    <value>Capturing group</value>
+    <value>キャプチャグループ</value>
   </data>
   <data name="CheatSheetCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
+    <value>複数のトークンをグループ化し、部分文字列の抽出や、後方参照を使用するためのグループを作成する</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
-    <value>Carriage return</value>
+    <value>キャリッジリターン (復帰)</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
-    <value>Matches a CARRIAGE RETURN character (char code 13).</value>
+    <value>キャリッジリターン文字 (CR。文字コード 13) と一致する</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
-    <value>Anchors</value>
+    <value>アンカー</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
-    <value>Character classes</value>
+    <value>文字クラス</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>文字のエスケープ</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
-    <value>Groups and References</value>
+    <value>グループと参照</value>
   </data>
   <data name="CheatSheetCategoryLookaround" xml:space="preserve">
-    <value>Lookaround</value>
+    <value>ルックアラウンド</value>
   </data>
   <data name="CheatSheetCategoryQuantifiersAlternation" xml:space="preserve">
     <value>Quantifiers and Alternation</value>
