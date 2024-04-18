@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Cron parsing tool</value>
+    <value>Cron 解析工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>設置</value>
@@ -169,7 +169,7 @@
     <value>Next scheduled dates</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Cron 剖析器</value>
+    <value>Cron 解析器</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
     <value>Whether the Cron expression should include seconds in its definition</value>
