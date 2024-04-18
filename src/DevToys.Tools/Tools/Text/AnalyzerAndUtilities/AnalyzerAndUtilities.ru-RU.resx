@@ -133,7 +133,7 @@
     <value>aLtErNaTiNg cAsE</value>
   </data>
   <data name="Bytes" xml:space="preserve">
-    <value>Bytes</value>
+    <value>Байтов</value>
   </data>
   <data name="CamelCase" xml:space="preserve">
     <value>camelCase</value>
@@ -151,10 +151,10 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>Convert case</value>
+    <value>Конвертировать кейс</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Convert line break</value>
+    <value>Преобразовывать переносы строк</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Analyze text and provide some basic utility tools</value>
