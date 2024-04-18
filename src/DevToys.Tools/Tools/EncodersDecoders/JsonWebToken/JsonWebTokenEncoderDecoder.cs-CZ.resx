@@ -290,15 +290,15 @@
     <comment>Claim</comment>
   </data>
   <data name="groups" xml:space="preserve">
-    <value>The "groups" claim provides object IDs that represent the group memberships of the subject. The groupMembershipClaims property of the application manifest configures the groups claim on a per-application basis. A value of null excludes all groups, a value of SecurityGroup includes only Active Directory Security Group memberships, and a value of All includes both Security Groups and Microsoft 365 Distribution Lists.See the hasgroups claim for details on using the groups claim with the implicit grant. For other flows, if the number of groups the user is in goes over 150 for SAML and 200 for JWT, then Microsoft Entra ID adds an overage claim to the claim sources. The claim sources point to the Microsoft Graph endpoint that contains the list of groups for the user.</value>
+    <value>Claim "groups" poskytuje ID objektů, které představují skupinová členství předmětu. Vlastnost groupMembershipClaims manifestu aplikace konfiguruje skupinové claimy na základě jednotlivých aplikací. Hodnota null vylučuje všechny skupiny, hodnota SecurityGroup zahrnuje pouze členství ve skupině Active Directory Security a hodnota All zahrnuje jak skupiny Security skupiny, tak distribuční listy Microsoft 365. Podrobnosti o použití claimu groups s implicitním udělením viz claim hasgroups. U ostatních toků, pokud počet skupin, ve kterých je uživatel, přesáhne 150 pro SAML a 200 pro JWT, pak Microsoft Entra ID přidá do zdrojů claimu nadlimitní claim. Zdroje claimu ukazují na koncový bod Microsoft Graph, který obsahuje seznam skupin pro uživatele.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="groups:src1" xml:space="preserve">
-    <value>The "groups:src1" claim includes a link to the full groups list for the user when token requests are too large for the token. For JWTs as a distributed claim, for SAML as a new claim in place of the groups claim.Example JWT Value:"groups":"src1""_claim_sources: "src1" : { "endpoint" : "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects" }</value>
+    <value>Claim "groups:src1" zahrnuje odkaz na úplný seznam skupin pro uživatele, pokud jsou požadavky na token příliš velké. V případě JWT jako rozdělený claim, v případě SAML jako nový claim namísto claimu groups. Příklad JWT hodnoty: "groups":"src1""_claim_sources: "src1" : { "endpoint" : "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects" }</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="hasgroups" xml:space="preserve">
-    <value>If present, always true, indicates whether the user is in at least one group. Used in place of the groups claim for JWTs in implicit grant flows if the full groups claim would extend the URI fragment beyond the URL length limits (currently six or more groups). Indicates that the client should use the Microsoft Graph API to determine the groups (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects) of the user.</value>
+    <value>Pokud je přítomen, vždy true, označuje, zda je uživatel alespoň v jedné skupině. Používá se místo claimu groups pro JWT v implicitních grantových tocích, pokud by claim plných skupin prodloužil URI fragment nad limity délky URL (v současnosti šest a více skupin). Označuje, že klient má použít rozhraní Microsoft Graph API k určení skupin (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects) uživatele.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
@@ -306,11 +306,11 @@
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
-    <value>The "iat" (issued at) claim identifies the time at which the JWT was issued. This claim can be used to determine the age of the JWT. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>Claim "iat" (issued at) označuje čas, kdy byl JWT vydán. Tento claim lze použít k určení stáří JWT. Jeho hodnota MUSÍ být číslo obsahující hodnotu NumericDate. Použití tohoto claimu je NEPOVINNÉ.</value>
     <comment>Claim</comment>
   </data>
   <data name="idp" xml:space="preserve">
-    <value>The "idp" claim records the identity provider that authenticated the subject of the token. This value is identical to the value of the Issuer claim unless the user account isn't in the same tenant as the issuer, such as guests. Use the value of iss if the claim isn't present.</value>
+    <value>Claim "idp" zaznamenává poskytovatele identity, který ověřil předmět tokenu. Tato hodnota je totožná s hodnotu claimu vydavatele, pokud uživatelský účet není ve stejném rámci jako vydavatel, jako jsou například hosté. Pokud claim není přítomen, použijte hodnotu iss.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
@@ -318,11 +318,11 @@
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
-    <value>The "iss" (issuer) claim identifies the principal that issued the JWT. The processing of this claim is generally application specific. The "iss" value is a case-sensitive string containing a StringOrURI value. Use of this claim is OPTIONAL.</value>
+    <value>Claim "iss" (issuer) označuje zadavatele, který JWT vydal. Zpracování toho claimu je obecně specifické pro danou aplikaci. Hodnota "iss" je řetězec rozlišující malá a velká písmena obsahující hodnotu StringOrURI. Použití tohoto claimu je NEPOVINNÉ.</value>
     <comment>Claim</comment>
   </data>
   <data name="jti" xml:space="preserve">
-    <value>The "jti" (JWT ID) claim provides a unique identifier for the JWT. The identifier value MUST be assigned in a manner that ensures that there is a negligible probability that the same value will be accidentally assigned to a different data object; if the application uses multiple issuers, collisions MUST be prevented among values produced by different issuers as well. The "jti" claim can be used to prevent the JWT from being replayed. The "jti" value is a case- sensitive string. Use of this claim is OPTIONAL.</value>
+    <value>Claim "jti" (JWT ID) poskytuje jedinečný identifikátor pro JWT. Hodnota identifikátoru MUSÍ být přiřazena takovým způsobem, který zajišťuje, že existuje zanedbatelná šance, že stejná hodnota bude omylem přiřazena jinému datovému objektu; pokud aplikace používá více vydavatelů, MUSÍ být také zabráněno kolizím mezi hodnotami vytvořenými odlišnými vydavateli. Claim "jti" lze použít k zabránění přehrávání JWT. Hodnota "jti" je řetězec rozlišující malá a velká písmena. Použití tohoto claimu je NEPOVINNÉ.</value>
     <comment>Claim</comment>
   </data>
   <data name="kid" xml:space="preserve">
@@ -334,7 +334,7 @@
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
-    <value>The "name" claim provides a human-readable value that identifies the subject of the token. The value can vary, it's mutable, and is for display purposes only. To receive this claim, use the profile scope.</value>
+    <value>Claim "name" poskytuje člověkem čitelnou hodnotu, která identifikuje předmět tokenu. Hodnota se může lišit, je mutovatelná a slouží pouze pro účely zobrazení. Chcete-li tento claim přijmout, použijte rozsah profilu.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="nbf" xml:space="preserve">
@@ -434,7 +434,7 @@
     <comment>Error message</comment>
   </data>
   <data name="ver" xml:space="preserve">
-    <value>The "ver" claim indicates the version of the access token.</value>
+    <value>Claim "ver" značí verzi přístupového tokenu.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="wids" xml:space="preserve">
@@ -442,7 +442,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="x5t" xml:space="preserve">
-    <value>Functions the same as "kid". "x5t" is a legacy claim emitted only in v1.0 access tokens for compatibility purposes.</value>
+    <value>Funguje stejné jako "kid" "x5t" je starší claim vydaný pouze v v1.0 přístupových tokenech pro účely kompatibility.</value>
     <comment>Claim</comment>
   </data>
   <data name="xms_cc" xml:space="preserve">
