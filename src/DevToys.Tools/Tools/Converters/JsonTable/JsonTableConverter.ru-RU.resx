@@ -136,49 +136,49 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Конфигурация</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Ввод</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Вывод</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
+    <value>Пожалуйста, предоставьте корректный JSON массив объектов</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>Выберите, какой формат копируется в буфер обмена</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>Формат буфера обмена</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>Comma separated values (CSV)</value>
+    <value>Значения, разделенные запятыми (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>Tab separated values (TSV)</value>
+    <value>Значения разделенных табуляцией (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>Semicolon separated values (CSV French)</value>
+    <value>Значения через точку с запятой (CSV французский)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>Текст или путь к файлу для преобразования из JSON</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>File where the result should be persisted.</value>
+    <value>Файл, в котором результат должен быть сохранен.</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>Выберите формат для вывода</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Копировать как</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Сохранить как</value>
   </data>
 </root>
