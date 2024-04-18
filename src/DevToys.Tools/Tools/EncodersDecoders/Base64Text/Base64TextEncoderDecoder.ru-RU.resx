@@ -118,46 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Text Encoder and Decoder tool</value>
+    <value>Инструмент преобразования текста Base64</value>
   </data>
   <data name="Ascii" xml:space="preserve">
     <value>ASCII</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Конфигурация</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Декодер</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Выберите, какой режим преобразования вы хотите использовать</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Кодировать</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode Base64 text</value>
+    <value>Перекодировать или декодировать Base64 текст</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Конвертирование</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 text data</value>
+    <value>Преобразованные данные текста Base64</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
-    <value>Select which encoding you want to use</value>
+    <value>Выберите используемую кодировку</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Кодирование</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Кодирование</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>Выбранный входной файл не существует</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to encode or Base64 to decode</value>
+    <value>Текст или путь к файлу для кодирования или Base64 для декодирования</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Input</value>
