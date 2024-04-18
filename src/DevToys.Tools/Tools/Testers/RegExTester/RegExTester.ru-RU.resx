@@ -691,16 +691,16 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Match</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Значение</value>
   </data>
   <data name="Multiline" xml:space="preserve">
-    <value>Multiline</value>
+    <value>Многострочный</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
     <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>Опции</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
     <value>Regular expression</value>
