@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Number Base Converter tool</value>
+    <value>數值進制轉換工具</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>進階模式</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>二進位</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>設置</value>
@@ -133,22 +133,22 @@
     <value>Please set at least two characters in the custom dictionary</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>自訂格式</value>
   </data>
   <data name="Decimal" xml:space="preserve">
-    <value>Decimal</value>
+    <value>十進位</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert numbers from one base to another</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>格式化數值</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
-    <value>Hexadecimal</value>
+    <value>十六進位</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>輸入</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
     <value>The base of the number to convert</value>
@@ -164,7 +164,7 @@
     <value>Number Base Converter</value>
   </data>
   <data name="Octal" xml:space="preserve">
-    <value>Octal</value>
+    <value>八進位</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>輸出</value>
@@ -173,7 +173,7 @@
     <value>The desired base to convert to.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>輸出字典</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -182,16 +182,16 @@
     <value>RFC-4648 Base32</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Extended Hex</value>
+    <value>RFC-4648 Base32 十六進位擴充</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
     <value>RFC-4648 Base64</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Url Encode</value>
+    <value>RFC-4648 Base64 URL 編碼</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>數值進制</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
     <value>The current {0} value isn't valid</value>
