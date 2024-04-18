@@ -122,7 +122,7 @@
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>The "acr" claim with a value of 0 indicates the end-user authentication didn't meet the requirements of ISO/IEC 29115.</value>
+    <value>Claim "acr" s hodnotou 0 značí, že ověření koncového uživatele nesplnilo požadavky ISO/IEC 29115.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
@@ -130,19 +130,19 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>The "aio" claim is an internal claim used by Microsoft Entra ID to record data for token reuse. Resources shouldn't use this claim.</value>
+    <value>Claim "aio" je interní claim, který používá Microsoft Entra ID k ukládání dat pro opětovné použití tokenu. Zdroje by neměly tento nárok používat.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
-    <value>Indicates the algorithm used to sign the token</value>
+    <value>Označuje algoritmus používaný k podpisu tokenu</value>
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Unknown token algorithm</value>
+    <value>Neznámý token algoritmus</value>
     <comment>Error message</comment>
   </data>
   <data name="amr" xml:space="preserve">
-    <value>The "amr" claim identifies the authentication method of the subject of the token.</value>
+    <value>Claim "amr" označuje autentizační metodu předmětu tokenu.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appid" xml:space="preserve">
@@ -166,15 +166,15 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>Popis</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>Typ</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
-    <value>Value</value>
+    <value>Hodnota</value>
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
@@ -186,47 +186,47 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>Validate actors</value>
+    <value>Ověřit aktéry</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
-    <value>Token audiences (separated by comma)</value>
+    <value>Příjemci tokenu (odděleni čárkou)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>Validate audiences</value>
+    <value>Ověřit příjemce</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>Vydavatelé tokenu (odděleni čárkou)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
-    <value>Validate issuer signing key</value>
+    <value>Ověřit podpisový klíč vydavatele</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerTitle" xml:space="preserve">
-    <value>Validate issuer</value>
+    <value>Ověřit vydavatele</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenLifetimeTitle" xml:space="preserve">
-    <value>Validate lifetime</value>
+    <value>Ověřit životnost</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Select which token parameters to validate</value>
+    <value>Vyberte parametry tokenu, které se mají ověřit</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
-    <value>Token validation settings</value>
+    <value>Nastavení ověření tokenu</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenTitle" xml:space="preserve">
-    <value>Validate Token</value>
+    <value>Ověřit token</value>
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Json Web Token </value>
+    <value>Kódovat a dekódovat JSON Web Token </value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
@@ -234,55 +234,55 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Token hashing algorithm</value>
+    <value>Hashovací algoritmus tokenu</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Token audience (separated by comma)</value>
+    <value>Příjemci tokenu (odděleni čárkou)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>Expire in day(s)</value>
+    <value>Vyprší za den(dny/dní)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>Expire in hour(s)</value>
+    <value>Vyprší za hodinu(hodiny/hodin)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
-    <value>Expire in minute(s)</value>
+    <value>Vyprší za minutu(minuty/minut)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMonthInputTitle" xml:space="preserve">
-    <value>Expire in month(s)</value>
+    <value>Vyprší za měsíc(měsíce/měsíců)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationYearInputTitle" xml:space="preserve">
-    <value>Expire in year(s)</value>
+    <value>Vyprší za rok(roky/let)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
-    <value>Token has audience</value>
+    <value>Token má příjemce</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>Token has expiration</value>
+    <value>Token má expiraci</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
-    <value>Token has issuer</value>
+    <value>Token má vydavatele</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenIssuerInputTitle" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>Vydavatelé tokenu (odděleni čárkou)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsDescription" xml:space="preserve">
-    <value>Select token parameters</value>
+    <value>Vybrat parametry tokenu</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>Nastavení</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
