@@ -142,7 +142,7 @@
     <value>時區</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
-    <value>Local Date and Time</value>
+    <value>本地日期及時間</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
     <value>分鐘</value>
