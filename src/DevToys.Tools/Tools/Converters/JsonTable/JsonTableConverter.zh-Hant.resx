@@ -121,7 +121,7 @@
     <value>JSON array to tabular form converter tool</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Array to Table</value>
+    <value>JSON 陣列至表格</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -129,7 +129,7 @@
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>JSON &gt; Table</value>
+    <value>JSON &gt; 表格</value>
     <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
@@ -145,14 +145,14 @@
     <value>輸出</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
+    <value>請提供有效的 JSON 物件陣列</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
     <value>Select which format is copied to clipboard</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>剪貼簿格式</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
     <value>逗號分隔值（CSV）</value>
