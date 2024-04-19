@@ -154,24 +154,24 @@
     <value>В строчку</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
-    <value>Put attributes on a new line</value>
+    <value>Разместить атрибуты на новой строке</value>
   </data>
   <data name="NewLineOnAttributesDescription" xml:space="preserve">
-    <value>Whether to put attributes on a new line</value>
+    <value>Добавлять ли атрибуты на новую строку</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 таб</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Вывод</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Путь к выходному файлу</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>XML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 пробела</value>
   </data>
 </root>
