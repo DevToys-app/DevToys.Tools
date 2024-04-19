@@ -232,47 +232,47 @@ $1 \1 \{1}</value>
     <value>Comment</value>
   </data>
   <data name="CheatSheetCommentDetails" xml:space="preserve">
-    <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
+    <value>Позволяет вставить комментарий в выражение, которое игнорируется при поиске совпадения.</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
-    <value>Conditional</value>
+    <value>Условие</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
-    <value>Conditionally matches one of two options based on whether a lookaround is matched.
-For example, /(?(?=a)ab|..)/ will match ab and zx but not ax, because if the first character matches the condition a then it evaluates the pattern ab.
+    <value>Условно соответствует одному из двух параметров, основанных на том, соответствует ли внешний вид.
+Например, /(?(?(?=a)ab|.. / будет соответствовать ab и zx, но не ax, потому что если первый символ соответствует условию, то он вычисляет шаблон ab.
 
-Any lookaround can be used as the condition. A lookahead will start the subsequent match at the start of the condition, a lookbehind will start it after.</value>
+В качестве условия может использоваться любой внешний вид. Следующий взгляд начнется в начале условия, после чего начнется его поиск.</value>
   </data>
   <data name="CheatSheetControlCharacterEscape" xml:space="preserve">
-    <value>Control character escape</value>
+    <value>Наличие контрольного символа</value>
   </data>
   <data name="CheatSheetControlCharacterEscapeDetails" xml:space="preserve">
-    <value>Escaped control character in the form \cZ. This can range from \cA (SOH, char code 1) to \cZ (SUB, char code 26).</value>
+    <value>Управляющий символ свернут в виде \cZ. Он может варьироваться от \cA (SOH, char code 1) до \cZ (SUB, char code 26).</value>
   </data>
   <data name="CheatSheetDefine" xml:space="preserve">
-    <value>Define</value>
+    <value>Определить</value>
   </data>
   <data name="CheatSheetDefineDetails" xml:space="preserve">
-    <value>Used to define named groups for use as subroutines without including them in the match.
-For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
+    <value>Используется для определения именованных групп для использования в качестве подпроцедур без их включения в матч.
+Например, /A(?(DEFINE)(? foo'Z)B\g'foo'/ будет соответствовать ABZ, потому что определяемая группа игнорируется в матче, за исключением определения подпроцедуры фото, на которую ссылается \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Описание</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Цифровой</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
-    <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
+    <value>Соответствует любому символу (0-9). Эквивалент [0-9].</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
-    <value>End</value>
+    <value>Конец</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
-    <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
+    <value>Соответствует концу строки или концу строки, если включен флаг мультилинейной (m). Это совпадает с позицией, а не с символом.</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
-    <value>End of string</value>
+    <value>Конец строки</value>
   </data>
   <data name="CheatSheetEndOfStringDetails" xml:space="preserve">
     <value>Matches the end of the string. Unlike $, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
