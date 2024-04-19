@@ -127,25 +127,25 @@
     <value>Сгенерировать UUIDs версии 1 и 4 (GUID)</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
-    <value>Generate UUID(s)</value>
+    <value>Генерировать UUID(ы)</value>
   </data>
   <data name="GenerateTitle" xml:space="preserve">
-    <value>Generate</value>
+    <value>Сгенерировать</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
-    <value>Hyphens</value>
+    <value>Дефисы</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should have hyphens or not</value>
+    <value>Должен ли генерируемый UUID иметь дефисы или нет</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>UUID Generator</value>
+    <value>Генерирование UUID</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>UUID(s)</value>
+    <value>UUID(ы)</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>GUID</value>
@@ -154,10 +154,10 @@
     <value>UUID</value>
   </data>
   <data name="Uppercase" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>Верхний регистр</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should be in uppercase or not</value>
+    <value>Должен ли сгенерированный UUID быть в верхнем регистре или нет</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -166,12 +166,12 @@
     <value>1</value>
   </data>
   <data name="VersionDescription" xml:space="preserve">
-    <value>Choose the version of UUID to generate</value>
+    <value>Выберите версию UUID для генерирования</value>
   </data>
   <data name="VersionOptionDescription" xml:space="preserve">
-    <value>The UUID version to generate</value>
+    <value>Версия UUID для генерации</value>
   </data>
   <data name="VersionTitle" xml:space="preserve">
-    <value>UUID version</value>
+    <value>Версия UUID</value>
   </data>
 </root>
