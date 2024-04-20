@@ -426,11 +426,11 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
-    <value>Audiences are empty or invalid</value>
+    <value>検証を行うための オーディエンスクレームの値が間違っているか入力されていません</value>
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
-    <value>Issuers are empty or invalid</value>
+    <value>検証を行うための 発行者クレームの値が間違っているか入力されていません</value>
     <comment>Error message</comment>
   </data>
   <data name="ver" xml:space="preserve">
@@ -450,39 +450,39 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>オン</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Token has default time</value>
+    <value>デフォルトの有効期間を設定する</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidHeader" xml:space="preserve">
-    <value>Unable to process the token header</value>
+    <value>ヘッダーの処理に失敗しました</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPayload" xml:space="preserve">
-    <value>Unable to process the token payload</value>
+    <value>ペイロードの処理に失敗しました</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPrivateKey" xml:space="preserve">
-    <value>Private key is either null or empty</value>
+    <value>有効な秘密鍵ではありません</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPublicKey" xml:space="preserve">
-    <value>Public key is either null or empty</value>
+    <value>有効な公開鍵ではありません</value>
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>秘密鍵</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
-    <value>Token Validated</value>
+    <value>指定された項目のすべてが検証済みのトークンです</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
-    <value>Unable to process the token signature</value>
+    <value>署名の処理に失敗しました</value>
     <comment>Error message</comment>
   </data>
   <data name="Base64" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Plain text</value>
+    <value>テキスト</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>署名の形式</value>
     <comment>Gui</comment>
   </data>
 </root>
