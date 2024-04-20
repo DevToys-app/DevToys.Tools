@@ -183,64 +183,61 @@ $1 \1 \{1}</value>
     <value>Zachytávací skupina</value>
   </data>
   <data name="CheatSheetCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
+    <value>Seskupí více tokenů a vytvoří skupinu zachytávaných pro vyjmutí podřetězce nebo používání zpětné reference.</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
     <value>Carriage return</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
-    <value>Matches a CARRIAGE RETURN character (char code 13).</value>
+    <value>Dává do shody znak CARRIAGE RETURN (char kód 13).</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
-    <value>Anchors</value>
+    <value>Ukotvení</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
-    <value>Character classes</value>
+    <value>Znakové třídy</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>Escapované znaky</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
-    <value>Groups and References</value>
+    <value>Skupiny a odkazy</value>
   </data>
   <data name="CheatSheetCategoryLookaround" xml:space="preserve">
-    <value>Lookaround</value>
+    <value>Rozhlédnutí</value>
   </data>
   <data name="CheatSheetCategoryQuantifiersAlternation" xml:space="preserve">
-    <value>Quantifiers and Alternation</value>
+    <value>Kvantifikátory a střídání</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
-    <value>Special</value>
+    <value>Speciální</value>
   </data>
   <data name="CheatSheetCategorySubstitution" xml:space="preserve">
-    <value>Substitution</value>
+    <value>Substituce</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
-    <value>Character range</value>
+    <value>Rozsah znaků</value>
   </data>
   <data name="CheatSheetCharacterRangeDetails" xml:space="preserve">
-    <value>Matches a character having a character code between the two specified characters inclusive.</value>
+    <value>Dává do shody znak, jehož char kód je mezi dvěma zadanými znaky včetně.</value>
   </data>
   <data name="CheatSheetCharacterSet" xml:space="preserve">
-    <value>A single character of A, b or c</value>
+    <value>Jediný znak A, b nebo c</value>
   </data>
   <data name="CheatSheetCharacterSetDetails" xml:space="preserve">
-    <value>Matches either an A, b or c character</value>
+    <value>Dává do shody buď znak A, b nebo c</value>
   </data>
   <data name="CheatSheetComment" xml:space="preserve">
-    <value>Comment</value>
+    <value>Komentář</value>
   </data>
   <data name="CheatSheetCommentDetails" xml:space="preserve">
-    <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
+    <value>Umožňuje vložit komentář do vašeho výrazu, který je při hledání shody ignorován.</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
-    <value>Conditional</value>
+    <value>Podmíněné</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
-    <value>Conditionally matches one of two options based on whether a lookaround is matched.
-For example, /(?(?=a)ab|..)/ will match ab and zx but not ax, because if the first character matches the condition a then it evaluates the pattern ab.
-
-Any lookaround can be used as the condition. A lookahead will start the subsequent match at the start of the condition, a lookbehind will start it after.</value>
+    <value>Podmíněně přiřazuje jednu ze dvou možností na základě toho, zda je přiřazena možnost rozhlédnutí. Například /(?(?=a)ab|..)/ dá do shody ab a zx, ale ne ax, protože pokud první znak odpovídá podmínce a, pak vyhodnotí vzor ab. Jako podmínku lze použít libovolné rozhlédnutí. Rozhlédnutí dopředu spustí následnou shodu na začátku podmínky, rozhlédnutí dozadu ji spustí až po ní.</value>
   </data>
   <data name="CheatSheetControlCharacterEscape" xml:space="preserve">
     <value>Control character escape</value>
@@ -256,31 +253,31 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Popis</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Číslice</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
-    <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
+    <value>Dává do shody jakýkoliv číslicový znak (0-9). Ekvivalentní k [0-9].</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
-    <value>End</value>
+    <value>Konec</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
-    <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
+    <value>Dává do shody konec řetězce nebo konec řádku pokud je víceřádková vlajka (m) aktivována. Dává do shody pozici, ne znak.</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
-    <value>End of string</value>
+    <value>Konec řetězce</value>
   </data>
   <data name="CheatSheetEndOfStringDetails" xml:space="preserve">
-    <value>Matches the end of the string. Unlike $, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>Dává do shody konec řetězce. Na rozdíl od $ není ovlivněno víceřádkovou vlajkou (m). Dává do shody pozici, ne znak.</value>
   </data>
   <data name="CheatSheetEsc" xml:space="preserve">
     <value>Esc</value>
   </data>
   <data name="CheatSheetEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>Escapované znaky</value>
   </data>
   <data name="CheatSheetEscapedCharactersDetails" xml:space="preserve">
     <value>For convenience, these escaped characters are supported in the Replace string in RegExr: \n, \r, \t, \\, and unicode escapes \uFFFF. This may vary in your deploy environment.</value>
