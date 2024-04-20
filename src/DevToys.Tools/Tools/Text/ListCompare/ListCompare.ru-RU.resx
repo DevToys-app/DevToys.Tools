@@ -154,21 +154,21 @@
     <value>B</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>List Comparer</value>
+    <value>Сравнение текстов</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to a file to get compared list (display if empty)</value>
+    <value>Путь к файлу для сравнения (отображение, если пусто)</value>
   </data>
   <data name="PathListA" xml:space="preserve">
-    <value>Path of the first list to compare</value>
+    <value>Путь к первому списку для сравнения</value>
   </data>
   <data name="PathListB" xml:space="preserve">
-    <value>Path of the second list to compare</value>
+    <value>Путь к первому списку для сравнения</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>List Compare</value>
+    <value>Сравнение текстов</value>
   </data>
   <data name="TextCaseSensitiveComparison" xml:space="preserve">
-    <value>Case sensitive comparison</value>
+    <value>Сравнение чувствительности к регистру</value>
   </data>
 </root>
