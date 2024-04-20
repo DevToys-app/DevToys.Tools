@@ -133,7 +133,7 @@
     <value>Описание</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
-    <value>Dot-notated child</value>
+    <value>Датчик с точкой подачи</value>
   </data>
   <data name="CheatSheetFilterExpression" xml:space="preserve">
     <value>Выбирает все элементы в объекте или массиве, соответствующие указанному логическому выражению. Возвращает список.</value>
@@ -163,16 +163,16 @@
     <value>Подсказка. Выбирает все элементы в объекте или массиве, независимо от их имен или индексов.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>Тестирование JSONPath</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Выбранный входной файл не существует.</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>Текст или путь к файлу, содержащему JSON-формат</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSONPath</value>
+    <value>Текст или путь к файлу, содержащему JSONPath</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
     <value>JSONPath</value>
@@ -181,22 +181,22 @@
     <value>JSON</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Пожалуйста, укажите входной текст или входной файл</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>Тестирование JSONPath</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>Не найдено ни одного совпадения</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Результат тестирования</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Путь к выходному файлу</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>path json</value>
+    <value>путь json</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSONPath</value>
