@@ -601,10 +601,10 @@ Uvnitř znakové sady musí být escapovány pouze \, - a ].</value>
     <value>Unicode escapovaný znak ve tvaru \x{FF}.</value>
   </data>
   <data name="CheatSheetUnicodeGrapheme" xml:space="preserve">
-    <value>Unicode grapheme</value>
+    <value>Unicode grafém</value>
   </data>
   <data name="CheatSheetUnicodeGraphemeDetails" xml:space="preserve">
-    <value>Matches any single unicode grapheme (ie. character). This includes line breaks (regardless of the dotall mode) and graphemes encoded as multiple code points.</value>
+    <value>Dává do shody jakýkoliv unicode grafém (např. znak). To zahrnuje konce řádků (bez ohledu na režim dotallu) a grafém zakódované jako více kódových bodů.</value>
   </data>
   <data name="CheatSheetUnicodeScript" xml:space="preserve">
     <value>Unicode skript</value>
@@ -634,7 +634,7 @@ Uvnitř znakové sady musí být escapovány pouze \, - a ].</value>
     <value>Dává do shody pozici slovní hranice mezi slovním znakem a neslovním znak nebo pozicí (začátek / konec řetězce). Více informací najdete ve třídě slovních znaků (w).</value>
   </data>
   <data name="CheatSheetWordDetails" xml:space="preserve">
-    <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
+    <value>Dává do shody jakýkoliv slovní znak (alfanumerický a podtržítko). Dává do shody pouze nízké ascii znaky (bez akcentů nebo nerománských znaků). Ekvivalentní k [A-Za-z0-9_]</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Konfigurace</value>
@@ -652,7 +652,7 @@ Uvnitř znakové sady musí být escapovány pouze \, - a ].</value>
     <value>ECMA Script</value>
   </data>
   <data name="EcmaScriptDescription" xml:space="preserve">
-    <value>Enables ECMAScript-compliant behavior for the expression. This value can be used only in conjunction with the Culture Invariant, Ignore Case and Multiline options.</value>
+    <value>Povolí chování výrazu v souladu s ECMAScriptem. Tuto hodnotu lze použít pouze ve spojení s možnostmi Jakákoliv kultura, Ignorovat velikost písmen a Víceřádkové.</value>
   </data>
   <data name="IgnoreCase" xml:space="preserve">
     <value>Ignorovat velikost písmen</value>
@@ -688,10 +688,10 @@ Uvnitř znakové sady musí být escapovány pouze \, - a ].</value>
     <value>Hodnota</value>
   </data>
   <data name="Multiline" xml:space="preserve">
-    <value>Multiline</value>
+    <value>Víceřádkové</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
-    <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
+    <value>Změní význam znaků ^ a $ tak, aby dávaly do shody na začátku a na konci libovolného řádku, nikoli pouze na začátku a na konci celého řetězce.</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Možnosti</value>
@@ -712,10 +712,10 @@ Uvnitř znakové sady musí být escapovány pouze \, - a ].</value>
     <value>RegEx</value>
   </data>
   <data name="Singleline" xml:space="preserve">
-    <value>Singleline</value>
+    <value>Jednořádkové</value>
   </data>
   <data name="SinglelineDescription" xml:space="preserve">
-    <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
+    <value>Změní význam tečky (.) tak, aby dávala do shody každý znak (namísto každého znaku kromě \n).</value>
   </data>
   <data name="Text" xml:space="preserve">
     <value>Text</value>
