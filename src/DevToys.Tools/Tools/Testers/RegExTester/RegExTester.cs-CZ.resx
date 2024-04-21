@@ -477,16 +477,16 @@ Pro tuto funkci existuje více syntaxí: \g&lt;name&gt; \g'name' (?&amp;name) (?
     <value>Dává do shody znak NULL (char kód 0).</value>
   </data>
   <data name="CheatSheetNumericReference" xml:space="preserve">
-    <value>Numeric reference</value>
+    <value>Číselný odkaz</value>
   </data>
   <data name="CheatSheetNumericReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a capture group. For example \1 matches the results of the first capture group &amp; \3 matches the third.
-There are multiple syntaxes for this feature: \1 \g1 \g{1}.
+    <value>Dává do shody výsledky skupiny zachytávaných. Například \1 dává do shody výsledky první skupiny zachytávaných a \3 dává do shody tu třetí.
+Pro tuto funkci existuje více syntaxí: \1 \g1 \g{1}.
 
-The latter syntaxes support relative values preceded by + or -. For example \g-1 would match the group preceding the reference.</value>
+Posledně zmíněné syntaxe podporují relativní hodnoty, před kterými je znak + nebo -. Například \g-1 by dalo do shody skupinu předcházející odkazu.</value>
   </data>
   <data name="CheatSheetNumericSubroutine" xml:space="preserve">
-    <value>Numeric subroutine</value>
+    <value>Číselná podfunkce</value>
   </data>
   <data name="CheatSheetNumericSubroutineDetails" xml:space="preserve">
     <value>Matches the expression in a capture group. Compare this to a reference, that matches the result. For example /(a|b)\g'1'/ can match ab, because the expression a|b is evaluated again.
