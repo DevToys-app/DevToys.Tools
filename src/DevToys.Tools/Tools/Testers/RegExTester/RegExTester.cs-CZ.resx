@@ -489,116 +489,116 @@ Posledně zmíněné syntaxe podporují relativní hodnoty, před kterými je zn
     <value>Číselná podfunkce</value>
   </data>
   <data name="CheatSheetNumericSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result. For example /(a|b)\g'1'/ can match ab, because the expression a|b is evaluated again.
-There are multiple syntaxes for this feature: \g&lt;1&gt; \g'1' (?1).
+    <value>Dává do shody výraz ve skupině zachytávaných. To porovná s odkazem, který odpovídá výsledku. Například /(a|b)\g'1'/ může dát do shody ab, protože výraz a|b je znovu vyhodnocován. 
+Pro tuto funkci existuje více syntaxí: \g&lt;1&gt; \g'1' (?1).
 
-Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; would match the group preceding the reference.</value>
+Posledně zmíněné syntaxe podporují relativní hodnoty, před kterými je znak + nebo -. Například \g&lt;-1&gt; by dalo do shody skupinu předcházející odkazu.</value>
   </data>
   <data name="CheatSheetOctalEscape" xml:space="preserve">
-    <value>Octal escape</value>
+    <value>Osmičkový escape</value>
   </data>
   <data name="CheatSheetOctalEscapeDetails" xml:space="preserve">
-    <value>Octal escaped character in the form \000. Value must be less than 255 (\377).
-The syntax \o{FFF} is also supported.</value>
+    <value>Osmičkový escapovaný znak ve tvaru \000. Hodnota musí být menší než 255 (\377).
+Syntaxe \o{FFF} je také podporována.</value>
   </data>
   <data name="CheatSheetOptional" xml:space="preserve">
-    <value>Optional</value>
+    <value>Nepovinné</value>
   </data>
   <data name="CheatSheetOptionalDetails" xml:space="preserve">
-    <value>Matches 0 or 1 of the preceding token, effectively making it optional.</value>
+    <value>Dává do shody 0 nebo 1 předcházející tokenu, čímž ho fakticky činí nepovinným.</value>
   </data>
   <data name="CheatSheetPlus" xml:space="preserve">
     <value>Plus</value>
   </data>
   <data name="CheatSheetPlusDetails" xml:space="preserve">
-    <value>Matches 1 or more of the preceding token.</value>
+    <value>Dává do shody 1 nebo více z předcházejícího tokenu.</value>
   </data>
   <data name="CheatSheetPositiveLookahead" xml:space="preserve">
-    <value>Positive lookahead</value>
+    <value>Kladné rozhlédnutí dopředu</value>
   </data>
   <data name="CheatSheetPositiveLookaheadDetails" xml:space="preserve">
-    <value>Matches a group after the main expression without including it in the result.</value>
+    <value>Dává do shody skupinu po hlavním výrazu, aniž by byl zahrnut do výsledku.</value>
   </data>
   <data name="CheatSheetPositiveLookbehind" xml:space="preserve">
-    <value>Positive lookbehind</value>
+    <value>Kladné rozhlédnutí dozadu</value>
   </data>
   <data name="CheatSheetPositiveLookbehindDetails" xml:space="preserve">
-    <value>Matches a group before the main expression without including it in the result.</value>
+    <value>Dává do shody skupinu před hlavním výrazem, aniž by byl zahrnut do výsledku.</value>
   </data>
   <data name="CheatSheetPossessive" xml:space="preserve">
-    <value>Possessive</value>
+    <value>Přivlastňovací</value>
   </data>
   <data name="CheatSheetPossessiveDetails" xml:space="preserve">
-    <value>Makes the preceding quantifier possessive. It will match as many characters as possible, and will not release them to match subsequent tokens.
-For example /.*a/ would match aaa, but /.*+a/ would not, because the repeating dot would match and not release the last character to match a.</value>
+    <value>Udělá z předchozího kvantifikátoru přivlastňovací. Bude dávat do shody co nejvíce znaků a neumožní jim shodovat se s následujícími tokeny.
+Například /.*a/ by dal do shody aaa, ale /.*+a/ ne, protože opakující tečka by se shodovala a neumožnila, aby se poslední znak dal do shody s a.</value>
   </data>
   <data name="CheatSheetPreviousMatchEnd" xml:space="preserve">
-    <value>Previous match end</value>
+    <value>Předchozí konec shody</value>
   </data>
   <data name="CheatSheetPreviousMatchEndDetails" xml:space="preserve">
-    <value>Matches the end position of the previous match. This matches a position, not a character.</value>
+    <value>Dává do shody koncovou pozici předchozí shody. Dává do shody pozici, ne znak.</value>
   </data>
   <data name="CheatSheetQuantifier" xml:space="preserve">
-    <value>Quantifier</value>
+    <value>Kvantifikátor</value>
   </data>
   <data name="CheatSheetQuantifierDetails" xml:space="preserve">
-    <value>Matches the specified quantity of the previous token. {1,3} will match 1 to 3. {3} will match exactly 3. {3,} will match 3 or more.</value>
+    <value>Dává do shody zadané množství předchozího tokenu. {1,3} dá do shody 1 až 3. {3} dá do shody přesně 3. {3,} dá do shody 3 nebo více.</value>
   </data>
   <data name="CheatSheetRecursion" xml:space="preserve">
-    <value>Recursion</value>
+    <value>Rekurze</value>
   </data>
   <data name="CheatSheetRecursionDetails" xml:space="preserve">
-    <value>Attempts to match the full expression again at the current position.
-For example, /a(?R)?b/ will match any number of a followed by the same number of z: the full text of az or aaaazzzz, but not azzz.
+    <value>Pokusí se znovu dát do shody celý výraz na aktuální pozici.
+Například /a(?R)?b/ dá do shody libovolný počet a následovaných stejným počtem z: celý text az nebo aaaazzzz, ale ne azzz.
 
-There are multiple syntaxes for this feature:
+Pro tuto funkci existuje více syntaxí:
 
 (?R) (?0) \g&lt;0&gt; \g'0'</value>
   </data>
   <data name="CheatSheetReservedCharacters" xml:space="preserve">
-    <value>Reserved characters</value>
+    <value>Rezervované znaky</value>
   </data>
   <data name="CheatSheetReservedCharactersDetails" xml:space="preserve">
-    <value>The following character have special meaning, and should be preceded by a \ (backslash) to represent a literal character:
+    <value>Následující znaky mají zvláštní význam a měl by jim předcházet \ (zpětné lomítko), aby reprezentovaly doslovný znak:
 +*?^$\.[]{}()|/
 
-Within a character set, only \, -, and ] need to be escaped.</value>
+Uvnitř znakové sady musí být escapovány pouze \, - a ].</value>
   </data>
   <data name="CheatSheetStar" xml:space="preserve">
-    <value>Star</value>
+    <value>Hvězda</value>
   </data>
   <data name="CheatSheetStarDetails" xml:space="preserve">
-    <value>Matches 0 or more of the preceding token.</value>
+    <value>Dává do shody 0 nebo více z předcházejícího tokenu.</value>
   </data>
   <data name="CheatSheetStrictEndOfString" xml:space="preserve">
-    <value>Strict end of string</value>
+    <value>Přísný konec řetězce</value>
   </data>
   <data name="CheatSheetStrictEndOfStringDetails" xml:space="preserve">
-    <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>Dává do shody konec řetězce. Na rozdíl od $ nebo \Z neumožňuje koncový newline. Není ovlivněno víceřádkovou vlajkou (m). Dává do shody pozici, ne znak.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
     <value>Syntax</value>
   </data>
   <data name="CheatSheetTab" xml:space="preserve">
-    <value>Tab</value>
+    <value>Tabulátor</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
-    <value>Matches a TAB character (char code 9).</value>
+    <value>Dává do shody znak TAB (char kód 9).</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Tahák</value>
   </data>
   <data name="CheatSheetUnicodeCategory" xml:space="preserve">
-    <value>Unicode category</value>
+    <value>Unicode kategorie</value>
   </data>
   <data name="CheatSheetUnicodeCategoryDetails" xml:space="preserve">
-    <value>Matches a character in the specified unicode category. For example, \p{Ll} will match any lowercase letter.</value>
+    <value>Dává do shody znak v zadané unicode kategorii. Například \p{Ll} dá do shody jakékoliv malé písmeno.</value>
   </data>
   <data name="CheatSheetUnicodeEscape" xml:space="preserve">
     <value>Unicode escape</value>
   </data>
   <data name="CheatSheetUnicodeEscapeDetails" xml:space="preserve">
-    <value>Unicode escaped character in the form \x{FF}.</value>
+    <value>Unicode escapovaný znak ve tvaru \x{FF}.</value>
   </data>
   <data name="CheatSheetUnicodeGrapheme" xml:space="preserve">
     <value>Unicode grapheme</value>
@@ -607,31 +607,31 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any single unicode grapheme (ie. character). This includes line breaks (regardless of the dotall mode) and graphemes encoded as multiple code points.</value>
   </data>
   <data name="CheatSheetUnicodeScript" xml:space="preserve">
-    <value>Unicode script</value>
+    <value>Unicode skript</value>
   </data>
   <data name="CheatSheetUnicodeScriptDetails" xml:space="preserve">
-    <value>Matches any character in the specified unicode script. For example, \p{Arabic} will match characters in the Arabic script.</value>
+    <value>Dává do shody jakýkoliv znak v zadaném unicode skript. Například \p{Arabic} dá do shody z arabského skriptu.</value>
   </data>
   <data name="CheatSheetVerticalWhitespace" xml:space="preserve">
-    <value>Vertical whitespace</value>
+    <value>Svislý bílý znak</value>
   </data>
   <data name="CheatSheetVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any vertical whitespace character (line breaks).</value>
+    <value>Dává do shody jakýkoliv svislý bílý znak (konec řádku).</value>
   </data>
   <data name="CheatSheetWhitespace" xml:space="preserve">
-    <value>Whitespace</value>
+    <value>Bílý znak</value>
   </data>
   <data name="CheatSheetWhitespaceDetails" xml:space="preserve">
-    <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
+    <value>Dává do shody jakýkoliv bílý znak (mezera, tabulátor, konec řádku).</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>Slovo</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
-    <value>Word boundary</value>
+    <value>Slovní hranice</value>
   </data>
   <data name="CheatSheetWordBoundaryDetails" xml:space="preserve">
-    <value>Matches a word boundary position between a word character and non-word character or position (start / end of string). See the word character class (w) for more info.</value>
+    <value>Dává do shody pozici slovní hranice mezi slovním znakem a neslovním znak nebo pozicí (začátek / konec řetězce). Více informací najdete ve třídě slovních znaků (w).</value>
   </data>
   <data name="CheatSheetWordDetails" xml:space="preserve">
     <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
@@ -640,13 +640,13 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Konfigurace</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
-    <value>Culture Invariant</value>
+    <value>Jakákoliv kultura</value>
   </data>
   <data name="CultureInvariantDescription" xml:space="preserve">
-    <value>Specifies that cultural differences in language is ignored.</value>
+    <value>Určuje, zda mají být kulturní rozdíly v jazyce ignorovány.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate and test regular expressions</value>
+    <value>Ověřit a otestovat regulární výrazy</value>
   </data>
   <data name="EcmaScript" xml:space="preserve">
     <value>ECMA Script</value>
@@ -655,37 +655,37 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Enables ECMAScript-compliant behavior for the expression. This value can be used only in conjunction with the Culture Invariant, Ignore Case and Multiline options.</value>
   </data>
   <data name="IgnoreCase" xml:space="preserve">
-    <value>Ignore Case</value>
+    <value>Ignorovat velikost písmen</value>
   </data>
   <data name="IgnoreCaseDescription" xml:space="preserve">
-    <value>Specifies case-insensitive matching.</value>
+    <value>Určuje, zda brát ohled na velikost písmen.</value>
   </data>
   <data name="IgnoreWhitespace" xml:space="preserve">
-    <value>Ignore Whitespace</value>
+    <value>Ignorovat bílé znaky</value>
   </data>
   <data name="IgnoreWhitespaceDescription" xml:space="preserve">
-    <value>Eliminates unescaped white space from the pattern and enables comments marked with #. However, this value does not affect or eliminate white space in character classes, numeric quantifiers, or tokens that mark the beginning of individual regular expression language elements.</value>
+    <value>Odstraní ze vzoru neescapované bílé znaky a povolí komentáře označené #. Tato hodnota však neovlivňuje ani neodstraňuje bílé znaky ve třídách znaků, číselných kvantifikátorech nebo tokenech, které označují začátek jednotlivých prvků jazyka regulárních výrazů.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Regular Expression Tester</value>
+    <value>Tester regulárních výrazů</value>
   </data>
   <data name="MatchGroupPrefix" xml:space="preserve">
-    <value>Group</value>
+    <value>Skupina</value>
   </data>
   <data name="MatchInformation" xml:space="preserve">
-    <value>Match information</value>
+    <value>Informace o shodě</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
-    <value>Location</value>
+    <value>Umístění</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>Název</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
-    <value>Match</value>
+    <value>Shoda</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Hodnota</value>
   </data>
   <data name="Multiline" xml:space="preserve">
     <value>Multiline</value>
@@ -694,19 +694,19 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>Možnosti</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>Regulární výraz</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
-    <value>Right To Left</value>
+    <value>Zprava doleva</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
-    <value>Specifies that the search will be from right to left instead of from left to right.</value>
+    <value>Specifikuje směr hledání. Místo zleva doprava bude prohledávat zprava doleva.</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>regular expression</value>
+    <value>regulární výraz</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>RegEx</value>
