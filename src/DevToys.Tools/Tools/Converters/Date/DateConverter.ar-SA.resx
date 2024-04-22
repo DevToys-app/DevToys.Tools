@@ -200,50 +200,50 @@
     <value>ميلي ثانية</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>Format</value>
+    <value>التصميم</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>Ticks</value>
+    <value>العلامات</value>
   </data>
   <data name="Seconds" xml:space="preserve">
-    <value>Seconds</value>
+    <value>ثواني</value>
   </data>
   <data name="Milliseconds" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>ميلي ثوان</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
-    <value>Date to convert. Supported format: "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>التاريخ للتحويل. التصميم المدعوم: "ISO 8601" مثال 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
-    <value>Epoch to use. Supported format: "ISO 8601" example 1970-01-01T00:00:00.0000000+00:00</value>
+    <value>العصر للاستخدام. التصميم المدعوم: "ISO 8601" مثال 1970-01-01T00:00:00.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>Format to use default Seconds</value>
+    <value>تصميم لاستخدام الثواني التلقائية</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
-    <value>Input to convert in long or Date supported format "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>الإدخال للتحويل بصيغة مدعومة طويلة أو تاريخية "ISO 8601" مثال 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
-    <value>Timezone to use (supported timezones: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
+    <value>المنطقة الزمنية للاستخدام (المناطق الزمنية المدعومة: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-timezones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52----------------------------#timezones).</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
-    <value>Unable to parse date</value>
+    <value>لن نستطيع تحليل التاريخ</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
-    <value>Unable to parse epoch</value>
+    <value>لن نستطيع تحليل العصر</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
-    <value>Unable to find the Timezone Provided please check if the timezone exist here https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
+    <value>غير قادر على العثور على المنطقة الزمنية المقدمة، يرجى التحقق مما إذا كانت المنطقة الزمنية موجودة هنا https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-timezones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page---cff0e2b37f52--------------------------------------#timezones</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
-    <value>Please specify an input number or date</value>
+    <value>الرجاء تحديد مدخل أرقام أو تاريخ</value>
   </data>
 </root>
