@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>URL Encoder and Decoder tool</value>
+    <value>Nástroj pro kódování a dekódování URL</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurace</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Dekódovat</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Vyberte režim převodu, který chcete použít</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Kódovat</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode text in a URL parameter</value>
+    <value>Zda kódovat nebo dekódovat text v parametru URL</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Převod</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
+    <value>Kódovat nebo dekódovat všechny příslušné znaky do odpovídajících URL entit</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or URL to decode</value>
+    <value>Text ke kódování nebo URL k dekódování</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Vstup</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>URL Encoder / Decoder</value>
+    <value>Kodér / Dekodér URL</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Výstup</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>URL</value>

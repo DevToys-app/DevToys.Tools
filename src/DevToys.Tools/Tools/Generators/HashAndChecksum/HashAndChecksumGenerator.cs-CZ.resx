@@ -118,75 +118,75 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Hash and Checksum Generator tool</value>
+    <value>Nástroj pro generování hashe a kontrolního součtu</value>
   </data>
   <data name="ChecksumVerificationFailed" xml:space="preserve">
-    <value>FAILED</value>
+    <value>SELHALO</value>
   </data>
   <data name="ChecksumVerificationOptionDescription" xml:space="preserve">
-    <value>A text or file containing a checksum to verify data integrity</value>
+    <value>Text nebo soubor obsahující kontrolní součet pro ověření integrity dat</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
-    <value>Checksum to verify data integrity</value>
+    <value>Kontrolní součet pro ověření integrity dat</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurace</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Calculate hash from text or binary data</value>
+    <value>Vypočítat hash z textových nebo binárních dat</value>
   </data>
   <data name="HashAlgorithmOptionDescription" xml:space="preserve">
-    <value>The type of hash to generate</value>
+    <value>Typ hashe k vygenerování</value>
   </data>
   <data name="HashesMatch" xml:space="preserve">
-    <value>The hashes are the same</value>
+    <value>Hashe jsou totožné</value>
   </data>
   <data name="HashesMismatch" xml:space="preserve">
-    <value>The hashes are different</value>
+    <value>Hashe se liší</value>
   </data>
   <data name="HashingAlgorithmDescription" xml:space="preserve">
-    <value>Select which hashing algorithm you want to use</value>
+    <value>Zvolte hashovací algoritmus, který chcete použít</value>
   </data>
   <data name="HashingAlgorithmTitle" xml:space="preserve">
-    <value>Hashing Algorithm</value>
+    <value>Hashovací algoritmus</value>
   </data>
   <data name="HmacSecret" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>Tajný klíč, který se použije k vygenerování HMAC hashe</value>
   </data>
   <data name="HmacSecretOptionDescription" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>Tajný klíč, který se použije k vygenerování HMAC hashe</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to hash</value>
+    <value>Text nebo cesta k souboru k hashování</value>
   </data>
   <data name="InputTextTitle" xml:space="preserve">
-    <value>Input text</value>
+    <value>Vstupní text</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Zadejte prosím vstupní text nebo soubor</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum Generator</value>
+    <value>Generátor hashe / kontrolního součtu</value>
   </data>
   <data name="Or" xml:space="preserve">
-    <value>or</value>
+    <value>nebo</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Výstup</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum</value>
+    <value>Hash / Kontrolní součet</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>Skryje průběh hashovací operace</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated hash should be in uppercase or not</value>
+    <value>Zda má vygenerovaný hash být velkými písmeny nebo ne</value>
   </data>
   <data name="UppercaseTitle" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>Velká písmena</value>
   </data>
 </root>

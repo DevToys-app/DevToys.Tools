@@ -118,612 +118,615 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Regular Expression Tester tool</value>
+    <value>正規表現のテストツール</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
     <value>All matches</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
-    <value>Find all the matches in the text or stop after the first match.</value>
+    <value>テキスト内の一致するものをすべて検索します</value>
   </data>
   <data name="CheatSheetAlternation" xml:space="preserve">
-    <value>Alternation</value>
+    <value>Alternation (選択)</value>
   </data>
   <data name="CheatSheetAlternationDetails" xml:space="preserve">
-    <value>Acts like a boolean OR. Matches the expression before or after the |.
-It can operate within a group, or on a whole expression. The patterns will be tested in order.</value>
+    <value>bool 値の OR のように機能する。| の前後の式と一致。
+グループ内または式全体で操作できる。パターンは順番にテストされる</value>
   </data>
   <data name="CheatSheetAnyCharacter" xml:space="preserve">
-    <value>Any character except newline</value>
+    <value>改行を除く任意の文字</value>
   </data>
   <data name="CheatSheetAnyCharacterDetails" xml:space="preserve">
-    <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
+    <value>改行以外の任意の文字と一致。[^\n\r] と同等</value>
   </data>
   <data name="CheatSheetAtomicGroup" xml:space="preserve">
-    <value>Atomic group</value>
+    <value>アトミックグループ</value>
   </data>
   <data name="CheatSheetAtomicGroupDetails" xml:space="preserve">
-    <value>Non-capturing group that discards backtracking positions once matched.
-For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option has matched, the atomic group prevents backtracking to retry with the a option.</value>
+    <value>一度一致すると、バックトラックの位置を破棄する非捕捉グループ。
+たとえば、/(?&gt;ab|a)b/ は最長の文字列 abb には一致するが、ab には一致しない。
+これは、ab オプションが一致すると、アトミックグループが、a オプションを使用して再試行するバックトラックを抑制するためである。</value>
   </data>
   <data name="CheatSheetBeginning" xml:space="preserve">
-    <value>Beginning</value>
+    <value>文字列の先頭</value>
   </data>
   <data name="CheatSheetBeginningDetails" xml:space="preserve">
-    <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
+    <value>文字列の先頭、または複数行フラグ (m) が有効な場合は行の先頭と一致。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetBeginningOfString" xml:space="preserve">
-    <value>Beginning of string</value>
+    <value>文字列の始端</value>
   </data>
   <data name="CheatSheetBeginningOfStringDetails" xml:space="preserve">
-    <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>文字列全体の先頭のみに一致。^ とは異なり、複数行フラグ (m) の影響を受けない (無視される)。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetBell" xml:space="preserve">
     <value>Bell</value>
   </data>
   <data name="CheatSheetBellDetails" xml:space="preserve">
-    <value>Matches a BELL character (char code 7).</value>
+    <value>BELL 文字 (文字コード 7) と一致する</value>
   </data>
   <data name="CheatSheetBranchResetGroup" xml:space="preserve">
-    <value>Branch reset group</value>
+    <value>ブランチリセットグループ</value>
   </data>
   <data name="CheatSheetBranchResetGroupDetails" xml:space="preserve">
-    <value>Define alternative groups that share the same group numbers.
-For example, in (?|(a)|(b)) both groups (a and b) would be counted as group #1.</value>
+    <value>同じグループ番号を共有する代替グループを定義する。
+(?|(a)|(b)) では、a と b の両方のグループがグループ #1 としてカウントされる</value>
   </data>
   <data name="CheatSheetCaptureGroup" xml:space="preserve">
-    <value>Capture group</value>
+    <value>番号付きグループ</value>
   </data>
   <data name="CheatSheetCaptureGroupDetails" xml:space="preserve">
-    <value>Inserts the results of the specified capture group. For example, $3 would insert the third capture group.
-There are multiple syntaxes for this feature:
-
+    <value>指定されたキャプチャグループの結果が代入される。 例えば $3 は 3 番目のキャプチャグループが代入される。この式には複数の構文がある。
 $1 \1 \{1}</value>
   </data>
   <data name="CheatSheetCapturingGroup" xml:space="preserve">
-    <value>Capturing group</value>
+    <value>キャプチャグループ</value>
   </data>
   <data name="CheatSheetCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
+    <value>複数のトークンをグループ化し、部分文字列の抽出や、後方参照を使用するためのグループを作成する</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
-    <value>Carriage return</value>
+    <value>キャリッジリターン (復帰)</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
-    <value>Matches a CARRIAGE RETURN character (char code 13).</value>
+    <value>キャリッジリターン文字 (CR。文字コード 13) と一致する</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
-    <value>Anchors</value>
+    <value>アンカー</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
-    <value>Character classes</value>
+    <value>文字クラス</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>文字のエスケープ</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
-    <value>Groups and References</value>
+    <value>グループと参照</value>
   </data>
   <data name="CheatSheetCategoryLookaround" xml:space="preserve">
-    <value>Lookaround</value>
+    <value>ルックアラウンド</value>
   </data>
   <data name="CheatSheetCategoryQuantifiersAlternation" xml:space="preserve">
-    <value>Quantifiers and Alternation</value>
+    <value>数量詞と代替</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
-    <value>Special</value>
+    <value>その他、拡張</value>
   </data>
   <data name="CheatSheetCategorySubstitution" xml:space="preserve">
-    <value>Substitution</value>
+    <value>置換</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
-    <value>Character range</value>
+    <value>文字の範囲</value>
   </data>
   <data name="CheatSheetCharacterRangeDetails" xml:space="preserve">
-    <value>Matches a character having a character code between the two specified characters inclusive.</value>
+    <value>指定された 2 文字間の文字コードの文字と一致する</value>
   </data>
   <data name="CheatSheetCharacterSet" xml:space="preserve">
-    <value>A single character of A, b or c</value>
+    <value>A、b または c の 1 文字</value>
   </data>
   <data name="CheatSheetCharacterSetDetails" xml:space="preserve">
-    <value>Matches either an A, b or c character</value>
+    <value>A、b、c のいずれかの文字と一致する</value>
   </data>
   <data name="CheatSheetComment" xml:space="preserve">
-    <value>Comment</value>
+    <value>コメント</value>
   </data>
   <data name="CheatSheetCommentDetails" xml:space="preserve">
-    <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
+    <value>正規表現を読みやすくするために、パターンの中に直接含めることができる構文。# から後ろのテキスト全体が無視され、正規表現のパターンに影響を与えない</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
-    <value>Conditional</value>
+    <value>条件付き</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
-    <value>Conditionally matches one of two options based on whether a lookaround is matched.
-For example, /(?(?=a)ab|..)/ will match ab and zx but not ax, because if the first character matches the condition a then it evaluates the pattern ab.
-
-Any lookaround can be used as the condition. A lookahead will start the subsequent match at the start of the condition, a lookbehind will start it after.</value>
+    <value>ルックアラウンドが一致するかどうかに基づいて、2 つのオプションのいずれかと一致する。
+/(?(?=a)ab|..)/ は、ab と zx には一致するが、ax には一致しない。これは、最初の文字が条件 a に一致する場合は、パターン ab が評価される。
+また、最初の文字が条件 a に一致しない場合では、パターン .. が評価されるためである。
+任意のルックアラウンドを条件として使用できる。先読みは条件の開始時に後続の一致を評価し、戻り読みは条件の後ろから一致を評価する</value>
   </data>
   <data name="CheatSheetControlCharacterEscape" xml:space="preserve">
-    <value>Control character escape</value>
+    <value>制御文字のエスケープ</value>
   </data>
   <data name="CheatSheetControlCharacterEscapeDetails" xml:space="preserve">
-    <value>Escaped control character in the form \cZ. This can range from \cA (SOH, char code 1) to \cZ (SUB, char code 26).</value>
+    <value>エスケープされた ASCII の制御文字 (CTRL-X)。\cA (SOH、ヘッディング開始。文字コード 1) から \cZ (SUB、置換。文字コード 26) の範囲</value>
   </data>
   <data name="CheatSheetDefine" xml:space="preserve">
-    <value>Define</value>
+    <value>定義</value>
   </data>
   <data name="CheatSheetDefineDetails" xml:space="preserve">
-    <value>Used to define named groups for use as subroutines without including them in the match.
-For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
+    <value>サブルーチンとして使用するための名前付きグループを、一致に含めずに定義するために使用する。
+例えば、/A(?(DEFINE)(?'foo'Z))B\g'foo'/ は ABZ に一致する。
+これは、定義グループ (?(DEFINE)(?'foo'Z)) の、サブルーチンの呼び出し \g'foo' が、名前付きグループ foo を参照し、定義グループ内 (?'foo'Z) の foo の定義である Z を対象とするためである</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>説明</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>数字</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
-    <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
+    <value>任意の数字文字 (0 から 9) と一致。[0-9] と同等</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
-    <value>End</value>
+    <value>文字列の末尾</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
-    <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
+    <value>文字列の末尾、または複数行フラグ (m) が有効な場合は行末と一致。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
-    <value>End of string</value>
+    <value>文字列の終端</value>
   </data>
   <data name="CheatSheetEndOfStringDetails" xml:space="preserve">
-    <value>Matches the end of the string. Unlike $, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>文字列全体の末尾のみに一致。$ とは異なり、複数行フラグ (m) の影響を受けない (無視される)。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetEsc" xml:space="preserve">
     <value>Esc</value>
   </data>
   <data name="CheatSheetEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>エスケープされた文字</value>
   </data>
   <data name="CheatSheetEscapedCharactersDetails" xml:space="preserve">
-    <value>For convenience, these escaped characters are supported in the Replace string in RegExr: \n, \r, \t, \\, and unicode escapes \uFFFF. This may vary in your deploy environment.</value>
+    <value>便宜上、RegExr の置換文字列では次のエスケープ文字がサポートされている。
+\n、\r、\t、\\ または Unicode エスケープ \uFFFF
+これは、デプロイ環境によって異なる場合がある</value>
   </data>
   <data name="CheatSheetEscapeSequence" xml:space="preserve">
-    <value>Escape sequence</value>
+    <value>エスケープシーケンス</value>
   </data>
   <data name="CheatSheetEscapeSequenceDetails" xml:space="preserve">
-    <value>All characters between the \Q and the \E are interpreted as a literal string. If \E is omitted, it continues to the end of the expression. For example, the expression /\Q(?.)\E/ will match the string (?.).</value>
+    <value>\Q から \E の間にある全ての文字はリテラル文字列として扱う。\E が指定されない場合は式の最後までリテラル文字列として扱う。例えば /\Q(?.)\E/ では、(?.) をメタ文字ではなく文字列として扱う</value>
   </data>
   <data name="CheatSheetEscDetails" xml:space="preserve">
-    <value>Matches a ESC character (char code 27).</value>
+    <value>ESC 文字 (文字コード 27) と一致する</value>
   </data>
   <data name="CheatSheetFormFeed" xml:space="preserve">
-    <value>Form feed</value>
+    <value>フォームフィード (改ページ)</value>
   </data>
   <data name="CheatSheetFormFeedDetails" xml:space="preserve">
-    <value>Matches a FORM FEED character (char code 12).</value>
+    <value>フォームフィード文字 (FF。文字コード 12) と一致する</value>
   </data>
   <data name="CheatSheetGroupConditional" xml:space="preserve">
-    <value>Group conditional</value>
+    <value>グループ条件付き</value>
   </data>
   <data name="CheatSheetGroupConditionalDetails" xml:space="preserve">
-    <value>Conditionally matches one of two options based on whether group 'undefined' matched.
-For example, /(z)?(?(1)a|b)/ will match za because the first capture group matches z successfully, which causes the conditional to match the first option a.
-
-The same pattern will also match b on its own, because group 1 doesn't match, so it instead tries to match the second option b.
-
-You can reference a group by name, number, or relative position (ex. -1).</value>
+    <value>グループが一致するかどうかに基づいて、2 つのオプションのいずれかと一致する。
+/(z)?(?(1)a|b)/ は、za または b と一致する。これは、最初のキャプチャグループが z と一致した場合、パターン a が評価されるためである。
+また、最初のキャプチャグループが z に一致しない場合では、パターン b が評価される。
+この構文は、名前、番号、相対値 (-1 など) をサポートする</value>
   </data>
   <data name="CheatSheetHexadecimalEscape" xml:space="preserve">
-    <value>Hexadecimal escape</value>
+    <value>16 進エスケープ</value>
   </data>
   <data name="CheatSheetHexadecimalEscapeDetails" xml:space="preserve">
-    <value>Hexadecimal escaped character in the form \xFF.</value>
+    <value>\xFF 形式の 16 進エスケープ文字</value>
   </data>
   <data name="CheatSheetHorizontalWhitespace" xml:space="preserve">
-    <value>Horizontal whitespace</value>
+    <value>水平空白文字</value>
   </data>
   <data name="CheatSheetHorizontalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any horizontal whitespace character (spaces, tabs).</value>
+    <value>任意の水平方向の空白文字 (スペース、タブ) と一致する</value>
   </data>
   <data name="CheatSheetKeepOut" xml:space="preserve">
     <value>Keep out</value>
   </data>
   <data name="CheatSheetKeepOutDetails" xml:space="preserve">
-    <value>Keep text matched so far out of the returned match, essentially discarding the match up to this point.For example /o\Kbar/ will match bar within the string foobar</value>
+    <value>これまでに一致したテキストを返された一致から除外し、実質的にこの時点までの一致を破棄する。
+たとえば、/o\Kbar/ は文字列 foobar 内の obar から o (foo まで) を除外し bar と一致する</value>
   </data>
   <data name="CheatSheetLazy" xml:space="preserve">
     <value>Lazy</value>
   </data>
   <data name="CheatSheetLazyDetails" xml:space="preserve">
-    <value>Makes the preceding quantifier lazy, causing it to match as few characters as possible. By default, quantifiers are greedy, and will match as many characters as possible.
-This behaviour is reversed by the ungreedy (U) flag/modifier.</value>
+    <value>先行する数量詞を遅延させ、可能な限り少数の文字と一致させる。通常、数量詞は貪欲であり、可能な限り多くの文字と一致する。
+この動作は ungreedy (U) フラグまたは修飾子によって逆転される</value>
   </data>
   <data name="CheatSheetLineBreak" xml:space="preserve">
-    <value>Line break</value>
+    <value>改行</value>
   </data>
   <data name="CheatSheetLineBreakDetails" xml:space="preserve">
-    <value>Matches any line break character, including the CRLF pair, and CR / LF individually.</value>
+    <value>CRLFのペア、CRまたはLFを個別に含む、任意の改行文字と一致する</value>
   </data>
   <data name="CheatSheetLineFeed" xml:space="preserve">
-    <value>Line feed</value>
+    <value>ラインフィード (改行)</value>
   </data>
   <data name="CheatSheetLineFeedDetails" xml:space="preserve">
-    <value>Matches a LINE FEED character (char code 10).</value>
+    <value>ラインフィード文字 (LF。文字コード 10) と一致する</value>
   </data>
   <data name="CheatSheetMatch" xml:space="preserve">
-    <value>Match</value>
+    <value>マッチ</value>
   </data>
   <data name="CheatSheetMatchAny" xml:space="preserve">
-    <value>Match any</value>
+    <value>任意の文字</value>
   </data>
   <data name="CheatSheetMatchAnyDetails" xml:space="preserve">
-    <value>A character set that can be used to match any character, including line breaks, without the dotall flag (s).</value>
+    <value>dotall フラグを使用せずに改行を含む任意の文字と一致させるために使用できる文字セット</value>
   </data>
   <data name="CheatSheetMatchDetails" xml:space="preserve">
-    <value>Inserts the matched text.
-There are multiple syntaxes for this feature:
-
+    <value>一致したテキストが入力される。これは複数の構文がある。
 $0 \0 \{0}</value>
   </data>
   <data name="CheatSheetModeModifier" xml:space="preserve">
-    <value>Mode modifier</value>
+    <value>モード修飾子</value>
   </data>
   <data name="CheatSheetModeModifierDetails" xml:space="preserve">
-    <value>Enables or disables modes for the remainder of the expression.Matching modes generally map to expression flags. For example (?i) would enable case insensitivity for the remainder of the expression.
-Multiple modifiers can be specified, and any modifiers that follow - are disabled. For example (?im-s) would enable case insensitivity &amp; multiline modes, and disable dotall.
-
-Supported modifiers are: i - case insensitive, s - dotall, m - multiline, x - free spacing, J - allow duplicate names, U - ungreedy.</value>
+    <value>式の残りの部分に対してモードを有効または無効に変更する。モードは通常、式フラグにマップされる。
+たとえば、式の途中で (?i) を指定すると、式の残りの部分では大文字と小文字の区別を行わない。
+修飾子を無効とする - を組み合わせて、複数の修飾子を指定できる。
+(?im-s) は大文字と小文字を区別しないモードと複数行モードを有効にし、dotall を無効にする。
+サポートされている修飾子：
+i 大文字と小文字の区別を行わない
+s dotall
+m 複数行
+x 空白を無視
+J 重複した名前を許可
+U 最長/最短マッチを逆転</value>
   </data>
   <data name="CheatSheetNamedCapturingGroup" xml:space="preserve">
-    <value>Named capturing group</value>
+    <value>名前付きキャプチャグループ</value>
   </data>
   <data name="CheatSheetNamedCapturingGroupDetails" xml:space="preserve">
-    <value>Creates a capturing group that can be referenced via the specified name.
-There are multiple syntaxes for this feature:
-
+    <value>指定した名前で参照できるキャプチャ グループを作成する。この式には複数の構文がある。
 (?'name'ABC) (?P&lt;name&gt;ABC) (?&lt;name&gt;ABC)</value>
   </data>
   <data name="CheatSheetNamedReference" xml:space="preserve">
-    <value>Named reference</value>
+    <value>名前付き参照</value>
   </data>
   <data name="CheatSheetNamedReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a named capture group.
-There are multiple syntaxes for this feature:
-
+    <value>名前付きキャプチャグループの結果と一致する。この式には複数の構文がある。
 \k'name' \k&lt;name&gt; \k{name} \g{name} (?P=name)</value>
   </data>
   <data name="CheatSheetNamedSubroutine" xml:space="preserve">
-    <value>Named subroutine</value>
+    <value>名前付きサブルーチン</value>
   </data>
   <data name="CheatSheetNamedSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result.
-There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
+    <value>キャプチャグループ内の式に一致する。この式には複数の構文がある。
+\g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name)</value>
   </data>
   <data name="CheatSheetNegatedCharacterSet" xml:space="preserve">
-    <value>A character except A, b or c</value>
+    <value>A、b または c 以外の文字</value>
   </data>
   <data name="CheatSheetNegatedCharacterSetDetails" xml:space="preserve">
-    <value>Match any character that is not A, b or c.</value>
+    <value>A、b、c 以外の任意の文字と一致する</value>
   </data>
   <data name="CheatSheetNegativeLookahead" xml:space="preserve">
-    <value>Negative lookahead</value>
+    <value>否定先読みアサーション</value>
   </data>
   <data name="CheatSheetNegativeLookaheadDetails" xml:space="preserve">
-    <value>Specifies a group that can not match after the main expression (if it matches, the result is discarded).</value>
+    <value>主式の後に一致しないグループを指定する。一致した場合は結果を破棄する</value>
   </data>
   <data name="CheatSheetNegativeLookbehind" xml:space="preserve">
-    <value>Negative lookbehind</value>
+    <value>否定戻り読みアサーション</value>
   </data>
   <data name="CheatSheetNegativeLookbehindDetails" xml:space="preserve">
-    <value>Specifies a group that can not match before the main expression (if it matches, the result is discarded).</value>
+    <value>一致しないグループを主式の前にて指定する。一致した場合は結果を破棄する</value>
   </data>
   <data name="CheatSheetNonCapturingGroup" xml:space="preserve">
-    <value>Non-capturing group</value>
+    <value>非キャプチャグループ</value>
   </data>
   <data name="CheatSheetNonCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together without creating a capture group.</value>
+    <value>参照を行わない事を目的として、キャプチャグループを作成せず複数のトークンをグループ化する</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
-    <value>Not digit</value>
+    <value>数字以外</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
-    <value>Matches any character that is not a digit character (0-9). Equivalent to [^0-9].</value>
+    <value>数字 (0 から 9) 以外の文字と一致する。[^0-9] と同等</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespace" xml:space="preserve">
-    <value>Not horizontal whitespace</value>
+    <value>水平空白文字以外</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a horizontal whitespace character (spaces, tabs).</value>
+    <value>水平方向の空白文字（スペース、タブ）以外の文字と一致する</value>
   </data>
   <data name="CheatSheetNotLineBreak" xml:space="preserve">
-    <value>Not line break</value>
+    <value>改行文字以外</value>
   </data>
   <data name="CheatSheetNotLineBreakDetails" xml:space="preserve">
-    <value>Matches any character that is not a line break. Similar to dot (.) but is unaffected by the dotall flag (s).</value>
+    <value>改行ではない任意の文字と一致する。ドット (.) とは違い、dotall フラグの影響を受けない</value>
   </data>
   <data name="CheatSheetNotUnicodeCategory" xml:space="preserve">
-    <value>Not unicode category</value>
+    <value>Unicode カテゴリー以外</value>
   </data>
   <data name="CheatSheetNotUnicodeCategoryDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode category.</value>
+    <value>指定された Unicode カテゴリーにない文字と一致する</value>
   </data>
   <data name="CheatSheetNotUnicodeScript" xml:space="preserve">
-    <value>Not unicode script</value>
+    <value>Unicode スクリプト以外</value>
   </data>
   <data name="CheatSheetNotUnicodeScriptDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode script.</value>
+    <value>指定された Unicode スクリプトにない任意の文字と一致する</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespace" xml:space="preserve">
-    <value>Not vertical whitespace</value>
+    <value>垂直空白文字以外</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a vertical whitespace character (line breaks).</value>
+    <value>垂直方向の空白文字 (垂直タブまたは改行) 以外の任意の文字と一致する</value>
   </data>
   <data name="CheatSheetNotWhitespace" xml:space="preserve">
-    <value>Not whitespace</value>
+    <value>空白文字以外</value>
   </data>
   <data name="CheatSheetNotWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a whitespace character (spaces, tabs, line breaks).</value>
+    <value>空白文字 (スペース、タブまたは改行) 以外の任意の文字と一致する</value>
   </data>
   <data name="CheatSheetNotWord" xml:space="preserve">
-    <value>Not word</value>
+    <value>文字以外</value>
   </data>
   <data name="CheatSheetNotWordBoundary" xml:space="preserve">
-    <value>Not word boundary</value>
+    <value>単語の境界以外</value>
   </data>
   <data name="CheatSheetNotWordBoundaryDetails" xml:space="preserve">
-    <value>Matches any position that is not a word boundary. This matches a position, not a character.</value>
+    <value>単語境界ではない任意の位置に一致する。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetNotWordDetails" xml:space="preserve">
-    <value>Matches any character that is not a word character (alphanumeric &amp; underscore). Equivalent to [^A-Za-z0-9_]</value>
+    <value>単語構成文字 (英数字とアンダースコア) 以外の任意の文字と一致。[^A-Za-z0-9_] と同等</value>
   </data>
   <data name="CheatSheetNull" xml:space="preserve">
     <value>Null</value>
   </data>
   <data name="CheatSheetNullDetails" xml:space="preserve">
-    <value>Matches a NULL character (char code 0).</value>
+    <value>NULL 文字 (文字コード 0) と一致する</value>
   </data>
   <data name="CheatSheetNumericReference" xml:space="preserve">
-    <value>Numeric reference</value>
+    <value>数値参照</value>
   </data>
   <data name="CheatSheetNumericReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a capture group. For example \1 matches the results of the first capture group &amp; \3 matches the third.
-There are multiple syntaxes for this feature: \1 \g1 \g{1}.
+    <value>キャプチャグループの結果と一致。\1 は最初のキャプチャグループの結果と一致し、\3 は 3 番目のキャプチャグループの結果と一致する。この式には複数の構文がある。
+\1 \g1 \g{1}
 
-The latter syntaxes support relative values preceded by + or -. For example \g-1 would match the group preceding the reference.</value>
+後者の構文は、+ または - が前に付く相対値をサポートする。\g-1 は参照の直前のグループと一致する</value>
   </data>
   <data name="CheatSheetNumericSubroutine" xml:space="preserve">
-    <value>Numeric subroutine</value>
+    <value>数値サブルーチン</value>
   </data>
   <data name="CheatSheetNumericSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result. For example /(a|b)\g'1'/ can match ab, because the expression a|b is evaluated again.
-There are multiple syntaxes for this feature: \g&lt;1&gt; \g'1' (?1).
-
-Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; would match the group preceding the reference.</value>
+    <value>キャプチャ グループ内の式と一致。また、結果と一致する参照と比較する。 たとえば、/(a|b)\g'1'/ は、式 a|b が再度評価されるため、ab と一致する。
+この式には複数の構文がある。
+\g&lt;1&gt; \g'1' (?1)
+また、- が前に付く相対値をサポートする。\g&lt;-1&gt; は参照の直前のグループに一致する</value>
   </data>
   <data name="CheatSheetOctalEscape" xml:space="preserve">
-    <value>Octal escape</value>
+    <value>8 進エスケープ</value>
   </data>
   <data name="CheatSheetOctalEscapeDetails" xml:space="preserve">
-    <value>Octal escaped character in the form \000. Value must be less than 255 (\377).
-The syntax \o{FFF} is also supported.</value>
+    <value>\000 形式の 8 進エスケープ文字。値は 255 (\377) 以下で表す。また、\o{FFF} で表すこともできる</value>
   </data>
   <data name="CheatSheetOptional" xml:space="preserve">
-    <value>Optional</value>
+    <value>Optional (0 または 1 回の一致)</value>
   </data>
   <data name="CheatSheetOptionalDetails" xml:space="preserve">
-    <value>Matches 0 or 1 of the preceding token, effectively making it optional.</value>
+    <value>直線のトークンが 0 または 1 回の一致</value>
   </data>
   <data name="CheatSheetPlus" xml:space="preserve">
-    <value>Plus</value>
+    <value>Plus (1 個以上)</value>
   </data>
   <data name="CheatSheetPlusDetails" xml:space="preserve">
-    <value>Matches 1 or more of the preceding token.</value>
+    <value>直前のトークンが 1 個以上繰り返すものに一致する</value>
   </data>
   <data name="CheatSheetPositiveLookahead" xml:space="preserve">
-    <value>Positive lookahead</value>
+    <value>先読みアサーション</value>
   </data>
   <data name="CheatSheetPositiveLookaheadDetails" xml:space="preserve">
-    <value>Matches a group after the main expression without including it in the result.</value>
+    <value>主式の後にあるグループを結果に含めずに照合する</value>
   </data>
   <data name="CheatSheetPositiveLookbehind" xml:space="preserve">
-    <value>Positive lookbehind</value>
+    <value>戻り読みアサーション</value>
   </data>
   <data name="CheatSheetPositiveLookbehindDetails" xml:space="preserve">
-    <value>Matches a group before the main expression without including it in the result.</value>
+    <value>後 (うしろ) 読み。主式の前にあるグループを結果に含めずに照合する</value>
   </data>
   <data name="CheatSheetPossessive" xml:space="preserve">
-    <value>Possessive</value>
+    <value>貪欲</value>
   </data>
   <data name="CheatSheetPossessiveDetails" xml:space="preserve">
-    <value>Makes the preceding quantifier possessive. It will match as many characters as possible, and will not release them to match subsequent tokens.
-For example /.*a/ would match aaa, but /.*+a/ would not, because the repeating dot would match and not release the last character to match a.</value>
+    <value>前置数量詞を貪欲にする。可能な限り多くの文字と一致させて、それらを後続のトークンと一致させない。
+たとえば、/.*a/ は aaa に一致するが、/.*+a/ は最後の文字を解放せずトークン a に一致させないため、aaa には一致しない</value>
   </data>
   <data name="CheatSheetPreviousMatchEnd" xml:space="preserve">
-    <value>Previous match end</value>
+    <value>最後の一致の終了位置</value>
   </data>
   <data name="CheatSheetPreviousMatchEndDetails" xml:space="preserve">
-    <value>Matches the end position of the previous match. This matches a position, not a character.</value>
+    <value>先端または最後の一致の終了位置から開始する。これは文字ではなく位置に一致する。
+(一致するパターンが連続する場合などに使用できる)</value>
   </data>
   <data name="CheatSheetQuantifier" xml:space="preserve">
-    <value>Quantifier</value>
+    <value>数量詞</value>
   </data>
   <data name="CheatSheetQuantifierDetails" xml:space="preserve">
-    <value>Matches the specified quantity of the previous token. {1,3} will match 1 to 3. {3} will match exactly 3. {3,} will match 3 or more.</value>
+    <value>前のトークンの指定された数量と一致する。
+{1,3} は 1 ～ 3 に一致する。{3} は 3 に一致する。{3,} は 3 つ以上に一致する</value>
   </data>
   <data name="CheatSheetRecursion" xml:space="preserve">
-    <value>Recursion</value>
+    <value>再帰</value>
   </data>
   <data name="CheatSheetRecursionDetails" xml:space="preserve">
-    <value>Attempts to match the full expression again at the current position.
-For example, /a(?R)?b/ will match any number of a followed by the same number of z: the full text of az or aaaazzzz, but not azzz.
-
-There are multiple syntaxes for this feature:
-
+    <value>現在の位置で再び完全な式の照合を試みる。
+/a(?R)?b/ は、任意の数の a とそれに続く同じ数の z (az または aaaazzzz の全文) に一致するが、azzz には一致しない。
+この式には複数の構文がある。
 (?R) (?0) \g&lt;0&gt; \g'0'</value>
   </data>
   <data name="CheatSheetReservedCharacters" xml:space="preserve">
-    <value>Reserved characters</value>
+    <value>予約文字</value>
   </data>
   <data name="CheatSheetReservedCharactersDetails" xml:space="preserve">
-    <value>The following character have special meaning, and should be preceded by a \ (backslash) to represent a literal character:
-+*?^$\.[]{}()|/
-
-Within a character set, only \, -, and ] need to be escaped.</value>
+    <value>メタ文字。以下の文字は特別な意味があり、リテラル文字を表すには、その前に \ (バックスラッシュ) を付ける必要がある。
++ * ? ^ $ \ . [ ] { } ( ) | /
+一方、文字の範囲 ( [] ) 内では \ - ] の3種類のみが対象となる</value>
   </data>
   <data name="CheatSheetStar" xml:space="preserve">
-    <value>Star</value>
+    <value>Star (0 個以上)</value>
   </data>
   <data name="CheatSheetStarDetails" xml:space="preserve">
-    <value>Matches 0 or more of the preceding token.</value>
+    <value>直前のトークンと 0 個以上の一致</value>
   </data>
   <data name="CheatSheetStrictEndOfString" xml:space="preserve">
-    <value>Strict end of string</value>
+    <value>文字列の厳密な末尾</value>
   </data>
   <data name="CheatSheetStrictEndOfStringDetails" xml:space="preserve">
-    <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>文字列の末尾と一致する。
+$ や \Z とは異なり、末尾の改行は許可されず、複数行フラグ (m) の影響を受けない (無視される)。これは文字ではなく位置に一致する</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>構文</value>
   </data>
   <data name="CheatSheetTab" xml:space="preserve">
     <value>Tab</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
-    <value>Matches a TAB character (char code 9).</value>
+    <value>Tab 文字 (文字コード 9) と一致する</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>チートシート</value>
   </data>
   <data name="CheatSheetUnicodeCategory" xml:space="preserve">
-    <value>Unicode category</value>
+    <value>Unicode カテゴリー</value>
   </data>
   <data name="CheatSheetUnicodeCategoryDetails" xml:space="preserve">
-    <value>Matches a character in the specified unicode category. For example, \p{Ll} will match any lowercase letter.</value>
+    <value>指定された Unicode カテゴリー内の文字と一致。例えば、\p{Ll} は任意の小文字と一致する</value>
   </data>
   <data name="CheatSheetUnicodeEscape" xml:space="preserve">
-    <value>Unicode escape</value>
+    <value>Unicode エスケープ</value>
   </data>
   <data name="CheatSheetUnicodeEscapeDetails" xml:space="preserve">
-    <value>Unicode escaped character in the form \x{FF}.</value>
+    <value>16進数で表された Unicode の文字。\x{FF} の "FF" 部分は Unicode コードポイントを示す</value>
   </data>
   <data name="CheatSheetUnicodeGrapheme" xml:space="preserve">
-    <value>Unicode grapheme</value>
+    <value>Unicode 書記素</value>
   </data>
   <data name="CheatSheetUnicodeGraphemeDetails" xml:space="preserve">
-    <value>Matches any single unicode grapheme (ie. character). This includes line breaks (regardless of the dotall mode) and graphemes encoded as multiple code points.</value>
+    <value>任意の単一の Unicode 書記素 (文字) と一致する。
+これには、改行 (dotall モードに関係なく) および複数のコードポイントとしてエンコードされた書記素が含まれる</value>
   </data>
   <data name="CheatSheetUnicodeScript" xml:space="preserve">
-    <value>Unicode script</value>
+    <value>Unicode スクリプト</value>
   </data>
   <data name="CheatSheetUnicodeScriptDetails" xml:space="preserve">
-    <value>Matches any character in the specified unicode script. For example, \p{Arabic} will match characters in the Arabic script.</value>
+    <value>指定された Unicode スクリプト内の任意の文字と一致する。
+\p{Arabic} はアラビア文字体系に属する文字と一致する</value>
   </data>
   <data name="CheatSheetVerticalWhitespace" xml:space="preserve">
-    <value>Vertical whitespace</value>
+    <value>垂直空白文字</value>
   </data>
   <data name="CheatSheetVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any vertical whitespace character (line breaks).</value>
+    <value>任意の垂直方向の空白文字 (垂直タブまたは改行) と一致する</value>
   </data>
   <data name="CheatSheetWhitespace" xml:space="preserve">
-    <value>Whitespace</value>
+    <value>空白</value>
   </data>
   <data name="CheatSheetWhitespaceDetails" xml:space="preserve">
-    <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
+    <value>任意の空白文字 (スペース、タブ、改行) と一致する</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>単語構成文字</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
-    <value>Word boundary</value>
+    <value>単語の境界</value>
   </data>
   <data name="CheatSheetWordBoundaryDetails" xml:space="preserve">
-    <value>Matches a word boundary position between a word character and non-word character or position (start / end of string). See the word character class (w) for more info.</value>
+    <value>単語の境界位置に一致する。単語文字と非単語文字の間の位置、もしくは文字列の先頭または末尾の位置にあたる。詳細は単語構成文字 (w) を参照</value>
   </data>
   <data name="CheatSheetWordDetails" xml:space="preserve">
-    <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
+    <value>任意の単語文字 (英数字とアンダースコア) に一致する。低位 ASCII 文字のみに一致する (アクセント付き文字や非ローマ字は含まない)。[A-Za-z0-9_] と同等</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>構成</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
     <value>Culture Invariant</value>
   </data>
   <data name="CultureInvariantDescription" xml:space="preserve">
-    <value>Specifies that cultural differences in language is ignored.</value>
+    <value>プログラミング言語固有の文化的な違いを無視します</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate and test regular expressions</value>
+    <value>正規表現の検証及びテスト</value>
   </data>
   <data name="EcmaScript" xml:space="preserve">
     <value>ECMA Script</value>
   </data>
   <data name="EcmaScriptDescription" xml:space="preserve">
-    <value>Enables ECMAScript-compliant behavior for the expression. This value can be used only in conjunction with the Culture Invariant, Ignore Case and Multiline options.</value>
+    <value>ECMAScript 準拠の動作を有効にします。 この値は Culture Invariant、Ignore Case、および Multiline オプションとの組み合わせのみ使用できます</value>
   </data>
   <data name="IgnoreCase" xml:space="preserve">
     <value>Ignore Case</value>
   </data>
   <data name="IgnoreCaseDescription" xml:space="preserve">
-    <value>Specifies case-insensitive matching.</value>
+    <value>大文字と小文字を区別しないように指定します</value>
   </data>
   <data name="IgnoreWhitespace" xml:space="preserve">
     <value>Ignore Whitespace</value>
   </data>
   <data name="IgnoreWhitespaceDescription" xml:space="preserve">
-    <value>Eliminates unescaped white space from the pattern and enables comments marked with #. However, this value does not affect or eliminate white space in character classes, numeric quantifiers, or tokens that mark the beginning of individual regular expression language elements.</value>
+    <value>エスケープされていない空白をパターンから除外し、# の後ろのコメントを有効にします。 ただし、文字クラス内、数量詞内、言語要素を導入する文字シーケンス内の空白文字は無視されません</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Regular Expression Tester</value>
+    <value>正規表現テスター</value>
   </data>
   <data name="MatchGroupPrefix" xml:space="preserve">
     <value>Group</value>
   </data>
   <data name="MatchInformation" xml:space="preserve">
-    <value>Match information</value>
+    <value>検証結果</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
-    <value>Location</value>
+    <value>位置</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>結果</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
-    <value>Match</value>
+    <value>一致</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>値</value>
   </data>
   <data name="Multiline" xml:space="preserve">
     <value>Multiline</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
-    <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
+    <value>^ と $ の意味を変更して、文字列全体の先頭と末尾だけでなく、任意の行の先頭と末尾でそれぞれが一致するようにします</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>設定</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>正規表現</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
     <value>Right To Left</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
-    <value>Specifies that the search will be from right to left instead of from left to right.</value>
+    <value>検索の方向を右から左になるように指定します</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>regular expression</value>
+    <value>regular expression 置換 マッチ</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>RegEx</value>
+    <value>正規表現</value>
   </data>
   <data name="Singleline" xml:space="preserve">
     <value>Singleline</value>
   </data>
   <data name="SinglelineDescription" xml:space="preserve">
-    <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
+    <value>ドット (.) は任意の 1 文字として一致させます (\n を除くすべての文字の代用)</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>テキスト</value>
   </data>
 </root>

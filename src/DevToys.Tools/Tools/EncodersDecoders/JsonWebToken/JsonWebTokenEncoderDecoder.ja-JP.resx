@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT Encoder and Decoder tool</value>
+    <value>JWT エンコーダーおよびデコーダー ツール</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
@@ -178,111 +178,111 @@
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>構成</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
-    <value>Decode</value>
+    <value>デコード</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>Validate actors</value>
+    <value>アクタークレームを検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
-    <value>Token audiences (separated by comma)</value>
+    <value>オーディエンスクレームの値 (カンマ区切り)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>Validate audiences</value>
+    <value>オーディエンスクレームを検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>発行者クレームの値 (カンマ区切り)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
-    <value>Validate issuer signing key</value>
+    <value>発行者の署名鍵を検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerTitle" xml:space="preserve">
-    <value>Validate issuer</value>
+    <value>発行者クレームを検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenLifetimeTitle" xml:space="preserve">
-    <value>Validate lifetime</value>
+    <value>有効期間を検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Select which token parameters to validate</value>
+    <value>検証を行うトークン内のパラメーターを設定します</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
-    <value>Token validation settings</value>
+    <value>検証するパラメーターの設定</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenTitle" xml:space="preserve">
-    <value>Validate Token</value>
+    <value>トークンの検証</value>
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Json Web Token </value>
+    <value>ヘッダー、ペイロード、署名から JWT の生成とトークンの検証</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
-    <value>Encode</value>
+    <value>エンコード</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Token hashing algorithm</value>
+    <value>署名のアルゴリズム</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Token audience (separated by comma)</value>
+    <value>オーディエンスクレームの値 (カンマ区切り)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>Expire in day(s)</value>
+    <value>日</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>Expire in hour(s)</value>
+    <value>時</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
-    <value>Expire in minute(s)</value>
+    <value>分</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMonthInputTitle" xml:space="preserve">
-    <value>Expire in month(s)</value>
+    <value>月</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationYearInputTitle" xml:space="preserve">
-    <value>Expire in year(s)</value>
+    <value>年</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
-    <value>Token has audience</value>
+    <value>オーディエンスクレームを設定</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>Token has expiration</value>
+    <value>トークンの有効期限</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
-    <value>Token has issuer</value>
+    <value>発行者クレームを設定</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenIssuerInputTitle" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>発行者クレームの値 (カンマ区切り)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsDescription" xml:space="preserve">
-    <value>Select token parameters</value>
+    <value>トークンに使用するパラメーターを設定します</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>設定</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
@@ -302,7 +302,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
-    <value>Header</value>
+    <value>ヘッダー</value>
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Claim</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JWT Encoder / Decoder</value>
+    <value>JWT エンコーダー / デコーダー</value>
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>オフ</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
@@ -350,7 +350,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
-    <value>Payload</value>
+    <value>ペイロード</value>
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
@@ -358,15 +358,15 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of private key is not supported</value>
+    <value>対応されていない秘密鍵です</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
-    <value>Public Key</value>
+    <value>公開鍵</value>
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
-    <value>This type of public key is not supported</value>
+    <value>対応されていない公開鍵です</value>
     <comment>Error message</comment>
   </data>
   <data name="rh" xml:space="preserve">
@@ -386,7 +386,7 @@
     <comment>Gui</comment>
   </data>
   <data name="SignatureInputTitle" xml:space="preserve">
-    <value>Signature</value>
+    <value>署名</value>
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
@@ -398,19 +398,19 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="TokenInputTitle" xml:space="preserve">
-    <value>Token</value>
+    <value>トークン</value>
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
-    <value>Token not validated (no parameters selected)</value>
+    <value>トークンは検証されていません (検証するパラメーターが選択されていません)</value>
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
-    <value>Select which mode you want to use</value>
+    <value>変換するモードの選択</value>
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
-    <value>Tool Mode</value>
+    <value>モード</value>
     <comment>Gui</comment>
   </data>
   <data name="typ" xml:space="preserve">
@@ -426,11 +426,11 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
-    <value>Audiences are empty or invalid</value>
+    <value>検証を行うための オーディエンスクレームの値が間違っているか入力されていません</value>
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
-    <value>Issuers are empty or invalid</value>
+    <value>検証を行うための 発行者クレームの値が間違っているか入力されていません</value>
     <comment>Error message</comment>
   </data>
   <data name="ver" xml:space="preserve">
@@ -450,39 +450,39 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>オン</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Token has default time</value>
+    <value>デフォルトの有効期間を設定する</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidHeader" xml:space="preserve">
-    <value>Unable to process the token header</value>
+    <value>ヘッダーの処理に失敗しました</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPayload" xml:space="preserve">
-    <value>Unable to process the token payload</value>
+    <value>ペイロードの処理に失敗しました</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPrivateKey" xml:space="preserve">
-    <value>Private key is either null or empty</value>
+    <value>有効な秘密鍵ではありません</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPublicKey" xml:space="preserve">
-    <value>Public key is either null or empty</value>
+    <value>有効な公開鍵ではありません</value>
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>秘密鍵</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
-    <value>Token Validated</value>
+    <value>指定された項目のすべてが検証済みのトークンです</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
-    <value>Unable to process the token signature</value>
+    <value>署名の処理に失敗しました</value>
     <comment>Error message</comment>
   </data>
   <data name="Base64" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Plain text</value>
+    <value>テキスト</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>署名の形式</value>
     <comment>Gui</comment>
   </data>
 </root>
