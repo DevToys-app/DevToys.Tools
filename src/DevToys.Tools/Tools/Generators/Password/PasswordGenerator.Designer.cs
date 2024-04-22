@@ -340,7 +340,7 @@ namespace DevToys.Tools.Tools.Generators.Password {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use uppercase characters (ABCDEFGHJKLMNOPQRSTUVWXYZ).
+        ///   Looks up a localized string similar to Use uppercase characters (ABCDEFGHIJKLMNOPQRSTUVWXYZ).
         /// </summary>
         internal static string UppercaseDescription {
             get {
@@ -358,7 +358,7 @@ namespace DevToys.Tools.Tools.Generators.Password {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Whether the generated password can include uppercase characters (ABCDEFGHJKLMNOPQRSTUVWXYZ).
+        ///   Looks up a localized string similar to Whether the generated password can include uppercase characters (ABCDEFGHIJKLMNOPQRSTUVWXYZ).
         /// </summary>
         internal static string UppercaseOptionDescription {
             get {
