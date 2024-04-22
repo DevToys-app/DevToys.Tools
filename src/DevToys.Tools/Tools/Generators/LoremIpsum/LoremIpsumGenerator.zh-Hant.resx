@@ -121,7 +121,7 @@
     <value>Lorem Ipsum Generator tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="CorpusOptionDescription" xml:space="preserve">
     <value>Text corpus to use</value>
@@ -136,7 +136,7 @@
     <value>Number of words, sentences or paragraphs to generate</value>
   </data>
   <data name="LengthTitle" xml:space="preserve">
-    <value>Length</value>
+    <value>長度</value>
   </data>
   <data name="LipsumChildHarold" xml:space="preserve">
     <value>Childe Harold's Pilgrimage (Lord Byron)</value>
@@ -181,16 +181,16 @@
     <value>Lorem Ipsum Generator</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>輸出</value>
   </data>
   <data name="ParagraphsType" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>段落</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>重新整理</value>
   </data>
   <data name="SentencesType" xml:space="preserve">
-    <value>Sentences</value>
+    <value>句子</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Lorem Ipsum</value>

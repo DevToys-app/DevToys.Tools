@@ -121,13 +121,13 @@
     <value>XML Formatter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Indent or minify XML data</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 個空格</value>
   </data>
   <data name="Indentation" xml:space="preserve">
     <value>Indentation</value>
@@ -172,6 +172,6 @@
     <value>XML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 個空格</value>
   </data>
 </root>

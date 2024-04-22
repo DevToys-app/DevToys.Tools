@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Lorem Ipsum Generator tool</value>
+    <value>Генератор случайного текста</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Конфигурация</value>
   </data>
   <data name="CorpusOptionDescription" xml:space="preserve">
-    <value>Text corpus to use</value>
+    <value>Текстовый корпус</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generate Lorem Ipsum (or similar) placeholder text</value>
+    <value>Генерировать псевдо-код Lorem Ipsum (или аналогичный)</value>
   </data>
   <data name="LengthDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>Количество слов, предложений или параграфов для генерации</value>
   </data>
   <data name="LengthOptionDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>Количество слов, предложений или параграфов для генерации</value>
   </data>
   <data name="LengthTitle" xml:space="preserve">
-    <value>Length</value>
+    <value>Длина</value>
   </data>
   <data name="LipsumChildHarold" xml:space="preserve">
     <value>Childe Harold's Pilgrimage (Lord Byron)</value>
@@ -160,10 +160,10 @@
     <value>Lorem Ipsum (Marcus Tullius Cicero), Latin</value>
   </data>
   <data name="LipsumNagyonFaj" xml:space="preserve">
-    <value>Nagyon fáj (József Attila), Hungarian</value>
+    <value>Nagyon fáj (József Attila), Hungarian</value>
   </data>
   <data name="LipsumOmagyar" xml:space="preserve">
-    <value>Ómagyar-Mária siralom (Ismeretlen), Hungarian</value>
+    <value>Ómagyar-Mária siralom (Ismeretlen), Hungarian</value>
   </data>
   <data name="LipsumRobinsonoKruso" xml:space="preserve">
     <value>Robinsono Kruso (Daniel Defoe), Esperanto</value>
@@ -172,39 +172,39 @@
     <value>The Raven (Edward Allen Poe), English</value>
   </data>
   <data name="LipsumTierrayLuna" xml:space="preserve">
-    <value>Tierra y Luna (Federico García Lorca), Spanish</value>
+    <value>Tierra y Luna (Federico García Lorca), Spanish</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
-    <value>Text corpus</value>
+    <value>Текстовый корпус</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum Generator</value>
+    <value>Генератор случайного текста</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Вывод</value>
   </data>
   <data name="ParagraphsType" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>Абзацы</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Обновить</value>
   </data>
   <data name="SentencesType" xml:space="preserve">
-    <value>Sentences</value>
+    <value>Предложения</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Lorem Ipsum</value>
   </data>
   <data name="TypeDescription" xml:space="preserve">
-    <value>Generate words, sentences or paragraphs of Lorem Ipsum</value>
+    <value>Сгенерировать слова, предложения или параграфы Lorem Ipsum</value>
   </data>
   <data name="TypeOptionDescription" xml:space="preserve">
-    <value>Whether words, sentences or paragraphs should be generated</value>
+    <value>Количество слов, предложений или параграфов для генерации</value>
   </data>
   <data name="TypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>Тип</value>
   </data>
   <data name="WordsType" xml:space="preserve">
-    <value>Words</value>
+    <value>Слова</value>
   </data>
 </root>

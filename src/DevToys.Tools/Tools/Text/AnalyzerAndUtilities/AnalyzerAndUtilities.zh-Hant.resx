@@ -130,13 +130,13 @@
     <value>Alphabetize by last word</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
-    <value>aLtErNaTiNg cAsE</value>
+    <value>交替式大小寫</value>
   </data>
   <data name="Bytes" xml:space="preserve">
     <value>Bytes</value>
   </data>
   <data name="CamelCase" xml:space="preserve">
-    <value>camelCase</value>
+    <value>小駝峰式大小寫</value>
   </data>
   <data name="CharacterFrequency" xml:space="preserve">
     <value>Character frequency</value>
@@ -151,7 +151,7 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>Convert case</value>
+    <value>轉換大小寫</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
     <value>Convert line break</value>
@@ -187,10 +187,10 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
-    <value>InVeRsE CaSe</value>
+    <value>反轉大小寫</value>
   </data>
   <data name="KebabCase" xml:space="preserve">
-    <value>kebab-case</value>
+    <value>串燒式小寫</value>
   </data>
   <data name="Lines" xml:space="preserve">
     <value>Lines</value>
@@ -199,7 +199,7 @@
     <value>Text Analyzer and Utilities</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
-    <value>lower case</value>
+    <value>小寫</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
@@ -208,10 +208,10 @@
     <value>Paragraphs</value>
   </data>
   <data name="PascalCase" xml:space="preserve">
-    <value>PascalCase</value>
+    <value>大駝峰式大小寫</value>
   </data>
   <data name="RandomCase" xml:space="preserve">
-    <value>raNdoM cASe</value>
+    <value>隨機式大小寫</value>
   </data>
   <data name="Randomize" xml:space="preserve">
     <value>Randomize</value>
@@ -229,7 +229,7 @@
     <value>string</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
-    <value>Column</value>
+    <value>欄</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
     <value>End position</value>
@@ -238,7 +238,7 @@
     <value>Length</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>行</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
     <value>Start position</value>
@@ -247,7 +247,7 @@
     <value>Selection</value>
   </data>
   <data name="SentenceCase" xml:space="preserve">
-    <value>Sentence case</value>
+    <value>句子式大小寫</value>
   </data>
   <data name="Sentences" xml:space="preserve">
     <value>Sentences</value>
@@ -259,7 +259,7 @@
     <value>Show original text</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
-    <value>snake_case</value>
+    <value>蛇型式大小寫</value>
   </data>
   <data name="SortLines" xml:space="preserve">
     <value>Sort lines</value>
@@ -271,27 +271,27 @@
     <value>Title</value>
   </data>
   <data name="StatisticValue" xml:space="preserve">
-    <value>Value</value>
+    <value>數值</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>Text</value>
+    <value>文字</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
-    <value>Text</value>
+    <value>文字</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
-    <value>Title Case</value>
+    <value>標題式大小寫</value>
   </data>
   <data name="TrainCase" xml:space="preserve">
-    <value>Train-Case</value>
+    <value>火車式大小寫</value>
   </data>
   <data name="UpperCase" xml:space="preserve">
-    <value>UPPER CASE</value>
+    <value>大寫</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
-    <value>Word frequency</value>
+    <value>詞語頻率</value>
   </data>
   <data name="Words" xml:space="preserve">
-    <value>Words</value>
+    <value>字數</value>
   </data>
 </root>

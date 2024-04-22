@@ -121,16 +121,16 @@
     <value>HTML Encoder and Decoder tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>設置</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>解碼</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>編碼</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to encode or decode HTML</value>
@@ -145,13 +145,13 @@
     <value>Text to encode or HTML to decode</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>輸入</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>HTML Text Encoder / Decoder</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>輸出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>HTML</value>
