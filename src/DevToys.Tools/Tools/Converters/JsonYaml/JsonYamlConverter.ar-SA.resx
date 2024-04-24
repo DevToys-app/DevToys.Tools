@@ -124,10 +124,10 @@
     <value>الإعداد</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>اختار أي وسيلة التحويل التي تريد أستخدامها</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to convert from Json or Yaml</value>
+    <value>سواء التحويل إلى Json أو Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>Conversion</value>
