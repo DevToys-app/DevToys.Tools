@@ -130,7 +130,7 @@
     <value>Whether to convert from Json or Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversie</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert JSON data to YAML and vice versa</value>
