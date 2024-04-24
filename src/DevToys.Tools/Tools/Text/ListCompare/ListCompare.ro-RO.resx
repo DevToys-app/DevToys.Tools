@@ -130,7 +130,7 @@
     <value>A ∪ B</value>
   </data>
   <data name="BOnly" xml:space="preserve">
-    <value>B Only</value>
+    <value>Doar B</value>
   </data>
   <data name="ComparisonOptionDescription" xml:space="preserve">
     <value>Please specify comparison mode (A ∩ B, A ∪ B, A Only, B Only)</value>
@@ -142,7 +142,7 @@
     <value>Configuration</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compare two lists</value>
+    <value>Compară două liste</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist</value>
