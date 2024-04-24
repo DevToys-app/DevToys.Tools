@@ -124,7 +124,7 @@
     <value>Daylight saving time.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>Zi</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert date to human-readable date and vice versa</value>
@@ -164,7 +164,7 @@
     <value>There is daylight saving time.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Dată</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
     <value>UTC Date and Time</value>
@@ -182,7 +182,7 @@
     <value>Date Converter</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Dată</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
     <value>Default Epoch</value>
