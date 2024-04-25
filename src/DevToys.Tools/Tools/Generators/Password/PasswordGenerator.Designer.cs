@@ -212,9 +212,9 @@ namespace DevToys.Tools.Tools.Generators.Password {
                 return ResourceManager.GetString("Lowercase", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Use lowercase characters (abcdefghijkmnopqrstuvwxyz).
+        ///   Looks up a localized string similar to Use lowercase characters (abcdefghijklmnopqrstuvwxyz).
         /// </summary>
         internal static string LowercaseDescription {
             get {
@@ -230,9 +230,9 @@ namespace DevToys.Tools.Tools.Generators.Password {
                 return ResourceManager.GetString("LowercaseDescriptionStateOn", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Whether the generated password can include lowercase characters (abcdefghijkmnopqrstuvwxyz).
+        ///   Looks up a localized string similar to Whether the generated password can include lowercase characters (abcdefghijklmnopqrstuvwxyz).
         /// </summary>
         internal static string LowercaseOptionDescription {
             get {
@@ -302,9 +302,9 @@ namespace DevToys.Tools.Tools.Generators.Password {
                 return ResourceManager.GetString("SpecialCharacters", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Use special characters (!@#$%^&amp;*).
+        ///   Looks up a localized string similar to Use special characters (!"#$%&')*+,-.:;=>?@]^_}~).
         /// </summary>
         internal static string SpecialCharactersDescription {
             get {
@@ -322,7 +322,7 @@ namespace DevToys.Tools.Tools.Generators.Password {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Whether the generated password can include special characters (!@#$%^&amp;*).
+        ///   Looks up a localized string similar to Whether the generated password can include special characters (!"#$%&')*+,-.:;=>?@]^_}~).
         /// </summary>
         internal static string SpecialCharactersOptionDescription {
             get {
@@ -338,7 +338,7 @@ namespace DevToys.Tools.Tools.Generators.Password {
                 return ResourceManager.GetString("Uppercase", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Use uppercase characters (ABCDEFGHIJKLMNOPQRSTUVWXYZ).
         /// </summary>
@@ -356,7 +356,7 @@ namespace DevToys.Tools.Tools.Generators.Password {
                 return ResourceManager.GetString("UppercaseDescriptionStateOn", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Whether the generated password can include uppercase characters (ABCDEFGHIJKLMNOPQRSTUVWXYZ).
         /// </summary>
