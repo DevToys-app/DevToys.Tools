@@ -139,7 +139,7 @@
     <value>Whether to encode or decode Base64 text</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversie</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Encode and decode Base64 text data</value>
