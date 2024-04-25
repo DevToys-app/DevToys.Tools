@@ -118,71 +118,71 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Text Encoder and Decoder tool</value>
+    <value>Base64 енкодер / декодер</value>
   </data>
   <data name="Ascii" xml:space="preserve">
     <value>ASCII</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Налаштування</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Декодувати</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Виберіть режим перетворення</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Закодувати</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode Base64 text</value>
+    <value>Кодувати чи декодувати Base64 текст</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Перетворення</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 text data</value>
+    <value>Кодування та декодування текстових даних Base64</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
-    <value>Select which encoding you want to use</value>
+    <value>Виберіть кодування, яке Ви хочете використовувати</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Кодування</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Кодування</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>Вибраний вхідний файл не існує</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to encode or Base64 to decode</value>
+    <value>Текст або шлях до файлу для кодування або Base64 для декодування</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Вхід</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Invalid Base64&gt;</value>
+    <value>&lt;Некоректний Base64&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Будь ласка, вкажіть текст або вхідний файл</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Text Encoder / Decoder</value>
+    <value>Base64 Енкодер / Декодер</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Шлях до вихідного файлу</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Вивід</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Text</value>
+    <value>Base64 Текст</value>
   </data>
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>
