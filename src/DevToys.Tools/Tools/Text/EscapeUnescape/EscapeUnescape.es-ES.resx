@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text Escape and Unescape tool</value>
+    <value>Herramienta de escape y des escape de texto</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuración</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Unescape</value>
+    <value>Des escapar</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
