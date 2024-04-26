@@ -6,19 +6,24 @@ namespace DevToys.Tools.Helpers;
 internal static class PasswordGeneratorHelper
 {
     /// <summary>
-    /// All non-alphanumeric characters.
+    /// Non-alphanumeric characters. !"#$%&')*+,-.:;=>?@]^_}~
     /// </summary>
-    internal const string NonAlphanumeric = "!@#$%^&*";
+    /// <remarks>
+    /// Excluded characters. (/<[`{| and \
+    /// Although it may be possible to use these characters by changing the way they are generated,
+    /// they may not be suitable for use.
+    /// </remarks>
+    internal const string NonAlphanumeric = "!\"#$%&')*+,-.:;=>?@]^_}~";
 
     /// <summary>
     /// All lower case ASCII characters.
     /// </summary>
-    internal const string LowercaseLetters = "abcdefghijkmnopqrstuvwxyz";
+    internal const string LowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
 
     /// <summary>
     /// All upper case ASCII characters.
     /// </summary>
-    internal const string UppercaseLetters = "ABCDEFGHJKLMNOPQRSTUVWXYZ";
+    internal const string UppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     /// <summary>
     /// All digits.
