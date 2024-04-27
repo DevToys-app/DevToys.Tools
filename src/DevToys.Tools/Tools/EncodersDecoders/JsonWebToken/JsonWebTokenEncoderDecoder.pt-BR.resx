@@ -346,19 +346,19 @@
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
-    <value>The immutable identifier for the requestor, which is the verified identity of the user or service principal. This ID uniquely identifies the requestor across applications. Two different applications signing in the same user receive the same value in the oid claim. The oid can be used when making queries to Microsoft online services, such as the Microsoft Graph. The Microsoft Graph returns this ID as the id property for a given user account. Because the oid allows multiple applications to correlate principals, to receive this claim for users use the profile scope. If a single user exists in multiple tenants, the user contains a different object ID in each tenant. Even though the user logs into each account with the same credentials, the accounts are different.</value>
+    <value>O identificador imutável do solicitante, que é a identidade verificada da entidade (usuário ou serviço). Este ID identifica unicamente o solicitante em diferentes aplicações. Dois pedidos de login diferentes no mesmo usuário recebem o mesmo valor no atributo oid. O oit pode ser usado ao fazer pedidos aos serviços online da Microsoft, como o Microsoft Graph. O Microsoft Graph retorna este ID na propriedade id para determinada conta de usuário. Uma vez que o oid permite que múltiplas aplicações correlacionem entidades, para receber este atributo use o escopo de perfil. Se um único usuário existe em múltiplos provedores, o usuário contêm um objeto ID diferente em cada provedor. Mesmo que o usuário logue em cada conta com as mesmas credenciais, as contas são diferentes.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
-    <value>Payload</value>
+    <value>Conteúdo</value>
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
-    <value>The "preferred_username" claim indicate the primary username that represents the user. The value could be an email address, phone number, or a generic username without a specified format. Use the value for username hints and in human-readable UI as a username. To receive this claim, use the profile scope.</value>
+    <value>O atributo "preferred_username" (nome de usuário preferido) identifica o nome de usuário principal que representa o usuário. O valor pode ser um endereço de email, número de telefone, ou um nome de usuário genérico sem um formato especificado. Use o valor para dicas de nome de usuário e em interfaces legíveis para humanos como nome de usuário. Para receber esse atributo, use o escopo de perfil.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of private key is not supported</value>
+    <value>Este tipo de chave privada não é suportado</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
@@ -366,19 +366,19 @@
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
-    <value>This type of public key is not supported</value>
+    <value>Este tipo de chave pública não é suportado</value>
     <comment>Error message</comment>
   </data>
   <data name="rh" xml:space="preserve">
-    <value>The "rh" claim is an internal claim used by Azure to revalidate tokens. Resources shouldn't use this claim.</value>
+    <value>O atributo "rh" é um atributo interno usado pelo Azure para revalidar tokens. Recursos não devem usar este atributo.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="roles" xml:space="preserve">
-    <value>The "roles" claim indicate the set of permissions exposed by the application that the requesting application or user has been given permission to call. The client credential flow uses this set of permission in place of user scopes for application tokens. For user tokens, this set of values contains the assigned roles of the user on the target application.</value>
+    <value>O atributo "roles" indica o conjunto de permissões expostas pela aplicação que a aplicação ou usuário solicitante receberam permissão para chamar. O fluxo de credenciais do cliente usa esse conjunto de permissões ao invés de escopos de usuário para tokens de aplicação. Para tokens de usuário, esse conjunto de valores contêm os papeis atribuídos ao usuário na aplicação alvo.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="scp" xml:space="preserve">
-    <value>The "scp" claim indicate the set of scopes exposed by the application for which the client application has requested (and received) consent. Only included for user tokens.</value>
+    <value>O atributo "scp" indica o conjunto de escopos expostos pela aplicação para os quais a aplicação cliente solicitou (e recebeu) consentimento. Somente incluído em tokens de usuário.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -390,11 +390,11 @@
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
-    <value>The "sub" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject.  The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique. The processing of this claim is generally application specific. The "sub" value is a case-sensitive string containing a StringOrURI value.  Use of this claim is OPTIONAL.</value>
+    <value>O atributo "sub" (subject) identifica a entidade que é identificada pelo JWT. Os atributos em um JWT são normalmente declarações sobre a entidade.  O valor da entidade DEVE ser único dentro do contexto do emissor ou único globalmente. O processamento desse atributo é geralmente específico da aplicação. O valor de "sub" é uma string case-sensitive contendo um valor StringOrURI.  O uso desse atributo é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="tid" xml:space="preserve">
-    <value>The "tid" claim represents the tenant that the user is signing in to. For work and school accounts, the GUID is the immutable tenant ID of the organization that the user is signing in to.</value>
+    <value>O atributo "tid" representa o provedor em que o usuário está se autenticando. Para contas de trabalho e de escola, o GUID é o ID imutável do provedor da organização em que o usuário está se autenticando.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="TokenInputTitle" xml:space="preserve">
@@ -402,11 +402,11 @@
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
-    <value>Token not validated (no parameters selected)</value>
+    <value>Token não validado (nenhum parâmetro selecionado)</value>
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
-    <value>Select which mode you want to use</value>
+    <value>Selecione qual modo você quer utilizar</value>
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
@@ -414,19 +414,19 @@
     <comment>Gui</comment>
   </data>
   <data name="typ" xml:space="preserve">
-    <value>Indicates the token type</value>
+    <value>Indica o tipo de token</value>
     <comment>Claim</comment>
   </data>
   <data name="unique_name" xml:space="preserve">
-    <value>The "unique_name" claim provides a human readable value that identifies the subject of the token.</value>
+    <value>O atributo "unique_name" provê um valor legível por humanos que identifica a entidade do token.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="uti" xml:space="preserve">
-    <value>The "uti" claim (Token identifier claim), is equivalent to "jti" in the JWT specification. Unique, per-token identifier that is case-sensitive.</value>
+    <value>O atributo "uti" (atributo identificador do Token) é equivalente ao "jti" na especificação do JWT. Identificador único do token que é case-sensitive.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
-    <value>Audiences are empty or invalid</value>
+    <value>Públicos-alvos estão vazios ou são inválidos</value>
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
@@ -434,19 +434,19 @@
     <comment>Error message</comment>
   </data>
   <data name="ver" xml:space="preserve">
-    <value>The "ver" claim indicates the version of the access token.</value>
+    <value>O atributo "ver" indica a versão do token de acesso.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="wids" xml:space="preserve">
-    <value>The "wids" claim denotes the tenant-wide roles assigned to this user, from the section of roles present in Microsoft Entra built-in roles. The groupMembershipClaims property of the application manifest configures this claim on a per-application basis. Set the claim to All or DirectoryRole. May not be present in tokens obtained through the implicit flow due to token length concerns.</value>
+    <value>O atributo "wids" denota os papéis atribuídos a esse usuário pelo provedor, da sessão de papeis presentes nos papeis do Microsoft Entra. A propriedade groupMembershipClaims do manifesto da aplicação configura esse atributo com base na aplicação. Configure o atributo para All ou DirectoryRole. Pode não estar presente em tokens obtidos através do fluxo implícito devido à preocupações com o tamanho do token.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="x5t" xml:space="preserve">
-    <value>Functions the same as "kid". "x5t" is a legacy claim emitted only in v1.0 access tokens for compatibility purposes.</value>
+    <value>Funciona da mesma forma que "kid". "x5t" é um atributo defasado emitido somente em tokens de acesso v1.0 para fins de retrocompatibilidade.</value>
     <comment>Claim</comment>
   </data>
   <data name="xms_cc" xml:space="preserve">
-    <value>The "xms_cc" claim indicates whether the client application that acquired the token is capable of handling claims challenges. It's often used along with claim acrs. This claim is commonly used in Conditional Access and Continuous Access Evaluation scenarios. The resource server or service application that the token is issued for controls the presence of this claim in a token. A value of cp1 in the access token is the authoritative way to identify that a client application is capable of handling a claims challenge.</value>
+    <value>O atributo "xms_cc" indica se a aplicação cliente que adquiriu o token é capaz de lidar com os desafios dos atributos. É frequentemente usado junto com o atributo acrs. Esse atributo é comumente usado em cenários de Conditional Access e Continuous Access Evaluation. O servidor de recurso ou servidor de aplicação para o qual o token é mitido controla a presença desse atributo no token. Um valor de cp1 no token de acesso é a forma autoritária de identificar que uma aplicação cliente é capaz de lidar com os desafios dos atributos.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
@@ -454,23 +454,23 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Token has default time</value>
+    <value>O token tem tempo padrão</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidHeader" xml:space="preserve">
-    <value>Unable to process the token header</value>
+    <value>Não é possível processar o cabeçalho do token</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPayload" xml:space="preserve">
-    <value>Unable to process the token payload</value>
+    <value>Não é possível processar o conteúdo do token</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPrivateKey" xml:space="preserve">
-    <value>Private key is either null or empty</value>
+    <value>Chave privada está nula ou vazia</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPublicKey" xml:space="preserve">
-    <value>Public key is either null or empty</value>
+    <value>Chave pública está nula ou vazia</value>
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
@@ -478,11 +478,11 @@
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
-    <value>Token Validated</value>
+    <value>Token Validado</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
-    <value>Unable to process the token signature</value>
+    <value>Não é possível processar a assinatura do token</value>
     <comment>Error message</comment>
   </data>
   <data name="Base64" xml:space="preserve">
@@ -494,7 +494,7 @@
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>Formato da assinatura</value>
     <comment>Gui</comment>
   </data>
 </root>
