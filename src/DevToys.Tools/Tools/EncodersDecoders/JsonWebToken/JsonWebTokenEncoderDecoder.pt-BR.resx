@@ -122,31 +122,31 @@
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>The "acr" claim with a value of 0 indicates the end-user authentication didn't meet the requirements of ISO/IEC 29115.</value>
+    <value>O atributo "acr" com valor 0 indica que a autenticação do usuário final não atendeu aos requisitos da ISO/IEC 29115.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
-    <value>The "acrs" claim indicates the Auth Context IDs of the operations that the bearer is eligible to perform. Auth Context IDs can be used to trigger a demand for step-up authentication from within your application and services. Often used along with the xms_cc claim.</value>
+    <value>O atributo "acrs" indica os Auth Context IDs das operações que o portador é habilitado a executar. Auth Context IDs podem ser usados para disparar uma demanda para step-up authentication a partir de sua aplicação e serviços. Frequentemente usado junto com o atributo xms_cc.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>The "aio" claim is an internal claim used by Microsoft Entra ID to record data for token reuse. Resources shouldn't use this claim.</value>
+    <value>O atributo "aio" é um atributo interno usado pelo Microsoft Entra ID para gravar dados para reuso de token. Recursos não devem usar esse claim.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
-    <value>Indicates the algorithm used to sign the token</value>
+    <value>Indica o algoritmo usado para assinar o token</value>
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Unknown token algorithm</value>
+    <value>Algoritmo de token desconhecido</value>
     <comment>Error message</comment>
   </data>
   <data name="amr" xml:space="preserve">
-    <value>The "amr" claim identifies the authentication method of the subject of the token.</value>
+    <value>O atributo "amr" identifica o método de autenticação da entidade do token.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appid" xml:space="preserve">
-    <value>The "appid" claim indicate the application ID of the client using the token. The application can act as itself or on behalf of a user. The application ID typically represents an application object, but it can also represent a service principal object in Microsoft Entra ID.</value>
+    <value>O atributo "appid" indica o ID da aplicação do cliente usando o token. A aplicação pode agir como si mesma ou em nome de um usuário. O ID da aplicação geralmente representa um objeto de aplicação, mas pode também representar um service principal object no Microsoft Entra ID.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appidacr" xml:space="preserve">
