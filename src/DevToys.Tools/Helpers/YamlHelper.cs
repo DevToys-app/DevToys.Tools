@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Nodes;
+using System.Text.RegularExpressions;
 using DevToys.Tools.Models;
 using Microsoft.Extensions.Logging;
 using YamlDotNet.Core;
@@ -111,9 +112,10 @@ internal static partial class YamlHelper
     private static dynamic? ParseValue(JsonValue token)
     {
         var elem = (JsonElement)token.GetValue<object>();
+        bool hasEscape = UnicodeEscapeTextRegex().IsMatch(token.ToJsonString());
         return elem.ValueKind switch
         {
-            JsonValueKind.String => elem.GetString(),
+            JsonValueKind.String => hasEscape ? GetEscapeString(token) : elem.GetString(),
             JsonValueKind.Number => elem.GetDecimal(),
             JsonValueKind.False => false,
             JsonValueKind.True => true,
@@ -125,7 +127,13 @@ internal static partial class YamlHelper
         };
     }
 
-    private static object? ConvertJTokenToObject(JsonNode? node, int level)
+    private static string GetEscapeString(JsonValue token)
+    {
+        string rawValue = token.ToJsonString().Replace("\"", "");
+        return UnicodeEscapeTextRegex().Replace(rawValue, x => x.Value.ToLower());
+    }
+
+private static object? ConvertJTokenToObject(JsonNode? node, int level)
     {
         if (node is null)
         {
@@ -145,4 +153,7 @@ internal static partial class YamlHelper
             _ => throw new InvalidOperationException("Unexpected token: " + node)
         };
     }
+
+    [GeneratedRegex(@"\\u([A-Fa-f0-9]{4})")]
+    private static partial Regex UnicodeEscapeTextRegex();
 }
