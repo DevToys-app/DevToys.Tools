@@ -118,63 +118,63 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Cron parsing tool</value>
+    <value>Ferramenta de análise de Cron</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuração</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
-    <value>Cron description</value>
+    <value>Descrição do Cron</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>Cron expression is not valid</value>
+    <value>A expressão Cron não é válida</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
-    <value>The Cron expression to parse</value>
+    <value>Expressão Cron a ser analisada</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>Formato de data e hora de datas de agendamento geradas</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>Analisar expressão Cron para obter datas agendadas</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Se a expressão Cron inclui segundos em sua definição</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Cron expression to parse</value>
+    <value>Expressão Cron a ser analisada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron expression parser</value>
+    <value>Analisador de expressão Cron</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>Número de agendamentos a serem gerados</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>How many scheduled dates needs to be generated</value>
+    <value>Quantas datas programadas devem ser geradas</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Próximas datas programadas</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>Formato de data e hora para as próximas datas</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>Formato de saída de data e hora não é válido</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>Formato de saída</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Próximas datas programadas</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Cron parser</value>
+    <value>Analisador de Cron</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Se a expressão Cron deve incluir segundos em sua definição</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>Incluir segundos</value>
   </data>
 </root>
