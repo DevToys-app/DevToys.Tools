@@ -133,7 +133,7 @@
     <value>Não há horário de verão.</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>DST Ambiguous time.</value>
+    <value>Horário de verão ambíguo.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
     <value>Hora (24 horas)</value>
@@ -154,7 +154,7 @@
     <value>Deslocamento</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks</value>
+    <value>Hora Data Fuso horário Era Epoch Timestamp Ticks</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
@@ -185,10 +185,10 @@
     <value>Data</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>Default Epoch</value>
+    <value>Era Padrão</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>Usar uma Era customizada ao invés da Era UNIX</value>
   </data>
   <data name="No" xml:space="preserve">
     <value>Não</value>
@@ -216,7 +216,7 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
-    <value>Epoch to use. Supported format: "ISO 8601" example 1970-01-01T00:00:00.0000000+00:00</value>
+    <value>Era para usar. Formato suportado: "ISO 8601" exemplo 1970-01-01T00:00:00.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
@@ -224,7 +224,7 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
-    <value>Input to convert in long or Date supported format "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>Entrada para converter para long ou formato de Data suportado "ISO 8601" exemplo 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
@@ -236,11 +236,11 @@
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
-    <value>Unable to parse epoch</value>
+    <value>Não foi possível entender a Era</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
-    <value>Unable to find the Timezone Provided please check if the timezone exist here https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
+    <value>Não foi possível encontrar o Fuso Horário provido, por favor verifique se o fuso horário existe aqui: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
