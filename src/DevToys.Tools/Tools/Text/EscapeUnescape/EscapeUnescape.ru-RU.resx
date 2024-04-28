@@ -121,7 +121,7 @@
     <value>Text Escape and Unescape tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Конфигурация</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
     <value>Unescape</value>

@@ -118,132 +118,132 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Date converter tool</value>
+    <value>Ferramenta conversora de datas</value>
   </data>
   <data name="DaylightSavingTime" xml:space="preserve">
-    <value>Daylight saving time.</value>
+    <value>Horário de verão.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>Dia</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert date to human-readable date and vice versa</value>
+    <value>Converter data em data legível para humanos e vice-versa</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
-    <value>There is no daylight saving time.</value>
+    <value>Não há horário de verão.</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>DST Ambiguous time.</value>
+    <value>Horário de verão ambíguo.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>Hour (24 hour)</value>
+    <value>Hora (24 horas)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>Fuso horário</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
-    <value>Local Date and Time</value>
+    <value>Data e Hora Local</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Minutos</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
-    <value>Month</value>
+    <value>Mês</value>
   </data>
   <data name="OffsetTitle" xml:space="preserve">
-    <value>Offset</value>
+    <value>Deslocamento</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks</value>
+    <value>Hora Data Fuso horário Era Epoch Timestamp Ticks</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
-    <value>Seconds</value>
+    <value>Segundos</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
-    <value>There is daylight saving time.</value>
+    <value>Há horário de verão.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Data</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>UTC Date and Time</value>
+    <value>Data e Hora UTC</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
     <value>UtcTicks</value>
   </data>
   <data name="YearTitle" xml:space="preserve">
-    <value>Year</value>
+    <value>Ano</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Now</value>
+    <value>Agora</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Date Converter</value>
+    <value>Conversor de Data</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Data</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>Default Epoch</value>
+    <value>Era Padrão</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>Usar uma Era customizada ao invés da Era UNIX</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Não</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Sim</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>Milissegundos</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>Format</value>
+    <value>Formato</value>
   </data>
   <data name="Ticks" xml:space="preserve">
     <value>Ticks</value>
   </data>
   <data name="Seconds" xml:space="preserve">
-    <value>Seconds</value>
+    <value>Segundos</value>
   </data>
   <data name="Milliseconds" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>Milissegundos</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
-    <value>Date to convert. Supported format: "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>Data para converter. Formato suportado: "ISO 8601" exemplo 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
-    <value>Epoch to use. Supported format: "ISO 8601" example 1970-01-01T00:00:00.0000000+00:00</value>
+    <value>Era para usar. Formato suportado: "ISO 8601" exemplo 1970-01-01T00:00:00.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>Format to use default Seconds</value>
+    <value>Formato para usar padrão Segundos</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
-    <value>Input to convert in long or Date supported format "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>Entrada para converter para long ou formato de Data suportado "ISO 8601" exemplo 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
-    <value>Timezone to use (supported timezones: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
+    <value>Fuso horário para usar (fusos horários suportados: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
-    <value>Unable to parse date</value>
+    <value>Não foi possível entender a data</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
-    <value>Unable to parse epoch</value>
+    <value>Não foi possível entender a Era</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
-    <value>Unable to find the Timezone Provided please check if the timezone exist here https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
+    <value>Não foi possível encontrar o Fuso Horário provido, por favor verifique se o fuso horário existe aqui: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
-    <value>Please specify an input number or date</value>
+    <value>Por favor, especifique um número ou data de entrada</value>
   </data>
 </root>
