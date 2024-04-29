@@ -64,7 +64,17 @@ internal static partial class YamlHelper
 
         try
         {
-
+            var replacements = new Dictionary<Guid, string>();
+            bool hasEscape = UnicodeEscapeTextRegex().IsMatch(input);
+            if (hasEscape)
+            {
+                input = UnicodeEscapeTextRegex().Replace(input, match =>
+                {
+                    var uuid = Guid.NewGuid();
+                    replacements[uuid] = match.Value;
+                    return uuid.ToString();
+                });
+            }
             var token = JsonNode.Parse(input, documentOptions: new() { CommentHandling = JsonCommentHandling.Skip });
             if (token is null)
             {
@@ -93,6 +103,12 @@ internal static partial class YamlHelper
                 {
                     return new(string.Empty, false);
                 }
+
+                if (hasEscape)
+                {
+                    yaml = replacements.Aggregate(yaml, (current, replacement) =>
+                        current.Replace(replacement.Key.ToString(), replacement.Value));
+                }
                 cancellationToken.ThrowIfCancellationRequested();
                 return new(yaml);
             }
@@ -112,10 +128,9 @@ internal static partial class YamlHelper
     private static dynamic? ParseValue(JsonValue token)
     {
         var elem = (JsonElement)token.GetValue<object>();
-        bool hasEscape = UnicodeEscapeTextRegex().IsMatch(token.ToJsonString());
         return elem.ValueKind switch
         {
-            JsonValueKind.String => hasEscape ? GetEscapeString(token) : elem.GetString(),
+            JsonValueKind.String => elem.GetString(),
             JsonValueKind.Number => elem.GetDecimal(),
             JsonValueKind.False => false,
             JsonValueKind.True => true,
@@ -127,13 +142,7 @@ internal static partial class YamlHelper
         };
     }
 
-    private static string GetEscapeString(JsonValue token)
-    {
-        string rawValue = token.ToJsonString().Replace("\"", "");
-        return UnicodeEscapeTextRegex().Replace(rawValue, x => x.Value.ToLower());
-    }
-
-private static object? ConvertJTokenToObject(JsonNode? node, int level)
+    private static object? ConvertJTokenToObject(JsonNode? node, int level)
     {
         if (node is null)
         {
