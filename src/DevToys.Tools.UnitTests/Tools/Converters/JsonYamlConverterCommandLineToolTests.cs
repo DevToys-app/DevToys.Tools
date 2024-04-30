@@ -138,6 +138,32 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         outputContent.Should().Be("foo: bar\r\nfizz:\r\n    - wizz\r\n".Replace("\r\n", Environment.NewLine));
     }
 
+    [Fact(DisplayName = "Convert json with unicode escape should output valid yaml")]
+    public async Task ConvertJsonWithUnicodeEscapeShouldOutputValidYaml()
+    {
+        _tool.ConversionMode = JsonToYamlConversion.JsonToYaml;
+        _tool.IndentationMode = Indentation.TwoSpaces;
+        _tool.Input = "{\"Name\": \"Dor\\u00e9\"}";
+
+        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        result.Should().Be(0);
+        string consoleOutput = _consoleWriter.ToString().Trim();
+        consoleOutput.Should().Be("Name: Dor\\u00e9".Replace("\r\n", Environment.NewLine));
+    }
+
+    [Fact(DisplayName = "Convert json with not ANSI character should output valid yaml")]
+    public async Task ConvertJsonWithUnicodeEscapeCharacterShouldOutputValidYaml()
+    {
+        _tool.ConversionMode = JsonToYamlConversion.JsonToYaml;
+        _tool.IndentationMode = Indentation.TwoSpaces;
+        _tool.Input = "{\"Name\": \"doré\"}";
+
+        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        result.Should().Be(0);
+        string consoleOutput = _consoleWriter.ToString().Trim();
+        consoleOutput.Should().Be("Name: doré".Replace("\r\n", Environment.NewLine));
+    }
+
     #endregion
 
     #region YamlToJson

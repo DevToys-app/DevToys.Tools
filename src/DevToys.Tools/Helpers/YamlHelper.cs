@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Nodes;
+using System.Text.RegularExpressions;
 using DevToys.Tools.Models;
 using Microsoft.Extensions.Logging;
 using YamlDotNet.Core;
@@ -63,7 +64,17 @@ internal static partial class YamlHelper
 
         try
         {
-
+            var replacements = new Dictionary<Guid, string>();
+            bool hasEscape = UnicodeEscapeTextRegex().IsMatch(input);
+            if (hasEscape)
+            {
+                input = UnicodeEscapeTextRegex().Replace(input, match =>
+                {
+                    var uuid = Guid.NewGuid();
+                    replacements[uuid] = match.Value;
+                    return uuid.ToString();
+                });
+            }
             var token = JsonNode.Parse(input, documentOptions: new() { CommentHandling = JsonCommentHandling.Skip });
             if (token is null)
             {
@@ -91,6 +102,12 @@ internal static partial class YamlHelper
                 if (string.IsNullOrWhiteSpace(yaml))
                 {
                     return new(string.Empty, false);
+                }
+
+                if (hasEscape)
+                {
+                    yaml = replacements.Aggregate(yaml, (current, replacement) =>
+                        current.Replace(replacement.Key.ToString(), replacement.Value));
                 }
                 cancellationToken.ThrowIfCancellationRequested();
                 return new(yaml);
@@ -145,4 +162,7 @@ internal static partial class YamlHelper
             _ => throw new InvalidOperationException("Unexpected token: " + node)
         };
     }
+
+    [GeneratedRegex(@"\\u([A-Fa-f0-9]{4})")]
+    private static partial Regex UnicodeEscapeTextRegex();
 }
