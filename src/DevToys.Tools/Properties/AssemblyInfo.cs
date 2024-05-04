@@ -17,7 +17,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("DevToys")]
 [assembly: AssemblyProduct("DevToys")]
-[assembly: AssemblyCopyright("© Etienne Baudoux & Benjamin Titeux. All rights reserved.")]
+[assembly: AssemblyCopyright("test. do not merge")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
