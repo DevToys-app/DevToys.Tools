@@ -140,7 +140,7 @@
   </data>
   <data name="FileSizeDisplay" xml:space="preserve">
     <value>{0:0.##} {1}</value>
-    <comment>{0} ist eine Dezimalzahl, die eine Dateigröße angibt. {1} ist eine Einheit, wie Bytes, KB, MB, GB, TB</comment>
+    <comment>{0} is a decimal number representing a file size. {1} is a unit, like Bytes, KB, MB, GB, TB</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
     <value>Das Format, in das Bilder konvertiert werden sollen</value>
