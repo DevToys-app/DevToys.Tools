@@ -314,7 +314,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Expiration Date is invalid</value>
+    <value>만료 날짜가 잘못되었습니다</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -358,7 +358,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of private key is not supported</value>
+    <value>이 유형의 개인 키는 지원되지 않습니다</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
