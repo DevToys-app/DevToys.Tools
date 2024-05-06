@@ -121,12 +121,12 @@
     <value>Bytes</value>
   </data>
   <data name="FileNotFound" xml:space="preserve">
-    <value>File '{0}' was not found.</value>
-    <comment>{0} is a file name.</comment>
+    <value>Datei '{0}' wurde nicht gefunden.</value>
+    <comment>{0} ist ein Dateiname.</comment>
   </data>
   <data name="FileTypeNotSupported" xml:space="preserve">
-    <value>File '{0}' is not supported. Only files of type {1} are supported.</value>
-    <comment>{0} is a file name. {1} is a list of file extensions</comment>
+    <value>Die Datei '{0}' wird nicht unterstützt. Es werden nur Dateien des Typs {1} unterstützt.</value>
+    <comment>{0} ist ein Dateiname. {1} ist eine Liste von Dateierweiterungen</comment>
   </data>
   <data name="Gigabytes" xml:space="preserve">
     <value>GB</value>
