@@ -154,21 +154,21 @@
     <value>B</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>List Comparer</value>
+    <value>مقارنة القوائم</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to a file to get compared list (display if empty)</value>
+    <value>المسار إلى ملف للحصول على قائمة المقارنة (اعرض إذا كان فارغًا)</value>
   </data>
   <data name="PathListA" xml:space="preserve">
-    <value>Path of the first list to compare</value>
+    <value>مسار القائمة الأولى للمقارنة</value>
   </data>
   <data name="PathListB" xml:space="preserve">
-    <value>Path of the second list to compare</value>
+    <value>مسار القائمة الثانية للمقارنة</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>List Compare</value>
+    <value>مقارنة القوائم</value>
   </data>
   <data name="TextCaseSensitiveComparison" xml:space="preserve">
-    <value>Case sensitive comparison</value>
+    <value>المقارنة الحساسة لحالة الأحرف</value>
   </data>
 </root>
