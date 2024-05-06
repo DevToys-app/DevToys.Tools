@@ -118,62 +118,62 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Number Base Converter tool</value>
+    <value>Zahlenbasis-Konvertierungswerkzeug</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>Fortgeschrittener Modus</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>Binär</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguration</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>Bitte lege im benutzerdefinierten Wörterbuch mindestens zwei Zeichen fest</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>Benutzerdefiniertes Format</value>
   </data>
   <data name="Decimal" xml:space="preserve">
-    <value>Decimal</value>
+    <value>Dezimal</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>Zahlen von einer Basis in eine andere umrechnen</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>Zahlen formatieren</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
-    <value>Hexadecimal</value>
+    <value>Hexadezimal</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Eingabe</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>The base of the number to convert</value>
+    <value>Die Basis der umzurechnenden Zahl</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>Eingabe-Wörterbuch</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
-    <comment>CLI parameter description</comment>
+    <value>Zu konvertierende Zahl</value>
+    <comment>CLI-Parameterbeschreibung</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>Zahlenbasiskonverter</value>
   </data>
   <data name="Octal" xml:space="preserve">
-    <value>Octal</value>
+    <value>Oktal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Ausgabe</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>Die gewünschte Basis, in die konvertiert werden soll.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>Ausgabe-Wörterbuch</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -182,23 +182,23 @@
     <value>RFC-4648 Base32</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Extended Hex</value>
+    <value>RFC-4648 Base32 Erweitertes Hex</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
     <value>RFC-4648 Base64</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Url Encode</value>
+    <value>RFC-4648 Base64 URL-Kodierung</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>Zahlenbasis</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
-    <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
+    <value>Der aktuelle {0}-Wert ist nicht gültig</value>
+    <comment>Der Parameter ist der Basiszahlentyp (Dezimal, Oktal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
-    <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
+    <value>Der aktuelle {0}-Wert kann nicht konvertiert werden, da er den Maximalwert ({1}) überschreitet.</value>
+    <comment>0 ist der Basiszahlentyp (Dezimal, Oktal...). 1 ist der Parameter ist der Max-Wert.</comment>
   </data>
 </root>

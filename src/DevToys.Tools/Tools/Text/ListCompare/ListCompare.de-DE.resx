@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>List comparer tool</value>
+    <value>Listenvergleichs-Werkzeug</value>
   </data>
   <data name="AInterB" xml:space="preserve">
     <value>A ∩ B</value>
   </data>
   <data name="AOnly" xml:space="preserve">
-    <value>A Only</value>
+    <value>Nur A</value>
   </data>
   <data name="AUnionB" xml:space="preserve">
     <value>A ∪ B</value>
   </data>
   <data name="BOnly" xml:space="preserve">
-    <value>B Only</value>
+    <value>Nur B</value>
   </data>
   <data name="ComparisonOptionDescription" xml:space="preserve">
-    <value>Please specify comparison mode (A ∩ B, A ∪ B, A Only, B Only)</value>
+    <value>Bitte Vergleichsmodus angeben (A ∩ B, A ∪ B, Nur A, Nur B)</value>
   </data>
   <data name="ComparisonOptionTitle" xml:space="preserve">
-    <value>Comparison mode</value>
+    <value>Vergleichsmodus</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguration</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compare two lists</value>
+    <value>Zwei Listen vergleichen</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>Ausgewählte Eingabedatei existiert nicht</value>
   </data>
   <data name="ListA" xml:space="preserve">
     <value>A</value>
@@ -154,21 +154,21 @@
     <value>B</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>List Comparer</value>
+    <value>Listenvergleicher</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to a file to get compared list (display if empty)</value>
+    <value>Pfad zu einer Datei, um Vergleichsliste zu erhalten (anzeigen, wenn leer)</value>
   </data>
   <data name="PathListA" xml:space="preserve">
-    <value>Path of the first list to compare</value>
+    <value>Pfad der ersten zu vergleichenden Liste</value>
   </data>
   <data name="PathListB" xml:space="preserve">
-    <value>Path of the second list to compare</value>
+    <value>Pfad der zweiten zu vergleichenden Liste</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>List Compare</value>
+    <value>Listenvergleich</value>
   </data>
   <data name="TextCaseSensitiveComparison" xml:space="preserve">
-    <value>Case sensitive comparison</value>
+    <value>Groß- und Kleinschreibung im Vergleich</value>
   </data>
 </root>

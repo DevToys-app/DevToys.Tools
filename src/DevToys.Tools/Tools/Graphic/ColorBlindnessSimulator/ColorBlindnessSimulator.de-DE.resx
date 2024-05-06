@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Color Blindness Simulator tool</value>
+    <value>Farbenblindheits-Simulator</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Simulate color blindness on a picture or screenshot</value>
+    <value>Farbenblindheit auf einem Bild oder Bildschirmfoto simulieren</value>
   </data>
   <data name="DeuteranopiaSimulation" xml:space="preserve">
-    <value>Deuteranopia simulation</value>
+    <value>Deuteranopie-Simulation</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to treat</value>
+    <value>Pfad der zu behandelnden Bilddatei</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Color Blindness Simulator</value>
+    <value>Farbenblindheits-Simulator</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
     <value>Original</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be persisted. By default, use input file's directory</value>
+    <value>Verzeichnis, in dem das Ergebnis gespeichert werden soll. Standardmäßig wird das Verzeichnis der Eingabedatei verwendet</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Protanopia simulation</value>
+    <value>Protanopie-Simulation</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
-    <comment>Alternative search keywords.</comment>
+    <value>Tritanopie Protanopie Deuteranopie Dalton Daltonismus Daltonist</value>
+    <comment>Alternative Suchbegriffe.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Color Blindness Simulator</value>
+    <value>Farbenblindheits-Simulator</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>Verbirgt den Fortschritt des Hashing-Vorgangs</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>Tritanopia simulation</value>
+    <value>Tritanopie-Simulation</value>
   </data>
 </root>

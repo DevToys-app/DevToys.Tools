@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON array to tabular form converter tool</value>
+    <value>JSON-Array in Tabellenform-Konvertierungswerkzeug</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Array to Table</value>
-    <comment>Grid view title</comment>
+    <value>JSON Array in Tabelle</value>
+    <comment>Titel der Rasteransicht</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert a JSON array to tabular format, export to CSV or TSV</value>
-    <comment>Grid view description</comment>
+    <value>Ein JSON-Array in ein tabellarisches Format konventieren, in CSV oder TSV exportieren</value>
+    <comment>Rasteransicht-Beschreibung</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>JSON &gt; Table</value>
-    <comment>Sidebar heading</comment>
+    <value>JSON &gt; Tabelle</value>
+    <comment>Überschrift der Seitenleiste</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>JSON CSV TSV French Excel Tabular Data</value>
+    <value>JSON CSV TSV Französische Excel-Tabellarische Daten</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguration</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Eingabe</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Ausgabe</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
-    <comment>Displayed when input isn't a valid JSON array</comment>
+    <value>Bitte gib ein gültiges JSON-Array von Objekten an</value>
+    <comment>Wird angezeigt, wenn die Eingabe kein gültiges JSON-Array ist</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>Auswählen, welches Format in die Zwischenablage kopiert werden soll</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>Zwischenablage-Format</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>Comma separated values (CSV)</value>
+    <value>Komma getrennte Werte (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>Tab separated values (TSV)</value>
+    <value>Tabulator getrennte Werte (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>Semicolon separated values (CSV French)</value>
+    <value>Semikolon getrennte Werte (CSV Französisch)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
-    <comment>CLI parameter description</comment>
+    <value>Text oder Pfad zu einer Datei, die von JSON konvertiert werden soll</value>
+    <comment>CLI-Parameterbeschreibung</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>File where the result should be persisted.</value>
-    <comment>CLI parameter description</comment>
+    <value>Datei, in der das Ergebnis aufbewahrt werden soll.</value>
+    <comment>CLI-Parameterbeschreibung</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
     <value>Select which format to output</value>
-    <comment>CLI parameter description</comment>
+    <comment>CLI-Parameterbeschreibung</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Kopieren als</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Speichern unter</value>
   </data>
 </root>
