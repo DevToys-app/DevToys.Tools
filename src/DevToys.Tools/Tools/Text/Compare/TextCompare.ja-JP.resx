@@ -118,33 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>テキストの比較ツール</value>
+    <value>Textvergleichs-Werkzeug</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>構成</value>
+    <value>Konfiguration</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>2 つのテキストを比較</value>
+    <value>Zwei Texte vergleichen</value>
   </data>
   <data name="Difference" xml:space="preserve">
-    <value>差分</value>
+    <value>Unterschied</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
-    <value>インラインモード</value>
+    <value>Inline-Modus</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>テキストの比較</value>
+    <value>Textvergleicher</value>
   </data>
   <data name="ModifiedText" xml:space="preserve">
-    <value>比較先</value>
+    <value>Geänderter Text</value>
   </data>
   <data name="OriginalText" xml:space="preserve">
-    <value>比較元</value>
+    <value>Originaler text</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Diff comparer</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>内容比較</value>
+    <value>Vergleichen</value>
   </data>
 </root>
