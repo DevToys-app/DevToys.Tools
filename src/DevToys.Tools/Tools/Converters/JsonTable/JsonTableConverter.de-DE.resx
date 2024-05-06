@@ -122,15 +122,15 @@
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSON Array in Tabelle</value>
-    <comment>Titel der Rasteransicht</comment>
+    <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Ein JSON-Array in ein tabellarisches Format konventieren, in CSV oder TSV exportieren</value>
-    <comment>Rasteransicht-Beschreibung</comment>
+    <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &gt; Tabelle</value>
-    <comment>Überschrift der Seitenleiste</comment>
+    <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>JSON CSV TSV Französische Excel-Tabellarische Daten</value>
@@ -146,7 +146,7 @@
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Bitte gib ein gültiges JSON-Array von Objekten an</value>
-    <comment>Wird angezeigt, wenn die Eingabe kein gültiges JSON-Array ist</comment>
+    <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
     <value>Auswählen, welches Format in die Zwischenablage kopiert werden soll</value>
@@ -165,15 +165,15 @@
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text oder Pfad zu einer Datei, die von JSON konvertiert werden soll</value>
-    <comment>CLI-Parameterbeschreibung</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Datei, in der das Ergebnis aufbewahrt werden soll.</value>
-    <comment>CLI-Parameterbeschreibung</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
     <value>Select which format to output</value>
-    <comment>CLI-Parameterbeschreibung</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
     <value>Kopieren als</value>
