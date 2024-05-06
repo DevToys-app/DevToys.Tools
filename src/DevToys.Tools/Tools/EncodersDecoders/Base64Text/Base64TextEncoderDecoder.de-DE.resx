@@ -179,7 +179,7 @@
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
-    <comment>Alternative Suchbegriffe.</comment>
+    <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Base64-Text</value>
