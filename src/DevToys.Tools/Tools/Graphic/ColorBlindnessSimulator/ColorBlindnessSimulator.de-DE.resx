@@ -143,7 +143,7 @@
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Tritanopie Protanopie Deuteranopie Dalton Daltonismus Daltonist</value>
-    <comment>Alternative Suchbegriffe.</comment>
+    <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Farbenblindheits-Simulator</value>
