@@ -18,6 +18,10 @@ using static Nuke.Common.Tools.DotNet.DotNetTasks;
     [
         "crowdin_main" // excludes crowdin_main
     ],
+    OnPullRequestBranches =
+    [
+        "main" // only runs on main branch
+    ],
     AutoGenerate = true)]
 class Build : NukeBuild
 {
