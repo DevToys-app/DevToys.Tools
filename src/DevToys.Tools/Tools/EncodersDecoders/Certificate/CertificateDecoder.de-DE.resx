@@ -155,7 +155,7 @@
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>CER PFX PEM CRT</value>
-    <comment>Alternative Suchbegriffe.</comment>
+    <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Zertifikat</value>
