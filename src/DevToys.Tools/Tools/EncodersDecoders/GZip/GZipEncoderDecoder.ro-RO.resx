@@ -160,7 +160,7 @@
     <value>GZip Compress / Decompress</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Ieșire</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>
