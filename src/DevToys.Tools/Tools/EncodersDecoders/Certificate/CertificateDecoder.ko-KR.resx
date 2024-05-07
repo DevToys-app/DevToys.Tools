@@ -136,7 +136,7 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Incorrect password.</value>
+    <value>암호가 잘못되었습니다.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Certificate Decoder</value>
