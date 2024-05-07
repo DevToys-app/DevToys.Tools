@@ -172,10 +172,10 @@
     <value>Hash / Checksum Generator</value>
   </data>
   <data name="Or" xml:space="preserve">
-    <value>or</value>
+    <value>sau</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Ieșire</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Hash / Checksum</value>
