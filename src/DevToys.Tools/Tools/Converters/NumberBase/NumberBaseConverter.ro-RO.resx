@@ -167,7 +167,7 @@
     <value>Octal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Ieșire</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
     <value>The desired base to convert to.</value>
