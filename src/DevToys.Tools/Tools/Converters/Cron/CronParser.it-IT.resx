@@ -118,63 +118,63 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Cron parsing tool</value>
+    <value>Strumento di parsing Cron</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configurazione</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
-    <value>Cron description</value>
+    <value>Descrizione Cron</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>Cron expression is not valid</value>
+    <value>L'espressione Cron non è valida</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
-    <value>The Cron expression to parse</value>
+    <value>L'espressione Cron da parsificare</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>Formato dell'ora della data delle date schedulate generate</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>Analizza l'espressione Cron per ottenere le date pianificate</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Se l'espressione Cron debba includere i secondi nella sua definizione</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Cron expression to parse</value>
+    <value>L'espressione Cron da parsificare</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron expression parser</value>
+    <value>Parser di espressioni Cron</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>Numero di schedulazioni da generare</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>How many scheduled dates needs to be generated</value>
+    <value>Quante date schedulate devono essere generate</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Prossime date schedulate</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>Formato delle prossime date</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
     <value>Output date time format is not valid</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>Formato di output</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Prossime date schedulate</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron parser</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Se l'espressione Cron debba includere i secondi nella sua definizione</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>Includi secondi</value>
   </data>
 </root>

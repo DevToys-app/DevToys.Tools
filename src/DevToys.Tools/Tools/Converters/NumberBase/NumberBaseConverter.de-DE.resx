@@ -158,7 +158,7 @@
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Zu konvertierende Zahl</value>
-    <comment>CLI-Parameterbeschreibung</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Zahlenbasiskonverter</value>
@@ -195,10 +195,10 @@
   </data>
   <data name="ValueInvalid" xml:space="preserve">
     <value>Der aktuelle {0}-Wert ist nicht gültig</value>
-    <comment>Der Parameter ist der Basiszahlentyp (Dezimal, Oktal, ...)</comment>
+    <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
     <value>Der aktuelle {0}-Wert kann nicht konvertiert werden, da er den Maximalwert ({1}) überschreitet.</value>
-    <comment>0 ist der Basiszahlentyp (Dezimal, Oktal...). 1 ist der Parameter ist der Max-Wert.</comment>
+    <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>

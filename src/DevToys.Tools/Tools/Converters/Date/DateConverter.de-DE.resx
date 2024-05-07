@@ -155,7 +155,7 @@
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Uhrzeit Datum Zeitzone Epoche Zeitstempel Ticks</value>
-    <comment>Alternative Suchbegriffe. Ermöglicht die Suche nach Wörtern, die nicht in Beschreibung, MenüAnzeigename und SuchAnzeigename enthalten sind.</comment>
+    <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
     <value>Sekunden</value>
@@ -213,35 +213,35 @@
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
     <value>Zu konvertierendes Datum. Unterstütztes Format: "ISO 8601" Beispiel 2023-11-22T19:58:07.0000000+00:00</value>
-    <comment>Beschreibung der CLI-Parameter</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
     <value>Zu verwendende Epoche. Unterstütztes Format: "ISO 8601" Beispiel 1970-01-01T00:00:00.0000000+00:00</value>
-    <comment>Beschreibung der CLI-Parameter</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
     <value>Format zur Verwendung von Standardsekunden</value>
-    <comment>Beschreibung der CLI-Parameter</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
     <value>Eingabe zur Konvertierung in ein langes oder datumsgestütztes Format "ISO 8601" Beispiel 2023-11-22T19:58:07.0000000+00:00</value>
-    <comment>Beschreibung der CLI-Parameter</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
     <value>Zu verwendende Zeitzone (unterstützte Zeitzonen: https://learn.microsoft.com/de-de/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11#time-zones ).</value>
-    <comment>Beschreibung der CLI-Parameter</comment>
+    <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
     <value>Datum kann nicht geparst werden</value>
-    <comment>CLI-Fehlermeldung</comment>
+    <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
     <value>Epoche kann nicht geparst werden</value>
-    <comment>CLI-Fehlermeldung</comment>
+    <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
     <value>Die angegebene Zeitzone konnte nicht gefunden werden. Bitte überprüfe hier, ob die Zeitzone vorhanden ist https://learn.microsoft.com/de-de/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11#time-zones</value>
-    <comment>CLI-Fehlermeldung</comment>
+    <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
     <value>Bitte gib eine Eingabenummer oder ein Datum an</value>

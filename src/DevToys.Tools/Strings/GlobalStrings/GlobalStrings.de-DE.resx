@@ -122,11 +122,11 @@
   </data>
   <data name="FileNotFound" xml:space="preserve">
     <value>Datei '{0}' wurde nicht gefunden.</value>
-    <comment>{0} ist ein Dateiname.</comment>
+    <comment>{0} is a file name.</comment>
   </data>
   <data name="FileTypeNotSupported" xml:space="preserve">
     <value>Die Datei '{0}' wird nicht unterstützt. Es werden nur Dateien des Typs {1} unterstützt.</value>
-    <comment>{0} ist ein Dateiname. {1} ist eine Liste von Dateierweiterungen</comment>
+    <comment>{0} is a file name. {1} is a list of file extensions</comment>
   </data>
   <data name="Gigabytes" xml:space="preserve">
     <value>GB</value>

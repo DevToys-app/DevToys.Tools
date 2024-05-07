@@ -127,7 +127,7 @@
     <value>Compare two texts</value>
   </data>
   <data name="Difference" xml:space="preserve">
-    <value>வேறுபாடு</value>
+    <value>Difference</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
     <value>Inline mode</value>
@@ -139,7 +139,7 @@
     <value>Modified text</value>
   </data>
   <data name="OriginalText" xml:space="preserve">
-    <value>அசல் உரை</value>
+    <value>Original text</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Diff</value>

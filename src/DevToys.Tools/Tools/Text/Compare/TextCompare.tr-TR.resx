@@ -121,7 +121,7 @@
     <value>Text comparer tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Yapılandırma</value>
+    <value>Configuration</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Compare two texts</value>
@@ -130,7 +130,7 @@
     <value>Difference</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
-    <value>Satır içi kipi</value>
+    <value>Inline mode</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Text Comparer</value>

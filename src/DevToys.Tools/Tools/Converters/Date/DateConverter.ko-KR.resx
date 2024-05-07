@@ -188,28 +188,28 @@
     <value>Default Epoch</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>사용자 정의 에포크 사용</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>아니오</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>예</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>밀리초</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>Format</value>
+    <value>형식</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>Ticks</value>
+    <value>틱</value>
   </data>
   <data name="Seconds" xml:space="preserve">
-    <value>Seconds</value>
+    <value>초</value>
   </data>
   <data name="Milliseconds" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>밀리초</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
     <value>Date to convert. Supported format: "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
