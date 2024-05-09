@@ -145,20 +145,20 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Ieșire</value>
   </data>
   <data name="PasswordOptionDescription" xml:space="preserve">
     <value>Certificate password</value>
   </data>
   <data name="PasswordTitle" xml:space="preserve">
-    <value>Password</value>
+    <value>Parolă</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>CER PFX PEM CRT</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Certificate</value>
+    <value>Certificat</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
     <value>Certificate Request format not currently supported.</value>

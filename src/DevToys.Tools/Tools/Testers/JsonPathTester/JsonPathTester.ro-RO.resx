@@ -130,7 +130,7 @@
     <value>Used for filter expressions. Refers to the current node for further processing.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descriere</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
     <value>Dot-notated child</value>
