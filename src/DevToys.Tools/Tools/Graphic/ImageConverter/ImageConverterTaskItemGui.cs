@@ -17,20 +17,6 @@ internal sealed class ImageConverterTaskItemGui : IUIListItem, IDisposable
             GlobalStrings.Terabytes
         };
 
-    private enum GridRows
-    {
-        Top,
-        Bottom
-    }
-
-    private enum GridColumns
-    {
-        Progress,
-        FileNameAndOriginalSize,
-        CompressedSize,
-        ActionButtons
-    }
-
     private readonly CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
     private readonly IFileStorage _fileStorage;
     private readonly Lazy<IUIElement> _ui;
@@ -102,7 +88,7 @@ internal sealed class ImageConverterTaskItemGui : IUIListItem, IDisposable
         using Image<Rgba32> originalImage = await ImageHelper.LoadImageFromFileAsync(InputFile, _cancellationTokenSource.Token);
 
         // Ask the user to pick up a file.
-        Stream? outputFileStream = await _fileStorage.PickSaveFileAsync(_imageConverterGuiTool.UserSelectedImageFormat.ToString());
+        using Stream? outputFileStream = await _fileStorage.PickSaveFileAsync(_imageConverterGuiTool.UserSelectedImageFormat.ToString());
         if (outputFileStream is not null)
         {
             await ImageHelper.SaveAsync(outputFileStream, originalImage, _imageConverterGuiTool.UserSelectedImageFormat, _cancellationTokenSource.Token);
