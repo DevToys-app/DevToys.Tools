@@ -142,7 +142,7 @@
     <value>Input</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Ieșire</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Please provide a valid JSON array of objects</value>

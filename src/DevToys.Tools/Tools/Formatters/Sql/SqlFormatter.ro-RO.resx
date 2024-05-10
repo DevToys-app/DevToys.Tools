@@ -130,7 +130,7 @@
     <value>Format SQL data</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 spaţii</value>
   </data>
   <data name="Indentation" xml:space="preserve">
     <value>Indentation</value>
@@ -172,7 +172,7 @@
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Ieșire</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
@@ -208,6 +208,6 @@
     <value>Transact-SQL</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 spaţii</value>
   </data>
 </root>
