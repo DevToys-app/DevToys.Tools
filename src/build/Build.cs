@@ -14,10 +14,6 @@ using static Nuke.Common.Tools.DotNet.DotNetTasks;
     GitHubActionsImage.MacOsLatest,
     InvokedTargets = [nameof(RunTests)],
     TimeoutMinutes = 30,
-    OnPushBranchesIgnore =
-    [
-        "crowdin_main" // excludes crowdin_main
-    ],
     OnPullRequestBranches =
     [
         "main" // only runs on main branch
