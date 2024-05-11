@@ -4,7 +4,7 @@
     <TargetFrameworks>$(NetCore)</TargetFrameworks>
 
     <!-- NuGet package -->
-    <Version>0.0.0-pre.0</Version>
+    <Version>0.0.0-preview.0</Version>
     <Authors>veler,btiteux</Authors>
     <Title>DevToys.Tools</Title>
     <Description>A set of offline tools installed by default with DevToys.</Description>
