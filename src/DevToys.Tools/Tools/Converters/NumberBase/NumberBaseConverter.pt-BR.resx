@@ -161,19 +161,19 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>Conversor de Base Numérica</value>
   </data>
   <data name="Octal" xml:space="preserve">
     <value>Octal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>A base desejada para converter.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>Dicionário de saída</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -182,23 +182,23 @@
     <value>RFC-4648 Base32</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Extended Hex</value>
+    <value>RFC-4648 Base32 Hex Estendida</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
     <value>RFC-4648 Base64</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Url Encode</value>
+    <value>RFC-4648 Base64 Codificação de Url</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>Base Numérica</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
+    <value>O valor atual {0} não é valido</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
+    <value>O valor atual {0} não pode ser convertido porque excede o valor máximo ({1})</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>
