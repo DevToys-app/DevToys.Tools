@@ -118,62 +118,62 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Number Base Converter tool</value>
+    <value>Ferramenta Conversora de Base Numérica</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>Modo avançado</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>Binário</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuração</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>Defina pelo menos dois caracteres no dicionário personalizado</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>Formato personalizado</value>
   </data>
   <data name="Decimal" xml:space="preserve">
     <value>Decimal</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>Converta números de uma base para outra</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>Formato numérico</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
     <value>Hexadecimal</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>The base of the number to convert</value>
+    <value>A base do número a converter</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>Dicionário de entrada</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
+    <value>Número a converter</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>Conversor de Base Numérica</value>
   </data>
   <data name="Octal" xml:space="preserve">
     <value>Octal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>A base desejada para converter.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>Dicionário de saída</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -182,23 +182,23 @@
     <value>RFC-4648 Base32</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Extended Hex</value>
+    <value>RFC-4648 Base32 Hex Estendida</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
     <value>RFC-4648 Base64</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Url Encode</value>
+    <value>RFC-4648 Base64 Codificação de Url</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>Base Numérica</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
+    <value>O valor atual {0} não é valido</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
+    <value>O valor atual {0} não pode ser convertido porque excede o valor máximo ({1})</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>

@@ -118,132 +118,132 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Date converter tool</value>
+    <value>Datekonverteringsværktøj</value>
   </data>
   <data name="DaylightSavingTime" xml:space="preserve">
-    <value>Daylight saving time.</value>
+    <value>Sommertid.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>Dag</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert date to human-readable date and vice versa</value>
+    <value>Konverter dato til menneskelæsbar dato og omvendt</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
-    <value>There is no daylight saving time.</value>
+    <value>Ingen sommertid.</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>DST Ambiguous time.</value>
+    <value>DST Tvetydig tid.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>Hour (24 hour)</value>
+    <value>Time (24 timer)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>Tidszone</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
-    <value>Local Date and Time</value>
+    <value>Lokal dato og klokkeslæt</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Minutter</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
-    <value>Month</value>
+    <value>Måned</value>
   </data>
   <data name="OffsetTitle" xml:space="preserve">
     <value>Offset</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks</value>
+    <value>Tid, Dato, Tidszone Epoke, Tidsstempel, Flåter</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
-    <value>Seconds</value>
+    <value>Sekunder</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
-    <value>There is daylight saving time.</value>
+    <value>Der er sommetid.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Dato</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>UTC Date and Time</value>
+    <value>UTC Dato og Tid</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
     <value>UtcTicks</value>
   </data>
   <data name="YearTitle" xml:space="preserve">
-    <value>Year</value>
+    <value>År</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Now</value>
+    <value>Nu</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Date Converter</value>
+    <value>Datokonvertering</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Dato</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>Default Epoch</value>
+    <value>Standard Epoke</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>Brug en brugerdefineret epoke</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Nej</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Ja</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>Millisukunder</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>Format</value>
+    <value>Formatér</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>Ticks</value>
+    <value>Flåter</value>
   </data>
   <data name="Seconds" xml:space="preserve">
-    <value>Seconds</value>
+    <value>Sekunder</value>
   </data>
   <data name="Milliseconds" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>Millisukunder</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
-    <value>Date to convert. Supported format: "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>Datokonvertering. Understøttede formatér; "ISO 8601" F.eks 2023.11.22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
-    <value>Epoch to use. Supported format: "ISO 8601" example 1970-01-01T00:00:00.0000000+00:00</value>
+    <value>Epoke at bruge. Understøttede formatér; "ISO 8601" F.eks 1970.01.01T00:00:00.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>Format to use default Seconds</value>
+    <value>Format, der skal bruges som standardsekunder</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
-    <value>Input to convert in long or Date supported format "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>Inputkonvertering i langt eller dato-understøttet formatér "ISO 8601" F.eks 2023.11.22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
-    <value>Timezone to use (supported timezones: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
+    <value>Tidszone at bruge (understøttede tidszoner; https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
-    <value>Unable to parse date</value>
+    <value>Kan ikke analysere dato</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
-    <value>Unable to parse epoch</value>
+    <value>Kan ikke analyser epoke</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
-    <value>Unable to find the Timezone Provided please check if the timezone exist here https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
+    <value>Kan ikke finde tidzonen forudsat, au du tjekker, om tidszonene findes herhttps://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
-    <value>Please specify an input number or date</value>
+    <value>Angiv inputnummer eller dato</value>
   </data>
 </root>
