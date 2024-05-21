@@ -118,92 +118,92 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Date converter tool</value>
+    <value>Tarih dönüştürme aracı</value>
   </data>
   <data name="DaylightSavingTime" xml:space="preserve">
-    <value>Daylight saving time.</value>
+    <value>Gün ışığından yararlanma saati.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>Gün</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert date to human-readable date and vice versa</value>
+    <value>Tarihi insan tarafından okunabilir duruma getir, ve tam tersi</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
-    <value>There is no daylight saving time.</value>
+    <value>Gün ışığından yararlanma saati yok.</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>DST Ambiguous time.</value>
+    <value>YSU Belirsiz saat.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>Hour (24 hour)</value>
+    <value>Saat (24 saat)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>Saat dilimi</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
-    <value>Local Date and Time</value>
+    <value>Yerel Tarih ve Saat</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Dakika</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
-    <value>Month</value>
+    <value>Ay</value>
   </data>
   <data name="OffsetTitle" xml:space="preserve">
-    <value>Offset</value>
+    <value>Sapma</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks</value>
+    <value>Saat Tarih Saatdilimi Saatdönümnoktası Zamandamgası Tik</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
-    <value>Seconds</value>
+    <value>Saniye</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
-    <value>There is daylight saving time.</value>
+    <value>Gün ışığından yararlanma saati var.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Tarih</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>UTC Date and Time</value>
+    <value>UTC Tarih ve Saat</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
-    <value>UtcTicks</value>
+    <value>UtcTik</value>
   </data>
   <data name="YearTitle" xml:space="preserve">
-    <value>Year</value>
+    <value>Yıl</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Now</value>
+    <value>Şimdi</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Date Converter</value>
+    <value>Tarih Dönüştürücü</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Tarih</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>Default Epoch</value>
+    <value>Varsayılan Saat Dönüm Noktası</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>Kullanıcı tanımlı saat dönüm noktası kullan</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Hayır</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Evet</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>Milisaniye</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
     <value>Format</value>
   </data>
   <data name="Ticks" xml:space="preserve">
-    <value>Ticks</value>
+    <value>Tik</value>
   </data>
   <data name="Seconds" xml:space="preserve">
     <value>Seconds</value>
