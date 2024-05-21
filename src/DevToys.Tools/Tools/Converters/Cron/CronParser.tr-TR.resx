@@ -124,22 +124,22 @@
     <value>Yapılandırma</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
-    <value>Cron description</value>
+    <value>Cron açıklaması</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>Cron expression is not valid</value>
+    <value>Cron ifadesi geçerli değil</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
     <value>Ayrıştırılacak Cron ifadesi</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>Üretilen zamanlanmış tarihlerin tarih ve saat biçimi</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Zamanlanmış tarihler almak için Cron ifadesini ayrıştır</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Cron ifadesinin tanımında saniyeleri içerip içermediği</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Ayrıştırılacak Cron ifadesi</value>
@@ -148,33 +148,33 @@
     <value>Cron ifadesi ayrıştırıcı</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>Üretilecek zamanlama sayısı</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>How many scheduled dates needs to be generated</value>
+    <value>Kaç tane zamanlanmış tarih üretilmesi gerektiği</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Sonraki zamanlanmış tarihler</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>Gelecek tarihlerin tarih ve saat biçimi</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>Tarih ve saat çıktı biçimi geçerli değil</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>Çıktı biçimi</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Sonraki zamanlanmış tarihler</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron ayrıştırıcı</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Cron ifadesinin tanımında saniye içerip içermeyeceği</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>Saniyeleri dahil et</value>
   </data>
 </root>
