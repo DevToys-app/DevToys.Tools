@@ -130,10 +130,10 @@
     <value>Image file path to treat</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Color Blindness Simulator</value>
+    <value>色盲模擬工具</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>Original</value>
+    <value>原始</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
     <value>Directory where the result should be persisted. By default, use input file's directory</value>
@@ -146,7 +146,7 @@
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Color Blindness Simulator</value>
+    <value>色盲模擬工具</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
     <value>Hides the progress of the hashing operation</value>
