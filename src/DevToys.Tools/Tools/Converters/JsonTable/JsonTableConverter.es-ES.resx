@@ -136,13 +136,13 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuración</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Resultado</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Please provide a valid JSON array of objects</value>
@@ -152,16 +152,16 @@
     <value>Select which format is copied to clipboard</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>Formato del portapapeles</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>Comma separated values (CSV)</value>
+    <value>Valores separados por comas (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>Tab separated values (TSV)</value>
+    <value>Valores separados por tabulaciones (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>Semicolon separated values (CSV French)</value>
+    <value>Valores separados por punto y coma (CSV francés)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file to convert from JSON</value>
@@ -176,9 +176,9 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Copiar como</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Guardar como</value>
   </data>
 </root>
