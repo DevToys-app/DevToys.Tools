@@ -154,7 +154,7 @@
     <value>Texto o ruta a un archivo para convertir desde JSON o YAML</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Por favor especifique un texto o un archivo de entrada</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
     <value>&lt;Invalid JSON data&gt;</value>
