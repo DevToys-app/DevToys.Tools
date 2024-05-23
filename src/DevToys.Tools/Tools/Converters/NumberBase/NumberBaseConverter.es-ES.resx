@@ -121,13 +121,13 @@
     <value>Number Base Converter tool</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>Modo avanzado</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>Binario</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuración</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
     <value>Please set at least two characters in the custom dictionary</value>
@@ -148,7 +148,7 @@
     <value>Hexadecimal</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
     <value>The base of the number to convert</value>
@@ -167,7 +167,7 @@
     <value>Octal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Salida</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
     <value>The desired base to convert to.</value>
@@ -176,10 +176,10 @@
     <value>Output dictionary</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
-    <value>RFC-4648 Base16</value>
+    <value>Base16 RFC-4648</value>
   </data>
   <data name="RFC4648Base32" xml:space="preserve">
-    <value>RFC-4648 Base32</value>
+    <value>Base32 RFC-4648</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
     <value>RFC-4648 Base32 Extended Hex</value>
