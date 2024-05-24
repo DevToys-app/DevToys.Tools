@@ -173,7 +173,7 @@
     <value>La base numérica a la que a convertir.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>Diccionario de salida</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>Base16 RFC-4648</value>
@@ -182,16 +182,16 @@
     <value>Base32 RFC-4648</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Extended Hex</value>
+    <value>Hexadecimal extendido Base32 RFC-4648</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
-    <value>RFC-4648 Base64</value>
+    <value>Base64 RFC-4648</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
     <value>RFC-4648 Base64 Url Encode</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>Base Numérica</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
     <value>The current {0} value isn't valid</value>
