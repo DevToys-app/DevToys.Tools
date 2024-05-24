@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Number Base Converter tool</value>
+    <value>Conversor de Base Numérica</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
     <value>Modo avanzado</value>
@@ -130,19 +130,19 @@
     <value>Configuración</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>Por favor, establezca al menos dos caracteres en el diccionario personalizado</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>Formato personalizado</value>
   </data>
   <data name="Decimal" xml:space="preserve">
     <value>Decimal</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>Convertir números de una base numérica a otra</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>Formato del número</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
     <value>Hexadecimal</value>
@@ -151,17 +151,17 @@
     <value>Entrada</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>The base of the number to convert</value>
+    <value>La base del número a convertir</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>Diccionario de entrada</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
+    <value>Número a convertir</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>Conversor de Base Numérica</value>
   </data>
   <data name="Octal" xml:space="preserve">
     <value>Octal</value>
@@ -170,7 +170,7 @@
     <value>Salida</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>La base numérica a la que a convertir.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
     <value>Output dictionary</value>
