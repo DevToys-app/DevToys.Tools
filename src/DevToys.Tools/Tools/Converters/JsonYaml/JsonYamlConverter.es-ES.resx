@@ -157,16 +157,16 @@
     <value>Por favor especifique un texto o un archivo de entrada</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
-    <value>&lt;Invalid JSON data&gt;</value>
+    <value>&lt;Datos JSON inválidos&gt;</value>
   </data>
   <data name="InvalidYaml" xml:space="preserve">
-    <value>&lt;Invalid Yaml data&gt;</value>
+    <value>&lt;Datos YAML inválidos&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
     <value>Json a Yaml</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>Conversor JSON &lt;&gt; YAML</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Salida</value>
