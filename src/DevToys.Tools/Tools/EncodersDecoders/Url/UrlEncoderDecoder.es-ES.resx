@@ -121,22 +121,22 @@
     <value>URL Encoder and Decoder tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuración</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Decodificar</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Codificar</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to encode or decode text in a URL parameter</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversión</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
@@ -145,13 +145,13 @@
     <value>Text to encode or URL to decode</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>URL Encoder / Decoder</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Salida</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>URL</value>
