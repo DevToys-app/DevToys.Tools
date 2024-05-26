@@ -166,15 +166,15 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>類型</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
-    <value>Value</value>
+    <value>數值</value>
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
@@ -182,7 +182,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
-    <value>Decode</value>
+    <value>解碼</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
@@ -302,7 +302,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
-    <value>Header</value>
+    <value>標頭</value>
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
@@ -362,7 +362,7 @@
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
-    <value>Public Key</value>
+    <value>公鑰</value>
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
@@ -386,7 +386,7 @@
     <comment>Gui</comment>
   </data>
   <data name="SignatureInputTitle" xml:space="preserve">
-    <value>Signature</value>
+    <value>簽章</value>
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
@@ -410,7 +410,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
-    <value>Tool Mode</value>
+    <value>工具模式</value>
     <comment>Gui</comment>
   </data>
   <data name="typ" xml:space="preserve">
@@ -474,7 +474,7 @@
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>私鑰</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Plain text</value>
+    <value>純文字</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>簽章格式</value>
     <comment>Gui</comment>
   </data>
 </root>
