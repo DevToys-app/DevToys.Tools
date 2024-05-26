@@ -133,7 +133,7 @@
     <value>交替式大小寫</value>
   </data>
   <data name="Bytes" xml:space="preserve">
-    <value>Bytes</value>
+    <value>位元組</value>
   </data>
   <data name="CamelCase" xml:space="preserve">
     <value>小駝峰式大小寫</value>
@@ -205,7 +205,7 @@
     <value>Path to the output file</value>
   </data>
   <data name="Paragraphs" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>段落</value>
   </data>
   <data name="PascalCase" xml:space="preserve">
     <value>大駝峰式大小寫</value>
@@ -214,10 +214,10 @@
     <value>隨機式大小寫</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>Randomize</value>
+    <value>隨機</value>
   </data>
   <data name="Reverse" xml:space="preserve">
-    <value>Reverse</value>
+    <value>反轉</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
     <value>Reverse alphabetize</value>
@@ -232,19 +232,19 @@
     <value>欄</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
-    <value>End position</value>
+    <value>結束位置</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>Length</value>
+    <value>長度</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
     <value>行</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
-    <value>Start position</value>
+    <value>開始位置</value>
   </data>
   <data name="SelectionStatistics" xml:space="preserve">
-    <value>Selection</value>
+    <value>選取</value>
   </data>
   <data name="SentenceCase" xml:space="preserve">
     <value>句子式大小寫</value>
@@ -256,7 +256,7 @@
     <value>Analyzer &amp; Utilities</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
-    <value>Show original text</value>
+    <value>顯示原文</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
     <value>蛇型式大小寫</value>
@@ -265,10 +265,10 @@
     <value>Sort lines</value>
   </data>
   <data name="Statistics" xml:space="preserve">
-    <value>Statistics</value>
+    <value>統計資料</value>
   </data>
   <data name="StatisticTitle" xml:space="preserve">
-    <value>Title</value>
+    <value>標題</value>
   </data>
   <data name="StatisticValue" xml:space="preserve">
     <value>數值</value>
