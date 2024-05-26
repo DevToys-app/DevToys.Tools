@@ -172,13 +172,13 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>選擇要輸出的格式</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
     <value>複製為</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>儲存為</value>
+    <value>另存新檔</value>
   </data>
 </root>
