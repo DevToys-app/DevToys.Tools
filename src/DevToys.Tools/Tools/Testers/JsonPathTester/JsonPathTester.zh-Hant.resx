@@ -130,7 +130,7 @@
     <value>Used for filter expressions. Refers to the current node for further processing.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
     <value>Dot-notated child</value>
@@ -151,10 +151,10 @@
     <value>Selects the n-th element from an array. Indexes start from 0.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>語法</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>懶人包</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
     <value>Selects n1 and n2 array items. Returns a list.</value>
@@ -187,10 +187,10 @@
     <value>JSONPath Tester</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>找不到相符的項目</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>測試結果</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
