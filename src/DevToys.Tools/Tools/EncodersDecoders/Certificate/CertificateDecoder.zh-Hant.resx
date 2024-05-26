@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Certificate Decoder tool</value>
+    <value>憑證解碼工具</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Decode a certificate</value>
+    <value>憑證解碼</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist</value>
@@ -133,22 +133,22 @@
     <value>輸入</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Incorrect password.</value>
+    <value>密碼不正確。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Certificate Decoder</value>
+    <value>憑證解碼器</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>輸出檔案的路徑</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>輸出</value>
   </data>
   <data name="PasswordOptionDescription" xml:space="preserve">
-    <value>Certificate password</value>
+    <value>憑證密碼</value>
   </data>
   <data name="PasswordTitle" xml:space="preserve">
     <value>密碼</value>
@@ -158,7 +158,7 @@
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Certificate</value>
+    <value>憑證</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
     <value>Certificate Request format not currently supported.</value>
