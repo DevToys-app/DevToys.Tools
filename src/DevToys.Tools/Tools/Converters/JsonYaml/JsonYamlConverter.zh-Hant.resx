@@ -130,7 +130,7 @@
     <value>Whether to convert from Json or Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>將 JSON 資料轉換為 YAML，反之亦然</value>
@@ -142,7 +142,7 @@
     <value>縮排</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>選擇你想要使用的縮排方式</value>
+    <value>選擇您想要使用的縮排方式</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>輸入</value>
