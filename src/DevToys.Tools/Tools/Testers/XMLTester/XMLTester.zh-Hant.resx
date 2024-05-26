@@ -166,12 +166,12 @@
     <value>所選擇的 XML 檔案不存在</value>
   </data>
   <data name="XmlOptionDescription" xml:space="preserve">
-    <value>欲處理的文字或 XML 檔案路徑。</value>
+    <value>要處理的文字或 XML 檔案路徑。</value>
   </data>
   <data name="XsdFileNotFound" xml:space="preserve">
     <value>所選擇的 XSD 檔案不存在</value>
   </data>
   <data name="XsdOptionDescription" xml:space="preserve">
-    <value>欲處理的文字或 XML 檔案路徑。</value>
+    <value>要處理的文字或 XML 檔案路徑。</value>
   </data>
 </root>
