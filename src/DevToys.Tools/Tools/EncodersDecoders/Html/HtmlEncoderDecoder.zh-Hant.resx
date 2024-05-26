@@ -136,7 +136,7 @@
     <value>Whether to encode or decode HTML</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Encode and decode HTML text data</value>
