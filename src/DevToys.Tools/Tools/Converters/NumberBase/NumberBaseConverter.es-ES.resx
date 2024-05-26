@@ -188,17 +188,17 @@
     <value>Base64 RFC-4648</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Url Encode</value>
+    <value>RFC-4648 Base64 Codificacion de Url</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Base Numérica</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
+    <value>El valor actual {0} es inválido</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
+    <value>El valor actual {0} no se puede convertir ya que supera el valor máximo ({1})</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>
