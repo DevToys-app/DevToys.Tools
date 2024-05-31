@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>HTML Encoder and Decoder tool</value>
+    <value>HTML 編碼及解碼工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>設置</value>
@@ -139,10 +139,10 @@
     <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode HTML text data</value>
+    <value>編碼與解碼 HTML 文字資料</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or HTML to decode</value>
+    <value>要編碼的文字或要解碼的 HTML</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>輸入</value>
