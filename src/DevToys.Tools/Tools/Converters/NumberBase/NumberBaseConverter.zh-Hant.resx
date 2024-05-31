@@ -161,7 +161,7 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>數值進位轉換工具</value>
   </data>
   <data name="Octal" xml:space="preserve">
     <value>八進位</value>
