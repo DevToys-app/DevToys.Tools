@@ -157,7 +157,7 @@
     <value>&lt;Invalid GZip data&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>GZip 壓縮 / 解壓縮</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>輸出</value>
