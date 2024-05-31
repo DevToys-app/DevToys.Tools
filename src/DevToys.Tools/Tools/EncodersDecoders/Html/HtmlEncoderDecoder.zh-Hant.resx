@@ -148,7 +148,7 @@
     <value>輸入</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>HTML Text Encoder / Decoder</value>
+    <value>Base64 文字編碼／解碼工具</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>輸出</value>
