@@ -130,16 +130,16 @@
     <value>Generate UUID(s)</value>
   </data>
   <data name="GenerateTitle" xml:space="preserve">
-    <value>Generate</value>
+    <value>產生</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
-    <value>Hyphens</value>
+    <value>連字號</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
     <value>Whether the generated UUID should have hyphens or not</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>UUID Generator</value>
+    <value>UUID 產生器</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>

@@ -130,7 +130,7 @@
     <value>Whether to convert from Json or Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>將 JSON 資料轉換為 YAML，反之亦然</value>
@@ -142,19 +142,19 @@
     <value>縮排</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>選擇你想要使用的縮排方式</value>
+    <value>選擇您想要使用的縮排方式</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>輸入</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>所選擇的輸入檔案不存在</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file to convert from json or yaml</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
     <value>&lt;無效的 JSON 資料&gt;</value>
@@ -172,7 +172,7 @@
     <value>輸出</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>檔案輸出路徑</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>

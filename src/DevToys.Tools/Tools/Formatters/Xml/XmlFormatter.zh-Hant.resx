@@ -136,10 +136,10 @@
     <value>Select which indentation you want to use</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>輸入</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>所選擇的輸入檔案不存在</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file containing the xml to format</value>
@@ -148,10 +148,10 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML Formatter</value>
+    <value>XML 格式化工具</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>最小化壓縮</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
     <value>Put attributes on a new line</value>
@@ -163,7 +163,7 @@
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>輸出</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>

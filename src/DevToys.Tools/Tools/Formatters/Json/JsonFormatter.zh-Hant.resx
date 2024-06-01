@@ -151,10 +151,10 @@
     <value>JSON Formatter</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>最小化壓縮</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 個 Tab</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>輸出</value>

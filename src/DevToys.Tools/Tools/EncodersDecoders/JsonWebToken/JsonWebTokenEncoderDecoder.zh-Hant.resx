@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT Encoder and Decoder tool</value>
+    <value>JWT 編碼及解碼工具</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
@@ -138,7 +138,7 @@
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Unknown token algorithm</value>
+    <value>未知的 token 演算法</value>
     <comment>Error message</comment>
   </data>
   <data name="amr" xml:space="preserve">
@@ -166,15 +166,15 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>類型</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
-    <value>Value</value>
+    <value>數值</value>
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
@@ -182,7 +182,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
-    <value>Decode</value>
+    <value>解碼</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
@@ -202,15 +202,15 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
-    <value>Validate issuer signing key</value>
+    <value>驗證簽發者簽署金鑰</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerTitle" xml:space="preserve">
-    <value>Validate issuer</value>
+    <value>驗證簽發者</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenLifetimeTitle" xml:space="preserve">
-    <value>Validate lifetime</value>
+    <value>驗證時效</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
@@ -218,15 +218,15 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
-    <value>Token validation settings</value>
+    <value>Token 驗證設定</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenTitle" xml:space="preserve">
-    <value>Validate Token</value>
+    <value>驗證 Token</value>
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Json Web Token </value>
+    <value>編碼及解碼 Json Web Token </value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
@@ -234,7 +234,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Token hashing algorithm</value>
+    <value>Token 雜湊演算法</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
@@ -278,7 +278,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsDescription" xml:space="preserve">
-    <value>Select token parameters</value>
+    <value>選取 token 參數</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
@@ -302,7 +302,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
-    <value>Header</value>
+    <value>標頭</value>
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
@@ -314,7 +314,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Expiration Date is invalid</value>
+    <value>無效的到期日</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Claim</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JWT Encoder / Decoder</value>
+    <value>JWT 編碼 / 解碼工具</value>
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
@@ -350,7 +350,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
-    <value>Payload</value>
+    <value>內容</value>
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
@@ -358,11 +358,11 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of private key is not supported</value>
+    <value>不支援此私鑰類型</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
-    <value>Public Key</value>
+    <value>公鑰</value>
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
@@ -386,7 +386,7 @@
     <comment>Gui</comment>
   </data>
   <data name="SignatureInputTitle" xml:space="preserve">
-    <value>Signature</value>
+    <value>簽章</value>
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
@@ -402,7 +402,7 @@
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
-    <value>Token not validated (no parameters selected)</value>
+    <value>Token 未驗證 (未選取參數)</value>
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
@@ -410,7 +410,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
-    <value>Tool Mode</value>
+    <value>工具模式</value>
     <comment>Gui</comment>
   </data>
   <data name="typ" xml:space="preserve">
@@ -430,7 +430,7 @@
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
-    <value>Issuers are empty or invalid</value>
+    <value>簽發者空白或無效</value>
     <comment>Error message</comment>
   </data>
   <data name="ver" xml:space="preserve">
@@ -474,15 +474,15 @@
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>私鑰</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
-    <value>Token Validated</value>
+    <value>Token 已驗證</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
-    <value>Unable to process the token signature</value>
+    <value>無法處理 token 簽章</value>
     <comment>Error message</comment>
   </data>
   <data name="Base64" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Plain text</value>
+    <value>純文字</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>簽章格式</value>
     <comment>Gui</comment>
   </data>
 </root>

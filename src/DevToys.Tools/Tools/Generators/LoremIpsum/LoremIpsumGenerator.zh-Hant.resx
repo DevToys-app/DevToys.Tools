@@ -202,9 +202,9 @@
     <value>Whether words, sentences or paragraphs should be generated</value>
   </data>
   <data name="TypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>類型</value>
   </data>
   <data name="WordsType" xml:space="preserve">
-    <value>Words</value>
+    <value>單字</value>
   </data>
 </root>

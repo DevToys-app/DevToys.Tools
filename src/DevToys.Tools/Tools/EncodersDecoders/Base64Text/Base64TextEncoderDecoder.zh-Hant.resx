@@ -139,7 +139,7 @@
     <value>Whether to encode or decode Base64 text</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Encode and decode Base64 text data</value>
@@ -154,7 +154,7 @@
     <value>字元編碼</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>所選擇的檔案不存在</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file to encode or Base64 to decode</value>
@@ -166,13 +166,13 @@
     <value>&lt;無效的 Base64&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Base64 文字編／解碼器</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>輸出檔案的路徑</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>輸出</value>

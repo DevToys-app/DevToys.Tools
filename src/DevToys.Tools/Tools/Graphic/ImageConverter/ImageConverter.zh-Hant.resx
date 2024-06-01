@@ -124,16 +124,16 @@
     <value>設置</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>轉換</value>
   </data>
   <data name="ConvertedFormatDescription" xml:space="preserve">
     <value>Select the image format to convert into</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>刪除</value>
   </data>
   <data name="DeleteAll" xml:space="preserve">
-    <value>Delete all</value>
+    <value>全部刪除</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Lossless image converter</value>

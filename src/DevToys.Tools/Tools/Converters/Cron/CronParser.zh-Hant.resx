@@ -124,13 +124,13 @@
     <value>設置</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
-    <value>Cron description</value>
+    <value>Cron 描述</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>Cron expression is not valid</value>
+    <value>無效的 Cron 表達式</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
-    <value>The Cron expression to parse</value>
+    <value>要剖析的 Cron 表達式</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
     <value>Date time format of generated scheduled dates</value>
@@ -142,34 +142,34 @@
     <value>Whether the Cron expression includes seconds in its definition</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Cron expression to parse</value>
+    <value>要剖析的 Cron 表達式</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron expression parser</value>
+    <value>Cron 表達式剖析器</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>產生的排程數</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
     <value>How many scheduled dates needs to be generated</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>下次排程日期</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
     <value>Date time fomat of upcoming dates</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>輸出的日期時間格式無效</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
     <value>輸出格式</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>下次排程日期</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Cron 解析器</value>
+    <value>Cron 剖析器</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
     <value>Whether the Cron expression should include seconds in its definition</value>

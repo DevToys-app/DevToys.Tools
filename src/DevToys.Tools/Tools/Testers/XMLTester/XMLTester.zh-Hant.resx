@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Xml and XSD tester tool</value>
+    <value>XML 與 XSD 測試工具</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate XML data via an XSD scheme.</value>
+    <value>使用 XSD 配置驗證 XML 資料</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>XML / XSD 測試工具</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
@@ -139,39 +139,39 @@
     <value>XML</value>
   </data>
   <data name="TargetNamespaceNotDefinedInXml" xml:space="preserve">
-    <value>Validation result will potentially always be 'valid' since the XML does not reference the following "targetNamespace" defined in the XSD: {0}</value>
+    <value>驗證結果將可能永遠為「有效」，因為 XML 沒有引用 XSD 中已定義的下列「targetNamespace」: {0}</value>
   </data>
   <data name="ValidationImpossibleMsg" xml:space="preserve">
-    <value>XML and XSD content must be set in order to perform a validation.</value>
+    <value>必須設定 XML 和 XSD 內容才能進行驗證。</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
-    <value>Validation failed for an unknown reason.</value>
+    <value>驗證因未知的原因失敗。</value>
   </data>
   <data name="XmlNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XML does not define these namespace(s) defined in the XSD: {0}</value>
+    <value>驗證結果將永遠為「有效」，因為 XML 中沒有定義 XSD 中已定義的命名空間: {0}</value>
   </data>
   <data name="XmlValidMessage" xml:space="preserve">
-    <value>XML is compliant to the defined XSD scheme.</value>
+    <value>XML 符合定義的 XSD 配置。</value>
   </data>
   <data name="XsdNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XSD does not define these namespace(s) defined in the XML: {0}</value>
+    <value>驗證結果將永遠為「有效」，因為 XSD 中沒有定義 XML 中已定義的命名空間: {0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XML</value>
+    <value>請指定輸入 XML</value>
   </data>
   <data name="InvalidXsdOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XSD</value>
+    <value>請指定輸入 XSD</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
-    <value>XML file selected doesn't exist.</value>
+    <value>所選擇的 XML 檔案不存在</value>
   </data>
   <data name="XmlOptionDescription" xml:space="preserve">
-    <value>Text or path to a XML file to treat.</value>
+    <value>要處理的文字或 XML 檔案路徑。</value>
   </data>
   <data name="XsdFileNotFound" xml:space="preserve">
-    <value>XSD file selected doesn't exist.</value>
+    <value>所選擇的 XSD 檔案不存在</value>
   </data>
   <data name="XsdOptionDescription" xml:space="preserve">
-    <value>Text or path to a XSD file to treat.</value>
+    <value>要處理的文字或 XML 檔案路徑。</value>
   </data>
 </root>
