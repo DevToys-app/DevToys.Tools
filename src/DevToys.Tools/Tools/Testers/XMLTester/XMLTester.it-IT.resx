@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Xml and XSD tester tool</value>
+    <value>Strumento tester Xml e XSD</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate XML data via an XSD scheme.</value>
+    <value>Convalida i dati XML tramite un schema XSD.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>Tester XML / XSD</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
@@ -139,39 +139,39 @@
     <value>XML</value>
   </data>
   <data name="TargetNamespaceNotDefinedInXml" xml:space="preserve">
-    <value>Validation result will potentially always be 'valid' since the XML does not reference the following "targetNamespace" defined in the XSD: {0}</value>
+    <value>Il risultato della convalida sarà potenzialmente sempre 'valido' perché l'XML non fa riferimento al seguente 'targetNamespace' definito nell'XSD: {0}</value>
   </data>
   <data name="ValidationImpossibleMsg" xml:space="preserve">
-    <value>XML and XSD content must be set in order to perform a validation.</value>
+    <value>Il contenuto XML e XSD deve essere inserito per eseguire una convalida.</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
-    <value>Validation failed for an unknown reason.</value>
+    <value>Convalida fallita per un motivo sconosciuto.</value>
   </data>
   <data name="XmlNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XML does not define these namespace(s) defined in the XSD: {0}</value>
+    <value>Il risultato della convalida sarà sempre 'valido' perché l'XML non definisce questi namespace definiti nell'XSD: {0}</value>
   </data>
   <data name="XmlValidMessage" xml:space="preserve">
-    <value>XML is compliant to the defined XSD scheme.</value>
+    <value>XML è conforme allo schema XSD definito.</value>
   </data>
   <data name="XsdNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XSD does not define these namespace(s) defined in the XML: {0}</value>
+    <value>Il risultato della convalida sarà sempre 'valido' perché l'XSD non definisce questi namespace definiti nell'XML: {0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XML</value>
+    <value>Specifica un XML di input</value>
   </data>
   <data name="InvalidXsdOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XSD</value>
+    <value>Specifica un XSD in input</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
-    <value>XML file selected doesn't exist.</value>
+    <value>Il file XML selezionato non esiste.</value>
   </data>
   <data name="XmlOptionDescription" xml:space="preserve">
-    <value>Text or path to a XML file to treat.</value>
+    <value>Testo o percorso di un file XML da trattare.</value>
   </data>
   <data name="XsdFileNotFound" xml:space="preserve">
-    <value>XSD file selected doesn't exist.</value>
+    <value>Il file XSD selezionato non esiste.</value>
   </data>
   <data name="XsdOptionDescription" xml:space="preserve">
-    <value>Text or path to a XSD file to treat.</value>
+    <value>Testo o percorso di un file XSD da trattare.</value>
   </data>
 </root>
