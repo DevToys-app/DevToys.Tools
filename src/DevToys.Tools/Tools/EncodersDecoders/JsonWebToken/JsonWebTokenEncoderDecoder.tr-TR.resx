@@ -342,7 +342,7 @@
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Hayır</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
@@ -386,7 +386,7 @@
     <comment>Gui</comment>
   </data>
   <data name="SignatureInputTitle" xml:space="preserve">
-    <value>Signature</value>
+    <value>İmza</value>
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
