@@ -244,6 +244,6 @@
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
-    <value>Please specify an input number or date</value>
+    <value>Lütfen bir girdi sayısı ya da tarihi belirtin</value>
   </data>
 </root>
