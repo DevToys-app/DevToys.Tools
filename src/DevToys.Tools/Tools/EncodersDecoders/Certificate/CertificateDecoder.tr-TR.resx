@@ -133,7 +133,7 @@
     <value>Girdi</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Lütfen girdi olarak bir metin veya dosya belirtin</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
     <value>Yanlış parola.</value>
@@ -142,7 +142,7 @@
     <value>Sertifika Kod Çözücü</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Çıktı dosyasına yol</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Çıktı</value>
@@ -161,6 +161,6 @@
     <value>Sertifika</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
-    <value>Certificate Request format not currently supported.</value>
+    <value>Sertifika İsteği biçimi şu anda desteklenmiyor.</value>
   </data>
 </root>
