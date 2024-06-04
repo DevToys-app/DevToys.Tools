@@ -121,7 +121,7 @@
     <value>Düzenli İfade Sınama aracı</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
-    <value>All matches</value>
+    <value>Tüm eşleşmeler</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
     <value>Find all the matches in the text or stop after the first match.</value>
@@ -147,7 +147,7 @@ Bir grup içerisinde veya bütün ifadede işleyebilir. Örüntüler sırayla s�
 For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option has matched, the atomic group prevents backtracking to retry with the a option.</value>
   </data>
   <data name="CheatSheetBeginning" xml:space="preserve">
-    <value>Beginning</value>
+    <value>Başlangıç</value>
   </data>
   <data name="CheatSheetBeginningDetails" xml:space="preserve">
     <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
@@ -187,19 +187,19 @@ $1 \1 \{1}</value>
     <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
-    <value>Carriage return</value>
+    <value>Satır başı</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
-    <value>Matches a CARRIAGE RETURN character (char code 13).</value>
+    <value>SATIR BAŞI karakteriyle eşleşir (karakter kodu 13).</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
     <value>Anchors</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
-    <value>Character classes</value>
+    <value>Karakter sınıfları</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>Kaçılan karakterler</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
     <value>Groups and References</value>
@@ -583,10 +583,10 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Söz dizimi</value>
   </data>
   <data name="CheatSheetTab" xml:space="preserve">
-    <value>Tab</value>
+    <value>Sekme</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
     <value>Matches a TAB character (char code 9).</value>
