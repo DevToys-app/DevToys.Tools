@@ -166,13 +166,13 @@
     <value>&lt;Geçersiz 64 tabanında&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Lütfen girdi olarak bir metin veya dosya belirtin</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>64 tabanında Metin Kodlayıcı / Kod Çözücü</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Çıktı dosyasına yol</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Çıktı</value>
