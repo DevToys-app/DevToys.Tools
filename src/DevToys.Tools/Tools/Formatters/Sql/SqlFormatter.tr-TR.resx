@@ -175,7 +175,7 @@
     <value>Çıktı</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Çıktı dosyasına yol</value>
   </data>
   <data name="PlSql" xml:space="preserve">
     <value>PL/SQL</value>
@@ -208,6 +208,6 @@
     <value>Transact-SQL</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 boşluk</value>
   </data>
 </root>
