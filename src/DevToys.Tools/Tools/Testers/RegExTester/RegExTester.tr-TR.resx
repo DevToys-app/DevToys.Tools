@@ -159,13 +159,13 @@ For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option
     <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetBell" xml:space="preserve">
-    <value>Bell</value>
+    <value>Zil</value>
   </data>
   <data name="CheatSheetBellDetails" xml:space="preserve">
-    <value>Matches a BELL character (char code 7).</value>
+    <value>ZİL karakteri ile eşleşir (karakter kodu 7).</value>
   </data>
   <data name="CheatSheetBranchResetGroup" xml:space="preserve">
-    <value>Branch reset group</value>
+    <value>Dal sıfırlama grubu</value>
   </data>
   <data name="CheatSheetBranchResetGroupDetails" xml:space="preserve">
     <value>Define alternative groups that share the same group numbers.
@@ -250,17 +250,17 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
     <value>Escaped control character in the form \cZ. This can range from \cA (SOH, char code 1) to \cZ (SUB, char code 26).</value>
   </data>
   <data name="CheatSheetDefine" xml:space="preserve">
-    <value>Define</value>
+    <value>Tanımla</value>
   </data>
   <data name="CheatSheetDefineDetails" xml:space="preserve">
     <value>Used to define named groups for use as subroutines without including them in the match.
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Açıklama</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Rakam</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
     <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
@@ -325,7 +325,7 @@ You can reference a group by name, number, or relative position (ex. -1).</value
     <value>Matches any horizontal whitespace character (spaces, tabs).</value>
   </data>
   <data name="CheatSheetKeepOut" xml:space="preserve">
-    <value>Keep out</value>
+    <value>Uzak dur</value>
   </data>
   <data name="CheatSheetKeepOutDetails" xml:space="preserve">
     <value>Keep text matched so far out of the returned match, essentially discarding the match up to this point.For example /o\Kbar/ will match bar within the string foobar</value>
