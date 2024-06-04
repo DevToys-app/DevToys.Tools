@@ -163,16 +163,16 @@
     <value>Özü alınacak dosyanın yolu veya metin</value>
   </data>
   <data name="InputTextTitle" xml:space="preserve">
-    <value>Input text</value>
+    <value>Girdi metni</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Lütfen girdi olarak bir metin veya dosya belirtin</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Öz / Sağlama Toplamı Üretici</value>
   </data>
   <data name="Or" xml:space="preserve">
-    <value>or</value>
+    <value>ya da</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Çıktı</value>
@@ -187,6 +187,6 @@
     <value>Üretilen özlerin büyük harfli olup olmayacağı</value>
   </data>
   <data name="UppercaseTitle" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>Büyük harf</value>
   </data>
 </root>
