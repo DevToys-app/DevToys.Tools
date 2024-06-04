@@ -133,13 +133,13 @@
     <value>Renk Körlüğü Simülatörü</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>Original</value>
+    <value>Orijinal</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
     <value>Directory where the result should be persisted. By default, use input file's directory</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Protanopia simulation</value>
+    <value>Pronatopi (kırmızı renk körlüğü) simülasyonu</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
@@ -152,6 +152,6 @@
     <value>Öz alma işleminin ilerlemesini gizler</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>Tritanopia simulation</value>
+    <value>Tritanopi (sarı-mavi renk körlüğü) simülasyonu</value>
   </data>
 </root>
