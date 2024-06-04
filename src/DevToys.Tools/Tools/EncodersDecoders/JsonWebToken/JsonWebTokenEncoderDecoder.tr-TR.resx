@@ -122,19 +122,19 @@
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>The "acr" claim with a value of 0 indicates the end-user authentication didn't meet the requirements of ISO/IEC 29115.</value>
+    <value>“acr” talebinin 0 değerine sahip olması, son kullanıcı kimlik doğrulamasının ISO/IEC 29115 gerekliliklerini karşılamadığını gösterir.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
-    <value>The "acrs" claim indicates the Auth Context IDs of the operations that the bearer is eligible to perform. Auth Context IDs can be used to trigger a demand for step-up authentication from within your application and services. Often used along with the xms_cc claim.</value>
+    <value>“acrs” talebi, taşıyıcının gerçekleştirmeye uygun olduğu işlemlerin Asıllama Bağlam Kimliklerini gösterir. Asıllama Bağlam Kimlikleri, uygulamanız ve hizmetleriniz içinden bir adım kimlik doğrulama talebini tetiklemek için kullanılabilir. Genellikle xms_cc talebi ile birlikte kullanılır.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>The "aio" claim is an internal claim used by Microsoft Entra ID to record data for token reuse. Resources shouldn't use this claim.</value>
+    <value>“aio” talebi, Microsoft Entra ID tarafından belirtecin yeniden kullanımına yönelik verileri kaydetmek için kullanılan dahili bir taleptir. Kaynaklar bu talebi kullanmamalıdır.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
-    <value>Indicates the algorithm used to sign the token</value>
+    <value>Jeton imzalanırken kullanılacak algoritmayı gösterir</value>
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
@@ -350,7 +350,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
-    <value>Payload</value>
+    <value>Yük</value>
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
@@ -398,7 +398,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="TokenInputTitle" xml:space="preserve">
-    <value>Token</value>
+    <value>Jeton</value>
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
