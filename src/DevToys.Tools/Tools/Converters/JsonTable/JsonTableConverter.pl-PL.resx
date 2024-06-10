@@ -139,46 +139,46 @@
     <value>Configuration</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Wejście</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Wyjście</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
+    <value>Proszę podać prawidłowy ciąg obiektów JSON</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>Wybierz jaki format chcesz skopiować do schowka</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>Format schowka</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>Comma separated values (CSV)</value>
+    <value>Wartości rozdzielane przecinkami (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>Tab separated values (TSV)</value>
+    <value>Wartości rozdzielane tabulatorem (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>Semicolon separated values (CSV French)</value>
+    <value>Wartości rozdzielane średnikiem (CSV French)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>Tekst lub ścieżka do pliku JSON</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>File where the result should be persisted.</value>
+    <value>Plik, w którym wynik powinien być przechowany.</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>Wybierz format wyjściowy</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Kopiuj jako</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Zapisz jako</value>
   </data>
 </root>
