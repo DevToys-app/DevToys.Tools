@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Image Converter tool</value>
+    <value>Narzędzie do konwertowania obrazów</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguracja</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Konwersja</value>
   </data>
   <data name="ConvertedFormatDescription" xml:space="preserve">
-    <value>Select the image format to convert into</value>
+    <value>Wybierz format obrazu, który chcesz przekonwertować</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Usuń</value>
   </data>
   <data name="DeleteAll" xml:space="preserve">
-    <value>Delete all</value>
+    <value>Usuń wszystkie</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Lossless image converter</value>
+    <value>Bezstratny konwerter obrazów</value>
   </data>
   <data name="FileSizeDisplay" xml:space="preserve">
     <value>{0:0.##} {1}</value>
     <comment>{0} is a decimal number representing a file size. {1} is a unit, like Bytes, KB, MB, GB, TB</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>The format to convert images to</value>
+    <value>Format do konwersji obrazów</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>A set of image file paths or directories that contain images to convert</value>
+    <value>Zestaw ścieżek obrazów lub katalogów, które zawierają obrazy do przekonwertowania</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>Konwerter obrazów</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
+    <value>Katalog, w którym powinien być zapisany wynik, lub pojedyncza ścieżka pliku, jeżeli wejście również jest pojedynczą ścieżką pliku.</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
-    <value>Save all</value>
+    <value>Zapisz wszystkie</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Zapisz jako</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>Konwerter obrazów</value>
   </data>
 </root>
