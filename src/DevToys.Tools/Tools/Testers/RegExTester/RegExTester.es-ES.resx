@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Regular Expression Tester tool</value>
+    <value>Herramienta de prueba de expresión regular</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
-    <value>All matches</value>
+    <value>Todas las coincidencias</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
     <value>Find all the matches in the text or stop after the first match.</value>
@@ -140,20 +140,20 @@ It can operate within a group, or on a whole expression. The patterns will be te
     <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
   </data>
   <data name="CheatSheetAtomicGroup" xml:space="preserve">
-    <value>Atomic group</value>
+    <value>Grupo atómico</value>
   </data>
   <data name="CheatSheetAtomicGroupDetails" xml:space="preserve">
     <value>Non-capturing group that discards backtracking positions once matched.
 For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option has matched, the atomic group prevents backtracking to retry with the a option.</value>
   </data>
   <data name="CheatSheetBeginning" xml:space="preserve">
-    <value>Beginning</value>
+    <value>Inicio</value>
   </data>
   <data name="CheatSheetBeginningDetails" xml:space="preserve">
     <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetBeginningOfString" xml:space="preserve">
-    <value>Beginning of string</value>
+    <value>Inicio de la cadena</value>
   </data>
   <data name="CheatSheetBeginningOfStringDetails" xml:space="preserve">
     <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
@@ -172,7 +172,7 @@ For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option
 For example, in (?|(a)|(b)) both groups (a and b) would be counted as group #1.</value>
   </data>
   <data name="CheatSheetCaptureGroup" xml:space="preserve">
-    <value>Capture group</value>
+    <value>Capturar grupo</value>
   </data>
   <data name="CheatSheetCaptureGroupDetails" xml:space="preserve">
     <value>Inserts the results of the specified capture group. For example, $3 would insert the third capture group.
@@ -181,19 +181,19 @@ There are multiple syntaxes for this feature:
 $1 \1 \{1}</value>
   </data>
   <data name="CheatSheetCapturingGroup" xml:space="preserve">
-    <value>Capturing group</value>
+    <value>Capturando grupo</value>
   </data>
   <data name="CheatSheetCapturingGroupDetails" xml:space="preserve">
     <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
-    <value>Carriage return</value>
+    <value>Retorno de carro</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
     <value>Matches a CARRIAGE RETURN character (char code 13).</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
-    <value>Anchors</value>
+    <value>Anclajes</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
     <value>Character classes</value>
