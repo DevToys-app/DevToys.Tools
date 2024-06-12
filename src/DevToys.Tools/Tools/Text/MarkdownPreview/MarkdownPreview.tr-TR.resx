@@ -124,19 +124,19 @@
     <value>Yapılandırma</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Dark</value>
+    <value>Koyu</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Preview a Markdown document with a GitHub-like render</value>
+    <value>Bir Markdown belgesini Github benzeri bir render ile önizleyin</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Markdown</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Light</value>
+    <value>Açık</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Markdown Preview</value>
+    <value>Markdown Önizleme</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Önizleme</value>
@@ -151,6 +151,6 @@
     <value>Markdown önizlemesinde kullanılacak temayı seçin</value>
   </data>
   <data name="ThemeTitle" xml:space="preserve">
-    <value>Theme</value>
+    <value>Tema</value>
   </data>
 </root>
