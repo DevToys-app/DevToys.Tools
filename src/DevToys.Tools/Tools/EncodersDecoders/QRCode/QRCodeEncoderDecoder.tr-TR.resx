@@ -142,7 +142,7 @@
     <value>Bu görselde karekod bulunamadı</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Çıktı dosyasına yol</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Karekod URL</value>
