@@ -124,22 +124,22 @@
     <value>ASCII</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configurazione</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Decodifica</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Seleziona la modalità di conversione che vuoi usare</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Codifica</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to encode or decode Base64 text</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversione</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Encode and decode Base64 text data</value>
@@ -148,13 +148,13 @@
     <value>Select which encoding you want to use</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Codifica</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>Encoding</value>
+    <value>Codifica</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>Il file di input selezionato non esiste</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file to encode or Base64 to decode</value>
@@ -166,13 +166,13 @@
     <value>&lt;Invalid Base64&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Specifica un testo o un file di input</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Text Encoder / Decoder</value>
+    <value>Codifica / Decodifica testo in base64</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Percorso di salvataggio del file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Output</value>
