@@ -148,10 +148,10 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML Formatter</value>
+    <value>Formattatore XML</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>Minimizzato</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
     <value>Put attributes on a new line</value>
@@ -160,18 +160,18 @@
     <value>Whether to put attributes on a new line</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 "Tab"</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Output</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Percorso di salvataggio del file</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>XML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 spazi</value>
   </data>
 </root>
