@@ -140,7 +140,7 @@ Bir grup içerisinde veya bütün ifadede işleyebilir. Örüntüler sırayla s�
     <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
   </data>
   <data name="CheatSheetAtomicGroup" xml:space="preserve">
-    <value>Atomic group</value>
+    <value>Atomik grup</value>
   </data>
   <data name="CheatSheetAtomicGroupDetails" xml:space="preserve">
     <value>Non-capturing group that discards backtracking positions once matched.
