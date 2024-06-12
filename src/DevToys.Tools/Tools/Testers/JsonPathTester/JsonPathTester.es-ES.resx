@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath Tester tool</value>
+    <value>Testador JSONPath</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
     <value>Array slice operator</value>
@@ -130,7 +130,7 @@
     <value>Used for filter expressions. Refers to the current node for further processing.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descripción</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
     <value>Dot-notated child</value>
@@ -142,7 +142,7 @@
     <value>Performs a deep scan for the specified property in all available objects. Always returns a list, even for a single match.</value>
   </data>
   <data name="CheatSheetRootObjectElement" xml:space="preserve">
-    <value>The root object or array.</value>
+    <value>El objeto raíz o arreglo.</value>
   </data>
   <data name="CheatSheetScriptExpression" xml:space="preserve">
     <value>Script expression.</value>
@@ -151,10 +151,10 @@
     <value>Selects the n-th element from an array. Indexes start from 0.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Sintaxis</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Hoja de referencia</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
     <value>Selects n1 and n2 array items. Returns a list.</value>
@@ -184,16 +184,16 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>Testador JSONPath</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>No se ha encontrado ninguna coincidencia</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Resultado de la prueba</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ruta al archivo de salida</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>path json</value>
