@@ -148,7 +148,7 @@
     <value>Input</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>HTML Text Encoder / Decoder</value>
+    <value>Codifica / Decodifica HTML</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Output</value>
