@@ -242,23 +242,23 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>Expire in day(s)</value>
+    <value>Sona ereceği gün sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>Expire in hour(s)</value>
+    <value>Sona ereceği saat sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
-    <value>Expire in minute(s)</value>
+    <value>Sona ereceği dakika sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMonthInputTitle" xml:space="preserve">
-    <value>Expire in month(s)</value>
+    <value>Sona ereceği ay sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationYearInputTitle" xml:space="preserve">
-    <value>Expire in year(s)</value>
+    <value>Sona ereceği yıl sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
@@ -282,7 +282,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>Ayarlar</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
@@ -314,7 +314,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Expiration Date is invalid</value>
+    <value>Son Kullanma Tarihi geçersiz</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -358,7 +358,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of private key is not supported</value>
+    <value>Bu türden özel anahtarlar desteklenmiyor</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
@@ -450,7 +450,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Evet</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
@@ -474,7 +474,7 @@
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>Özel Anahtar</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Plain text</value>
+    <value>Düz metin</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>İmza biçimi</value>
     <comment>Gui</comment>
   </data>
 </root>
