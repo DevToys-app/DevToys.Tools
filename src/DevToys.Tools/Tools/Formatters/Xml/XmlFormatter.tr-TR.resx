@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>XML Formatter tool</value>
+    <value>XML Biçimlendirme aracı</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Yapılandırma</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify XML data</value>
+    <value>XML verisini girintile veya küçült</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 boşluk</value>
@@ -142,22 +142,22 @@
     <value>Seçilen girdi dosyası yok.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the xml to format</value>
+    <value>Biçimlendirilecek xml'i içeren metin veya dosyaya yol</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Lütfen girdi olarak bir metin veya dosya belirtin</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>XML Biçimlendirici</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>Küçültülmüş</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
-    <value>Put attributes on a new line</value>
+    <value>Özellikleri yeni satıra koy</value>
   </data>
   <data name="NewLineOnAttributesDescription" xml:space="preserve">
-    <value>Whether to put attributes on a new line</value>
+    <value>Özelliklerin yeni bir satıra konulup konulmayacağı</value>
   </data>
   <data name="OneTab" xml:space="preserve">
     <value>1 sekme</value>
