@@ -143,10 +143,10 @@
     <comment>{0} is a decimal number representing a file size. {1} is a unit, like Bytes, KB, MB, GB, TB</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>The format to convert images to</value>
+    <value>El formato al cual convertir las imágenes</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>A set of image file paths or directories that contain images to convert</value>
+    <value>Un conjunto de rutas o directorios de archivos de imagen que contienen imágenes para convertir</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Conversor de Imágenes</value>
