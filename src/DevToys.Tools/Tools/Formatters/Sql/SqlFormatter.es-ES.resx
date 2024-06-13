@@ -145,19 +145,19 @@
     <value>El archivo de entrada seleccionado no existe.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the sql to format</value>
+    <value>Texto o ruta a un archivo que contiene el sql al formato</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Por favor especifique un texto o un archivo de entrada</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
-    <value>Leading comma</value>
+    <value>Coma al principio</value>
   </data>
   <data name="LeadingCommaDescription" xml:space="preserve">
-    <value>Whether to use leading commas or not</value>
+    <value>Si usar comas al principio o no</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>Formateador SQL</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -172,10 +172,10 @@
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Salida</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ruta al archivo de salida</value>
   </data>
   <data name="PlSql" xml:space="preserve">
     <value>PL/SQL</value>
@@ -187,7 +187,7 @@
     <value>Amazon Redshift</value>
   </data>
   <data name="SearchDisplayName" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>Formateador SQL</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>SQL</value>
@@ -196,18 +196,18 @@
     <value>Spark SQL</value>
   </data>
   <data name="SqlLanguage" xml:space="preserve">
-    <value>Language</value>
+    <value>Lenguaje</value>
   </data>
   <data name="SqlLanguageDescription" xml:space="preserve">
-    <value>Which SQL language to use</value>
+    <value>Qué lenguaje SQL utilizar</value>
   </data>
   <data name="StandardSql" xml:space="preserve">
-    <value>Standard SQL</value>
+    <value>SQL Estándar</value>
   </data>
   <data name="TransactSql" xml:space="preserve">
     <value>Transact-SQL</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 espacios</value>
   </data>
 </root>
