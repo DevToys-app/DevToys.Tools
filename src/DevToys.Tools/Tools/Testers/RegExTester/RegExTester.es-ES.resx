@@ -199,22 +199,22 @@ $1 \1 \{1}</value>
     <value>Character classes</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>Caracteres de escape</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
-    <value>Groups and References</value>
+    <value>Grupos y referencias</value>
   </data>
   <data name="CheatSheetCategoryLookaround" xml:space="preserve">
     <value>Lookaround</value>
   </data>
   <data name="CheatSheetCategoryQuantifiersAlternation" xml:space="preserve">
-    <value>Quantifiers and Alternation</value>
+    <value>Cuantificadores y alteraciones</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
-    <value>Special</value>
+    <value>Especial</value>
   </data>
   <data name="CheatSheetCategorySubstitution" xml:space="preserve">
-    <value>Substitution</value>
+    <value>Sustitución</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
     <value>Character range</value>
@@ -257,22 +257,22 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descripción</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Dígito</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
     <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
-    <value>End</value>
+    <value>Fin</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
     <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
-    <value>End of string</value>
+    <value>Final de la cadena</value>
   </data>
   <data name="CheatSheetEndOfStringDetails" xml:space="preserve">
     <value>Matches the end of the string. Unlike $, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
@@ -350,10 +350,10 @@ This behaviour is reversed by the ungreedy (U) flag/modifier.</value>
     <value>Matches a LINE FEED character (char code 10).</value>
   </data>
   <data name="CheatSheetMatch" xml:space="preserve">
-    <value>Match</value>
+    <value>Coincidir</value>
   </data>
   <data name="CheatSheetMatchAny" xml:space="preserve">
-    <value>Match any</value>
+    <value>Coincidir con cualquiera</value>
   </data>
   <data name="CheatSheetMatchAnyDetails" xml:space="preserve">
     <value>A character set that can be used to match any character, including line breaks, without the dotall flag (s).</value>
@@ -383,7 +383,7 @@ There are multiple syntaxes for this feature:
 (?'name'ABC) (?P&lt;name&gt;ABC) (?&lt;name&gt;ABC)</value>
   </data>
   <data name="CheatSheetNamedReference" xml:space="preserve">
-    <value>Named reference</value>
+    <value>Referencia con nombre</value>
   </data>
   <data name="CheatSheetNamedReferenceDetails" xml:space="preserve">
     <value>Matches the results of a named capture group.
@@ -423,7 +423,7 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>Groups multiple tokens together without creating a capture group.</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
-    <value>Not digit</value>
+    <value>No es dígito</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
     <value>Matches any character that is not a digit character (0-9). Equivalent to [^0-9].</value>
@@ -459,13 +459,13 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>Matches any character that is not a vertical whitespace character (line breaks).</value>
   </data>
   <data name="CheatSheetNotWhitespace" xml:space="preserve">
-    <value>Not whitespace</value>
+    <value>No es un espacio en blanco</value>
   </data>
   <data name="CheatSheetNotWhitespaceDetails" xml:space="preserve">
     <value>Matches any character that is not a whitespace character (spaces, tabs, line breaks).</value>
   </data>
   <data name="CheatSheetNotWord" xml:space="preserve">
-    <value>Not word</value>
+    <value>No es una palabra</value>
   </data>
   <data name="CheatSheetNotWordBoundary" xml:space="preserve">
     <value>Not word boundary</value>
@@ -685,45 +685,45 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Location</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>Nombre</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
-    <value>Match</value>
+    <value>Coincidir</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Valor</value>
   </data>
   <data name="Multiline" xml:space="preserve">
-    <value>Multiline</value>
+    <value>Multilínea</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
-    <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
+    <value>Cambia el significado de ^ y $ para que coincidan al principio y al final, respectivamente, de cualquier línea, y no solo al principio y al final de toda la cadena.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>Opciones</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>Expresión regular</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
-    <value>Right To Left</value>
+    <value>De derecha a izquierda</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
-    <value>Specifies that the search will be from right to left instead of from left to right.</value>
+    <value>Especifica que la búsqueda será de derecha a izquierda en lugar de izquierda a derecha.</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>regular expression</value>
+    <value>expresión regular</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>RegEx</value>
   </data>
   <data name="Singleline" xml:space="preserve">
-    <value>Singleline</value>
+    <value>Una sola linea</value>
   </data>
   <data name="SinglelineDescription" xml:space="preserve">
-    <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
+    <value>Cambia el significado del punto (.) para que coincida con todos los caracteres (en lugar de todos los caracteres excepto \n).</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
 </root>
