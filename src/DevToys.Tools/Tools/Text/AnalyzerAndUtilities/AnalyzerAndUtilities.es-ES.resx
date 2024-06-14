@@ -124,13 +124,13 @@
     <value>Un conjunto de tratamientos para aplicar al texto de entrada. Las acciones se realizan en el orden en que se establecen.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetize</value>
+    <value>Ordenar alfabéticamente</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
     <value>Alfabetizar por última palabra</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
-    <value>aLtErNaTiNg cAsE</value>
+    <value>aLtErNaR MaYúScUlAs Y mInÚsCuLaS</value>
   </data>
   <data name="Bytes" xml:space="preserve">
     <value>Bytes</value>
@@ -151,10 +151,10 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>Convert case</value>
+    <value>Convertir a mayúsculas y minúsculas</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Convert line break</value>
+    <value>Convertir saltos de renglón</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Analiza el texto y proporciona algunas herramientas básicas</value>
@@ -187,7 +187,7 @@
     <value>Por favor especifique un texto o un archivo de entrada</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
-    <value>InVeRsE CaSe</value>
+    <value>InVeRtIr MaYúScUlAs Y mInÚsCuLaS</value>
   </data>
   <data name="KebabCase" xml:space="preserve">
     <value>kebab-case</value>
@@ -196,7 +196,7 @@
     <value>Líneas</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>Analizador de texto y utilidades</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
     <value>minúsculas</value>
@@ -280,13 +280,13 @@
     <value>Texto</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
-    <value>Title Case</value>
+    <value>Convertir a Tipo Título</value>
   </data>
   <data name="TrainCase" xml:space="preserve">
     <value>Train-Case</value>
   </data>
   <data name="UpperCase" xml:space="preserve">
-    <value>UPPER CASE</value>
+    <value>MAYÚSCULA</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
     <value>Frecuencia de palabras</value>
