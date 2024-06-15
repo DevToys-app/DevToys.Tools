@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>HTML Encoder and Decoder tool</value>
+    <value>Strumento di codifica e decodifica HTML</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Opzioni</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Decodifica</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Seleziona la modalità di conversione che vuoi usare</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Codifica</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode HTML</value>
+    <value>Indica se codificare o decodificare HTML</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversione</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode HTML text data</value>
+    <value>Codifica e decodifica dati testuali in HTML</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or HTML to decode</value>
+    <value>Testo da codificare o HTML da decodificare</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Input</value>
