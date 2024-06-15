@@ -213,7 +213,8 @@ internal static partial class JsonHelper
 
                 var jsonSerializer = JsonSerializer.CreateDefault(new JsonSerializerSettings()
                 {
-                    Converters = { new DecimalJsonConverter() }
+                    Converters = { new DecimalJsonConverter() },
+                    FloatParseHandling = FloatParseHandling.Decimal
                 });
                 jsonSerializer.Serialize(jsonTextWriter, yamlObject);
             }
