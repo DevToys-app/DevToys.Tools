@@ -157,7 +157,7 @@
     <value>1 个制表符</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>输出:</value>
+    <value>输出</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>输出文件路径</value>
