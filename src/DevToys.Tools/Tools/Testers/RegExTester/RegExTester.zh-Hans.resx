@@ -652,67 +652,67 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Specifies that cultural differences in language is ignored.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate and test regular expressions</value>
+    <value>验证和测试正则表达式</value>
   </data>
   <data name="EcmaScript" xml:space="preserve">
     <value>ECMA Script</value>
   </data>
   <data name="EcmaScriptDescription" xml:space="preserve">
-    <value>Enables ECMAScript-compliant behavior for the expression. This value can be used only in conjunction with the Culture Invariant, Ignore Case and Multiline options.</value>
+    <value>为表达式启用符合 ECMAScript 的行为。此选项只能与区域性不变、忽略大小写和多行选项一起使用。</value>
   </data>
   <data name="IgnoreCase" xml:space="preserve">
-    <value>Ignore Case</value>
+    <value>忽略大小写</value>
   </data>
   <data name="IgnoreCaseDescription" xml:space="preserve">
-    <value>Specifies case-insensitive matching.</value>
+    <value>指定不区分大小写的匹配。</value>
   </data>
   <data name="IgnoreWhitespace" xml:space="preserve">
-    <value>Ignore Whitespace</value>
+    <value>忽略空白符</value>
   </data>
   <data name="IgnoreWhitespaceDescription" xml:space="preserve">
-    <value>Eliminates unescaped white space from the pattern and enables comments marked with #. However, this value does not affect or eliminate white space in character classes, numeric quantifiers, or tokens that mark the beginning of individual regular expression language elements.</value>
+    <value>消除模式中未转义的空格，并启用以 # 标记的注释。但是，此选项不会影响或消除标记单独的正则表达式语言元素开头的字符类、数值量词或分词的空格。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Regular Expression Tester</value>
+    <value>正则表达式测试工具</value>
   </data>
   <data name="MatchGroupPrefix" xml:space="preserve">
-    <value>Group</value>
+    <value>组</value>
   </data>
   <data name="MatchInformation" xml:space="preserve">
-    <value>Match information</value>
+    <value>匹配信息</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
-    <value>Location</value>
+    <value>位置</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>名称</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
-    <value>Match</value>
+    <value>匹配</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>值</value>
   </data>
   <data name="Multiline" xml:space="preserve">
-    <value>Multiline</value>
+    <value>多行模式</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
-    <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
+    <value>改变^和$的含义，使它们分别匹配任意行的开头和结尾，而不是仅匹配整个字符串的开头和结尾。</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>选项</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>正则表达式</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
-    <value>Right To Left</value>
+    <value>从右到左模式</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
-    <value>Specifies that the search will be from right to left instead of from left to right.</value>
+    <value>指定搜索方向为从右到左，而非从左到右。</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>regular expression</value>
+    <value>正则表达式</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>正则表达式</value>
