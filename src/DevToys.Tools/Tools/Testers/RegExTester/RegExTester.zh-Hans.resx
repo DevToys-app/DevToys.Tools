@@ -399,88 +399,88 @@ There are multiple syntaxes for this feature:
 There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
   </data>
   <data name="CheatSheetNegatedCharacterSet" xml:space="preserve">
-    <value>A character except A, b or c</value>
+    <value>A、b 或 c 之外的字符</value>
   </data>
   <data name="CheatSheetNegatedCharacterSetDetails" xml:space="preserve">
-    <value>Match any character that is not A, b or c.</value>
+    <value>匹配任何 A、b 或 c 之外的字符。</value>
   </data>
   <data name="CheatSheetNegativeLookahead" xml:space="preserve">
-    <value>Negative lookahead</value>
+    <value>负向先行断言</value>
   </data>
   <data name="CheatSheetNegativeLookaheadDetails" xml:space="preserve">
-    <value>Specifies a group that can not match after the main expression (if it matches, the result is discarded).</value>
+    <value>指定无法匹配主表达式之后内容的组（如果匹配则丢弃结果）。</value>
   </data>
   <data name="CheatSheetNegativeLookbehind" xml:space="preserve">
-    <value>Negative lookbehind</value>
+    <value>负向后行断言</value>
   </data>
   <data name="CheatSheetNegativeLookbehindDetails" xml:space="preserve">
-    <value>Specifies a group that can not match before the main expression (if it matches, the result is discarded).</value>
+    <value>指定无法匹配主表达式之前内容的组（如果匹配则丢弃结果）。</value>
   </data>
   <data name="CheatSheetNonCapturingGroup" xml:space="preserve">
-    <value>Non-capturing group</value>
+    <value>非捕获组</value>
   </data>
   <data name="CheatSheetNonCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together without creating a capture group.</value>
+    <value>组合多个词元而不创建捕获组。</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
     <value>非数字</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
-    <value>Matches any character that is not a digit character (0-9). Equivalent to [^0-9].</value>
+    <value>匹配任何数字字符（0-9）之外的字符。等价于 [^0-9]。</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespace" xml:space="preserve">
-    <value>Not horizontal whitespace</value>
+    <value>非水平空白符</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a horizontal whitespace character (spaces, tabs).</value>
+    <value>匹配任何水平空白符（空格、制表符）之外的字符。</value>
   </data>
   <data name="CheatSheetNotLineBreak" xml:space="preserve">
-    <value>Not line break</value>
+    <value>非换行</value>
   </data>
   <data name="CheatSheetNotLineBreakDetails" xml:space="preserve">
-    <value>Matches any character that is not a line break. Similar to dot (.) but is unaffected by the dotall flag (s).</value>
+    <value>匹配任何换行之外的字符。与点语法（.）类似，但不受 dotAll 标志影响。</value>
   </data>
   <data name="CheatSheetNotUnicodeCategory" xml:space="preserve">
-    <value>Not unicode category</value>
+    <value>非 Unicode 分类</value>
   </data>
   <data name="CheatSheetNotUnicodeCategoryDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode category.</value>
+    <value>匹配任何不在特定的 Unicode 分类中的字符。</value>
   </data>
   <data name="CheatSheetNotUnicodeScript" xml:space="preserve">
-    <value>Not unicode script</value>
+    <value>非 Unicode 文种</value>
   </data>
   <data name="CheatSheetNotUnicodeScriptDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode script.</value>
+    <value>匹配任何不在特定的 Unicode 文种中的字符。</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespace" xml:space="preserve">
-    <value>Not vertical whitespace</value>
+    <value>非垂直空白符</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a vertical whitespace character (line breaks).</value>
+    <value>匹配任何垂直空白符（换行）之外的字符。</value>
   </data>
   <data name="CheatSheetNotWhitespace" xml:space="preserve">
-    <value>Not whitespace</value>
+    <value>非空白符</value>
   </data>
   <data name="CheatSheetNotWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a whitespace character (spaces, tabs, line breaks).</value>
+    <value>匹配任何空白符（空格、制表符、换行）之外的字符。</value>
   </data>
   <data name="CheatSheetNotWord" xml:space="preserve">
-    <value>Not word</value>
+    <value>非字词</value>
   </data>
   <data name="CheatSheetNotWordBoundary" xml:space="preserve">
-    <value>Not word boundary</value>
+    <value>非字词边界</value>
   </data>
   <data name="CheatSheetNotWordBoundaryDetails" xml:space="preserve">
-    <value>Matches any position that is not a word boundary. This matches a position, not a character.</value>
+    <value>匹配任何字词边界之外的位置。匹配结果是字符位置而非字符本身。</value>
   </data>
   <data name="CheatSheetNotWordDetails" xml:space="preserve">
-    <value>Matches any character that is not a word character (alphanumeric &amp; underscore). Equivalent to [^A-Za-z0-9_]</value>
+    <value>匹配任何字词字符（字母和下划线）之外的字符。等价于 [^A-Za-z0-9_]</value>
   </data>
   <data name="CheatSheetNull" xml:space="preserve">
     <value>Null</value>
   </data>
   <data name="CheatSheetNullDetails" xml:space="preserve">
-    <value>Matches a NULL character (char code 0).</value>
+    <value>匹配 NULL 字符（字符码位值为 0）。</value>
   </data>
   <data name="CheatSheetNumericReference" xml:space="preserve">
     <value>Numeric reference</value>
@@ -589,7 +589,7 @@ Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; 
     <value>Tab</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
-    <value>匹配 TAB 字符（字符码位值为 9）</value>
+    <value>匹配 TAB 字符（字符码位值为 9）。</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
     <value>速查表</value>
@@ -598,7 +598,7 @@ Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; 
     <value>Unicode 分类</value>
   </data>
   <data name="CheatSheetUnicodeCategoryDetails" xml:space="preserve">
-    <value>指定在特定的 Unicode 分类中的字符。例如，\p{Ll} 会匹配任意小写字母。</value>
+    <value>匹配在特定的 Unicode 分类中的字符。例如，\p{Ll} 会匹配任意小写字母。</value>
   </data>
   <data name="CheatSheetUnicodeEscape" xml:space="preserve">
     <value>Unicode 转义</value>
