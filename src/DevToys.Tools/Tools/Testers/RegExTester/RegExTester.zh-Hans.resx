@@ -368,35 +368,35 @@ $0 \0 \{0}</value>
     <value>模式修饰符</value>
   </data>
   <data name="CheatSheetModeModifierDetails" xml:space="preserve">
-    <value>Enables or disables modes for the remainder of the expression.Matching modes generally map to expression flags. For example (?i) would enable case insensitivity for the remainder of the expression.
-Multiple modifiers can be specified, and any modifiers that follow - are disabled. For example (?im-s) would enable case insensitivity &amp; multiline modes, and disable dotall.
+    <value>启用或禁用用于处理表达式余下部分的模式。匹配模式通常映射到表达式标志。例如 (?i) 会为表达式余下部分启用不区分大小写。
+可指定多个修饰符，在之前附加 - 会禁用对应修饰符。例如 (?im-s) 会启用不区分大小写和多行模式，并禁用 dotAll 模式。
 
-Supported modifiers are: i - case insensitive, s - dotall, m - multiline, x - free spacing, J - allow duplicate names, U - ungreedy.</value>
+支持的修饰符包括：i - 不区分大小写、s - dotAll、m - 多行、x - 忽略空白、J - 允许名称重复、U - 非贪婪。</value>
   </data>
   <data name="CheatSheetNamedCapturingGroup" xml:space="preserve">
-    <value>Named capturing group</value>
+    <value>命名捕获组</value>
   </data>
   <data name="CheatSheetNamedCapturingGroupDetails" xml:space="preserve">
-    <value>Creates a capturing group that can be referenced via the specified name.
-There are multiple syntaxes for this feature:
+    <value>创建可通过指定名称参照的组。
+此功能有多个语法：
 
-(?'name'ABC) (?P&lt;name&gt;ABC) (?&lt;name&gt;ABC)</value>
+(?'名称'ABC) (?P&lt;名称&gt;ABC) (?&lt;名称&gt;ABC)</value>
   </data>
   <data name="CheatSheetNamedReference" xml:space="preserve">
-    <value>Named reference</value>
+    <value>命名参照</value>
   </data>
   <data name="CheatSheetNamedReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a named capture group.
-There are multiple syntaxes for this feature:
+    <value>匹配命名的捕获组结果。
+此功能有多个语法：
 
-\k'name' \k&lt;name&gt; \k{name} \g{name} (?P=name)</value>
+\k'名称' \k&lt;名称&gt; \k{名称} \g{名称} (?P=名称)</value>
   </data>
   <data name="CheatSheetNamedSubroutine" xml:space="preserve">
-    <value>Named subroutine</value>
+    <value>命名子匹配程序</value>
   </data>
   <data name="CheatSheetNamedSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result.
-There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
+    <value>匹配捕获组中的表达式。请与参照区别开，参照会匹配结果。
+此功能有多个语法：\g&lt;名称&gt; \g'名称' (?&amp;名称) (?P&gt;名称)。</value>
   </data>
   <data name="CheatSheetNegatedCharacterSet" xml:space="preserve">
     <value>A、b 或 c 之外的字符</value>
@@ -483,22 +483,22 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>匹配 NULL 字符（字符码位值为 0）。</value>
   </data>
   <data name="CheatSheetNumericReference" xml:space="preserve">
-    <value>Numeric reference</value>
+    <value>数值参照</value>
   </data>
   <data name="CheatSheetNumericReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a capture group. For example \1 matches the results of the first capture group &amp; \3 matches the third.
-There are multiple syntaxes for this feature: \1 \g1 \g{1}.
+    <value>匹配捕获组的结果。例如 \1 匹配第一个捕获组，\3 则匹配第三个。
+此功能有多个语法：\1 \g1 \g{1}。
 
-The latter syntaxes support relative values preceded by + or -. For example \g-1 would match the group preceding the reference.</value>
+靠后的语法支持通过 + 或 - 指定相对值。例如 \g-1 会匹配位于参照前一位的组。</value>
   </data>
   <data name="CheatSheetNumericSubroutine" xml:space="preserve">
-    <value>Numeric subroutine</value>
+    <value>数值子匹配程序</value>
   </data>
   <data name="CheatSheetNumericSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result. For example /(a|b)\g'1'/ can match ab, because the expression a|b is evaluated again.
-There are multiple syntaxes for this feature: \g&lt;1&gt; \g'1' (?1).
+    <value>匹配捕获组中的表达式。请与参照区别开，参照会匹配结果。例如 /(a|b)\g'1'/ 可以匹配 ab，因为表达式 a|b 经过了重新评估。
+此功能有多个语法：\g&lt;1&gt; \g'1' (?1)。
 
-Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; would match the group preceding the reference.</value>
+也支持通过 + 或 - 指定相对值。例如 \g&lt;-1&gt; 会匹配位于参照前一位的组。</value>
   </data>
   <data name="CheatSheetOctalEscape" xml:space="preserve">
     <value>八进制转义</value>
