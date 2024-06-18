@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.Globalization;
+using Newtonsoft.Json;
 
 namespace DevToys.Tools.Helpers.Core;
 internal class DecimalJsonConverter : JsonConverter<decimal>
@@ -16,6 +17,6 @@ internal class DecimalJsonConverter : JsonConverter<decimal>
     public override void WriteJson(JsonWriter writer, decimal value, JsonSerializer serializer)
     {
         // prevent adding trailing zeros 
-        writer.WriteRawValue(value.ToString());
+        writer.WriteRawValue(value.ToString(CultureInfo.InvariantCulture));
     }
 }

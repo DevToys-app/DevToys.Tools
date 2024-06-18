@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Text;
 using DevToys.Tools.Helpers.Core;
 using DevToys.Tools.Models;
 using Microsoft.Extensions.Logging;
@@ -213,7 +214,9 @@ internal static partial class JsonHelper
 
                 var jsonSerializer = JsonSerializer.CreateDefault(new JsonSerializerSettings()
                 {
-                    Converters = { new DecimalJsonConverter() }
+                    Converters = { new DecimalJsonConverter() },
+                    FloatParseHandling = FloatParseHandling.Decimal,
+                    Culture = CultureInfo.InvariantCulture
                 });
                 jsonSerializer.Serialize(jsonTextWriter, yamlObject);
             }
