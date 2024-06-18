@@ -169,7 +169,7 @@
     <value>Nächste geplante Termine</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Cron-Parser</value>
+    <value>Cron Parser</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
     <value>Ob der Cron-Ausdruck Sekunden in seiner Definition enthalten soll</value>
