@@ -118,46 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text Escape and Unescape tool</value>
+    <value>Strumento Escape e Unescape del testo</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configurazione</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
     <value>Unescape</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Seleziona la modalità di conversione che vuoi usare</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>Escape</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to escape or unescape the input text</value>
+    <value>Indica se fare escape o unescape del testo di input</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversione</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Escapes or unescapes a string, removing characters that could prevent parsing.</value>
+    <value>Esegue l'escape o l'unescape di una stringa, rimuovendo i caratteri che potrebbero impedire l'analisi.</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>Il file di input selezionato non esiste</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert to escaped or unescaped text</value>
+    <value>Testo o percorso di un file del quale eseguire l'escape o l'unescape</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Input</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Specifica un testo o un file di input</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Escape / Unescape</value>
+    <value>Escape / Unescape Testo</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Percorso del file di output</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Output</value>

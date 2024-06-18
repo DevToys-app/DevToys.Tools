@@ -446,7 +446,7 @@
     <comment>Claim</comment>
   </data>
   <data name="xms_cc" xml:space="preserve">
-    <value>The "xms_cc" claim indicates whether the client application that acquired the token is capable of handling claims challenges. It's often used along with claim acrs. This claim is commonly used in Conditional Access and Continuous Access Evaluation scenarios. The resource server or service application that the token is issued for controls the presence of this claim in a token. A value of cp1 in the access token is the authoritative way to identify that a client application is capable of handling a claims challenge.</value>
+    <value>“xms_cc”声明表示获得令牌的客户端应用是否能够处理声明质询。经常与 acrs 声明一同使用。此声明通常用于条件访问和连续访问评估场景。签发令牌的资源服务器或服务应用会在令牌中控制此声明是否存在。访问令牌中 cp1 的值是识别客户端应用能够处理声明质询的可靠方法。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">

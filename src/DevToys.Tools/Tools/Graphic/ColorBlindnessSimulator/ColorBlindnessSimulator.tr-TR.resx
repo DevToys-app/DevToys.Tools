@@ -118,28 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Color Blindness Simulator tool</value>
+    <value>Renk Körlüğü Simülasyon aracı</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Simulate color blindness on a picture or screenshot</value>
+    <value>Bir resim veya ekran görüntüsü üzerinde renk körlüğünü simüle et</value>
   </data>
   <data name="DeuteranopiaSimulation" xml:space="preserve">
-    <value>Deuteranopia simulation</value>
+    <value>Döteranopi (yeşil renk körlüğü) simülasyonu</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to treat</value>
+    <value>İşlenecek resim dosyası yolu</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Color Blindness Simulator</value>
+    <value>Renk Körlüğü Simülatörü</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>Original</value>
+    <value>Orijinal</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
     <value>Directory where the result should be persisted. By default, use input file's directory</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Protanopia simulation</value>
+    <value>Pronatopi (kırmızı renk körlüğü) simülasyonu</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
@@ -152,6 +152,6 @@
     <value>Öz alma işleminin ilerlemesini gizler</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>Tritanopia simulation</value>
+    <value>Tritanopi (sarı-mavi renk körlüğü) simülasyonu</value>
   </data>
 </root>

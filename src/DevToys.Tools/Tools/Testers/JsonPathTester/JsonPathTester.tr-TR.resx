@@ -124,16 +124,16 @@
     <value>Dizi dilimleme işleci</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
-    <value>Bracket-notated child or children</value>
+    <value>Köşeli parantezle yazılmış çocuk veya çocuklar</value>
   </data>
   <data name="CheatSheetCurrentObjectElement" xml:space="preserve">
     <value>İfadeleri süzmek için kullanılır. İleriki işlemler için şu anki düğüme bakar.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Açıklama</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
-    <value>Dot-notated child</value>
+    <value>Nokta ile yazılmış çocuk</value>
   </data>
   <data name="CheatSheetFilterExpression" xml:space="preserve">
     <value>Belirtilen boole ifadesi ile eşleşen bir nesne veya dizideki tüm unsurları seçer. Bir liste döndürür.</value>
@@ -151,10 +151,10 @@
     <value>Dizideki n. unsuru seçer. Dizinler 0'dan başlar.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Söz dizimi</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Hızlı başvuru kılavuzu</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
     <value>n1 ve n2 dizi ögeleri seçer. Bir liste döndürür.</value>
@@ -169,10 +169,10 @@
     <value>Seçilen girdi dosyası yok.</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>JSON'u içeren metin veya dosyaya yol</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSONPath</value>
+    <value>JSONPath'ı içeren metin veya dosyaya yol</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
     <value>JSONPath</value>
@@ -181,13 +181,13 @@
     <value>JSON</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Lütfen girdi olarak bir metin veya dosya belirtin</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSONPath Sınayıcı</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>Eşleşme bulunamadı</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Sınama sonucu</value>

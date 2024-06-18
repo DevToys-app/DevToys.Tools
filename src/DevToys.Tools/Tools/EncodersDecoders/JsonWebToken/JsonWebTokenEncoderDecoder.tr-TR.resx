@@ -122,19 +122,19 @@
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>The "acr" claim with a value of 0 indicates the end-user authentication didn't meet the requirements of ISO/IEC 29115.</value>
+    <value>“acr” talebinin 0 değerine sahip olması, son kullanıcı kimlik doğrulamasının ISO/IEC 29115 gerekliliklerini karşılamadığını gösterir.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
-    <value>The "acrs" claim indicates the Auth Context IDs of the operations that the bearer is eligible to perform. Auth Context IDs can be used to trigger a demand for step-up authentication from within your application and services. Often used along with the xms_cc claim.</value>
+    <value>“acrs” talebi, taşıyıcının gerçekleştirmeye uygun olduğu işlemlerin Asıllama Bağlam Kimliklerini gösterir. Asıllama Bağlam Kimlikleri, uygulamanız ve hizmetleriniz içinden bir adım kimlik doğrulama talebini tetiklemek için kullanılabilir. Genellikle xms_cc talebi ile birlikte kullanılır.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>The "aio" claim is an internal claim used by Microsoft Entra ID to record data for token reuse. Resources shouldn't use this claim.</value>
+    <value>“aio” talebi, Microsoft Entra ID tarafından belirtecin yeniden kullanımına yönelik verileri kaydetmek için kullanılan dahili bir taleptir. Kaynaklar bu talebi kullanmamalıdır.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
-    <value>Indicates the algorithm used to sign the token</value>
+    <value>Jeton imzalanırken kullanılacak algoritmayı gösterir</value>
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
@@ -234,43 +234,43 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Token hashing algorithm</value>
+    <value>Jeton hash'leme algoritması</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Token audience (separated by comma)</value>
+    <value>Jeton seyircisi (virgül ile ayrılmış)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>Expire in day(s)</value>
+    <value>Sona ereceği gün sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>Expire in hour(s)</value>
+    <value>Sona ereceği saat sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
-    <value>Expire in minute(s)</value>
+    <value>Sona ereceği dakika sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMonthInputTitle" xml:space="preserve">
-    <value>Expire in month(s)</value>
+    <value>Sona ereceği ay sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationYearInputTitle" xml:space="preserve">
-    <value>Expire in year(s)</value>
+    <value>Sona ereceği yıl sayısı</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
-    <value>Token has audience</value>
+    <value>Jetonda seyirci var</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>Token has expiration</value>
+    <value>Jetonda tükenme noktası var</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
-    <value>Token has issuer</value>
+    <value>Jetonda sağlayıcı var</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenIssuerInputTitle" xml:space="preserve">
@@ -282,7 +282,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>Ayarlar</value>
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
@@ -302,7 +302,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
-    <value>Header</value>
+    <value>Üst bilgi</value>
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
@@ -314,7 +314,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Expiration Date is invalid</value>
+    <value>Son Kullanma Tarihi geçersiz</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Hayır</value>
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
@@ -350,7 +350,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
-    <value>Payload</value>
+    <value>Yük</value>
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
@@ -358,11 +358,11 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>This type of private key is not supported</value>
+    <value>Bu türden özel anahtarlar desteklenmiyor</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
-    <value>Public Key</value>
+    <value>Açık Anahtar</value>
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
@@ -386,7 +386,7 @@
     <comment>Gui</comment>
   </data>
   <data name="SignatureInputTitle" xml:space="preserve">
-    <value>Signature</value>
+    <value>İmza</value>
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
@@ -398,7 +398,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="TokenInputTitle" xml:space="preserve">
-    <value>Token</value>
+    <value>Jeton</value>
     <comment>Gui</comment>
   </data>
   <data name="TokenNotValidated" xml:space="preserve">
@@ -450,11 +450,11 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Evet</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Token has default time</value>
+    <value>Jetonda varsayılan zaman var</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidHeader" xml:space="preserve">
@@ -474,7 +474,7 @@
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Private Key</value>
+    <value>Özel Anahtar</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Plain text</value>
+    <value>Düz metin</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Signature format</value>
+    <value>İmza biçimi</value>
     <comment>Gui</comment>
   </data>
 </root>

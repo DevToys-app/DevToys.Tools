@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Image Converter tool</value>
+    <value>Herramienta de Conversión de Imágenes</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuración</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversión</value>
   </data>
   <data name="ConvertedFormatDescription" xml:space="preserve">
-    <value>Select the image format to convert into</value>
+    <value>Seleccione el formato de la imagen a convertir</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Borrar</value>
   </data>
   <data name="DeleteAll" xml:space="preserve">
-    <value>Delete all</value>
+    <value>Borrar todo</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Lossless image converter</value>
+    <value>Conversor de imágenes sin pérdida</value>
   </data>
   <data name="FileSizeDisplay" xml:space="preserve">
     <value>{0:0.##} {1}</value>
     <comment>{0} is a decimal number representing a file size. {1} is a unit, like Bytes, KB, MB, GB, TB</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>The format to convert images to</value>
+    <value>El formato al cual convertir las imágenes</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>A set of image file paths or directories that contain images to convert</value>
+    <value>Un conjunto de rutas o directorios de archivos de imagen que contienen imágenes para convertir</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>Conversor de Imágenes</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
+    <value>Directorio donde el resultado debe ser guardado, o una ruta de un solo archivo, si la entrada es también una ruta de archivo única.</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
-    <value>Save all</value>
+    <value>Guardar todo</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Guardar como</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>Conversor de Imágenes</value>
   </data>
 </root>

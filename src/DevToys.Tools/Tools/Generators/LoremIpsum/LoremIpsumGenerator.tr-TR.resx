@@ -124,7 +124,7 @@
     <value>Yapılandırma</value>
   </data>
   <data name="CorpusOptionDescription" xml:space="preserve">
-    <value>Text corpus to use</value>
+    <value>Kullanılacak metin külliyatı</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Lorem Ipsum (veya benzer) yer tutucu metin üret</value>
@@ -136,10 +136,10 @@
     <value>Üretilecek kelime, cümle veya paragraf sayısı</value>
   </data>
   <data name="LengthTitle" xml:space="preserve">
-    <value>Length</value>
+    <value>Uzunluk</value>
   </data>
   <data name="LipsumChildHarold" xml:space="preserve">
-    <value>Childe Harold's Pilgrimage (Lord Byron)</value>
+    <value>Genç Harold'ın Yolculuğu (Lord Byron)</value>
   </data>
   <data name="LipsumDecameron" xml:space="preserve">
     <value>Decameron - Novella Prima (Giovanni Boccaccio)</value>
@@ -148,7 +148,7 @@
     <value>Faust (Goethe), German</value>
   </data>
   <data name="LipsumInDerFremde" xml:space="preserve">
-    <value>In der Fremde (Heinrich Heine), German</value>
+    <value>In der Fremde (Heinrich Heine), Almanca</value>
   </data>
   <data name="LipsumLeBateauIvre" xml:space="preserve">
     <value>Le Bateau Ivre (Arthur Rimbaud), French</value>
@@ -175,7 +175,7 @@
     <value>Tierra y Luna (Federico García Lorca), Spanish</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
-    <value>Text corpus</value>
+    <value>Metin külliyatı</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Lorem Ipsum Üretici</value>

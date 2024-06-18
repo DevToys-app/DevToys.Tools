@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>QR Code Encoder and Decoder tool</value>
+    <value>Strumento di codifica e decodifica Codice QR</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Read or generate a QR Code from a text. Can be exported as SVG.</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
-    <value>Export as SVG</value>
+    <value>Esporta come SVG</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>QR Code</value>
+    <value>Codice QR</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
@@ -139,16 +139,16 @@
     <value>QR Code Encoder / Decoder</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>No QR Code found in this image</value>
+    <value>Nessun codice QR trovato in questa immagine</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Percorso di salvataggio del file</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>QRCode URL</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>QR Code</value>
+    <value>Codice QR</value>
   </data>
 </root>

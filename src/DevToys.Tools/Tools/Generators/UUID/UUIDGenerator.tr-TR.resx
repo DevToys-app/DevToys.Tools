@@ -133,7 +133,7 @@
     <value>Üret</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
-    <value>Hyphens</value>
+    <value>Tireler</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
     <value>Üretilen UUID'lerin tire içerip içermeyeceği</value>
@@ -154,7 +154,7 @@
     <value>UUID</value>
   </data>
   <data name="Uppercase" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>Büyük harf</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
     <value>Üretilen UUID'lerin büyük harfli olup olmayacağı</value>
@@ -172,6 +172,6 @@
     <value>Üretilecek UUID sürümü</value>
   </data>
   <data name="VersionTitle" xml:space="preserve">
-    <value>UUID version</value>
+    <value>UUID sürümü</value>
   </data>
 </root>

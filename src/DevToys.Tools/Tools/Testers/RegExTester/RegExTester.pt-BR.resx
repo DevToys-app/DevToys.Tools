@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Regular Expression Tester tool</value>
+    <value>Ferramenta para Teste de Expressão Regular (Regexp)</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
-    <value>All matches</value>
+    <value>Todas correspondências</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
     <value>Find all the matches in the text or stop after the first match.</value>
@@ -153,7 +153,7 @@ For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option
     <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetBeginningOfString" xml:space="preserve">
-    <value>Beginning of string</value>
+    <value>Início da string</value>
   </data>
   <data name="CheatSheetBeginningOfStringDetails" xml:space="preserve">
     <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
@@ -193,7 +193,7 @@ $1 \1 \{1}</value>
     <value>Matches a CARRIAGE RETURN character (char code 13).</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
-    <value>Anchors</value>
+    <value>Âncoras</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
     <value>Character classes</value>
@@ -211,10 +211,10 @@ $1 \1 \{1}</value>
     <value>Quantifiers and Alternation</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
-    <value>Special</value>
+    <value>Especial</value>
   </data>
   <data name="CheatSheetCategorySubstitution" xml:space="preserve">
-    <value>Substitution</value>
+    <value>Substituição</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
     <value>Character range</value>
@@ -235,7 +235,7 @@ $1 \1 \{1}</value>
     <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
-    <value>Conditional</value>
+    <value>Condicional</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
     <value>Conditionally matches one of two options based on whether a lookaround is matched.
@@ -257,22 +257,22 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descrição</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Dígito</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
     <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
-    <value>End</value>
+    <value>Fim</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
     <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
-    <value>End of string</value>
+    <value>Fim da string</value>
   </data>
   <data name="CheatSheetEndOfStringDetails" xml:space="preserve">
     <value>Matches the end of the string. Unlike $, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>

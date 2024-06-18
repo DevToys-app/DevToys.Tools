@@ -130,7 +130,7 @@
     <value>解码</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>选择你需要的会话类型</value>
+    <value>选择你要使用的转换模式</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>编码</value>
@@ -139,7 +139,7 @@
     <value>是否编码或解码Base64文本</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>会话</value>
+    <value>转换</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>编码和解码Base64文本数据</value>
@@ -148,10 +148,10 @@
     <value>选择要使用的编码</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>编码中</value>
+    <value>编码</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>编码中</value>
+    <value>编码</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>选择的输入文件不存在</value>
