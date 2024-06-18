@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Textmaskierungs- und Unmaskierungs-Werkzeug (evtl. Überarbeitung)</value>
+    <value>Textmaskierungs- und Demaskierungswerkzeug</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Konfiguration</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Unmaskieren (evtl. Überarbeitung)</value>
+    <value>Demaskieren</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Wähle den gewünschten Konvertierungsmodus aus</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Maskieren (Überarbeitung)</value>
+    <value>Maskieren</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Gibt an, ob der Eingabetext maskiert werden soll oder nicht</value>
+    <value>Ob der Eingabetext maskiert oder demaskiert werden soll</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>Konvertierung</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Maskiert oder unmaskiert eine Zeichenkette, Entfernung von Zeichen, die das Parsen verhindern könnten</value>
+    <value>Maskiert oder demaskiert eine Zeichenkette, Entfernung von Zeichen, die das Parsen verhindern könnten.</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Ausgewählte Eingabedatei existiert nicht</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text oder Pfad zu einer Datei, die in maskierten oder nicht-maskierten Text konvertiert werden soll</value>
+    <value>Text oder Pfad zu einer Datei, die in maskierten oder demaskierten Text konvertiert werden soll</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Eingabe</value>
@@ -154,7 +154,7 @@
     <value>Bitte gib einen Eingabetext oder eine Eingabedatei an</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Maskieren / Unmaskieren</value>
+    <value>Text Maskieren / Demaskieren</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Pfad zur Ausgabedatei</value>
@@ -163,6 +163,6 @@
     <value>Ausgabe</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Maskieren / Unmaskieren</value>
+    <value>Maskieren / Demaskieren</value>
   </data>
 </root>
