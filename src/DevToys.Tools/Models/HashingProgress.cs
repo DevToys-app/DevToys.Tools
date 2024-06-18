@@ -15,5 +15,5 @@ internal sealed record HashingProgress
 
     internal CancellationToken CancellationToken { get; init; }
 
-    internal double GetPercentage() => 100f * CompletedBytes / TotalBytes;
+    internal double GetPercentage() => Math.Min(100, 100f * CompletedBytes / TotalBytes);
 }
