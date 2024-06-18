@@ -214,7 +214,7 @@ namespace DevToys.Tools.Tools.Generators.LoremIpsum {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Raven (Edward Allen Poe), English.
+        ///   Looks up a localized string similar to The Raven (Edgar Allan Poe), English.
         /// </summary>
         internal static string LipsumTheRaven {
             get {
