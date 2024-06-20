@@ -118,28 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>UUID Generator tool</value>
+    <value>Ferramenta Gerador de UUID</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuração</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generate UUIDs version 1 and 4 (GUID)</value>
+    <value>Gerar UUIDs versões 1 e 4 (GUID)</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
-    <value>Generate UUID(s)</value>
+    <value>Gerar UUID(s)</value>
   </data>
   <data name="GenerateTitle" xml:space="preserve">
-    <value>Generate</value>
+    <value>Gerador</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
-    <value>Hyphens</value>
+    <value>Hifens</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should have hyphens or not</value>
+    <value>Se o(s) UUID(s) gerado(s) devem ter hifens ou não</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>UUID Generator</value>
+    <value>Gerador de UUID</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>
@@ -154,10 +154,10 @@
     <value>UUID</value>
   </data>
   <data name="Uppercase" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>Maiúsculo</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should be in uppercase or not</value>
+    <value>Se o(s) UUID(s) gerado(s) devem estar em maiúsculo ou não</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -166,12 +166,12 @@
     <value>1</value>
   </data>
   <data name="VersionDescription" xml:space="preserve">
-    <value>Choose the version of UUID to generate</value>
+    <value>Escolha a versão do UUID para gerar</value>
   </data>
   <data name="VersionOptionDescription" xml:space="preserve">
-    <value>The UUID version to generate</value>
+    <value>A versão do UUID para gerar</value>
   </data>
   <data name="VersionTitle" xml:space="preserve">
-    <value>UUID version</value>
+    <value>Versão do UUID</value>
   </data>
 </root>
