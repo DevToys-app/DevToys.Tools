@@ -125,7 +125,8 @@ internal sealed class UUIDGeneratorGuidTool : IGuiTool
                                             version,
                                             OnSettingChanged,
                                             Item(UUIDGenerator.UuidVersionOne, UuidVersion.One),
-                                            Item(UUIDGenerator.UuidVersionFour, UuidVersion.Four))),
+                                            Item(UUIDGenerator.UuidVersionFour, UuidVersion.Four),
+                                            Item(UUIDGenerator.UuidVersionSeven, UuidVersion.Seven))),
 
                             Stack()
                                 .Vertical()
