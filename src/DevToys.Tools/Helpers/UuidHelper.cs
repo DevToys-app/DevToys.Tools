@@ -1,4 +1,5 @@
-﻿using DevToys.Tools.Models;
+﻿using System.Security.Cryptography;
+using DevToys.Tools.Models;
 
 namespace DevToys.Tools.Helpers;
 internal static class UuidHelper
@@ -15,6 +16,7 @@ internal static class UuidHelper
     }
 
     private static readonly Random random = new();
+    private static readonly RandomNumberGenerator cRandom = RandomNumberGenerator.Create();
 
     private static readonly DateTimeOffset gregorianCalendarStart = new(1582, 10, 15, 0, 0, 0, TimeSpan.Zero);
     private const int VariantByte = 8;
@@ -98,11 +100,13 @@ internal static class UuidHelper
         // TTTTTTTT-TTTT-7aaa-rRRR-RRRRRRRRRRRR
         // T=unix_ts_ms 7=version a=rand_a r=variant R=rand_b 
 
-        // RRRRRRRR-RRRR-4RRR-rRRR-RRRRRRRRRRRR
-        byte[] guid = Guid.NewGuid().ToByteArray();
+        // RRRRRRRR-RRRR-RRRR-RRRR-RRRRRRRRRRRR
+        byte[] guid = new byte[ByteArraySize];
+        cRandom.GetBytes(guid);
 
         // timestamp
-        // If a more precise timestamp is required, the 12-bit space allocated to rand_a may be used.
+        // If more precise timestamping or monotonicity is needed,
+        // the 12-bit space in rand_a and some space in rand_b can be used.
         DateTimeOffset dateTime = DateTimeOffset.UtcNow;
         long timestamp = dateTime.ToUnixTimeMilliseconds();
 
