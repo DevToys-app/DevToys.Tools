@@ -14,6 +14,10 @@ public class UuidHelperTests
     [InlineData(UuidVersion.Four, false, true)]
     [InlineData(UuidVersion.Four, true, false)]
     [InlineData(UuidVersion.Four, false, false)]
+    [InlineData(UuidVersion.Seven, true, true)]
+    [InlineData(UuidVersion.Seven, false, true)]
+    [InlineData(UuidVersion.Seven, true, false)]
+    [InlineData(UuidVersion.Seven, false, false)]
     internal void GenerateUuid(UuidVersion uuidVersion, bool hyphens, bool uppercase)
     {
         string newUuid
