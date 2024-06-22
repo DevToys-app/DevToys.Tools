@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Xml and XSD tester tool</value>
+    <value>Herramienta comprobadora de XML / XSD</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Validate XML data via an XSD scheme.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>Comprobador de XML / XSD</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
@@ -157,10 +157,10 @@
     <value>Validation result will always be 'valid' since the XSD does not define these namespace(s) defined in the XML: {0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XML</value>
+    <value>Por favor, especifica una entrada XML</value>
   </data>
   <data name="InvalidXsdOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XSD</value>
+    <value>Por favor, especifica una entrada XSD</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
     <value>XML file selected doesn't exist.</value>
