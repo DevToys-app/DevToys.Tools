@@ -142,7 +142,7 @@
     <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 text data</value>
+    <value>編碼與解碼 Base64 文字資料</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
     <value>Select which encoding you want to use</value>
