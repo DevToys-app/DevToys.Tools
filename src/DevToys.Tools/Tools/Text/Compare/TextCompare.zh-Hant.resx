@@ -130,13 +130,13 @@
     <value>差異</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
-    <value>Inline mode</value>
+    <value>合併檢視模式</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>文字比較工具</value>
   </data>
   <data name="ModifiedText" xml:space="preserve">
-    <value>已修改的文字</value>
+    <value>已修改文字</value>
   </data>
   <data name="OriginalText" xml:space="preserve">
     <value>原始文字</value>
