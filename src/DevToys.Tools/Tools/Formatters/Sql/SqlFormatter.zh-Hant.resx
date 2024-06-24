@@ -121,7 +121,7 @@
     <value>SQL 格式化工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Db2" xml:space="preserve">
     <value>Db2</value>
@@ -157,7 +157,7 @@
     <value>Whether to use leading commas or not</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>SQL格式化工具</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -187,7 +187,7 @@
     <value>Amazon Redshift</value>
   </data>
   <data name="SearchDisplayName" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>SQL 格式化工具</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>SQL</value>
