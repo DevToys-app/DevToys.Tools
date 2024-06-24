@@ -139,7 +139,7 @@
     <value>密碼不正確。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>憑證解碼器</value>
+    <value>憑證解碼工具</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>輸出檔案的路徑</value>
