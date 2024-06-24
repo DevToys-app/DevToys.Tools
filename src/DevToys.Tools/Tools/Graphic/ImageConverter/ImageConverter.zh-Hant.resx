@@ -121,7 +121,7 @@
     <value>Image Converter tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>轉換</value>
