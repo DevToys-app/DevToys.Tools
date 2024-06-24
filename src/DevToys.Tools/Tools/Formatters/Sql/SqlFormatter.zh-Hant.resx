@@ -148,7 +148,7 @@
     <value>Text or path to a file containing the sql to format</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
     <value>Leading comma</value>
