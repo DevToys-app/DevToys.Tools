@@ -121,7 +121,7 @@
     <value>文字跳脫及取消跳脫工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
     <value>取消跳脫</value>
