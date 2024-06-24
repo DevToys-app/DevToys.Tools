@@ -127,7 +127,7 @@
     <value>轉換</value>
   </data>
   <data name="ConvertedFormatDescription" xml:space="preserve">
-    <value>Select the image format to convert into</value>
+    <value>選擇要轉換的影像格式</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>刪除</value>
