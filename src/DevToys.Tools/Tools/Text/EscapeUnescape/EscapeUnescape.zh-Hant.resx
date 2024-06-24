@@ -151,7 +151,7 @@
     <value>輸入</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Text Escape / Unescape</value>
@@ -163,6 +163,6 @@
     <value>輸出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Escape / Unescape</value>
+    <value>跳脫 / 取消跳脫</value>
   </data>
 </root>
