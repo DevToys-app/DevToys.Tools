@@ -139,7 +139,7 @@
     <value>比較模式</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Compare two lists</value>
