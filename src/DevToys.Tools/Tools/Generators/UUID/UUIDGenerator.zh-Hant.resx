@@ -121,13 +121,13 @@
     <value>UUID Generator tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>產生第 1 或第 4 版的 UUID (GUID)</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
-    <value>Generate UUID(s)</value>
+    <value>產生 UUID</value>
   </data>
   <data name="GenerateTitle" xml:space="preserve">
     <value>產生</value>
