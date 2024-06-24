@@ -124,7 +124,7 @@
     <value>設置</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>選擇您想要使用的轉換模式</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to convert from Json or Yaml</value>
