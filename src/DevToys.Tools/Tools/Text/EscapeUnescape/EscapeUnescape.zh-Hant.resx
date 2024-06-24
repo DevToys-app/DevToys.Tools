@@ -127,7 +127,7 @@
     <value>取消跳脫</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>選擇您想要使用的轉換模式</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>跳脫</value>
@@ -154,7 +154,7 @@
     <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Escape / Unescape</value>
+    <value>文字跳脫 / 取消跳脫</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
