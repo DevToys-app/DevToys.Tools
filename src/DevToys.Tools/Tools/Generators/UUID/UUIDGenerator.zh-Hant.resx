@@ -124,7 +124,7 @@
     <value>設置</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generate UUIDs version 1 and 4 (GUID)</value>
+    <value>產生第 1 或第 4 版的 UUID (GUID)</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
     <value>Generate UUID(s)</value>
@@ -166,12 +166,12 @@
     <value>1</value>
   </data>
   <data name="VersionDescription" xml:space="preserve">
-    <value>Choose the version of UUID to generate</value>
+    <value>選取要產生的 UUID 版本</value>
   </data>
   <data name="VersionOptionDescription" xml:space="preserve">
-    <value>The UUID version to generate</value>
+    <value>產生的 UUID 版本</value>
   </data>
   <data name="VersionTitle" xml:space="preserve">
-    <value>UUID version</value>
+    <value>UUID 版本</value>
   </data>
 </root>
