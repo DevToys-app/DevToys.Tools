@@ -142,7 +142,7 @@
     <value>{0:0.#} %</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>GZip 壓縮或解壓縮字串</value>
