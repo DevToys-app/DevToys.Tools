@@ -136,7 +136,7 @@
     <value>Please specify comparison mode (A ∩ B, A ∪ B, A Only, B Only)</value>
   </data>
   <data name="ComparisonOptionTitle" xml:space="preserve">
-    <value>Comparison mode</value>
+    <value>比較模式</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>設置</value>
