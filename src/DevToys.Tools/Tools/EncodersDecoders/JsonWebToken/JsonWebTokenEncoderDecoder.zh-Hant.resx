@@ -178,7 +178,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
@@ -214,7 +214,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Select which token parameters to validate</value>
+    <value>選擇要驗證的 token 參數</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
@@ -266,7 +266,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>Token has expiration</value>
+    <value>Token 已過有效日期</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
