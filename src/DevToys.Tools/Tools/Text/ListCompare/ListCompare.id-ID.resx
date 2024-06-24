@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>List comparer tool</value>
+    <value>Alat Pembanding Daftar</value>
   </data>
   <data name="AInterB" xml:space="preserve">
     <value>A ∩ B</value>
   </data>
   <data name="AOnly" xml:space="preserve">
-    <value>A Only</value>
+    <value>Hanya A</value>
   </data>
   <data name="AUnionB" xml:space="preserve">
     <value>A ∪ B</value>
   </data>
   <data name="BOnly" xml:space="preserve">
-    <value>B Only</value>
+    <value>Hanya B</value>
   </data>
   <data name="ComparisonOptionDescription" xml:space="preserve">
-    <value>Please specify comparison mode (A ∩ B, A ∪ B, A Only, B Only)</value>
+    <value>Silakan tentukan mode perbandingan (A ∩ B, A ∪ B, A Saja, B Saja)</value>
   </data>
   <data name="ComparisonOptionTitle" xml:space="preserve">
-    <value>Comparison mode</value>
+    <value>Mode perbandingan</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuration</value>
