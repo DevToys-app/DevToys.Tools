@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON Formatter tool</value>
+    <value>Alat Pemformatan JSON</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify JSON data</value>
+    <value>Indentasi atau perkecil data JSON</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 spaces</value>
