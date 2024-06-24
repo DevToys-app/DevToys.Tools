@@ -121,7 +121,7 @@
     <value>JSON to YAML and YAML to JSON converter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>選擇您想要使用的轉換模式</value>
