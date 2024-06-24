@@ -406,7 +406,7 @@
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
-    <value>Select which mode you want to use</value>
+    <value>選擇您想要使用的模式</value>
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
