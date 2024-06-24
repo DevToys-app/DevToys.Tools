@@ -139,7 +139,7 @@
     <value>Urai ekspresi Cron untuk mendapatkan tanggal yang dijadwalkan</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Pilih apakah ekspresi Cron harus menyertakan detik dalam definisinya</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Ekspresi Cron untuk diurai</value>
@@ -157,7 +157,7 @@
     <value>Tanggal jadwal berikutnya</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>Tanggal waktu untuk tanggal yang akan datang</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
     <value>Format waktu tanggal output tidak valid</value>
