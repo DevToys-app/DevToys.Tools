@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>XML Formatter tool</value>
+    <value>XML 格式化工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Indent or minify XML data</value>
@@ -130,7 +130,7 @@
     <value>4 個空格</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>縮排</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
     <value>選擇您想要使用的縮排方式</value>
