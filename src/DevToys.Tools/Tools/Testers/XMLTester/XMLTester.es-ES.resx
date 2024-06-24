@@ -121,7 +121,7 @@
     <value>Herramienta comprobadora de XML / XSD</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate XML data via an XSD scheme.</value>
+    <value>Validar datos XML a través de un esquema XSD.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Comprobador de XML / XSD</value>
@@ -139,22 +139,22 @@
     <value>XML</value>
   </data>
   <data name="TargetNamespaceNotDefinedInXml" xml:space="preserve">
-    <value>Validation result will potentially always be 'valid' since the XML does not reference the following "targetNamespace" defined in the XSD: {0}</value>
+    <value>El resultado de la validación será potencialmente 'valid', ya que el XML no hace referencia al siguiente "targetNamespace" definido en el XSD: {0}</value>
   </data>
   <data name="ValidationImpossibleMsg" xml:space="preserve">
-    <value>XML and XSD content must be set in order to perform a validation.</value>
+    <value>El contenido XML y XSD debe configurarse para realizar una validación.</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
-    <value>Validation failed for an unknown reason.</value>
+    <value>La validación ha fallado por una razón desconocida.</value>
   </data>
   <data name="XmlNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XML does not define these namespace(s) defined in the XSD: {0}</value>
+    <value>El resultado de la validación siempre deberá ser válido, puesto que XML no define este espacio(s) de nombre en el XSD: {0}</value>
   </data>
   <data name="XmlValidMessage" xml:space="preserve">
-    <value>XML is compliant to the defined XSD scheme.</value>
+    <value>XML es compatible con el esquema XSD definido.</value>
   </data>
   <data name="XsdNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XSD does not define these namespace(s) defined in the XML: {0}</value>
+    <value>El resultado de la validación siempre deberá ser válido, puesto que XSD no define este espacio(s) de nombre en XML: {0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
     <value>Por favor, especifica una entrada XML</value>
@@ -163,15 +163,15 @@
     <value>Por favor, especifica una entrada XSD</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
-    <value>XML file selected doesn't exist.</value>
+    <value>El archivo XML seleccionado no existe.</value>
   </data>
   <data name="XmlOptionDescription" xml:space="preserve">
-    <value>Text or path to a XML file to treat.</value>
+    <value>Texto o path para un archivo a tratar.</value>
   </data>
   <data name="XsdFileNotFound" xml:space="preserve">
-    <value>XSD file selected doesn't exist.</value>
+    <value>El archivo XSD seleccionado no existe.</value>
   </data>
   <data name="XsdOptionDescription" xml:space="preserve">
-    <value>Text or path to a XSD file to treat.</value>
+    <value>Texto o path para un archivo a tratar.</value>
   </data>
 </root>
