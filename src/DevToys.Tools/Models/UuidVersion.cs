@@ -3,5 +3,6 @@
 internal enum UuidVersion
 {
     One,
-    Four
+    Four,
+    Seven
 }

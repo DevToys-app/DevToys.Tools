@@ -203,7 +203,18 @@ namespace DevToys.Tools.Tools.Generators.UUID {
                 return ResourceManager.GetString("UuidVersionOne", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   7 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string UuidVersionSeven
+        {
+            get
+            {
+                return ResourceManager.GetString("UuidVersionSeven", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Choose the version of UUID to generate.
         /// </summary>

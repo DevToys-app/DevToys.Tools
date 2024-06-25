@@ -165,6 +165,9 @@
   <data name="UuidVersionOne" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="UuidVersionSeven" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="VersionDescription" xml:space="preserve">
     <value>Seleccione la versión de UUID a generar</value>
   </data>
