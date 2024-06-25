@@ -124,7 +124,7 @@
     <value>Configuración</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generar UUID versión 1 y 4 (GUID)</value>
+    <value>Generar UUID versiones 1, 4 (GUID) y 7</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
     <value>Generar UUID(s)</value>
