@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>画像向けの Base64 エンコード / デコードツール</value>
+    <value>画像の Base64 エンコーダおよび デコーダ</value>
   </data>
   <data name="Base64Image" xml:space="preserve">
-    <value>プレビュー</value>
+    <value>画像のプレビュー</value>
   </data>
   <data name="Base64Input" xml:space="preserve">
     <value>Base64 テキスト</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>画像データまたは Base64 データを相互に変換します</value>
+    <value>Base64 画像データのエンコードとデコード</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>エンコードする画像ファイルのパス。 デコードする Base64 ファイルのパス または Base64 テキスト</value>
+    <value>エンコードする画像ファイルのパスもしくはデコードする Base64 データを含むテキストファイルのパスもしくはデコードするBase64 テキスト</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
     <value>&lt;Base64 データではありません&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>画像向け Base64 エンコーダー / デコーダー</value>
+    <value>画像の Base64 エンコーダー / デコーダー</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>ファイルの保存先</value>
@@ -146,6 +146,6 @@
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 (画像)</value>
+    <value>Base64 画像</value>
   </data>
 </root>
