@@ -124,7 +124,7 @@
     <value>構成</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>バージョン 1 およびバージョン 4 の UUID (GUID) の生成</value>
+    <value>バージョン 1、4 および 7 の UUID (GUID) の生成</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
     <value>UUID の生成</value>
