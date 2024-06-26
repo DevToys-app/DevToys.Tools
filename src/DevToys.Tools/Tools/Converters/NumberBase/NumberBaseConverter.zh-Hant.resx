@@ -130,7 +130,7 @@
     <value>組態設定</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>請在自訂字典中設定至少兩個字元</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
     <value>自訂格式</value>
@@ -139,7 +139,7 @@
     <value>十進位</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>轉換數值的進位方式</value>
   </data>
   <data name="Format" xml:space="preserve">
     <value>格式化數值</value>
@@ -151,7 +151,7 @@
     <value>輸入</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>要轉換數值的進位制</value>
+    <value>要轉換數值的進位方式</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
     <value>輸入字典</value>
@@ -170,7 +170,7 @@
     <value>輸出</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>想要轉換成的進位方式。</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
     <value>輸出字典</value>
@@ -194,11 +194,11 @@
     <value>數值進位</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
+    <value>目前數值 {0} 無效</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
+    <value>目前數值 {0} 超過最大值 ({1})，因此無法進行轉換</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>
