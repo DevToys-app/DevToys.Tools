@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON array to tabular form converter tool</value>
+    <value>JSON 陣列轉換表格工具</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>轉換 JSON 陣列為表格</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert a JSON array to tabular format, export to CSV or TSV</value>
+    <value>轉換 JSON 陣列為表格，匯出為 CSV 或 TSV</value>
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
