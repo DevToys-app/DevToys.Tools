@@ -154,7 +154,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aud" xml:space="preserve">
-    <value>「aud」(audience，受眾) 宣告用來識別 JWT 的接收者。每個預期要處理 JWT 的當事方必須在受眾宣告中標識自己。如果處理宣告的當事方在存在此宣告時未在「aud」宣告中標識自己，則必須拒絕該 JWT。在一般情況下，「aud」值是一個區分大小寫的字串陣列，每個字串包含一個 StringOrURI 值。在 JWT 僅有一個受眾的特殊情況下，「aud」值可以是單個包含 StringOrURI 的字串，區分大小寫。受眾值的解釋通常是由應用程式指定的。此宣告的使用與否是選擇性的。</value>
+    <value>「aud」(audience，接受者) 宣告用來識別 JWT 的接收方。每個預期要處理 JWT 的當事方必須在受眾宣告中標識自己。如果處理宣告的當事方在存在此宣告時未在「aud」宣告中標識自己，則必須拒絕該 JWT。在一般情況下，「aud」值是一個區分大小寫的字串陣列，每個字串包含一個 StringOrURI 值。在 JWT 僅有一個受眾的特殊情況下，「aud」值可以是單個包含 StringOrURI 的字串，區分大小寫。如何處理接受者通常是由應用程式所指定。此宣告的使用與否是選擇性的。</value>
     <comment>Claim</comment>
   </data>
   <data name="azp" xml:space="preserve">
@@ -186,15 +186,15 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>Validate actors</value>
+    <value>驗證執行者</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
-    <value>Token 受眾對象 (以逗號分隔)</value>
+    <value>Token 接受者 (以逗號分隔)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>Validate audiences</value>
+    <value>驗證接受者</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
@@ -238,7 +238,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Token 受眾對象 (以逗號分隔)</value>
+    <value>Token 接受者 (以逗號分隔)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
@@ -262,7 +262,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
-    <value>Token has audience</value>
+    <value>Token 具有接受者</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
@@ -390,7 +390,7 @@
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
-    <value>「sub」(subject，主體) 宣告用來識別 JWT 的主體。JWT 中的宣告通常是關於主體的陳述。主體的值必須在簽發者的環境中具有本機唯一性或具有全域唯一性。如何處理此宣告通常是由應用程式指定的。「sub」值是一個包含 StringOrURI 的字串，區分大小寫。此宣告的使用與否是選擇性的。</value>
+    <value>「sub」(subject，主體) 宣告用來識別 JWT 的主體。JWT 中的宣告通常是關於主體的陳述。主體的值必須在簽發者的環境中具有本機唯一性或具有全域唯一性。如何處理此宣告通常是由應用程式所指定。「sub」值是一個包含 StringOrURI 的字串，區分大小寫。此宣告的使用與否是選擇性的。</value>
     <comment>Claim</comment>
   </data>
   <data name="tid" xml:space="preserve">
@@ -426,7 +426,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
-    <value>受眾對象空白或無效</value>
+    <value>接受者空白或無效</value>
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
