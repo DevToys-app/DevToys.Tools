@@ -155,7 +155,7 @@
     <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
-    <value>Save all</value>
+    <value>全部儲存</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
     <value>儲存為</value>
