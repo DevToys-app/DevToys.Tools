@@ -169,7 +169,7 @@
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>包含 JSON 的文字或檔案路徑</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
     <value>包含 JSONPath 的文字或檔案路徑</value>
