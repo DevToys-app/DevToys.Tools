@@ -124,7 +124,7 @@
     <value>組態設定</value>
   </data>
   <data name="CorpusOptionDescription" xml:space="preserve">
-    <value>Text corpus to use</value>
+    <value>要使用的語料庫</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>產生測試用假文 (Lorem Ipsum) 文章</value>
@@ -175,7 +175,7 @@
     <value>Tierra y Luna (Federico García Lorca), Spanish</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
-    <value>Text corpus</value>
+    <value>文字語料庫</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>測試文章產生器</value>
