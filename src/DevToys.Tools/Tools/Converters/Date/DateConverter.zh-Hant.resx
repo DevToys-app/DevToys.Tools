@@ -136,7 +136,7 @@
     <value>DST Ambiguous time.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>小時（24 小時制式）</value>
+    <value>時 (24 小時制)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
     <value>時區</value>
@@ -167,7 +167,7 @@
     <value>日期</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>世界標準時間（UTC）日期和時間</value>
+    <value>世界標準時間 (UTC) 日期和時間</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
     <value>UtcTicks</value>
