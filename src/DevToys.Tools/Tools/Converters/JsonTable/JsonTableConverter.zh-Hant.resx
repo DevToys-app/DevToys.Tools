@@ -155,16 +155,16 @@
     <value>剪貼簿格式</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>逗號分隔值（CSV）</value>
+    <value>逗號分隔值 (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>制表符分隔值（TSV）</value>
+    <value>Tab 分隔值 (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>分號分隔值（CSV 法語）</value>
+    <value>分號分隔值 (CSV 法語)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>要從 JSON 轉換的文字或檔案路徑</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
