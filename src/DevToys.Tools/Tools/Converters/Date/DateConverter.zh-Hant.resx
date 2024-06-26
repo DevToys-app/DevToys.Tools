@@ -133,7 +133,7 @@
     <value>沒有日光節約時間。</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>DST Ambiguous time.</value>
+    <value>DST 未明確時間。</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
     <value>時 (24 小時制)</value>
@@ -244,6 +244,6 @@
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
-    <value>Please specify an input number or date</value>
+    <value>請指定輸入數字或日期</value>
   </data>
 </root>
