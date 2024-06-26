@@ -139,7 +139,7 @@
     <value>小駝峰式大小寫</value>
   </data>
   <data name="CharacterFrequency" xml:space="preserve">
-    <value>Character frequency</value>
+    <value>字頻</value>
   </data>
   <data name="Characters" xml:space="preserve">
     <value>Characters</value>
@@ -289,7 +289,7 @@
     <value>大寫</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
-    <value>詞語頻率</value>
+    <value>詞頻</value>
   </data>
   <data name="Words" xml:space="preserve">
     <value>字數</value>
