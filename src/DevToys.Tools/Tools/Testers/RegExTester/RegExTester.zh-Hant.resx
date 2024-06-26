@@ -134,7 +134,7 @@
 It can operate within a group, or on a whole expression. The patterns will be tested in order.</value>
   </data>
   <data name="CheatSheetAnyCharacter" xml:space="preserve">
-    <value>Any character except newline</value>
+    <value>除換行外的任何字元</value>
   </data>
   <data name="CheatSheetAnyCharacterDetails" xml:space="preserve">
     <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
@@ -199,7 +199,7 @@ $1 \1 \{1}</value>
     <value>Character classes</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>跳脫字元</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
     <value>Groups and References</value>
@@ -217,7 +217,7 @@ $1 \1 \{1}</value>
     <value>Substitution</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
-    <value>Character range</value>
+    <value>字元範圍</value>
   </data>
   <data name="CheatSheetCharacterRangeDetails" xml:space="preserve">
     <value>Matches a character having a character code between the two specified characters inclusive.</value>
