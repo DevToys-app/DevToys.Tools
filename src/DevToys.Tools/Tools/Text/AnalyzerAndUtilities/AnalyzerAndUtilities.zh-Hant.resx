@@ -181,7 +181,7 @@
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to treat.</value>
+    <value>要處理的文字或檔案路徑。</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>請指定輸入文字或檔案</value>
@@ -250,10 +250,10 @@
     <value>句子式大小寫</value>
   </data>
   <data name="Sentences" xml:space="preserve">
-    <value>Sentences</value>
+    <value>句子</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>文字分析與實用工具</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
     <value>顯示原文</value>
