@@ -157,7 +157,7 @@
     <value>所選擇的檔案不存在</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to encode or Base64 to decode</value>
+    <value>要編碼或解碼的文字或檔案路徑</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>輸入</value>
