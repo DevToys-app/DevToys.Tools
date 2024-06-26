@@ -145,7 +145,7 @@
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the sql to format</value>
+    <value>要格式化的 SQL 文字或檔案路徑</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>請指定輸入文字或檔案</value>
