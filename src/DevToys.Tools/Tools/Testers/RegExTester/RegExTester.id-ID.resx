@@ -235,7 +235,7 @@ $1 \1 \{1}</value>
     <value>Memungkinkan Anda memasukkan komentar ke dalam ekspresi Anda yang diabaikan saat menemukan kecocokan.</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
-    <value>Conditional</value>
+    <value>Kondisi</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
     <value>Conditionally matches one of two options based on whether a lookaround is matched.
@@ -260,7 +260,7 @@ For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define 
     <value>Description</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Angka</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
     <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
