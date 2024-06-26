@@ -127,7 +127,7 @@
     <value>Input file selected doesn't exist</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Raw certificate text or path to a certificate file to decode</value>
+    <value>要解碼的原始憑證內容或檔案路徑</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>輸入</value>
