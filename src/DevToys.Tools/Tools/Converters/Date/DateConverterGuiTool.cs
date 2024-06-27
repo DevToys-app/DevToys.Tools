@@ -846,7 +846,25 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                 .WithChildren(
                     Grid()
                         .Rows(
-                            (DateConvertDstGridRow.Daylight, Auto),
+                            (DateConvertDstDaylightGridRow.Content, Auto)
+                        )
+                        .Columns(
+                            (DateConvertDstDaylightGridColumn.Content, new UIGridLength(1, UIGridUnitType.Fraction))
+                        )
+                        .Cells(
+                            Cell(
+                                DateConvertDstDaylightGridRow.Content,
+                                DateConvertDstDaylightGridColumn.Content,
+                                Stack()
+                                    .Vertical()
+                                    .SmallSpacing()
+                                    .WithChildren(
+                                        _dstDaylightSavingLabel
+                                    )
+                            )
+                        ),
+                    Grid()
+                        .Rows(
                             (DateConvertDstGridRow.Offset, Auto),
                             (DateConvertDstGridRow.DateTime, Auto)
                         )
@@ -857,16 +875,6 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                             (DateConvertDstGridColumn.RightContent, new UIGridLength(1, UIGridUnitType.Fraction))
                         )
                         .Cells(
-                            Cell(
-                                DateConvertDstGridRow.Daylight,
-                                DateConvertDstGridColumn.LeftTitle,
-                                Stack()
-                                    .Vertical()
-                                    .SmallSpacing()
-                                    .WithChildren(
-                                        _dstDaylightSavingLabel
-                                    )
-                            ),
                             Cell(
                                 DateConvertDstGridRow.Offset,
                                 DateConvertDstGridColumn.LeftTitle,
