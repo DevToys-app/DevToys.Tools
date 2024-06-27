@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>GZip 圧縮展開ツール</value>
+    <value>GZip の圧縮と展開ツール</value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
     <value>圧縮</value>
@@ -127,16 +127,16 @@
     <value>展開</value>
   </data>
   <data name="CompressionModeDescription" xml:space="preserve">
-    <value>圧縮では文字列を GZip で圧縮した後に Base64 にエンコードされます。展開では Base64 文字列をデコードして GZip にて展開されます。</value>
+    <value>入力データを圧縮または解凍するかを選択します</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
-    <value>GZip 文字列の圧縮 / 展開</value>
+    <value>GZip 文字列を圧縮または解凍します</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
-    <value>圧縮 / 展開</value>
+    <value>圧縮モード</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>圧縮率 :</value>
+    <value>圧縮率</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
     <value>{0:0.#} %</value>
@@ -145,19 +145,19 @@
     <value>構成</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>GZip と Base64 を組み合わせた圧縮 / 展開ツール</value>
+    <value>GZip でテキストを圧縮または解凍する</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>テキスト または GZip+Base64 化されたデータ</value>
+    <value>圧縮するテキストまたは解凍するGZip</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>入力</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;GZip データとして解析できませんでした&gt;</value>
+    <value>&lt;無効な GZip データ&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip を利用した文字列の圧縮と展開</value>
+    <value>GZip 圧縮 / 展開</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>出力</value>
