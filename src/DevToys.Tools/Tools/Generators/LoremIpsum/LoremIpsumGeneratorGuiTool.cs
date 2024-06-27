@@ -132,6 +132,7 @@ internal sealed class LoremIpsumGeneratorGuiTool : IGuiTool
                                             NumberInput()
                                                 .HideCommandBar()
                                                 .Minimum(1)
+                                                .Maximum(5000)
                                                 .OnValueChanged(OnLengthChanged)
                                                 .Value(_settingsProvider.GetSetting(length)))))),
 
