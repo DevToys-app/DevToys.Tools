@@ -133,7 +133,7 @@
     <value>跳脫</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to escape or unescape the input text</value>
+    <value>是否要跳脫或取消跳脫輸入文字</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>轉換</value>
