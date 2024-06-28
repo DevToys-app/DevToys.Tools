@@ -136,7 +136,7 @@
     <value>連字號</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should have hyphens or not</value>
+    <value>產生的 UUID 是否要包含連字號</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>UUID 產生器</value>
