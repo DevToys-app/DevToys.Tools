@@ -124,7 +124,7 @@
     <value>Semua persamaan</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
-    <value>Find all the matches in the text or stop after the first match.</value>
+    <value>Temukan semua kecocokan di teks atau hentikan setelah kecocokan pertama.</value>
   </data>
   <data name="CheatSheetAlternation" xml:space="preserve">
     <value>Alternatif</value>
