@@ -127,7 +127,7 @@
     <value>展開</value>
   </data>
   <data name="CompressionModeDescription" xml:space="preserve">
-    <value>入力データを圧縮または解凍するかを選択します</value>
+    <value>入力データを圧縮または展開するかを選択します</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
     <value>GZip 文字列を圧縮または解凍します</value>
