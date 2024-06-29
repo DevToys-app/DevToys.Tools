@@ -139,7 +139,7 @@
     <value>10진수</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>한 기준에서 다른 기준으로 숫자 변환</value>
+    <value>숫자의 진법을 변환</value>
   </data>
   <data name="Format" xml:space="preserve">
     <value>숫자 형식</value>
