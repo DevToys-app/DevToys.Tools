@@ -136,19 +136,19 @@
     <value>생성된 예정일의 날짜 시간 형식</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>Cron 표현식을 구문 분석하여 예정된 시간을 확인</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Cron 표현식이 초 단위 정의를 포함하는지 여부</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Cron expression to parse</value>
+    <value>분석할 Cron 표현식</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron expression parser</value>
+    <value>Cron 표현식 구문 분석</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>확인할 예약 일정의 수</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
     <value>How many scheduled dates needs to be generated</value>
@@ -172,9 +172,9 @@
     <value>Cron parser</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Cron 표현식이 초 단위 정의를 포함하는지 여부</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>초 단위 포함</value>
   </data>
 </root>
