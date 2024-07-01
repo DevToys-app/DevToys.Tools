@@ -148,19 +148,19 @@
     <value>GZip으로 텍스트 압축 또는 압축 풀기</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>압축할 텍스트 또는 압축 해제할 GZip</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>입력</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;Invalid GZip data&gt;</value>
+    <value>&lt;잘못된 GZip 데이터&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>GZip 압축 / 압축 해제</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>출력</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>
