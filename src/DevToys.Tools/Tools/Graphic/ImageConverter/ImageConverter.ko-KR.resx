@@ -152,7 +152,7 @@
     <value>이미지 변환기</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
+    <value>결과를 저장할 디렉터리 또는 입력이 단일 파일 경로인 경우 단일 파일 경로입니다.</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
     <value>모두 저장</value>
