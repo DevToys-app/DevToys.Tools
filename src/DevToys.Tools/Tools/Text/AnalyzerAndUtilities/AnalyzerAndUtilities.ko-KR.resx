@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text analyzer, converter and utilities tool</value>
+    <value>텍스트 분석기, 변환기 및 유틸리티 도구</value>
   </data>
   <data name="ActionsOptionDescription" xml:space="preserve">
-    <value>A set of treatments to apply to the input text. Actions are performed in the order they're set.</value>
+    <value>입력 텍스트에 적용할 처리 세트입니다. 작업은 설정된 순서대로 수행됩니다.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
     <value>알파벳순</value>
@@ -139,10 +139,10 @@
     <value>camelCase</value>
   </data>
   <data name="CharacterFrequency" xml:space="preserve">
-    <value>Character frequency</value>
+    <value>문자 빈도</value>
   </data>
   <data name="Characters" xml:space="preserve">
-    <value>Characters</value>
+    <value>문자</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
     <value>COBOL-CASE</value>
@@ -151,13 +151,13 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>Convert case</value>
+    <value>변환 형식</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Convert line break</value>
+    <value>줄 바꿈 변환</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Analyze text and provide some basic utility tools</value>
+    <value>텍스트를 분석하고 몇 가지 기본 유틸리티 도구를 제공합니다.</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
     <value>줄 바꿈</value>
@@ -178,13 +178,13 @@
     <value>알 수 없음</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>선택한 파일이 존재하지 않습니다.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to treat.</value>
+    <value>처리할 파일의 텍스트 또는 경로입니다.</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>입력할 텍스트 또는 파일을 지정해 주세요.</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
     <value>InVeRsE CaSe</value>
@@ -196,16 +196,16 @@
     <value>라인</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>텍스트 분석기 및 유틸리티</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
     <value>lower case</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>출력 파일 경로</value>
   </data>
   <data name="Paragraphs" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>단락</value>
   </data>
   <data name="PascalCase" xml:space="preserve">
     <value>PascalCase</value>
@@ -214,49 +214,49 @@
     <value>raNdoM cASe</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>Randomize</value>
+    <value>무작위</value>
   </data>
   <data name="Reverse" xml:space="preserve">
-    <value>Reverse</value>
+    <value>역순</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
-    <value>Reverse alphabetize</value>
+    <value>알파벳 역순</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>Reverse alphabetize by last word</value>
+    <value>마지막 단어로 알파벳 역순</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>string</value>
+    <value>문자열</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
-    <value>Column</value>
+    <value>열</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
-    <value>End position</value>
+    <value>끝 위치</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>Length</value>
+    <value>길이</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>라인</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
-    <value>Start position</value>
+    <value>시작 위치</value>
   </data>
   <data name="SelectionStatistics" xml:space="preserve">
-    <value>Selection</value>
+    <value>선택 항목</value>
   </data>
   <data name="SentenceCase" xml:space="preserve">
     <value>Sentence case</value>
   </data>
   <data name="Sentences" xml:space="preserve">
-    <value>Sentences</value>
+    <value>문장</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>분석기 및 유틸리티</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
-    <value>Show original text</value>
+    <value>원문 표시</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
     <value>snake_case</value>
@@ -286,12 +286,12 @@
     <value>Train-Case</value>
   </data>
   <data name="UpperCase" xml:space="preserve">
-    <value>대문자</value>
+    <value>UPPER CASE</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
-    <value>Word frequency</value>
+    <value>단어 빈도</value>
   </data>
   <data name="Words" xml:space="preserve">
-    <value>Words</value>
+    <value>단어</value>
   </data>
 </root>
