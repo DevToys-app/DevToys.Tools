@@ -118,33 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text comparer tool</value>
+    <value>텍스트 비교 도구</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>설정</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compare two texts</value>
+    <value>두 텍스트 비교</value>
   </data>
   <data name="Difference" xml:space="preserve">
-    <value>Difference</value>
+    <value>차이점</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
-    <value>Inline mode</value>
+    <value>인라이 모드</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Comparer</value>
+    <value>텍스트 비교</value>
   </data>
   <data name="ModifiedText" xml:space="preserve">
-    <value>Modified text</value>
+    <value>수정된 텍스트</value>
   </data>
   <data name="OriginalText" xml:space="preserve">
-    <value>Original text</value>
+    <value>원본 텍스트</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Diff</value>
+    <value>차이</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Compare</value>
+    <value>비교</value>
   </data>
 </root>

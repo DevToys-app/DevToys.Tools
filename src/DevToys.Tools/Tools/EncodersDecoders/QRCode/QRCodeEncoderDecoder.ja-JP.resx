@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>QR コードエンコーダーおよびデコーダー</value>
+    <value>QR コードのエンコーダーおよびデコーダー</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>QR コードの読み取り、テキストデータから QR コードの表示および PNG / SVG の生成</value>
+    <value>テキストから QR コードの読み取りまたは生成する。SVG に変換可能。</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
-    <value>SVG でエクスポート</value>
+    <value>SVGとしてエクスポート</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>プレビュー</value>
+    <value>QR コード</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>QR コードを生成するテキストデータのパス、または読み取る画像のパス</value>
+    <value>デコードする QR コードを含む画像ファイルのパスもしくは QR コードに変換するためのテキストまたはテキストファイルのパス</value>
   </data>
   <data name="InputText" xml:space="preserve">
     <value>入力</value>
@@ -139,16 +139,16 @@
     <value>QR コードエンコーダー / デコーダー</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>画像から QR コードを読み取ることが出来ませんでした</value>
+    <value>この画像にQRコードが見つかりません</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>保存先のパス</value>
+    <value>出力先のパス</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>QRCode URL</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>QRコード</value>
+    <value>QR コード</value>
   </data>
 </root>

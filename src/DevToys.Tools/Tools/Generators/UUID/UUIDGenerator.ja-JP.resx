@@ -124,7 +124,7 @@
     <value>構成</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>バージョン 1 およびバージョン 4 の UUID (GUID) の生成</value>
+    <value>バージョン 1、4 (GUID) および 7 の生成</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
     <value>UUID の生成</value>
@@ -136,16 +136,16 @@
     <value>ハイフン</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
-    <value>生成時にハイフンを含める</value>
+    <value>生成された UUID にハイフンを使うかどうか</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>UUID 生成</value>
+    <value>UUIDジェネレーター</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>出力</value>
+    <value>UUID</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>GUID</value>
@@ -154,10 +154,10 @@
     <value>UUID</value>
   </data>
   <data name="Uppercase" xml:space="preserve">
-    <value>大文字の使用</value>
+    <value>大文字</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>UUID を大文字で出力</value>
+    <value>生成された UUID を大文字にするかどうか</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -169,7 +169,7 @@
     <value>7</value>
   </data>
   <data name="VersionDescription" xml:space="preserve">
-    <value>生成する UUID のバージョン</value>
+    <value>生成するUUID のバージョンを選択してください</value>
   </data>
   <data name="VersionOptionDescription" xml:space="preserve">
     <value>生成する UUID のバージョン</value>

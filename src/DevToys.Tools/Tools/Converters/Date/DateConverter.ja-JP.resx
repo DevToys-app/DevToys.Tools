@@ -127,13 +127,13 @@
     <value>日</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Unix 時間や UTC、対人可読形式などへ日時を変換</value>
+    <value>日時を人が読みやすい形式へ変換またはその逆変換</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
-    <value>夏時間 (サマータイム) 規則はありません</value>
+    <value>夏時間 (サマータイム) 制度はありません</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>夏時間の切り替えによる重複が発生しています</value>
+    <value>夏時間 (サマータイム) の切り替えによる重複が発生しています</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
     <value>時 (24 時間)</value>
@@ -154,20 +154,20 @@
     <value>オフセット</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks 時間</value>
+    <value>Time Date Timezone Epoch Timestamp Ticks 時間 日付 日時 タイムゾーン エポッ タイムスタンプ</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
     <value>秒</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
-    <value>夏時間 (サマータイム) 規則があります</value>
+    <value>夏時間 (サマータイム) 制度があります</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>タイムスタンプ</value>
+    <value>日付</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>UTC (協定世界時)</value>
+    <value>UTC (協定世界時) 日時</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
     <value>UtcTicks 値</value>
@@ -176,31 +176,31 @@
     <value>年</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>現時刻</value>
+    <value>たった今</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>日時変換</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>日時変換</value>
+    <value>日付</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>ユーザー定義のエポック</value>
+    <value>既定のエポック</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>エポックがゼロとなる日時を変更する</value>
+    <value>ユーザー定義のエポックを使用する</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>UNIX エポック</value>
+    <value>オフ</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>カスタム</value>
+    <value>オン</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
     <value>ミリ秒</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>タイムスタンプの単位</value>
+    <value>フォーマット</value>
   </data>
   <data name="Ticks" xml:space="preserve">
     <value>Ticks</value>
@@ -212,11 +212,11 @@
     <value>ミリ秒</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
-    <value>変換する日時。ISO 8601 形式で入力する。 例 2023-04-01T06:54:32.0000000+09:00</value>
+    <value>変換する日時。ISO 8601 形式がサポートされています。 (例: 2023-11-22T19:58:07.0000000+00:00)</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
-    <value>ユーザー定義のエポック。ISO 8601 形式で入力する。 例 2023-04-01T06:54:32.0000000+09:00</value>
+    <value>ユーザー定義のエポック。ISO 8601 形式がサポートされています。(例: 1970-01-01T00:00:00.0000000+00:00)</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">

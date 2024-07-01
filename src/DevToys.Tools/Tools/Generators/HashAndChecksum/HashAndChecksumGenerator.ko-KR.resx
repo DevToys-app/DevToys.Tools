@@ -118,75 +118,75 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Hash and Checksum Generator tool</value>
+    <value>해시 및 체크섬 생성 도구</value>
   </data>
   <data name="ChecksumVerificationFailed" xml:space="preserve">
-    <value>FAILED</value>
+    <value>실패</value>
   </data>
   <data name="ChecksumVerificationOptionDescription" xml:space="preserve">
-    <value>A text or file containing a checksum to verify data integrity</value>
+    <value>데이터 무결성을 확인하기 위한 체크섬이 포함된 텍스트 또는 파일</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
-    <value>OK</value>
+    <value>확인</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
-    <value>Checksum to verify data integrity</value>
+    <value>체크섬을 통한 데이터 무결성 확인</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>설정</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Calculate hash from text or binary data</value>
+    <value>텍스트 또는 이진 데이터에서 해시 계산하기</value>
   </data>
   <data name="HashAlgorithmOptionDescription" xml:space="preserve">
-    <value>The type of hash to generate</value>
+    <value>생성할 해시 타입</value>
   </data>
   <data name="HashesMatch" xml:space="preserve">
-    <value>The hashes are the same</value>
+    <value>해시가 동일합니다</value>
   </data>
   <data name="HashesMismatch" xml:space="preserve">
-    <value>The hashes are different</value>
+    <value>해시가 다릅니다</value>
   </data>
   <data name="HashingAlgorithmDescription" xml:space="preserve">
-    <value>Select which hashing algorithm you want to use</value>
+    <value>사용할 해싱 알고리즘을 선택합니다.</value>
   </data>
   <data name="HashingAlgorithmTitle" xml:space="preserve">
-    <value>Hashing Algorithm</value>
+    <value>해싱 알고리즘</value>
   </data>
   <data name="HmacSecret" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>HMAC 해시를 생성하는 데 사용할 비밀 키</value>
   </data>
   <data name="HmacSecretOptionDescription" xml:space="preserve">
-    <value>Secret key to use to generate a HMAC hash</value>
+    <value>HMAC 해시를 생성하는 데 사용할 비밀 키</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to hash</value>
+    <value>해시할 파일의 텍스트 또는 경로</value>
   </data>
   <data name="InputTextTitle" xml:space="preserve">
-    <value>Input text</value>
+    <value>텍스트 입력</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>입력할 텍스트 또는 파일을 지정해 주세요.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum Generator</value>
+    <value>해시 / 체크섬 생성기</value>
   </data>
   <data name="Or" xml:space="preserve">
-    <value>or</value>
+    <value>또는</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>출력</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Hash / Checksum</value>
+    <value>해시 / 체크섬</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>해싱작업 진행과정 숨기기</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated hash should be in uppercase or not</value>
+    <value>생성 해시 대문자화 여부</value>
   </data>
   <data name="UppercaseTitle" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>대문자</value>
   </data>
 </root>

@@ -142,7 +142,7 @@
     <value>原始文本</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Diff</value>
+    <value>比对 比较</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>比较</value>

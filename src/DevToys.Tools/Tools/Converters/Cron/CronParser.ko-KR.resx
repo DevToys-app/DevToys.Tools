@@ -118,63 +118,63 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Cron parsing tool</value>
+    <value>Cron 구문 분석 도구</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>설정</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
-    <value>Cron description</value>
+    <value>Cron 구문 설명</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>Cron expression is not valid</value>
+    <value>잘못된 Cron 표현식</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
-    <value>The Cron expression to parse</value>
+    <value>분석할 Cron 표현식</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>생성된 예정일의 날짜 시간 형식</value>
+    <value>생성된 예약 일정의 날짜 시간 형식</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>Cron 표현식을 구문 분석하여 예약된 일정을 확인</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Cron 표현식이 초 단위 정의를 포함하는지 여부</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Cron expression to parse</value>
+    <value>분석할 Cron 표현식</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron expression parser</value>
+    <value>Cron 표현식 구문 분석</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>생성할 예약 일정의 수</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>How many scheduled dates needs to be generated</value>
+    <value>생성해야 하는 예약 일정의 수</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>다음 예약 일정</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>다음 일정의 날짜 형식</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>날짜 및 시간의 출력 형식이 올바르지 않음</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>출력 형식</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>다음 예약 일정</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Cron parser</value>
+    <value>Cron 구문 분석기</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Cron 표현식이 초 단위 정의를 포함하는지 여부</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>초 단위 포함</value>
   </data>
 </root>

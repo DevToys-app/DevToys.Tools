@@ -121,7 +121,7 @@
     <value>JSONPath のテストツール</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>配列のスライス。</value>
+    <value>配列スライス演算子</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
     <value>ブラケット表記のオブジェクト内のプロパティ (名前にスペースなどが使われている場合に使用)。</value>

@@ -142,9 +142,9 @@
     <value>比較元</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Diff comparer</value>
+    <value>差分</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>内容比較</value>
+    <value>比較</value>
   </data>
 </root>

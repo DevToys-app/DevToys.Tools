@@ -142,7 +142,7 @@
     <value>インデント</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>インデントの指定</value>
+    <value>使用するインデント形式を選択する</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>入力</value>
@@ -151,10 +151,10 @@
     <value>指定されたファイルが見つかりません</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>変換するデータまたはファイルのパス</value>
+    <value>変換する json または yaml のテキストまたはファイルのパス</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>変換するデータまたはファイルのパスを指定してください</value>
+    <value>入力するテキストまたはファイルを指定してください</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
     <value>&lt;JSON データとしてパースできませんでした&gt;</value>
@@ -172,7 +172,7 @@
     <value>出力</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>ファイルの保存先</value>
+    <value>出力ファイルへのパス</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>

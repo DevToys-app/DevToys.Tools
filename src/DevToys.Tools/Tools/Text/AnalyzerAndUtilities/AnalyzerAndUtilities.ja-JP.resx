@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>文字列の分析と変換およびユーティリティツール</value>
+    <value>テキストアナライザ、コンバータ、ユーティリティツール</value>
   </data>
   <data name="ActionsOptionDescription" xml:space="preserve">
-    <value>入力に適用する一連の処理。処理は設定された順序で実行されます</value>
+    <value>入力テキストに適用される一連の処理。アクションは設定された順序で実行されます。</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
     <value>昇順</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
-    <value>昇順 (最後の単語)</value>
+    <value>最後尾の単語で昇順</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
     <value>aLtErNaTiNg cAsE</value>
@@ -151,10 +151,10 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>変換</value>
+    <value>大文字や小文字の変換</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>改行コード</value>
+    <value>改行コードの変換</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>テキストの分析、変換および情報の表示</value>
@@ -172,7 +172,7 @@
     <value>LF (\n)</value>
   </data>
   <data name="EndOfLineSequenceMixed" xml:space="preserve">
-    <value>混在</value>
+    <value>混合</value>
   </data>
   <data name="EndOfLineSequenceUnknown" xml:space="preserve">
     <value>不明</value>
@@ -181,7 +181,7 @@
     <value>指定されたファイルが見つかりません</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>テキストまたはファイルのパス</value>
+    <value>扱うファイルのテキストまたはパス。</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>テキストまたはファイルのパスを指定してください</value>
@@ -196,7 +196,7 @@
     <value>行数</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>文字列の分析と変換</value>
+    <value>テキストアナライザとユーティリティ</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
     <value>lower case</value>
@@ -214,7 +214,7 @@
     <value>raNdoM cASe</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>ランダム</value>
+    <value>ランダムに生成</value>
   </data>
   <data name="Reverse" xml:space="preserve">
     <value>反転</value>
@@ -223,40 +223,40 @@
     <value>降順</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>降順 (最後の単語)</value>
+    <value>最後尾に単語で降順</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>text string</value>
+    <value>文字列</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
     <value>列</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
-    <value>選択終了</value>
+    <value>終了位置</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>選択文字数</value>
+    <value>選択した文字数</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
     <value>行</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
-    <value>選択開始</value>
+    <value>開始位置</value>
   </data>
   <data name="SelectionStatistics" xml:space="preserve">
-    <value>カーソルと位置</value>
+    <value>選択範囲</value>
   </data>
   <data name="SentenceCase" xml:space="preserve">
     <value>Sentence case</value>
   </data>
   <data name="Sentences" xml:space="preserve">
-    <value>文数</value>
+    <value>文章数</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>分析と変換</value>
+    <value>アナライザとユーティリティ</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
-    <value>オリジナル テキスト</value>
+    <value>元のテキストを表示</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
     <value>snake_case</value>
@@ -274,7 +274,7 @@
     <value>値</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>入力</value>
+    <value>テキスト</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
     <value>テキスト</value>

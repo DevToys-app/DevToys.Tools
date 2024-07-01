@@ -118,71 +118,71 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Text Encoder and Decoder tool</value>
+    <value>Base64 텍스트 인코더 및 디코더 도구</value>
   </data>
   <data name="Ascii" xml:space="preserve">
     <value>ASCII</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>설정</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>디코드</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>사용할 변환 모드 선택</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>인코드</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode Base64 text</value>
+    <value>Base64 텍스트 인코딩 또는 디코딩 여부</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>변환</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 text data</value>
+    <value>Base64 텍스트 데이터 인코딩 및 디코딩</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
-    <value>Select which encoding you want to use</value>
+    <value>사용할 인코딩 선택</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>Encoding</value>
+    <value>인코딩</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>Encoding</value>
+    <value>인코딩</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>선택한 파일이 존재하지 않습니다.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to encode or Base64 to decode</value>
+    <value>인코딩할 텍스트 또는 파일 경로 또는 디코딩할 Base64 파일 경로</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>입력</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Invalid Base64&gt;</value>
+    <value>&lt;잘못된 Base64&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>입력할 텍스트 또는 파일을 지정해 주세요.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Text Encoder / Decoder</value>
+    <value>Base64 텍스트 인코더 / 디코더</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>출력 파일 경로</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>출력</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Text</value>
+    <value>Base64 텍스트</value>
   </data>
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>

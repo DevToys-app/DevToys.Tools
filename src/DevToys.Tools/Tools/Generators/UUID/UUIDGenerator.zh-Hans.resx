@@ -124,7 +124,7 @@
     <value>配置</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>生成 UUID 版本 1 和 4（GUID）</value>
+    <value>生成版本为 1、4（GUID）和 7 的 UUID</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
     <value>生成 UUID</value>

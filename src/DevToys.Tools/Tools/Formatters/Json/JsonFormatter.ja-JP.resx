@@ -124,7 +124,7 @@
     <value>構成</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>JSON データを整形または縮小します</value>
+    <value>JSON データを整形または縮小する</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 スペース</value>
@@ -133,7 +133,7 @@
     <value>インデント</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>インデントの種類</value>
+    <value>使用するインデントの種類を選択してください</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>入力</value>
@@ -142,10 +142,10 @@
     <value>指定されたファイルが見つかりません</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>変換するテキストまたはファイルのパス</value>
+    <value>フォーマットする JSON を含むファイルのテキストまたはパス</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>テキストの入力、またはファイルを指定してください</value>
+    <value>入力するテキストまたはファイルを指定してください</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSON フォーマッター</value>
@@ -160,19 +160,19 @@
     <value>出力</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>保存先のパス</value>
+    <value>出力先のパス</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>JSON 整形</value>
+    <value>sort order alphabetize ソート 順序 アルファベット順</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON</value>
   </data>
   <data name="SortProperties" xml:space="preserve">
-    <value>アルファベット昇順でキーをソート</value>
+    <value>JSON プロパティをアルファベット順にソート</value>
   </data>
   <data name="SortPropertiesOptionDescription" xml:space="preserve">
-    <value>JSON 内のキーをアルファベット昇順でソートします</value>
+    <value>JSON 内のプロパティをアルファベット順にソートするかどうか</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
     <value>2 スペース</value>

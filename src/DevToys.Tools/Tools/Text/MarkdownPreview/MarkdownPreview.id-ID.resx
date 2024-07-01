@@ -118,39 +118,39 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Markdown preview tool</value>
+    <value>Alat penampil Markdown</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>Dark</value>
+    <value>Gelap</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Preview a Markdown document with a GitHub-like render</value>
+    <value>Tampilkan dokumen Markdown dengan hasil seperti Github</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Markdown</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>Light</value>
+    <value>Terang</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Markdown Preview</value>
+    <value>Penampil Markdown</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Preview</value>
+    <value>Tampilan</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>MD</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Markdown Preview</value>
+    <value>Penampil Markdown</value>
   </data>
   <data name="ThemeDescription" xml:space="preserve">
-    <value>Select which theme to use to preview the Markdown</value>
+    <value>Pilih tema yang akan digunakan untuk melihat tampilan Markdown</value>
   </data>
   <data name="ThemeTitle" xml:space="preserve">
-    <value>Theme</value>
+    <value>Tema</value>
   </data>
 </root>
