@@ -163,16 +163,16 @@
     <value>日時フォーマットの入力に誤りがあります</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>日時フォーマット</value>
+    <value>出力フォーマット</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>スケジュール</value>
+    <value>次のスケジュールされた日付</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron パーサ</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Cron 式に秒を使用する (6 フィールドの Cron)</value>
+    <value>定義に秒を含む Cron 式を使用します</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
     <value>秒の使用</value>
