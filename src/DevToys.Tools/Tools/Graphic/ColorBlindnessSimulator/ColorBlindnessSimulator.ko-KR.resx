@@ -136,13 +136,13 @@
     <value>원본</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be persisted. By default, use input file's directory</value>
+    <value>결과를 유지해야 하는 디렉터리입니다. 기본적으로 입력 파일의 디렉터리를 사용합니다.</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
     <value>적색약 시뮬레이션</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
+    <value>삼색맹 백색맹 중수맹맹 달튼 달토니즘 달토니스트</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
