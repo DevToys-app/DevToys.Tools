@@ -160,7 +160,7 @@
     <value>Analyze text and provide some basic utility tools</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
-    <value>Line break</value>
+    <value>줄 바꿈</value>
   </data>
   <data name="EndOfLineSequenceCR" xml:space="preserve">
     <value>CR (\r)</value>
@@ -172,10 +172,10 @@
     <value>LF (\n)</value>
   </data>
   <data name="EndOfLineSequenceMixed" xml:space="preserve">
-    <value>Mixed</value>
+    <value>복합</value>
   </data>
   <data name="EndOfLineSequenceUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>알 수 없음</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist.</value>
@@ -193,7 +193,7 @@
     <value>kebab-case</value>
   </data>
   <data name="Lines" xml:space="preserve">
-    <value>Lines</value>
+    <value>라인</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Text Analyzer and Utilities</value>
@@ -262,22 +262,22 @@
     <value>snake_case</value>
   </data>
   <data name="SortLines" xml:space="preserve">
-    <value>Sort lines</value>
+    <value>라인 정렬</value>
   </data>
   <data name="Statistics" xml:space="preserve">
-    <value>Statistics</value>
+    <value>통계</value>
   </data>
   <data name="StatisticTitle" xml:space="preserve">
-    <value>Title</value>
+    <value>타이틀</value>
   </data>
   <data name="StatisticValue" xml:space="preserve">
-    <value>Value</value>
+    <value>값</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>Text</value>
+    <value>텍스트</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
-    <value>Text</value>
+    <value>텍스트</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
     <value>Title Case</value>
@@ -286,7 +286,7 @@
     <value>Train-Case</value>
   </data>
   <data name="UpperCase" xml:space="preserve">
-    <value>UPPER CASE</value>
+    <value>대문자</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
     <value>Word frequency</value>
