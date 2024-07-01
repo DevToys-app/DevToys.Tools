@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>마크다운 미리보기</value>
+    <value>마크다운 미리보기 도구</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>구성</value>
+    <value>설정</value>
   </data>
   <data name="DarkTheme" xml:space="preserve">
-    <value>어두운</value>
+    <value>어두운 테마</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Preview a Markdown document with a GitHub-like render</value>
+    <value>GitHub와 유사한 렌더링으로 마크다운 문서 미리보기</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>마크다운</value>
   </data>
   <data name="LightTheme" xml:space="preserve">
-    <value>밝은</value>
+    <value>밝은 테마</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>마크다운 미리보기</value>
