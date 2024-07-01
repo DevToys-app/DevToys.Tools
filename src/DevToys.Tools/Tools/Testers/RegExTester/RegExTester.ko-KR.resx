@@ -262,13 +262,13 @@ $1 \1 \{1}</value>
     <value>자릿수</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
-    <value>모든 숫자 문자(0-9) 와 일치합니다. [0-9] 와 동일합니다.</value>
+    <value>모든 숫자 문자 (0-9) 와 일치합니다. [0-9] 와 동일합니다.</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
     <value>끝</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
-    <value>문자열의 끝과 일치하거나 여러 줄 플래그(m) 가 활성화된 경우 줄의 끝과 일치합니다. 이는 문자가 아닌 위치와 일치합니다.</value>
+    <value>문자열의 끝과 일치하거나 여러 줄 플래그 (m) 가 활성화된 경우 줄의 끝과 일치합니다. 이는 문자가 아닌 위치와 일치합니다.</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
     <value>문자열 끝</value>
@@ -292,13 +292,13 @@ $1 \1 \{1}</value>
     <value>\Q와 \E 사이의 모든 문자는 리터럴 문자열로 해석됩니다. \E를 생략하면 표현식 끝까지 계속됩니다. 예를 들어, /\Q(?.)\E/ 표현식은 문자열(?.) 과 일치합니다.</value>
   </data>
   <data name="CheatSheetEscDetails" xml:space="preserve">
-    <value>ESC 문자(문자 코드 27) 와 일치합니다.</value>
+    <value>ESC 문자 (문자 코드 27) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetFormFeed" xml:space="preserve">
     <value>양식 피드</value>
   </data>
   <data name="CheatSheetFormFeedDetails" xml:space="preserve">
-    <value>FORM FEED 문자(문자 코드 12) 와 일치합니다.</value>
+    <value>FORM FEED 문자 (문자 코드 12) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetGroupConditional" xml:space="preserve">
     <value>그룹 조건부</value>
@@ -321,7 +321,7 @@ $1 \1 \{1}</value>
     <value>가로 공백</value>
   </data>
   <data name="CheatSheetHorizontalWhitespaceDetails" xml:space="preserve">
-    <value>가로 공백 문자(공백, 탭) 와 일치합니다.</value>
+    <value>가로 공백 문자 (공백, 탭) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetKeepOut" xml:space="preserve">
     <value>유지 금지</value>
@@ -346,140 +346,140 @@ $1 \1 \{1}</value>
     <value>줄 바꿈</value>
   </data>
   <data name="CheatSheetLineFeedDetails" xml:space="preserve">
-    <value>Matches a LINE FEED character (char code 10).</value>
+    <value>LINE FEED 문자 (문자 코드 10) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetMatch" xml:space="preserve">
-    <value>Match</value>
+    <value>일치</value>
   </data>
   <data name="CheatSheetMatchAny" xml:space="preserve">
-    <value>Match any</value>
+    <value>일부 일치</value>
   </data>
   <data name="CheatSheetMatchAnyDetails" xml:space="preserve">
-    <value>A character set that can be used to match any character, including line breaks, without the dotall flag (s).</value>
+    <value>도트 플래그 없이 줄 바꿈을 포함하여 모든 문자를 일치시키는 데 사용할 수 있는 문자 집합입니다.</value>
   </data>
   <data name="CheatSheetMatchDetails" xml:space="preserve">
-    <value>Inserts the matched text.
-There are multiple syntaxes for this feature:
+    <value>일치하는 텍스트를 삽입합니다.
+이 기능에는 여러 가지 구문이 있습니다.
 
 $0 \0 \{0}</value>
   </data>
   <data name="CheatSheetModeModifier" xml:space="preserve">
-    <value>Mode modifier</value>
+    <value>모드 수정자</value>
   </data>
   <data name="CheatSheetModeModifierDetails" xml:space="preserve">
-    <value>Enables or disables modes for the remainder of the expression.Matching modes generally map to expression flags. For example (?i) would enable case insensitivity for the remainder of the expression.
-Multiple modifiers can be specified, and any modifiers that follow - are disabled. For example (?im-s) would enable case insensitivity &amp; multiline modes, and disable dotall.
+    <value>표현식의 나머지 부분에 대한 모드를 활성화 또는 비활성화합니다. 일치하는 모드는 일반적으로 표현식 플래그에 매핑됩니다. 예를 들어 (?i)는 표현식의 나머지 부분에 대해 대소문자 구분을 활성화합니다. 여러 개의 수정자를 지정할 수 있으며 그 뒤에 오는 수정자는 모두 비활성화됩니다. 예를 들어 (?im-s)는 대소문자 구분 및 여러 줄 모드를 활성화하고 점순을 비활성화합니다.
 
-Supported modifiers are: i - case insensitive, s - dotall, m - multiline, x - free spacing, J - allow duplicate names, U - ungreedy.</value>
+지원되는 수정자는 i - 대소문자 구분, s - 점순, m - 여러 줄, x - 자유 간격, J - 중복 이름 허용, U - 욕심 없음입니다.</value>
   </data>
   <data name="CheatSheetNamedCapturingGroup" xml:space="preserve">
-    <value>Named capturing group</value>
+    <value>명명된 캡처 그룹</value>
   </data>
   <data name="CheatSheetNamedCapturingGroupDetails" xml:space="preserve">
-    <value>Creates a capturing group that can be referenced via the specified name.
-There are multiple syntaxes for this feature:
+    <value>지정된 이름을 통해 참조할 수 있는 캡처링 그룹을 만듭니다.
+이 기능에는 여러 가지 구문이 있습니다.
 
 (?'name'ABC) (?P&lt;name&gt;ABC) (?&lt;name&gt;ABC)</value>
   </data>
   <data name="CheatSheetNamedReference" xml:space="preserve">
-    <value>Named reference</value>
+    <value>명명된 참조</value>
   </data>
   <data name="CheatSheetNamedReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a named capture group.
-There are multiple syntaxes for this feature:
+    <value>명명된 캡처 그룹의 결과와 일치합니다.
+이 기능에는 여러 가지 구문이 있습니다.
 
 \k'name' \k&lt;name&gt; \k{name} \g{name} (?P=name)</value>
   </data>
   <data name="CheatSheetNamedSubroutine" xml:space="preserve">
-    <value>Named subroutine</value>
+    <value>명명된 서브루틴</value>
   </data>
   <data name="CheatSheetNamedSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result.
-There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
+    <value>캡처 그룹의 표현식과 일치합니다. 이를 결과와 일치하는 참조와 비교하십시오.
+이 기능에는 여러 가지 구문이 있습니다: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
   </data>
   <data name="CheatSheetNegatedCharacterSet" xml:space="preserve">
-    <value>A character except A, b or c</value>
+    <value>A, b, c를 제외한 문자</value>
   </data>
   <data name="CheatSheetNegatedCharacterSetDetails" xml:space="preserve">
-    <value>Match any character that is not A, b or c.</value>
+    <value>A, b 또는 c가 아닌 모든 문자와 일치합니다.</value>
   </data>
   <data name="CheatSheetNegativeLookahead" xml:space="preserve">
-    <value>Negative lookahead</value>
+    <value>부정적인 예측</value>
   </data>
   <data name="CheatSheetNegativeLookaheadDetails" xml:space="preserve">
-    <value>Specifies a group that can not match after the main expression (if it matches, the result is discarded).</value>
+    <value>기본 표현식 뒤에 일치할 수 없는 그룹을 지정합니다. (일치하면 결과가 삭제)</value>
   </data>
   <data name="CheatSheetNegativeLookbehind" xml:space="preserve">
-    <value>Negative lookbehind</value>
+    <value>식별자 (키): CheatSheetNegativeLookbehind
+CheatSheetNegativeLookbehind</value>
   </data>
   <data name="CheatSheetNegativeLookbehindDetails" xml:space="preserve">
-    <value>Specifies a group that can not match before the main expression (if it matches, the result is discarded).</value>
+    <value>기본 표현식 이전에 일치할 수 없는 그룹을 지정합니다. (일치하면 결과가 삭제)</value>
   </data>
   <data name="CheatSheetNonCapturingGroup" xml:space="preserve">
-    <value>Non-capturing group</value>
+    <value>비캡처 그룹</value>
   </data>
   <data name="CheatSheetNonCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together without creating a capture group.</value>
+    <value>캡처 그룹을 생성하지 않고 여러 토큰을 그룹화합니다.</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
-    <value>Not digit</value>
+    <value>숫자 아님</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
-    <value>Matches any character that is not a digit character (0-9). Equivalent to [^0-9].</value>
+    <value>숫자 (0-9) 가 아닌 모든 문자와 일치합니다. [^0-9] 와 동일합니다.</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespace" xml:space="preserve">
-    <value>Not horizontal whitespace</value>
+    <value>가로 공백이 아님</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a horizontal whitespace character (spaces, tabs).</value>
+    <value>가로 공백 문자 (공백, 탭) 가 아닌 모든 문자와 일치합니다.</value>
   </data>
   <data name="CheatSheetNotLineBreak" xml:space="preserve">
-    <value>Not line break</value>
+    <value>줄 바꿈이 아님</value>
   </data>
   <data name="CheatSheetNotLineBreakDetails" xml:space="preserve">
-    <value>Matches any character that is not a line break. Similar to dot (.) but is unaffected by the dotall flag (s).</value>
+    <value>줄 바꿈이 아닌 모든 문자와 일치합니다. 도트 (.) 와 유사하지만 도트 플래그(들) 의 영향을 받지 않습니다.</value>
   </data>
   <data name="CheatSheetNotUnicodeCategory" xml:space="preserve">
-    <value>Not unicode category</value>
+    <value>유니코드 카테고리가 아님</value>
   </data>
   <data name="CheatSheetNotUnicodeCategoryDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode category.</value>
+    <value>지정된 유니코드 범주에 없는 모든 문자와 일치합니다.</value>
   </data>
   <data name="CheatSheetNotUnicodeScript" xml:space="preserve">
-    <value>Not unicode script</value>
+    <value>유니코드 스크립트가 아님</value>
   </data>
   <data name="CheatSheetNotUnicodeScriptDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode script.</value>
+    <value>지정된 유니코드 스크립트에 없는 모든 문자와 일치합니다.</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespace" xml:space="preserve">
-    <value>Not vertical whitespace</value>
+    <value>세로 공백이 아님</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a vertical whitespace character (line breaks).</value>
+    <value>세로 공백 문자 (줄 바꿈) 가 아닌 모든 문자와 일치합니다.</value>
   </data>
   <data name="CheatSheetNotWhitespace" xml:space="preserve">
-    <value>Not whitespace</value>
+    <value>공백이 아님</value>
   </data>
   <data name="CheatSheetNotWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a whitespace character (spaces, tabs, line breaks).</value>
+    <value>공백 문자 (공백, 탭, 줄 바꿈) 가 아닌 모든 문자와 일치합니다.</value>
   </data>
   <data name="CheatSheetNotWord" xml:space="preserve">
-    <value>Not word</value>
+    <value>단어가 아님</value>
   </data>
   <data name="CheatSheetNotWordBoundary" xml:space="preserve">
-    <value>Not word boundary</value>
+    <value>단어 경계가 아님</value>
   </data>
   <data name="CheatSheetNotWordBoundaryDetails" xml:space="preserve">
-    <value>Matches any position that is not a word boundary. This matches a position, not a character.</value>
+    <value>단어 경계가 아닌 모든 위치와 일치합니다. 이는 문자가 아닌 위치와 일치합니다.</value>
   </data>
   <data name="CheatSheetNotWordDetails" xml:space="preserve">
-    <value>단어 문자(영숫자 및 밑줄) 가 아닌 모든 문자와 일치합니다. [^A-Za-z0-9_] 와 동일</value>
+    <value>단어 문자 (영숫자 및 밑줄) 가 아닌 모든 문자와 일치합니다. [^A-Za-z0-9_] 와 동일</value>
   </data>
   <data name="CheatSheetNull" xml:space="preserve">
     <value>Null</value>
   </data>
   <data name="CheatSheetNullDetails" xml:space="preserve">
-    <value>NULL 문자(문자 코드 0) 와 일치합니다.</value>
+    <value>NULL 문자 (문자 코드 0) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetNumericReference" xml:space="preserve">
     <value>숫자 참조</value>
@@ -579,7 +579,7 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>문자열의 엄격한 끝</value>
   </data>
   <data name="CheatSheetStrictEndOfStringDetails" xml:space="preserve">
-    <value>문자열의 끝과 일치합니다. $ 또는 \Z와 달리 후행 개행을 허용하지 않습니다. 이는 여러 줄 플래그(m) 의 영향을 받지 않습니다. 이는 문자가 아닌 위치와 일치합니다.</value>
+    <value>문자열의 끝과 일치합니다. $ 또는 \Z와 달리 후행 개행을 허용하지 않습니다. 이는 여러 줄 플래그 (m) 의 영향을 받지 않습니다. 이는 문자가 아닌 위치와 일치합니다.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
     <value>구문</value>
@@ -588,7 +588,7 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>탭</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
-    <value>TAB 문자(문자 코드 9) 와 일치합니다.</value>
+    <value>TAB 문자 (문자 코드 9) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
     <value>치트 시트</value>
@@ -609,7 +609,7 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>유니코드 문자소</value>
   </data>
   <data name="CheatSheetUnicodeGraphemeDetails" xml:space="preserve">
-    <value>단일 유니코드 문자소(예: 문자) 와 일치합니다. 여기에는 줄바꿈(dotall 모드와 관계없이) 과 여러 코드 포인트로 인코딩된 문자소가 포함됩니다.</value>
+    <value>단일 유니코드 문자소 (예: 문자) 와 일치합니다. 여기에는 줄바꿈 (dotall 모드와 관계없이) 과 여러 코드 포인트로 인코딩된 문자소가 포함됩니다.</value>
   </data>
   <data name="CheatSheetUnicodeScript" xml:space="preserve">
     <value>유니코드 스크립트</value>
@@ -621,13 +621,13 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>세로 공백</value>
   </data>
   <data name="CheatSheetVerticalWhitespaceDetails" xml:space="preserve">
-    <value>세로 공백 문자(줄 바꿈) 와 일치합니다.</value>
+    <value>세로 공백 문자 (줄 바꿈) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetWhitespace" xml:space="preserve">
     <value>공백</value>
   </data>
   <data name="CheatSheetWhitespaceDetails" xml:space="preserve">
-    <value>모든 공백 문자(공백, 탭, 줄 바꿈) 와 일치합니다.</value>
+    <value>모든 공백 문자 (공백, 탭, 줄 바꿈) 와 일치합니다.</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
     <value>단어</value>
@@ -636,10 +636,10 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>단어 경계</value>
   </data>
   <data name="CheatSheetWordBoundaryDetails" xml:space="preserve">
-    <value>단어 문자와 단어가 아닌 문자 또는 위치(문자열의 시작/끝) 사이의 단어 경계 위치를 일치시킵니다. 자세한 내용은 단어 문자 클래스(w) 를 참조하세요.</value>
+    <value>단어 문자와 단어가 아닌 문자 또는 위치 (문자열의 시작/끝) 사이의 단어 경계 위치를 일치시킵니다. 자세한 내용은 단어 문자 클래스 (w) 를 참조하세요.</value>
   </data>
   <data name="CheatSheetWordDetails" xml:space="preserve">
-    <value>모든 단어 문자(영숫자 및 밑줄) 와 일치합니다. 낮은 Ascii 문자만 일치합니다(악센트 부호 또는 비로마자 문자 없음). [A-Za-z0-9_] 와 동일</value>
+    <value>모든 단어 문자(영숫자 및 밑줄) 와 일치합니다. 낮은 Ascii 문자만 일치합니다. (악센트 부호 또는 비로마자 문자 없음) [A-Za-z0-9_] 와 동일</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>설정</value>
