@@ -94,6 +94,8 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
 
     private readonly IUINumberInput _numberInputText = NumberInput("date-converter-number-input");
 
+    private readonly IUISingleLineTextInput _iso8601FormatTextInput = SingleLineTextInput("date-converter-iso8601-text-input");
+
     private readonly IUISelectDropDownList _selectTimeZoneList = SelectDropDownList("date-converter-timezone-dropdown");
 
     private readonly IUISettingGroup _customEpochSetting = SettingGroup("date-converter-custom-epoch-setting");
@@ -224,6 +226,9 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                                 .Minimum(-2177452704000000)
                                 // Ticks max value
                                 .Maximum(3155861951990000000),
+                            _iso8601FormatTextInput
+                                .Title(DateConverter.ISO8601Title)
+                                .OnTextChanged(OnISOChanged),
                             DateTimeStack()
                         )
                 )
@@ -394,6 +399,32 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
         StartNumberConvert(Convert.ToInt64(number), epochToUse, timeZoneInfo, format);
     }
 
+    private void OnISOChanged(string value)
+    {
+        if (_ignoreInputTextChange)
+        {
+            return;
+        }
+
+        if (string.IsNullOrEmpty(value))
+        {
+            _errorInfoBar.Description(DateConverter.InvalidValue);
+            _errorInfoBar.Open();
+            return;
+        }
+
+        if (!DateTimeOffset.TryParse(value, out DateTimeOffset dateTimeOffset))
+        {
+            _errorInfoBar.Description(DateConverter.InvalidValue);
+            _errorInfoBar.Open();
+            return;
+        }
+
+        _errorInfoBar.Close();
+        _settingsProvider.SetSetting(currentTimeSettings, dateTimeOffset);
+        StartDateTimeConvert(dateTimeOffset);
+    }
+
     private void StartNumberConvert(
         long number,
         DateTimeOffset epoch,
@@ -431,6 +462,7 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
             DateTimeOffset convertedDateTime = TimeZoneInfo.ConvertTime(result.Data, timeZone);
             PopulateDate(convertedDateTime);
             _numberInputText.Text(number.ToString());
+            _iso8601FormatTextInput.Text(convertedDateTime.ToString("O"));
 
             _settingsProvider.SetSetting(currentTimeSettings, convertedDateTime);
 
@@ -479,6 +511,7 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
 
             _numberInputText.Text(result.Data.ToString());
             DateTimeOffset convertedDateTime = TimeZoneInfo.ConvertTime(dateTimeOffset, timeZone);
+            _iso8601FormatTextInput.Text(convertedDateTime.ToString("O"));
             PopulateDate(convertedDateTime);
             ComputeDstInformation(convertedDateTime, timeZone);
         }

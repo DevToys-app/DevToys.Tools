@@ -246,4 +246,7 @@
   <data name="InvalidValue" xml:space="preserve">
     <value>الرجاء تحديد مدخل أرقام أو تاريخ</value>
   </data>
+  <data name="ISO8601Title" xml:space="preserve">
+    <value>ISO 8601</value>
+  </data>
 </root>
