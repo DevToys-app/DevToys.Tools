@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Text.RegularExpressions;
 using DevToys.Tools.Helpers;
 using DevToys.Tools.Models;
@@ -407,6 +408,14 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
         }
 
         if (string.IsNullOrEmpty(value))
+        {
+            _errorInfoBar.Description(DateConverter.InvalidValue);
+            _errorInfoBar.Open();
+            return;
+        }
+
+        var timeZoneRegex = new Regex(@"[+-][0-9]{2}:[0-9]{2}|Z$");
+        if (!timeZoneRegex.IsMatch(value))
         {
             _errorInfoBar.Description(DateConverter.InvalidValue);
             _errorInfoBar.Open();
