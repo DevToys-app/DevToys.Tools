@@ -133,7 +133,7 @@
     <value>B만</value>
   </data>
   <data name="ComparisonOptionDescription" xml:space="preserve">
-    <value>비교 모드 (A ∩ B, A ∪ B, A만, B만) 를 지정해 주세요.</value>
+    <value>비교 모드(A ∩ B, A ∪ B, A만, B만) 를 지정해 주세요.</value>
   </data>
   <data name="ComparisonOptionTitle" xml:space="preserve">
     <value>비교 모드</value>
@@ -169,6 +169,6 @@
     <value>목록 비교</value>
   </data>
   <data name="TextCaseSensitiveComparison" xml:space="preserve">
-    <value>대소문자 구분 비교</value>
+    <value>대/소문자를 구분해 비교</value>
   </data>
 </root>
