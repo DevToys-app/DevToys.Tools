@@ -148,10 +148,10 @@
     <value>Cron 式パーサ</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>生成するスケジュールの数</value>
+    <value>表示するスケジュールの数</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>出力するスケジュールの数</value>
+    <value>スケジュールを確認するための出力行数</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
     <value>次のスケジュールされた日付</value>
