@@ -124,10 +124,10 @@
     <value>A set of treatments to apply to the input text. Actions are performed in the order they're set.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetize</value>
+    <value>Alfabetiskt</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
-    <value>Alphabetize by last word</value>
+    <value>Alfabetisk med sista ordet</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
     <value>aLtErNaTiNg cAsE</value>
@@ -160,7 +160,7 @@
     <value>Analyze text and provide some basic utility tools</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
-    <value>Line break</value>
+    <value>Radbrytning</value>
   </data>
   <data name="EndOfLineSequenceCR" xml:space="preserve">
     <value>CR (\r)</value>
@@ -262,7 +262,7 @@
     <value>snake_case</value>
   </data>
   <data name="SortLines" xml:space="preserve">
-    <value>Sort lines</value>
+    <value>Sortera rader</value>
   </data>
   <data name="Statistics" xml:space="preserve">
     <value>Statistics</value>
@@ -286,12 +286,12 @@
     <value>Train-Case</value>
   </data>
   <data name="UpperCase" xml:space="preserve">
-    <value>UPPER CASE</value>
+    <value>VERSALER</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
     <value>Word frequency</value>
   </data>
   <data name="Words" xml:space="preserve">
-    <value>Words</value>
+    <value>Ord</value>
   </data>
 </root>
