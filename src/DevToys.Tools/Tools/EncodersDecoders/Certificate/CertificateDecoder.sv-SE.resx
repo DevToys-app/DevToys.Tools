@@ -151,7 +151,7 @@
     <value>Certificate password</value>
   </data>
   <data name="PasswordTitle" xml:space="preserve">
-    <value>Password</value>
+    <value>Lösenord</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>CER PFX PEM CRT</value>
