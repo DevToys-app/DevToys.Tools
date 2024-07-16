@@ -124,7 +124,7 @@
     <value>Daylight saving time.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>Dag</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert date to human-readable date and vice versa</value>
@@ -139,16 +139,16 @@
     <value>Hour (24 hour)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>Tidszon</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
-    <value>Local Date and Time</value>
+    <value>Lokalt Datum och Tid</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Minuter</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
-    <value>Month</value>
+    <value>Månad</value>
   </data>
   <data name="OffsetTitle" xml:space="preserve">
     <value>Offset</value>
@@ -179,7 +179,7 @@
     <value>Nu</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Date Converter</value>
+    <value>Datumomvandlare</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Datum</value>
