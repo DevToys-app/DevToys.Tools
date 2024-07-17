@@ -246,4 +246,7 @@
   <data name="InvalidValue" xml:space="preserve">
     <value>Bitte gib eine Eingabenummer oder ein Datum an</value>
   </data>
+  <data name="ISO8601Title" xml:space="preserve">
+    <value>ISO 8601</value>
+  </data>
 </root>
