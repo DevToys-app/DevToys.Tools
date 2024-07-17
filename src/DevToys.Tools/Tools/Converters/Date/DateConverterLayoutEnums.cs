@@ -34,7 +34,6 @@ internal enum DateConverterGridTimeColumn
 
 internal enum DateConvertDstGridRow
 {
-    Daylight,
     Offset,
     DateTime
 }
@@ -45,4 +44,14 @@ internal enum DateConvertDstGridColumn
     LeftContent,
     RightTitle,
     RightContent
+}
+
+internal enum DateConvertDstDaylightGridRow
+{
+    Content
+}
+
+internal enum DateConvertDstDaylightGridColumn
+{
+    Content
 }
