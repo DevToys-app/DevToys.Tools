@@ -154,10 +154,10 @@
     <value>スケジュールを確認するための出力行数</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>次のスケジュールされた日付</value>
+    <value>スケジュール</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>次の日付の日付時刻の形式</value>
+    <value>スケジュールの出力フォーマット</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
     <value>日時フォーマットの入力に誤りがあります</value>
