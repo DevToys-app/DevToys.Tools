@@ -221,7 +221,18 @@ namespace DevToys.Tools.Tools.Converters.Date {
                 return ResourceManager.GetString("InvalidValue", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        /// Looks up a localized string similar to ISO8601 Title.
+        /// </summary>
+        internal static string ISO8601Title
+        {
+            get
+            {
+                return ResourceManager.GetString("ISO8601Title", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Local Date and Time.
         /// </summary>
