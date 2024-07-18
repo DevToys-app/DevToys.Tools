@@ -124,10 +124,10 @@
     <value>Advanced mode</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>ორობითი</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>კონფიგურაცია</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
     <value>Please set at least two characters in the custom dictionary</value>
@@ -136,7 +136,7 @@
     <value>Custom format</value>
   </data>
   <data name="Decimal" xml:space="preserve">
-    <value>Decimal</value>
+    <value>ათობითი</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert numbers from one base to another</value>
@@ -145,7 +145,7 @@
     <value>Format number</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
-    <value>Hexadecimal</value>
+    <value>თექვსმეტობითი</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Input</value>
