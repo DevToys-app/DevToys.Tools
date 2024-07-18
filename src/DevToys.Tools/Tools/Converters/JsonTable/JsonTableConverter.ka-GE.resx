@@ -136,13 +136,13 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>კონფიგურაცია</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>შეყვანა</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>გამოყვანა</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Please provide a valid JSON array of objects</value>
