@@ -124,7 +124,7 @@
     <value>Daylight saving time.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>დღე</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert date to human-readable date and vice versa</value>
@@ -136,47 +136,47 @@
     <value>DST Ambiguous time.</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>Hour (24 hour)</value>
+    <value>საათი (24-საათიანი)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>საათის სარტყელი</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
-    <value>Local Date and Time</value>
+    <value>ადგილობრივი თარიღი და დრო</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>წუთი</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
-    <value>Month</value>
+    <value>თვე</value>
   </data>
   <data name="OffsetTitle" xml:space="preserve">
-    <value>Offset</value>
+    <value>წანაცვლება</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Time Date Timezone Epoch Timestamp Ticks</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
-    <value>Seconds</value>
+    <value>წამი</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
     <value>There is daylight saving time.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>თარიღი</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>UTC Date and Time</value>
+    <value>UTC თარიღი და დრო</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
     <value>UtcTicks</value>
   </data>
   <data name="YearTitle" xml:space="preserve">
-    <value>Year</value>
+    <value>წელი</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Now</value>
+    <value>ახლა</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Date Converter</value>
