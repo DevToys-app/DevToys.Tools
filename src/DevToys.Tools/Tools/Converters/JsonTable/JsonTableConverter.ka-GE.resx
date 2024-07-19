@@ -129,11 +129,11 @@
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>JSON &gt; Table</value>
+    <value>JSON &gt; ცხრილი</value>
     <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>JSON CSV TSV French Excel Tabular Data</value>
+    <value>JSON CSV TSV ფრანგული Excel ცხრილური მონაცემები</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>კონფიგურაცია</value>
@@ -149,36 +149,36 @@
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>აირჩიეთ ბუფერში დაკოპირებული ფორმატი</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>ბუფერის ფორმატი</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>Comma separated values (CSV)</value>
+    <value>მძიმით გამოყოფილი მნიშვნელობები (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>Tab separated values (TSV)</value>
+    <value>Tab-ით გამოყოფილი მნიშვნელობები (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>Semicolon separated values (CSV French)</value>
+    <value>წერტილ-მძიმით გამოყოფილი მნიშვნელობები (CSV French)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>JSON-იდან დასაკონვერტირებელი ტექსტი ან ფაილის მისამართი</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>File where the result should be persisted.</value>
+    <value>ფაილი, სადაც შედეგი უნდა დარჩეს მუდმივად.</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>აირჩიეთ გამოყვანის ფორმატი</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>კოპირება, როგორც</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>შენახვა, როგორც</value>
   </data>
 </root>
