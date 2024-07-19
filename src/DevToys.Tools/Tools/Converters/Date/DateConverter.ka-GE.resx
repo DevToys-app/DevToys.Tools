@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Date converter tool</value>
+    <value>თარიღის კონვერტორი ხელსაწყო</value>
   </data>
   <data name="DaylightSavingTime" xml:space="preserve">
-    <value>Daylight saving time.</value>
+    <value>ზაფხულის დრო.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
     <value>დღე</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert date to human-readable date and vice versa</value>
+    <value>თარიღის კონვერტირება ადამიანის მიერ წაკითხვად თარიღში და პირიქით</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
-    <value>There is no daylight saving time.</value>
+    <value>ზაფხულის დრო არ არის.</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
     <value>DST Ambiguous time.</value>
@@ -154,14 +154,14 @@
     <value>წანაცვლება</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Time Date Timezone Epoch Timestamp Ticks</value>
+    <value>დრო თარიღი საათის სარტყელი ეპოქა დროის შტამპი დარტყმები</value>
     <comment>Alternative search keywords. Enables searching for words that are not included in Description, MenuDisplayName, and SearchDisplayName.</comment>
   </data>
   <data name="SecondsTitle" xml:space="preserve">
     <value>წამი</value>
   </data>
   <data name="SupportsDaylightSavingTime" xml:space="preserve">
-    <value>There is daylight saving time.</value>
+    <value>არის ზაფხულის დრო.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
     <value>თარიღი</value>
@@ -179,37 +179,37 @@
     <value>ახლა</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Date Converter</value>
+    <value>თარიღის კონვერტორი</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>თარიღი</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>Default Epoch</value>
+    <value>ნაგულისხმევი ეპოქა</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>მომხმარებლის ნაგულისხმევი ეპოქის გამოყენება</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>არა</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>დიახ</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>მილიწამი</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>Format</value>
+    <value>ფორმატი</value>
   </data>
   <data name="Ticks" xml:space="preserve">
     <value>Ticks</value>
   </data>
   <data name="Seconds" xml:space="preserve">
-    <value>Seconds</value>
+    <value>წამები</value>
   </data>
   <data name="Milliseconds" xml:space="preserve">
-    <value>Milliseconds</value>
+    <value>მილიწამები</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
     <value>Date to convert. Supported format: "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
