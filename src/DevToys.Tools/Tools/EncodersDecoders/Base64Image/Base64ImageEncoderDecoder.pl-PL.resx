@@ -136,16 +136,16 @@
     <value>&lt;Nieprawidłowe kodowanie Base64&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Image Encoder / Decoder</value>
+    <value>Kodowanie / Dekodowanie Obrazu Base64</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ścieżka do pliku wyjściowego</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Image</value>
+    <value>Obraz Base64</value>
   </data>
 </root>
