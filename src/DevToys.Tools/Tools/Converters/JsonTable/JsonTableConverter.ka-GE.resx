@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON array to tabular form converter tool</value>
+    <value>JSON-ის მასივიდან ტაბულარულ ფორმაში კონვერტირების ხელსაწყო</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Array to Table</value>
+    <value>JSON-ის მასივი ცხრილში</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert a JSON array to tabular format, export to CSV or TSV</value>
+    <value>დააკონვერტირეთ JSON მასივი ცხრილის ფორმატში, დააექსპორტეთ CSV-ში ან TSV-ში</value>
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -145,7 +145,7 @@
     <value>გამოყვანა</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
+    <value>გთხოვთ, მიუთითოთ ობიექტთა სწორი JSON მასივი</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
