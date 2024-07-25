@@ -136,10 +136,10 @@
     <value>產生的排程日期時間格式</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>剖析 Cron 表達式以取得排程日期</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Cron 表達式的定義中是否要包含秒數</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>要剖析的 Cron 表達式</value>
@@ -157,7 +157,7 @@
     <value>下次排程日期</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>預定日期的時間格式</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
     <value>輸出的日期時間格式無效</value>
@@ -172,7 +172,7 @@
     <value>Cron 剖析器</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Cron 表達式的定義中是否要包含秒數</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
     <value>包含秒數</value>
