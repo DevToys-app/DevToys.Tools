@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>GZip Compressor and Decompressor tool</value>
+    <value>GZip 壓縮及解壓縮工具</value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
     <value>壓縮</value>
@@ -148,13 +148,13 @@
     <value>GZip 壓縮或解壓縮字串</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>要壓縮的文字或要解壓縮的 GZip</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>輸入</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;Invalid GZip data&gt;</value>
+    <value>&lt;無效的 GZip 資料&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>GZip 壓縮 / 解壓縮</value>
