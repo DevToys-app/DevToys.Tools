@@ -124,7 +124,7 @@
     <value>憑證解碼</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>所選擇的輸入檔案不存在</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>要解碼的原始憑證內容或檔案路徑</value>
@@ -161,6 +161,6 @@
     <value>憑證</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
-    <value>Certificate Request format not currently supported.</value>
+    <value>目前尚未支援所使用的憑證格式。</value>
   </data>
 </root>
