@@ -130,7 +130,7 @@
     <value>編碼與解碼 Base64 影像資料</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to encode / text file path containing the Base64 to decode / Base64 text to decode</value>
+    <value>要編碼的影像路徑 / 要解碼的 Base64 文字檔案路徑 / 要解碼的 Base64 文字</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
     <value>&lt;無效的 Base64 資料&gt;</value>
