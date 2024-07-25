@@ -142,7 +142,7 @@
     <value>字頻</value>
   </data>
   <data name="Characters" xml:space="preserve">
-    <value>Characters</value>
+    <value>字元</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
     <value>COBOL-CASE</value>
@@ -160,7 +160,7 @@
     <value>分析文字並提供一些基本的實用工具</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
-    <value>Line break</value>
+    <value>換行</value>
   </data>
   <data name="EndOfLineSequenceCR" xml:space="preserve">
     <value>CR (\r)</value>
@@ -172,13 +172,13 @@
     <value>LF (\n)</value>
   </data>
   <data name="EndOfLineSequenceMixed" xml:space="preserve">
-    <value>Mixed</value>
+    <value>混合</value>
   </data>
   <data name="EndOfLineSequenceUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>未知</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>所選擇的輸入檔案不存在。</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>要處理的文字或檔案路徑。</value>
@@ -193,7 +193,7 @@
     <value>串燒式小寫</value>
   </data>
   <data name="Lines" xml:space="preserve">
-    <value>Lines</value>
+    <value>行數</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>文字分析與實用工具</value>
