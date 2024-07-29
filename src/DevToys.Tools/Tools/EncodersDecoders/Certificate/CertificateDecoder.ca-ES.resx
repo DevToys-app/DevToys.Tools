@@ -127,13 +127,13 @@
     <value>El fitxer d'entrada no existeix</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Raw certificate text or path to a certificate file to decode</value>
+    <value>Text del certificat en brut o ruta al fitxer del certificat a descodificar</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Entrada</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Si us plau, especifica un text o un fitxer d'entrada</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
     <value>Contrasenya incorrecta.</value>
@@ -161,6 +161,6 @@
     <value>Certificat</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
-    <value>Certificate Request format not currently supported.</value>
+    <value>El format de sol·licitud de certificat no s'admet actualment.</value>
   </data>
 </root>
