@@ -130,50 +130,50 @@
     <value>კონფიგურაცია</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>გთხოვთ, დააყენოთ ორი სიმბოლო მაინც კერძო ლექსიკონში</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>კერძო ფორმატი</value>
   </data>
   <data name="Decimal" xml:space="preserve">
     <value>ათობითი</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>რიცხვთა კონვერტირება ერთი ფუძედან მეორეში</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>რიცხვის ფორმატირება</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
     <value>თექვსმეტობითი</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>შეყვანა</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>The base of the number to convert</value>
+    <value>დასაკონვერტირებელი რიცხვის ფუძე</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>შეყვანის ლექსიკონი</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
+    <value>დასაკონვერტირებელი რიცხვი</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>რიცხვთა ფუძის კონვერტორი</value>
   </data>
   <data name="Octal" xml:space="preserve">
-    <value>Octal</value>
+    <value>რვაობითი</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>გამოყვანა</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>სასურველი ფუძე.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>გამოყვანის ლექსიკონი</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -191,14 +191,14 @@
     <value>RFC-4648 Base64 Url Encode</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>რიცხვის ფუძე</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
+    <value>მიმდინარე {0} მნიშვნელობა არასწორია</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
+    <value>მიმდინარე {0} მნიშვნელობა ვერ დაკონვერტირდება, რადგან იგი აღემატება მაქსიმალურ მნიშვნელობას ({1})</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>
