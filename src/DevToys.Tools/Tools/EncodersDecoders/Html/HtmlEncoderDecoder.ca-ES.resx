@@ -133,22 +133,22 @@
     <value>Codifica</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode HTML</value>
+    <value>Si vols codificar o descodificar HTML</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>Conversió</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode HTML text data</value>
+    <value>Codificar i descodificar dades de text HTML</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or HTML to decode</value>
+    <value>Text a codificar o HTML a descodificar</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>HTML Text Encoder / Decoder</value>
+    <value>Codificador / Descodificador d'HTML</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Sortida</value>
