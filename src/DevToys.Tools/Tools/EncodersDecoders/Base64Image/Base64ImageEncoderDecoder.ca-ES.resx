@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Codificador i descodificador d'imatges en Base64</value>
+    <value>Eina de codificació i descodificació d'imatges en Base64</value>
   </data>
   <data name="Base64Image" xml:space="preserve">
     <value>Vista prèvia de la imatge</value>
@@ -130,13 +130,13 @@
     <value>Codifica i descodifica imatge en Base64</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to encode / text file path containing the Base64 to decode / Base64 text to decode</value>
+    <value>Ruta del fitxer a codificar / ruta del fitxer que conté el Base64 a descodificar / text en Bae64 a descodificar</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
     <value>&lt;Base64 invàlida&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 Image Encoder / Decoder</value>
+    <value>Codificador i descodificador d'imatges en Base64</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Ruta del fitxer de sortida</value>
