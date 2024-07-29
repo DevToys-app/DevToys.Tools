@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Number Base Converter tool</value>
+    <value>Convertidor de base numèrica</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>Mode avançat</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>Binari</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuració</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
     <value>Please set at least two characters in the custom dictionary</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>Format personalitzat</value>
   </data>
   <data name="Decimal" xml:space="preserve">
     <value>Decimal</value>
@@ -142,38 +142,38 @@
     <value>Convert numbers from one base to another</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>Format numèric</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
     <value>Hexadecimal</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
     <value>The base of the number to convert</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>Diccionari d'entrada</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
+    <value>Nombre a convertir</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>Convertidor de base numèrica</value>
   </data>
   <data name="Octal" xml:space="preserve">
     <value>Octal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortida</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
     <value>The desired base to convert to.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>Diccionari de sortida</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -191,7 +191,7 @@
     <value>RFC-4648 Base64 Url Encode</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>Base numèrica</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
     <value>The current {0} value isn't valid</value>
