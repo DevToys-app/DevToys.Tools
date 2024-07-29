@@ -136,13 +136,13 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuració</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortida</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Please provide a valid JSON array of objects</value>
@@ -172,13 +172,13 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>Selecciona el format de sortida</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Copia com</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Anomena i desa</value>
   </data>
 </root>
