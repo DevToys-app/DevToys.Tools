@@ -135,8 +135,6 @@ internal sealed class JsonWebTokenDecoderGuiTool
                 .Description(JsonWebTokenEncoderDecoder.DecodeValidateTokenSettingsDescription)
                 .InteractiveElement(
                     _validateTokenSwitch
-                        .OnText(JsonWebTokenEncoderDecoder.Yes)
-                        .OffText(JsonWebTokenEncoderDecoder.No)
                         .OnToggle(OnValidateTokenChanged)
                 )
                 .WithChildren(
