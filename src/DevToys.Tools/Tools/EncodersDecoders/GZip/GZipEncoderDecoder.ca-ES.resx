@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Compressor i Descompressor GZip</value>
+    <value>Eina de compressió i descompressió GZip</value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
     <value>Comprimir</value>
