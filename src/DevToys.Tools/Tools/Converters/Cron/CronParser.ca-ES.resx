@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Eina d'anàlisi de Cron</value>
+    <value>Analitzador de Cron</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuració</value>
@@ -127,52 +127,52 @@
     <value>Descripció del Cron</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>L'expressió del Cron no és vàlida</value>
+    <value>L'expressió Cron no és vàlida</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
-    <value>Expressió del Cron a analitzar</value>
+    <value>Expressió Cron a analitzar</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>Format de data-hora dels dies programats generats</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>Anàlisi d'expressions Cron per obtenir els dies programats</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Si l'expressió Cron inclou segons a la seva definició</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Expressió de Cron a analitzar</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Analitzador d'expressions de Cron</value>
+    <value>Analitzador d'expressions Cron</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>Nombre de dates programades a generar</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>How many scheduled dates needs to be generated</value>
+    <value>Quantes dates programades s'han de generar</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Pròximes dates generades</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>Format de data i hora per a les properes dates</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>El format de sortida de la data i hora no és vàlid</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
     <value>Format de sortida</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Pròximes dates generades</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Analitzador de Cron</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Si l'expressió Cron ha d'incloure segons a la seva definició</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
     <value>Inclou segons</value>
