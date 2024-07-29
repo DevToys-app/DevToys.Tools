@@ -124,7 +124,7 @@
     <value>ASCII</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuració</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
     <value>Decode</value>
@@ -160,7 +160,7 @@
     <value>Text or path to a file to encode or Base64 to decode</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
     <value>&lt;Invalid Base64&gt;</value>
@@ -175,14 +175,14 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortida</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 Text</value>
+    <value>Text en Base64</value>
   </data>
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>
