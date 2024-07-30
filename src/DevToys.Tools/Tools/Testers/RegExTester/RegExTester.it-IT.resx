@@ -121,13 +121,13 @@
     <value>Regular Expression Tester tool</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
-    <value>All matches</value>
+    <value>Tutte le corrispondenze</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
     <value>Find all the matches in the text or stop after the first match.</value>
   </data>
   <data name="CheatSheetAlternation" xml:space="preserve">
-    <value>Alternation</value>
+    <value>Alternanza</value>
   </data>
   <data name="CheatSheetAlternationDetails" xml:space="preserve">
     <value>Acts like a boolean OR. Matches the expression before or after the |.
@@ -147,19 +147,19 @@ It can operate within a group, or on a whole expression. The patterns will be te
 For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option has matched, the atomic group prevents backtracking to retry with the a option.</value>
   </data>
   <data name="CheatSheetBeginning" xml:space="preserve">
-    <value>Beginning</value>
+    <value>Inizio</value>
   </data>
   <data name="CheatSheetBeginningDetails" xml:space="preserve">
     <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetBeginningOfString" xml:space="preserve">
-    <value>Beginning of string</value>
+    <value>Inizio della stringa</value>
   </data>
   <data name="CheatSheetBeginningOfStringDetails" xml:space="preserve">
     <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetBell" xml:space="preserve">
-    <value>Bell</value>
+    <value>Campanella</value>
   </data>
   <data name="CheatSheetBellDetails" xml:space="preserve">
     <value>Matches a BELL character (char code 7).</value>
@@ -211,10 +211,10 @@ $1 \1 \{1}</value>
     <value>Quantifiers and Alternation</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
-    <value>Special</value>
+    <value>Speciale</value>
   </data>
   <data name="CheatSheetCategorySubstitution" xml:space="preserve">
-    <value>Substitution</value>
+    <value>Sostituzione</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
     <value>Character range</value>
@@ -229,13 +229,13 @@ $1 \1 \{1}</value>
     <value>Matches either an A, b or c character</value>
   </data>
   <data name="CheatSheetComment" xml:space="preserve">
-    <value>Comment</value>
+    <value>Commento</value>
   </data>
   <data name="CheatSheetCommentDetails" xml:space="preserve">
     <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
-    <value>Conditional</value>
+    <value>Condizionale</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
     <value>Conditionally matches one of two options based on whether a lookaround is matched.
@@ -250,29 +250,29 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
     <value>Escaped control character in the form \cZ. This can range from \cA (SOH, char code 1) to \cZ (SUB, char code 26).</value>
   </data>
   <data name="CheatSheetDefine" xml:space="preserve">
-    <value>Define</value>
+    <value>Definisci</value>
   </data>
   <data name="CheatSheetDefineDetails" xml:space="preserve">
     <value>Used to define named groups for use as subroutines without including them in the match.
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descrizione</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>Cifra</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
     <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
-    <value>End</value>
+    <value>Fine</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
     <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
-    <value>End of string</value>
+    <value>Fine della stringa</value>
   </data>
   <data name="CheatSheetEndOfStringDetails" xml:space="preserve">
     <value>Matches the end of the string. Unlike $, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
@@ -313,7 +313,7 @@ The same pattern will also match b on its own, because group 1 doesn't match, so
 You can reference a group by name, number, or relative position (ex. -1).</value>
   </data>
   <data name="CheatSheetHexadecimalEscape" xml:space="preserve">
-    <value>Hexadecimal escape</value>
+    <value>Escape esadecimale</value>
   </data>
   <data name="CheatSheetHexadecimalEscapeDetails" xml:space="preserve">
     <value>Hexadecimal escaped character in the form \xFF.</value>
@@ -508,13 +508,13 @@ Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; 
 The syntax \o{FFF} is also supported.</value>
   </data>
   <data name="CheatSheetOptional" xml:space="preserve">
-    <value>Optional</value>
+    <value>Opzionale</value>
   </data>
   <data name="CheatSheetOptionalDetails" xml:space="preserve">
     <value>Matches 0 or 1 of the preceding token, effectively making it optional.</value>
   </data>
   <data name="CheatSheetPlus" xml:space="preserve">
-    <value>Plus</value>
+    <value>Più</value>
   </data>
   <data name="CheatSheetPlusDetails" xml:space="preserve">
     <value>Matches 1 or more of the preceding token.</value>
@@ -571,7 +571,7 @@ There are multiple syntaxes for this feature:
 Within a character set, only \, -, and ] need to be escaped.</value>
   </data>
   <data name="CheatSheetStar" xml:space="preserve">
-    <value>Star</value>
+    <value>Stella</value>
   </data>
   <data name="CheatSheetStarDetails" xml:space="preserve">
     <value>Matches 0 or more of the preceding token.</value>
@@ -583,7 +583,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Sintassi</value>
   </data>
   <data name="CheatSheetTab" xml:space="preserve">
     <value>Tab</value>
@@ -592,7 +592,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches a TAB character (char code 9).</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Bigino</value>
   </data>
   <data name="CheatSheetUnicodeCategory" xml:space="preserve">
     <value>Unicode category</value>
@@ -643,7 +643,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configurazione</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
     <value>Culture Invariant</value>
@@ -685,25 +685,25 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Location</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>Nome</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
-    <value>Match</value>
+    <value>Corrispondenza</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Valore</value>
   </data>
   <data name="Multiline" xml:space="preserve">
-    <value>Multiline</value>
+    <value>Multiriga</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
     <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>Opzioni</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>Espressione regolare</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
     <value>Right To Left</value>
@@ -712,7 +712,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Specifies that the search will be from right to left instead of from left to right.</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>regular expression</value>
+    <value>espressione regolare</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>RegEx</value>
@@ -724,6 +724,6 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>Testo</value>
   </data>
 </root>
