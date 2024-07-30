@@ -118,44 +118,44 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON array to tabular form converter tool</value>
+    <value>Alat konverter array JSON ke format tabular</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Array to Table</value>
+    <value>Array JSON ke tabel</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert a JSON array to tabular format, export to CSV or TSV</value>
+    <value>Konversi Array JSON ke format tabular, ekspor ke CSV atau TSV</value>
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>JSON &gt; Table</value>
+    <value>JSON &gt; Tabel</value>
     <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Masukan</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Hasil</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
+    <value>Harap berikan array objek JSON yang valid</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>Pilih format mana yang disalin ke clipboard</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Clipboard format</value>
+    <value>Format papan klip</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>Comma separated values (CSV)</value>
+    <value>Nilai yang dipisahkan koma (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
     <value>Tab separated values (TSV)</value>
@@ -164,7 +164,7 @@
     <value>Semicolon separated values (CSV French)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>Teks atau jalur ke file untuk dikonversi dari JSON</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
@@ -172,13 +172,13 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>Pilih format mana yang untuk di hasilkan</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Salin sebagai</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Simpan sebagai</value>
   </data>
 </root>

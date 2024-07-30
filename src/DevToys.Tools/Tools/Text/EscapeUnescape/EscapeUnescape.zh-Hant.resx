@@ -121,19 +121,19 @@
     <value>文字跳脫及取消跳脫工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
     <value>取消跳脫</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>選擇您想要使用的轉換模式</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>跳脫</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to escape or unescape the input text</value>
+    <value>是否要跳脫或取消跳脫輸入文字</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>轉換</value>
@@ -142,27 +142,27 @@
     <value>Escapes or unescapes a string, removing characters that could prevent parsing.</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>所選擇的輸入檔案不存在</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert to escaped or unescaped text</value>
+    <value>要跳脫或取消跳脫文字的內容或檔案路徑</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>輸入</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Escape / Unescape</value>
+    <value>文字跳脫 / 取消跳脫</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>檔案輸出路徑</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>輸出</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Escape / Unescape</value>
+    <value>跳脫 / 取消跳脫</value>
   </data>
 </root>

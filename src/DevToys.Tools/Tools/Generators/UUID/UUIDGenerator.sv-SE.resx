@@ -133,13 +133,13 @@
     <value>Generate</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
-    <value>Hyphens</value>
+    <value>Bindestreck</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
     <value>Whether the generated UUID should have hyphens or not</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>UUID Generator</value>
+    <value>UUID-generator</value>
   </data>
   <data name="MultiplySymbol" xml:space="preserve">
     <value>x</value>

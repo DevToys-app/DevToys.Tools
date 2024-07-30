@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>テキスト向けの Base64 エンコード / デコードツール</value>
+    <value>Base64 テキストのエンコードとデコードツール</value>
   </data>
   <data name="Ascii" xml:space="preserve">
     <value>ASCII</value>
@@ -130,49 +130,49 @@
     <value>デコード</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>変換するモードの選択</value>
+    <value>使用する変換モードを選択します</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>エンコード</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Base64 テキストの エンコード/デコード</value>
+    <value>Base64 テキストのエンコードまたはデコード</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>変換</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>テキストデータまたは Base64 データを相互に変換します</value>
+    <value>Base64 テキストデータのエンコードとデコード</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
-    <value>文字コードの選択</value>
+    <value>使用する文字コードを選択します</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
-    <value>文字コード</value>
+    <value>エンコード形式</value>
   </data>
   <data name="EncodingTitle" xml:space="preserve">
-    <value>文字コード</value>
+    <value>エンコード形式</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>指定されたファイルが見つかりません</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>テキストまたはファイルへのパス</value>
+    <value>デコードする Base64 データまたはエンコードするファイルのパスまたはテキスト</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>入力</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value>&lt;Base64 データとして解析できませんでした&gt;</value>
+    <value>&lt;無効な Base64&gt;</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>テキストの入力、またはファイルを指定してください</value>
+    <value>入力するテキストまたはファイルを指定してください</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>テキスト向け Base64 エンコーダー / デコーダー</value>
+    <value>Base64 テキスト エンコーダー / デコーダー</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>保存先のパス</value>
+    <value>出力先のパス</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>出力</value>
@@ -182,7 +182,7 @@
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Base64 (テキスト)</value>
+    <value>Base64 テキスト</value>
   </data>
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>

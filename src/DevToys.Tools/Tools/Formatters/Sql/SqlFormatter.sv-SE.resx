@@ -196,7 +196,7 @@
     <value>Spark SQL</value>
   </data>
   <data name="SqlLanguage" xml:space="preserve">
-    <value>Language</value>
+    <value>Språk</value>
   </data>
   <data name="SqlLanguageDescription" xml:space="preserve">
     <value>Which SQL language to use</value>

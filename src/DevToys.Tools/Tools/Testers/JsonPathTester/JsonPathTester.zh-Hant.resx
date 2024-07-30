@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath Tester tool</value>
+    <value>JSONPath 測試工具</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>Array slice operator</value>
+    <value>陣列分割運算子</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
     <value>Bracket-notated child or children</value>
@@ -142,7 +142,7 @@
     <value>Performs a deep scan for the specified property in all available objects. Always returns a list, even for a single match.</value>
   </data>
   <data name="CheatSheetRootObjectElement" xml:space="preserve">
-    <value>The root object or array.</value>
+    <value>根物件或陣列。</value>
   </data>
   <data name="CheatSheetScriptExpression" xml:space="preserve">
     <value>Script expression.</value>
@@ -154,7 +154,7 @@
     <value>語法</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>懶人包</value>
+    <value>速查表</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
     <value>Selects n1 and n2 array items. Returns a list.</value>
@@ -163,16 +163,16 @@
     <value>Wildcard. Selects all elements in an object or array, regardless of their names or indexes.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>測試 JSONPath</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>包含 JSON 的文字或檔案路徑</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSONPath</value>
+    <value>包含 JSONPath 的文字或檔案路徑</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
     <value>JSONPath</value>
@@ -181,10 +181,10 @@
     <value>JSON</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>JSONPath 測試工具</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
     <value>找不到相符的項目</value>

@@ -145,10 +145,10 @@
     <value>MD</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Markdown</value>
+    <value>Markdown プレビュー</value>
   </data>
   <data name="ThemeDescription" xml:space="preserve">
-    <value>プレビューの配色</value>
+    <value>マークダウンをプレビューするために使用するテーマを選択します</value>
   </data>
   <data name="ThemeTitle" xml:space="preserve">
     <value>テーマ</value>

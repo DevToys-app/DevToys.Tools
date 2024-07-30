@@ -118,63 +118,63 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Cron parsing tool</value>
+    <value>Alat pengurai Cron</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
-    <value>Cron description</value>
+    <value>Deskripsi Cron</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>Cron expression is not valid</value>
+    <value>Ekspresi Cron tidak valid</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
-    <value>The Cron expression to parse</value>
+    <value>Ekspresi Cron untuk diurai</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
     <value>Date time format of generated scheduled dates</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>Urai ekspresi Cron untuk mendapatkan tanggal yang dijadwalkan</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Pilih apakah ekspresi Cron harus menyertakan detik dalam definisinya</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Cron expression to parse</value>
+    <value>Ekspresi Cron untuk diurai</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron expression parser</value>
+    <value>Pengurai ekspresi Cron</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>Jumlah jadwal yang akan dibuat</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>How many scheduled dates needs to be generated</value>
+    <value>Berapa banyak tanggal terjadwal yang perlu dibuat</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Tanggal jadwal berikutnya</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>Tanggal waktu untuk tanggal yang akan datang</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>Format waktu tanggal output tidak valid</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>Format keluaran</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Tanggal jadwal berikutnya</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Cron parser</value>
+    <value>Pengurai Cron</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Pilih apakah ekspresi Cron harus menyertakan detik dalam definisinya</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>Sertakan detik</value>
   </data>
 </root>
