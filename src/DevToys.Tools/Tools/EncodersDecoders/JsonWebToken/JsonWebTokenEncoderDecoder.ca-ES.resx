@@ -190,7 +190,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
-    <value>Token audiences (separated by comma)</value>
+    <value>Token audiences (separats per comes)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
@@ -198,7 +198,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>Token issuer (separats per comes)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
@@ -210,15 +210,15 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenLifetimeTitle" xml:space="preserve">
-    <value>Validate lifetime</value>
+    <value>Temps de validesa</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Select which token parameters to validate</value>
+    <value>Selecciona quins paràmetres del token a validar</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
-    <value>Token validation settings</value>
+    <value>Configuració de la validació del token</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenTitle" xml:space="preserve">
@@ -234,11 +234,11 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Token hashing algorithm</value>
+    <value>Algorisme de hash del token</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Token audience (separated by comma)</value>
+    <value>Token audience (separats per comes)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
@@ -266,7 +266,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>Token has expiration</value>
+    <value>El token té caducitat</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
