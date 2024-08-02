@@ -142,9 +142,9 @@
     <value>Original text</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Diff</value>
+    <value>Diferença</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Compare</value>
+    <value>Comparar</value>
   </data>
 </root>
