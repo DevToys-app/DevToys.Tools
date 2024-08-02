@@ -121,10 +121,10 @@
     <value>Ferramenta de teste de Xml e XSD</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate XML data via an XSD scheme.</value>
+    <value>Validar dado de XML via esquema de XSD.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>XML / XSD Testador</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
