@@ -175,19 +175,19 @@
     <value>Tierra y Luna (Federico García Lorca), Spanish</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
-    <value>Text corpus</value>
+    <value>Cuerpo del texto</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum Generator</value>
+    <value>Generador de Lorem Ipsum</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Salida</value>
   </data>
   <data name="ParagraphsType" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>Párrafos</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Actualizar</value>
   </data>
   <data name="SentencesType" xml:space="preserve">
     <value>Sentences</value>
