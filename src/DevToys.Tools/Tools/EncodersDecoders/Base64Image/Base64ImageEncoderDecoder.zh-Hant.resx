@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 影像編碼及解碼工具</value>
+    <value>Base64 圖片編碼及解碼工具</value>
   </data>
   <data name="Base64Image" xml:space="preserve">
-    <value>影像預覽</value>
+    <value>圖片預覽</value>
   </data>
   <data name="Base64Input" xml:space="preserve">
     <value>Base64 文字</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>編碼與解碼 Base64 影像資料</value>
+    <value>編碼與解碼 Base64 圖片資料</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>要編碼的影像路徑 / 要解碼的 Base64 文字檔案路徑 / 要解碼的 Base64 文字</value>
+    <value>要編碼的圖片路徑 / 要解碼的 Base64 文字檔案路徑 / 要解碼的 Base64 文字</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
     <value>&lt;無效的 Base64 資料&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Base64 影像編碼 / 解碼工具</value>
+    <value>Base64 圖片編碼 / 解碼工具</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>輸出檔案的路徑</value>
