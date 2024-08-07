@@ -133,13 +133,13 @@
     <value>編碼</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode text in a URL parameter</value>
+    <value>要編碼或解碼網址參數中的文字</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
+    <value>編碼或解碼所有可轉換的字元為其對應的網址</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>要編碼的文字或要解碼的網址</value>
