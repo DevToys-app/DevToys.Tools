@@ -145,10 +145,10 @@
     <value>字元</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
-    <value>COBOL 式大小寫</value>
+    <value>COBOL 式全大寫</value>
   </data>
   <data name="ConstantCase" xml:space="preserve">
-    <value>常數式大小寫</value>
+    <value>常數式全大寫</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
     <value>轉換大小寫</value>
