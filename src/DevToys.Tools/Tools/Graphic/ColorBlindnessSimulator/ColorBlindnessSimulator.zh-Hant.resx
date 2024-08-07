@@ -124,7 +124,7 @@
     <value>模擬色盲人士看到圖片或擷圖的狀況</value>
   </data>
   <data name="DeuteranopiaSimulation" xml:space="preserve">
-    <value>Deuteranopia simulation</value>
+    <value>綠色色盲模擬</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>圖片檔案路徑</value>
@@ -139,7 +139,7 @@
     <value>Directory where the result should be persisted. By default, use input file's directory</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Protanopia simulation</value>
+    <value>紅色色盲模擬</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
@@ -152,6 +152,6 @@
     <value>Hides the progress of the hashing operation</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>Tritanopia simulation</value>
+    <value>藍色色盲模擬</value>
   </data>
 </root>
