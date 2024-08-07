@@ -154,13 +154,13 @@
     <value>最小化壓縮</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
-    <value>Put attributes on a new line</value>
+    <value>屬性換行</value>
   </data>
   <data name="NewLineOnAttributesDescription" xml:space="preserve">
-    <value>Whether to put attributes on a new line</value>
+    <value>是否要將各個屬性置於新的一行</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 個 Tab</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>輸出</value>
