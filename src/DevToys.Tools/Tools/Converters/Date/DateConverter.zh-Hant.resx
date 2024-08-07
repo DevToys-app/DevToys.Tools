@@ -127,7 +127,7 @@
     <value>日</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert date to human-readable date and vice versa</value>
+    <value>在時間戳記與易讀的日期格式之間相互轉換</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
     <value>沒有日光節約時間。</value>
@@ -245,9 +245,6 @@
   </data>
   <data name="InvalidValue" xml:space="preserve">
     <value>請指定輸入數字或日期</value>
-  </data>
-  <data name="ISO8601Title" xml:space="preserve">
-    <value>ISO 8601</value>
   </data>
   <data name="ISO8601Title" xml:space="preserve">
     <value>ISO 8601</value>

@@ -136,7 +136,7 @@
     <value>編碼</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode Base64 text</value>
+    <value>要編碼或解碼 Base64 文字</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>轉換</value>

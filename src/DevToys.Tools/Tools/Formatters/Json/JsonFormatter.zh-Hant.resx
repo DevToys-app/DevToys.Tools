@@ -124,7 +124,7 @@
     <value>組態設定</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify JSON data</value>
+    <value>縮排或最小化 JSON 資料</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 個空格</value>

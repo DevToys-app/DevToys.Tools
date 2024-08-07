@@ -130,7 +130,7 @@
     <value>選擇要對輸入內容進行壓縮或解壓縮</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
-    <value>Whether to compress or decompress a GZip string</value>
+    <value>要壓縮或解壓縮 GZip 字串</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
     <value>壓縮模式</value>

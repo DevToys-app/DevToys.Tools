@@ -121,7 +121,7 @@
     <value>QR 碼編碼及解碼工具</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Read or generate a QR Code from a text. Can be exported as SVG.</value>
+    <value>讀取或由文字產生 QR 碼。支援匯出為 SVG</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
     <value>匯出為 SVG</value>

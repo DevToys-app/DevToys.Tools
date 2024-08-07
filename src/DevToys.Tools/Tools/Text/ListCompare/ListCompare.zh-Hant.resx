@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>列表比較工具</value>
+    <value>清單比較工具</value>
   </data>
   <data name="AInterB" xml:space="preserve">
     <value>A ∩ B</value>
@@ -142,7 +142,7 @@
     <value>組態設定</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>比較兩個列表</value>
+    <value>比較兩個清單</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>所選擇的輸入檔案不存在</value>
@@ -154,19 +154,19 @@
     <value>B</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>列表比較工具</value>
+    <value>清單比較工具</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>輸出比較結果列表的路徑 (若留空則顯示)</value>
+    <value>輸出比較結果清單的路徑 (若留空則顯示)</value>
   </data>
   <data name="PathListA" xml:space="preserve">
-    <value>要比較的第一個列表的路徑</value>
+    <value>要比較的第一個清單的路徑</value>
   </data>
   <data name="PathListB" xml:space="preserve">
-    <value>要比較的第二個列表的路徑</value>
+    <value>要比較的第二個清單的路徑</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>列表比較</value>
+    <value>清單比較</value>
   </data>
   <data name="TextCaseSensitiveComparison" xml:space="preserve">
     <value>比較時區分大小寫</value>

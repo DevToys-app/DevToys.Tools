@@ -133,7 +133,7 @@
     <value>編碼</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode HTML</value>
+    <value>要編碼或解碼 HTML</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>轉換</value>

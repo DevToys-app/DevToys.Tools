@@ -121,16 +121,16 @@
     <value>雜湊值及檢查碼產生工具</value>
   </data>
   <data name="ChecksumVerificationFailed" xml:space="preserve">
-    <value>FAILED</value>
+    <value>失敗</value>
   </data>
   <data name="ChecksumVerificationOptionDescription" xml:space="preserve">
     <value>A text or file containing a checksum to verify data integrity</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
-    <value>確定</value>
+    <value>成功</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
-    <value>Checksum to verify data integrity</value>
+    <value>驗證資料完整性的檢查碼</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>組態設定</value>
