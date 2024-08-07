@@ -118,51 +118,51 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text Escape and Unescape tool</value>
+    <value>Eina d'escapament i de desescapament de text</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuració</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Unescape</value>
+    <value>Desescapa</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Selecciona el mode de conversió que vols utilitzar</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Escape</value>
+    <value>Escapa</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to escape or unescape the input text</value>
+    <value>Si vols escapar o desecapar el text d'entrada</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversió</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Escapes or unescapes a string, removing characters that could prevent parsing.</value>
+    <value>Escapa o desecapa una cadena, eliminant caràcters que podrien impedir l'anàlisi.</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>El fitxer d'entrada seleccionat no existeix</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert to escaped or unescaped text</value>
+    <value>Text o ruta al fitxer a convertir</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Si us plau, especifica un text o un fitxer d'entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Escape / Unescape</value>
+    <value>Escapador / Desescapador de text</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ruta del fitxer de sortida</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortida</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Escape / Unescape</value>
+    <value>Escapa / Desescapa</value>
   </data>
 </root>

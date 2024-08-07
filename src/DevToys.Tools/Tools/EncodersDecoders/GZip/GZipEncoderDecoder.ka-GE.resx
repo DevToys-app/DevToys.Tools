@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>GZip Compressor and Decompressor tool</value>
+    <value>GZip შემკუმშველი და განმკუშვლველი ხელსაწყო</value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
-    <value>Compress</value>
+    <value>შეკუმშვა</value>
   </data>
   <data name="CompressionModeDecompress" xml:space="preserve">
-    <value>Decompress</value>
+    <value>განკუმშვა</value>
   </data>
   <data name="CompressionModeDescription" xml:space="preserve">
-    <value>Select whether the input should be compressed or decompressed</value>
+    <value>აირჩიეთ, თუ გსურთ შეყვანის შეკუმშვა თუ განკუმშვა</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
-    <value>Whether to compress or decompress a GZip string</value>
+    <value>GZip სტრიქონი უნდა შეიკუმშოს თუ განიკუმშოს</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
-    <value>Compression mode</value>
+    <value>შეკუმშვის რეჟიმი</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>Compression ratio</value>
+    <value>შეკუმშვის პროცენტი</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
     <value>{0:0.#} %</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>კონფიგურაცია</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compress or decompress a text in GZip</value>
+    <value>ტექსტის GZip-ში შეკუმშვა ან განკუმშვა</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>შესაკუმში ტექსტი ან განსაკუმში GZip</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>შეყვანა</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
     <value>&lt;Invalid GZip data&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>GZip შეკუმშვა / განკუმშვა</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>გაყვანა</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>
