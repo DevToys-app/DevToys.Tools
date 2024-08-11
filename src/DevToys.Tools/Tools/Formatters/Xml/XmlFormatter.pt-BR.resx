@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>XML ferramenta de Formatação</value>
+    <value>Ferramenta Formatador XML</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuração</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Recuar ou minificar o dado XML</value>
+    <value>Indentar ou minificar dados XML</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 espaços</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Recuo</value>
+    <value>Indentação</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Selecione qual recuo você quer usar</value>
+    <value>Selecione a indentação que você deseja usar</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Entrada</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Arquivo de entrada selecionado não existe.</value>
+    <value>O arquivo de entrada selecionado não existe.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Texto ou caminho para o arquivo contendo o xml a ser formatado</value>
+    <value>Texto ou caminho para um arquivo contendo o xml para formatar</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Por favor especifique um texto de entrada ou um arquivo de entrada</value>
+    <value>Especifique um texto de entrada ou um arquivo de entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Formatador de XML</value>
+    <value>Formatador XML</value>
   </data>
   <data name="Minified" xml:space="preserve">
     <value>Minificado</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
-    <value>Adicione os atributos em uma nova linha</value>
+    <value>Colocar atributos em uma nova linha</value>
   </data>
   <data name="NewLineOnAttributesDescription" xml:space="preserve">
-    <value>Se para adicionar atributos em uma nova linha</value>
+    <value>Se deve colocar atributos em uma nova linha</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 aba</value>
+    <value>1 tabulação</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Saída</value>
