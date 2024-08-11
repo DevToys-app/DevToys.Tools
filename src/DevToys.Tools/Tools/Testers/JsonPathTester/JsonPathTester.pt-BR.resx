@@ -118,61 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath ferramenta para Testador</value>
+    <value>Ferramenta de Teste JSONPath</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>Operador de fatia de matriz</value>
+    <value>Operador de fatiamento de array</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
-    <value>Bracket-notated child or children</value>
+    <value>Filho ou filhos anotados entre colchetes</value>
   </data>
   <data name="CheatSheetCurrentObjectElement" xml:space="preserve">
-    <value>Used for filter expressions. Refers to the current node for further processing.</value>
+    <value>Usado para expressões de filtro. Refere-se ao nó atual para processamento posterior.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descrição</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
-    <value>Dot-notated child</value>
+    <value>Filho anotado com ponto</value>
   </data>
   <data name="CheatSheetFilterExpression" xml:space="preserve">
-    <value>Selects all elements in an object or array that match the specified boolean expression. Returns a list.</value>
+    <value>Seleciona todos os elementos em um objeto ou array que correspondem à expressão booleana especificada. Retorna uma lista.</value>
   </data>
   <data name="CheatSheetRecursiveDescent" xml:space="preserve">
-    <value>Performs a deep scan for the specified property in all available objects. Always returns a list, even for a single match.</value>
+    <value>Realiza uma varredura profunda para a propriedade especificada em todos os objetos disponíveis. Sempre retorna uma lista, mesmo para uma única correspondência.</value>
   </data>
   <data name="CheatSheetRootObjectElement" xml:space="preserve">
-    <value>The root object or array.</value>
+    <value>O objeto ou array raiz.</value>
   </data>
   <data name="CheatSheetScriptExpression" xml:space="preserve">
-    <value>Script expression.</value>
+    <value>Expressão de script.</value>
   </data>
   <data name="CheatSheetSubscriptOperator" xml:space="preserve">
-    <value>Selects the n-th element from an array. Indexes start from 0.</value>
+    <value>Seleciona o enésimo elemento de um array. Os índices começam em 0.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Sintaxe</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Folha de dicas</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
-    <value>Selects n1 and n2 array items. Returns a list.</value>
+    <value>Seleciona os itens do array n1 e n2. Retorna uma lista.</value>
   </data>
   <data name="CheatSheetWildcard" xml:space="preserve">
-    <value>Wildcard. Selects all elements in an object or array, regardless of their names or indexes.</value>
+    <value>Curinga. Seleciona todos os elementos em um objeto ou array, independentemente de seus nomes ou índices.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>Testar um JSONPath</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>O arquivo de entrada selecionado não existe.</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>Texto ou caminho para um arquivo contendo o JSON</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSONPath</value>
+    <value>Texto ou caminho para um arquivo contendo o JSONPath</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
     <value>JSONPath</value>
@@ -181,22 +181,22 @@
     <value>JSON</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Especifique um texto de entrada ou um arquivo de entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>Testador JSONPath</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>Nenhuma correspondência encontrada</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Resultado do teste</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Caminho para o arquivo de saída</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>path json</value>
+    <value>caminho json</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSONPath</value>
