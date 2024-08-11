@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>UUID Generator tool</value>
+    <value>Ferramenta Geradora de UUID</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuration</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generate UUIDs version 1 and 4 (GUID)</value>
+    <value>Gerar UUIDs versão 1, 4 (GUID) e 7</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
     <value>Generate UUID(s)</value>
   </data>
   <data name="GenerateTitle" xml:space="preserve">
-    <value>Generate</value>
+    <value>Gerar</value>
   </data>
   <data name="Hyphens" xml:space="preserve">
-    <value>Hyphens</value>
+    <value>Hífens</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should have hyphens or not</value>
+    <value>Se o UUID gerado deve ter hífens ou não</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>UUID Generator</value>
@@ -154,10 +154,10 @@
     <value>UUID</value>
   </data>
   <data name="Uppercase" xml:space="preserve">
-    <value>Uppercase</value>
+    <value>Maiúsculas</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should be in uppercase or not</value>
+    <value>Se o UUID gerado deve estar em maiúsculas ou não</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
