@@ -118,46 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta Compressora e Descompressora de GZip</value>
+    <value>Ferramenta de Compactação e Descompactação GZip</value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
-    <value>Comprimir</value>
+    <value>Compactar</value>
   </data>
   <data name="CompressionModeDecompress" xml:space="preserve">
-    <value>Descomprimir</value>
+    <value>Descompactar</value>
   </data>
   <data name="CompressionModeDescription" xml:space="preserve">
-    <value>Selecione se a entrada deve ser comprimida ou descomprimida</value>
+    <value>Selecione se a entrada deve ser compactada ou descompactada</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
-    <value>Se deve comprimir ou descomprimir um texto GZip</value>
+    <value>Se deve compactar ou descompactar uma string GZip</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
-    <value>Modo de compressão</value>
+    <value>Modo de compactação</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>Taxa de compressão</value>
+    <value>Taxa de compactação</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
-    <value>{0:0,#} %</value>
+    <value>{0:0.#} %</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuração</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Comprimir ou descomprimir um texto em GZip</value>
+    <value>Compactar ou descompactar um texto em GZip</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Texto para comprimir ou GZip para descomprimir</value>
+    <value>Texto para compactar ou GZip para descompactar</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Entrada</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;Dados GZip Inválidos&gt;</value>
+    <value>&lt;Dados GZip inválidos&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Comprimir / Descomprimir GZip</value>
+    <value>Compactar / Descompactar GZip</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Saída</value>
