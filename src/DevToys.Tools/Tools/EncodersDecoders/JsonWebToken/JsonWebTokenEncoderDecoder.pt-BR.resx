@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta codificadora e decodificadora de JWT</value>
+    <value>Ferramenta de Codificador e Decodificador JWT</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>O atributo "acr" com valor 0 indica que a autenticação do usuário final não atendeu aos requisitos da ISO/IEC 29115.</value>
+    <value>A declaração "acr" com valor 0 indica que a autenticação do usuário final não cumpriu os requisitos da norma ISO/IEC 29115.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
-    <value>O atributo "acrs" indica os Auth Context IDs das operações que o portador é habilitado a executar. Auth Context IDs podem ser usados para disparar uma demanda para step-up authentication a partir de sua aplicação e serviços. Frequentemente usado junto com o atributo xms_cc.</value>
+    <value>A declaração "acrs" indica os IDs de Contexto de Autenticação das operações que o portador tem permissão para realizar. Os IDs de Contexto de Autenticação podem ser usados para acionar uma solicitação de autenticação em etapas dentro do seu aplicativo e serviços. Frequentemente usada em conjunto com a declaração xms_cc.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>O atributo "aio" é um atributo interno usado pelo Microsoft Entra ID para gravar dados para reuso de token. Recursos não devem usar esse claim.</value>
+    <value>A declaração "aio" é uma declaração interna utilizada pelo Microsoft Entra ID para registrar dados para reutilização de token. Os recursos não devem utilizar esta declaração.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
@@ -142,27 +142,27 @@
     <comment>Error message</comment>
   </data>
   <data name="amr" xml:space="preserve">
-    <value>O atributo "amr" identifica o método de autenticação da entidade do token.</value>
+    <value>A declaração "amr" identifica o método de autenticação do titular do token.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appid" xml:space="preserve">
-    <value>O atributo "appid" indica o ID da aplicação do cliente usando o token. A aplicação pode agir como si mesma ou em nome de um usuário. O ID da aplicação geralmente representa um objeto de aplicação, mas pode também representar um service principal object no Microsoft Entra ID.</value>
+    <value>A declaração "appid" indica o ID do aplicativo do cliente que está usando o token. O aplicativo pode agir como ele mesmo ou em nome de um usuário. O ID do aplicativo geralmente representa um objeto de aplicativo, mas também pode representar um objeto de entidade de serviço no Microsoft Entra ID.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appidacr" xml:space="preserve">
-    <value>O atributo "appidacr" indica o método de autenticação do cliente. Para um cliente público, o valor é 0. Quando você usa o client ID e client secret, o valor é 1. Quando você usa um certificado do cliente para autenticação, o valor é 2.</value>
+    <value>A declaração "appidacr" indica o método de autenticação do cliente. Para um cliente público, o valor é 0. Quando você usa o ID do cliente e o segredo do cliente, o valor é 1. Quando você usa um certificado de cliente para autenticação, o valor é 2.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aud" xml:space="preserve">
-    <value>O atributo "aud" (audience) identifica o públic-alvo para o qual o JWT foi criado. Toda entidade que deve processar o JWT PRECISA se identificar com um valor no atributo aud. Se a entidade processando o atributo não se identificar com um valor no atributo "aud" quando esse atributo estiver presente, então o JWT DEVE ser rejeitado. Geralmente, o valor do atributo "aud" é um array de strings case-sensitive, cada uma contendo um valor StringOrURI. Em casos especiais, quando o JWT possui um único público-alvo, o valor de "aud" PODE ser uma única string case-sensitive contendo um valor StringOrURI. A interpretação de valores do atributo "aud" é geralmente dependente da aplicação. O uso desse atributo é OPCIONAL.</value>
+    <value>A declaração "aud" (audiência) identifica os destinatários para os quais o JWT se destina. Cada entidade que pretende processar o JWT DEVE se identificar com um valor na declaração de audiência. Se a entidade que processa a declaração não se identificar com um valor na declaração "aud" quando esta declaração estiver presente, o JWT DEVE ser rejeitado. No caso geral, o valor "aud" é um array de strings que diferenciam maiúsculas de minúsculas, cada uma contendo um valor StringOrURI. No caso especial em que o JWT tem um único destinatário, o valor "aud" PODE ser uma única string que diferencia maiúsculas de minúsculas, contendo um valor StringOrURI. A interpretação dos valores de audiência é geralmente específica do aplicativo. O uso desta declaração é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="azp" xml:space="preserve">
-    <value>O atributo "azp" substitui o appid. É o ID da aplicação do cliente usando o token. A aplicação pode agir como si mesma ou em nome de um usuário. O ID da aplicação geralmente representa um objeto de aplicação, mas pode também representar um service principal object no Microsoft Entra ID.</value>
+    <value>A declaração "azp" é um substituto para appid. O ID do aplicativo do cliente que está usando o token. O aplicativo pode agir como ele mesmo ou em nome de um usuário. O ID do aplicativo geralmente representa um objeto de aplicativo, mas também pode representar um objeto de entidade de serviço no Microsoft Entra ID.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="azpacr" xml:space="preserve">
-    <value>O atributo "azpacr" substitui o appidacr. Indica o método de autenticação do cliente. Para um cliente público, o valor é 0. Quando você usa o client ID e client secret, o valor é 1. Quando você usa um certificado do cliente para autenticação, o valor é 2.</value>
+    <value>A declaração "azpacr" é um substituto para appidacr. Indica o método de autenticação do cliente. Para um cliente público, o valor é 0. Quando você usa o ID do cliente e o segredo do cliente, o valor é 1. Quando você usa um certificado de cliente para autenticação, o valor é 2.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
@@ -190,15 +190,15 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
-    <value>Públicos-alvos do Token (separados por vírgula)</value>
+    <value>Audiências do token (separadas por vírgula)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>Validar públicos-alvos</value>
+    <value>Validar audiências</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
-    <value>Emissor do Token (separado por vírgula)</value>
+    <value>Emissor do token (separado por vírgula)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
@@ -214,7 +214,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Selecione quais parâmetros de token devem ser validados</value>
+    <value>Selecione quais parâmetros de token validar</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
@@ -222,11 +222,11 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenTitle" xml:space="preserve">
-    <value>Validar o token</value>
+    <value>Validar Token</value>
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Codificar e decodificar o Json Web Token </value>
+    <value>Codificar e decodificar Json Web Token </value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
@@ -234,35 +234,35 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Algoritmo de hashing do token</value>
+    <value>Algoritmo de hash do token</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Público-alvo do Token (separados por vírgula)</value>
+    <value>Público do token (separado por vírgula)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>Expira em dia(s)</value>
+    <value>Expirar em dia(s)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>Expira em hora(s)</value>
+    <value>Expirar em hora(s)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
-    <value>Expira em minuto(s)</value>
+    <value>Expirar em minuto(s)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMonthInputTitle" xml:space="preserve">
-    <value>Expira em mês(es)</value>
+    <value>Expirar em mês(es)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationYearInputTitle" xml:space="preserve">
-    <value>Expira em ano(s)</value>
+    <value>Expirar em ano(s)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
-    <value>Token possui público-alvo</value>
+    <value>Token tem público</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
@@ -270,11 +270,11 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
-    <value>Token possui emissor</value>
+    <value>Token tem emissor</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenIssuerInputTitle" xml:space="preserve">
-    <value>Emissor do Token (separado por vírgula)</value>
+    <value>Emissor do token (separado por vírgula)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsDescription" xml:space="preserve">
@@ -286,19 +286,19 @@
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
-    <value>O atributo "exp" (tempo de expiração) identifica o tempo de expiração no qual ou depois do qual o JWT NÃO DEVE ser aceito para processamento. O processamento do atributo "exp" requer que a data e hora atuais DEVEM ser antes da data e hora de expiração preenchida no atributo "exp". Implementações PODEM prover alguma pequena margem, geralmente não mais que alguns minutos, para cobrir possíveis descompassos entre relógios. Seu valor DEVE ser um número contendo um valor NumericDate. O uso desse atributo é OPCIONAL.</value>
+    <value>A declaração "exp" (tempo de expiração) identifica o momento em que ou após o qual o JWT NÃO DEVE ser aceito para processamento. O processamento da declaração "exp" exige que a data/hora atual DEVE ser anterior à data/hora de expiração listada na declaração "exp". Os implementadores PODEM fornecer uma pequena margem de tolerância, geralmente não mais do que alguns minutos, para considerar a diferença de relógio. Seu valor DEVE ser um número contendo um valor NumericDate. O uso desta declaração é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="groups" xml:space="preserve">
-    <value>O atributo "groups" (grupos) provê IDs de objetos que representam os grupos aos quais a entidade faz parte. A propriedade groupMembershipClaims do manifesto da aplicação configura o atributo groups de maneira individual para cada aplicação. Um valor null exclui todos os grupos, um valor SecurityGroup inclui apenas grupos Active Directory Security Group, e um valor All inclui ambos Security Groups e Microsoft 365 Distribution Lists. Veja o atributo hasgroups para detalhes de como usar o atributo groups com concessão implícita. Para outros fluxos, se o número de grupos do usuário é maior que 150 para SAML e 200 para JWT, então o Microsoft Entra ID adiciona um atributo de excesso para as fontes do atributo. As contes do atributo apontam para o endereço do Microsoft Graph que contêm a lista de grupos do usuário.</value>
+    <value>A declaração "groups" fornece IDs de objeto que representam as associações de grupo do titular. A propriedade groupMembershipClaims do manifesto do aplicativo configura a declaração de grupos por aplicativo. Um valor nulo exclui todos os grupos, um valor SecurityGroup inclui apenas associações a Grupos de Segurança do Active Directory e um valor All inclui tanto Grupos de Segurança quanto Listas de Distribuição do Microsoft 365. Consulte a declaração hasgroups para obter detalhes sobre o uso da declaração groups com a concessão implícita. Para outros fluxos, se o número de grupos aos quais o usuário pertence ultrapassar 150 para SAML e 200 para JWT, o Microsoft Entra ID adiciona uma declaração de excesso às origens das declarações. As origens das declarações apontam para o endpoint do Microsoft Graph que contém a lista de grupos para o usuário.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="groups:src1" xml:space="preserve">
-    <value>O atributo "groups:src1" inclui um link para a lista completa de grupos do usuário quando as requisições do token são muito grandes para o token. Para JWTs como um atributo distribuído, para SAML como um novo atributo no lugar do atributo groups. Exemplo de valor JWT:"groups":"src1""_claim_sources: "src1" : { "endpoint" : "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects" }</value>
+    <value>A declaração "groups:src1" inclui um link para a lista completa de grupos do usuário quando as solicitações de token são muito grandes para o token. Para JWTs, como uma declaração distribuída, para SAML como uma nova declaração no lugar da declaração de grupos. Exemplo de valor JWT: "groups": "src1" "_claim_sources: "src1": {"endpoint": "https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects"}</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="hasgroups" xml:space="preserve">
-    <value>Se presente, sempre true, indica se o usuário está em pelo menos um grupo. Usado no lugar do atributo groups para JWTs em fluxos de concessão implícita se o atributo completo de grupos estenderia o fragmento da URI além dos limites de URL (atualmente seis ou mais grupos). Indica que o cliente deve usar a Microsoft Graph API para determinar os grupos (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects) do usuário.</value>
+    <value>Se presente, sempre verdadeiro, indica se o usuário está em pelo menos um grupo. Usado no lugar da declaração de grupos para JWTs em fluxos de concessão implícita se a declaração de grupos completa estender o fragmento URI além dos limites de comprimento da URL (atualmente seis ou mais grupos). Indica que o cliente deve usar a API do Microsoft Graph para determinar os grupos (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects) do usuário.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
@@ -306,23 +306,23 @@
     <comment>Gui</comment>
   </data>
   <data name="iat" xml:space="preserve">
-    <value>O atributo "iat" (issued at) identifica o momento em que o JWT foi emitido. Esse atributo pode ser usado para determinar a idade do JWT. Seu valor DEVE ser um número contendo um valor NumericDate. O uso desse atributo é OPCIONAL.</value>
+    <value>A declaração "iat" (emitido em) identifica o momento em que o JWT foi emitido. Esta declaração pode ser usada para determinar a idade do JWT. Seu valor DEVE ser um número contendo um valor NumericDate. O uso desta declaração é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="idp" xml:space="preserve">
-    <value>O atributo "idp" grava o provedor de identidade que autenticou a entidade do token. Esse valor é idêntico ao valor do atributo iss (issuer ou emissor) a não ser que a conta do usuário não é no mesmo provedor que o emissor, tais como contas convidadas. Use o valor do atributo iss se o atributo não estiver presente.</value>
+    <value>A declaração "idp" registra o provedor de identidade que autenticou o titular do token. Este valor é idêntico ao valor da declaração Issuer, a menos que a conta do usuário não esteja no mesmo locatário que o emissor, como no caso de convidados. Use o valor de "iss" se a declaração não estiver presente.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="InvalidExpiration" xml:space="preserve">
-    <value>Data de Expiração é inválida</value>
+    <value>Data de expiração inválida</value>
     <comment>Error message</comment>
   </data>
   <data name="iss" xml:space="preserve">
-    <value>O atributo "iss" identifica o emissor do JWT. O processamento desse atributo é geralmente específico para cada aplicação. O valor do atributo "iss" é uma string case-sensitive contendo um valor StringOrURI. O uso desse atributo é OPCIONAL.</value>
+    <value>A declaração "iss" (emissor) identifica a entidade que emitiu o JWT. O processamento desta declaração é geralmente específico do aplicativo. O valor "iss" é uma string que diferencia maiúsculas de minúsculas, contendo um valor StringOrURI. O uso desta declaração é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="jti" xml:space="preserve">
-    <value>O atributo "jti" (JWT ID) provê um identificador único para o JWT. O valor do identificador DEVE ser atribuído de maneira que garanta que há uma probabilidade insignificante que o mesmo valor seja acidentalmente atribuído para outro objeto de dados; se a aplicação usa múltiplos emissores, colusões DEVEM ser prevenidas dentre os valores produzidos por diferentes emissores também. O atributo "jti" pode ser usado para prevenir que JWTs sejam repetidos. O valor "jti" é uma string case-sensitive. O uso desse atributo é OPCIONAL.</value>
+    <value>A declaração "jti" (ID do JWT) fornece um identificador único para o JWT. O valor do identificador DEVE ser atribuído de forma a garantir que haja uma probabilidade insignificante de que o mesmo valor seja acidentalmente atribuído a um objeto de dados diferente; se o aplicativo usar vários emissores, as colisões também DEVEM ser evitadas entre os valores produzidos por diferentes emissores. A declaração "jti" pode ser usada para impedir que o JWT seja reproduzido. O valor "jti" é uma string que diferencia maiúsculas de minúsculas. O uso desta declaração é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="kid" xml:space="preserve">
@@ -330,15 +330,15 @@
     <comment>Claim</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Codificador / Decodificador de JWT</value>
+    <value>Codificador / Decodificador JWT</value>
     <comment>Gui</comment>
   </data>
   <data name="name" xml:space="preserve">
-    <value>O atributo "name" provê um valor legível para humanos que identifica a entidade do token. O valor pode variar, é mutável, e é exclusivamente para propósitos de exibição. Para receber esse atributo, use o escopo de perfil.</value>
+    <value>A declaração "name" fornece um valor legível que identifica o titular do token. O valor pode variar, é mutável e serve apenas para fins de exibição. Para receber esta declaração, use o escopo profile.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="nbf" xml:space="preserve">
-    <value>O atributo "nbf" (not before, ou não antes) identifica o momento antes do qual o JWT NÃO DEVE ser aceito para processamento. O processamento do atributo "nbf" requer que a data e hora atuais DEVEM ser depois ou iguais à data e hora preenchidas no atributo "nbf". Implementações PODEM prover alguma pequena margem, geralmente não mais que alguns minutos, para cobrir possíveis descompassos entre relógios. Seu valor DEVE ser um número contendo um valor NumericDate. O uso desse atributo é OPCIONAL.</value>
+    <value>A declaração "nbf" (não antes de) identifica o momento antes do qual o JWT NÃO DEVE ser aceito para processamento. O processamento da declaração "nbf" exige que a data/hora atual DEVE ser posterior ou igual à data/hora especificada na declaração "nbf". Os implementadores PODEM fornecer uma pequena margem de tolerância, geralmente não mais do que alguns minutos, para considerar a diferença de relógio. Seu valor DEVE ser um número contendo um valor NumericDate. O uso desta declaração é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
@@ -346,39 +346,39 @@
     <comment>Gui</comment>
   </data>
   <data name="oid" xml:space="preserve">
-    <value>O identificador imutável do solicitante, que é a identidade verificada da entidade (usuário ou serviço). Este ID identifica unicamente o solicitante em diferentes aplicações. Dois pedidos de login diferentes no mesmo usuário recebem o mesmo valor no atributo oid. O oit pode ser usado ao fazer pedidos aos serviços online da Microsoft, como o Microsoft Graph. O Microsoft Graph retorna este ID na propriedade id para determinada conta de usuário. Uma vez que o oid permite que múltiplas aplicações correlacionem entidades, para receber este atributo use o escopo de perfil. Se um único usuário existe em múltiplos provedores, o usuário contêm um objeto ID diferente em cada provedor. Mesmo que o usuário logue em cada conta com as mesmas credenciais, as contas são diferentes.</value>
+    <value>O identificador imutável para o solicitante, que é a identidade verificada do usuário ou entidade de serviço. Este ID identifica exclusivamente o solicitante em todos os aplicativos. Dois aplicativos diferentes que autenticam o mesmo usuário recebem o mesmo valor na declaração oid. O oid pode ser usado ao fazer consultas a serviços online da Microsoft, como o Microsoft Graph. O Microsoft Graph retorna este ID como a propriedade id para uma determinada conta de usuário. Como o oid permite que vários aplicativos correlacionem entidades, para receber esta declaração para usuários, use o escopo profile. Se um único usuário existir em vários locatários, o usuário conterá um ID de objeto diferente em cada locatário. Mesmo que o usuário faça login em cada conta com as mesmas credenciais, as contas são diferentes.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PayloadInputTitle" xml:space="preserve">
-    <value>Conteúdo</value>
+    <value>Carga útil</value>
     <comment>Gui</comment>
   </data>
   <data name="preferred_username" xml:space="preserve">
-    <value>O atributo "preferred_username" (nome de usuário preferido) identifica o nome de usuário principal que representa o usuário. O valor pode ser um endereço de email, número de telefone, ou um nome de usuário genérico sem um formato especificado. Use o valor para dicas de nome de usuário e em interfaces legíveis para humanos como nome de usuário. Para receber esse atributo, use o escopo de perfil.</value>
+    <value>A declaração "preferred_username" indica o nome de usuário principal que representa o usuário. O valor pode ser um endereço de e-mail, número de telefone ou um nome de usuário genérico sem um formato específico. Use o valor para dicas de nome de usuário e em interfaces de usuário legíveis por humanos como um nome de usuário. Para receber esta declaração, use o escopo "profile".</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="PrivateKeyNotSupported" xml:space="preserve">
-    <value>Este tipo de chave privada não é suportado</value>
+    <value>Este tipo de chave privada não é compatível</value>
     <comment>Error message</comment>
   </data>
   <data name="PublicKeyInputTitle" xml:space="preserve">
-    <value>Chave Pública</value>
+    <value>Chave pública</value>
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
-    <value>Este tipo de chave pública não é suportado</value>
+    <value>Este tipo de chave pública não é compatível</value>
     <comment>Error message</comment>
   </data>
   <data name="rh" xml:space="preserve">
-    <value>O atributo "rh" é um atributo interno usado pelo Azure para revalidar tokens. Recursos não devem usar este atributo.</value>
+    <value>A declaração "rh" é uma declaração interna utilizada pelo Azure para revalidar tokens. Os recursos não devem utilizar esta declaração.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="roles" xml:space="preserve">
-    <value>O atributo "roles" indica o conjunto de permissões expostas pela aplicação que a aplicação ou usuário solicitante receberam permissão para chamar. O fluxo de credenciais do cliente usa esse conjunto de permissões ao invés de escopos de usuário para tokens de aplicação. Para tokens de usuário, esse conjunto de valores contêm os papeis atribuídos ao usuário na aplicação alvo.</value>
+    <value>A declaração "roles" indica o conjunto de permissões expostas pelo aplicativo para as quais o aplicativo solicitante ou usuário recebeu permissão para chamar. O fluxo de credenciais do cliente usa este conjunto de permissões no lugar dos escopos de usuário para tokens de aplicativo. Para tokens de usuário, este conjunto de valores contém as funções atribuídas ao usuário no aplicativo de destino.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="scp" xml:space="preserve">
-    <value>O atributo "scp" indica o conjunto de escopos expostos pela aplicação para os quais a aplicação cliente solicitou (e recebeu) consentimento. Somente incluído em tokens de usuário.</value>
+    <value>A declaração "scp" indica o conjunto de escopos expostos pelo aplicativo para os quais o aplicativo cliente solicitou (e recebeu) consentimento. Incluído apenas para tokens de usuário.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -390,11 +390,11 @@
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
-    <value>O atributo "sub" (subject) identifica a entidade que é identificada pelo JWT. Os atributos em um JWT são normalmente declarações sobre a entidade.  O valor da entidade DEVE ser único dentro do contexto do emissor ou único globalmente. O processamento desse atributo é geralmente específico da aplicação. O valor de "sub" é uma string case-sensitive contendo um valor StringOrURI.  O uso desse atributo é OPCIONAL.</value>
+    <value>A declaração "sub" (sujeito) identifica a entidade que é o sujeito do JWT. As declarações em um JWT são normalmente afirmações sobre o sujeito. O valor do sujeito DEVE ser delimitado para ser localmente único no contexto do emissor ou ser globalmente único. O processamento desta declaração é geralmente específico do aplicativo. O valor "sub" é uma string que diferencia maiúsculas de minúsculas, contendo um valor StringOrURI. O uso desta declaração é OPCIONAL.</value>
     <comment>Claim</comment>
   </data>
   <data name="tid" xml:space="preserve">
-    <value>O atributo "tid" representa o provedor em que o usuário está se autenticando. Para contas de trabalho e de escola, o GUID é o ID imutável do provedor da organização em que o usuário está se autenticando.</value>
+    <value>A declaração "tid" representa o locatário no qual o usuário está se autenticando. Para contas corporativas ou de estudante, o GUID é o ID imutável do locatário da organização na qual o usuário está se autenticando.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="TokenInputTitle" xml:space="preserve">
@@ -406,11 +406,11 @@
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
-    <value>Selecione qual modo você quer utilizar</value>
+    <value>Selecione o modo que você deseja usar</value>
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
-    <value>Modo da Ferramenta</value>
+    <value>Modo da ferramenta</value>
     <comment>Gui</comment>
   </data>
   <data name="typ" xml:space="preserve">
@@ -418,35 +418,35 @@
     <comment>Claim</comment>
   </data>
   <data name="unique_name" xml:space="preserve">
-    <value>O atributo "unique_name" provê um valor legível por humanos que identifica a entidade do token.</value>
+    <value>A declaração "unique_name" fornece um valor legível por humanos que identifica o titular do token.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="uti" xml:space="preserve">
-    <value>O atributo "uti" (atributo identificador do Token) é equivalente ao "jti" na especificação do JWT. Identificador único do token que é case-sensitive.</value>
+    <value>A declaração "uti" (declaração de identificador de token) é equivalente a "jti" na especificação JWT. Identificador único, por token, que diferencia maiúsculas de minúsculas.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
-    <value>Públicos-alvos estão vazios ou são inválidos</value>
+    <value>Audiências estão vazias ou inválidas</value>
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
-    <value>Emissores estão vazios ou inválidos</value>
+    <value>Os emissores estão vazios ou inválidos</value>
     <comment>Error message</comment>
   </data>
   <data name="ver" xml:space="preserve">
-    <value>O atributo "ver" indica a versão do token de acesso.</value>
+    <value>A declaração "ver" indica a versão do token de acesso.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="wids" xml:space="preserve">
-    <value>O atributo "wids" denota os papéis atribuídos a esse usuário pelo provedor, da sessão de papeis presentes nos papeis do Microsoft Entra. A propriedade groupMembershipClaims do manifesto da aplicação configura esse atributo com base na aplicação. Configure o atributo para All ou DirectoryRole. Pode não estar presente em tokens obtidos através do fluxo implícito devido à preocupações com o tamanho do token.</value>
+    <value>A declaração "wids" denota as funções atribuídas a este usuário em todo o locatário, da seção de funções presentes nas funções internas do Microsoft Entra. A propriedade groupMembershipClaims do manifesto do aplicativo configura esta declaração por aplicativo. Defina a declaração como All (Todas) ou DirectoryRole (Função de Diretório). Pode não estar presente em tokens obtidos através do fluxo implícito devido a preocupações com o comprimento do token.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="x5t" xml:space="preserve">
-    <value>Funciona da mesma forma que "kid". "x5t" é um atributo defasado emitido somente em tokens de acesso v1.0 para fins de retrocompatibilidade.</value>
+    <value>Funciona da mesma forma que "kid". "x5t" é uma declaração legada emitida apenas em tokens de acesso v1.0 para fins de compatibilidade.</value>
     <comment>Claim</comment>
   </data>
   <data name="xms_cc" xml:space="preserve">
-    <value>O atributo "xms_cc" indica se a aplicação cliente que adquiriu o token é capaz de lidar com os desafios dos atributos. É frequentemente usado junto com o atributo acrs. Esse atributo é comumente usado em cenários de Conditional Access e Continuous Access Evaluation. O servidor de recurso ou servidor de aplicação para o qual o token é mitido controla a presença desse atributo no token. Um valor de cp1 no token de acesso é a forma autoritária de identificar que uma aplicação cliente é capaz de lidar com os desafios dos atributos.</value>
+    <value>A declaração "xms_cc" indica se o aplicativo cliente que adquiriu o token é capaz de lidar com desafios de declarações. É frequentemente usada em conjunto com a declaração "acrs". Esta declaração é comumente usada em cenários de Acesso Condicional e Avaliação Contínua de Acesso. O servidor de recursos ou aplicativo de serviço para o qual o token é emitido controla a presença desta declaração em um token. Um valor de "cp1" no token de acesso é a maneira autorizada de identificar que um aplicativo cliente é capaz de lidar com um desafio de declarações.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="Yes" xml:space="preserve">
@@ -454,27 +454,27 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>O token tem tempo padrão</value>
+    <value>O token tem hora padrão</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidHeader" xml:space="preserve">
-    <value>Não é possível processar o cabeçalho do token</value>
+    <value>Não foi possível processar o cabeçalho do token</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPayload" xml:space="preserve">
-    <value>Não é possível processar o conteúdo do token</value>
+    <value>Não foi possível processar o conteúdo do token</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPrivateKey" xml:space="preserve">
-    <value>Chave privada está nula ou vazia</value>
+    <value>A chave privada é nula ou vazia</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPublicKey" xml:space="preserve">
-    <value>Chave pública está nula ou vazia</value>
+    <value>A chave pública é nula ou vazia</value>
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
-    <value>Chave Privada</value>
+    <value>Chave privada</value>
     <comment>Gui</comment>
   </data>
   <data name="ValidToken" xml:space="preserve">
@@ -482,7 +482,7 @@
     <comment>Gui</comment>
   </data>
   <data name="InvalidSignature" xml:space="preserve">
-    <value>Não é possível processar a assinatura do token</value>
+    <value>Não foi possível processar a assinatura do token</value>
     <comment>Error message</comment>
   </data>
   <data name="Base64" xml:space="preserve">
@@ -490,11 +490,11 @@
     <comment>Gui</comment>
   </data>
   <data name="PlainText" xml:space="preserve">
-    <value>Texto puro</value>
+    <value>Texto simples</value>
     <comment>Gui</comment>
   </data>
   <data name="SignatureFormat" xml:space="preserve">
-    <value>Formato da assinatura</value>
+    <value>Formato de assinatura</value>
     <comment>Gui</comment>
   </data>
 </root>
