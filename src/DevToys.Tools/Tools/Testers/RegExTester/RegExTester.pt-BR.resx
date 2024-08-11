@@ -118,97 +118,97 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta para Teste de Expressão Regular (Regexp)</value>
+    <value>Ferramenta de Teste de Expressões Regulares</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
-    <value>Todas correspondências</value>
+    <value>Todas as correspondências</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
-    <value>Find all the matches in the text or stop after the first match.</value>
+    <value>Encontre todas as correspondências no texto ou pare após a primeira correspondência.</value>
   </data>
   <data name="CheatSheetAlternation" xml:space="preserve">
-    <value>Alternation</value>
+    <value>Alternância</value>
   </data>
   <data name="CheatSheetAlternationDetails" xml:space="preserve">
-    <value>Acts like a boolean OR. Matches the expression before or after the |.
-It can operate within a group, or on a whole expression. The patterns will be tested in order.</value>
+    <value>Atua como um OU booleano. Corresponde à expressão antes ou depois de |.
+Pode operar dentro de um grupo ou em uma expressão inteira. Os padrões serão testados em ordem.</value>
   </data>
   <data name="CheatSheetAnyCharacter" xml:space="preserve">
-    <value>Any character except newline</value>
+    <value>Qualquer caractere, exceto nova linha</value>
   </data>
   <data name="CheatSheetAnyCharacterDetails" xml:space="preserve">
-    <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
+    <value>Corresponde a qualquer caractere diferente de nova linha. Equivalente a [^\n\r].</value>
   </data>
   <data name="CheatSheetAtomicGroup" xml:space="preserve">
-    <value>Atomic group</value>
+    <value>Grupo atômico</value>
   </data>
   <data name="CheatSheetAtomicGroupDetails" xml:space="preserve">
-    <value>Non-capturing group that discards backtracking positions once matched.
-For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option has matched, the atomic group prevents backtracking to retry with the a option.</value>
+    <value>Grupo sem captura que descarta posições de retrocesso uma vez correspondidas.
+Por exemplo, /(?&gt;ab|a)b/ corresponderá a abb, mas não ab porque, uma vez que a opção ab tenha correspondido, o grupo atômico impede o retrocesso para tentar novamente com a opção a.</value>
   </data>
   <data name="CheatSheetBeginning" xml:space="preserve">
-    <value>Beginning</value>
+    <value>Início</value>
   </data>
   <data name="CheatSheetBeginningDetails" xml:space="preserve">
-    <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
+    <value>Corresponde ao início da string ou ao início de uma linha se o sinalizador de várias linhas (m) estiver ativado. Isso corresponde a uma posição, não a um caractere.</value>
   </data>
   <data name="CheatSheetBeginningOfString" xml:space="preserve">
     <value>Início da string</value>
   </data>
   <data name="CheatSheetBeginningOfStringDetails" xml:space="preserve">
-    <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>Corresponde ao início da string. Ao contrário de ^, isso não é afetado pelo sinalizador de várias linhas (m). Isso corresponde a uma posição, não a um caractere.</value>
   </data>
   <data name="CheatSheetBell" xml:space="preserve">
-    <value>Bell</value>
+    <value>Sino</value>
   </data>
   <data name="CheatSheetBellDetails" xml:space="preserve">
-    <value>Matches a BELL character (char code 7).</value>
+    <value>Corresponde a um caractere BELL (código de caractere 7).</value>
   </data>
   <data name="CheatSheetBranchResetGroup" xml:space="preserve">
-    <value>Branch reset group</value>
+    <value>Grupo de redefinição de ramificação</value>
   </data>
   <data name="CheatSheetBranchResetGroupDetails" xml:space="preserve">
-    <value>Define alternative groups that share the same group numbers.
-For example, in (?|(a)|(b)) both groups (a and b) would be counted as group #1.</value>
+    <value>Define grupos alternativos que compartilham os mesmos números de grupo.
+Por exemplo, em (?|(a)|(b)), ambos os grupos (a e b) seriam contados como grupo nº 1.</value>
   </data>
   <data name="CheatSheetCaptureGroup" xml:space="preserve">
-    <value>Capture group</value>
+    <value>Grupo de captura</value>
   </data>
   <data name="CheatSheetCaptureGroupDetails" xml:space="preserve">
-    <value>Inserts the results of the specified capture group. For example, $3 would insert the third capture group.
-There are multiple syntaxes for this feature:
+    <value>Insere os resultados do grupo de captura especificado. Por exemplo, $3 inseriria o terceiro grupo de captura.
+Existem várias sintaxes para este recurso:
 
 $1 \1 \{1}</value>
   </data>
   <data name="CheatSheetCapturingGroup" xml:space="preserve">
-    <value>Capturing group</value>
+    <value>Grupo de captura</value>
   </data>
   <data name="CheatSheetCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
+    <value>Agrupa vários tokens e cria um grupo de captura para extrair uma substring ou usar uma referência inversa.</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
-    <value>Carriage return</value>
+    <value>Retorno de carro</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
-    <value>Matches a CARRIAGE RETURN character (char code 13).</value>
+    <value>Corresponde a um caractere CARRIAGE RETURN (código de caractere 13).</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
     <value>Âncoras</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
-    <value>Character classes</value>
+    <value>Classes de caracteres</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>Caracteres com escape</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
-    <value>Groups and References</value>
+    <value>Grupos e Referências</value>
   </data>
   <data name="CheatSheetCategoryLookaround" xml:space="preserve">
-    <value>Lookaround</value>
+    <value>Olhar ao redor</value>
   </data>
   <data name="CheatSheetCategoryQuantifiersAlternation" xml:space="preserve">
-    <value>Quantifiers and Alternation</value>
+    <value>Quantificadores e Alternância</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
     <value>Especial</value>
@@ -217,44 +217,44 @@ $1 \1 \{1}</value>
     <value>Substituição</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
-    <value>Character range</value>
+    <value>Intervalo de caracteres</value>
   </data>
   <data name="CheatSheetCharacterRangeDetails" xml:space="preserve">
-    <value>Matches a character having a character code between the two specified characters inclusive.</value>
+    <value>Corresponde a um caractere que possui um código de caractere entre os dois caracteres especificados, inclusive.</value>
   </data>
   <data name="CheatSheetCharacterSet" xml:space="preserve">
-    <value>A single character of A, b or c</value>
+    <value>Um único caractere de A, b ou c</value>
   </data>
   <data name="CheatSheetCharacterSetDetails" xml:space="preserve">
-    <value>Matches either an A, b or c character</value>
+    <value>Corresponde a um caractere A, b ou c</value>
   </data>
   <data name="CheatSheetComment" xml:space="preserve">
-    <value>Comment</value>
+    <value>Comentário</value>
   </data>
   <data name="CheatSheetCommentDetails" xml:space="preserve">
-    <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
+    <value>Permite inserir um comentário em sua expressão que é ignorado ao encontrar uma correspondência.</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
     <value>Condicional</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
-    <value>Conditionally matches one of two options based on whether a lookaround is matched.
-For example, /(?(?=a)ab|..)/ will match ab and zx but not ax, because if the first character matches the condition a then it evaluates the pattern ab.
+    <value>Corresponde condicionalmente a uma de duas opções com base em se um lookaround é correspondido.
+Por exemplo, /(?(?=a)ab|..)/ corresponderá a ab e zx, mas não ax, porque se o primeiro caractere corresponder à condição a, ele avaliará o padrão ab.
 
-Any lookaround can be used as the condition. A lookahead will start the subsequent match at the start of the condition, a lookbehind will start it after.</value>
+Qualquer lookaround pode ser usado como condição. Um lookahead iniciará a correspondência subsequente no início da condição, um lookbehind a iniciará depois.</value>
   </data>
   <data name="CheatSheetControlCharacterEscape" xml:space="preserve">
-    <value>Control character escape</value>
+    <value>Escape de caractere de controle</value>
   </data>
   <data name="CheatSheetControlCharacterEscapeDetails" xml:space="preserve">
-    <value>Escaped control character in the form \cZ. This can range from \cA (SOH, char code 1) to \cZ (SUB, char code 26).</value>
+    <value>Caractere de controle com escape no formato \cZ. Isso pode variar de \cA (SOH, código de caractere 1) a \cZ (SUB, código de caractere 26).</value>
   </data>
   <data name="CheatSheetDefine" xml:space="preserve">
-    <value>Define</value>
+    <value>Definir</value>
   </data>
   <data name="CheatSheetDefineDetails" xml:space="preserve">
-    <value>Used to define named groups for use as subroutines without including them in the match.
-For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
+    <value>Usado para definir grupos nomeados para uso como sub-rotinas sem incluí-los na correspondência.
+Por exemplo, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ corresponderá a ABZ, porque o grupo define é ignorado na correspondência, exceto para definir a sub-rotina foo que é referenciada posteriormente com \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
     <value>Descrição</value>
@@ -263,467 +263,467 @@ For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define 
     <value>Dígito</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
-    <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
+    <value>Corresponde a qualquer caractere de dígito (0-9). Equivalente a [0-9].</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
     <value>Fim</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
-    <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
+    <value>Corresponde ao final da string ou ao final de uma linha se o sinalizador de várias linhas (m) estiver ativado. Isso corresponde a uma posição, não a um caractere.</value>
   </data>
   <data name="CheatSheetEndOfString" xml:space="preserve">
     <value>Fim da string</value>
   </data>
   <data name="CheatSheetEndOfStringDetails" xml:space="preserve">
-    <value>Matches the end of the string. Unlike $, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>Corresponde ao final da string. Ao contrário de $, isso não é afetado pelo sinalizador de várias linhas (m). Isso corresponde a uma posição, não a um caractere.</value>
   </data>
   <data name="CheatSheetEsc" xml:space="preserve">
     <value>Esc</value>
   </data>
   <data name="CheatSheetEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>Caracteres com escape</value>
   </data>
   <data name="CheatSheetEscapedCharactersDetails" xml:space="preserve">
-    <value>For convenience, these escaped characters are supported in the Replace string in RegExr: \n, \r, \t, \\, and unicode escapes \uFFFF. This may vary in your deploy environment.</value>
+    <value>Para conveniência, esses caracteres com escape são compatíveis na string Substituir em RegExr: \n, \r, \t, \\ e escapes unicode \uFFFF. Isso pode variar em seu ambiente de implantação.</value>
   </data>
   <data name="CheatSheetEscapeSequence" xml:space="preserve">
-    <value>Escape sequence</value>
+    <value>Sequência de escape</value>
   </data>
   <data name="CheatSheetEscapeSequenceDetails" xml:space="preserve">
-    <value>All characters between the \Q and the \E are interpreted as a literal string. If \E is omitted, it continues to the end of the expression. For example, the expression /\Q(?.)\E/ will match the string (?.).</value>
+    <value>Todos os caracteres entre \Q e \E são interpretados como uma string literal. Se \E for omitido, ele continua até o final da expressão. Por exemplo, a expressão /\Q(?.)\E/ corresponderá à string (?.).</value>
   </data>
   <data name="CheatSheetEscDetails" xml:space="preserve">
-    <value>Matches a ESC character (char code 27).</value>
+    <value>Corresponde a um caractere ESC (código de caractere 27).</value>
   </data>
   <data name="CheatSheetFormFeed" xml:space="preserve">
-    <value>Form feed</value>
+    <value>Alimentação de formulário</value>
   </data>
   <data name="CheatSheetFormFeedDetails" xml:space="preserve">
-    <value>Matches a FORM FEED character (char code 12).</value>
+    <value>Corresponde a um caractere FORM FEED (código de caractere 12).</value>
   </data>
   <data name="CheatSheetGroupConditional" xml:space="preserve">
-    <value>Group conditional</value>
+    <value>Condicional de grupo</value>
   </data>
   <data name="CheatSheetGroupConditionalDetails" xml:space="preserve">
-    <value>Conditionally matches one of two options based on whether group 'undefined' matched.
-For example, /(z)?(?(1)a|b)/ will match za because the first capture group matches z successfully, which causes the conditional to match the first option a.
+    <value>Corresponde condicionalmente a uma de duas opções com base em se o grupo 'indefinido' correspondeu.
+Por exemplo, /(z)?(?(1)a|b)/ corresponderá a za porque o primeiro grupo de captura corresponde a z com sucesso, o que faz com que o condicional corresponda à primeira opção a.
 
-The same pattern will also match b on its own, because group 1 doesn't match, so it instead tries to match the second option b.
+O mesmo padrão também corresponderá a b por conta própria, porque o grupo 1 não corresponde, então ele tenta corresponder à segunda opção b.
 
-You can reference a group by name, number, or relative position (ex. -1).</value>
+Você pode referenciar um grupo por nome, número ou posição relativa (por exemplo, -1).</value>
   </data>
   <data name="CheatSheetHexadecimalEscape" xml:space="preserve">
-    <value>Hexadecimal escape</value>
+    <value>Escape hexadecimal</value>
   </data>
   <data name="CheatSheetHexadecimalEscapeDetails" xml:space="preserve">
-    <value>Hexadecimal escaped character in the form \xFF.</value>
+    <value>Caractere com escape hexadecimal no formato \xFF.</value>
   </data>
   <data name="CheatSheetHorizontalWhitespace" xml:space="preserve">
-    <value>Horizontal whitespace</value>
+    <value>Espaço em branco horizontal</value>
   </data>
   <data name="CheatSheetHorizontalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any horizontal whitespace character (spaces, tabs).</value>
+    <value>Corresponde a qualquer caractere de espaço em branco horizontal (espaços, tabulações).</value>
   </data>
   <data name="CheatSheetKeepOut" xml:space="preserve">
-    <value>Keep out</value>
+    <value>Manter fora</value>
   </data>
   <data name="CheatSheetKeepOutDetails" xml:space="preserve">
-    <value>Keep text matched so far out of the returned match, essentially discarding the match up to this point.For example /o\Kbar/ will match bar within the string foobar</value>
+    <value>Mantenha o texto correspondido até agora fora da correspondência retornada, essencialmente descartando a correspondência até este ponto. Por exemplo, /o\Kbar/ corresponderá a bar dentro da string foobar</value>
   </data>
   <data name="CheatSheetLazy" xml:space="preserve">
-    <value>Lazy</value>
+    <value>Preguiçoso</value>
   </data>
   <data name="CheatSheetLazyDetails" xml:space="preserve">
-    <value>Makes the preceding quantifier lazy, causing it to match as few characters as possible. By default, quantifiers are greedy, and will match as many characters as possible.
-This behaviour is reversed by the ungreedy (U) flag/modifier.</value>
+    <value>Torna o quantificador anterior preguiçoso, fazendo com que ele corresponda ao menor número possível de caracteres. Por padrão, os quantificadores são "greedy" e corresponderão ao maior número possível de caracteres.
+Esse comportamento é revertido pelo sinalizador/modificador "ungreedy" (U).</value>
   </data>
   <data name="CheatSheetLineBreak" xml:space="preserve">
-    <value>Line break</value>
+    <value>Quebra de linha</value>
   </data>
   <data name="CheatSheetLineBreakDetails" xml:space="preserve">
-    <value>Matches any line break character, including the CRLF pair, and CR / LF individually.</value>
+    <value>Corresponde a qualquer caractere de quebra de linha, incluindo o par CRLF e CR/LF individualmente.</value>
   </data>
   <data name="CheatSheetLineFeed" xml:space="preserve">
-    <value>Line feed</value>
+    <value>Alimentação de linha</value>
   </data>
   <data name="CheatSheetLineFeedDetails" xml:space="preserve">
-    <value>Matches a LINE FEED character (char code 10).</value>
+    <value>Corresponde a um caractere LINE FEED (código de caractere 10).</value>
   </data>
   <data name="CheatSheetMatch" xml:space="preserve">
-    <value>Match</value>
+    <value>Correspondência</value>
   </data>
   <data name="CheatSheetMatchAny" xml:space="preserve">
-    <value>Match any</value>
+    <value>Corresponder a qualquer</value>
   </data>
   <data name="CheatSheetMatchAnyDetails" xml:space="preserve">
-    <value>A character set that can be used to match any character, including line breaks, without the dotall flag (s).</value>
+    <value>Um conjunto de caracteres que pode ser usado para corresponder a qualquer caractere, incluindo quebras de linha, sem o sinalizador dotall (s).</value>
   </data>
   <data name="CheatSheetMatchDetails" xml:space="preserve">
-    <value>Inserts the matched text.
-There are multiple syntaxes for this feature:
+    <value>Insere o texto correspondente.
+Existem várias sintaxes para este recurso:
 
 $0 \0 \{0}</value>
   </data>
   <data name="CheatSheetModeModifier" xml:space="preserve">
-    <value>Mode modifier</value>
+    <value>Modificador de modo</value>
   </data>
   <data name="CheatSheetModeModifierDetails" xml:space="preserve">
-    <value>Enables or disables modes for the remainder of the expression.Matching modes generally map to expression flags. For example (?i) would enable case insensitivity for the remainder of the expression.
-Multiple modifiers can be specified, and any modifiers that follow - are disabled. For example (?im-s) would enable case insensitivity &amp; multiline modes, and disable dotall.
+    <value>Habilita ou desabilita modos para o restante da expressão. Os modos de correspondência geralmente são mapeados para sinalizadores de expressão. Por exemplo, (?i) habilitará a insensibilidade a maiúsculas e minúsculas para o restante da expressão.
+Vários modificadores podem ser especificados e quaisquer modificadores que seguem - são desabilitados. Por exemplo, (?im-s) habilitará os modos de insensibilidade a maiúsculas e minúsculas e multilinha e desabilitará o dotall.
 
-Supported modifiers are: i - case insensitive, s - dotall, m - multiline, x - free spacing, J - allow duplicate names, U - ungreedy.</value>
+Os modificadores suportados são: i - insensível a maiúsculas e minúsculas, s - dotall, m - multilinha, x - espaçamento livre, J - permite nomes duplicados, U - "ungreedy".</value>
   </data>
   <data name="CheatSheetNamedCapturingGroup" xml:space="preserve">
-    <value>Named capturing group</value>
+    <value>Grupo de captura nomeado</value>
   </data>
   <data name="CheatSheetNamedCapturingGroupDetails" xml:space="preserve">
-    <value>Creates a capturing group that can be referenced via the specified name.
-There are multiple syntaxes for this feature:
+    <value>Cria um grupo de captura que pode ser referenciado por meio do nome especificado.
+Existem várias sintaxes para este recurso:
 
 (?'name'ABC) (?P&lt;name&gt;ABC) (?&lt;name&gt;ABC)</value>
   </data>
   <data name="CheatSheetNamedReference" xml:space="preserve">
-    <value>Named reference</value>
+    <value>Referência nomeada</value>
   </data>
   <data name="CheatSheetNamedReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a named capture group.
-There are multiple syntaxes for this feature:
+    <value>Corresponde aos resultados de um grupo de captura nomeado.
+Existem várias sintaxes para este recurso:
 
 \k'name' \k&lt;name&gt; \k{name} \g{name} (?P=name)</value>
   </data>
   <data name="CheatSheetNamedSubroutine" xml:space="preserve">
-    <value>Named subroutine</value>
+    <value>Sub-rotina nomeada</value>
   </data>
   <data name="CheatSheetNamedSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result.
-There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
+    <value>Corresponde à expressão em um grupo de captura. Compare isso com uma referência, que corresponde ao resultado.
+Existem várias sintaxes para este recurso: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
   </data>
   <data name="CheatSheetNegatedCharacterSet" xml:space="preserve">
-    <value>A character except A, b or c</value>
+    <value>Um caractere, exceto A, b ou c</value>
   </data>
   <data name="CheatSheetNegatedCharacterSetDetails" xml:space="preserve">
-    <value>Match any character that is not A, b or c.</value>
+    <value>Corresponde a qualquer caractere que não seja A, b ou c.</value>
   </data>
   <data name="CheatSheetNegativeLookahead" xml:space="preserve">
-    <value>Negative lookahead</value>
+    <value>Olhar à frente negativo</value>
   </data>
   <data name="CheatSheetNegativeLookaheadDetails" xml:space="preserve">
-    <value>Specifies a group that can not match after the main expression (if it matches, the result is discarded).</value>
+    <value>Especifica um grupo que não pode corresponder após a expressão principal (se corresponder, o resultado é descartado).</value>
   </data>
   <data name="CheatSheetNegativeLookbehind" xml:space="preserve">
-    <value>Negative lookbehind</value>
+    <value>Olhar para trás negativo</value>
   </data>
   <data name="CheatSheetNegativeLookbehindDetails" xml:space="preserve">
-    <value>Specifies a group that can not match before the main expression (if it matches, the result is discarded).</value>
+    <value>Especifica um grupo que não pode corresponder antes da expressão principal (se corresponder, o resultado é descartado).</value>
   </data>
   <data name="CheatSheetNonCapturingGroup" xml:space="preserve">
-    <value>Non-capturing group</value>
+    <value>Grupo sem captura</value>
   </data>
   <data name="CheatSheetNonCapturingGroupDetails" xml:space="preserve">
-    <value>Groups multiple tokens together without creating a capture group.</value>
+    <value>Agrupa vários tokens sem criar um grupo de captura.</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
-    <value>Not digit</value>
+    <value>Não dígito</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
-    <value>Matches any character that is not a digit character (0-9). Equivalent to [^0-9].</value>
+    <value>Corresponde a qualquer caractere que não seja um caractere de dígito (0-9). Equivalente a [^0-9].</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespace" xml:space="preserve">
-    <value>Not horizontal whitespace</value>
+    <value>Não espaço em branco horizontal</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a horizontal whitespace character (spaces, tabs).</value>
+    <value>Corresponde a qualquer caractere que não seja um caractere de espaço em branco horizontal (espaços, tabulações).</value>
   </data>
   <data name="CheatSheetNotLineBreak" xml:space="preserve">
-    <value>Not line break</value>
+    <value>Não quebra de linha</value>
   </data>
   <data name="CheatSheetNotLineBreakDetails" xml:space="preserve">
-    <value>Matches any character that is not a line break. Similar to dot (.) but is unaffected by the dotall flag (s).</value>
+    <value>Corresponde a qualquer caractere que não seja uma quebra de linha. Semelhante a ponto (.), mas não é afetado pelo sinalizador dotall (s).</value>
   </data>
   <data name="CheatSheetNotUnicodeCategory" xml:space="preserve">
-    <value>Not unicode category</value>
+    <value>Não categoria unicode</value>
   </data>
   <data name="CheatSheetNotUnicodeCategoryDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode category.</value>
+    <value>Corresponde a qualquer caractere que não esteja na categoria unicode especificada.</value>
   </data>
   <data name="CheatSheetNotUnicodeScript" xml:space="preserve">
-    <value>Not unicode script</value>
+    <value>Não script unicode</value>
   </data>
   <data name="CheatSheetNotUnicodeScriptDetails" xml:space="preserve">
-    <value>Matches any character that is not in the specified unicode script.</value>
+    <value>Corresponde a qualquer caractere que não esteja no script unicode especificado.</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespace" xml:space="preserve">
-    <value>Not vertical whitespace</value>
+    <value>Não espaço em branco vertical</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a vertical whitespace character (line breaks).</value>
+    <value>Corresponde a qualquer caractere que não seja um caractere de espaço em branco vertical (quebras de linha).</value>
   </data>
   <data name="CheatSheetNotWhitespace" xml:space="preserve">
-    <value>Not whitespace</value>
+    <value>Não espaço em branco</value>
   </data>
   <data name="CheatSheetNotWhitespaceDetails" xml:space="preserve">
-    <value>Matches any character that is not a whitespace character (spaces, tabs, line breaks).</value>
+    <value>Corresponde a qualquer caractere que não seja um caractere de espaço em branco (espaços, tabulações, quebras de linha).</value>
   </data>
   <data name="CheatSheetNotWord" xml:space="preserve">
-    <value>Not word</value>
+    <value>Não palavra</value>
   </data>
   <data name="CheatSheetNotWordBoundary" xml:space="preserve">
-    <value>Not word boundary</value>
+    <value>Não limite de palavra</value>
   </data>
   <data name="CheatSheetNotWordBoundaryDetails" xml:space="preserve">
-    <value>Matches any position that is not a word boundary. This matches a position, not a character.</value>
+    <value>Corresponde a qualquer posição que não seja um limite de palavra. Isso corresponde a uma posição, não a um caractere.</value>
   </data>
   <data name="CheatSheetNotWordDetails" xml:space="preserve">
-    <value>Matches any character that is not a word character (alphanumeric &amp; underscore). Equivalent to [^A-Za-z0-9_]</value>
+    <value>Corresponde a qualquer caractere que não seja um caractere de palavra (alfanumérico e sublinhado). Equivalente a [^A-Za-z0-9_]</value>
   </data>
   <data name="CheatSheetNull" xml:space="preserve">
-    <value>Null</value>
+    <value>Nulo</value>
   </data>
   <data name="CheatSheetNullDetails" xml:space="preserve">
-    <value>Matches a NULL character (char code 0).</value>
+    <value>Corresponde a um caractere NULL (código de caractere 0).</value>
   </data>
   <data name="CheatSheetNumericReference" xml:space="preserve">
-    <value>Numeric reference</value>
+    <value>Referência numérica</value>
   </data>
   <data name="CheatSheetNumericReferenceDetails" xml:space="preserve">
-    <value>Matches the results of a capture group. For example \1 matches the results of the first capture group &amp; \3 matches the third.
-There are multiple syntaxes for this feature: \1 \g1 \g{1}.
+    <value>Corresponde aos resultados de um grupo de captura. Por exemplo, \1 corresponde aos resultados do primeiro grupo de captura e \3 corresponde ao terceiro.
+Existem várias sintaxes para este recurso: \1 \g1 \g{1}.
 
-The latter syntaxes support relative values preceded by + or -. For example \g-1 would match the group preceding the reference.</value>
+As últimas sintaxes suportam valores relativos precedidos por + ou -. Por exemplo, \g-1 corresponderia ao grupo anterior à referência.</value>
   </data>
   <data name="CheatSheetNumericSubroutine" xml:space="preserve">
-    <value>Numeric subroutine</value>
+    <value>Sub-rotina numéric</value>
   </data>
   <data name="CheatSheetNumericSubroutineDetails" xml:space="preserve">
-    <value>Matches the expression in a capture group. Compare this to a reference, that matches the result. For example /(a|b)\g'1'/ can match ab, because the expression a|b is evaluated again.
-There are multiple syntaxes for this feature: \g&lt;1&gt; \g'1' (?1).
+    <value>Corresponde à expressão em um grupo de captura. Compare isso com uma referência, que corresponde ao resultado. Por exemplo, /(a|b)\g'1'/ pode corresponder a ab, porque a expressão a|b é avaliada novamente.
+Existem várias sintaxes para este recurso: \g&lt;1&gt; \g'1' (?1).
 
-Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; would match the group preceding the reference.</value>
+Valores relativos precedidos por + ou - também são suportados. Por exemplo, \g&lt;-1&gt; corresponderia ao grupo anterior à referência.</value>
   </data>
   <data name="CheatSheetOctalEscape" xml:space="preserve">
-    <value>Octal escape</value>
+    <value>Escape octal</value>
   </data>
   <data name="CheatSheetOctalEscapeDetails" xml:space="preserve">
-    <value>Octal escaped character in the form \000. Value must be less than 255 (\377).
-The syntax \o{FFF} is also supported.</value>
+    <value>Caractere com escape octal no formato \000. O valor deve ser menor que 255 (\377).
+A sintaxe \o{FFF} também é suportada.</value>
   </data>
   <data name="CheatSheetOptional" xml:space="preserve">
-    <value>Optional</value>
+    <value>Opcional</value>
   </data>
   <data name="CheatSheetOptionalDetails" xml:space="preserve">
-    <value>Matches 0 or 1 of the preceding token, effectively making it optional.</value>
+    <value>Corresponde a 0 ou 1 do token anterior, tornando-o efetivamente opcional.</value>
   </data>
   <data name="CheatSheetPlus" xml:space="preserve">
-    <value>Plus</value>
+    <value>Mais</value>
   </data>
   <data name="CheatSheetPlusDetails" xml:space="preserve">
-    <value>Matches 1 or more of the preceding token.</value>
+    <value>Corresponde a 1 ou mais do token anterior.</value>
   </data>
   <data name="CheatSheetPositiveLookahead" xml:space="preserve">
-    <value>Positive lookahead</value>
+    <value>Olhar à frente positivo</value>
   </data>
   <data name="CheatSheetPositiveLookaheadDetails" xml:space="preserve">
-    <value>Matches a group after the main expression without including it in the result.</value>
+    <value>Corresponde a um grupo após a expressão principal sem incluí-lo no resultado.</value>
   </data>
   <data name="CheatSheetPositiveLookbehind" xml:space="preserve">
-    <value>Positive lookbehind</value>
+    <value>Olhar para trás positivo</value>
   </data>
   <data name="CheatSheetPositiveLookbehindDetails" xml:space="preserve">
-    <value>Matches a group before the main expression without including it in the result.</value>
+    <value>Corresponde a um grupo antes da expressão principal sem incluí-lo no resultado.</value>
   </data>
   <data name="CheatSheetPossessive" xml:space="preserve">
-    <value>Possessive</value>
+    <value>Possessivo</value>
   </data>
   <data name="CheatSheetPossessiveDetails" xml:space="preserve">
-    <value>Makes the preceding quantifier possessive. It will match as many characters as possible, and will not release them to match subsequent tokens.
-For example /.*a/ would match aaa, but /.*+a/ would not, because the repeating dot would match and not release the last character to match a.</value>
+    <value>Torna o quantificador anterior possessivo. Ele corresponderá a tantos caracteres quanto possível e não os liberará para corresponder aos tokens subsequentes.
+Por exemplo, /.*a/ corresponderia a aaa, mas /.*+a/ não corresponderia, porque o ponto de repetição corresponderia e não liberaria o último caractere para corresponder a a.</value>
   </data>
   <data name="CheatSheetPreviousMatchEnd" xml:space="preserve">
-    <value>Previous match end</value>
+    <value>Fim da correspondência anterior</value>
   </data>
   <data name="CheatSheetPreviousMatchEndDetails" xml:space="preserve">
-    <value>Matches the end position of the previous match. This matches a position, not a character.</value>
+    <value>Corresponde à posição final da correspondência anterior. Isso corresponde a uma posição, não a um caractere.</value>
   </data>
   <data name="CheatSheetQuantifier" xml:space="preserve">
-    <value>Quantifier</value>
+    <value>Quantificador</value>
   </data>
   <data name="CheatSheetQuantifierDetails" xml:space="preserve">
-    <value>Matches the specified quantity of the previous token. {1,3} will match 1 to 3. {3} will match exactly 3. {3,} will match 3 or more.</value>
+    <value>Corresponde à quantidade especificada do token anterior. {1,3} corresponderá a 1 a 3. {3} corresponderá exatamente a 3. {3,} corresponderá a 3 ou mais.</value>
   </data>
   <data name="CheatSheetRecursion" xml:space="preserve">
-    <value>Recursion</value>
+    <value>Recursão</value>
   </data>
   <data name="CheatSheetRecursionDetails" xml:space="preserve">
-    <value>Attempts to match the full expression again at the current position.
-For example, /a(?R)?b/ will match any number of a followed by the same number of z: the full text of az or aaaazzzz, but not azzz.
+    <value>Tenta corresponder à expressão completa novamente na posição atual.
+Por exemplo, /a(?R)?b/ corresponderá a qualquer número de a seguido pelo mesmo número de z: o texto completo de az ou aaaazzzz, mas não azzz.
 
-There are multiple syntaxes for this feature:
+Existem várias sintaxes para este recurso:
 
 (?R) (?0) \g&lt;0&gt; \g'0'</value>
   </data>
   <data name="CheatSheetReservedCharacters" xml:space="preserve">
-    <value>Reserved characters</value>
+    <value>Caracteres reservados</value>
   </data>
   <data name="CheatSheetReservedCharactersDetails" xml:space="preserve">
-    <value>The following character have special meaning, and should be preceded by a \ (backslash) to represent a literal character:
+    <value>Os seguintes caracteres têm significado especial e devem ser precedidos por \ (barra invertida) para representar um caractere literal:
 +*?^$\.[]{}()|/
 
-Within a character set, only \, -, and ] need to be escaped.</value>
+Dentro de um conjunto de caracteres, apenas \, - e ] precisam de escape.</value>
   </data>
   <data name="CheatSheetStar" xml:space="preserve">
-    <value>Star</value>
+    <value>Estrela</value>
   </data>
   <data name="CheatSheetStarDetails" xml:space="preserve">
-    <value>Matches 0 or more of the preceding token.</value>
+    <value>Corresponde a 0 ou mais do token anterior.</value>
   </data>
   <data name="CheatSheetStrictEndOfString" xml:space="preserve">
-    <value>Strict end of string</value>
+    <value>Fim estrito da string</value>
   </data>
   <data name="CheatSheetStrictEndOfStringDetails" xml:space="preserve">
-    <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
+    <value>Corresponde ao final da string. Ao contrário de $ ou \Z, ele não permite uma nova linha à direita. Isso não é afetado pelo sinalizador de várias linhas (m). Isso corresponde a uma posição, não a um caractere.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Sintaxe</value>
   </data>
   <data name="CheatSheetTab" xml:space="preserve">
-    <value>Tab</value>
+    <value>Tabulação</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
-    <value>Matches a TAB character (char code 9).</value>
+    <value>Corresponde a um caractere TAB (código de caractere 9).</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Folha de dicas</value>
   </data>
   <data name="CheatSheetUnicodeCategory" xml:space="preserve">
-    <value>Unicode category</value>
+    <value>Categoria Unicode</value>
   </data>
   <data name="CheatSheetUnicodeCategoryDetails" xml:space="preserve">
-    <value>Matches a character in the specified unicode category. For example, \p{Ll} will match any lowercase letter.</value>
+    <value>Corresponde a um caractere na categoria unicode especificada. Por exemplo, \p{Ll} corresponderá a qualquer letra minúscula.</value>
   </data>
   <data name="CheatSheetUnicodeEscape" xml:space="preserve">
-    <value>Unicode escape</value>
+    <value>Escape Unicode</value>
   </data>
   <data name="CheatSheetUnicodeEscapeDetails" xml:space="preserve">
-    <value>Unicode escaped character in the form \x{FF}.</value>
+    <value>Caractere com escape Unicode no formato \x{FF}.</value>
   </data>
   <data name="CheatSheetUnicodeGrapheme" xml:space="preserve">
-    <value>Unicode grapheme</value>
+    <value>Grafema Unicode</value>
   </data>
   <data name="CheatSheetUnicodeGraphemeDetails" xml:space="preserve">
-    <value>Matches any single unicode grapheme (ie. character). This includes line breaks (regardless of the dotall mode) and graphemes encoded as multiple code points.</value>
+    <value>Corresponde a qualquer grafema unicode único (ou seja, caractere). Isso inclui quebras de linha (independentemente do modo dotall) e grafemas codificados como vários pontos de código.</value>
   </data>
   <data name="CheatSheetUnicodeScript" xml:space="preserve">
-    <value>Unicode script</value>
+    <value>Script Unicode</value>
   </data>
   <data name="CheatSheetUnicodeScriptDetails" xml:space="preserve">
-    <value>Matches any character in the specified unicode script. For example, \p{Arabic} will match characters in the Arabic script.</value>
+    <value>Corresponde a qualquer caractere no script unicode especificado. Por exemplo, \p{Arabic} corresponderá a caracteres no script árabe.</value>
   </data>
   <data name="CheatSheetVerticalWhitespace" xml:space="preserve">
-    <value>Vertical whitespace</value>
+    <value>Espaço em branco vertical</value>
   </data>
   <data name="CheatSheetVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any vertical whitespace character (line breaks).</value>
+    <value>Corresponde a qualquer caractere de espaço em branco vertical (quebras de linha).</value>
   </data>
   <data name="CheatSheetWhitespace" xml:space="preserve">
-    <value>Whitespace</value>
+    <value>Espaço em branco</value>
   </data>
   <data name="CheatSheetWhitespaceDetails" xml:space="preserve">
-    <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
+    <value>Corresponde a qualquer caractere de espaço em branco (espaços, tabulações, quebras de linha).</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>Palavra</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
-    <value>Word boundary</value>
+    <value>Limite de palavra</value>
   </data>
   <data name="CheatSheetWordBoundaryDetails" xml:space="preserve">
-    <value>Matches a word boundary position between a word character and non-word character or position (start / end of string). See the word character class (w) for more info.</value>
+    <value>Corresponde a uma posição de limite de palavra entre um caractere de palavra e um caractere ou posição que não seja de palavra (início/fim da string). Consulte a classe de caracteres de palavra (w) para obter mais informações.</value>
   </data>
   <data name="CheatSheetWordDetails" xml:space="preserve">
-    <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
+    <value>Corresponde a qualquer caractere de palavra (alfanumérico e sublinhado). Corresponde apenas a caracteres ASCII baixos (sem caracteres acentuados ou não romanos). Equivalente a [A-Za-z0-9_]</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuração</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
-    <value>Culture Invariant</value>
+    <value>Cultura Invariante</value>
   </data>
   <data name="CultureInvariantDescription" xml:space="preserve">
-    <value>Specifies that cultural differences in language is ignored.</value>
+    <value>Especifica que as diferenças culturais na linguagem são ignoradas.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate and test regular expressions</value>
+    <value>Validar e testar expressões regulares</value>
   </data>
   <data name="EcmaScript" xml:space="preserve">
     <value>ECMA Script</value>
   </data>
   <data name="EcmaScriptDescription" xml:space="preserve">
-    <value>Enables ECMAScript-compliant behavior for the expression. This value can be used only in conjunction with the Culture Invariant, Ignore Case and Multiline options.</value>
+    <value>Habilita o comportamento compatível com ECMAScript para a expressão. Este valor pode ser usado apenas em conjunto com as opções Cultura Invariante, Ignorar Maiúsculas/Minúsculas e Multilinha.</value>
   </data>
   <data name="IgnoreCase" xml:space="preserve">
-    <value>Ignore Case</value>
+    <value>Ignorar Maiúsculas/Minúsculas</value>
   </data>
   <data name="IgnoreCaseDescription" xml:space="preserve">
-    <value>Specifies case-insensitive matching.</value>
+    <value>Especifica correspondência que não diferencia maiúsculas de minúsculas.</value>
   </data>
   <data name="IgnoreWhitespace" xml:space="preserve">
-    <value>Ignore Whitespace</value>
+    <value>Ignorar Espaço em Branco</value>
   </data>
   <data name="IgnoreWhitespaceDescription" xml:space="preserve">
-    <value>Eliminates unescaped white space from the pattern and enables comments marked with #. However, this value does not affect or eliminate white space in character classes, numeric quantifiers, or tokens that mark the beginning of individual regular expression language elements.</value>
+    <value>Elimina espaços em branco sem escape do padrão e habilita comentários marcados com #. No entanto, este valor não afeta ou elimina espaços em branco em classes de caracteres, quantificadores numéricos ou tokens que marcam o início de elementos de linguagem de expressão regular individuais.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Regular Expression Tester</value>
+    <value>Testador de Expressão Regular</value>
   </data>
   <data name="MatchGroupPrefix" xml:space="preserve">
-    <value>Group</value>
+    <value>Grupo</value>
   </data>
   <data name="MatchInformation" xml:space="preserve">
-    <value>Match information</value>
+    <value>Informações de correspondência</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
-    <value>Location</value>
+    <value>Localização</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>Nome</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
-    <value>Match</value>
+    <value>Correspondência</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Valor</value>
   </data>
   <data name="Multiline" xml:space="preserve">
-    <value>Multiline</value>
+    <value>Multilinha</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
-    <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
+    <value>Altera o significado de ^ e $ para que eles correspondam ao início e ao fim, respectivamente, de qualquer linha, e não apenas ao início e ao fim de toda a string.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>Opções</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>Expressão regular</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
-    <value>Right To Left</value>
+    <value>Da direita para a esquerda</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
-    <value>Specifies that the search will be from right to left instead of from left to right.</value>
+    <value>Especifica que a pesquisa será da direita para a esquerda em vez de da esquerda para a direita.</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>regular expression</value>
+    <value>expressão regular</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>RegEx</value>
   </data>
   <data name="Singleline" xml:space="preserve">
-    <value>Singleline</value>
+    <value>Linha única</value>
   </data>
   <data name="SinglelineDescription" xml:space="preserve">
-    <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
+    <value>Altera o significado do ponto (.) para que ele corresponda a todos os caracteres (em vez de todos os caracteres, exceto \n).</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
 </root>
