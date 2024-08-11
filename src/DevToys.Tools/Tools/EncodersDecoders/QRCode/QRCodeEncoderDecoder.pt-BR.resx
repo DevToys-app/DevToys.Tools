@@ -118,37 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta Codificadora e Decodificadora de Código QR</value>
+    <value>Ferramenta de Codificação e Decodificação de QR Code</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Leia ou gere um código QR a partir de um texto. Pode ser exportado como SVG.</value>
+    <value>Leia ou gere um QR Code a partir de um texto. Pode ser exportado como SVG.</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
     <value>Exportar como SVG</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>Código QR</value>
+    <value>QR Code</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Caminho do arquivo de imagem contendo um código QR para decodificar / caminho do arquivo de texto contendo o texto a converter para um código QR</value>
+    <value>Caminho do arquivo de imagem contendo um QR Code para decodificar / caminho do arquivo de texto contendo o texto a ser convertido em um QR Code</value>
   </data>
   <data name="InputText" xml:space="preserve">
     <value>Texto</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Codificador / Decodificador de Código QR</value>
+    <value>odificador / Decodificador de QR Code</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>Nenhum código QR encontrado nesta imagem</value>
+    <value>Nenhum QR Code encontrado nesta imagem</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Caminho para o arquivo de saída</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>URL do código QR</value>
+    <value>URL do QR Code</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Código QR</value>
+    <value>QR Code</value>
   </data>
 </root>
