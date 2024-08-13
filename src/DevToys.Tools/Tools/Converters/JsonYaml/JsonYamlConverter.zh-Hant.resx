@@ -133,7 +133,7 @@
     <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>將 JSON 資料轉換為 YAML，反之亦然</value>
+    <value>在 JSON 與 YAML 格式之間相互轉換</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 個空格</value>
@@ -163,7 +163,7 @@
     <value>&lt;無效的 YAML 資料&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON 至 YAML</value>
+    <value>JSON 轉 YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML 轉換器</value>
@@ -181,6 +181,6 @@
     <value>2 個空格</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML 至 JSON</value>
+    <value>YAML 轉 JSON</value>
   </data>
 </root>

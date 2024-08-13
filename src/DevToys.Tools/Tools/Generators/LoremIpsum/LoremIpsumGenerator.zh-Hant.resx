@@ -130,10 +130,10 @@
     <value>產生測試用假文 (Lorem Ipsum) 文章</value>
   </data>
   <data name="LengthDescription" xml:space="preserve">
-    <value>產生的單詞、句子、或段落數量</value>
+    <value>產生的單詞、句子或段落數量</value>
   </data>
   <data name="LengthOptionDescription" xml:space="preserve">
-    <value>產生的單詞、句子、或段落數量</value>
+    <value>產生的單詞、句子或段落數量</value>
   </data>
   <data name="LengthTitle" xml:space="preserve">
     <value>長度</value>

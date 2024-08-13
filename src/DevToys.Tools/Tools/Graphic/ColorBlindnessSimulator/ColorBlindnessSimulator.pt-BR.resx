@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta de Simulação de Cor para Daltonismo</value>
+    <value>Ferramenta Simulador de Daltonismo</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Simular as cores do daltonismo em uma foto ou captura de tela</value>
+    <value>Simular daltonismo em uma imagem ou captura de tela</value>
   </data>
   <data name="DeuteranopiaSimulation" xml:space="preserve">
-    <value>Simulação de Deuteranopia</value>
+    <value>Simulação de deuteranopia</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Caminho de arquivo de imagem para tratar</value>
+    <value>Caminho do arquivo de imagem para tratar</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Simulador de cores do daltonismo</value>
+    <value>Simulador de Daltonismo</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
     <value>Original</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Diretório onde o resultado deveria ser persistido. Por padrão, use o diretório de arquivo de entrada</value>
+    <value>Diretório onde o resultado deve ser salvo. Por padrão, usa o diretório do arquivo de entrada</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Simulação de Protanopia</value>
+    <value>Simulação de protanopia</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonismo Daltonist</value>
+    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonismo Daltônico</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Simulador de cor de cegueira</value>
+    <value>Simulador de Daltonismo</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Esconde o progresso da operação de hash</value>
+    <value>Oculta o progresso da operação de hash</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>Simulação de Tritanopia</value>
+    <value>Simulação de tritanopia</value>
   </data>
 </root>

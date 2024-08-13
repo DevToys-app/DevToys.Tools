@@ -151,13 +151,13 @@
     <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
-    <value>Leading comma</value>
+    <value>逗號前置</value>
   </data>
   <data name="LeadingCommaDescription" xml:space="preserve">
-    <value>Whether to use leading commas or not</value>
+    <value>是否要使用前置逗號</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>SQL格式化工具</value>
+    <value>SQL 格式化工具</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -169,7 +169,7 @@
     <value>N1QL</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 個 Tab</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>輸出</value>

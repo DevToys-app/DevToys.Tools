@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta para geração de Hash e Validador de soma</value>
+    <value>Ferramenta Geradora de Hash e Checksum</value>
   </data>
   <data name="ChecksumVerificationFailed" xml:space="preserve">
-    <value>FALHA</value>
+    <value>FALHOU</value>
   </data>
   <data name="ChecksumVerificationOptionDescription" xml:space="preserve">
-    <value>Um texto ou arquivo contendo o verificador de soma para verificar a integridade do dado</value>
+    <value>Um texto ou arquivo contendo um checksum para verificar a integridade dos dados</value>
   </data>
   <data name="ChecksumVerificationSucceeded" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="ChecksumVerificationTitle" xml:space="preserve">
-    <value>Validador de soma para verificar a integridade do dado</value>
+    <value>Checksum para verificar a integridade dos dados</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuração</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Cacular hash a partir do texto ou dado binário</value>
+    <value>Calcular hash a partir de texto ou dados binários</value>
   </data>
   <data name="HashAlgorithmOptionDescription" xml:space="preserve">
     <value>O tipo de hash para gerar</value>
@@ -148,16 +148,16 @@
     <value>Os hashes são diferentes</value>
   </data>
   <data name="HashingAlgorithmDescription" xml:space="preserve">
-    <value>Selecione qual algoritmo de hash você quer usar</value>
+    <value>Selecione qual algoritmo de hash você deseja usar</value>
   </data>
   <data name="HashingAlgorithmTitle" xml:space="preserve">
     <value>Algoritmo de Hash</value>
   </data>
   <data name="HmacSecret" xml:space="preserve">
-    <value>Chave secreta para usar o gerador de HMAC hash</value>
+    <value>Chave secreta para usar para gerar um hash HMAC</value>
   </data>
   <data name="HmacSecretOptionDescription" xml:space="preserve">
-    <value>Chave secreta para usar o gerador de HMAC hash</value>
+    <value>Chave secreta para usar para gerar um hash HMAC</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Texto ou caminho para um arquivo para hash</value>
@@ -166,10 +166,10 @@
     <value>Texto de entrada</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Por favor especifique um texto de entrada ou um arquivo de entrada</value>
+    <value>Especifique um texto de entrada ou um arquivo de entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Hash / Validador de soma Gerador</value>
+    <value>Gerador de Hash / Checksum</value>
   </data>
   <data name="Or" xml:space="preserve">
     <value>ou</value>
@@ -178,15 +178,15 @@
     <value>Saída</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Hash / Validador de soma</value>
+    <value>Hash / Checksum</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Esconde o progresso da operação de hash</value>
+    <value>Oculta o progresso da operação de hash</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Se o hash gerado deveria estar em caixa alta ou não</value>
+    <value>Se o hash gerado deve estar em maiúsculas ou não</value>
   </data>
   <data name="UppercaseTitle" xml:space="preserve">
-    <value>Caixa alta</value>
+    <value>Maiúsculas</value>
   </data>
 </root>

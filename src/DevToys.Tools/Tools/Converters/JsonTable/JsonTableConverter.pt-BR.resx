@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta para converter array JSON em tabela</value>
+    <value>Ferramenta de conversão de array JSON para formulário tabular</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Array JSON para Tabela</value>
@@ -133,7 +133,7 @@
     <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>JSON CSV TSV Francês Excel Dado Tabular</value>
+    <value>JSON CSV TSV Excel Francês (CSV com ponto e vírgula) Dados Tabulares</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuração</value>
@@ -145,14 +145,14 @@
     <value>Saída</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Por favor, forneça um array de objetos JSON válido</value>
+    <value>Forneça um array JSON válido de objetos</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
     <value>Selecione qual formato é copiado para a Área de Transferência</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>Formato da Área de Transferência</value>
+    <value>Formato da área de transferência</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
     <value>Valores separados por vírgula (CSV)</value>
@@ -164,15 +164,15 @@
     <value>Valores separados por ponto e vírgula (CSV Francês)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Texto ou caminho para um arquivo para converter a partir de JSON</value>
+    <value>Texto ou caminho para um arquivo para converter de JSON</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Arquivo onde o resultado deve ser gravado.</value>
+    <value>Arquivo onde o resultado deve ser persistido.</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Selecione o formato de saída</value>
+    <value>Selecione qual formato para saída</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">

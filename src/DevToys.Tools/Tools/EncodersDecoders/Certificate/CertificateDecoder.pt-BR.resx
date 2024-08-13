@@ -127,13 +127,13 @@
     <value>O arquivo de entrada selecionado não existe</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Texto completo do certificado ou caminho para um arquivo de certificado para decodificar</value>
+    <value>Texto bruto do certificado ou caminho para um arquivo de certificado para decodificar</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Entrada</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Especifique um texto ou um arquivo de entrada</value>
+    <value>Especifique um texto de entrada ou um arquivo de entrada</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
     <value>Senha incorreta.</value>
@@ -161,6 +161,6 @@
     <value>Certificado</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
-    <value>Formato da Requisição de Certificado não suportado no momento.</value>
+    <value>O formato de Solicitação de Certificado não é compatível no momento.</value>
   </data>
 </root>

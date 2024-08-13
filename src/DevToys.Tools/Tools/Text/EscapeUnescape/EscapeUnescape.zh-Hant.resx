@@ -139,7 +139,7 @@
     <value>轉換</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Escapes or unescapes a string, removing characters that could prevent parsing.</value>
+    <value>跳脫或取消跳脫字串，移除會妨礙剖析的字元</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>所選擇的輸入檔案不存在</value>

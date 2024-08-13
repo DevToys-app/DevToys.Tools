@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta de converter imagem</value>
+    <value>Ferramenta Conversor de Imagem</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuração</value>
@@ -127,40 +127,40 @@
     <value>Conversão</value>
   </data>
   <data name="ConvertedFormatDescription" xml:space="preserve">
-    <value>Selecione o formato da imagem para converter</value>
+    <value>Selecione o formato de imagem para converter</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Deletar</value>
+    <value>Excluir</value>
   </data>
   <data name="DeleteAll" xml:space="preserve">
-    <value>Deletar tudo</value>
+    <value>Excluir tudo</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Converter imagem sem perdas</value>
+    <value>Conversor de imagem sem perdas</value>
   </data>
   <data name="FileSizeDisplay" xml:space="preserve">
     <value>{0:0.##} {1}</value>
     <comment>{0} is a decimal number representing a file size. {1} is a unit, like Bytes, KB, MB, GB, TB</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>O formato para converter a imagem para</value>
+    <value>O formato para o qual converter as imagens</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>A set of image file paths or directories that contain images to convert</value>
+    <value>Um conjunto de caminhos de arquivos de imagem ou diretórios que contêm imagens a serem convertidas</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Conversor de imagem</value>
+    <value>Conversor de Imagem</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
+    <value>Diretório onde o resultado deve ser salvo ou um único caminho de arquivo, se a entrada também for um único caminho de arquivo.</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
-    <value>Salve tudo</value>
+    <value>Salvar tudo</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
     <value>Salvar como</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Conversor de imagem</value>
+    <value>Conversor de Imagem</value>
   </data>
 </root>

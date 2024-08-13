@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta de comparação de listas</value>
+    <value>Ferramenta de comparação de lista</value>
   </data>
   <data name="AInterB" xml:space="preserve">
     <value>A ∩ B</value>
@@ -133,7 +133,7 @@
     <value>Somente B</value>
   </data>
   <data name="ComparisonOptionDescription" xml:space="preserve">
-    <value>Por favor, especifique o modo de comparação (A ∩ B, A ∪ B, Somente A, Somente B)</value>
+    <value>Especifique o modo de comparação (A ∩ B, A ∪ B, Somente A, Somente B)</value>
   </data>
   <data name="ComparisonOptionTitle" xml:space="preserve">
     <value>Modo de comparação</value>
@@ -142,10 +142,10 @@
     <value>Configuração</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compare duas listas</value>
+    <value>Comparar duas listas</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Arquivo de entrada selecionado não existe</value>
+    <value>O arquivo de entrada selecionado não existe</value>
   </data>
   <data name="ListA" xml:space="preserve">
     <value>A</value>
@@ -154,10 +154,10 @@
     <value>B</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>List Comparer</value>
+    <value>Comparador de Lista</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Caminho para um arquivo para obter a lista comparada (exibir se vazio)</value>
+    <value>Caminho para um arquivo para obter a lista comparada (exibir se estiver vazio)</value>
   </data>
   <data name="PathListA" xml:space="preserve">
     <value>Caminho da primeira lista para comparar</value>
@@ -166,9 +166,9 @@
     <value>Caminho da segunda lista para comparar</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>List Compare</value>
+    <value>Comparação de Lista</value>
   </data>
   <data name="TextCaseSensitiveComparison" xml:space="preserve">
-    <value>Comparação de Case sensitive</value>
+    <value>Comparação que diferencia maiúsculas de minúsculas</value>
   </data>
 </root>
