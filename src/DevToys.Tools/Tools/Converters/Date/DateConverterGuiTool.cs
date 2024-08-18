@@ -311,9 +311,15 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
 
         TimeZoneInfo timeZoneInfo = GetSelectedTimeZone();
         DateTimeOffset currentTime = _settingsProvider.GetSetting(DateConverterGuiTool.currentTimeSettings);
+        if (!int.TryParse(value, out int parsedValue))
+        {
+            _errorInfoBar.Description(DateConverter.InvalidValue);
+            _errorInfoBar.Open();
+            return;
+        }
 
         ResultInfo<DateTimeOffset> result = DateHelper.ChangeDateTime(
-            Convert.ToInt32(value),
+            parsedValue,
             currentTime,
             timeZoneInfo,
             valueChanged);
@@ -338,8 +344,15 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
 
         DateTimeOffset epochToUse = _settingsProvider.GetSetting(DateConverterGuiTool.customEpochSettings);
 
+        if (!int.TryParse(value, out int parsedValue))
+        {
+            _errorInfoBar.Description(DateConverter.InvalidValue);
+            _errorInfoBar.Open();
+            return;
+        }
+
         ResultInfo<DateTimeOffset> result = DateHelper.ChangeDateTime(
-            Convert.ToInt32(value),
+            parsedValue,
             epochToUse,
             TimeZoneInfo.Utc,
             valueChanged);
