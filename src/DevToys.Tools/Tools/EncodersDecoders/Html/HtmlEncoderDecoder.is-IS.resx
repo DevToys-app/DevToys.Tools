@@ -121,37 +121,37 @@
     <value>HTML Encoder and Decoder tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Uppsetning</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Afkóða</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Veldu hvaða breytingarham þú vilt nota</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Kóða</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode HTML</value>
+    <value>Hvort á að kóða eða afkóða HTML</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Umbreyting</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode HTML text data</value>
+    <value>Kóða og afkóða HTML textagögn</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or HTML to decode</value>
+    <value>Texti til að kóða eða HTML til að afkóða</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Inntak</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>HTML Text Encoder / Decoder</value>
+    <value>HTML Textakóðari / Afkóðari</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Úttak</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>HTML</value>
