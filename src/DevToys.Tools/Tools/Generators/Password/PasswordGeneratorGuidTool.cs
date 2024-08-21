@@ -132,6 +132,7 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
                                             NumberInput()
                                                 .HideCommandBar()
                                                 .Minimum(5)
+                                                .Maximum(128)
                                                 .OnValueChanged(OnLengthChanged)
                                                 .Value(_settingsProvider.GetSetting(length)))
                                         .WithSettings(
