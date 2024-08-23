@@ -21,7 +21,10 @@ internal sealed partial class MarkdownDataTypeDetector : IDataTypeDetector
     [GeneratedRegex("!\\[.*\\]\\(.*\\)", RegexOptions.Compiled)]
     private static partial Regex ImageRegex();
 
-    public ValueTask<DataDetectionResult> TryDetectDataAsync(object data, DataDetectionResult? resultFromBaseDetector, CancellationToken cancellationToken)
+    [GeneratedRegex("^(\\|.*)*\\|$", RegexOptions.Compiled | RegexOptions.Multiline)]
+    private static partial Regex TableRegex();
+
+    public ValueTask<DataDetectionResult> TryDetectDataAsync(object rawData, DataDetectionResult? resultFromBaseDetector, CancellationToken cancellationToken)
     {
         if (resultFromBaseDetector is not null
             && resultFromBaseDetector.Data is string dataString
@@ -32,7 +35,8 @@ internal sealed partial class MarkdownDataTypeDetector : IDataTypeDetector
                 || BoldRegex().IsMatch(dataString)
                 || ItalicRegex().IsMatch(dataString)
                 || LinkRegex().IsMatch(dataString)
-                || ImageRegex().IsMatch(dataString))
+                || ImageRegex().IsMatch(dataString)
+                || TableRegex().IsMatch(dataString))
             {
                 return ValueTask.FromResult(new DataDetectionResult(Success: true, Data: dataString));
             }
