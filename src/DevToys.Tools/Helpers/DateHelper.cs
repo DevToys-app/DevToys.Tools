@@ -55,18 +55,25 @@ internal static class DateHelper
         DateValueType valueChanged)
     {
         target = TimeZoneInfo.ConvertTime(target, timeZoneInfo);
-        DateTimeOffset result = valueChanged switch
+        try
         {
-            DateValueType.Year => ChangeYear(target, value),
-            DateValueType.Month => target.AddMonths(value - target.Month),
-            DateValueType.Day => target.AddDays(value - target.Day),
-            DateValueType.Hour => target.AddHours(value - target.Hour),
-            DateValueType.Minute => target.AddMinutes(value - target.Minute),
-            DateValueType.Second => target.AddSeconds(value - target.Second),
-            DateValueType.Millisecond => target.AddMilliseconds(value - target.Millisecond),
-            _ => throw new NotImplementedException(),
-        };
-        return new(result, true);
+            DateTimeOffset result = valueChanged switch
+            {
+                DateValueType.Year => ChangeYear(target, value),
+                DateValueType.Month => target.AddMonths(value - target.Month),
+                DateValueType.Day => target.AddDays(value - target.Day),
+                DateValueType.Hour => target.AddHours(value - target.Hour),
+                DateValueType.Minute => target.AddMinutes(value - target.Minute),
+                DateValueType.Second => target.AddSeconds(value - target.Second),
+                DateValueType.Millisecond => target.AddMilliseconds(value - target.Millisecond),
+                _ => throw new NotImplementedException(),
+            };
+            return new(result, true);
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            return new(target, false);
+        }
     }
 
     private static DateTimeOffset ChangeYear(DateTimeOffset target, int value)
