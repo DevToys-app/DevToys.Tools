@@ -232,7 +232,6 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                                         .Icon("FluentSystemIcons", '\ue243')
                                         .OnClick(() =>
                                         {
-                                            _settingsProvider.SetSetting(formatSettings, DateFormat.Seconds);
                                             _numberInputText.Text(DateHelper
                                                 .GetCurrentDateEpoch(_settingsProvider.GetSetting(formatSettings),
                                                     _settingsProvider.GetSetting(customEpochSettings),
@@ -246,7 +245,6 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                                     .Icon("FluentSystemIcons", '\ue243')
                                     .OnClick(() =>
                                     {
-                                        _settingsProvider.SetSetting(formatSettings, DateFormat.Seconds);
                                         _numberInputText.Text(DateHelper
                                             .GetCurrentDateEpoch(_settingsProvider.GetSetting(formatSettings),
                                                 _settingsProvider.GetSetting(customEpochSettings),
