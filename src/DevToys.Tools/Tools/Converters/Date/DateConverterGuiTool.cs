@@ -1,4 +1,4 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using DevToys.Tools.Helpers;
@@ -226,10 +226,33 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                                 .Step(1)
                                 .Minimum(-2177452704000000)
                                 // Ticks max value
-                                .Maximum(3155861951990000000),
+                                .Maximum(3155861951990000000)
+                                .CommandBarExtraContent(
+                                    Button()
+                                        .Icon("FluentSystemIcons", '\ue243')
+                                        .OnClick(() =>
+                                        {
+                                            _settingsProvider.SetSetting(formatSettings, DateFormat.Seconds);
+                                            _numberInputText.Text(DateHelper
+                                                .GetCurrentDateEpoch(_settingsProvider.GetSetting(formatSettings),
+                                                    _settingsProvider.GetSetting(customEpochSettings),
+                                                    _settingsProvider.GetSetting(useCustomEpochSettings)).ToString());
+                                        })
+                                ),
                             _iso8601FormatTextInput
                                 .Title(DateConverter.ISO8601Title)
-                                .OnTextChanged(OnISOChanged),
+                                .OnTextChanged(OnISOChanged)
+                                .CommandBarExtraContent(Button()
+                                    .Icon("FluentSystemIcons", '\ue243')
+                                    .OnClick(() =>
+                                    {
+                                        _settingsProvider.SetSetting(formatSettings, DateFormat.Seconds);
+                                        _numberInputText.Text(DateHelper
+                                            .GetCurrentDateEpoch(_settingsProvider.GetSetting(formatSettings),
+                                                _settingsProvider.GetSetting(customEpochSettings),
+                                                _settingsProvider.GetSetting(useCustomEpochSettings))
+                                            .ToString());
+                                    })),
                             DateTimeStack()
                         )
                 )
