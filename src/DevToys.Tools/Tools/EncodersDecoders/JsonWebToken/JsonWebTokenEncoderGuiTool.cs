@@ -434,8 +434,17 @@ internal sealed partial class JsonWebTokenEncoderGuiTool
     {
         DateTimeOffset epochToUse = _settingsProvider.GetSetting(tokenExpirationSettings);
 
+        if (!int.TryParse(value, out int parsedValue))
+        {
+            _infoBar
+                .Description("Please enter a valid date.")
+                .Error()
+                .Open();
+            return;
+        }
+        _infoBar.Close();
         ResultInfo<DateTimeOffset> result = DateHelper.ChangeDateTime(
-            Convert.ToInt32(value),
+            parsedValue,
             epochToUse,
             TimeZoneInfo.Utc,
             valueChanged);
