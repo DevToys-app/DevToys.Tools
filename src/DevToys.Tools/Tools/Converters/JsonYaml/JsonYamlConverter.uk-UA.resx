@@ -169,18 +169,18 @@
     <value>JSON &lt;&gt; YAML Converter</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Вивід</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Шлях до вихідного файлу</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 пробіли</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YAML у JSON</value>
   </data>
 </root>
