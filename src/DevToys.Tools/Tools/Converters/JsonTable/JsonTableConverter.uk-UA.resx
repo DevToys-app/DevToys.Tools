@@ -136,7 +136,7 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Налаштування</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Input</value>
@@ -176,9 +176,9 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Скопіювати як</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Зберегти як</value>
   </data>
 </root>
