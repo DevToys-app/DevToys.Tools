@@ -121,31 +121,31 @@
     <value>Number Base Converter tool</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>Розширений режим</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>Двійковий</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Налаштування</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
     <value>Please set at least two characters in the custom dictionary</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>Користувацький формат</value>
   </data>
   <data name="Decimal" xml:space="preserve">
-    <value>Decimal</value>
+    <value>Десятковий</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert numbers from one base to another</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>Форматувати число</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
-    <value>Hexadecimal</value>
+    <value>Шістнадцятковий</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Input</value>
