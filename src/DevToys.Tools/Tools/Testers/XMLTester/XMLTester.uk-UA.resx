@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Xml and XSD tester tool</value>
+    <value>Інструмент тестування Xml та XSD</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate XML data via an XSD scheme.</value>
+    <value>Перевірити XML-дані через схему XSD.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>XML / XSD Тестер</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
@@ -151,10 +151,10 @@
     <value>Validation result will always be 'valid' since the XML does not define these namespace(s) defined in the XSD: {0}</value>
   </data>
   <data name="XmlValidMessage" xml:space="preserve">
-    <value>XML is compliant to the defined XSD scheme.</value>
+    <value>XML є сумісним з визначеною схемою XSD.</value>
   </data>
   <data name="XsdNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XSD does not define these namespace(s) defined in the XML: {0}</value>
+    <value>Результат перевірки завжди буде 'valid' оскільки XSD не визначає наступні простори імен, визначені в XML: {0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
     <value>Please specify an input XML</value>
@@ -163,15 +163,15 @@
     <value>Please specify an input XSD</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
-    <value>XML file selected doesn't exist.</value>
+    <value>Вибраний XML-файл не існує.</value>
   </data>
   <data name="XmlOptionDescription" xml:space="preserve">
-    <value>Text or path to a XML file to treat.</value>
+    <value>Текст або шлях до XML-файлу для обробки.</value>
   </data>
   <data name="XsdFileNotFound" xml:space="preserve">
-    <value>XSD file selected doesn't exist.</value>
+    <value>Вибраний файл XSD не існує.</value>
   </data>
   <data name="XsdOptionDescription" xml:space="preserve">
-    <value>Text or path to a XSD file to treat.</value>
+    <value>Текст або шлях до файлу XSD для обробки.</value>
   </data>
 </root>
