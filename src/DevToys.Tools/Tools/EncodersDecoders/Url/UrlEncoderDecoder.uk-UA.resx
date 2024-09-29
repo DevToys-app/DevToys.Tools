@@ -124,7 +124,7 @@
     <value>Configuration</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Декодувати</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
@@ -148,7 +148,7 @@
     <value>Input</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>URL Encoder / Decoder</value>
+    <value>URL енкодер / декодер</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Output</value>
