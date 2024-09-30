@@ -139,10 +139,10 @@
     <value>XML</value>
   </data>
   <data name="TargetNamespaceNotDefinedInXml" xml:space="preserve">
-    <value>Validation result will potentially always be 'valid' since the XML does not reference the following "targetNamespace" defined in the XSD: {0}</value>
+    <value>Перевірка результату імовірно завжди буде 'valid' оскільки XML не посилається на наступний "targetNamespace", визначений в XSD: {0}</value>
   </data>
   <data name="ValidationImpossibleMsg" xml:space="preserve">
-    <value>XML and XSD content must be set in order to perform a validation.</value>
+    <value>Вміст XML та XSD має відповідати вимогам для виконання перевірки.</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
     <value>Перевірка не вдалася з невідомої причини.</value>
@@ -157,10 +157,10 @@
     <value>Результат перевірки завжди буде 'valid' оскільки XSD не визначає наступні простори імен, визначені в XML: {0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XML</value>
+    <value>Будь ласка, вкажіть XML файл вводу</value>
   </data>
   <data name="InvalidXsdOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XSD</value>
+    <value>Будь ласка, вкажіть XSD файл вводу</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
     <value>Вибраний XML-файл не існує.</value>
