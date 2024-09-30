@@ -145,10 +145,10 @@
     <value>XML and XSD content must be set in order to perform a validation.</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
-    <value>Validation failed for an unknown reason.</value>
+    <value>Перевірка не вдалася з невідомої причини.</value>
   </data>
   <data name="XmlNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XML does not define these namespace(s) defined in the XSD: {0}</value>
+    <value>Результат перевірки завжди буде 'valid' оскільки XML не визначає наступні простори імен, визначені в XSD: {0}</value>
   </data>
   <data name="XmlValidMessage" xml:space="preserve">
     <value>XML є сумісним з визначеною схемою XSD.</value>
