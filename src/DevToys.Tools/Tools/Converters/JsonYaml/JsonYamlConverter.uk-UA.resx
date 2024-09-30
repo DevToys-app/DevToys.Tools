@@ -127,16 +127,16 @@
     <value>Select which conversion mode you want to use</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to convert from Json or Yaml</value>
+    <value>Чи конвертувати з Json чи Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Перетворення</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert JSON data to YAML and vice versa</value>
+    <value>Конвертація JSON в YAML і навпаки</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 пробіли</value>
   </data>
   <data name="Indentation" xml:space="preserve">
     <value>Відступ</value>
@@ -154,7 +154,7 @@
     <value>Текст або шлях до файлу, щоб перетворити з json або yaml</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Будь ласка, вкажіть вхідний текст або вхідний файл</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
     <value>&lt;Недійсні дані JSON&gt;</value>
@@ -166,7 +166,7 @@
     <value>JSON у YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>Конвертація JSON &lt;&gt; YAML</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Вивід</value>
