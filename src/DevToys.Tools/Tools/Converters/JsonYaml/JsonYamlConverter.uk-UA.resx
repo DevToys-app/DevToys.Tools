@@ -121,7 +121,7 @@
     <value>JSON to YAML and YAML to JSON converter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Налаштування</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
@@ -139,10 +139,10 @@
     <value>4 spaces</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Відступ</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Виберіть тип відступів, який ви хочете використовувати</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Input</value>
@@ -151,19 +151,19 @@
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from json or yaml</value>
+    <value>Текст або шлях до файлу, щоб перетворити з json або yaml</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
-    <value>&lt;Invalid JSON data&gt;</value>
+    <value>&lt;Недійсні дані JSON&gt;</value>
   </data>
   <data name="InvalidYaml" xml:space="preserve">
-    <value>&lt;Invalid Yaml data&gt;</value>
+    <value>&lt;Недійсні дані Yaml&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON у YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML Converter</value>
