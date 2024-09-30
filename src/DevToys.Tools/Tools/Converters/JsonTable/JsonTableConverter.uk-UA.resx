@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON array to tabular form converter tool</value>
+    <value>Інструмент перетворення масиву JSON у табулярну форм</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Масив JSON на таблицю</value>
@@ -129,11 +129,11 @@
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>JSON &gt; Table</value>
+    <value>JSON &gt; таблиця</value>
     <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>JSON CSV TSV French Excel Tabular Data</value>
+    <value>JSON CSV TSV французький Excel Табулярні Дані</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Налаштування</value>
@@ -145,11 +145,11 @@
     <value>Output</value>
   </data>
   <data name="JsonError" xml:space="preserve">
-    <value>Please provide a valid JSON array of objects</value>
+    <value>Будь ласка, вкажіть правильний масив об'єктів JSON</value>
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>Виберіть, який формат скопійовано до буфера обміну</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
     <value>Формат буфера обміну</value>
@@ -161,14 +161,14 @@
     <value>Значення, розділені табуляцією (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>Semicolon separated values (CSV French)</value>
+    <value>Значення, розділених крапкою з комою (французька CSV)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>Текст або шлях до файлу для перетворення з JSON</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>File where the result should be persisted.</value>
+    <value>Файл, куди слід зберігати результат.</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
