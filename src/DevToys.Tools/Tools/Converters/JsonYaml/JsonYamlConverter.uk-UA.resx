@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON to YAML and YAML to JSON converter tool</value>
+    <value>Інструмент конвертування JSON в YAML та YAML в JSON</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Налаштування</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Виберіть режим перетворення, який ви хочете використовувати</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Чи конвертувати з Json чи Yaml</value>
@@ -145,10 +145,10 @@
     <value>Виберіть тип відступів, який ви хочете використовувати</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Поле введення</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Обраний вхідний файл не існує.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Текст або шлях до файлу, щоб перетворити з json або yaml</value>
