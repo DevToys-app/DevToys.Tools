@@ -133,16 +133,16 @@
     <comment>Sidebar heading</comment>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>JSON CSV TSV французький Excel Табулярні Дані</value>
+    <value>JSON CSV TSV французький Excel Табличні дані</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Налаштування</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Поле введення</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Вивід</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Будь ласка, вкажіть правильний масив об'єктів JSON</value>
@@ -172,7 +172,7 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Select which format to output</value>
+    <value>Виберіть формат виводу</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
