@@ -151,7 +151,7 @@
     <value>Input</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>The base of the number to convert</value>
+    <value>Основа числа для перетворення</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
     <value>Input dictionary</value>
