@@ -130,7 +130,7 @@
     <value>Налаштування</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>Будь ласка, вкажіть принаймні два символи у користувацькому словнику</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
     <value>Користувацький формат</value>
@@ -139,7 +139,7 @@
     <value>Десятковий</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>Перетворити числа з однієї основи на іншу</value>
   </data>
   <data name="Format" xml:space="preserve">
     <value>Форматувати число</value>
@@ -154,26 +154,26 @@
     <value>Основа числа для перетворення</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>Вхідний словник</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
+    <value>Число для перетворення</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Number Base Converter</value>
+    <value>Перетворювач систем числення</value>
   </data>
   <data name="Octal" xml:space="preserve">
-    <value>Octal</value>
+    <value>Вісімковий</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Output</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>The desired base to convert to.</value>
+    <value>Бажана база для перетворення.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>Output dictionary</value>
+    <value>Вихідний словник</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -182,23 +182,23 @@
     <value>RFC-4648 Base32</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Extended Hex</value>
+    <value>RFC-4648 Base32 розширений Hex</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
     <value>RFC-4648 Base64</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Url Encode</value>
+    <value>RFC-4648 Base64 Url код</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Number Base</value>
+    <value>Системи числення</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>The current {0} value isn't valid</value>
+    <value>Поточне значення {0} не вірне</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>The current {0} value cannot be converted as it exceeds the maximum value ({1})</value>
+    <value>Поточне значення {0} не можна конвертувати через перевищення максимального значення ({1})</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>
