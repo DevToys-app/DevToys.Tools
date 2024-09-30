@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT Encoder and Decoder tool</value>
+    <value>JWT Kóðunar og Afkóðunartól</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>The "acr" claim with a value of 0 indicates the end-user authentication didn't meet the requirements of ISO/IEC 29115.</value>
+    <value>„Acr“ krafan með gildið 0 gefur til kynna að auðkenning notenda uppfyllti ekki kröfur ISO/IEC 29115.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
-    <value>The "acrs" claim indicates the Auth Context IDs of the operations that the bearer is eligible to perform. Auth Context IDs can be used to trigger a demand for step-up authentication from within your application and services. Often used along with the xms_cc claim.</value>
+    <value>„Acrs“ krafan gefur til kynna auðkenni Auth Context IDs sem handhafi er hæfur til að framkvæma. Auth Context ID er hægt að nota til að kalla fram kröfu um aukna auðkenningu innan úr forritinu þínu og þjónustu. Oft notað ásamt xms_cc fullyrðingunni.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>The "aio" claim is an internal claim used by Microsoft Entra ID to record data for token reuse. Resources shouldn't use this claim.</value>
+    <value>"Aio" krafan er innri krafa notuð af Microsoft Entra ID til að skrá gögn fyrir endurnotkun tóka. Tilföng ættu ekki að nota þessa kröfu.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
