@@ -437,7 +437,7 @@ internal sealed partial class JsonWebTokenEncoderGuiTool
         if (!int.TryParse(value, out int parsedValue))
         {
             _infoBar
-                .Description("Please enter a valid date.")
+                .Description(JsonWebTokenEncoderDecoder.InvalidDateValue)
                 .Error()
                 .Open();
             return;
