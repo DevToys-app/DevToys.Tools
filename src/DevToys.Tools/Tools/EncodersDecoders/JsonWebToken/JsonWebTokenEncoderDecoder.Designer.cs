@@ -518,7 +518,18 @@ namespace DevToys.Tools.Tools.EncodersDecoders.JsonWebToken {
                 return ResourceManager.GetString("idp", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Date is an invalid value.
+        /// </summary>
+        internal static string InvalidDateValue
+        {
+            get
+            {
+                return ResourceManager.GetString("InvalidDateValue", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Expiartion Date is invalid.
         /// </summary>
