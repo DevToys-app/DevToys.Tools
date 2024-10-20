@@ -497,4 +497,8 @@
     <value>Signature format</value>
     <comment>Gui</comment>
   </data>
+  <data name="InvalidDateValue" xml:space="preserve">
+    <value>Date is an invalid value.</value>
+    <comment>Error message</comment>
+  </data>
 </root>
