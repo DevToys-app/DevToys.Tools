@@ -498,7 +498,7 @@
     <comment>Gui</comment>
   </data>
   <data name="InvalidDateValue" xml:space="preserve">
-    <value>Date is an invalid value.</value>
+    <value>日期的值无效。</value>
     <comment>Error message</comment>
   </data>
 </root>
