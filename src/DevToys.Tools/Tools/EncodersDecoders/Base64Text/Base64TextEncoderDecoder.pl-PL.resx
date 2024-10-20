@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Text Encoder and Decoder tool</value>
+    <value>Narzędzie do kodowania i dekodowania Base64</value>
   </data>
   <data name="Ascii" xml:space="preserve">
     <value>ASCII</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguracja</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Dekoduj</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Wybierz tryb konwersji, którego chcesz użyć</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Enkoduj</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Whether to encode or decode Base64 text</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Konwersja</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode Base64 text data</value>
+    <value>Koduj i dekoduj dane tekstowe Base64</value>
   </data>
   <data name="EncodingDescription" xml:space="preserve">
-    <value>Select which encoding you want to use</value>
+    <value>Wybierz kodowanie, którego chcesz użyć</value>
   </data>
   <data name="EncodingOptionDescription" xml:space="preserve">
     <value>Encoding</value>
