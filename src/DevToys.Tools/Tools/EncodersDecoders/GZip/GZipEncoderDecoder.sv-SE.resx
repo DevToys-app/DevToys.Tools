@@ -121,10 +121,10 @@
     <value>GZip Compressor and Decompressor tool</value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
-    <value>Compress</value>
+    <value>Komprimera</value>
   </data>
   <data name="CompressionModeDecompress" xml:space="preserve">
-    <value>Decompress</value>
+    <value>Packa upp</value>
   </data>
   <data name="CompressionModeDescription" xml:space="preserve">
     <value>Select whether the input should be compressed or decompressed</value>

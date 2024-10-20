@@ -121,13 +121,13 @@
     <value>UUID Generator tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Generate UUIDs version 1 and 4 (GUID)</value>
   </data>
   <data name="GenerateButton" xml:space="preserve">
-    <value>Generate UUID(s)</value>
+    <value>產生 UUID</value>
   </data>
   <data name="GenerateTitle" xml:space="preserve">
     <value>產生</value>
@@ -136,7 +136,7 @@
     <value>連字號</value>
   </data>
   <data name="HyphensOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should have hyphens or not</value>
+    <value>產生的 UUID 是否要包含連字號</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>UUID 產生器</value>
@@ -157,7 +157,7 @@
     <value>大寫</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
-    <value>Whether the generated UUID should be in uppercase or not</value>
+    <value>產生的 UUID 要使用小寫或大寫</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -169,12 +169,12 @@
     <value>7</value>
   </data>
   <data name="VersionDescription" xml:space="preserve">
-    <value>Choose the version of UUID to generate</value>
+    <value>選取要產生的 UUID 版本</value>
   </data>
   <data name="VersionOptionDescription" xml:space="preserve">
-    <value>The UUID version to generate</value>
+    <value>產生的 UUID 版本</value>
   </data>
   <data name="VersionTitle" xml:space="preserve">
-    <value>UUID version</value>
+    <value>UUID 版本</value>
   </data>
 </root>

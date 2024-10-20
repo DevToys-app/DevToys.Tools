@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>List comparer tool</value>
+    <value>Alat Pembanding Daftar</value>
   </data>
   <data name="AInterB" xml:space="preserve">
     <value>A ∩ B</value>
   </data>
   <data name="AOnly" xml:space="preserve">
-    <value>A Only</value>
+    <value>Hanya A</value>
   </data>
   <data name="AUnionB" xml:space="preserve">
     <value>A ∪ B</value>
   </data>
   <data name="BOnly" xml:space="preserve">
-    <value>B Only</value>
+    <value>Hanya B</value>
   </data>
   <data name="ComparisonOptionDescription" xml:space="preserve">
-    <value>Please specify comparison mode (A ∩ B, A ∪ B, A Only, B Only)</value>
+    <value>Silakan tentukan mode perbandingan (A ∩ B, A ∪ B, A Saja, B Saja)</value>
   </data>
   <data name="ComparisonOptionTitle" xml:space="preserve">
-    <value>Comparison mode</value>
+    <value>Mode perbandingan</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compare two lists</value>
+    <value>Bandingkan dua daftar</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>File masukan yang dipilih tidak ada</value>
   </data>
   <data name="ListA" xml:space="preserve">
     <value>A</value>
@@ -154,21 +154,21 @@
     <value>B</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>List Comparer</value>
+    <value>Pembanding Daftar</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to a file to get compared list (display if empty)</value>
+    <value>Jalur ke file untuk mendapatkan daftar yang dibandingkan (ditampilkan jika kosong)</value>
   </data>
   <data name="PathListA" xml:space="preserve">
-    <value>Path of the first list to compare</value>
+    <value>Jalur daftar pertama yang dibandingkan</value>
   </data>
   <data name="PathListB" xml:space="preserve">
-    <value>Path of the second list to compare</value>
+    <value>Jalur daftar kedua yang dibandingkan</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>List Compare</value>
+    <value>Pembanding Daftar</value>
   </data>
   <data name="TextCaseSensitiveComparison" xml:space="preserve">
-    <value>Case sensitive comparison</value>
+    <value>Perbandingan peka huruf besar-kecil</value>
   </data>
 </root>

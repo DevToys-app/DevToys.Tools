@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -154,7 +154,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aud" xml:space="preserve">
-    <value>The "aud" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim. If the principal processing the claim does not identify itself with a value in the "aud" claim when this claim is present, then the JWT MUST be rejected. In the general case, the "aud" value is an array of case- sensitive strings, each containing a StringOrURI value. In the special case when the JWT has one audience, the "aud" value MAY be a single case-sensitive string containing a StringOrURI value. The interpretation of audience values is generally application specific. Use of this claim is OPTIONAL.</value>
+    <value>「aud」(audience，接受者) 宣告用來識別 JWT 的接收方。每個預期要處理 JWT 的當事方必須在受眾宣告中標識自己。如果處理宣告的當事方在存在此宣告時未在「aud」宣告中標識自己，則必須拒絕該 JWT。在一般情況下，「aud」值是一個區分大小寫的字串陣列，每個字串包含一個 StringOrURI 值。在 JWT 僅有一個受眾的特殊情況下，「aud」值可以是單個包含 StringOrURI 的字串，區分大小寫。如何處理接受者通常是由應用程式所指定。此宣告的使用與否是選擇性的。</value>
     <comment>Claim</comment>
   </data>
   <data name="azp" xml:space="preserve">
@@ -178,7 +178,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
@@ -186,19 +186,19 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>Validate actors</value>
+    <value>驗證執行者</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
-    <value>Token audiences (separated by comma)</value>
+    <value>Token 接受者 (以逗號分隔)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>Validate audiences</value>
+    <value>驗證接受者</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>Token 簽發者 (以逗號分隔)</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerSigningKeyTitle" xml:space="preserve">
@@ -214,7 +214,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>Select which token parameters to validate</value>
+    <value>選擇要驗證的 token 參數</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
@@ -230,7 +230,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
-    <value>Encode</value>
+    <value>編碼</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
@@ -238,35 +238,35 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>Token audience (separated by comma)</value>
+    <value>Token 接受者 (以逗號分隔)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">
-    <value>到期時間（日）</value>
+    <value>到期時間 (日)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationHourInputTitle" xml:space="preserve">
-    <value>到期時間（小時）</value>
+    <value>到期時間 (時)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMinuteInputTitle" xml:space="preserve">
-    <value>到期時間（分鐘）</value>
+    <value>到期時間 (分)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationMonthInputTitle" xml:space="preserve">
-    <value>到期時間（月）</value>
+    <value>到期時間 (月)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationYearInputTitle" xml:space="preserve">
-    <value>到期時間（年）</value>
+    <value>到期時間 (年)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasAudienceTitle" xml:space="preserve">
-    <value>Token has audience</value>
+    <value>Token 具有接受者</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasExpirationTitle" xml:space="preserve">
-    <value>Token has expiration</value>
+    <value>Token 已過有效日期</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasIssuerTitle" xml:space="preserve">
@@ -274,7 +274,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenIssuerInputTitle" xml:space="preserve">
-    <value>Token issuer (separated by comma)</value>
+    <value>Token 簽發者 (以逗號分隔)</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenSettingsDescription" xml:space="preserve">
@@ -286,7 +286,7 @@
     <comment>Gui</comment>
   </data>
   <data name="exp" xml:space="preserve">
-    <value>The "exp" (expiration time) claim identifies the expiration time on or after which the JWT MUST NOT be accepted for processing. The processing of the "exp" claim requires that the current date/time MUST be before the expiration date/time listed in the "exp" claim. Implementers MAY provide for some small leeway, usually no more than a few minutes, to account for clock skew. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>「exp」(expiration time，到期時間) 宣告用來識別 JWT 在該時間或之後不應被接受處理。「exp」宣告的處理要求目前日期或時間必須在「exp」宣告列出的到期日期與時間之前。實作者可以保留一定容錯範圍，通常不超過幾分鐘，以解決時鐘的誤差。其值必須是一個包含 NumericDate 的數字。此宣告的使用與否是選擇性的。</value>
     <comment>Claim</comment>
   </data>
   <data name="groups" xml:space="preserve">
@@ -338,7 +338,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="nbf" xml:space="preserve">
-    <value>The "nbf" (not before) claim identifies the time before which the JWT MUST NOT be accepted for processing. The processing of the "nbf" claim requires that the current date/time MUST be after or equal to the not-before date/time listed in the "nbf" claim. Implementers MAY provide for some small leeway, usually no more than a few minutes, to account for clock skew. Its value MUST be a number containing a NumericDate value. Use of this claim is OPTIONAL.</value>
+    <value>「nbf」(not before，不早於) 宣告用來識別 JWT 在該時間之前不應被接受處理。「nbf」宣告的處理要求目前日期或時間必須在「nbf」宣告列出的日期與時間之後。實作者可以保留一定容錯範圍，通常不超過幾分鐘，以解決時鐘的誤差。其值必須是一個包含 NumericDate 的數字。此宣告的使用與否是選擇性的。</value>
     <comment>Claim</comment>
   </data>
   <data name="No" xml:space="preserve">
@@ -366,7 +366,7 @@
     <comment>Gui</comment>
   </data>
   <data name="PublicKeyNotSupported" xml:space="preserve">
-    <value>This type of public key is not supported</value>
+    <value>不支援此公鑰類型</value>
     <comment>Error message</comment>
   </data>
   <data name="rh" xml:space="preserve">
@@ -378,7 +378,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="scp" xml:space="preserve">
-    <value>The "scp" claim indicate the set of scopes exposed by the application for which the client application has requested (and received) consent. Only included for user tokens.</value>
+    <value>「scp」宣告表示客戶端應用程式已請求並取得同意的應用程式所公開的範圍。僅用於使用者的 token。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -390,7 +390,7 @@
     <comment>Gui</comment>
   </data>
   <data name="sub" xml:space="preserve">
-    <value>The "sub" (subject) claim identifies the principal that is the subject of the JWT. The claims in a JWT are normally statements about the subject.  The subject value MUST either be scoped to be locally unique in the context of the issuer or be globally unique. The processing of this claim is generally application specific. The "sub" value is a case-sensitive string containing a StringOrURI value.  Use of this claim is OPTIONAL.</value>
+    <value>「sub」(subject，主體) 宣告用來識別 JWT 的主體。JWT 中的宣告通常是關於主體的陳述。主體的值必須在簽發者的環境中具有本機唯一性或具有全域唯一性。如何處理此宣告通常是由應用程式所指定。「sub」值是一個包含 StringOrURI 的字串，區分大小寫。此宣告的使用與否是選擇性的。</value>
     <comment>Claim</comment>
   </data>
   <data name="tid" xml:space="preserve">
@@ -406,7 +406,7 @@
     <comment>Error message</comment>
   </data>
   <data name="ToolModeDescription" xml:space="preserve">
-    <value>Select which mode you want to use</value>
+    <value>選擇您想要使用的模式</value>
     <comment>Gui</comment>
   </data>
   <data name="ToolModeTitle" xml:space="preserve">
@@ -418,7 +418,7 @@
     <comment>Claim</comment>
   </data>
   <data name="unique_name" xml:space="preserve">
-    <value>The "unique_name" claim provides a human readable value that identifies the subject of the token.</value>
+    <value>「unique_name」宣告提供一個具可讀性的值，以識別該 token 的主體。</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="uti" xml:space="preserve">
@@ -426,7 +426,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ValidAudiencesEmptyError" xml:space="preserve">
-    <value>Audiences are empty or invalid</value>
+    <value>接受者空白或無效</value>
     <comment>Error message</comment>
   </data>
   <data name="ValidIssuersEmptyError" xml:space="preserve">
@@ -454,23 +454,23 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Token has default time</value>
+    <value>Token 設有預設時間</value>
     <comment>Gui</comment>
   </data>
   <data name="InvalidHeader" xml:space="preserve">
-    <value>Unable to process the token header</value>
+    <value>無法處理 token 標頭</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPayload" xml:space="preserve">
-    <value>Unable to process the token payload</value>
+    <value>無法處理 token 內容</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPrivateKey" xml:space="preserve">
-    <value>Private key is either null or empty</value>
+    <value>私鑰無效或空白</value>
     <comment>Error message</comment>
   </data>
   <data name="InvalidPublicKey" xml:space="preserve">
-    <value>Public key is either null or empty</value>
+    <value>公鑰無效或空白</value>
     <comment>Error message</comment>
   </data>
   <data name="PrivateKeyInputTitle" xml:space="preserve">
@@ -496,5 +496,9 @@
   <data name="SignatureFormat" xml:space="preserve">
     <value>簽章格式</value>
     <comment>Gui</comment>
+  </data>
+  <data name="InvalidDateValue" xml:space="preserve">
+    <value>Date is an invalid value.</value>
+    <comment>Error message</comment>
   </data>
 </root>

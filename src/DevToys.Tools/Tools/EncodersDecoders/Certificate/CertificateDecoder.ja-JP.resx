@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>証明書データの展開ツール</value>
+    <value>証明書デコーダツール</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>証明書のデータをデコードして内容を確認します</value>
+    <value>証明書をデコードする</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>指定されたファイルが見つかりません</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>展開する Raw データ またはファイルのパス</value>
+    <value>デコードする生の証明書テキストもしくはパス</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>入力</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>テキストの入力、またはファイルを指定してください</value>
+    <value>入力するテキストまたはファイルを指定してください</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
     <value>パスワードが間違っています。</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>証明書の展開と確認</value>
+    <value>証明書デコーダー</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>保存先のパス</value>
+    <value>出力先のパス</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>出力</value>
@@ -154,13 +154,13 @@
     <value>パスワード</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>CER PFX PEM CRT X.509</value>
+    <value>CER PFX PEM CRT</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>証明書</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
-    <value>証明書署名要求(CSR)フォーマットは現在サポートされていません。</value>
+    <value>証明書署名要求 (CSR) フォーマットは現在サポートされていません。</value>
   </data>
 </root>

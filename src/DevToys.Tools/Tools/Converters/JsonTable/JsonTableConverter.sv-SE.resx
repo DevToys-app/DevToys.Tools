@@ -176,9 +176,9 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>Kopiera som</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Spara som</value>
   </data>
 </root>

@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Lorem Ipsum Generator tool</value>
+    <value>測試文章產生工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="CorpusOptionDescription" xml:space="preserve">
-    <value>Text corpus to use</value>
+    <value>要使用的語料庫</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generate Lorem Ipsum (or similar) placeholder text</value>
+    <value>產生測試用假文 (Lorem Ipsum) 文章</value>
   </data>
   <data name="LengthDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>產生的單詞、句子或段落數量</value>
   </data>
   <data name="LengthOptionDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>產生的單詞、句子或段落數量</value>
   </data>
   <data name="LengthTitle" xml:space="preserve">
     <value>長度</value>
@@ -175,10 +175,10 @@
     <value>Tierra y Luna (Federico García Lorca), Spanish</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
-    <value>Text corpus</value>
+    <value>文字語料庫</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum Generator</value>
+    <value>測試文章產生器</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>輸出</value>
@@ -193,10 +193,10 @@
     <value>句子</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum</value>
+    <value>測試文章</value>
   </data>
   <data name="TypeDescription" xml:space="preserve">
-    <value>Generate words, sentences or paragraphs of Lorem Ipsum</value>
+    <value>產生測試用單詞、句子或段落文章</value>
   </data>
   <data name="TypeOptionDescription" xml:space="preserve">
     <value>Whether words, sentences or paragraphs should be generated</value>

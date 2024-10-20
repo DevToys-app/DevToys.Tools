@@ -1,4 +1,4 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using DevToys.Tools.Helpers;
@@ -226,10 +226,31 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                                 .Step(1)
                                 .Minimum(-2177452704000000)
                                 // Ticks max value
-                                .Maximum(3155861951990000000),
+                                .Maximum(3155861951990000000)
+                                .CommandBarExtraContent(
+                                    Button()
+                                        .Icon("FluentSystemIcons", '\ue243')
+                                        .OnClick(() =>
+                                        {
+                                            _numberInputText.Text(DateHelper
+                                                .GetCurrentDateEpoch(_settingsProvider.GetSetting(formatSettings),
+                                                    _settingsProvider.GetSetting(customEpochSettings),
+                                                    _settingsProvider.GetSetting(useCustomEpochSettings)).ToString());
+                                        })
+                                ),
                             _iso8601FormatTextInput
                                 .Title(DateConverter.ISO8601Title)
-                                .OnTextChanged(OnISOChanged),
+                                .OnTextChanged(OnISOChanged)
+                                .CommandBarExtraContent(Button()
+                                    .Icon("FluentSystemIcons", '\ue243')
+                                    .OnClick(() =>
+                                    {
+                                        _numberInputText.Text(DateHelper
+                                            .GetCurrentDateEpoch(_settingsProvider.GetSetting(formatSettings),
+                                                _settingsProvider.GetSetting(customEpochSettings),
+                                                _settingsProvider.GetSetting(useCustomEpochSettings))
+                                            .ToString());
+                                    })),
                             DateTimeStack()
                         )
                 )
@@ -311,9 +332,15 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
 
         TimeZoneInfo timeZoneInfo = GetSelectedTimeZone();
         DateTimeOffset currentTime = _settingsProvider.GetSetting(DateConverterGuiTool.currentTimeSettings);
+        if (!int.TryParse(value, out int parsedValue))
+        {
+            _errorInfoBar.Description(DateConverter.InvalidValue);
+            _errorInfoBar.Open();
+            return;
+        }
 
         ResultInfo<DateTimeOffset> result = DateHelper.ChangeDateTime(
-            Convert.ToInt32(value),
+            parsedValue,
             currentTime,
             timeZoneInfo,
             valueChanged);
@@ -338,8 +365,15 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
 
         DateTimeOffset epochToUse = _settingsProvider.GetSetting(DateConverterGuiTool.customEpochSettings);
 
+        if (!int.TryParse(value, out int parsedValue))
+        {
+            _errorInfoBar.Description(DateConverter.InvalidValue);
+            _errorInfoBar.Open();
+            return;
+        }
+
         ResultInfo<DateTimeOffset> result = DateHelper.ChangeDateTime(
-            Convert.ToInt32(value),
+            parsedValue,
             epochToUse,
             TimeZoneInfo.Utc,
             valueChanged);

@@ -121,19 +121,19 @@
     <value>HTML 編碼及解碼工具</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
     <value>解碼</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>選擇您想要使用的轉換模式</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
     <value>編碼</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode HTML</value>
+    <value>要編碼或解碼 HTML</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>轉換</value>

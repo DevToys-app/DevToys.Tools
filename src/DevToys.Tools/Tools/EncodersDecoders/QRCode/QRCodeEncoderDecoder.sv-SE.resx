@@ -127,7 +127,7 @@
     <value>Export as SVG</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>QR Code</value>
+    <value>QR-kod</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
@@ -139,7 +139,7 @@
     <value>QR Code Encoder / Decoder</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>No QR Code found in this image</value>
+    <value>Ingen QR-kod hittades i den här bilden</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
@@ -149,6 +149,6 @@
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>QR Code</value>
+    <value>QR-kod</value>
   </data>
 </root>

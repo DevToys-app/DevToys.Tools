@@ -121,7 +121,7 @@
     <value>SQL 格式化工具</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Db2" xml:space="preserve">
     <value>Db2</value>
@@ -136,7 +136,7 @@
     <value>縮排</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>選擇您想要使用的縮排方式</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>輸入</value>
@@ -145,19 +145,19 @@
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the sql to format</value>
+    <value>要格式化的 SQL 文字或檔案路徑</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
-    <value>Leading comma</value>
+    <value>逗號前置</value>
   </data>
   <data name="LeadingCommaDescription" xml:space="preserve">
-    <value>Whether to use leading commas or not</value>
+    <value>是否要使用前置逗號</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>SQL 格式化工具</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -169,7 +169,7 @@
     <value>N1QL</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 tab</value>
+    <value>1 個 Tab</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>輸出</value>
@@ -187,7 +187,7 @@
     <value>Amazon Redshift</value>
   </data>
   <data name="SearchDisplayName" xml:space="preserve">
-    <value>SQL Formatter</value>
+    <value>SQL 格式化工具</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>SQL</value>
@@ -202,7 +202,7 @@
     <value>Which SQL language to use</value>
   </data>
   <data name="StandardSql" xml:space="preserve">
-    <value>Standard SQL</value>
+    <value>標準 SQL</value>
   </data>
   <data name="TransactSql" xml:space="preserve">
     <value>Transact-SQL</value>

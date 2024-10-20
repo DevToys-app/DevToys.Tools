@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text analyzer, converter and utilities tool</value>
+    <value>文字分析、轉換與實用工具</value>
   </data>
   <data name="ActionsOptionDescription" xml:space="preserve">
     <value>A set of treatments to apply to the input text. Actions are performed in the order they're set.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetize</value>
+    <value>字母順序遞增</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
-    <value>Alphabetize by last word</value>
+    <value>尾字字母順序遞增</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
     <value>交替式大小寫</value>
@@ -139,28 +139,28 @@
     <value>小駝峰式大小寫</value>
   </data>
   <data name="CharacterFrequency" xml:space="preserve">
-    <value>Character frequency</value>
+    <value>字頻</value>
   </data>
   <data name="Characters" xml:space="preserve">
-    <value>Characters</value>
+    <value>字元</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
-    <value>COBOL-CASE</value>
+    <value>COBOL 式全大寫</value>
   </data>
   <data name="ConstantCase" xml:space="preserve">
-    <value>CONSTANT_CASE</value>
+    <value>常數式全大寫</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
     <value>轉換大小寫</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Convert line break</value>
+    <value>轉換換行符號</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Analyze text and provide some basic utility tools</value>
+    <value>分析文字並提供一些基本的實用工具</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
-    <value>Line break</value>
+    <value>換行</value>
   </data>
   <data name="EndOfLineSequenceCR" xml:space="preserve">
     <value>CR (\r)</value>
@@ -172,19 +172,19 @@
     <value>LF (\n)</value>
   </data>
   <data name="EndOfLineSequenceMixed" xml:space="preserve">
-    <value>Mixed</value>
+    <value>混合</value>
   </data>
   <data name="EndOfLineSequenceUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>未知</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>所選擇的輸入檔案不存在。</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to treat.</value>
+    <value>要處理的文字或檔案路徑。</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>請指定輸入文字或檔案</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
     <value>反轉大小寫</value>
@@ -193,10 +193,10 @@
     <value>串燒式小寫</value>
   </data>
   <data name="Lines" xml:space="preserve">
-    <value>Lines</value>
+    <value>行數</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>文字分析與實用工具</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
     <value>小寫</value>
@@ -220,10 +220,10 @@
     <value>反轉</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
-    <value>Reverse alphabetize</value>
+    <value>字母順序遞減</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>Reverse alphabetize by last word</value>
+    <value>尾字字母順序遞減</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>string</value>
@@ -250,10 +250,10 @@
     <value>句子式大小寫</value>
   </data>
   <data name="Sentences" xml:space="preserve">
-    <value>Sentences</value>
+    <value>句子</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>文字分析與實用工具</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
     <value>顯示原文</value>
@@ -262,7 +262,7 @@
     <value>蛇型式大小寫</value>
   </data>
   <data name="SortLines" xml:space="preserve">
-    <value>Sort lines</value>
+    <value>以行排序</value>
   </data>
   <data name="Statistics" xml:space="preserve">
     <value>統計資料</value>
@@ -289,7 +289,7 @@
     <value>大寫</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
-    <value>詞語頻率</value>
+    <value>詞頻</value>
   </data>
   <data name="Words" xml:space="preserve">
     <value>字數</value>

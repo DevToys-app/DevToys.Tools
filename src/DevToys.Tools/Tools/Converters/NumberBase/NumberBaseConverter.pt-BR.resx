@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta Conversora de Base Numérica</value>
+    <value>Ferramenta Conversor de Base Numérica</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
     <value>Modo avançado</value>
@@ -139,10 +139,10 @@
     <value>Decimal</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Converta números de uma base para outra</value>
+    <value>Converter números de uma base para outra</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Formato numérico</value>
+    <value>Formatar número</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
     <value>Hexadecimal</value>
@@ -151,13 +151,13 @@
     <value>Entrada</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>A base do número a converter</value>
+    <value>A base do número a ser convertido</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
     <value>Dicionário de entrada</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Número a converter</value>
+    <value>Número para converter</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
@@ -170,7 +170,7 @@
     <value>Saída</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
-    <value>A base desejada para converter.</value>
+    <value>A base desejada para a qual converter.</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
     <value>Dicionário de saída</value>
@@ -182,23 +182,23 @@
     <value>RFC-4648 Base32</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Hex Estendida</value>
+    <value>RFC-4648 Base32 Hexadecimal Estendido</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
     <value>RFC-4648 Base64</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Codificação de Url</value>
+    <value>RFC-4648 Base64 Codificação de URL</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Base Numérica</value>
   </data>
   <data name="ValueInvalid" xml:space="preserve">
-    <value>O valor atual {0} não é valido</value>
+    <value>O valor atual de {0} não é válido</value>
     <comment>The parameter is the Base Number Type (Decimal, Octal, ...)</comment>
   </data>
   <data name="ValueOverflow" xml:space="preserve">
-    <value>O valor atual {0} não pode ser convertido porque excede o valor máximo ({1})</value>
+    <value>O valor atual de {0} não pode ser convertido, pois excede o valor máximo ({1})</value>
     <comment>0 is the base number type (Decima, Octal...). 1 is the parameter is the Max value.</comment>
   </data>
 </root>

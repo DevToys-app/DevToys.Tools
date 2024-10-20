@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Lorem Ipsum Generator tool</value>
+    <value>Eina de generació de Lorem Ipsum</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Configuració</value>
   </data>
   <data name="CorpusOptionDescription" xml:space="preserve">
-    <value>Text corpus to use</value>
+    <value>Corpus de text a utilitzar</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Generate Lorem Ipsum (or similar) placeholder text</value>
+    <value>Genera text Lorem Ipsum (o similar)</value>
   </data>
   <data name="LengthDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>Nombre de paraules, frases o paràgrafs a generar</value>
   </data>
   <data name="LengthOptionDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>Nombre de paraules, frases o paràgrafs a generar</value>
   </data>
   <data name="LengthTitle" xml:space="preserve">
-    <value>Length</value>
+    <value>Llargada</value>
   </data>
   <data name="LipsumChildHarold" xml:space="preserve">
     <value>Childe Harold's Pilgrimage (Lord Byron)</value>
@@ -145,66 +145,66 @@
     <value>Decameron - Novella Prima (Giovanni Boccaccio)</value>
   </data>
   <data name="LipsumFaust" xml:space="preserve">
-    <value>Faust (Goethe), German</value>
+    <value>Faust (Goethe), Alemany</value>
   </data>
   <data name="LipsumInDerFremde" xml:space="preserve">
-    <value>In der Fremde (Heinrich Heine), German</value>
+    <value>In der Fremde (Heinrich Heine), Alemany</value>
   </data>
   <data name="LipsumLeBateauIvre" xml:space="preserve">
-    <value>Le Bateau Ivre (Arthur Rimbaud), French</value>
+    <value>Le Bateau Ivre (Arthur Rimbaud), Francès</value>
   </data>
   <data name="LipsumLeMasque" xml:space="preserve">
-    <value>Le Masque (Charles Baudelaire), French</value>
+    <value>Le Masque (Charles Baudelaire), Francès</value>
   </data>
   <data name="LipsumLoremIpsum" xml:space="preserve">
-    <value>Lorem Ipsum (Marcus Tullius Cicero), Latin</value>
+    <value>Lorem Ipsum (Marcus Tullius Cicero), Llatí</value>
   </data>
   <data name="LipsumNagyonFaj" xml:space="preserve">
-    <value>Nagyon fáj (József Attila), Hungarian</value>
+    <value>Nagyon fáj (József Attila), Hongarès</value>
   </data>
   <data name="LipsumOmagyar" xml:space="preserve">
-    <value>Ómagyar-Mária siralom (Ismeretlen), Hungarian</value>
+    <value>Ómagyar-Mária siralom (Ismeretlen), Hongarès</value>
   </data>
   <data name="LipsumRobinsonoKruso" xml:space="preserve">
     <value>Robinsono Kruso (Daniel Defoe), Esperanto</value>
   </data>
   <data name="LipsumTheRaven" xml:space="preserve">
-    <value>The Raven (Edgar Allan Poe), English</value>
+    <value>The Raven (Edgar Allan Poe), Anglès</value>
   </data>
   <data name="LipsumTierrayLuna" xml:space="preserve">
-    <value>Tierra y Luna (Federico García Lorca), Spanish</value>
+    <value>Tierra y Luna (Federico García Lorca), Castellà</value>
   </data>
   <data name="LipsumTitle" xml:space="preserve">
-    <value>Text corpus</value>
+    <value>Corpus text</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum Generator</value>
+    <value>Generador Lorem Ipsum</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortida</value>
   </data>
   <data name="ParagraphsType" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>Paràgrafs</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Actualitza</value>
   </data>
   <data name="SentencesType" xml:space="preserve">
-    <value>Sentences</value>
+    <value>Frases</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Lorem Ipsum</value>
   </data>
   <data name="TypeDescription" xml:space="preserve">
-    <value>Generate words, sentences or paragraphs of Lorem Ipsum</value>
+    <value>Genera paraules, frases o paràgrafs de Lorem Ipsum</value>
   </data>
   <data name="TypeOptionDescription" xml:space="preserve">
-    <value>Whether words, sentences or paragraphs should be generated</value>
+    <value>Si s'han de generar paraules, frases o paràgrafs</value>
   </data>
   <data name="TypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>Tipus</value>
   </data>
   <data name="WordsType" xml:space="preserve">
-    <value>Words</value>
+    <value>Paraules</value>
   </data>
 </root>

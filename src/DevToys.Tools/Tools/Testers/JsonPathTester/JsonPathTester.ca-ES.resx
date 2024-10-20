@@ -118,61 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSONPath Tester tool</value>
+    <value>Eina de proves de JSONPath</value>
   </data>
   <data name="CheatSheetArraySliceOperator" xml:space="preserve">
-    <value>Array slice operator</value>
+    <value>Operador de porció de matriu</value>
   </data>
   <data name="CheatSheetBracketNotedChildOperator" xml:space="preserve">
-    <value>Bracket-notated child or children</value>
+    <value>Subconjunts amb notació de claudàtors</value>
   </data>
   <data name="CheatSheetCurrentObjectElement" xml:space="preserve">
-    <value>Used for filter expressions. Refers to the current node for further processing.</value>
+    <value>S'utilitza per a expressions de filtre. Fa referència al node actual per a un processament posterior.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descripció</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
-    <value>Dot-notated child</value>
+    <value>Subconjunt anotat per punts</value>
   </data>
   <data name="CheatSheetFilterExpression" xml:space="preserve">
-    <value>Selects all elements in an object or array that match the specified boolean expression. Returns a list.</value>
+    <value>Selecciona tots els elements d'un objecte o matriu que coincideixen amb l'expressió booleana especificada. Retorna una llista.</value>
   </data>
   <data name="CheatSheetRecursiveDescent" xml:space="preserve">
-    <value>Performs a deep scan for the specified property in all available objects. Always returns a list, even for a single match.</value>
+    <value>Realitza una exploració profunda de la propietat especificada en tots els objectes disponibles. Sempre retorna una llista, fins i tot per a una única coincidència.</value>
   </data>
   <data name="CheatSheetRootObjectElement" xml:space="preserve">
-    <value>The root object or array.</value>
+    <value>L'arrel de l'objecte o de la matriu.</value>
   </data>
   <data name="CheatSheetScriptExpression" xml:space="preserve">
-    <value>Script expression.</value>
+    <value>Expressió de l'script.</value>
   </data>
   <data name="CheatSheetSubscriptOperator" xml:space="preserve">
-    <value>Selects the n-th element from an array. Indexes start from 0.</value>
+    <value>Selecciona l'enèsim element d'una matriu. Els índexs comencen a partir de 0.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Sintaxi</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>Full de característiques</value>
   </data>
   <data name="CheatSheetUnionOperator" xml:space="preserve">
-    <value>Selects n1 and n2 array items. Returns a list.</value>
+    <value>Selecciona els elements n1 i n2 d'una matriu. Retorna una llista.</value>
   </data>
   <data name="CheatSheetWildcard" xml:space="preserve">
-    <value>Wildcard. Selects all elements in an object or array, regardless of their names or indexes.</value>
+    <value>Comodí. Selecciona tots els elements d'un objecte o matriu, independentment dels seus noms o índexs.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>Prova un JSONPath</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>El fitxer d'entrada seleccionat no existeix.</value>
   </data>
   <data name="InputJsonOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON</value>
+    <value>Text o ruta al fitxer que conté el JSON</value>
   </data>
   <data name="InputJsonPathOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSONPath</value>
+    <value>Text o ruta al fitxer que conté el JSONPath</value>
   </data>
   <data name="InputJsonPathTitle" xml:space="preserve">
     <value>JSONPath</value>
@@ -181,22 +181,22 @@
     <value>JSON</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Si us plau, especifica un text o un fitxer d'entrada</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>Tester de JSONPath</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
-    <value>No match found</value>
+    <value>No hi ha cap resultat</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Resultat del test</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ruta del fitxer de sortida</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>path json</value>
+    <value>ruta json</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSONPath</value>

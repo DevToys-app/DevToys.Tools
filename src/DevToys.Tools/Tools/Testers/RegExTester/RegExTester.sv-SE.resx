@@ -625,13 +625,13 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any vertical whitespace character (line breaks).</value>
   </data>
   <data name="CheatSheetWhitespace" xml:space="preserve">
-    <value>Whitespace</value>
+    <value>Blanksteg</value>
   </data>
   <data name="CheatSheetWhitespaceDetails" xml:space="preserve">
     <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>Ord</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
     <value>Word boundary</value>
@@ -700,22 +700,22 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>Alternativ</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>Reguljärt uttryck</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
-    <value>Right To Left</value>
+    <value>Höger till vänster</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
     <value>Specifies that the search will be from right to left instead of from left to right.</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>regular expression</value>
+    <value>reguljärt uttryck</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>RegEx</value>
+    <value>Reguljärt uttryck</value>
   </data>
   <data name="Singleline" xml:space="preserve">
     <value>Singleline</value>

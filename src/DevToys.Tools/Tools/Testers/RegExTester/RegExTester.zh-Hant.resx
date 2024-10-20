@@ -118,42 +118,42 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Regular Expression Tester tool</value>
+    <value>正規表達式測試工具</value>
   </data>
   <data name="AllMatches" xml:space="preserve">
-    <value>All matches</value>
+    <value>所有符合</value>
   </data>
   <data name="AllMatchesDescription" xml:space="preserve">
-    <value>Find all the matches in the text or stop after the first match.</value>
+    <value>尋找所有相符項目，或在找到第一個符合項目後停止。</value>
   </data>
   <data name="CheatSheetAlternation" xml:space="preserve">
-    <value>Alternation</value>
+    <value>候選清單</value>
   </data>
   <data name="CheatSheetAlternationDetails" xml:space="preserve">
     <value>Acts like a boolean OR. Matches the expression before or after the |.
 It can operate within a group, or on a whole expression. The patterns will be tested in order.</value>
   </data>
   <data name="CheatSheetAnyCharacter" xml:space="preserve">
-    <value>Any character except newline</value>
+    <value>除換行外的任何字元</value>
   </data>
   <data name="CheatSheetAnyCharacterDetails" xml:space="preserve">
     <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
   </data>
   <data name="CheatSheetAtomicGroup" xml:space="preserve">
-    <value>Atomic group</value>
+    <value>原子 (Atomic) 群組</value>
   </data>
   <data name="CheatSheetAtomicGroupDetails" xml:space="preserve">
     <value>Non-capturing group that discards backtracking positions once matched.
 For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option has matched, the atomic group prevents backtracking to retry with the a option.</value>
   </data>
   <data name="CheatSheetBeginning" xml:space="preserve">
-    <value>Beginning</value>
+    <value>起始</value>
   </data>
   <data name="CheatSheetBeginningDetails" xml:space="preserve">
     <value>Matches the beginning of the string, or the beginning of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetBeginningOfString" xml:space="preserve">
-    <value>Beginning of string</value>
+    <value>字串起始</value>
   </data>
   <data name="CheatSheetBeginningOfStringDetails" xml:space="preserve">
     <value>Matches the beginning of the string. Unlike ^, this is unaffected by the multiline flag (m). This matches a position, not a character.</value>
@@ -162,17 +162,17 @@ For example, /(?&gt;ab|a)b/ will match abb but not ab because once the ab option
     <value>Bell</value>
   </data>
   <data name="CheatSheetBellDetails" xml:space="preserve">
-    <value>Matches a BELL character (char code 7).</value>
+    <value>符合一個 BELL 字元 (字元編碼 7)。</value>
   </data>
   <data name="CheatSheetBranchResetGroup" xml:space="preserve">
-    <value>Branch reset group</value>
+    <value>分支重設群組</value>
   </data>
   <data name="CheatSheetBranchResetGroupDetails" xml:space="preserve">
     <value>Define alternative groups that share the same group numbers.
 For example, in (?|(a)|(b)) both groups (a and b) would be counted as group #1.</value>
   </data>
   <data name="CheatSheetCaptureGroup" xml:space="preserve">
-    <value>Capture group</value>
+    <value>群組</value>
   </data>
   <data name="CheatSheetCaptureGroupDetails" xml:space="preserve">
     <value>Inserts the results of the specified capture group. For example, $3 would insert the third capture group.
@@ -181,61 +181,61 @@ There are multiple syntaxes for this feature:
 $1 \1 \{1}</value>
   </data>
   <data name="CheatSheetCapturingGroup" xml:space="preserve">
-    <value>Capturing group</value>
+    <value>群組</value>
   </data>
   <data name="CheatSheetCapturingGroupDetails" xml:space="preserve">
     <value>Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.</value>
   </data>
   <data name="CheatSheetCarriageReturn" xml:space="preserve">
-    <value>Carriage return</value>
+    <value>回到行首</value>
   </data>
   <data name="CheatSheetCarriageReturnDetails" xml:space="preserve">
-    <value>Matches a CARRIAGE RETURN character (char code 13).</value>
+    <value>符合一個回到行首 CARRIAGE RETURN 字元 (字元編碼 13)。</value>
   </data>
   <data name="CheatSheetCategoryAnchors" xml:space="preserve">
-    <value>Anchors</value>
+    <value>錨點</value>
   </data>
   <data name="CheatSheetCategoryCharacterClasses" xml:space="preserve">
-    <value>Character classes</value>
+    <value>字元類別</value>
   </data>
   <data name="CheatSheetCategoryEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>跳脫字元</value>
   </data>
   <data name="CheatSheetCategoryGroupsReferences" xml:space="preserve">
-    <value>Groups and References</value>
+    <value>群組與參照</value>
   </data>
   <data name="CheatSheetCategoryLookaround" xml:space="preserve">
     <value>Lookaround</value>
   </data>
   <data name="CheatSheetCategoryQuantifiersAlternation" xml:space="preserve">
-    <value>Quantifiers and Alternation</value>
+    <value>數量與候選清單</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
-    <value>Special</value>
+    <value>特殊</value>
   </data>
   <data name="CheatSheetCategorySubstitution" xml:space="preserve">
-    <value>Substitution</value>
+    <value>替代</value>
   </data>
   <data name="CheatSheetCharacterRange" xml:space="preserve">
-    <value>Character range</value>
+    <value>字元範圍</value>
   </data>
   <data name="CheatSheetCharacterRangeDetails" xml:space="preserve">
     <value>Matches a character having a character code between the two specified characters inclusive.</value>
   </data>
   <data name="CheatSheetCharacterSet" xml:space="preserve">
-    <value>A single character of A, b or c</value>
+    <value>單個字元的 A、b 或 c</value>
   </data>
   <data name="CheatSheetCharacterSetDetails" xml:space="preserve">
     <value>Matches either an A, b or c character</value>
   </data>
   <data name="CheatSheetComment" xml:space="preserve">
-    <value>Comment</value>
+    <value>註解</value>
   </data>
   <data name="CheatSheetCommentDetails" xml:space="preserve">
     <value>Allows you to insert a comment into your expression that is ignored when finding a match.</value>
   </data>
   <data name="CheatSheetConditional" xml:space="preserve">
-    <value>Conditional</value>
+    <value>條件</value>
   </data>
   <data name="CheatSheetConditionalDetails" xml:space="preserve">
     <value>Conditionally matches one of two options based on whether a lookaround is matched.
@@ -244,7 +244,7 @@ For example, /(?(?=a)ab|..)/ will match ab and zx but not ax, because if the fir
 Any lookaround can be used as the condition. A lookahead will start the subsequent match at the start of the condition, a lookbehind will start it after.</value>
   </data>
   <data name="CheatSheetControlCharacterEscape" xml:space="preserve">
-    <value>Control character escape</value>
+    <value>控制字元跳脫</value>
   </data>
   <data name="CheatSheetControlCharacterEscapeDetails" xml:space="preserve">
     <value>Escaped control character in the form \cZ. This can range from \cA (SOH, char code 1) to \cZ (SUB, char code 26).</value>
@@ -257,16 +257,16 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
-    <value>Digit</value>
+    <value>數字</value>
   </data>
   <data name="CheatSheetDigitDetails" xml:space="preserve">
-    <value>Matches any digit character (0-9). Equivalent to [0-9].</value>
+    <value>符合任意數字 (0-9)，等同於 [0-9]。</value>
   </data>
   <data name="CheatSheetEnd" xml:space="preserve">
-    <value>End</value>
+    <value>結尾</value>
   </data>
   <data name="CheatSheetEndDetails" xml:space="preserve">
     <value>Matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.</value>
@@ -281,28 +281,28 @@ For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define 
     <value>Esc</value>
   </data>
   <data name="CheatSheetEscapedCharacters" xml:space="preserve">
-    <value>Escaped characters</value>
+    <value>跳脫字元</value>
   </data>
   <data name="CheatSheetEscapedCharactersDetails" xml:space="preserve">
     <value>For convenience, these escaped characters are supported in the Replace string in RegExr: \n, \r, \t, \\, and unicode escapes \uFFFF. This may vary in your deploy environment.</value>
   </data>
   <data name="CheatSheetEscapeSequence" xml:space="preserve">
-    <value>Escape sequence</value>
+    <value>跳脫序列</value>
   </data>
   <data name="CheatSheetEscapeSequenceDetails" xml:space="preserve">
     <value>All characters between the \Q and the \E are interpreted as a literal string. If \E is omitted, it continues to the end of the expression. For example, the expression /\Q(?.)\E/ will match the string (?.).</value>
   </data>
   <data name="CheatSheetEscDetails" xml:space="preserve">
-    <value>Matches a ESC character (char code 27).</value>
+    <value>符合一個 ESC 字元 (字元編碼 27)。</value>
   </data>
   <data name="CheatSheetFormFeed" xml:space="preserve">
-    <value>Form feed</value>
+    <value>換頁</value>
   </data>
   <data name="CheatSheetFormFeedDetails" xml:space="preserve">
-    <value>Matches a FORM FEED character (char code 12).</value>
+    <value>符合一個換頁 FORM FEED 字元 (字元編碼 12)。</value>
   </data>
   <data name="CheatSheetGroupConditional" xml:space="preserve">
-    <value>Group conditional</value>
+    <value>條件群組</value>
   </data>
   <data name="CheatSheetGroupConditionalDetails" xml:space="preserve">
     <value>Conditionally matches one of two options based on whether group 'undefined' matched.
@@ -313,13 +313,13 @@ The same pattern will also match b on its own, because group 1 doesn't match, so
 You can reference a group by name, number, or relative position (ex. -1).</value>
   </data>
   <data name="CheatSheetHexadecimalEscape" xml:space="preserve">
-    <value>Hexadecimal escape</value>
+    <value>十六進位跳脫</value>
   </data>
   <data name="CheatSheetHexadecimalEscapeDetails" xml:space="preserve">
     <value>Hexadecimal escaped character in the form \xFF.</value>
   </data>
   <data name="CheatSheetHorizontalWhitespace" xml:space="preserve">
-    <value>Horizontal whitespace</value>
+    <value>水平空格</value>
   </data>
   <data name="CheatSheetHorizontalWhitespaceDetails" xml:space="preserve">
     <value>Matches any horizontal whitespace character (spaces, tabs).</value>
@@ -338,22 +338,22 @@ You can reference a group by name, number, or relative position (ex. -1).</value
 This behaviour is reversed by the ungreedy (U) flag/modifier.</value>
   </data>
   <data name="CheatSheetLineBreak" xml:space="preserve">
-    <value>Line break</value>
+    <value>換行</value>
   </data>
   <data name="CheatSheetLineBreakDetails" xml:space="preserve">
     <value>Matches any line break character, including the CRLF pair, and CR / LF individually.</value>
   </data>
   <data name="CheatSheetLineFeed" xml:space="preserve">
-    <value>Line feed</value>
+    <value>換行</value>
   </data>
   <data name="CheatSheetLineFeedDetails" xml:space="preserve">
-    <value>Matches a LINE FEED character (char code 10).</value>
+    <value>符合一個換行 LF (LINE FEED) 字元 (字元編碼 10)。</value>
   </data>
   <data name="CheatSheetMatch" xml:space="preserve">
     <value>符合</value>
   </data>
   <data name="CheatSheetMatchAny" xml:space="preserve">
-    <value>符合任何</value>
+    <value>任意字元</value>
   </data>
   <data name="CheatSheetMatchAnyDetails" xml:space="preserve">
     <value>A character set that can be used to match any character, including line breaks, without the dotall flag (s).</value>
@@ -374,7 +374,7 @@ Multiple modifiers can be specified, and any modifiers that follow - are disable
 Supported modifiers are: i - case insensitive, s - dotall, m - multiline, x - free spacing, J - allow duplicate names, U - ungreedy.</value>
   </data>
   <data name="CheatSheetNamedCapturingGroup" xml:space="preserve">
-    <value>Named capturing group</value>
+    <value>命名群組</value>
   </data>
   <data name="CheatSheetNamedCapturingGroupDetails" xml:space="preserve">
     <value>Creates a capturing group that can be referenced via the specified name.
@@ -383,7 +383,7 @@ There are multiple syntaxes for this feature:
 (?'name'ABC) (?P&lt;name&gt;ABC) (?&lt;name&gt;ABC)</value>
   </data>
   <data name="CheatSheetNamedReference" xml:space="preserve">
-    <value>Named reference</value>
+    <value>命名參照</value>
   </data>
   <data name="CheatSheetNamedReferenceDetails" xml:space="preserve">
     <value>Matches the results of a named capture group.
@@ -399,7 +399,7 @@ There are multiple syntaxes for this feature:
 There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;name) (?P&gt;name).</value>
   </data>
   <data name="CheatSheetNegatedCharacterSet" xml:space="preserve">
-    <value>A character except A, b or c</value>
+    <value>除 A、b 或 c 外的單個字元</value>
   </data>
   <data name="CheatSheetNegatedCharacterSetDetails" xml:space="preserve">
     <value>Match any character that is not A, b or c.</value>
@@ -417,58 +417,58 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>Specifies a group that can not match before the main expression (if it matches, the result is discarded).</value>
   </data>
   <data name="CheatSheetNonCapturingGroup" xml:space="preserve">
-    <value>Non-capturing group</value>
+    <value>非擷取群組</value>
   </data>
   <data name="CheatSheetNonCapturingGroupDetails" xml:space="preserve">
     <value>Groups multiple tokens together without creating a capture group.</value>
   </data>
   <data name="CheatSheetNotDigit" xml:space="preserve">
-    <value>Not digit</value>
+    <value>非數字</value>
   </data>
   <data name="CheatSheetNotDigitDetails" xml:space="preserve">
     <value>Matches any character that is not a digit character (0-9). Equivalent to [^0-9].</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespace" xml:space="preserve">
-    <value>Not horizontal whitespace</value>
+    <value>非水平空格</value>
   </data>
   <data name="CheatSheetNotHorizontalWhitespaceDetails" xml:space="preserve">
     <value>Matches any character that is not a horizontal whitespace character (spaces, tabs).</value>
   </data>
   <data name="CheatSheetNotLineBreak" xml:space="preserve">
-    <value>Not line break</value>
+    <value>非換行</value>
   </data>
   <data name="CheatSheetNotLineBreakDetails" xml:space="preserve">
     <value>Matches any character that is not a line break. Similar to dot (.) but is unaffected by the dotall flag (s).</value>
   </data>
   <data name="CheatSheetNotUnicodeCategory" xml:space="preserve">
-    <value>Not unicode category</value>
+    <value>非 Unicode 類別</value>
   </data>
   <data name="CheatSheetNotUnicodeCategoryDetails" xml:space="preserve">
     <value>Matches any character that is not in the specified unicode category.</value>
   </data>
   <data name="CheatSheetNotUnicodeScript" xml:space="preserve">
-    <value>Not unicode script</value>
+    <value>非 Unicode 文字</value>
   </data>
   <data name="CheatSheetNotUnicodeScriptDetails" xml:space="preserve">
     <value>Matches any character that is not in the specified unicode script.</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespace" xml:space="preserve">
-    <value>Not vertical whitespace</value>
+    <value>非垂直空格</value>
   </data>
   <data name="CheatSheetNotVerticalWhitespaceDetails" xml:space="preserve">
     <value>Matches any character that is not a vertical whitespace character (line breaks).</value>
   </data>
   <data name="CheatSheetNotWhitespace" xml:space="preserve">
-    <value>Not whitespace</value>
+    <value>非空格</value>
   </data>
   <data name="CheatSheetNotWhitespaceDetails" xml:space="preserve">
     <value>Matches any character that is not a whitespace character (spaces, tabs, line breaks).</value>
   </data>
   <data name="CheatSheetNotWord" xml:space="preserve">
-    <value>Not word</value>
+    <value>非單詞</value>
   </data>
   <data name="CheatSheetNotWordBoundary" xml:space="preserve">
-    <value>Not word boundary</value>
+    <value>非字詞邊界</value>
   </data>
   <data name="CheatSheetNotWordBoundaryDetails" xml:space="preserve">
     <value>Matches any position that is not a word boundary. This matches a position, not a character.</value>
@@ -480,10 +480,10 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>Null</value>
   </data>
   <data name="CheatSheetNullDetails" xml:space="preserve">
-    <value>Matches a NULL character (char code 0).</value>
+    <value>符合一個 NULL 字元 (字元編碼 0)。</value>
   </data>
   <data name="CheatSheetNumericReference" xml:space="preserve">
-    <value>Numeric reference</value>
+    <value>數字參照</value>
   </data>
   <data name="CheatSheetNumericReferenceDetails" xml:space="preserve">
     <value>Matches the results of a capture group. For example \1 matches the results of the first capture group &amp; \3 matches the third.
@@ -501,20 +501,20 @@ There are multiple syntaxes for this feature: \g&lt;1&gt; \g'1' (?1).
 Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; would match the group preceding the reference.</value>
   </data>
   <data name="CheatSheetOctalEscape" xml:space="preserve">
-    <value>Octal escape</value>
+    <value>八進位跳脫</value>
   </data>
   <data name="CheatSheetOctalEscapeDetails" xml:space="preserve">
     <value>Octal escaped character in the form \000. Value must be less than 255 (\377).
 The syntax \o{FFF} is also supported.</value>
   </data>
   <data name="CheatSheetOptional" xml:space="preserve">
-    <value>Optional</value>
+    <value>選用</value>
   </data>
   <data name="CheatSheetOptionalDetails" xml:space="preserve">
     <value>Matches 0 or 1 of the preceding token, effectively making it optional.</value>
   </data>
   <data name="CheatSheetPlus" xml:space="preserve">
-    <value>Plus</value>
+    <value>加號</value>
   </data>
   <data name="CheatSheetPlusDetails" xml:space="preserve">
     <value>Matches 1 or more of the preceding token.</value>
@@ -545,13 +545,13 @@ For example /.*a/ would match aaa, but /.*+a/ would not, because the repeating d
     <value>Matches the end position of the previous match. This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetQuantifier" xml:space="preserve">
-    <value>Quantifier</value>
+    <value>數量</value>
   </data>
   <data name="CheatSheetQuantifierDetails" xml:space="preserve">
     <value>Matches the specified quantity of the previous token. {1,3} will match 1 to 3. {3} will match exactly 3. {3,} will match 3 or more.</value>
   </data>
   <data name="CheatSheetRecursion" xml:space="preserve">
-    <value>Recursion</value>
+    <value>遞迴</value>
   </data>
   <data name="CheatSheetRecursionDetails" xml:space="preserve">
     <value>Attempts to match the full expression again at the current position.
@@ -562,7 +562,7 @@ There are multiple syntaxes for this feature:
 (?R) (?0) \g&lt;0&gt; \g'0'</value>
   </data>
   <data name="CheatSheetReservedCharacters" xml:space="preserve">
-    <value>Reserved characters</value>
+    <value>保留字元</value>
   </data>
   <data name="CheatSheetReservedCharactersDetails" xml:space="preserve">
     <value>The following character have special meaning, and should be preceded by a \ (backslash) to represent a literal character:
@@ -571,13 +571,13 @@ There are multiple syntaxes for this feature:
 Within a character set, only \, -, and ] need to be escaped.</value>
   </data>
   <data name="CheatSheetStar" xml:space="preserve">
-    <value>Star</value>
+    <value>星號</value>
   </data>
   <data name="CheatSheetStarDetails" xml:space="preserve">
     <value>Matches 0 or more of the preceding token.</value>
   </data>
   <data name="CheatSheetStrictEndOfString" xml:space="preserve">
-    <value>Strict end of string</value>
+    <value>嚴格字串結尾</value>
   </data>
   <data name="CheatSheetStrictEndOfStringDetails" xml:space="preserve">
     <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
@@ -589,13 +589,13 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Tab</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
-    <value>Matches a TAB character (char code 9).</value>
+    <value>符合一個 TAB 字元 (字元編碼 9)。</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
-    <value>Cheat sheet</value>
+    <value>速查表</value>
   </data>
   <data name="CheatSheetUnicodeCategory" xml:space="preserve">
-    <value>Unicode category</value>
+    <value>Unicode 類別</value>
   </data>
   <data name="CheatSheetUnicodeCategoryDetails" xml:space="preserve">
     <value>Matches a character in the specified unicode category. For example, \p{Ll} will match any lowercase letter.</value>
@@ -604,37 +604,37 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Unicode 跳脫</value>
   </data>
   <data name="CheatSheetUnicodeEscapeDetails" xml:space="preserve">
-    <value>Unicode escaped character in the form \x{FF}.</value>
+    <value>格式為 \x{FF} 的 Unicode 跳脫字元。</value>
   </data>
   <data name="CheatSheetUnicodeGrapheme" xml:space="preserve">
-    <value>Unicode grapheme</value>
+    <value>Unicode 字位</value>
   </data>
   <data name="CheatSheetUnicodeGraphemeDetails" xml:space="preserve">
     <value>Matches any single unicode grapheme (ie. character). This includes line breaks (regardless of the dotall mode) and graphemes encoded as multiple code points.</value>
   </data>
   <data name="CheatSheetUnicodeScript" xml:space="preserve">
-    <value>Unicode script</value>
+    <value>Unicode 文字</value>
   </data>
   <data name="CheatSheetUnicodeScriptDetails" xml:space="preserve">
     <value>Matches any character in the specified unicode script. For example, \p{Arabic} will match characters in the Arabic script.</value>
   </data>
   <data name="CheatSheetVerticalWhitespace" xml:space="preserve">
-    <value>Vertical whitespace</value>
+    <value>垂直空格</value>
   </data>
   <data name="CheatSheetVerticalWhitespaceDetails" xml:space="preserve">
-    <value>Matches any vertical whitespace character (line breaks).</value>
+    <value>符合任意垂直空白字元 (換行)。</value>
   </data>
   <data name="CheatSheetWhitespace" xml:space="preserve">
-    <value>Whitespace</value>
+    <value>空格</value>
   </data>
   <data name="CheatSheetWhitespaceDetails" xml:space="preserve">
     <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>單詞</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
-    <value>Word boundary</value>
+    <value>字詞邊界</value>
   </data>
   <data name="CheatSheetWordBoundaryDetails" xml:space="preserve">
     <value>Matches a word boundary position between a word character and non-word character or position (start / end of string). See the word character class (w) for more info.</value>
@@ -643,16 +643,16 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any word character (alphanumeric &amp; underscore). Only matches low-ascii characters (no accented or non-roman characters). Equivalent to [A-Za-z0-9_]</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="CultureInvariant" xml:space="preserve">
-    <value>Culture Invariant</value>
+    <value>忽略文化特性 (Culture Invariant)</value>
   </data>
   <data name="CultureInvariantDescription" xml:space="preserve">
-    <value>Specifies that cultural differences in language is ignored.</value>
+    <value>忽略語言中的文化差異。</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate and test regular expressions</value>
+    <value>驗證並測試正規表達式</value>
   </data>
   <data name="EcmaScript" xml:space="preserve">
     <value>ECMA Script</value>
@@ -664,22 +664,22 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>忽略大小寫</value>
   </data>
   <data name="IgnoreCaseDescription" xml:space="preserve">
-    <value>Specifies case-insensitive matching.</value>
+    <value>不區分大小寫差異。</value>
   </data>
   <data name="IgnoreWhitespace" xml:space="preserve">
-    <value>Ignore Whitespace</value>
+    <value>忽略空格</value>
   </data>
   <data name="IgnoreWhitespaceDescription" xml:space="preserve">
     <value>Eliminates unescaped white space from the pattern and enables comments marked with #. However, this value does not affect or eliminate white space in character classes, numeric quantifiers, or tokens that mark the beginning of individual regular expression language elements.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Regular Expression Tester</value>
+    <value>正規表達式測試工具</value>
   </data>
   <data name="MatchGroupPrefix" xml:space="preserve">
-    <value>Group</value>
+    <value>群組</value>
   </data>
   <data name="MatchInformation" xml:space="preserve">
-    <value>Match information</value>
+    <value>相符資訊</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
     <value>位置</value>
@@ -694,19 +694,19 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>值</value>
   </data>
   <data name="Multiline" xml:space="preserve">
-    <value>Multiline</value>
+    <value>多行</value>
   </data>
   <data name="MultilineDescription" xml:space="preserve">
     <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>選項</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>正規表達式</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
-    <value>Right To Left</value>
+    <value>由右至左</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
     <value>Specifies that the search will be from right to left instead of from left to right.</value>
@@ -718,7 +718,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>RegEx</value>
   </data>
   <data name="Singleline" xml:space="preserve">
-    <value>Singleline</value>
+    <value>單行</value>
   </data>
   <data name="SinglelineDescription" xml:space="preserve">
     <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>

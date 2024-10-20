@@ -121,37 +121,37 @@
     <value>色覚異常シミュレーターツール</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>画像またはスクリーンショットの色覚異常シミュレーター</value>
+    <value>画像またはスクリーンショットの色覚異常をシミュレーションする</value>
   </data>
   <data name="DeuteranopiaSimulation" xml:space="preserve">
-    <value>(D) 2 型 2 色覚</value>
+    <value>Deuteranopia (2 型 2 色覚, 緑色盲) シミュレーション</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>画像ファイルのパス</value>
+    <value>処理する画像ファイルのパス</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>色覚異常シミュレーター</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>(C) オリジナル</value>
+    <value>オリジナル</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>出力先のパス。既定では入力ファイルと同じ場所が選択されます</value>
+    <value>結果を保持するフォルダ。デフォルトでは、入力ファイルのディレクトリを使用します</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>(P) 1 型 2 色覚</value>
+    <value>Protanopia (1 型 2 色覚, 赤色盲) シミュレーション</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist Color Blindness 色弱 色盲 色覚</value>
+    <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist 色弱 色盲 色覚異常</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>色覚シミュレーター</value>
+    <value>色覚異常シミュレーター</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
     <value>処理中の出力を抑制する</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
-    <value>(T) 3 型 2 色覚</value>
+    <value>Tritanopia (3 型 2 色覚, 青色盲)</value>
   </data>
 </root>

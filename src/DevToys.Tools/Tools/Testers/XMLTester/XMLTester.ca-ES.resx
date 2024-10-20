@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Xml and XSD tester tool</value>
+    <value>Eina de proves d'XML i XSD</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Validate XML data via an XSD scheme.</value>
+    <value>Valida les dades XML mitjançant un esquema XSD.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>Tester XML/XSD</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
@@ -139,39 +139,39 @@
     <value>XML</value>
   </data>
   <data name="TargetNamespaceNotDefinedInXml" xml:space="preserve">
-    <value>Validation result will potentially always be 'valid' since the XML does not reference the following "targetNamespace" defined in the XSD: {0}</value>
+    <value>El resultat de la validació potencialment sempre serà "vàlid" ja que l'XML no fa referència al següent "targetNamespace" definit a l'XSD: {0}</value>
   </data>
   <data name="ValidationImpossibleMsg" xml:space="preserve">
-    <value>XML and XSD content must be set in order to perform a validation.</value>
+    <value>El contingut XML i XSD s'ha de configurar per dur a terme una validació.</value>
   </data>
   <data name="XmlInvalidMessage" xml:space="preserve">
-    <value>Validation failed for an unknown reason.</value>
+    <value>La validació ha fallat per un motiu desconegut.</value>
   </data>
   <data name="XmlNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XML does not define these namespace(s) defined in the XSD: {0}</value>
+    <value>El resultat de la validació sempre serà "vàlid", ja que l'XML no defineix aquests espais de noms definits a l'XSD: {0}</value>
   </data>
   <data name="XmlValidMessage" xml:space="preserve">
-    <value>XML is compliant to the defined XSD scheme.</value>
+    <value>XML és compatible amb l'esquema XSD definit.</value>
   </data>
   <data name="XsdNamespacesInconsistentMsg" xml:space="preserve">
-    <value>Validation result will always be 'valid' since the XSD does not define these namespace(s) defined in the XML: {0}</value>
+    <value>El resultat de la validació sempre serà "vàlid", ja que l'XSD no defineix aquests espais de noms definits a l'XML: {0}</value>
   </data>
   <data name="InvalidXmlOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XML</value>
+    <value>Si us plau, especifica un XML d'entrada</value>
   </data>
   <data name="InvalidXsdOrFileCommand" xml:space="preserve">
-    <value>Please specify an input XSD</value>
+    <value>Si us plau, especifica un XSD d'entrada</value>
   </data>
   <data name="XmlFileNotFound" xml:space="preserve">
-    <value>XML file selected doesn't exist.</value>
+    <value>El fitxer XML seleccionat no existeix.</value>
   </data>
   <data name="XmlOptionDescription" xml:space="preserve">
-    <value>Text or path to a XML file to treat.</value>
+    <value>Text o ruta al fitxer XML a tractar.</value>
   </data>
   <data name="XsdFileNotFound" xml:space="preserve">
-    <value>XSD file selected doesn't exist.</value>
+    <value>El fitxer XSD seleccionat no existeix.</value>
   </data>
   <data name="XsdOptionDescription" xml:space="preserve">
-    <value>Text or path to a XSD file to treat.</value>
+    <value>Text o ruta al fitxer XSD a tractar.</value>
   </data>
 </root>

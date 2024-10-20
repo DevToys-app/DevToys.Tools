@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>クーロン パーサ ツール</value>
+    <value>Cron パーサ ツール</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>構成</value>
@@ -133,25 +133,25 @@
     <value>解析する Cron 式</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>生成するスケジュールの出力フォーマット</value>
+    <value>生成するスケジュールの日付時刻の形式</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Cron 式を解析してスケジュールを表示します</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>秒を含む 6 フィールドの Cron 式を使用</value>
+    <value>定義に秒を含む Cron 式を使用します</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Cron 式</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron パーサ</value>
+    <value>Cron 式パーサ</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>生成するスケジュールの行数</value>
+    <value>表示するスケジュールの数</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>出力するスケジュールの行数</value>
+    <value>スケジュールを確認するための出力行数</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
     <value>スケジュール</value>
@@ -163,16 +163,16 @@
     <value>日時フォーマットの入力に誤りがあります</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>日時フォーマット</value>
+    <value>出力フォーマット</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>スケジュール</value>
+    <value>次のスケジュールされた日付</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron パーサ</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Cron 式に秒を使用する (6 フィールドの Cron)</value>
+    <value>定義に秒を含む Cron 式を使用します</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
     <value>秒の使用</value>

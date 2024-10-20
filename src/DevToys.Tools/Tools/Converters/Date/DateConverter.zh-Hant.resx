@@ -127,16 +127,16 @@
     <value>日</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert date to human-readable date and vice versa</value>
+    <value>在時間戳記與易讀的日期格式之間相互轉換</value>
   </data>
   <data name="DisabledDaylightSavingTime" xml:space="preserve">
     <value>沒有日光節約時間。</value>
   </data>
   <data name="DSTAmbiguousTime" xml:space="preserve">
-    <value>DST Ambiguous time.</value>
+    <value>DST 未明確時間。</value>
   </data>
   <data name="HourTitle" xml:space="preserve">
-    <value>小時（24 小時制式）</value>
+    <value>時 (24 小時制)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
     <value>時區</value>
@@ -167,7 +167,7 @@
     <value>日期</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
-    <value>世界標準時間（UTC）日期和時間</value>
+    <value>世界標準時間 (UTC) 日期和時間</value>
   </data>
   <data name="UtcTicksTitle" xml:space="preserve">
     <value>UtcTicks</value>
@@ -185,10 +185,10 @@
     <value>日期</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
-    <value>Default Epoch</value>
+    <value>時間參考點</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>Use a user defined epoch</value>
+    <value>使用者自訂時間參考點</value>
   </data>
   <data name="No" xml:space="preserve">
     <value>否</value>
@@ -212,11 +212,11 @@
     <value>毫秒</value>
   </data>
   <data name="DateOptionDescription" xml:space="preserve">
-    <value>Date to convert. Supported format: "ISO 8601" example 2023-11-22T19:58:07.0000000+00:00</value>
+    <value>要轉換的日期。支援格式: ISO 8601，例如 2023-11-22T19:58:07.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="EpochOptionDescription" xml:space="preserve">
-    <value>Epoch to use. Supported format: "ISO 8601" example 1970-01-01T00:00:00.0000000+00:00</value>
+    <value>要使用的時間參考點。支援格式: ISO 8601，例如 1970-01-01T00:00:00.0000000+00:00</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
@@ -228,7 +228,7 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
-    <value>Timezone to use (supported timezones: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones).</value>
+    <value>要使用的時區 (支援的時區: https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&amp;WT.mc_id=DT-MVP-5001664&amp;source=post_page-----cff0e2b37f52--------------------------------#time-zones)。</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
@@ -236,7 +236,7 @@
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
-    <value>Unable to parse epoch</value>
+    <value>無法解析時間參考點</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
@@ -244,7 +244,7 @@
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidValue" xml:space="preserve">
-    <value>Please specify an input number or date</value>
+    <value>請指定輸入數字或日期</value>
   </data>
   <data name="ISO8601Title" xml:space="preserve">
     <value>ISO 8601</value>

@@ -118,69 +118,69 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON to YAML and YAML to JSON converter tool</value>
+    <value>JSON을 YAML로, YAML을 JSON으로 변환하는 도구</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>설정</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>사용할 변환 모드 선택</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to convert from Json or Yaml</value>
+    <value>Json 또는 Yaml에서 변환할지 여부</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>변환</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert JSON data to YAML and vice versa</value>
+    <value>JSON 데이터를 YAML로 변환하거나 그 반대로 변환</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>공백 4자</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>들여쓰기</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>사용할 들여쓰기를 선택</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>입력</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>선택한 파일이 존재하지 않습니다.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from json or yaml</value>
+    <value>Json 또는 yaml에서 변환할 파일의 텍스트 또는 경로</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>입력할 텍스트 또는 파일을 지정해 주세요.</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
-    <value>&lt;Invalid JSON data&gt;</value>
+    <value>&lt;잘못된 JSON 데이터&gt;</value>
   </data>
   <data name="InvalidYaml" xml:space="preserve">
-    <value>&lt;Invalid Yaml data&gt;</value>
+    <value>&lt;잘못된 Yaml 데이터&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON에서 YAML로</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>JSON &lt;&gt; YAML 변환기</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>출력</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>출력 파일 경로</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>공백 2자</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YAML을 JSON로</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿using DevToys.Tools.Models;
+using DevToys.Tools.Models;
 
 namespace DevToys.Tools.Helpers;
 
@@ -55,18 +55,25 @@ internal static class DateHelper
         DateValueType valueChanged)
     {
         target = TimeZoneInfo.ConvertTime(target, timeZoneInfo);
-        DateTimeOffset result = valueChanged switch
+        try
         {
-            DateValueType.Year => ChangeYear(target, value),
-            DateValueType.Month => target.AddMonths(value - target.Month),
-            DateValueType.Day => target.AddDays(value - target.Day),
-            DateValueType.Hour => target.AddHours(value - target.Hour),
-            DateValueType.Minute => target.AddMinutes(value - target.Minute),
-            DateValueType.Second => target.AddSeconds(value - target.Second),
-            DateValueType.Millisecond => target.AddMilliseconds(value - target.Millisecond),
-            _ => throw new NotImplementedException(),
-        };
-        return new(result, true);
+            DateTimeOffset result = valueChanged switch
+            {
+                DateValueType.Year => ChangeYear(target, value),
+                DateValueType.Month => target.AddMonths(value - target.Month),
+                DateValueType.Day => target.AddDays(value - target.Day),
+                DateValueType.Hour => target.AddHours(value - target.Hour),
+                DateValueType.Minute => target.AddMinutes(value - target.Minute),
+                DateValueType.Second => target.AddSeconds(value - target.Second),
+                DateValueType.Millisecond => target.AddMilliseconds(value - target.Millisecond),
+                _ => throw new NotImplementedException(),
+            };
+            return new(result, true);
+        }
+        catch (ArgumentOutOfRangeException)
+        {
+            return new(target, false);
+        }
     }
 
     private static DateTimeOffset ChangeYear(DateTimeOffset target, int value)
@@ -84,5 +91,29 @@ internal static class DateHelper
             target.AddDays(value - target.Day);
         }
         return target.AddYears(value - target.Year);
+    }
+    internal static long GetCurrentDateEpoch(DateFormat format, DateTimeOffset? customEpoch = null,
+        bool usingCustomEpoch = false)
+    {
+        DateTimeOffset now = DateTimeOffset.UtcNow;
+
+        if (usingCustomEpoch && customEpoch.HasValue)
+        {
+            return format switch
+            {
+                DateFormat.Ticks => (now - customEpoch.Value).Ticks,
+                DateFormat.Seconds => (long)(now - customEpoch.Value).TotalSeconds,
+                DateFormat.Milliseconds => (long)(now - customEpoch.Value).TotalMilliseconds,
+                _ => throw new NotSupportedException("Unsupported format")
+            };
+        }
+
+        return format switch
+        {
+            DateFormat.Ticks => now.Ticks,
+            DateFormat.Seconds => now.ToUnixTimeSeconds(),
+            DateFormat.Milliseconds => now.ToUnixTimeMilliseconds(),
+            _ => throw new NotSupportedException("Unsupported format")
+        };
     }
 }

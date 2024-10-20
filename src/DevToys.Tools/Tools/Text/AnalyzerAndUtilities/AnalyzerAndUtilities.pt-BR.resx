@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text analyzer, converter and utilities tool</value>
+    <value>Ferramenta de análise de texto, conversor e utilitários</value>
   </data>
   <data name="ActionsOptionDescription" xml:space="preserve">
-    <value>A set of treatments to apply to the input text. Actions are performed in the order they're set.</value>
+    <value>Um conjunto de tratamentos para aplicar ao texto de entrada. As ações são executadas na ordem em que são definidas.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetize</value>
+    <value>Alfabetizar</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
-    <value>Alphabetize by last word</value>
+    <value>Alfabetizar pela última palavra</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
-    <value>aLtErNaTiNg cAsE</value>
+    <value>tIpO De LeTrA aLtErNaDa</value>
   </data>
   <data name="Bytes" xml:space="preserve">
     <value>Bytes</value>
@@ -139,10 +139,10 @@
     <value>camelCase</value>
   </data>
   <data name="CharacterFrequency" xml:space="preserve">
-    <value>Character frequency</value>
+    <value>Frequência de caracteres</value>
   </data>
   <data name="Characters" xml:space="preserve">
-    <value>Characters</value>
+    <value>Caracteres</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
     <value>COBOL-CASE</value>
@@ -151,16 +151,16 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>Convert case</value>
+    <value>Converter maiúsculas/minúsculas</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Convert line break</value>
+    <value>Converter quebra de linha</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Analyze text and provide some basic utility tools</value>
+    <value>Analisar texto e fornecer algumas ferramentas básicas de utilitário</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
-    <value>Line break</value>
+    <value>Quebra de linha</value>
   </data>
   <data name="EndOfLineSequenceCR" xml:space="preserve">
     <value>CR (\r)</value>
@@ -172,126 +172,126 @@
     <value>LF (\n)</value>
   </data>
   <data name="EndOfLineSequenceMixed" xml:space="preserve">
-    <value>Mixed</value>
+    <value>Misto</value>
   </data>
   <data name="EndOfLineSequenceUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>Desconhecido</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>O arquivo de entrada selecionado não existe.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to treat.</value>
+    <value>Texto ou caminho para um arquivo para tratar.</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Especifique um texto de entrada ou um arquivo de entrada</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
-    <value>InVeRsE CaSe</value>
+    <value>TiPo De LeTrA InVeRtIdA</value>
   </data>
   <data name="KebabCase" xml:space="preserve">
     <value>kebab-case</value>
   </data>
   <data name="Lines" xml:space="preserve">
-    <value>Lines</value>
+    <value>Linhas</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>Analisador de Texto e Utilitários</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
-    <value>lower case</value>
+    <value>minúsculas</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Caminho para o arquivo de saída</value>
   </data>
   <data name="Paragraphs" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>Parágrafos</value>
   </data>
   <data name="PascalCase" xml:space="preserve">
     <value>PascalCase</value>
   </data>
   <data name="RandomCase" xml:space="preserve">
-    <value>raNdoM cASe</value>
+    <value>tiPO De LeTra aLeATÓrIa</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>Randomize</value>
+    <value>Aleatorizar</value>
   </data>
   <data name="Reverse" xml:space="preserve">
-    <value>Reverse</value>
+    <value>Inverter</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
-    <value>Reverse alphabetize</value>
+    <value>Inverter alfabetização</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>Reverse alphabetize by last word</value>
+    <value>Inverter alfabetização pela última palavra</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>string</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
-    <value>Column</value>
+    <value>Coluna</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
-    <value>End position</value>
+    <value>Posição final</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>Length</value>
+    <value>Comprimento</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>Linha</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
-    <value>Start position</value>
+    <value>Posição inicial</value>
   </data>
   <data name="SelectionStatistics" xml:space="preserve">
-    <value>Selection</value>
+    <value>Seleção</value>
   </data>
   <data name="SentenceCase" xml:space="preserve">
-    <value>Sentence case</value>
+    <value>Maiúsculas/minúsculas de frase</value>
   </data>
   <data name="Sentences" xml:space="preserve">
-    <value>Sentences</value>
+    <value>Frases</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>Analisador e Utilitários</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
-    <value>Show original text</value>
+    <value>Mostrar texto original</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
     <value>snake_case</value>
   </data>
   <data name="SortLines" xml:space="preserve">
-    <value>Sort lines</value>
+    <value>Classificar linhas</value>
   </data>
   <data name="Statistics" xml:space="preserve">
-    <value>Statistics</value>
+    <value>Estatísticas</value>
   </data>
   <data name="StatisticTitle" xml:space="preserve">
-    <value>Title</value>
+    <value>Título</value>
   </data>
   <data name="StatisticValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Valor</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
-    <value>Title Case</value>
+    <value>Maiúsculas/Minúsculas de Título</value>
   </data>
   <data name="TrainCase" xml:space="preserve">
     <value>Train-Case</value>
   </data>
   <data name="UpperCase" xml:space="preserve">
-    <value>UPPER CASE</value>
+    <value>MAIÚSCULAS</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
-    <value>Word frequency</value>
+    <value>Frequência de palavras</value>
   </data>
   <data name="Words" xml:space="preserve">
-    <value>Words</value>
+    <value>Palavras</value>
   </data>
 </root>

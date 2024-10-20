@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta formatadora de SQL</value>
+    <value>Ferramenta de Formatação de SQL</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuração</value>
@@ -136,7 +136,7 @@
     <value>Indentação</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Selecione qual indentação você deseja usar</value>
+    <value>Selecione a indentação que você deseja usar</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Entrada</value>
@@ -145,19 +145,19 @@
     <value>O arquivo de entrada selecionado não existe.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Texto ou caminho para um arquivo que contém o SQL para formatar</value>
+    <value>Texto ou caminho para um arquivo contendo o sql para formatar</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Por favor, especifique um texto de entrada ou um arquivo de entrada</value>
+    <value>Especifique um texto de entrada ou um arquivo de entrada</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
-    <value>Vírgula inicial</value>
+    <value>Vírgula à esquerda</value>
   </data>
   <data name="LeadingCommaDescription" xml:space="preserve">
-    <value>Quando usar vírgulas iniciais ou não</value>
+    <value>Se deve usar vírgulas à esquerda ou não</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Formatador de SQL</value>
+    <value>Formatador SQL</value>
   </data>
   <data name="MariaDb" xml:space="preserve">
     <value>MariaDB</value>
@@ -169,7 +169,7 @@
     <value>N1QL</value>
   </data>
   <data name="OneTab" xml:space="preserve">
-    <value>1 aba</value>
+    <value>1 tabulação</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Saída</value>
@@ -187,7 +187,7 @@
     <value>Amazon Redshift</value>
   </data>
   <data name="SearchDisplayName" xml:space="preserve">
-    <value>Formatador de SQL</value>
+    <value>Formatador SQL</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>SQL</value>
@@ -199,7 +199,7 @@
     <value>Linguagem</value>
   </data>
   <data name="SqlLanguageDescription" xml:space="preserve">
-    <value>Qual linguagem SQL a se usar</value>
+    <value>Qual linguagem SQL usar</value>
   </data>
   <data name="StandardSql" xml:space="preserve">
     <value>SQL Padrão</value>

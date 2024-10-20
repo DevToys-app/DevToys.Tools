@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Certificate Decoder tool</value>
+    <value>Eina de descodificació de certificats</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Decode a certificate</value>
+    <value>Descodifica un certificat</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist</value>
+    <value>El fitxer d'entrada no existeix</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Raw certificate text or path to a certificate file to decode</value>
+    <value>Text del certificat en brut o ruta al fitxer del certificat a descodificar</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Si us plau, especifica un text o un fitxer d'entrada</value>
   </data>
   <data name="InvalidPasswordError" xml:space="preserve">
-    <value>Incorrect password.</value>
+    <value>Contrasenya incorrecta.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Certificate Decoder</value>
+    <value>Descodificador de certificats</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ruta del fitxer de sortida</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortida</value>
   </data>
   <data name="PasswordOptionDescription" xml:space="preserve">
-    <value>Certificate password</value>
+    <value>Contrasenya del certificat</value>
   </data>
   <data name="PasswordTitle" xml:space="preserve">
-    <value>Password</value>
+    <value>Contrasenya</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>CER PFX PEM CRT</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Certificate</value>
+    <value>Certificat</value>
   </data>
   <data name="UnsupportedFormatError" xml:space="preserve">
-    <value>Certificate Request format not currently supported.</value>
+    <value>El format de sol·licitud de certificat no s'admet actualment.</value>
   </data>
 </root>

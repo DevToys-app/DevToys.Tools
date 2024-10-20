@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON array to tabular form converter tool</value>
+    <value>JSON 陣列轉換表格工具</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON 陣列至表格</value>
+    <value>轉換 JSON 陣列為表格</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert a JSON array to tabular format, export to CSV or TSV</value>
+    <value>轉換 JSON 陣列為表格，匯出為 CSV 或 TSV</value>
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -136,7 +136,7 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>設置</value>
+    <value>組態設定</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>輸入</value>
@@ -149,22 +149,22 @@
     <comment>Displayed when input isn't a valid JSON array</comment>
   </data>
   <data name="ClipboardFormatDescription" xml:space="preserve">
-    <value>Select which format is copied to clipboard</value>
+    <value>選擇要複製至剪貼簿的格式</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
     <value>剪貼簿格式</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
-    <value>逗號分隔值（CSV）</value>
+    <value>逗號分隔值 (CSV)</value>
   </data>
   <data name="CopyFormatTSV" xml:space="preserve">
-    <value>制表符分隔值（TSV）</value>
+    <value>Tab 分隔值 (TSV)</value>
   </data>
   <data name="CopyFormatFSV" xml:space="preserve">
-    <value>分號分隔值（CSV 法語）</value>
+    <value>分號分隔值 (CSV 法語)</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from JSON</value>
+    <value>要從 JSON 轉換的文字或檔案路徑</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">

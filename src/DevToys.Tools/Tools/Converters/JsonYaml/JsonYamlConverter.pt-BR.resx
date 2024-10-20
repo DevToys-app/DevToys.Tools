@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Ferramenta conversora de JSON para YAML e YAML para JSON</value>
+    <value>Ferramenta de conversão de JSON para YAML e YAML para JSON</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuração</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Selecione qual modo de conversão você quer utilizar</value>
+    <value>Selecione o modo de conversão que você deseja usar</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
     <value>Se deve converter de Json ou Yaml</value>
@@ -133,7 +133,7 @@
     <value>Conversão</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Converter dados JSON para YAML e vice-versa</value>
+    <value>Converter dados JSON em YAML e vice-versa</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 espaços</value>
@@ -142,7 +142,7 @@
     <value>Indentação</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Selecione qual indentação você quer usar</value>
+    <value>Selecione a indentação que você deseja usar</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Entrada</value>
@@ -157,7 +157,7 @@
     <value>Especifique um texto de entrada ou um arquivo de entrada</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
-    <value>&lt;Dados JSON inválidos&gt;</value>
+    <value>&lt;Dados JSON inválidos data&gt;</value>
   </data>
   <data name="InvalidYaml" xml:space="preserve">
     <value>&lt;Dados Yaml inválidos&gt;</value>
