@@ -189,4 +189,7 @@
   <data name="UppercaseTitle" xml:space="preserve">
     <value>大文字を使用</value>
   </data>
+  <data name="SearchKeywords" xml:space="preserve">
+    <value>HMAC SHA1 SHA256 SHA384 SHA512 MD5</value>
+  </data>
 </root>
