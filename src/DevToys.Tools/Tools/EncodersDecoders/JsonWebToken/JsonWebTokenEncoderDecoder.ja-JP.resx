@@ -498,7 +498,7 @@
     <comment>Gui</comment>
   </data>
   <data name="InvalidDateValue" xml:space="preserve">
-    <value>無効な日付が入力されました</value>
+    <value>日時の入力に誤りがあります</value>
     <comment>Error message</comment>
   </data>
 </root>
