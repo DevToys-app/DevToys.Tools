@@ -18,6 +18,7 @@ namespace DevToys.Tools.Tools.Generators.HashAndChecksum;
     ShortDisplayTitleResourceName = nameof(HashAndChecksumGenerator.ShortDisplayTitle),
     LongDisplayTitleResourceName = nameof(HashAndChecksumGenerator.LongDisplayTitle),
     DescriptionResourceName = nameof(HashAndChecksumGenerator.Description),
+    SearchKeywordsResourceName = nameof(HashAndChecksumGenerator.SearchKeywords),
     AccessibleNameResourceName = nameof(HashAndChecksumGenerator.AccessibleName))]
 [AcceptedDataTypeName(PredefinedCommonDataTypeNames.Text)]
 [AcceptedDataTypeName(PredefinedCommonDataTypeNames.File)]

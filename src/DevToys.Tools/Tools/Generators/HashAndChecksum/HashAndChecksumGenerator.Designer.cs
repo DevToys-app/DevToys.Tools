@@ -241,6 +241,15 @@ namespace DevToys.Tools.Tools.Generators.HashAndChecksum {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to HMAC SHA1 SHA256 SHA384 SHA512 MD5.
+        /// </summary>
+        internal static string SearchKeywords {
+            get {
+                return ResourceManager.GetString("SearchKeywords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hash / Checksum.
         /// </summary>
         internal static string ShortDisplayTitle {
