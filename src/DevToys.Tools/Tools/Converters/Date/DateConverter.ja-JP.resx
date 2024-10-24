@@ -188,7 +188,7 @@
     <value>既定のエポック</value>
   </data>
   <data name="EpochSwitchDescription" xml:space="preserve">
-    <value>ユーザー定義のエポックを使用する</value>
+    <value>ユーザー定義のエポックを使用します</value>
   </data>
   <data name="No" xml:space="preserve">
     <value>オフ</value>
