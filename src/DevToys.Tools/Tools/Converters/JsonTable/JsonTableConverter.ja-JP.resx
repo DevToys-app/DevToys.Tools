@@ -142,7 +142,7 @@
     <value>入力</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>ビュー</value>
+    <value>出力</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>有効な JSON 配列を入力すると表示されます</value>
@@ -176,9 +176,9 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>コピー ...</value>
+    <value>形式を指定してコピー</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>保存 ...</value>
+    <value>形式を指定して保存</value>
   </data>
 </root>
