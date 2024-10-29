@@ -121,7 +121,7 @@
     <value>Cron parsing tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Cấu hình</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
     <value>Cron description</value>
@@ -163,10 +163,10 @@
     <value>Output date time format is not valid</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>Định dạng đầu ra</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value/>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron parser</value>
