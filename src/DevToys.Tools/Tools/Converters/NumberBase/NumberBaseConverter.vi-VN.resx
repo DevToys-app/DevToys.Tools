@@ -121,13 +121,13 @@
     <value>Number Base Converter tool</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>Chế độ nâng cao</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>Nhị phân</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Cấu hình</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
     <value>Please set at least two characters in the custom dictionary</value>
@@ -142,13 +142,13 @@
     <value>Convert numbers from one base to another</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>Định dạng số</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
-    <value>Hexadecimal</value>
+    <value>Thập lục phân</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Đầu vào</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
     <value>The base of the number to convert</value>
