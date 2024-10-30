@@ -130,25 +130,25 @@
     <value>رمز الاستجابة السريعة</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
+    <value>مسار مِلَفّ صورة التي يحتوي على رمز الاستجابة السريعة للتفكيك / مسار مِلَفّ نص يحتوي النص للتحويل لرمز الاستجابة السريعة</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Text</value>
+    <value>النص</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>QR Code Encoder / Decoder</value>
+    <value>مُشفِّر / مفكِّك رمز الاستجابة السريعة</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>No QR Code found in this image</value>
+    <value>لم يتم وِجدان أي رمز استجابة سريعة في الصورة</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>المسار إلى المِلَفّ المُخرج</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>QRCode URL</value>
+    <value>رابط الرمز الاستجابة السريعة</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>QR Code</value>
+    <value>رمز الاستجابة السريعة</value>
   </data>
 </root>
