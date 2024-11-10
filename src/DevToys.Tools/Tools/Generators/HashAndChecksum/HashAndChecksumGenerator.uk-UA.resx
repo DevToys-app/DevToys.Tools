@@ -189,4 +189,7 @@
   <data name="UppercaseTitle" xml:space="preserve">
     <value>Uppercase</value>
   </data>
+  <data name="SearchKeywords" xml:space="preserve">
+    <value/>
+  </data>
 </root>

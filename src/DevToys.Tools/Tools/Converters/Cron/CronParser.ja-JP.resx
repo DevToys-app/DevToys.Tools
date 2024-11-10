@@ -151,10 +151,10 @@
     <value>表示するスケジュールの数</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>スケジュールを確認するための出力行数</value>
+    <value>出力するスケジュールの数</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>スケジュール</value>
+    <value>次のスケジュールされた日付</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
     <value>スケジュールの出力フォーマット</value>

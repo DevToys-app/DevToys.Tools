@@ -136,13 +136,13 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Cấu hình</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Đầu vào</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Đầu ra</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Please provide a valid JSON array of objects</value>
@@ -179,6 +179,6 @@
     <value>Copy as</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>Lưu dưới dạng</value>
   </data>
 </root>
