@@ -214,16 +214,16 @@
     <value>ZuFäLlIgEr FaLl</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>Randomisieren</value>
+    <value>Zufällig</value>
   </data>
   <data name="Reverse" xml:space="preserve">
     <value>Umgekehrt</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
-    <value>Umgekehrte Alphabetisierung</value>
+    <value>Umgekehrt, alphabetisch</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>Umgekehrte Alphabetisierung nach letztem Wort</value>
+    <value>Umgekehrt, alphabetisch nach letztem Wort</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Zeichenkette</value>
@@ -259,7 +259,7 @@
     <value>Originaltext anzeigen</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
-    <value>Schlangen_fall (evtl. Überarbeitung)</value>
+    <value>snake_case</value>
   </data>
   <data name="SortLines" xml:space="preserve">
     <value>Zeilen sortieren</value>
