@@ -124,7 +124,7 @@
     <value>Eine Reihe von Behandlungen, die auf den Eingabetext anzuwenden sind. Die Aktionen werden in der Reihenfolge ausgeführt, in der sie festgelegt wurden.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetisieren</value>
+    <value>Alphabetisch</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
     <value>Nach letztem Wort alphabetisch sortieren</value>
@@ -145,16 +145,16 @@
     <value>Zeichen</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
-    <value>COBOL-FALL (evtl. Überarbeitung)</value>
+    <value>COBOL-CASE</value>
   </data>
   <data name="ConstantCase" xml:space="preserve">
-    <value>konstanter_fall (evtl. Überarbeitung)</value>
+    <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
     <value>Fall umwandeln (evtl. Überarbeitung)</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Zeilenumbruch umwandeln (evtl. Überarbeitung)</value>
+    <value>Zeilenumbruchzeichen umwandeln</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Text analysieren und grundlegende Dienstprogramme bereitstellen</value>
