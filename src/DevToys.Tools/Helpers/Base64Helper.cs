@@ -7,7 +7,7 @@ namespace DevToys.Tools.Helpers;
 
 internal static partial class Base64Helper
 {
-    internal static bool IsBase64DataStrict(string? data)
+    internal static bool IsBase64DataStrict(string? data, Base64Encoding encoding)
     {
         if (string.IsNullOrWhiteSpace(data))
         {
@@ -38,8 +38,9 @@ internal static partial class Base64Helper
 
         try
         {
+            Encoding encoder = GetEncoder(encoding);
             byte[]? decodedData = Convert.FromBase64String(data);
-            decoded = Encoding.UTF8.GetString(decodedData);
+            decoded = encoder.GetString(decodedData);
         }
         catch (Exception)
         {
@@ -161,6 +162,7 @@ internal static partial class Base64Helper
         {
             Base64Encoding.Utf8 => new UTF8Encoding(true),
             Base64Encoding.Ascii => Encoding.ASCII,
+            Base64Encoding.Utf16 => Encoding.Unicode,
             _ => throw new NotSupportedException(),
         };
     }

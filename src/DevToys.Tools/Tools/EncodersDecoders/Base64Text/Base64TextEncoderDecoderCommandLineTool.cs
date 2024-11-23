@@ -70,7 +70,7 @@ internal sealed class Base64TextEncoderDecoderCommandLineTool : ICommandLineTool
                 break;
 
             case EncodingConversion.Decode:
-                if (!Base64Helper.IsBase64DataStrict(result.Data))
+                if (!Base64Helper.IsBase64DataStrict(result.Data, EncodingMode))
                 {
                     cancellationToken.ThrowIfCancellationRequested();
                     Console.Error.WriteLine(Base64TextEncoderDecoder.InvalidBase64);

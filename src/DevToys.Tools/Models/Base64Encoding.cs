@@ -3,5 +3,6 @@
 internal enum Base64Encoding
 {
     Utf8,
-    Ascii
+    Ascii,
+    Utf16
 }
