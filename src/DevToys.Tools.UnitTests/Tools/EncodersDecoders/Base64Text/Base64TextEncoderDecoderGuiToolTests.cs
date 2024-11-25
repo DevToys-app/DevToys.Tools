@@ -35,7 +35,7 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
 
         _inputBox.Text("Hello world &é'(-è_çèà)");
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("SABlAGwAbABvACAAdwBvAHIAbABkACAAJgDpACcAKAAtAOgAXwDnAOgA4AApAA==");
+        _outputBox.Text.Should().Be("//5IAGUAbABsAG8AIAB3AG8AcgBsAGQAIAAmAOkAJwAoAC0A6ABfAOcA6ADgACkA");
     }
 
     [Fact]
@@ -69,7 +69,7 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
         var encodingOption = (IUISelectDropDownList)((IUISetting)_toolView.GetChildElementById("base64-text-encoding-setting")).InteractiveElement;
         encodingOption.Select(2); // Select UTF-16
 
-        _inputBox.Text("SABlAGwAbABvACAAdwBvAHIAbABkACAAJgDpACcAKAAtAOgAXwDnAOgA4AApAA==");
+        _inputBox.Text("//5IAGUAbABsAG8AIAB3AG8AcgBsAGQAIAAmAOkAJwAoAC0A6ABfAOcA6ADgACkA");
         await _tool.WorkTask;
         _outputBox.Text.Should().Be("Hello world &é'(-è_çèà)");
     }
