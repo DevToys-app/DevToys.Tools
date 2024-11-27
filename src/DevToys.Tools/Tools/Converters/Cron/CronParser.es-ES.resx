@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Herramienta de parseo de Cron</value>
+    <value>Herramienta de análisis de expresiones Cron</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
     <value>Configuración</value>
