@@ -39,8 +39,10 @@ internal static partial class Base64Helper
         try
         {
             Encoding encoder = GetEncoder(encoding);
-            byte[]? decodedData = Convert.FromBase64String(data);
-            decoded = encoder.GetString(decodedData);
+            byte[] decodedData = Convert.FromBase64String(data);
+            using MemoryStream decodedStream = new(decodedData);
+            using StreamReader reader = new(decodedStream, encoder);
+            decoded = reader.ReadToEnd();
         }
         catch (Exception)
         {
