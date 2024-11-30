@@ -148,10 +148,10 @@
     <value>الرجاء تحديد مدخل نص أو مدخل ملف</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Formatter</value>
+    <value>مُنسيق JSON</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>مصغّر</value>
   </data>
   <data name="OneTab" xml:space="preserve">
     <value>1 tab</value>
