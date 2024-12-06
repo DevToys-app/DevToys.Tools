@@ -163,18 +163,18 @@
     <value>المسار إلى المِلَفّ المخرج</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>sort order alphabetize</value>
+    <value>ترتيب أبجدي</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON</value>
   </data>
   <data name="SortProperties" xml:space="preserve">
-    <value>Sort JSON Properties alphabetically</value>
+    <value>رتِّب خصائص JSON أبجدياً</value>
   </data>
   <data name="SortPropertiesOptionDescription" xml:space="preserve">
-    <value>Whether properties within the JSON should be sorted alphabetically</value>
+    <value>ما إذا كان ينبغي فرز الخصائص في الـJSON أبجديًا</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>مسافتين</value>
   </data>
 </root>
