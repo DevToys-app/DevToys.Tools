@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON to YAML and YAML to JSON converter tool</value>
+    <value>JSON til YAML og YAML til JSON konverteringsværktøj</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguration</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Vælg hvilken konverteringsmetode du vil bruge</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to convert from Json or Yaml</value>
+    <value>Om der skal konvertere fra Json eller Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Konvertering</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert JSON data to YAML and vice versa</value>
+    <value>Konverter JSON-data til YAML og omvendt</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 spaces</value>
