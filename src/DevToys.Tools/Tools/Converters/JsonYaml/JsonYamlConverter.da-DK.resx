@@ -136,25 +136,25 @@
     <value>Konverter JSON-data til YAML og omvendt</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 mellemrum</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Indrykning</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Vælg hvilken indrykning du vil bruge</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Input</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Den valgte inputfil findes ikke.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to convert from json or yaml</value>
+    <value>Tekst- eller stifil til en fil, der skal konverteres fra json til yaml</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Angiv venligst en imput-tekst eller -fil</value>
   </data>
   <data name="InvalidJson" xml:space="preserve">
     <value>&lt;Invalid JSON data&gt;</value>
@@ -163,24 +163,24 @@
     <value>&lt;Invalid Yaml data&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON til YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON &lt;&gt; YAML Converter</value>
+    <value>JSON &lt;&gt; YAML konverter</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Output</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Sti til outputfilen</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 mellemrum</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YMAL til JSON</value>
   </data>
 </root>
