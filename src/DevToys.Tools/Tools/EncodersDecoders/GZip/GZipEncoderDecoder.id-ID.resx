@@ -148,16 +148,16 @@
     <value>Kompres atau dekempres teks dalam GZip</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>Teks untuk dikompres atau GZip untuk didekompres</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Masukan</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
     <value>&lt;Invalid GZip data&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>Kompres / Dekompres GZip</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Output</value>
