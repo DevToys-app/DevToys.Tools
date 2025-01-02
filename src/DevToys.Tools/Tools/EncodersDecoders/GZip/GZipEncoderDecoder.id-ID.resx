@@ -133,19 +133,19 @@
     <value>Apakah akan mengompres atau mendekompres string GZip</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
-    <value>Compression mode</value>
+    <value>Mode kompresi</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>Compression ratio</value>
+    <value>Rasio kompresi</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
     <value>{0:0.#} %</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compress or decompress a text in GZip</value>
+    <value>Kompres atau dekempres teks dalam GZip</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text to compress or GZip to decompress</value>
