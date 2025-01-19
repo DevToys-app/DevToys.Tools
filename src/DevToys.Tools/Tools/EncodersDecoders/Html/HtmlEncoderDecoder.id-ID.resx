@@ -139,7 +139,7 @@
     <value>Konversi</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode HTML text data</value>
+    <value>Enkode dan Dekode data teks Base64</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text to encode or HTML to decode</value>
