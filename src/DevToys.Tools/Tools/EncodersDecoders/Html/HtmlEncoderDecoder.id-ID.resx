@@ -142,16 +142,16 @@
     <value>Enkode dan Dekode data teks Base64</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or HTML to decode</value>
+    <value>TEks untuk di enkode atau HTML untuk di dekode</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Masukan</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>HTML Text Encoder / Decoder</value>
+    <value>Encoder / Dekoder HTML</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Hasil</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>HTML</value>
