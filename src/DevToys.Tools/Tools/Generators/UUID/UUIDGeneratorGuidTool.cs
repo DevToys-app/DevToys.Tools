@@ -184,7 +184,9 @@ internal sealed class UUIDGeneratorGuidTool : IGuiTool
     {
         var newGuids = new StringBuilder();
 
-        for (int i = 0; i < Math.Max(_settingsProvider.GetSetting(uuidToGenerate), 1); i++)
+        int guidsCount = Math.Max(_settingsProvider.GetSetting(uuidToGenerate), 1);
+
+        for (int i = 0; i < guidsCount; i++)
         {
             string newUuid
                 = UuidHelper.GenerateUuid(
@@ -192,7 +194,14 @@ internal sealed class UUIDGeneratorGuidTool : IGuiTool
                     _settingsProvider.GetSetting(hyphens),
                     _settingsProvider.GetSetting(uppercase));
 
-            newGuids.AppendLine(newUuid);
+            if (i != guidsCount - 1)
+            {
+                newGuids.AppendLine(newUuid);
+            }
+            else
+            {
+                newGuids.Append(newUuid);
+            }
         }
 
         _outputText.Text(newGuids.ToString());

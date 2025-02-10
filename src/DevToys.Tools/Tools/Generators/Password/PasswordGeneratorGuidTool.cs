@@ -281,7 +281,10 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
 
         // Generate a random password using the the combined character set.
         var newPasswords = new StringBuilder();
-        for (int i = 0; i < _settingsProvider.GetSetting(passwordsToGenerate); i++)
+
+        int passwordsCount = _settingsProvider.GetSetting(passwordsToGenerate);
+
+        for (int i = 0; i < passwordsCount; i++)
         {
             string password
                 = PasswordGeneratorHelper.GeneratePassword(
@@ -292,9 +295,18 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
                     hasSpecialCharacters,
                     excludedCharactersList);
 
-            if (password.Length > 0)
+            if (password.Length == 0)
+            {
+                continue;
+            }
+
+            if (i != passwordsCount - 1)
             {
                 newPasswords.AppendLine(password);
+            }
+            else
+            {
+                newPasswords.Append(password);
             }
         }
 
