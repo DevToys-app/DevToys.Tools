@@ -134,7 +134,7 @@ internal static partial class JsonHelper
     /// <summary>
     /// Get the data of a JSON object in the given JSONPath.
     /// </summary>
-    internal static ResultInfo<string> TestJsonPath(JObject jsonObject, string jsonPath, ILogger logger, CancellationToken cancellationToken)
+    internal static ResultInfo<string> TestJsonPath(JToken jsonObject, string jsonPath, ILogger logger, CancellationToken cancellationToken)
     {
         Guard.IsNotNull(logger);
         if (jsonObject is null || string.IsNullOrWhiteSpace(jsonPath))
