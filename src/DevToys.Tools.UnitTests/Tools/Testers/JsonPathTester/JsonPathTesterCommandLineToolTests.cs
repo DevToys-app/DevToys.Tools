@@ -13,9 +13,9 @@ public sealed class JsonPathTesterCommandLineToolTests : TestBase
     }
 
     [Fact]
-    public async Task TestJsonPathUi()
+    public async Task TestJsonPathUiObject()
     {
-        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample.json");
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-object.json");
 
         _tool.InputJson = inputJson;
         _tool.InputJsonPath = "$.phoneNumbers[:1].type";
@@ -31,12 +31,44 @@ public sealed class JsonPathTesterCommandLineToolTests : TestBase
     }
 
     [Fact]
-    public async Task TestJsonPathUiFailed()
+    public async Task TestJsonPathUiObjectFailed()
     {
-        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample.json");
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-object.json");
 
         _tool.InputJson = inputJson;
         _tool.InputJsonPath = "$.TEST";
+
+        using var consoleOutput = new ConsoleOutputMonitor();
+        await _tool.InvokeAsync(new MockILogger(), CancellationToken.None);
+
+        string result = consoleOutput.GetOutput().Trim();
+        result.Should().Be("[]");
+    }
+
+    [Fact]
+    public async Task TestJsonPathUiArray()
+    {
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-array.json");
+
+        _tool.InputJson = inputJson;
+        _tool.InputJsonPath = "$[0].foo";
+
+        using var consoleOutput = new ConsoleOutputMonitor();
+        await _tool.InvokeAsync(new MockILogger(), CancellationToken.None);
+
+        string result = consoleOutput.GetOutput().Trim();
+        result.Should().Be(@"[
+  1
+]");
+    }
+
+    [Fact]
+    public async Task TestJsonPathUiArrayFailed()
+    {
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-array.json");
+
+        _tool.InputJson = inputJson;
+        _tool.InputJsonPath = "$[0].TEST";
 
         using var consoleOutput = new ConsoleOutputMonitor();
         await _tool.InvokeAsync(new MockILogger(), CancellationToken.None);

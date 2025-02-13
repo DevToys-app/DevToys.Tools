@@ -117,7 +117,7 @@ internal static partial class JsonHelper
         try
         {
             using JsonReader reader = new JsonTextReader(new StringReader(json));
-            JObject? jsonObject = await JObject.LoadAsync(reader, settings: null, cancellationToken);
+            JToken? jsonObject = await JToken.LoadAsync(reader, settings: null, cancellationToken);
             return TestJsonPath(jsonObject, jsonPath, logger, cancellationToken);
         }
         catch (Exception ex) when (ex is OperationCanceledException or JsonReaderException)
