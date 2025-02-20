@@ -23,9 +23,9 @@ public sealed class JsonPathTesterGuiToolTests : TestBase
     }
 
     [Fact]
-    public async Task TestJsonPathUi()
+    public async Task TestJsonPathUiObject()
     {
-        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample.json");
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-object.json");
 
         _inputBox.Text(inputJson);
         _jsonPathInputBox.Text("$.phoneNumbers[:1].type");
@@ -38,12 +38,38 @@ public sealed class JsonPathTesterGuiToolTests : TestBase
     }
 
     [Fact]
-    public async Task TestJsonPathUiFailed()
+    public async Task TestJsonPathUiObjectFailed()
     {
-        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample.json");
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-object.json");
 
         _inputBox.Text(inputJson);
         _jsonPathInputBox.Text("$.TEST");
+        await _tool.WorkTask;
+
+        _outputBox.Text.Should().Be("[]");
+    }
+
+    [Fact]
+    public async Task TestJsonPathUiArray()
+    {
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-array.json");
+
+        _inputBox.Text(inputJson);
+        _jsonPathInputBox.Text("$[0].foo");
+        await _tool.WorkTask;
+
+        _outputBox.Text.Should().Be(@"[
+  1
+]");
+    }
+
+    [Fact]
+    public async Task TestJsonPathUiArrayFailed()
+    {
+        string inputJson = await TestDataProvider.GetEmbeddedFileContent("DevToys.Tools.UnitTests.Tools.TestData.JsonPathTester.sample-array.json");
+
+        _inputBox.Text(inputJson);
+        _jsonPathInputBox.Text("$[0].TEST");
         await _tool.WorkTask;
 
         _outputBox.Text.Should().Be("[]");

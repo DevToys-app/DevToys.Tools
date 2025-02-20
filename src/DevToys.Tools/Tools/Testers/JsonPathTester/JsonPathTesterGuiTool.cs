@@ -57,7 +57,7 @@ internal sealed class JsonPathTesterGuiTool : IGuiTool, IDisposable
 
     private CancellationTokenSource? _cancellationTokenSource;
     private string _lastTreatedInputJson = string.Empty;
-    private JObject? _inputJsonObjectBackup = null;
+    private JToken? _inputJsonObjectBackup = null;
 
     [ImportingConstructor]
     public JsonPathTesterGuiTool(ISettingsProvider settingsProvider)
@@ -172,18 +172,18 @@ internal sealed class JsonPathTesterGuiTool : IGuiTool, IDisposable
                     if (string.Equals(_lastTreatedInputJson, json, StringComparison.Ordinal))
                     {
                         // We can reuse the previous JObject. Let's avoid parsing it too often to improve performance.
-                        _inputJsonObjectBackup ??= JObject.Parse(json);
+                        _inputJsonObjectBackup ??= JToken.Parse(json);
                     }
                     else
                     {
                         // We need to parse the new JObject.
-                        _inputJsonObjectBackup = JObject.Parse(json);
+                        _inputJsonObjectBackup = JToken.Parse(json);
                         _lastTreatedInputJson = json;
                     }
 
                     cancellationToken.ThrowIfCancellationRequested();
 
-                    JObject jsonObject = _inputJsonObjectBackup;
+                    JToken jsonObject = _inputJsonObjectBackup;
 
                     ResultInfo<string> resultInfo = JsonHelper.TestJsonPath(jsonObject, jsonPath, _logger, cancellationToken);
                     if (resultInfo.HasSucceeded)

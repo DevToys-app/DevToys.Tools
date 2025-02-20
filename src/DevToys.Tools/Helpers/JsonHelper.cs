@@ -117,7 +117,7 @@ internal static partial class JsonHelper
         try
         {
             using JsonReader reader = new JsonTextReader(new StringReader(json));
-            JObject? jsonObject = await JObject.LoadAsync(reader, settings: null, cancellationToken);
+            JToken? jsonObject = await JToken.LoadAsync(reader, settings: null, cancellationToken);
             return TestJsonPath(jsonObject, jsonPath, logger, cancellationToken);
         }
         catch (Exception ex) when (ex is OperationCanceledException or JsonReaderException)
@@ -134,7 +134,7 @@ internal static partial class JsonHelper
     /// <summary>
     /// Get the data of a JSON object in the given JSONPath.
     /// </summary>
-    internal static ResultInfo<string> TestJsonPath(JObject jsonObject, string jsonPath, ILogger logger, CancellationToken cancellationToken)
+    internal static ResultInfo<string> TestJsonPath(JToken jsonObject, string jsonPath, ILogger logger, CancellationToken cancellationToken)
     {
         Guard.IsNotNull(logger);
         if (jsonObject is null || string.IsNullOrWhiteSpace(jsonPath))
