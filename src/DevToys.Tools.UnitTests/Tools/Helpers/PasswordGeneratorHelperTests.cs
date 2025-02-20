@@ -9,9 +9,9 @@ public class PasswordGeneratorHelperTests
     [InlineData(1, false, true, false, false, null)]
     [InlineData(1, false, false, true, false, null)]
     [InlineData(1, false, false, false, true, null)]
-    [InlineData(100, true, true, true, true, null)]
-    [InlineData(100, true, true, true, true, "bcdefghijklmnopqrstuvwxyz")]
-    [InlineData(100, false, true, false, false, "bcdefghijklmnopqrstuvwxyz")]
+    [InlineData(500, true, true, true, true, null)]
+    [InlineData(500, true, true, true, true, "bcdefghijklmnopqrstuvwxyz")]
+    [InlineData(500, false, true, false, false, "bcdefghijklmnopqrstuvwxyz")]
     internal void GeneratePassword(int length, bool hasUppercase, bool hasLowercase, bool hasNumber, bool hasSpecialCharacters, string excludedCharacters)
     {
         string password

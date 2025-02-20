@@ -44,45 +44,40 @@ internal static class PasswordGeneratorHelper
         }
 
         // Combine all character sets together.
-        string[] randomChars = new[] {
-                    string.Empty,
-                    string.Empty,
-                    string.Empty,
-                    string.Empty
-                };
+        var randomCharsBuilder = new StringBuilder();
+        string randomChars;
 
         var rand = new CryptoRandom();
         var newPasswordCharacters = new List<char>();
 
         if (hasUppercase)
         {
-            randomChars[0] = RemoveExcludedCharacters(UppercaseLetters, excludedCharacters);
+            randomCharsBuilder.Append(RemoveExcludedCharacters(UppercaseLetters, excludedCharacters));
         }
 
         if (hasLowercase)
         {
-            randomChars[1] = RemoveExcludedCharacters(LowercaseLetters, excludedCharacters);
+            randomCharsBuilder.Append(RemoveExcludedCharacters(LowercaseLetters, excludedCharacters));
         }
 
         if (hasNumbers)
         {
-            randomChars[2] = RemoveExcludedCharacters(Digits, excludedCharacters);
+            randomCharsBuilder.Append(RemoveExcludedCharacters(Digits, excludedCharacters));
         }
 
         if (hasSpecialCharacters)
         {
-            randomChars[3] = RemoveExcludedCharacters(NonAlphanumeric, excludedCharacters);
+            randomCharsBuilder.Append(RemoveExcludedCharacters(NonAlphanumeric, excludedCharacters));
         }
 
-        randomChars = randomChars.Where(r => r.Length > 0).ToArray();
+        randomChars = randomCharsBuilder.ToString();
 
         // Only continue if the user hasn't excluded everything.
         if (randomChars.Length != 0)
         {
             for (int j = 0; j < length; j++)
             {
-                string rcs = randomChars[rand.Next(0, randomChars.Length)];
-                newPasswordCharacters.Insert(rand.Next(0, newPasswordCharacters.Count), rcs[rand.Next(0, rcs.Length)]);
+                newPasswordCharacters.Insert(rand.Next(0, newPasswordCharacters.Count + 1), randomChars[rand.Next(0, randomChars.Length)]);
             }
         }
 
