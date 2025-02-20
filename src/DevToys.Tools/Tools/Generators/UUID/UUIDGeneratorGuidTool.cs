@@ -126,25 +126,13 @@ internal sealed class UUIDGeneratorGuidTool : IGuiTool
                                             OnSettingChanged,
                                             Item(UUIDGenerator.UuidVersionOne, UuidVersion.One),
                                             Item(UUIDGenerator.UuidVersionFour, UuidVersion.Four),
-                                            Item(UUIDGenerator.UuidVersionSeven, UuidVersion.Seven))),
+                                            Item(UUIDGenerator.UuidVersionSeven, UuidVersion.Seven)),
 
-                            Stack()
-                                .Vertical()
-                                .WithChildren(
-
-                                    Label().Text(UUIDGenerator.GenerateTitle),
-                                    Stack()
-                                        .Horizontal()
-                                        .SmallSpacing()
-                                        .WithChildren(
-
-                                            Button()
-                                                .AccentAppearance()
-                                                .Text(UUIDGenerator.GenerateButton)
-                                                .OnClick(OnGenerateButtonClick),
-
-                                            Label().Style(UILabelStyle.BodyStrong).Text(UUIDGenerator.MultiplySymbol),
-
+                                    Setting()
+                                        .Icon("FluentSystemIcons", '\uF57D')
+                                        .Title(UUIDGenerator.GenerateCount)
+                                        .Description(UUIDGenerator.GenerateCountDescription)
+                                        .InteractiveElement(
                                             NumberInput()
                                                 .HideCommandBar()
                                                 .Minimum(1)
@@ -158,7 +146,12 @@ internal sealed class UUIDGeneratorGuidTool : IGuiTool
 
                     _outputText
                         .Title(UUIDGenerator.Output)
-                        .ReadOnly())));
+                        .ReadOnly()
+                        .CommandBarExtraContent(
+                            Button()
+                                .Icon("FluentSystemIcons", '\uF13D')
+                                .Text(UUIDGenerator.Refresh)
+                                .OnClick(OnGenerateButtonClick)))));
 
     public void OnDataReceived(string dataTypeName, object? parsedData)
     {
