@@ -186,34 +186,22 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
                                                         .Text(_settingsProvider.GetSetting(excludedCharacters))
                                                         .OnTextChanged(OnExcludedCharactersChanged))),
 
-                                    _infoBar
-                                        .Warning()
-                                        .Description(PasswordGenerator.NoCharacterSetsWarning)
-                                        .NonClosable()),
-
-                            Stack()
-                                .Vertical()
-                                .WithChildren(
-
-                                    Label().Text(PasswordGenerator.GenerateTitle),
-                                    Stack()
-                                        .Horizontal()
-                                        .SmallSpacing()
-                                        .WithChildren(
-
-                                            Button()
-                                                .AccentAppearance()
-                                                .Text(PasswordGenerator.GenerateButton)
-                                                .OnClick(OnGenerateButtonClick),
-
-                                            Label().Style(UILabelStyle.BodyStrong).Text(PasswordGenerator.MultiplySymbol),
-
+                                    Setting()
+                                        .Icon("FluentSystemIcons", '\uF57D')
+                                        .Title(PasswordGenerator.GenerateCount)
+                                        .Description(PasswordGenerator.GenerateCountDescription)
+                                        .InteractiveElement(
                                             NumberInput()
                                                 .HideCommandBar()
                                                 .Minimum(1)
                                                 .Maximum(10000)
                                                 .OnValueChanged(OnNumberOfPasswordsToGenerateChanged)
-                                                .Value(_settingsProvider.GetSetting(passwordsToGenerate)))))),
+                                                .Value(_settingsProvider.GetSetting(passwordsToGenerate))),
+
+                                    _infoBar
+                                        .Warning()
+                                        .Description(PasswordGenerator.NoCharacterSetsWarning)
+                                        .NonClosable()))),
 
                 Cell(
                     GridRow.Results,
@@ -221,7 +209,12 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
 
                     _outputText
                         .Title(PasswordGenerator.Output)
-                        .ReadOnly())));
+                        .ReadOnly()
+                        .CommandBarExtraContent(
+                            Button()
+                                .Icon("FluentSystemIcons", '\uF13D')
+                                .Text(PasswordGenerator.Refresh)
+                                .OnClick(OnGenerateButtonClick)))));
 
     private bool HasAnyCharacterSets
         => _settingsProvider.GetSetting(uppercase)

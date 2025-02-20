@@ -158,25 +158,29 @@ namespace DevToys.Tools.Tools.Generators.Password {
                 return ResourceManager.GetString("ExcludedCharactersOptionDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Generate Password(s).
+        ///   Looks up a localized string similar to Count.
         /// </summary>
-        internal static string GenerateButton {
-            get {
-                return ResourceManager.GetString("GenerateButton", resourceCulture);
+        internal static string GenerateCount
+        {
+            get
+            {
+                return ResourceManager.GetString("GenerateCount", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Generate.
+        ///   Looks up a localized string similar to Number of Passwords to generate.
         /// </summary>
-        internal static string GenerateTitle {
-            get {
-                return ResourceManager.GetString("GenerateTitle", resourceCulture);
+        internal static string GenerateCountDescription
+        {
+            get
+            {
+                return ResourceManager.GetString("GenerateCountDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Length.
         /// </summary>
@@ -275,7 +279,18 @@ namespace DevToys.Tools.Tools.Generators.Password {
                 return ResourceManager.GetString("Output", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh.
+        /// </summary>
+        internal static string Refresh
+        {
+            get
+            {
+                return ResourceManager.GetString("Refresh", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Passkey Secret Pwd.
         /// </summary>
