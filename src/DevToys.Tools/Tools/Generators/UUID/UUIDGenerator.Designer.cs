@@ -88,20 +88,24 @@ namespace DevToys.Tools.Tools.Generators.UUID {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Generate UUID(s).
+        ///   Looks up a localized string similar to Count.
         /// </summary>
-        internal static string GenerateButton {
-            get {
-                return ResourceManager.GetString("GenerateButton", resourceCulture);
+        internal static string GenerateCount
+        {
+            get
+            {
+                return ResourceManager.GetString("GenerateCount", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Generate.
+        ///   Looks up a localized string similar to Number of UUIDs to generate.
         /// </summary>
-        internal static string GenerateTitle {
-            get {
-                return ResourceManager.GetString("GenerateTitle", resourceCulture);
+        internal static string GenerateCountDescription
+        {
+            get
+            {
+                return ResourceManager.GetString("GenerateCountDescription", resourceCulture);
             }
         }
         
@@ -133,20 +137,24 @@ namespace DevToys.Tools.Tools.Generators.UUID {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to x.
+        ///   Looks up a localized string similar to UUID(s).
         /// </summary>
-        internal static string MultiplySymbol {
-            get {
-                return ResourceManager.GetString("MultiplySymbol", resourceCulture);
+        internal static string Output
+        {
+            get
+            {
+                return ResourceManager.GetString("Output", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to UUID(s).
+        ///   Looks up a localized string similar to Refresh.
         /// </summary>
-        internal static string Output {
-            get {
-                return ResourceManager.GetString("Output", resourceCulture);
+        internal static string Refresh
+        {
+            get
+            {
+                return ResourceManager.GetString("Refresh", resourceCulture);
             }
         }
         
