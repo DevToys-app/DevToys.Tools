@@ -130,25 +130,25 @@
     <value>La expresión Cron no es válida</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
-    <value>La expresión Cron a parsear</value>
+    <value>La expresión Cron a analizar</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
     <value>Formato de fecha-hora de las fechas programadas generadas</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parsear expresión Cron para obtener fechas programadas</value>
+    <value>Analizar la expresión Cron para obtener las fechas programadas</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
     <value>Si la expresión Cron incluye segundos en su definición</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Expresión Cron a parsear</value>
+    <value>Expresión Cron a analizar</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Parseador de expresión Cron</value>
+    <value>Analizador de expresión Cron</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Número de programas a generar</value>
+    <value>Número de eventos a generar</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
     <value>Cuantas fechas programadas deben ser generadas</value>
@@ -169,7 +169,7 @@
     <value>Próximas fechas programadas</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Parseador de Cron</value>
+    <value>Analizador de expresión Cron</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
     <value>Si la expresión de Cron debe incluir segundos en su definición</value>
