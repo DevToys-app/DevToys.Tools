@@ -25,17 +25,67 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
         _inputBox.Text("Hello world &é'(-è_çèà)");
         await _tool.WorkTask;
         _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+    }    
+    
+    [Fact]
+    public async Task EncodeUtf16()
+    {
+        var encodingOption = (IUISelectDropDownList)((IUISetting)_toolView.GetChildElementById("base64-text-encoding-setting")).InteractiveElement;
+        encodingOption.Select(2); // Select UTF-16
+
+        _inputBox.Text("Hello world &é'(-è_çèà)");
+        await _tool.WorkTask;
+        _outputBox.Text.Should().Be("//5IAGUAbABsAG8AIAB3AG8AcgBsAGQAIAAmAOkAJwAoAC0A6ABfAOcA6ADgACkA");
     }
 
     [Fact]
     public async Task EncodeAscii()
     {
         var encodingOption = (IUISelectDropDownList)((IUISetting)_toolView.GetChildElementById("base64-text-encoding-setting")).InteractiveElement;
-        encodingOption.Select(1); // Select ASCII
+        encodingOption.Select(0); // Select ASCII
 
         _inputBox.Text("Hello world &é'(-è_çèà)");
         await _tool.WorkTask;
         _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJj8nKC0/Xz8/Pyk=");
+    }
+    
+    [Fact]
+    public async Task DecodeUtf8()
+    {
+        var conversionMode = (IUISwitch)_toolView.GetChildElementById("base64-text-conversion-mode-switch");
+        conversionMode.Off(); // Switch to Decode
+
+        _inputBox.Text("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        await _tool.WorkTask;
+        _outputBox.Text.Should().Be("Hello world &é'(-è_çèà)");
+    }    
+    
+    [Fact]
+    public async Task DecodeUtf16()
+    {
+        var conversionMode = (IUISwitch)_toolView.GetChildElementById("base64-text-conversion-mode-switch");
+        conversionMode.Off(); // Switch to Decode
+
+        var encodingOption = (IUISelectDropDownList)((IUISetting)_toolView.GetChildElementById("base64-text-encoding-setting")).InteractiveElement;
+        encodingOption.Select(2); // Select UTF-16
+
+        _inputBox.Text("//5IAGUAbABsAG8AIAB3AG8AcgBsAGQAIAAmAOkAJwAoAC0A6ABfAOcA6ADgACkA");
+        await _tool.WorkTask;
+        _outputBox.Text.Should().Be("Hello world &é'(-è_çèà)");
+    }
+
+    [Fact]
+    public async Task DecodeAscii()
+    {
+        var conversionMode = (IUISwitch)_toolView.GetChildElementById("base64-text-conversion-mode-switch");
+        conversionMode.Off(); // Switch to Decode
+
+        var encodingOption = (IUISelectDropDownList)((IUISetting)_toolView.GetChildElementById("base64-text-encoding-setting")).InteractiveElement;
+        encodingOption.Select(0); // Select ASCII
+
+        _inputBox.Text("SGVsbG8gd29ybGQgJj8nKC0/Xz8/Pyk=");
+        await _tool.WorkTask;
+        _outputBox.Text.Should().Be("Hello world &?'(-?_???)");
     }
 
     [Fact]

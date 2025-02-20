@@ -7,7 +7,7 @@ namespace DevToys.Tools.Helpers;
 
 internal static partial class Base64Helper
 {
-    internal static bool IsBase64DataStrict(string? data)
+    internal static bool IsBase64DataStrict(string? data, Base64Encoding encoding)
     {
         if (string.IsNullOrWhiteSpace(data))
         {
@@ -38,8 +38,11 @@ internal static partial class Base64Helper
 
         try
         {
-            byte[]? decodedData = Convert.FromBase64String(data);
-            decoded = Encoding.UTF8.GetString(decodedData);
+            Encoding encoder = GetEncoder(encoding);
+            byte[] decodedData = Convert.FromBase64String(data);
+            using MemoryStream decodedStream = new(decodedData);
+            using StreamReader reader = new(decodedStream, encoder);
+            decoded = reader.ReadToEnd();
         }
         catch (Exception)
         {
@@ -81,7 +84,13 @@ internal static partial class Base64Helper
         try
         {
             Encoding encoder = GetEncoder(encoding);
-            byte[]? dataBytes = encoder.GetBytes(data);
+
+            byte[] dataBytes = new byte[encoder.Preamble.Length + encoder.GetByteCount(data)];
+            using(MemoryStream dataStream = new(dataBytes))
+            using (StreamWriter writer = new(dataStream, encoder))
+            {
+                writer.Write(data);
+            }
 
             cancellationToken.ThrowIfCancellationRequested();
 
@@ -127,7 +136,7 @@ internal static partial class Base64Helper
 
             if (encoder is UTF8Encoding && decodedData != null)
             {
-                byte[] preamble = encoder.GetPreamble();
+                byte[] preamble = Encoding.UTF8.GetPreamble();
                 if (decodedData.Take(preamble.Length).SequenceEqual(preamble))
                 {
                     // need to keep it this way to have the dom char
@@ -139,7 +148,10 @@ internal static partial class Base64Helper
 
             if (decodedData is not null)
             {
-                decoded += encoder.GetString(decodedData);
+                using MemoryStream dataStream = new(decodedData);
+                using StreamReader reader = new(dataStream, encoder);
+
+                decoded += reader.ReadToEnd();
             }
         }
         catch (Exception ex) when (ex is OperationCanceledException || ex is FormatException)
@@ -159,8 +171,9 @@ internal static partial class Base64Helper
     {
         return encoding switch
         {
-            Base64Encoding.Utf8 => new UTF8Encoding(true),
+            Base64Encoding.Utf8 => new UTF8Encoding(false),
             Base64Encoding.Ascii => Encoding.ASCII,
+            Base64Encoding.Utf16 => Encoding.Unicode,
             _ => throw new NotSupportedException(),
         };
     }

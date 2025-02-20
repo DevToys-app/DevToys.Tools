@@ -184,6 +184,9 @@
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Base64 Текст</value>
   </data>
+  <data name="Utf16" xml:space="preserve">
+    <value>UTF-16</value>
+  </data>
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>
   </data>

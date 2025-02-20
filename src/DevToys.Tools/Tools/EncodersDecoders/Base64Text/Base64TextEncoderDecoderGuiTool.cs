@@ -134,8 +134,10 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
                                                 _settingsProvider,
                                                 encoder,
                                                 onOptionSelected: OnEncodingModeChanged,
+                                                Item(Base64TextEncoderDecoder.Ascii, Base64Encoding.Ascii),
                                                 Item(Base64TextEncoderDecoder.Utf8, Base64Encoding.Utf8),
-                                                Item(Base64TextEncoderDecoder.Ascii, Base64Encoding.Ascii))))),
+                                                Item(Base64TextEncoderDecoder.Utf16, Base64Encoding.Utf16)
+                                                )))),
 
                     Cell(
                         GridRows.Input,
@@ -236,7 +238,7 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
                     break;
 
                 case EncodingConversion.Decode:
-                    if (!string.IsNullOrEmpty(input) && !Base64Helper.IsBase64DataStrict(input))
+                    if (!string.IsNullOrEmpty(input) && !Base64Helper.IsBase64DataStrict(input, encoderSetting))
                     {
                         cancellationToken.ThrowIfCancellationRequested();
                         _outputText.Text(Base64TextEncoderDecoder.InvalidBase64);

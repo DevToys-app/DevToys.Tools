@@ -259,6 +259,15 @@ namespace DevToys.Tools.Tools.EncodersDecoders.Base64Text {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to UTF-16.
+        /// </summary>
+        internal static string Utf16 {
+            get {
+                return ResourceManager.GetString("Utf16", resourceCulture);
+            }
+        }
+                
+        /// <summary>
         ///   Looks up a localized string similar to UTF-8.
         /// </summary>
         internal static string Utf8 {
