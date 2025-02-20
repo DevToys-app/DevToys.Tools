@@ -151,7 +151,7 @@
     <value>Si el UUID generado debe estar en mayúscula o no</value>
   </data>
   <data name="GenerateCount" xml:space="preserve">
-    <value>UUID Generation Count</value>
+    <value>Número de generación UUID</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -172,7 +172,7 @@
     <value>Versión de UUID</value>
   </data>
   <data name="GenerateCountDescription" xml:space="preserve">
-    <value>Number of UUIDs to generate</value>
+    <value>Número de UUIDs a generar</value>
   </data>
   <data name="Refresh" xml:space="preserve">
     <value>Actualizar</value>
