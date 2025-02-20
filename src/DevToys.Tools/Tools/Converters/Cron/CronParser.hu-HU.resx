@@ -121,13 +121,13 @@
     <value>Cron parsing tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Beállítások</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
-    <value>Cron description</value>
+    <value>CRON leírás</value>
   </data>
   <data name="CronErrorMessage" xml:space="preserve">
-    <value>Cron expression is not valid</value>
+    <value>Érvénytelen CRON kifejezés</value>
   </data>
   <data name="CronExpressionOptionDescription" xml:space="preserve">
     <value>The Cron expression to parse</value>
@@ -154,19 +154,19 @@
     <value>How many scheduled dates needs to be generated</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Következő ütemezések</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
     <value>Date time fomat of upcoming dates</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>Érvénytelen kimeneti dátum- és időformátum</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>Kimenet formátuma</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>Következő ütemezések</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron parser</value>

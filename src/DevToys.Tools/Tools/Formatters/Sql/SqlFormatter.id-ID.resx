@@ -145,10 +145,10 @@
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the sql to format</value>
+    <value>Teks atau jalur ke file yang berisi Sql untuk diformat</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Mohon masukkan teks atau pilih file yang ingin diproses</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
     <value>Leading comma</value>

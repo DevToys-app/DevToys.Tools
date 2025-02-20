@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Text analyzer, converter and utilities tool</value>
+    <value>Alat analisis, konversi, dan utilitas teks</value>
   </data>
   <data name="ActionsOptionDescription" xml:space="preserve">
-    <value>A set of treatments to apply to the input text. Actions are performed in the order they're set.</value>
+    <value>Serangkaian penanganan untuk memproses teks input. Tindakan dilakukan sesuai urutan yang ditetapkan.</value>
   </data>
   <data name="Alphabetize" xml:space="preserve">
-    <value>Alphabetize</value>
+    <value>Abjad-kan</value>
   </data>
   <data name="AlphabetizeLast" xml:space="preserve">
-    <value>Alphabetize by last word</value>
+    <value>Abjad-kan dari huruf terakhir</value>
   </data>
   <data name="AlternatingCase" xml:space="preserve">
     <value>aLtErNaTiNg cAsE</value>
@@ -139,10 +139,10 @@
     <value>camelCase</value>
   </data>
   <data name="CharacterFrequency" xml:space="preserve">
-    <value>Character frequency</value>
+    <value>Frekuensi karakter</value>
   </data>
   <data name="Characters" xml:space="preserve">
-    <value>Characters</value>
+    <value>Jumlah Karakter</value>
   </data>
   <data name="CobolCase" xml:space="preserve">
     <value>COBOL-CASE</value>
@@ -151,16 +151,16 @@
     <value>CONSTANT_CASE</value>
   </data>
   <data name="ConvertCase" xml:space="preserve">
-    <value>Convert case</value>
+    <value>Konversi huruf besar kecil</value>
   </data>
   <data name="ConvertEndOfLineSequence" xml:space="preserve">
-    <value>Convert line break</value>
+    <value>Konversi baris baru</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Analyze text and provide some basic utility tools</value>
+    <value>Analisis teks dan menyediakan alat utilitas dasar</value>
   </data>
   <data name="EndOfLineSequence" xml:space="preserve">
-    <value>Line break</value>
+    <value>Baris baru</value>
   </data>
   <data name="EndOfLineSequenceCR" xml:space="preserve">
     <value>CR (\r)</value>
@@ -172,19 +172,19 @@
     <value>LF (\n)</value>
   </data>
   <data name="EndOfLineSequenceMixed" xml:space="preserve">
-    <value>Mixed</value>
+    <value>Bercampur</value>
   </data>
   <data name="EndOfLineSequenceUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>Tidak diketahui</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>File input yang dipilih tidak ditemukan.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file to treat.</value>
+    <value>Teks atau lokasi file yang ingin diproses.</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Mohon masukkan teks atau pilih file yang ingin diproses</value>
   </data>
   <data name="InverseCase" xml:space="preserve">
     <value>InVeRsE CaSe</value>
@@ -193,19 +193,19 @@
     <value>kebab-case</value>
   </data>
   <data name="Lines" xml:space="preserve">
-    <value>Lines</value>
+    <value>Jumlah Baris</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Text Analyzer and Utilities</value>
+    <value>Alat Analisis dan Utilitas Teks</value>
   </data>
   <data name="LowerCase" xml:space="preserve">
-    <value>lower case</value>
+    <value>huruf kecil</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Jalur ke file output</value>
   </data>
   <data name="Paragraphs" xml:space="preserve">
-    <value>Paragraphs</value>
+    <value>Paragraf</value>
   </data>
   <data name="PascalCase" xml:space="preserve">
     <value>PascalCase</value>
@@ -214,70 +214,70 @@
     <value>raNdoM cASe</value>
   </data>
   <data name="Randomize" xml:space="preserve">
-    <value>Randomize</value>
+    <value>Acak</value>
   </data>
   <data name="Reverse" xml:space="preserve">
-    <value>Reverse</value>
+    <value>Membalik</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
-    <value>Reverse alphabetize</value>
+    <value>Abjad Terbalik</value>
   </data>
   <data name="ReverseAlphabetizeLast" xml:space="preserve">
-    <value>Reverse alphabetize by last word</value>
+    <value>Abjad Terbalik dari huruf terakhir</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>string</value>
+    <value>dari huruf terakhir</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
-    <value>Column</value>
+    <value>Kolom</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
-    <value>End position</value>
+    <value>Posisi Akhir</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>Length</value>
+    <value>Panjang</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>Baris</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
-    <value>Start position</value>
+    <value>Posisi Mulai</value>
   </data>
   <data name="SelectionStatistics" xml:space="preserve">
-    <value>Selection</value>
+    <value>Seleksi</value>
   </data>
   <data name="SentenceCase" xml:space="preserve">
     <value>Sentence case</value>
   </data>
   <data name="Sentences" xml:space="preserve">
-    <value>Sentences</value>
+    <value>Kalimat</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Analyzer &amp; Utilities</value>
+    <value>Analis &amp; Utilitas</value>
   </data>
   <data name="ShowOriginalText" xml:space="preserve">
-    <value>Show original text</value>
+    <value>Tampilkan teks asli</value>
   </data>
   <data name="SnakeCase" xml:space="preserve">
     <value>snake_case</value>
   </data>
   <data name="SortLines" xml:space="preserve">
-    <value>Sort lines</value>
+    <value>Pengurutan baris</value>
   </data>
   <data name="Statistics" xml:space="preserve">
     <value>Statistics</value>
   </data>
   <data name="StatisticTitle" xml:space="preserve">
-    <value>Title</value>
+    <value>Judul</value>
   </data>
   <data name="StatisticValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Nilai</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>Text</value>
+    <value>Teks</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
-    <value>Text</value>
+    <value>Teks</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
     <value>Title Case</value>
@@ -289,9 +289,9 @@
     <value>UPPER CASE</value>
   </data>
   <data name="WordFrequency" xml:space="preserve">
-    <value>Word frequency</value>
+    <value>Frekuensi kata</value>
   </data>
   <data name="Words" xml:space="preserve">
-    <value>Words</value>
+    <value>Kata</value>
   </data>
 </root>

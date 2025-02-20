@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>GZip Compressor and Decompressor tool</value>
+    <value>Alat Kompresor dan Dekompresor GZip</value>
   </data>
   <data name="CompressionModeCompress" xml:space="preserve">
-    <value>Compress</value>
+    <value>Kompres</value>
   </data>
   <data name="CompressionModeDecompress" xml:space="preserve">
-    <value>Decompress</value>
+    <value>Dekompresi</value>
   </data>
   <data name="CompressionModeDescription" xml:space="preserve">
-    <value>Select whether the input should be compressed or decompressed</value>
+    <value>Pilih apakah input harus dikompres atau didekompres</value>
   </data>
   <data name="CompressionModeOptionDescription" xml:space="preserve">
-    <value>Whether to compress or decompress a GZip string</value>
+    <value>Apakah akan mengompres atau mendekompres string GZip</value>
   </data>
   <data name="CompressionModeTitle" xml:space="preserve">
-    <value>Compression mode</value>
+    <value>Mode kompresi</value>
   </data>
   <data name="CompressionRatio" xml:space="preserve">
-    <value>Compression ratio</value>
+    <value>Rasio kompresi</value>
   </data>
   <data name="CompressionRatioValue" xml:space="preserve">
     <value>{0:0.#} %</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compress or decompress a text in GZip</value>
+    <value>Kompres atau dekempres teks dalam GZip</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to compress or GZip to decompress</value>
+    <value>Teks untuk dikompres atau GZip untuk didekompres</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Masukan</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
-    <value>&lt;Invalid GZip data&gt;</value>
+    <value>&lt;Data GZip tidak valid&gt;</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>GZip Compress / Decompress</value>
+    <value>Kompres / Dekompres GZip</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Hasil</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>

@@ -125,7 +125,7 @@
     <comment>{0} is a file name.</comment>
   </data>
   <data name="FileTypeNotSupported" xml:space="preserve">
-    <value>A '{0}' fájl nem támogatott. Csak a{z} {1} típusú fájlok támogatottak.</value>
+    <value>A '{0}' fájl nem támogatott. Csak a{z} {1} típusú fájl(ok) támogatott(ak).</value>
     <comment>{0} is a file name. {1} is a list of file extensions</comment>
   </data>
   <data name="Gigabytes" xml:space="preserve">

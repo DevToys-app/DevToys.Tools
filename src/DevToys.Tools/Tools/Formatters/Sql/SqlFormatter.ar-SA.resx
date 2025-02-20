@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>SQL Formatter tool</value>
+    <value>أداة منسق SQL</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>الإعداد</value>
   </data>
   <data name="Db2" xml:space="preserve">
     <value>Db2</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Format SQL data</value>
+    <value>نسق معلومات SQL</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>أربعة مسافات</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>المسافة البادئة</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>اختار أية مسافة بادئة تريد الأستخدم</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>مدخل</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>الملف المدخل المحدد ليس موجود.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Text or path to a file containing the sql to format</value>
