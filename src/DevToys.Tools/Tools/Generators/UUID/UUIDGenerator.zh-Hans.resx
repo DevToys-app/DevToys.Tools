@@ -151,7 +151,7 @@
     <value>生成的 UUID 是否为全大写</value>
   </data>
   <data name="GenerateCount" xml:space="preserve">
-    <value>UUID Generation Count</value>
+    <value>UUID 生成数量</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -172,7 +172,7 @@
     <value>UUID 版本</value>
   </data>
   <data name="GenerateCountDescription" xml:space="preserve">
-    <value>Number of UUIDs to generate</value>
+    <value>要生成的 UUID 个数</value>
   </data>
   <data name="Refresh" xml:space="preserve">
     <value>刷新</value>
