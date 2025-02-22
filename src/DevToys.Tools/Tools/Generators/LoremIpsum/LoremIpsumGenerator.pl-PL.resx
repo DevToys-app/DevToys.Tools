@@ -130,13 +130,13 @@
     <value>Generate Lorem Ipsum (or similar) placeholder text</value>
   </data>
   <data name="LengthDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>Liczba słów, zdań lub akapitów do wygenerowania</value>
   </data>
   <data name="LengthOptionDescription" xml:space="preserve">
-    <value>Number of words, sentences or paragraphs to generate</value>
+    <value>Liczba słów, zdań lub akapitów do wygenerowania</value>
   </data>
   <data name="LengthTitle" xml:space="preserve">
-    <value>Length</value>
+    <value>Długość</value>
   </data>
   <data name="LipsumChildHarold" xml:space="preserve">
     <value>Childe Harold's Pilgrimage (Lord Byron)</value>
