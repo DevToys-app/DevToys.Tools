@@ -133,7 +133,7 @@
     <value>Image file path to encode / text file path containing the Base64 to decode / Base64 text to decode</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
-    <value/>
+    <value></value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Dekoder / Enkoder Gambar Base64</value>
