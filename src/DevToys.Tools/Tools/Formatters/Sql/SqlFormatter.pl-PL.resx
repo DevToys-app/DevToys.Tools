@@ -139,16 +139,16 @@
     <value>Select which indentation you want to use</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Wejście</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Wybrany plik wejściowy nie istnieje.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the sql to format</value>
+    <value>Tekst lub ścieżka do pliku zawierającego kod SQL do sformatowania</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Proszę podać tekst wejściowy lub plik wejściowy</value>
   </data>
   <data name="LeadingComma" xml:space="preserve">
     <value>Leading comma</value>
