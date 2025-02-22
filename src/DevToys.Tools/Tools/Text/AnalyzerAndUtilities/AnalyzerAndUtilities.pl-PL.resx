@@ -202,7 +202,7 @@
     <value>lower case</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ścieżka do pliku wyjściowego</value>
   </data>
   <data name="Paragraphs" xml:space="preserve">
     <value>Paragraphs</value>
@@ -235,7 +235,7 @@
     <value>End position</value>
   </data>
   <data name="SelectionLength" xml:space="preserve">
-    <value>Length</value>
+    <value>Długość</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
     <value>Line</value>
