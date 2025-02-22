@@ -151,7 +151,7 @@
     <value>Selects the n-th element from an array. Indexes start from 0.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Składnia</value>
   </data>
   <data name="CheatSheetTitle" xml:space="preserve">
     <value>Cheat sheet</value>
@@ -190,10 +190,10 @@
     <value>No match found</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Wynik testu</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ścieżka do pliku wyjściowego</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>path json</value>
