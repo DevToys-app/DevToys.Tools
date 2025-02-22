@@ -142,16 +142,16 @@
     <value>Input file selected doesn't exist.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON to format</value>
+    <value>Tekst lub ścieżka do pliku zawierającego JSON do sformatowania</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Proszę podać tekst wejściowy lub plik wejściowy</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSON Formatter</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>Zminifikowany</value>
   </data>
   <data name="OneTab" xml:space="preserve">
     <value>1 tab</value>
@@ -160,7 +160,7 @@
     <value>Wyjście</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ścieżka do pliku wyjściowego</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>sort order alphabetize</value>
