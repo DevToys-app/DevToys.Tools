@@ -234,7 +234,7 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>Token hashing algorithm</value>
+    <value>Algorytm haszowania tokenów</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
@@ -298,7 +298,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="hasgroups" xml:space="preserve">
-    <value>If present, always true, indicates whether the user is in at least one group. Used in place of the groups claim for JWTs in implicit grant flows if the full groups claim would extend the URI fragment beyond the URL length limits (currently six or more groups). Indicates that the client should use the Microsoft Graph API to determine the groups (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects) of the user.</value>
+    <value>Jeśli jest obecne, zawsze prawdziwe, wskazuje, czy użytkownik należy do co najmniej jednej grupy. Używane zamiast roszczenia grup dla JWT w przepływach udzielania niejawnego, jeśli pełne roszczenie grup rozszerzyłoby fragment URI poza limity długości URL (obecnie sześć lub więcej grup). Wskazuje, że klient powinien użyć Microsoft Graph API do określenia grup użytkownika (https://graph.microsoft.com/v1.0/users/{userID}/getMemberObjects).</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="HeaderInputTitle" xml:space="preserve">
@@ -438,7 +438,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="wids" xml:space="preserve">
-    <value>The "wids" claim denotes the tenant-wide roles assigned to this user, from the section of roles present in Microsoft Entra built-in roles. The groupMembershipClaims property of the application manifest configures this claim on a per-application basis. Set the claim to All or DirectoryRole. May not be present in tokens obtained through the implicit flow due to token length concerns.</value>
+    <value>Roszczenie „wids” oznacza role obejmujące całą dzierżawę, przypisane do tego użytkownika, z sekcji ról obecnych w wbudowanych rolach Microsoft Entra. Właściwość groupMembershipClaims manifestu aplikacji konfiguruje to roszczenie dla każdej aplikacji indywidualnie. Ustaw roszczenie na „All” (Wszystkie) lub „DirectoryRole” (Rola katalogu). Może nie być obecne w tokenach uzyskanych za pośrednictwem przepływu niejawnego ze względu na obawy dotyczące długości tokenu.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="x5t" xml:space="preserve">
