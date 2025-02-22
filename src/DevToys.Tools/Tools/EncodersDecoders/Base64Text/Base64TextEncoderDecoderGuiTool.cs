@@ -37,6 +37,14 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
             name: $"{nameof(Base64TextEncoderDecoderGuiTool)}.{nameof(encoder)}",
             defaultValue: DefaultEncoding);
 
+    /// <summary>
+    /// Whether the tool should process multiple lines or not
+    /// </summary>
+    private static readonly SettingDefinition<bool> multilineMode
+        = new(
+            name: $"{nameof(Base64TextEncoderDecoderGuiTool)}.{nameof(multilineMode)}",
+            defaultValue: false);
+
     private enum GridRows
     {
         Settings,
@@ -55,6 +63,7 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _conversionModeSwitch = Switch("base64-text-conversion-mode-switch");
+    private readonly IUISwitch _multilineModeSwitch = Switch("base64-text-multiline-mode-switch");
     private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("base64-text-input-box");
     private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("base64-text-output-box");
 
@@ -65,6 +74,15 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
     {
         _logger = this.Log();
         _settingsProvider = settingsProvider;
+
+        if (_settingsProvider.GetSetting(multilineMode))
+        {
+            _multilineModeSwitch.On();
+        }
+        else
+        {
+            _multilineModeSwitch.Off();
+        }
 
         switch (_settingsProvider.GetSetting(conversionMode))
         {
@@ -129,13 +147,24 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
                                         Setting("base64-text-encoding-setting")
                                             .Title(Base64TextEncoderDecoder.EncodingTitle)
                                             .Description(Base64TextEncoderDecoder.EncodingDescription)
-
                                             .Handle(
                                                 _settingsProvider,
                                                 encoder,
                                                 onOptionSelected: OnEncodingModeChanged,
                                                 Item(Base64TextEncoderDecoder.Utf8, Base64Encoding.Utf8),
-                                                Item(Base64TextEncoderDecoder.Ascii, Base64Encoding.Ascii))))),
+                                                Item(Base64TextEncoderDecoder.Ascii, Base64Encoding.Ascii)
+                                            ),
+
+                                        Setting("base64-text-multiline-setting")
+                                                .Title(Base64TextEncoderDecoder.MultilineTitle)
+                                                .Description(Base64TextEncoderDecoder.MultilineOptionDescription)
+                                                .InteractiveElement(
+                                                    _multilineModeSwitch
+                                                        .OnToggle(OnMultilineModeChanged)
+                                            )
+                                    )
+                            )
+                        ),
 
                     Cell(
                         GridRows.Input,
@@ -173,6 +202,12 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
         _cancellationTokenSource?.Cancel();
         _cancellationTokenSource?.Dispose();
         _semaphore.Dispose();
+    }
+
+    private void OnMultilineModeChanged(bool multilineMode)
+    {
+        _settingsProvider.SetSetting(Base64TextEncoderDecoderGuiTool.multilineMode, multilineMode);
+        StartConvert(_inputText.Text);
     }
 
     private void OnConversionModeChanged(bool conversionMode)
@@ -224,39 +259,63 @@ internal sealed partial class Base64TextEncoderDecoderGuiTool : IGuiTool, IDispo
 
             string conversionResult;
 
-            switch (_settingsProvider.GetSetting(conversionMode))
+            if (!_settingsProvider.GetSetting(multilineMode))
             {
-                case EncodingConversion.Encode:
-                    conversionResult
-                        = Base64Helper.FromTextToBase64(
-                            input,
-                            encoderSetting,
-                            _logger,
-                            cancellationToken);
-                    break;
+                conversionResult = GetConversionString(input, encoderSetting, cancellationToken);
+            }
+            else
+            {
+                List<string> resultLines = [];
+                List<string> inputLines = [.. input.Split([Environment.NewLine], StringSplitOptions.None)];
 
-                case EncodingConversion.Decode:
-                    if (!string.IsNullOrEmpty(input) && !Base64Helper.IsBase64DataStrict(input))
-                    {
-                        cancellationToken.ThrowIfCancellationRequested();
-                        _outputText.Text(Base64TextEncoderDecoder.InvalidBase64);
-                        return;
-                    }
+                inputLines.ForEach(line =>
+                {
+                    string tempResult = GetConversionString(line, encoderSetting, cancellationToken);
+                    resultLines.Add(tempResult);
+                });
 
-                    conversionResult
-                        = Base64Helper.FromBase64ToText(
-                            input,
-                           encoderSetting,
-                            _logger,
-                            cancellationToken);
-                    break;
-
-                default:
-                    throw new NotSupportedException();
+                conversionResult = string.Join(Environment.NewLine, resultLines);
             }
 
             cancellationToken.ThrowIfCancellationRequested();
             _outputText.Text(conversionResult);
         }
+    }
+
+    private string GetConversionString(string input, Base64Encoding encoderSetting, CancellationToken cancellationToken)
+    {
+        string conversionResult;
+
+        switch (_settingsProvider.GetSetting(conversionMode))
+        {
+            case EncodingConversion.Encode:
+                conversionResult
+                    = Base64Helper.FromTextToBase64(
+                        input,
+                        encoderSetting,
+                        _logger,
+                        cancellationToken);
+                break;
+
+            case EncodingConversion.Decode:
+                if (!string.IsNullOrEmpty(input) && !Base64Helper.IsBase64DataStrict(input))
+                {
+                    cancellationToken.ThrowIfCancellationRequested();
+                    return Base64TextEncoderDecoder.InvalidBase64;
+                }
+
+                conversionResult
+                    = Base64Helper.FromBase64ToText(
+                        input,
+                       encoderSetting,
+                        _logger,
+                        cancellationToken);
+                break;
+
+            default:
+                throw new NotSupportedException();
+        }
+
+        return conversionResult;
     }
 }

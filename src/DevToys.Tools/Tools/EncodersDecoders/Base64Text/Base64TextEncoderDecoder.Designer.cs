@@ -113,6 +113,24 @@ namespace DevToys.Tools.Tools.EncodersDecoders.Base64Text {
                 return ResourceManager.GetString("ConversionEncode", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to MultilineTitle.
+        /// </summary>
+        internal static string MultilineTitle {
+            get {
+                return ResourceManager.GetString("MultilineTitle", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to MultilineOptionDescription.
+        /// </summary>
+        internal static string MultilineOptionDescription {
+            get {
+                return ResourceManager.GetString("MultilineOptionDescription", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Whether to encode or decode Base64 text.
