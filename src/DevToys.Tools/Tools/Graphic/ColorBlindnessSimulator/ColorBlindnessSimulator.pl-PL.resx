@@ -133,13 +133,13 @@
     <value>Color Blindness Simulator</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>Original</value>
+    <value>Oryginalny</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
     <value>Katalog, w którym wynik powinien zostać zapisany. Domyślnie używany jest katalog pliku wejściowego</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Protanopia simulation</value>
+    <value>Symulacja protanopii</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
@@ -149,7 +149,7 @@
     <value>Color Blindness Simulator</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>Ukrywa postęp operacji haszowania</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
     <value>Tritanopia simulation</value>
