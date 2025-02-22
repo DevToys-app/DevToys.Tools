@@ -157,10 +157,10 @@
     <value>Text Escape / Unescape</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ścieżka do pliku wyjściowego</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Wyjście</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Escape / Unescape</value>
