@@ -187,4 +187,10 @@
   <data name="Utf8" xml:space="preserve">
     <value>UTF-8</value>
   </data>
+  <data name="MultilineTitle" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="MultilineOptionDescription" xml:space="preserve">
+    <value>Whether to encode / decode each line separately</value>
+  </data>
 </root>
