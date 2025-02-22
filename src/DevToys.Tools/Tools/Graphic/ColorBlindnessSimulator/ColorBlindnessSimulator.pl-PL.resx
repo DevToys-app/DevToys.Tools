@@ -127,7 +127,7 @@
     <value>Deuteranopia simulation</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to treat</value>
+    <value>Ścieżka pliku obrazu do symulacji</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Color Blindness Simulator</value>
@@ -136,7 +136,7 @@
     <value>Original</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be persisted. By default, use input file's directory</value>
+    <value>Katalog, w którym wynik powinien zostać zapisany. Domyślnie używany jest katalog pliku wejściowego</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
     <value>Protanopia simulation</value>
