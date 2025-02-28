@@ -127,19 +127,19 @@
     <value>Deuteranopia simulation</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path to treat</value>
+    <value>Ścieżka pliku obrazu do symulacji</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Color Blindness Simulator</value>
   </data>
   <data name="OriginalPicture" xml:space="preserve">
-    <value>Original</value>
+    <value>Oryginalny</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be persisted. By default, use input file's directory</value>
+    <value>Katalog, w którym wynik powinien zostać zapisany. Domyślnie używany jest katalog pliku wejściowego</value>
   </data>
   <data name="ProtanopiaSimulation" xml:space="preserve">
-    <value>Protanopia simulation</value>
+    <value>Symulacja protanopii</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Tritanopia Protanopia Deuteranopia Dalton Daltonism Daltonist</value>
@@ -149,7 +149,7 @@
     <value>Color Blindness Simulator</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>Ukrywa postęp operacji haszowania</value>
   </data>
   <data name="TritanopiaSimulation" xml:space="preserve">
     <value>Tritanopia simulation</value>

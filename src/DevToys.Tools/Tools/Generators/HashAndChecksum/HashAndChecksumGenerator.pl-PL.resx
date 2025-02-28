@@ -148,10 +148,10 @@
     <value>The hashes are different</value>
   </data>
   <data name="HashingAlgorithmDescription" xml:space="preserve">
-    <value>Select which hashing algorithm you want to use</value>
+    <value>Wybierz algorytm haszowania, którego chcesz użyć</value>
   </data>
   <data name="HashingAlgorithmTitle" xml:space="preserve">
-    <value>Hashing Algorithm</value>
+    <value>Algorytm haszujący</value>
   </data>
   <data name="HmacSecret" xml:space="preserve">
     <value>Secret key to use to generate a HMAC hash</value>
@@ -181,7 +181,7 @@
     <value>Hash / Checksum</value>
   </data>
   <data name="SilentOptionDescription" xml:space="preserve">
-    <value>Hides the progress of the hashing operation</value>
+    <value>Ukrywa postęp operacji haszowania</value>
   </data>
   <data name="UppercaseOptionDescription" xml:space="preserve">
     <value>Whether the generated hash should be in uppercase or not</value>

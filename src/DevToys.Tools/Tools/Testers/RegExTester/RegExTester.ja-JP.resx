@@ -345,7 +345,7 @@ $1 \1 \{1}</value>
     <value>CRLFのペア、CRまたはLFを個別に含む、任意の改行文字と一致する</value>
   </data>
   <data name="CheatSheetLineFeed" xml:space="preserve">
-    <value>ラインフィード (改行)</value>
+    <value>改行</value>
   </data>
   <data name="CheatSheetLineFeedDetails" xml:space="preserve">
     <value>ラインフィード文字 (LF。文字コード 10) と一致する</value>
@@ -682,13 +682,13 @@ $ や \Z とは異なり、末尾の改行は許可されず、複数行フラ�
     <value>Group</value>
   </data>
   <data name="MatchInformation" xml:space="preserve">
-    <value>検証結果</value>
+    <value>一致情報</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
     <value>位置</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>結果</value>
+    <value>名前</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
     <value>一致</value>
@@ -709,7 +709,7 @@ $ や \Z とは異なり、末尾の改行は許可されず、複数行フラ�
     <value>正規表現</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
-    <value>Right To Left</value>
+    <value>右横書き言語 (RTL)</value>
   </data>
   <data name="RightToLeftDescription" xml:space="preserve">
     <value>検索の方向を右から左になるように指定します</value>

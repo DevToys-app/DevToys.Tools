@@ -220,7 +220,7 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>タイムスタンプの単位</value>
+    <value>標準秒を使用するようフォーマット</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InputDescription" xml:space="preserve">
@@ -228,15 +228,15 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="TimezoneOptionDescription" xml:space="preserve">
-    <value>使用するタイムゾーン。使用できるタイムゾーンの一覧 https://learn.microsoft.com/ja-jp/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11#time-zones</value>
+    <value>使用するタイムゾーン（使用できるタイムゾーン：https://learn.microsoft.com/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11#time-zones）</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="InvalidDateTimeCommand" xml:space="preserve">
-    <value>入力された日時が解析できませんでした</value>
+    <value>入力された日時を解析できません</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidEpochCommand" xml:space="preserve">
-    <value>入力されたエポックが解析できませんでした</value>
+    <value>入力されたエポックを解析できません</value>
     <comment>CLI error message</comment>
   </data>
   <data name="InvalidTimeZoneCommand" xml:space="preserve">
