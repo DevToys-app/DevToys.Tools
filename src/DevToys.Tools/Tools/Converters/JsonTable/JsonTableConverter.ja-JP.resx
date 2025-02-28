@@ -121,7 +121,7 @@
     <value>JSON の表形式ビューと CSV、TSV への変換ツール</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONの表形式ビューとCSV変換</value>
+    <value>JSON 配列から表へ</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
@@ -152,7 +152,7 @@
     <value>クリップボードにコピーするフォーマットを選択</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>コピーするフォーマット</value>
+    <value>クリップボードの形式</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
     <value>CSV (カンマ区切り)</value>
