@@ -166,7 +166,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>説明</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
@@ -174,7 +174,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
-    <value>Value</value>
+    <value>値</value>
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
