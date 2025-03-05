@@ -178,7 +178,7 @@
     <value>テキストセット</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Lorem Ipsum (ダミーテキスト) 生成</value>
+    <value>Lorem Ipsum の生成</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>出力</value>
@@ -190,10 +190,10 @@
     <value>再生成</value>
   </data>
   <data name="SentencesType" xml:space="preserve">
-    <value>文</value>
+    <value>文章</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>ダミーテキスト</value>
+    <value>Lorem Ipsum</value>
   </data>
   <data name="TypeDescription" xml:space="preserve">
     <value>単語、文、または段落</value>
@@ -202,7 +202,7 @@
     <value>ダミーテキストを生成する単位。単語、文、または段落</value>
   </data>
   <data name="TypeTitle" xml:space="preserve">
-    <value>生成する単位</value>
+    <value>種類</value>
   </data>
   <data name="WordsType" xml:space="preserve">
     <value>単語</value>
