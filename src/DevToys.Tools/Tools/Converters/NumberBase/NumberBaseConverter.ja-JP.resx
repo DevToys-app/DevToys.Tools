@@ -133,7 +133,7 @@
     <value>基数に使用する文字は2文字以上必要です</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>カスタム</value>
+    <value>カスタム形式</value>
   </data>
   <data name="Decimal" xml:space="preserve">
     <value>10 進数</value>
@@ -154,7 +154,7 @@
     <value>変換前の基数</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>入力にて使用する辞書</value>
+    <value>入力に使用する辞書</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>変換する基数</value>
