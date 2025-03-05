@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT エンコーダーおよびデコーダー ツール</value>
+    <value>JWT エンコーダーおよびデコーダーツール</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
@@ -214,7 +214,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>検証を行うトークン内のパラメーターを設定します</value>
+    <value>検証を行うトークンパラメーターを設定します</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
