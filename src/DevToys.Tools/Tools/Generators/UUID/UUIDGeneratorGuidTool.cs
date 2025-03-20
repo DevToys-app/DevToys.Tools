@@ -126,7 +126,8 @@ internal sealed class UUIDGeneratorGuidTool : IGuiTool
                                             OnSettingChanged,
                                             Item(UUIDGenerator.UuidVersionOne, UuidVersion.One),
                                             Item(UUIDGenerator.UuidVersionFour, UuidVersion.Four),
-                                            Item(UUIDGenerator.UuidVersionSeven, UuidVersion.Seven)),
+                                            Item(UUIDGenerator.UuidVersionSeven, UuidVersion.Seven),
+                                            Item(UUIDGenerator.UuidObjectId, UuidVersion.ObjectId)),
 
                                     Setting()
                                         .Icon("FluentSystemIcons", '\uF57D')
