@@ -139,10 +139,10 @@
     <value>Configuration</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>קלט</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>פלט</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Please provide a valid JSON array of objects</value>
@@ -179,6 +179,6 @@
     <value>Copy as</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>שמור בשם</value>
   </data>
 </root>
