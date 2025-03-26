@@ -9,6 +9,9 @@ public sealed class UrlEncoderDecoderGuiToolTests : TestBase
     private readonly IUIMultiLineTextInput _inputBox;
     private readonly IUIMultiLineTextInput _outputBox;
 
+    private readonly string EncodeMode = "url-conversion-mode-switch";
+    private readonly string MultiLineMode = "url-conversion-multiple-switch";
+
     public UrlEncoderDecoderGuiToolTests()
     {
         _tool = new UrlEncoderDecoderGuiTool(new MockISettingsProvider());
@@ -19,27 +22,58 @@ public sealed class UrlEncoderDecoderGuiToolTests : TestBase
         _outputBox = (IUIMultiLineTextInput)_toolView.GetChildElementById("url-output-box");
     }
 
-    [Fact]
-    public async Task SwitchConversionMode()
+    [Theory(DisplayName = "Url Encode/Decode - Single Line")]
+    [InlineData("hello world", "hello%20world", true)]
+    [InlineData("hello\r\nworld\r\n!!", "hello%0D%0Aworld%0D%0A%21%21", true)]
+    [InlineData("hello\nworld\n!!", "hello%0Aworld%0A%21%21", true)]
+    [InlineData("hello%20world", "hello world", false)]
+    [InlineData( "hello%0D%0Aworld%0D%0A%21%21", "hello\r\nworld\r\n!!", false)]
+    [InlineData("hello%0Aworld%0A%21%21", "hello\nworld\n!!", false)]
+    public async Task SingleLineConversion(
+        string input,
+        string expectedOutput,
+        bool encode)
     {
-        var conversionMode = (IUISwitch)_toolView.GetChildElementById("url-conversion-mode-switch");
+        var conversionMode = (IUISwitch)_toolView.GetChildElementById(EncodeMode);
+        if (encode)
+        {
+            conversionMode.On();
+        }
+        else
+        {
+            conversionMode.Off();
+        }
+        var multiLineMode = (IUISwitch)_toolView.GetChildElementById(MultiLineMode);
+        multiLineMode.Off();
 
-        _inputBox.Text("<hello world>");
+        _inputBox.Text(input);
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("%3Chello%20world%3E");
+        _outputBox.Text.Should().Be(expectedOutput);
+    }
 
-        conversionMode.Off(); // Switch to Decode
-
+    [Theory(DisplayName = "Url Encode/Decode - Multi Line")]
+    [InlineData("Hello world", "Hello%20world", true)]
+    [InlineData("Hello\r\nworld\r\n!!", "Hello\r\nworld\r\n%21%21", true)]
+    [InlineData("Hello%20world", "Hello world", false)]
+    [InlineData("Hello\r\nworld\r\n%21%21", "Hello\r\nworld\r\n!!", false)]
+    public async Task MultiLineConversion(
+        string input,
+        string expectedOutput,
+        bool encode)
+    {
+        var conversionMode = (IUISwitch)_toolView.GetChildElementById(EncodeMode);
+        if (encode)
+        {
+            conversionMode.On();
+        }
+        else
+        {
+            conversionMode.Off();
+        }
+        var multiLineMode = (IUISwitch)_toolView.GetChildElementById(MultiLineMode);
+        multiLineMode.On();
+        _inputBox.Text(input);
         await _tool.WorkTask;
-        _inputBox.Text.Should().Be("%3Chello%20world%3E");
-        await _tool.WorkTask;
-        _outputBox.Text("<hello world>");
-
-        conversionMode.On(); // Switch to Encode
-
-        await _tool.WorkTask;
-        _inputBox.Text("<hello world>");
-        await _tool.WorkTask;
-        _outputBox.Text.Should().Be("%3Chello%20world%3E");
+        _outputBox.Text.Should().Be(expectedOutput);
     }
 }
