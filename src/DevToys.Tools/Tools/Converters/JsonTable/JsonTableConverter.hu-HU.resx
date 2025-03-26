@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON Array to Table for conveter eszköz</value>
+    <value>JSON Tömb táblázatba átalakító eszköz</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSON tömb táblázatba</value>
