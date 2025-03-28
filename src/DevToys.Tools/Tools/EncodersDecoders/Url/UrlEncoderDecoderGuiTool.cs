@@ -118,8 +118,7 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
                                 .WithChildren(
                                     Label()
                                         .Text(UrlEncoderDecoder.ConfigurationTitle),
-                                    SettingGroup()
-                                        //Setting("url-conversion-mode-setting")
+                                    Setting("url-conversion-mode-setting")
                                         .Icon("FluentSystemIcons", '\uF18D')
                                         .Title(UrlEncoderDecoder.ConversionTitle)
                                         .Description(UrlEncoderDecoder.ConversionDescription)
@@ -128,19 +127,17 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
                                             _conversionModeSwitch
                                                 .OnText(UrlEncoderDecoder.ConversionEncode)
                                                 .OffText(UrlEncoderDecoder.ConversionDecode)
-                                                .OnToggle(OnConversionModeChanged))
-                                    .WithSettings(
-                                        Setting("url-conversion-multiline-setting")
-                                            .Icon("FluentSystemIcons", '\uF18D')
-                                            .Title(UrlEncoderDecoder.MultilineTitle)
-                                            .Description(UrlEncoderDecoder.MultilineDescription)
-                                            .InteractiveElement(
-                                                _multilineModeSwitch
-                                                    .OnToggle(OnMultilineModeChanged)
-                                            )
+                                                .OnToggle(OnConversionModeChanged)),
+                                    Setting("url-conversion-multiline-setting")
+                                        .Icon("FluentSystemIcons", '\uF18D')
+                                        .Title(UrlEncoderDecoder.MultilineTitle)
+                                        .Description(UrlEncoderDecoder.MultilineDescription)
+                                        .InteractiveElement(
+                                            _multilineModeSwitch
+                                                .OnToggle(OnMultilineModeChanged))
                                         )
                                     )
-                                )),
+                                ),
                     Cell(
                         GridRows.Input,
                         GridColumns.Stretch,
