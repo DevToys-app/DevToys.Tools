@@ -118,75 +118,75 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT Encoder and Decoder tool</value>
+    <value>JWT kódoló / dekódoló</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
-    <value>The "acr" claim with a value of 0 indicates the end-user authentication didn't meet the requirements of ISO/IEC 29115.</value>
+    <value>Az „acr” állítás 0 értékkel azt jelzi, hogy a végfelhasználói hitelesítés nem felelt meg az ISO/IEC 29115 követelményeinek.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="acrs" xml:space="preserve">
-    <value>The "acrs" claim indicates the Auth Context IDs of the operations that the bearer is eligible to perform. Auth Context IDs can be used to trigger a demand for step-up authentication from within your application and services. Often used along with the xms_cc claim.</value>
+    <value>Az „acrs” állítás azon műveletek Auth Context ID-it jelzi, amelyek elvégzésére a hordozó jogosult. Az Auth Context ID-k arra használhatók, hogy az alkalmazáson és a szolgáltatásokon belül lépcsőzetes hitelesítésre vonatkozó igényt indítsanak. Gyakran az xms_cc állítással együtt használják.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aio" xml:space="preserve">
-    <value>The "aio" claim is an internal claim used by Microsoft Entra ID to record data for token reuse. Resources shouldn't use this claim.</value>
+    <value>Az „aio” állítás egy belső állítás, amelyet a Microsoft Entra ID a token újrafelhasználásához szükséges adatok rögzítésére használ. Az erőforrások nem használhatják ezt az állítást.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="alg" xml:space="preserve">
-    <value>Indicates the algorithm used to sign the token</value>
+    <value>A token aláírásához használt algoritmust jelzi.</value>
     <comment>Claim</comment>
   </data>
   <data name="AlgorithmInvalidEncodeTokenHasDefaultTimeTitle" xml:space="preserve">
-    <value>Unknown token algorithm</value>
+    <value>Ismeretlen token algoritmus</value>
     <comment>Error message</comment>
   </data>
   <data name="amr" xml:space="preserve">
-    <value>The "amr" claim identifies the authentication method of the subject of the token.</value>
+    <value>Az „amr” állítás a token alanyának hitelesítési módszerét azonosítja.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appid" xml:space="preserve">
-    <value>The "appid" claim indicate the application ID of the client using the token. The application can act as itself or on behalf of a user. The application ID typically represents an application object, but it can also represent a service principal object in Microsoft Entra ID.</value>
+    <value>Az „appid” állítás a tokent használó ügyfél alkalmazásazonosítóját jelzi. Az alkalmazás felléphet önmagában vagy egy felhasználó nevében. Az alkalmazásazonosító jellemzően egy alkalmazásobjektumot jelöl, de a Microsoft Entra ID-ben egy szolgáltatási főobjektumot is jelölhet.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="appidacr" xml:space="preserve">
-    <value>The "appidacr" claim indicate the authentication method of the client. For a public client, the value is 0. When you use the client ID and client secret, the value is 1. When you use a client certificate for authentication, the value is 2.</value>
+    <value>Az „appidacr” állítás az ügyfél hitelesítési módszerét jelzi. Nyilvános ügyfél esetén az érték 0. Ha az ügyfél azonosítóját és az ügyféltitkot használja, az érték 1. Ha ügyféltanúsítványt használ a hitelesítéshez, az érték 2.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="aud" xml:space="preserve">
-    <value>The "aud" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim. If the principal processing the claim does not identify itself with a value in the "aud" claim when this claim is present, then the JWT MUST be rejected. In the general case, the "aud" value is an array of case- sensitive strings, each containing a StringOrURI value. In the special case when the JWT has one audience, the "aud" value MAY be a single case-sensitive string containing a StringOrURI value. The interpretation of audience values is generally application specific. Use of this claim is OPTIONAL.</value>
+    <value>Az „aud” (közönség) állítás azonosítja azokat a címzetteket, akiknek a JWT-t szánják. Minden, a JWT feldolgozására szánt megbízónak azonosítania KELL magát a közönség állításban szereplő értékkel. Ha az igényt feldolgozó megbízó nem azonosítja magát az „aud” igényben szereplő értékkel, amikor ez az igény jelen van, akkor a JWT-t el KELL utasítani. Általános esetben az „aud” érték nagy- és kisbetű-érzékeny karakterláncok tömbje, amelyek mindegyike egy-egy StringOrURI értéket tartalmaz. Abban a speciális esetben, amikor a JWT-nek egy közönsége van, az „aud” érték lehet egyetlen, egy StringOrURI értéket tartalmazó, nagy- és kisbetűkre érzékeny karakterlánc. A közönségértékek értelmezése általában alkalmazásspecifikus. Ennek az állításnak a használata OPCIONÁLIS.</value>
     <comment>Claim</comment>
   </data>
   <data name="azp" xml:space="preserve">
-    <value>The "azp" claim is a replacement for appid. The application ID of the client using the token. The application can act as itself or on behalf of a user. The application ID typically represents an application object, but it can also represent a service principal object in Microsoft Entra ID.</value>
+    <value>Az „azp” állítás az appid helyettesítésére szolgál. A tokent használó ügyfél alkalmazásazonosítója. Az alkalmazás felléphet önmagában vagy egy felhasználó nevében. Az alkalmazásazonosító jellemzően egy alkalmazásobjektumot képvisel, de a Microsoft Entra ID-ben egy szolgáltatási főobjektumot is képviselhet.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="azpacr" xml:space="preserve">
-    <value>The "azpacr" claim is a replacement for appidacr. Indicates the authentication method of the client. For a public client, the value is 0. When you use the client ID and client secret, the value is 1. When you use a client certificate for authentication, the value is 2.</value>
+    <value>Az „azpacr” állítás az appidacr helyettesítésére szolgál. Az ügyfél hitelesítési módszerét jelzi. Nyilvános ügyfél esetén az érték 0. Ha az ügyfél azonosítóját és az ügyféltitkot használja, az érték 1. Ha ügyféltanúsítványt használ a hitelesítéshez, az érték 2.</value>
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>Leírás</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
-    <value>Type</value>
+    <value>Fajta</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
-    <value>Value</value>
+    <value>Érték</value>
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguráció</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeMode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Dekódolás</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>Validate actors</value>
+    <value>Szereplő érvényességének ellenőrzése</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
