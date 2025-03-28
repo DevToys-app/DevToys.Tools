@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>HTML Encoder and Decoder tool</value>
+    <value>HTML Kódoló és Dekódoló eszköz</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguráció</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Dekódolás</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Válasz melyik konvertáló módot szeretnéd használni</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Kódolás</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode HTML</value>
+    <value>HTML kódolás vagy dekódolás</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Konvertálás</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode HTML text data</value>
+    <value>HTML kódolása és dekódoló szöveg adat</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or HTML to decode</value>
+    <value>Szöveg a kódóláshoz vagy HTML hogy dekódólás legyen</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Bemenet</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>HTML Text Encoder / Decoder</value>
+    <value>HTML Kódoló / Dekódoló</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Kimenet</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>HTML</value>
