@@ -47,7 +47,7 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _conversionModeSwitch = Switch("url-conversion-mode-switch");
-    private readonly IUISwitch _multilineModeSwitch = Switch("url-conversion-multiple-switch");
+    private readonly IUISwitch _multilineModeSwitch = Switch("url-conversion-multiline-switch");
     private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("url-input-box");
     private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("url-output-box");
 
@@ -130,10 +130,10 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
                                                 .OffText(UrlEncoderDecoder.ConversionDecode)
                                                 .OnToggle(OnConversionModeChanged))
                                     .WithSettings(
-                                        Setting("url-conversion-multiple-setting")
+                                        Setting("url-conversion-multiline-setting")
                                             .Icon("FluentSystemIcons", '\uF18D')
-                                            .Title("Encoding multiple")
-                                            .Description("Encode or decode multiple times.")
+                                            .Title(UrlEncoderDecoder.MultilineTitle)
+                                            .Description(UrlEncoderDecoder.MultilineDescription)
                                             .InteractiveElement(
                                                 _multilineModeSwitch
                                                     .OnToggle(OnMultilineModeChanged)

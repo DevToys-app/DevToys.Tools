@@ -10,7 +10,7 @@ public sealed class UrlEncoderDecoderGuiToolTests : TestBase
     private readonly IUIMultiLineTextInput _outputBox;
 
     private readonly string EncodeMode = "url-conversion-mode-switch";
-    private readonly string MultiLineMode = "url-conversion-multiple-switch";
+    private readonly string MultiLineMode = "url-conversion-multiline-switch";
 
     public UrlEncoderDecoderGuiToolTests()
     {

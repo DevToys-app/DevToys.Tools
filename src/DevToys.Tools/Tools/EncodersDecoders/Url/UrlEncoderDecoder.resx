@@ -150,6 +150,12 @@
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>URL Encoder / Decoder</value>
   </data>
+  <data name="MultilineDescription" xml:space="preserve">
+    <value>Encode / Decode each line separately</value>
+  </data>
+  <data name="MultilineTitle" xml:space="preserve">
+    <value>Encoding / Decoding Multiline</value>
+  </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Output</value>
   </data>

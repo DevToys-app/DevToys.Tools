@@ -150,6 +150,12 @@
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>URL エンコーダー / デコーダー</value>
   </data>
+  <data name="MultilineDescription" xml:space="preserve">
+    <value>各行を個別にエンコード/デコード</value>
+  </data>
+  <data name="MultilineTitle" xml:space="preserve">
+    <value>複数行の エンコード / デコード</value>
+  </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>出力</value>
   </data>
