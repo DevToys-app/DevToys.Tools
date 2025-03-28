@@ -27,7 +27,7 @@ public sealed class UrlEncoderDecoderGuiToolTests : TestBase
     [InlineData("hello\r\nworld\r\n!!", "hello%0D%0Aworld%0D%0A%21%21", true)]
     [InlineData("hello\nworld\n!!", "hello%0Aworld%0A%21%21", true)]
     [InlineData("hello%20world", "hello world", false)]
-    [InlineData( "hello%0D%0Aworld%0D%0A%21%21", "hello\r\nworld\r\n!!", false)]
+    [InlineData("hello%0D%0Aworld%0D%0A%21%21", "hello\r\nworld\r\n!!", false)]
     [InlineData("hello%0Aworld%0A%21%21", "hello\nworld\n!!", false)]
     public async Task SingleLineConversion(
         string input,
@@ -51,11 +51,16 @@ public sealed class UrlEncoderDecoderGuiToolTests : TestBase
         _outputBox.Text.Should().Be(expectedOutput);
     }
 
+    public static IEnumerable<object[]> MultiLineTestData()
+    {
+        yield return new object[] { "Hello world", "Hello%20world", true };
+        yield return new object[] { $"Hello{Environment.NewLine}world{Environment.NewLine}!!", $"Hello{Environment.NewLine}world{Environment.NewLine}%21%21", true };
+        yield return new object[] { "Hello%20world", "Hello world", false };
+        yield return new object[] { $"Hello{Environment.NewLine}world{Environment.NewLine}%21%21", $"Hello{Environment.NewLine}world{Environment.NewLine}!!", false };
+    }
+
     [Theory(DisplayName = "Url Encode/Decode - Multi Line")]
-    [InlineData("Hello world", "Hello%20world", true)]
-    [InlineData("Hello\r\nworld\r\n!!", "Hello\r\nworld\r\n%21%21", true)]
-    [InlineData("Hello%20world", "Hello world", false)]
-    [InlineData("Hello\r\nworld\r\n%21%21", "Hello\r\nworld\r\n!!", false)]
+    [MemberData(nameof(MultiLineTestData))]
     public async Task MultiLineConversion(
         string input,
         string expectedOutput,
