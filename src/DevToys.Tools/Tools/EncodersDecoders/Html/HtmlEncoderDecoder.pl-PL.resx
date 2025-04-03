@@ -130,25 +130,25 @@
     <value>Wybierz tryb konwersji, którego chcesz użyć</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Enkoduj</value>
+    <value>Zakoduj</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode HTML</value>
+    <value>Zakodować czy dekodować HTML</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>Konwersja</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode and decode HTML text data</value>
+    <value>Kodowanie i dekodowanie danych tekstu HTML</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or HTML to decode</value>
+    <value>Tekst do zakodowania lub HTML do dekodowania</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
     <value>Wejście</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>HTML Text Encoder / Decoder</value>
+    <value>Enkoder / Dekoder tekstu HTML</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
     <value>Wyjście</value>
