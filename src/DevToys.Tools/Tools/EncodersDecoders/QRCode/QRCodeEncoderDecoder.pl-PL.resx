@@ -130,7 +130,7 @@
     <value>Kod QR</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
+    <value>Ścieżka pliku obrazu zawierająca kod QR do dekodowania / ścieżka pliku tekstowego zawierająca tekst do konwersji na kod QR</value>
   </data>
   <data name="InputText" xml:space="preserve">
     <value>Tekst</value>
@@ -145,7 +145,7 @@
     <value>Ścieżka do pliku wyjściowego</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
-    <value>QRCode URL</value>
+    <value>Adres URL kodu QR</value>
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
