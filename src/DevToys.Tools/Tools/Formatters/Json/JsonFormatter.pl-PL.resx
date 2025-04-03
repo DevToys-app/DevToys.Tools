@@ -118,28 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON Formatter tool</value>
+    <value>Narzędzie do formatowania JSON-a</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Konfiguracja</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify JSON data</value>
+    <value>Formatuj lub minifikuj JSON</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 spacje</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Wcięcia</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Wybierz formatowanie, którego chcesz użyć</value>
   </data>
   <data name="Input" xml:space="preserve">
     <value>Wejście</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Wybrany plik wejściowy nie istnieje.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Tekst lub ścieżka do pliku zawierającego JSON do sformatowania</value>
@@ -148,7 +148,7 @@
     <value>Proszę podać tekst wejściowy lub plik wejściowy</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Formatter</value>
+    <value>Formater JSON-a</value>
   </data>
   <data name="Minified" xml:space="preserve">
     <value>Zminifikowany</value>
@@ -169,12 +169,12 @@
     <value>JSON</value>
   </data>
   <data name="SortProperties" xml:space="preserve">
-    <value>Sort JSON Properties alphabetically</value>
+    <value>Sortuj właściwości JSON alfabetycznie</value>
   </data>
   <data name="SortPropertiesOptionDescription" xml:space="preserve">
-    <value>Whether properties within the JSON should be sorted alphabetically</value>
+    <value>Czy właściwości w JSON-ie powinny być posortowane alfabetycznie</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 spacje</value>
   </data>
 </root>
