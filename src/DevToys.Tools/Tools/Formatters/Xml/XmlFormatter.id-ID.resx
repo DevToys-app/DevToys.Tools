@@ -118,43 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>XML Formatter tool</value>
+    <value>Alat pemformat XML</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfigurasi</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify XML data</value>
+    <value>Indentasi atau perkecil data XML</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
     <value>4 spaces</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Indentasi</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Pilih tipe indentasi yang anda inginkan</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Masukan</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>File input yang dipilih tidak ditemukan.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the xml to format</value>
+    <value>Teks atau jalur ke file yang berisi XML untuk diformat</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML Formatter</value>
+    <value>Pemformat XML</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>Kecilkan</value>
   </data>
   <data name="NewLineOnAttributes" xml:space="preserve">
-    <value>Put attributes on a new line</value>
+    <value>Letakan atribut di baris baru</value>
   </data>
   <data name="NewLineOnAttributesDescription" xml:space="preserve">
     <value>Whether to put attributes on a new line</value>
@@ -166,7 +166,7 @@
     <value>Output</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Jalur ke file output</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>XML</value>
