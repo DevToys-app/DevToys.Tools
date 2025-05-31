@@ -121,7 +121,7 @@
     <value>JSON to YAML and YAML to JSON converter tool</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>پیکربندی</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
     <value>Select which conversion mode you want to use</value>
@@ -130,7 +130,7 @@
     <value>Whether to convert from Json or Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>تبدیل</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert JSON data to YAML and vice versa</value>
@@ -139,13 +139,13 @@
     <value>4 spaces</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>تورفتگی</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
     <value>Select which indentation you want to use</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>ورودی</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist.</value>
