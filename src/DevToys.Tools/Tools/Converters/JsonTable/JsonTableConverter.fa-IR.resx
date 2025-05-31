@@ -136,13 +136,13 @@
     <value>JSON CSV TSV French Excel Tabular Data</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>پیکربندی</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>ورودی</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>خروجی</value>
   </data>
   <data name="JsonError" xml:space="preserve">
     <value>Please provide a valid JSON array of objects</value>
@@ -176,9 +176,9 @@
     <comment>CLI parameter description</comment>
   </data>
   <data name="CopyAs" xml:space="preserve">
-    <value>Copy as</value>
+    <value>کپی به عناون</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>ذخيره به عنوان</value>
   </data>
 </root>
