@@ -121,7 +121,7 @@
     <value>Cron parsing tool</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>תצורה</value>
   </data>
   <data name="CronDescriptionTitle" xml:space="preserve">
     <value>Cron description</value>
@@ -133,7 +133,7 @@
     <value>The Cron expression to parse</value>
   </data>
   <data name="DateFormatOptionDescription" xml:space="preserve">
-    <value>Date time format of generated scheduled dates</value>
+    <value>פורמט תאריך ושעה עבור תאריכים מתוזמנים שנוצרו</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Parse Cron expression to get scheduled dates</value>
@@ -148,25 +148,25 @@
     <value>Cron expression parser</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
-    <value>Number of schedules to be generated</value>
+    <value>מספר לוחות הזמנים שצריך ליצור</value>
   </data>
   <data name="OutputCountDescription" xml:space="preserve">
-    <value>How many scheduled dates needs to be generated</value>
+    <value>כמה תאריכים מתוזמנים צריך לייצר</value>
   </data>
   <data name="OutputCountTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>התאריכים המתוזמנים הבאים</value>
   </data>
   <data name="OutputFormatDescription" xml:space="preserve">
-    <value>Date time fomat of upcoming dates</value>
+    <value>פורמט תאריך ושעה עבור התאריכים הבאים</value>
   </data>
   <data name="OutputFormatErrorMessage" xml:space="preserve">
-    <value>Output date time format is not valid</value>
+    <value>פורמט תאריך ושעה של פלט לא תקין</value>
   </data>
   <data name="OutputFormatTitle" xml:space="preserve">
-    <value>Output format</value>
+    <value>פורמט פלט</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value>Next scheduled dates</value>
+    <value>התאריכים המתוזמנים הבאים</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron parser</value>
@@ -175,6 +175,6 @@
     <value>Whether the Cron expression should include seconds in its definition</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
-    <value>Include seconds</value>
+    <value>כלול שניות</value>
   </data>
 </root>
