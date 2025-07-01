@@ -118,43 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Number Base Converter tool</value>
+    <value>כלי להמרת בסיס מספר</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>מצב מתקדם</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>בינארי</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>תצורה</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
-    <value>Please set at least two characters in the custom dictionary</value>
+    <value>אנא הזן לפחות 2 תווים במילון האישי</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>פורמט אישי</value>
   </data>
   <data name="Decimal" xml:space="preserve">
-    <value>Decimal</value>
+    <value>עשרוני</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Convert numbers from one base to another</value>
+    <value>המר מספרים מבסיס אחד למשנהו</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format number</value>
+    <value>מספר פורמט</value>
   </data>
   <data name="Hexadecimal" xml:space="preserve">
-    <value>Hexadecimal</value>
+    <value>הקסדצימלי</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>קלט</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
-    <value>The base of the number to convert</value>
+    <value>בסיס המספר להמרה</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>Input dictionary</value>
+    <value>מילון קלט</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Number to convert</value>
