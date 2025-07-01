@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>Base64 Text Encoder and Decoder tool</value>
+    <value>כלי לקידוד ופיענוח טקסט Base64</value>
   </data>
   <data name="Ascii" xml:space="preserve">
     <value>ASCII</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>תצורה</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>לפענח</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>בחר באיזה מצב המרה ברצונך להשתמש</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>לקודד</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode Base64 text</value>
+    <value>האם לקודד או לפענח טקסט Base64</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
     <value>Conversion</value>
