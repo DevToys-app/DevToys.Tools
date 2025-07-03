@@ -136,7 +136,7 @@
     <value>Whether to encode or decode text in a URL parameter</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>המרה</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
