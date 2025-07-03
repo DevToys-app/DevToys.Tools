@@ -136,31 +136,31 @@
     <value>Delete all</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Lossless image converter</value>
+    <value>ממיר תמונה ללא איבוד</value>
   </data>
   <data name="FileSizeDisplay" xml:space="preserve">
     <value>{0:0.##} {1}</value>
     <comment>{0} is a decimal number representing a file size. {1} is a unit, like Bytes, KB, MB, GB, TB</comment>
   </data>
   <data name="FormatOptionDescription" xml:space="preserve">
-    <value>The format to convert images to</value>
+    <value>הפורמט להמיר אליו</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>A set of image file paths or directories that contain images to convert</value>
+    <value>סט של נתיבי קבצים או תיקיות המכילים תמונות להמרה</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>ממיר תמונה</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
-    <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
+    <value>תיקיה אליה התוצאה אמורה להישמר, או נתיב קובץ בודד, אם הקלט הוא גם נתיב קובץ בודד</value>
   </data>
   <data name="SaveAll" xml:space="preserve">
-    <value>Save all</value>
+    <value>שמור הכל</value>
   </data>
   <data name="SaveAs" xml:space="preserve">
-    <value>Save as</value>
+    <value>שמור כ</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>ממיר תמונה</value>
   </data>
 </root>
