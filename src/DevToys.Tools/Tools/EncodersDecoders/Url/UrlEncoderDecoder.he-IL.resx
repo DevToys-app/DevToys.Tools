@@ -142,16 +142,16 @@
     <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or URL to decode</value>
+    <value>טקסט לקידוד או URL לפיענוח</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>קלט</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>URL Encoder / Decoder</value>
+    <value>מקודד \ מפענח URL</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>פלט</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>URL</value>
