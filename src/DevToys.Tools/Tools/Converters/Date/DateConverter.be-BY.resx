@@ -124,7 +124,7 @@
     <value>Daylight saving time.</value>
   </data>
   <data name="DayTitle" xml:space="preserve">
-    <value>Day</value>
+    <value>Дзень</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert date to human-readable date and vice versa</value>
@@ -139,13 +139,13 @@
     <value>Hour (24 hour)</value>
   </data>
   <data name="TimeZoneTitle" xml:space="preserve">
-    <value>Time zone</value>
+    <value>Часавы пояс</value>
   </data>
   <data name="LocalDateTime" xml:space="preserve">
     <value>Local Date and Time</value>
   </data>
   <data name="MinutesTitle" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Хвілін</value>
   </data>
   <data name="MonthTitle" xml:space="preserve">
     <value>Month</value>
@@ -164,7 +164,7 @@
     <value>There is daylight saving time.</value>
   </data>
   <data name="TimestampTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Дата</value>
   </data>
   <data name="UTCDateTime" xml:space="preserve">
     <value>UTC Date and Time</value>
@@ -173,16 +173,16 @@
     <value>UtcTicks</value>
   </data>
   <data name="YearTitle" xml:space="preserve">
-    <value>Year</value>
+    <value>Год</value>
   </data>
   <data name="Now" xml:space="preserve">
-    <value>Now</value>
+    <value>Зараз</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>Date Converter</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Date</value>
+    <value>Дата</value>
   </data>
   <data name="EpochSwitchTitle" xml:space="preserve">
     <value>Default Epoch</value>
@@ -191,16 +191,16 @@
     <value>Use a user defined epoch</value>
   </data>
   <data name="No" xml:space="preserve">
-    <value>No</value>
+    <value>Не</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Так</value>
   </data>
   <data name="MillisecondsTitle" xml:space="preserve">
     <value>Milliseconds</value>
   </data>
   <data name="FormatTitle" xml:space="preserve">
-    <value>Format</value>
+    <value>Фармат</value>
   </data>
   <data name="Ticks" xml:space="preserve">
     <value>Ticks</value>
