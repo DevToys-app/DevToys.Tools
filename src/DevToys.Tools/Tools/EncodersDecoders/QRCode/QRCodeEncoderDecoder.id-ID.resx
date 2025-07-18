@@ -142,7 +142,7 @@
     <value>Kode QR tidak ditemukan di gambar ini</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Jalur ke file output</value>
+    <value>Jalur ke file keluaran</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>QRCode URL</value>
