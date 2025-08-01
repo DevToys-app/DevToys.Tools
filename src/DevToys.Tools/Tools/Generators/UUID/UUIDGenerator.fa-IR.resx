@@ -151,7 +151,7 @@
     <value>Whether the generated UUID should be in uppercase or not</value>
   </data>
   <data name="GenerateCount" xml:space="preserve">
-    <value>UUID Generation Count</value>
+    <value>تعداد تولید UUID</value>
   </data>
   <data name="UuidVersionFour" xml:space="preserve">
     <value>4 (GUID)</value>
@@ -172,9 +172,9 @@
     <value>UUID version</value>
   </data>
   <data name="GenerateCountDescription" xml:space="preserve">
-    <value>Number of UUIDs to generate</value>
+    <value>تعداد UUID ها برای ساختن</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>تازه سازی</value>
   </data>
 </root>
