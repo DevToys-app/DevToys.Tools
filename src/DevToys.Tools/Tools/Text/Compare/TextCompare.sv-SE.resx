@@ -136,10 +136,10 @@
     <value>Text Comparer</value>
   </data>
   <data name="ModifiedText" xml:space="preserve">
-    <value>Modified text</value>
+    <value>Modifierad text</value>
   </data>
   <data name="OriginalText" xml:space="preserve">
-    <value>Original text</value>
+    <value>Originaltext</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Diff</value>
