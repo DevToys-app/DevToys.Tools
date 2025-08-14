@@ -160,7 +160,7 @@
     <value>Output</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Sökväg till utdatafilen</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>sort order alphabetize</value>
