@@ -130,7 +130,7 @@
     <value>Used for filter expressions. Refers to the current node for further processing.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Beskrivning</value>
   </data>
   <data name="CheatSheetDotNotedChildOperator" xml:space="preserve">
     <value>Dot-notated child</value>
@@ -145,7 +145,7 @@
     <value>The root object or array.</value>
   </data>
   <data name="CheatSheetScriptExpression" xml:space="preserve">
-    <value>Script expression.</value>
+    <value>Skriptuttryck.</value>
   </data>
   <data name="CheatSheetSubscriptOperator" xml:space="preserve">
     <value>Selects the n-th element from an array. Indexes start from 0.</value>
@@ -163,7 +163,7 @@
     <value>Wildcard. Selects all elements in an object or array, regardless of their names or indexes.</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Test a JSONPath</value>
+    <value>Testa en JSONPath</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist.</value>
@@ -184,13 +184,13 @@
     <value>Please specify an input text or an input file</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONPath Tester</value>
+    <value>JSONPath-testare</value>
   </data>
   <data name="NoMatchFound" xml:space="preserve">
     <value>No match found</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Test result</value>
+    <value>Testresultat</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>
