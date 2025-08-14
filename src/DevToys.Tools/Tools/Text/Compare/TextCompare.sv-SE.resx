@@ -124,10 +124,10 @@
     <value>Configuration</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Compare two texts</value>
+    <value>Jämför två texter</value>
   </data>
   <data name="Difference" xml:space="preserve">
-    <value>Difference</value>
+    <value>Skillnad</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
     <value>Inline mode</value>
