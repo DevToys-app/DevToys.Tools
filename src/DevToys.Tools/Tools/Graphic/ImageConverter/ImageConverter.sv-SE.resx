@@ -149,7 +149,7 @@
     <value>A set of image file paths or directories that contain images to convert</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>Bildkonverterare</value>
   </data>
   <data name="OutputDirectoryOptionDescription" xml:space="preserve">
     <value>Directory where the result should be saved, or a single file path, if the input is also a single file path.</value>
@@ -161,6 +161,6 @@
     <value>Save as</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>Image Converter</value>
+    <value>Bildkonverterare</value>
   </data>
 </root>
