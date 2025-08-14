@@ -124,7 +124,7 @@
     <value>Validate XML data via an XSD scheme.</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>XML / XSD Tester</value>
+    <value>XML / XSD-testare</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>XSD</value>
