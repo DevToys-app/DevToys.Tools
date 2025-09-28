@@ -140,7 +140,7 @@ It can operate within a group, or on a whole expression. The patterns will be te
     <value>Matches any character other than newline. Equivalent to [^\n\r].</value>
   </data>
   <data name="CheatSheetAtomicGroup" xml:space="preserve">
-    <value>Atomic group</value>
+    <value>Grupo atômico</value>
   </data>
   <data name="CheatSheetAtomicGroupDetails" xml:space="preserve">
     <value>Non-capturing group that discards backtracking positions once matched.
@@ -631,7 +631,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>Palavra</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
     <value>Word boundary</value>
@@ -724,6 +724,6 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
 </root>
