@@ -151,7 +151,7 @@
     <value>Text to compress or GZip to decompress</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InvalidGZipData" xml:space="preserve">
     <value>&lt;Invalid GZip data&gt;</value>
@@ -160,7 +160,7 @@
     <value>GZip Compress / Decompress</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>GZip</value>
