@@ -217,7 +217,7 @@
     <value>Randomize</value>
   </data>
   <data name="Reverse" xml:space="preserve">
-    <value>Reverse</value>
+    <value>Reverso</value>
   </data>
   <data name="ReverseAlphabetize" xml:space="preserve">
     <value>Reverse alphabetize</value>
@@ -229,7 +229,7 @@
     <value>string</value>
   </data>
   <data name="SelectionColumnNumber" xml:space="preserve">
-    <value>Column</value>
+    <value>Coluna</value>
   </data>
   <data name="SelectionEndPosition" xml:space="preserve">
     <value>End position</value>
@@ -238,7 +238,7 @@
     <value>Length</value>
   </data>
   <data name="SelectionLineNumber" xml:space="preserve">
-    <value>Line</value>
+    <value>Linha</value>
   </data>
   <data name="SelectionStartPosition" xml:space="preserve">
     <value>Start position</value>
@@ -274,10 +274,10 @@
     <value>Valor</value>
   </data>
   <data name="TextInput" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
   <data name="TextStatistics" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
   <data name="TitleCase" xml:space="preserve">
     <value>Title Case</value>
