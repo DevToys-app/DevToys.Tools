@@ -130,7 +130,7 @@
     <value>Raw certificate text or path to a certificate file to decode</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
     <value>Please specify an input text or an input file</value>
@@ -145,7 +145,7 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="PasswordOptionDescription" xml:space="preserve">
     <value>Certificate password</value>
