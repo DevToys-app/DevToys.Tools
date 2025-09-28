@@ -127,7 +127,7 @@
     <value>Compare two texts</value>
   </data>
   <data name="Difference" xml:space="preserve">
-    <value>Difference</value>
+    <value>Diferença</value>
   </data>
   <data name="InlineDifference" xml:space="preserve">
     <value>Inline mode</value>
@@ -136,10 +136,10 @@
     <value>Text Comparer</value>
   </data>
   <data name="ModifiedText" xml:space="preserve">
-    <value>Modified text</value>
+    <value>Texto modificado</value>
   </data>
   <data name="OriginalText" xml:space="preserve">
-    <value>Original text</value>
+    <value>Texto original</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>Diff</value>
