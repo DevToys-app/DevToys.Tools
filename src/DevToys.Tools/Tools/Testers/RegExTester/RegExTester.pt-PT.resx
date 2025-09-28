@@ -211,7 +211,7 @@ $1 \1 \{1}</value>
     <value>Quantifiers and Alternation</value>
   </data>
   <data name="CheatSheetCategorySpecial" xml:space="preserve">
-    <value>Special</value>
+    <value>Especial</value>
   </data>
   <data name="CheatSheetCategorySubstitution" xml:space="preserve">
     <value>Substitution</value>
@@ -257,7 +257,7 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Descrição</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
     <value>Digit</value>
@@ -477,7 +477,7 @@ There are multiple syntaxes for this feature: \g&lt;name&gt; \g'name' (?&amp;nam
     <value>Matches any character that is not a word character (alphanumeric &amp; underscore). Equivalent to [^A-Za-z0-9_]</value>
   </data>
   <data name="CheatSheetNull" xml:space="preserve">
-    <value>Null</value>
+    <value>Nulo</value>
   </data>
   <data name="CheatSheetNullDetails" xml:space="preserve">
     <value>Matches a NULL character (char code 0).</value>
@@ -508,7 +508,7 @@ Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; 
 The syntax \o{FFF} is also supported.</value>
   </data>
   <data name="CheatSheetOptional" xml:space="preserve">
-    <value>Optional</value>
+    <value>Opcional</value>
   </data>
   <data name="CheatSheetOptionalDetails" xml:space="preserve">
     <value>Matches 0 or 1 of the preceding token, effectively making it optional.</value>
@@ -571,7 +571,7 @@ There are multiple syntaxes for this feature:
 Within a character set, only \, -, and ] need to be escaped.</value>
   </data>
   <data name="CheatSheetStar" xml:space="preserve">
-    <value>Star</value>
+    <value>Estrela</value>
   </data>
   <data name="CheatSheetStarDetails" xml:space="preserve">
     <value>Matches 0 or more of the preceding token.</value>
@@ -676,22 +676,22 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Regular Expression Tester</value>
   </data>
   <data name="MatchGroupPrefix" xml:space="preserve">
-    <value>Group</value>
+    <value>Grupo</value>
   </data>
   <data name="MatchInformation" xml:space="preserve">
     <value>Match information</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
-    <value>Location</value>
+    <value>Localização</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>Nome</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
     <value>Match</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Valor</value>
   </data>
   <data name="Multiline" xml:space="preserve">
     <value>Multiline</value>
