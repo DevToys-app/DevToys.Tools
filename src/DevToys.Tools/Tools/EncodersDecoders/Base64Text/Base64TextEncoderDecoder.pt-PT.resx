@@ -160,7 +160,7 @@
     <value>Text or path to a file to encode or Base64 to decode</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InvalidBase64" xml:space="preserve">
     <value>&lt;Invalid Base64&gt;</value>
@@ -175,7 +175,7 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>RFC 4648</value>
