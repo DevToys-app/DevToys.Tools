@@ -127,7 +127,7 @@
     <value>Indent or minify XML data</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 espaços</value>
   </data>
   <data name="Indentation" xml:space="preserve">
     <value>Indentation</value>
@@ -172,6 +172,6 @@
     <value>XML</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 espaços</value>
   </data>
 </root>
