@@ -136,7 +136,7 @@
     <value>Whether to escape or unescape the input text</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Conversão</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Escapes or unescapes a string, removing characters that could prevent parsing.</value>
@@ -160,7 +160,7 @@
     <value>Path to the output file</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Escape / Unescape</value>
