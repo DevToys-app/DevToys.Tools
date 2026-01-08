@@ -4,5 +4,6 @@ internal enum UuidVersion
 {
     One,
     Four,
-    Seven
+    Seven,
+    ObjectId
 }

@@ -224,6 +224,17 @@ namespace DevToys.Tools.Tools.Generators.UUID {
         }
 
         /// <summary>
+        /// Looks up a localized string for UuidObjectId
+        /// </summary>
+        internal static string UuidObjectId
+        {
+            get
+            {
+                return ResourceManager.GetString("UuidObjectId", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Looks up a localized string similar to Choose the version of UUID to generate.
         /// </summary>
         internal static string VersionDescription {

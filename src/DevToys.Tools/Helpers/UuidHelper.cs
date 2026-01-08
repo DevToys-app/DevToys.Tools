@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography;
+using System.Text;
 using DevToys.Tools.Models;
 
 namespace DevToys.Tools.Helpers;
@@ -12,7 +13,8 @@ internal static class UuidHelper
         Random = 0x04,
         NameBasedV5 = 0x05,
         UuidV6 = 0x06,
-        UnixEpoch = 0x07
+        UnixEpoch = 0x07,
+        UuidObjectId = 0x08
     }
 
     private static readonly Random random = new();
@@ -30,6 +32,9 @@ internal static class UuidHelper
     private const byte TimestampByte = 0;
     private const byte NodeByte = 10;
     private const byte GuidClockSequenceByte = 8;
+    private static readonly object incrementLock = new();
+    private static int increment = new Random().Next();
+    private static readonly byte[] ProcessUnique = GenerateProcessUnique();
 
     internal static string GenerateUuid(UuidVersion version, bool hyphens, bool uppercase)
     {
@@ -44,17 +49,20 @@ internal static class UuidHelper
         }
 
         string? uuid;
-        if (version == UuidVersion.One)
+        switch (version)
         {
-            uuid = GenerateTimeBasedGuid().ToString(guidStringFormat);
-        }
-        else if (version == UuidVersion.Seven)
-        {
-            uuid = GenerateUUIDv7().ToString(guidStringFormat);
-        }
-        else
-        {
-            uuid = Guid.NewGuid().ToString(guidStringFormat);
+            case UuidVersion.One:
+                uuid = GenerateTimeBasedGuid().ToString(guidStringFormat);
+                break;
+            case UuidVersion.Seven:
+                uuid = GenerateUUIDv7().ToString(guidStringFormat);
+                break;
+            case UuidVersion.ObjectId:
+                uuid = GenerateUuidObjectId();
+                break;
+            default:
+                uuid = Guid.NewGuid().ToString(guidStringFormat);
+                break;
         }
 
         if (uppercase)
@@ -157,5 +165,69 @@ internal static class UuidHelper
         }
 
         return [bytes[0], bytes[1]];
+    }
+
+    /// <summary>
+    /// Generate a Mongodb ObjectID
+    /// </summary>
+    /// <returns></returns>
+    private static string GenerateUuidObjectId()
+    {
+        int time = (int)DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+        int inc = GetIncrement();
+        byte[] buffer = new byte[12];
+
+        // 4-byte timestamp
+        buffer[0] = (byte)(time >> 24);
+        buffer[1] = (byte)(time >> 16);
+        buffer[2] = (byte)(time >> 8);
+        buffer[3] = (byte)time;
+
+        // 5-byte process unique
+        Buffer.BlockCopy(ProcessUnique, 0, buffer, 4, 5);
+
+        // 3-byte counter
+        buffer[9] = (byte)(inc >> 16);
+        buffer[10] = (byte)(inc >> 8);
+        buffer[11] = (byte)inc;
+        return ByteArrayToHexString(buffer);
+    }
+
+    /// <summary>
+    /// Retrieves and increments the internal counter in a thread-safe manner.
+    /// </summary>
+    /// <returns>Returns the current value of the counter</returns>
+    private static int GetIncrement()
+    {
+        lock (incrementLock)
+        {
+            return increment++;
+        }
+    }
+
+    /// <summary>
+    /// Generates a unique identifier specific to the current process.
+    /// </summary>
+    /// <returns>Returns a byte array containing the unique identifier for the process.</returns>
+    private static byte[] GenerateProcessUnique()
+    {
+        byte[] processUnique = new byte[5];
+        cRandom.GetBytes(processUnique);
+        return processUnique;
+    }
+
+    /// <summary>
+    /// Converts a byte array to its hexadecimal string representation.
+    /// </summary>
+    /// <param name="bytes">The byte array to be converted to a hexadecimal string.</param>
+    /// <returns>Returns a string containing the hexadecimal representation of the byte array.</returns>
+    private static string ByteArrayToHexString(byte[] bytes)
+    {
+        var sb = new StringBuilder(bytes.Length * 2);
+        foreach (byte b in bytes)
+        {
+            sb.Append(b.ToString("x2"));
+        }
+        return sb.ToString();
     }
 }
