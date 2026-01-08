@@ -127,13 +127,13 @@
     <value>Export as SVG</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>QR Code</value>
+    <value>Código QR</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Text</value>
+    <value>Texto</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>QR Code Encoder / Decoder</value>
@@ -149,6 +149,6 @@
     <comment>Alternative search keywords.</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
-    <value>QR Code</value>
+    <value>Código QR</value>
   </data>
 </root>

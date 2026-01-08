@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>QR Code Encoder and Decoder tool</value>
+    <value>Alat Enkode dan Dekode QR Code</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Read or generate a QR Code from a text. Can be exported as SVG.</value>
+    <value>Baca atau hasilkan kode QR dari teks. Dapat diekspor sebagai SVG.</value>
   </data>
   <data name="ExportAsSvgButtonTitle" xml:space="preserve">
-    <value>Export as SVG</value>
+    <value>Ekspor sebagai SVG</value>
   </data>
   <data name="ImageWithQrCode" xml:space="preserve">
-    <value>QR Code</value>
+    <value>Kode QR</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>Image file path containing a QR Code to decode / text file path containing the text to convert to a QR Code</value>
   </data>
   <data name="InputText" xml:space="preserve">
-    <value>Text</value>
+    <value>Teks</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>QR Code Encoder / Decoder</value>
+    <value>Enkode/Dekode kode QR</value>
   </data>
   <data name="NoQrCodeFound" xml:space="preserve">
-    <value>No QR Code found in this image</value>
+    <value>Kode QR tidak ditemukan di gambar ini</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Jalur ke file keluaran</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>QRCode URL</value>

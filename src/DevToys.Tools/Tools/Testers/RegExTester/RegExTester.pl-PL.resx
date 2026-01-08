@@ -257,7 +257,7 @@ Any lookaround can be used as the condition. A lookahead will start the subseque
 For example, /A(?(DEFINE)(?'foo'Z))B\g'foo'/ will match ABZ, because the define group is ignored in the match except to define the foo subroutine that is referenced later with \g'foo'.</value>
   </data>
   <data name="CheatSheetDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>Opis</value>
   </data>
   <data name="CheatSheetDigit" xml:space="preserve">
     <value>Digit</value>
@@ -508,7 +508,7 @@ Relative values preceded by + or - are also supported. For example \g&lt;-1&gt; 
 The syntax \o{FFF} is also supported.</value>
   </data>
   <data name="CheatSheetOptional" xml:space="preserve">
-    <value>Optional</value>
+    <value>Opcjonalne</value>
   </data>
   <data name="CheatSheetOptionalDetails" xml:space="preserve">
     <value>Matches 0 or 1 of the preceding token, effectively making it optional.</value>
@@ -583,10 +583,10 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches the end of the string. Unlike $ or \Z, it does not allow for a trailing newline. This is unaffected by the multiline flag (m). This matches a position, not a character.</value>
   </data>
   <data name="CheatSheetSyntax" xml:space="preserve">
-    <value>Syntax</value>
+    <value>Składnia</value>
   </data>
   <data name="CheatSheetTab" xml:space="preserve">
-    <value>Tab</value>
+    <value>Tabulator</value>
   </data>
   <data name="CheatSheetTabDetails" xml:space="preserve">
     <value>Matches a TAB character (char code 9).</value>
@@ -631,7 +631,7 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Matches any whitespace character (spaces, tabs, line breaks).</value>
   </data>
   <data name="CheatSheetWord" xml:space="preserve">
-    <value>Word</value>
+    <value>Slowo</value>
   </data>
   <data name="CheatSheetWordBoundary" xml:space="preserve">
     <value>Word boundary</value>
@@ -682,16 +682,16 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Match information</value>
   </data>
   <data name="MatchLocation" xml:space="preserve">
-    <value>Location</value>
+    <value>Lokalizacja</value>
   </data>
   <data name="MatchName" xml:space="preserve">
-    <value>Name</value>
+    <value>Nazwa</value>
   </data>
   <data name="MatchNamePrefix" xml:space="preserve">
-    <value>Match</value>
+    <value>Dopasowanie</value>
   </data>
   <data name="MatchValue" xml:space="preserve">
-    <value>Value</value>
+    <value>Wartość</value>
   </data>
   <data name="Multiline" xml:space="preserve">
     <value>Multiline</value>
@@ -700,10 +700,10 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Changes the meaning of ^ and $ so they match at the beginning and end, respectively, of any line, and not just the beginning and end of the entire string.</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>Opcje</value>
   </data>
   <data name="RegularExpression" xml:space="preserve">
-    <value>Regular expression</value>
+    <value>Wyrażenie regularne</value>
   </data>
   <data name="RightToLeft" xml:space="preserve">
     <value>Right To Left</value>
@@ -724,6 +724,6 @@ Within a character set, only \, -, and ] need to be escaped.</value>
     <value>Changes the meaning of the dot (.) so it matches every character (instead of every character except \n).</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>Tekst</value>
   </data>
 </root>

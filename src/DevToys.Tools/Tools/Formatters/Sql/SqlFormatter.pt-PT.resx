@@ -130,7 +130,7 @@
     <value>Format SQL data</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 espaços</value>
   </data>
   <data name="Indentation" xml:space="preserve">
     <value>Indentation</value>
@@ -139,7 +139,7 @@
     <value>Select which indentation you want to use</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
     <value>Input file selected doesn't exist.</value>
@@ -172,7 +172,7 @@
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>Path to the output file</value>

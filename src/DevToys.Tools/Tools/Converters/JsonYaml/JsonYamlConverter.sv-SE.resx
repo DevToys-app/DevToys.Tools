@@ -130,7 +130,7 @@
     <value>Whether to convert from Json or Yaml</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Konvertering</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert JSON data to YAML and vice versa</value>
@@ -163,7 +163,7 @@
     <value>&lt;Invalid Yaml data&gt;</value>
   </data>
   <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+    <value>JSON till YAML</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML Converter</value>
@@ -172,7 +172,7 @@
     <value>Output</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Sökväg till utdatafilen</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>JSON &lt;&gt; YAML</value>
@@ -181,6 +181,6 @@
     <value>2 spaces</value>
   </data>
   <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+    <value>YAML till JSON</value>
   </data>
 </root>

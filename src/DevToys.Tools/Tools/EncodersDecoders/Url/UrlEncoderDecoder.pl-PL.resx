@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>URL Encoder and Decoder tool</value>
+    <value>Narzędzie kodujące i dekodujące adresy URL</value>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguracja</value>
   </data>
   <data name="ConversionDecode" xml:space="preserve">
-    <value>Decode</value>
+    <value>Dekoduj</value>
   </data>
   <data name="ConversionDescription" xml:space="preserve">
-    <value>Select which conversion mode you want to use</value>
+    <value>Wybierz tryb konwersji, którego chcesz użyć</value>
   </data>
   <data name="ConversionEncode" xml:space="preserve">
-    <value>Encode</value>
+    <value>Enkoduj</value>
   </data>
   <data name="ConversionOptionDescription" xml:space="preserve">
-    <value>Whether to encode or decode text in a URL parameter</value>
+    <value>Czy zakodować lub zdekodować tekst w parametrze URL</value>
   </data>
   <data name="ConversionTitle" xml:space="preserve">
-    <value>Conversion</value>
+    <value>Konwersja</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Encode or decode all the applicable characters to their corresponding URL entities</value>
+    <value>Zakoduj lub dekoduj wszystkie możliwe znaki do odpowiednich im jednostek URL</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text to encode or URL to decode</value>
+    <value>Tekst do zakodowania lub URL do zdekodowania</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Input</value>
+    <value>Wejście</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>URL Encoder / Decoder</value>
+    <value>Enkoder / Dekoder URL</value>
   </data>
   <data name="OutputTitle" xml:space="preserve">
-    <value>Output</value>
+    <value>Wyjście</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>URL</value>

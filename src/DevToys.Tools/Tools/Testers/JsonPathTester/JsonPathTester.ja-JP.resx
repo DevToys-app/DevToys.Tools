@@ -190,7 +190,7 @@
     <value>一致するものはありません</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>出力</value>
+    <value>テスト結果</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
     <value>出力先のパス</value>

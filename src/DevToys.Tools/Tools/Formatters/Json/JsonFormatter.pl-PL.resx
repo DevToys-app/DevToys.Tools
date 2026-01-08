@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON Formatter tool</value>
+    <value>Narzędzie do formatowania JSON-a</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguracja</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Indent or minify JSON data</value>
+    <value>Formatuj lub minifikuj JSON</value>
   </data>
   <data name="FourSpaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4 spacje</value>
   </data>
   <data name="Indentation" xml:space="preserve">
-    <value>Indentation</value>
+    <value>Wcięcia</value>
   </data>
   <data name="IndentationOptionDescription" xml:space="preserve">
-    <value>Select which indentation you want to use</value>
+    <value>Wybierz formatowanie, którego chcesz użyć</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Wejście</value>
   </data>
   <data name="InputFileNotFound" xml:space="preserve">
-    <value>Input file selected doesn't exist.</value>
+    <value>Wybrany plik wejściowy nie istnieje.</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Text or path to a file containing the JSON to format</value>
+    <value>Tekst lub ścieżka do pliku zawierającego JSON do sformatowania</value>
   </data>
   <data name="InvalidInputOrFileCommand" xml:space="preserve">
-    <value>Please specify an input text or an input file</value>
+    <value>Proszę podać tekst wejściowy lub plik wejściowy</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSON Formatter</value>
+    <value>Formater JSON-a</value>
   </data>
   <data name="Minified" xml:space="preserve">
-    <value>Minified</value>
+    <value>Zminifikowany</value>
   </data>
   <data name="OneTab" xml:space="preserve">
     <value>1 tab</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Wyjście</value>
   </data>
   <data name="OutputFileOptionDescription" xml:space="preserve">
-    <value>Path to the output file</value>
+    <value>Ścieżka do pliku wyjściowego</value>
   </data>
   <data name="SearchKeywords" xml:space="preserve">
     <value>sort order alphabetize</value>
@@ -169,12 +169,12 @@
     <value>JSON</value>
   </data>
   <data name="SortProperties" xml:space="preserve">
-    <value>Sort JSON Properties alphabetically</value>
+    <value>Sortuj właściwości JSON alfabetycznie</value>
   </data>
   <data name="SortPropertiesOptionDescription" xml:space="preserve">
-    <value>Whether properties within the JSON should be sorted alphabetically</value>
+    <value>Czy właściwości w JSON-ie powinny być posortowane alfabetycznie</value>
   </data>
   <data name="TwoSpaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2 spacje</value>
   </data>
 </root>

@@ -166,7 +166,7 @@
     <value>Định dạng đầu ra</value>
   </data>
   <data name="OutputScheduleTitle" xml:space="preserve">
-    <value/>
+    <value></value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>Cron parser</value>

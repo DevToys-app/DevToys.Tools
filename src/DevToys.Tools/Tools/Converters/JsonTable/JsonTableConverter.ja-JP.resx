@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JSON の表形式ビューと CSV、TSV への変換ツール</value>
+    <value>JSON配列から表形式への変換ツール</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>JSONの表形式ビューとCSV変換</value>
+    <value>JSON 配列から表へ</value>
     <comment>Grid view title</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>JSON 配列を表形式で表示し、CSV、TSVに変換</value>
+    <value>JSON 配列を表形式で表示し、CSV、TSVに変換します</value>
     <comment>Grid view description</comment>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
@@ -152,7 +152,7 @@
     <value>クリップボードにコピーするフォーマットを選択</value>
   </data>
   <data name="ClipboardFormatTitle" xml:space="preserve">
-    <value>コピーするフォーマット</value>
+    <value>クリップボードの形式</value>
   </data>
   <data name="CopyFormatCSV" xml:space="preserve">
     <value>CSV (カンマ区切り)</value>

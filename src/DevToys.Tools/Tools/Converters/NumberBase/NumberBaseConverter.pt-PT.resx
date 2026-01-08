@@ -124,7 +124,7 @@
     <value>Advanced mode</value>
   </data>
   <data name="Binary" xml:space="preserve">
-    <value>Binary</value>
+    <value>Binário</value>
   </data>
   <data name="Configuration" xml:space="preserve">
     <value>Configuration</value>
@@ -148,7 +148,7 @@
     <value>Hexadecimal</value>
   </data>
   <data name="Input" xml:space="preserve">
-    <value>Input</value>
+    <value>Entrada</value>
   </data>
   <data name="InputBaseOptionDescription" xml:space="preserve">
     <value>The base of the number to convert</value>
@@ -167,7 +167,7 @@
     <value>Octal</value>
   </data>
   <data name="Output" xml:space="preserve">
-    <value>Output</value>
+    <value>Saída</value>
   </data>
   <data name="OutputBaseOptionDescription" xml:space="preserve">
     <value>The desired base to convert to.</value>

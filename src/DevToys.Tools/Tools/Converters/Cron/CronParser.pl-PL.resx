@@ -136,16 +136,16 @@
     <value>Date time format of generated scheduled dates</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Parse Cron expression to get scheduled dates</value>
+    <value>Wyodrębnij zaplanowane daty z wyrażenia Cron</value>
   </data>
   <data name="IncludeSecondsOptionDescription" xml:space="preserve">
-    <value>Whether the Cron expression includes seconds in its definition</value>
+    <value>Czy wyrażenie Cron zawiera sekundy w definicji</value>
   </data>
   <data name="InputTitle" xml:space="preserve">
-    <value>Cron expression to parse</value>
+    <value>Wyrażenie Cron do przeanalizowania</value>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
-    <value>Cron expression parser</value>
+    <value>Narzędzie do analizy wyrażeń Cron</value>
   </data>
   <data name="MaxScheduleCountOptionDescription" xml:space="preserve">
     <value>Number of schedules to be generated</value>
@@ -172,7 +172,7 @@
     <value>Cron parser</value>
   </data>
   <data name="UseSecondsDescription" xml:space="preserve">
-    <value>Whether the Cron expression should include seconds in its definition</value>
+    <value>Czy wyrażenie Cron powinno zawierać sekundy w swojej definicji</value>
   </data>
   <data name="UseSecondsTitle" xml:space="preserve">
     <value>Uwzględnij sekundy</value>

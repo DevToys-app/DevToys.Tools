@@ -133,7 +133,7 @@
     <value>基数に使用する文字は2文字以上必要です</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>カスタム</value>
+    <value>カスタム形式</value>
   </data>
   <data name="Decimal" xml:space="preserve">
     <value>10 進数</value>
@@ -154,7 +154,7 @@
     <value>変換前の基数</value>
   </data>
   <data name="InputDictionary" xml:space="preserve">
-    <value>入力にて使用する辞書</value>
+    <value>入力に使用する辞書</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
     <value>変換する基数</value>
@@ -173,7 +173,7 @@
     <value>変換後の基数</value>
   </data>
   <data name="OutputDictionary" xml:space="preserve">
-    <value>出力にて使用する辞書</value>
+    <value>出力に使用する辞書</value>
   </data>
   <data name="RFC4648Base16" xml:space="preserve">
     <value>RFC-4648 Base16</value>
@@ -182,13 +182,13 @@
     <value>RFC-4648 Base32</value>
   </data>
   <data name="RFC4648Base32ExtendedHex" xml:space="preserve">
-    <value>RFC-4648 Base32 Extended Hex</value>
+    <value>RFC-4648 Base32 拡張16進数</value>
   </data>
   <data name="RFC4648Base64" xml:space="preserve">
     <value>RFC-4648 Base64</value>
   </data>
   <data name="RFC4648Base64UrlEncode" xml:space="preserve">
-    <value>RFC-4648 Base64 Url Encode</value>
+    <value>RFC-4648 Base64 Url エンコード</value>
   </data>
   <data name="ShortDisplayTitle" xml:space="preserve">
     <value>基数</value>

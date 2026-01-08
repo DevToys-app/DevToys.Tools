@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccessibleName" xml:space="preserve">
-    <value>JWT エンコーダーおよびデコーダー ツール</value>
+    <value>JWT エンコーダーおよびデコーダーツール</value>
     <comment>Gui</comment>
   </data>
   <data name="acr" xml:space="preserve">
@@ -166,7 +166,7 @@
     <comment>Claim (Microsoft)</comment>
   </data>
   <data name="ClaimDescriptionTitle" xml:space="preserve">
-    <value>Description</value>
+    <value>説明</value>
     <comment>Gui</comment>
   </data>
   <data name="ClaimTypeTitle" xml:space="preserve">
@@ -174,7 +174,7 @@
     <comment>Gui</comment>
   </data>
   <data name="ClaimValueTitle" xml:space="preserve">
-    <value>Value</value>
+    <value>値</value>
     <comment>Gui</comment>
   </data>
   <data name="ConfigurationTitle" xml:space="preserve">
@@ -186,7 +186,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenActorsTitle" xml:space="preserve">
-    <value>アクタークレームを検証</value>
+    <value>アクターを検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesInputLabel" xml:space="preserve">
@@ -194,7 +194,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenAudiencesTitle" xml:space="preserve">
-    <value>オーディエンスクレームを検証</value>
+    <value>オーディエンスを検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerInputLabel" xml:space="preserve">
@@ -206,7 +206,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenIssuerTitle" xml:space="preserve">
-    <value>発行者クレームを検証</value>
+    <value>発行者を検証</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenLifetimeTitle" xml:space="preserve">
@@ -214,7 +214,7 @@
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsDescription" xml:space="preserve">
-    <value>検証を行うトークン内のパラメーターを設定します</value>
+    <value>検証を行うトークンパラメーターを設定します</value>
     <comment>Gui</comment>
   </data>
   <data name="DecodeValidateTokenSettingsTitle" xml:space="preserve">
@@ -226,7 +226,7 @@
     <comment>Gui</comment>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>ヘッダー、ペイロード、署名から JWT の生成とトークンの検証</value>
+    <value>Json Web Token (JWT) のエンコードとデコードをする</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeMode" xml:space="preserve">
@@ -234,11 +234,11 @@
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAlgorithmTitle" xml:space="preserve">
-    <value>署名のアルゴリズム</value>
+    <value>トークンのハッシュアルゴリズム</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenAudienceInputTitle" xml:space="preserve">
-    <value>オーディエンスクレームの値 (カンマ区切り)</value>
+    <value>トークンのオーディエンス（カンマ区切り）</value>
     <comment>Gui</comment>
   </data>
   <data name="EncodeTokenExpirationDayInputTitle" xml:space="preserve">

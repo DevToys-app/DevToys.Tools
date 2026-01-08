@@ -121,19 +121,19 @@
     <value>Number Base Converter tool</value>
   </data>
   <data name="AdvancedMode" xml:space="preserve">
-    <value>Advanced mode</value>
+    <value>Avancerat läge</value>
   </data>
   <data name="Binary" xml:space="preserve">
     <value>Binary</value>
   </data>
   <data name="Configuration" xml:space="preserve">
-    <value>Configuration</value>
+    <value>Konfiguration</value>
   </data>
   <data name="CustomDictionaryTooSmall" xml:space="preserve">
     <value>Please set at least two characters in the custom dictionary</value>
   </data>
   <data name="CustomFormat" xml:space="preserve">
-    <value>Custom format</value>
+    <value>Anpassat format</value>
   </data>
   <data name="Decimal" xml:space="preserve">
     <value>Decimal</value>
@@ -157,7 +157,7 @@
     <value>Input dictionary</value>
   </data>
   <data name="InputOptionDescription" xml:space="preserve">
-    <value>Number to convert</value>
+    <value>Nummer att konvertera</value>
     <comment>CLI parameter description</comment>
   </data>
   <data name="LongDisplayTitle" xml:space="preserve">
