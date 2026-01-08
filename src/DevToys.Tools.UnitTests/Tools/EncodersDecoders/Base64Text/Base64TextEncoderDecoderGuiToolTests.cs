@@ -22,9 +22,9 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
     [Fact]
     public async Task EncodeUtf8()
     {
-        _inputBox.Text("Hello world &é'(-è_çèà)");
+        _inputBox.Text($"Hello world &é'(-è_çèà){Environment.NewLine}Hello world &é'(-è_çèà)");
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
     }
 
     [Fact]
@@ -33,9 +33,9 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
         var encodingOption = (IUISelectDropDownList)((IUISetting)_toolView.GetChildElementById("base64-text-encoding-setting")).InteractiveElement;
         encodingOption.Select(1); // Select ASCII
 
-        _inputBox.Text("Hello world &é'(-è_çèà)");
+        _inputBox.Text($"Hello world &é'(-è_çèà){Environment.NewLine}Hello world &é'(-è_çèà)");
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJj8nKC0/Xz8/Pyk=");
+        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJj8nKC0/Xz8/PykNCkhlbGxvIHdvcmxkICY/JygtP18/Pz8p");
     }
 
     [Fact]
@@ -48,12 +48,32 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
         conversionMode.Off(); // Switch to Decode
 
         await _tool.WorkTask;
-        _inputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        _inputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
         await _tool.WorkTask;
         _outputBox.Text("Hello world &é'(-è_çèà)");
 
         conversionMode.On(); // Switch to Encode
         await _tool.WorkTask;
+        await EncodeUtf8();
+    }
+
+    [Fact]
+    public async Task SwitchMultilineMode()
+    {
+        var multilineMode = (IUISwitch)_toolView.GetChildElementById("base64-text-multiline-mode-switch");
+
+        await EncodeUtf8();
+
+        multilineMode.On();
+
+        await _tool.WorkTask;
+        _outputBox.Text.Should().Be($"SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ=={Environment.NewLine}SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        await _tool.WorkTask;
+
+        multilineMode.Off();
+        await _tool.WorkTask;
+        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+
         await EncodeUtf8();
     }
 }
