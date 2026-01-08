@@ -26,6 +26,11 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
             name: $"{nameof(UrlEncoderDecoderGuiTool)}.{nameof(conversionMode)}",
             defaultValue: EncodingConversion.Encode);
 
+    private static readonly SettingDefinition<bool> multilineMode
+        = new(
+            name: $"{nameof(UrlEncoderDecoderGuiTool)}.{nameof(multilineMode)}",
+            defaultValue: false);
+
     private enum GridRows
     {
         Settings,
@@ -42,6 +47,7 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
     private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUISwitch _conversionModeSwitch = Switch("url-conversion-mode-switch");
+    private readonly IUISwitch _multilineModeSwitch = Switch("url-conversion-multiline-switch");
     private readonly IUIMultiLineTextInput _inputText = MultiLineTextInput("url-input-box");
     private readonly IUIMultiLineTextInput _outputText = MultiLineTextInput("url-output-box");
 
@@ -52,6 +58,15 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
     {
         _logger = this.Log();
         _settingsProvider = settingsProvider;
+
+        if (_settingsProvider.GetSetting(multilineMode))
+        {
+            _multilineModeSwitch.On();
+        }
+        else
+        {
+            _multilineModeSwitch.Off();
+        }
 
         switch (_settingsProvider.GetSetting(conversionMode))
         {
@@ -98,20 +113,31 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
                             .SmallSpacing()
 
                             .WithChildren(
-                                Label()
-                                    .Text(UrlEncoderDecoder.ConfigurationTitle),
+                                Stack()
+                                .Vertical()
+                                .WithChildren(
+                                    Label()
+                                        .Text(UrlEncoderDecoder.ConfigurationTitle),
+                                    Setting("url-conversion-mode-setting")
+                                        .Icon("FluentSystemIcons", '\uF18D')
+                                        .Title(UrlEncoderDecoder.ConversionTitle)
+                                        .Description(UrlEncoderDecoder.ConversionDescription)
 
-                                Setting("url-conversion-mode-setting")
-                                    .Icon("FluentSystemIcons", '\uF18D')
-                                    .Title(UrlEncoderDecoder.ConversionTitle)
-                                    .Description(UrlEncoderDecoder.ConversionDescription)
-
-                                    .InteractiveElement(
-                                        _conversionModeSwitch
-                                            .OnText(UrlEncoderDecoder.ConversionEncode)
-                                            .OffText(UrlEncoderDecoder.ConversionDecode)
-                                            .OnToggle(OnConversionModeChanged)))),
-
+                                        .InteractiveElement(
+                                            _conversionModeSwitch
+                                                .OnText(UrlEncoderDecoder.ConversionEncode)
+                                                .OffText(UrlEncoderDecoder.ConversionDecode)
+                                                .OnToggle(OnConversionModeChanged)),
+                                    Setting("url-conversion-multiline-setting")
+                                        .Icon("FluentSystemIcons", '\uF18D')
+                                        .Title(UrlEncoderDecoder.MultilineTitle)
+                                        .Description(UrlEncoderDecoder.MultilineDescription)
+                                        .InteractiveElement(
+                                            _multilineModeSwitch
+                                                .OnToggle(OnMultilineModeChanged))
+                                        )
+                                    )
+                                ),
                     Cell(
                         GridRows.Input,
                         GridColumns.Stretch,
@@ -147,6 +173,12 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
         _inputText.Text(_outputText.Text); // This will trigger a conversion.
     }
 
+    private void OnMultilineModeChanged(bool multilineMode)
+    {
+        _settingsProvider.SetSetting(UrlEncoderDecoderGuiTool.multilineMode, multilineMode);
+        StartConvert(_inputText.Text);
+    }
+
     private void OnInputTextChanged(string text)
     {
         StartConvert(text);
@@ -167,12 +199,33 @@ internal sealed partial class UrlEncoderDecoderGuiTool : IGuiTool, IDisposable
         {
             await TaskSchedulerAwaiter.SwitchOffMainThreadAsync(cancellationToken);
 
-            _outputText.Text(
-                UrlHelper.EncodeOrDecode(
-                    input,
-                    conversionModeSetting,
-                    _logger,
-                    cancellationToken));
+            if (_settingsProvider.GetSetting(multilineMode))
+            {
+                List<string> resultLines = [];
+                List<string> inputLines = [.. input.Split([Environment.NewLine], StringSplitOptions.None)];
+
+                foreach (string line in inputLines)
+                {
+                    cancellationToken.ThrowIfCancellationRequested();
+                    resultLines.Add(
+                        UrlHelper.EncodeOrDecode(
+                            line,
+                            conversionModeSetting,
+                            _logger,
+                            cancellationToken));
+                }
+
+                _outputText.Text(string.Join(Environment.NewLine, resultLines));
+            }
+            else
+            {
+                _outputText.Text(
+                    UrlHelper.EncodeOrDecode(
+                        input,
+                        conversionModeSetting,
+                        _logger,
+                        cancellationToken));
+            }
         }
     }
 }

@@ -160,6 +160,28 @@ namespace DevToys.Tools.Tools.EncodersDecoders.Url {
         }
         
         /// <summary>
+        /// Looks up a localized string similar to Encode / Decode each line separately.
+        /// </summary>
+        internal static string MultilineDescription
+        {
+            get
+            {
+                return ResourceManager.GetString("MultilineDescription", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        /// Looks up a localized string similar to Multiline.
+        /// </summary>
+        internal static string MultilineTitle
+        {
+            get
+            {
+                return ResourceManager.GetString("MultilineTitle", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Looks up a localized string similar to Output.
         /// </summary>
         internal static string OutputTitle {
