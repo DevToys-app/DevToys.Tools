@@ -94,12 +94,26 @@ internal sealed partial class JsonWebTokenEncoderDecoderGuiTool : IGuiTool, IDis
                 Cell(
                     JsonWebTokenGridRows.SubContainer,
                     GridColumns.Stretch,
-                    Stack()
-                    .Vertical()
-                    .WithChildren(
-                        DecoderGuiTool.ViewStack,
-                        EncoderGuiTool.ViewStack
-                    )
+                    Grid()
+                        .Rows((GridRow.Settings, Auto))
+                        .Cells(
+                            Cell(
+                                GridRow.Settings,
+                                GridColumns.Stretch,
+                                DecoderGuiTool.ViewGrid
+                            ),
+                            Cell(
+                                GridRow.Settings,
+                                GridColumns.Stretch,
+                                EncoderGuiTool.ViewGrid
+                            )
+                        )
+                //Stack()
+                //.Vertical()
+                //.WithChildren(
+                //    DecoderGuiTool.ViewStack,
+                //    EncoderGuiTool.ViewStack
+                //)
                 )
             )
         );
@@ -160,5 +174,11 @@ internal sealed partial class JsonWebTokenEncoderDecoderGuiTool : IGuiTool, IDis
             default:
                 throw new NotSupportedException();
         }
+    }
+
+    private enum GridRow
+    {
+        Settings,
+        Results
     }
 }

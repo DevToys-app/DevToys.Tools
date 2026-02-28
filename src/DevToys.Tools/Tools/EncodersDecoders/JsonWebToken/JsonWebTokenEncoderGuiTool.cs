@@ -103,7 +103,7 @@ internal sealed partial class JsonWebTokenEncoderGuiTool
     private readonly IUISwitch _isSignatureBase64FormatSwitch = Switch("jwt-encode-is-signature-base64-format-switch");
     private readonly IUISetting _isSignatureBase64FormatSetting = Setting("jwt-encode-is-signature-base64-format-setting");
 
-    private readonly IUIStack _viewStack = Stack("jwt-encode-view-stack");
+    private readonly IUIGrid _viewGrid = Grid("jwt-encode-view-grid");
     private readonly IUIStack _encodeSettingsStack = Stack("jwt-encode-settings-stack");
 
     private readonly IUIMultiLineTextInput _tokenInput = MultiLineTextInput("jwt-encode-token-input");
@@ -125,240 +125,273 @@ internal sealed partial class JsonWebTokenEncoderGuiTool
 
     internal Task? WorkTask { get; private set; }
 
-    public IUIStack ViewStack
-        => _viewStack
-        .Vertical()
-        .WithChildren(
-            SettingGroup("jwt-encode-validate-token-setting")
-                .Icon("FluentSystemIcons", '\uec9e')
-                .Title(JsonWebTokenEncoderDecoder.EncodeTokenSettingsTitle)
-                .Description(JsonWebTokenEncoderDecoder.EncodeTokenSettingsDescription)
-                .WithChildren(
-                    Setting("jwt-encode-token-algorithm-setting")
-                        .Icon("FluentSystemIcons", '\uF1EE')
-                        .Title(JsonWebTokenEncoderDecoder.EncodeTokenAlgorithmTitle)
-                        .Handle(
-                            _settingsProvider,
-                            tokenAlgorithmSetting,
-                            onOptionSelected: OnAlgorithmChanged,
-                            Item(JsonWebTokenAlgorithm.HS256),
-                            Item(JsonWebTokenAlgorithm.HS384),
-                            Item(JsonWebTokenAlgorithm.HS512),
-                            Item(JsonWebTokenAlgorithm.RS256),
-                            Item(JsonWebTokenAlgorithm.RS384),
-                            Item(JsonWebTokenAlgorithm.RS512),
-                            Item(JsonWebTokenAlgorithm.PS256),
-                            Item(JsonWebTokenAlgorithm.PS384),
-                            Item(JsonWebTokenAlgorithm.PS512),
-                            Item(JsonWebTokenAlgorithm.ES256),
-                            Item(JsonWebTokenAlgorithm.ES384),
-                            Item(JsonWebTokenAlgorithm.ES512)
-                        ),
-                    SettingGroup("jwt-encode-token-issuer-setting-group")
-                        .Icon("FluentSystemIcons", '\ue30a')
-                        .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasIssuerTitle)
-                        .InteractiveElement(
-                            _encodeTokenHasIssuerSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnTokenHasIssuerChanged)
-                        )
-                        .WithChildren(
-                            _encodeTokenIssuerInput
-                                .Title(JsonWebTokenEncoderDecoder.EncodeTokenIssuerInputTitle)
-                                .OnTextChanged(OnTokenIssuerInputChanged)
-                        ),
-                    SettingGroup("jwt-encode-token-audience-setting-group")
-                        .Icon("FluentSystemIcons", '\ue30a')
-                        .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasAudienceTitle)
-                        .InteractiveElement(
-                            _encodeTokenHasAudienceSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnTokenHasAudienceChanged)
-                        )
-                        .WithChildren(
-                            _encodeTokenAudienceInput
-                                .Title(JsonWebTokenEncoderDecoder.EncodeTokenAudienceInputTitle)
-                                .OnTextChanged(OnTokenAudienceInputChanged)
-                        ),
-                    SettingGroup("jwt-encode-token-expiration-setting-group")
-                        .Icon("FluentSystemIcons", '\ue243')
-                        .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasExpirationTitle)
-                        .InteractiveElement(
-                            _encodeTokenHasExpirationSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnTokenHasExpirationChanged)
-                        )
-                        .WithChildren(
-                            _encodeTokenExpirationGrid
-                                .RowSmallSpacing()
-                                .ColumnSmallSpacing()
-                                .Rows(
-                                    (JsonWebTokenExpirationGridRow.Content, Auto)
-                                )
-                                .Columns(
-                                    (JsonWebTokenExpirationGridColumn.Year, new UIGridLength(1, UIGridUnitType.Fraction)),
-                                    (JsonWebTokenExpirationGridColumn.Month, new UIGridLength(1, UIGridUnitType.Fraction)),
-                                    (JsonWebTokenExpirationGridColumn.Day, new UIGridLength(1, UIGridUnitType.Fraction)),
-                                    (JsonWebTokenExpirationGridColumn.Hour, new UIGridLength(1, UIGridUnitType.Fraction)),
-                                    (JsonWebTokenExpirationGridColumn.Minute, new UIGridLength(1, UIGridUnitType.Fraction))
-                                )
-                                .Cells(
-                                    Cell(
-                                        JsonWebTokenExpirationGridRow.Content,
-                                        JsonWebTokenExpirationGridColumn.Year,
-                                        Stack()
-                                        .Vertical()
-                                        .SmallSpacing()
-                                        .WithChildren(
-                                            _encodeTokenExpirationYearInputNumber
-                                                .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationYearInputTitle)
-                                                .HideCommandBar()
-                                                .OnTextChanged((value) =>
-                                                {
-                                                    OnExpirationChanged(value, DateValueType.Year);
-                                                })
-                                                .Minimum(0)
-                                                .Maximum(9999)
-                                        )
+    public IUIGrid ViewGrid
+        => _viewGrid
+        .Rows(
+            (JsonWebTokenEncoderGridRows.Settings, Auto),
+            (JsonWebTokenEncoderGridRows.Token, Auto),
+            (JsonWebTokenEncoderGridRows.TokenPayload, new UIGridLength(1, UIGridUnitType.Fraction)),
+            (JsonWebTokenEncoderGridRows.TokenSignature, Auto)
+        )
+        .Columns(
+            (GridColumns.Stretch, new UIGridLength(1, UIGridUnitType.Fraction))
+        )
+        .Cells(
+            Cell(
+                JsonWebTokenEncoderGridRows.Settings,
+                GridColumns.Stretch,
+                Stack("jwt-decode-settings-stack")
+                    .Vertical()
+                    .SmallSpacing()
+                    .WithChildren(
+                        SettingGroup("jwt-encode-validate-token-setting")
+                            .Icon("FluentSystemIcons", '\uec9e')
+                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenSettingsTitle)
+                            .Description(JsonWebTokenEncoderDecoder.EncodeTokenSettingsDescription)
+                            .WithChildren(
+                                Setting("jwt-encode-token-algorithm-setting")
+                                    .Icon("FluentSystemIcons", '\uF1EE')
+                                    .Title(JsonWebTokenEncoderDecoder.EncodeTokenAlgorithmTitle)
+                                    .Handle(
+                                        _settingsProvider,
+                                        tokenAlgorithmSetting,
+                                        onOptionSelected: OnAlgorithmChanged,
+                                        Item(JsonWebTokenAlgorithm.HS256),
+                                        Item(JsonWebTokenAlgorithm.HS384),
+                                        Item(JsonWebTokenAlgorithm.HS512),
+                                        Item(JsonWebTokenAlgorithm.RS256),
+                                        Item(JsonWebTokenAlgorithm.RS384),
+                                        Item(JsonWebTokenAlgorithm.RS512),
+                                        Item(JsonWebTokenAlgorithm.PS256),
+                                        Item(JsonWebTokenAlgorithm.PS384),
+                                        Item(JsonWebTokenAlgorithm.PS512),
+                                        Item(JsonWebTokenAlgorithm.ES256),
+                                        Item(JsonWebTokenAlgorithm.ES384),
+                                        Item(JsonWebTokenAlgorithm.ES512)
                                     ),
-                                    Cell(
-                                        JsonWebTokenExpirationGridRow.Content,
-                                        JsonWebTokenExpirationGridColumn.Month,
-                                        Stack()
-                                        .Vertical()
-                                        .SmallSpacing()
-                                        .WithChildren(
-                                            _encodeTokenExpirationMonthInputNumber
-                                                .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationMonthInputTitle)
-                                                .HideCommandBar()
-                                                .OnTextChanged((value) =>
-                                                {
-                                                    OnExpirationChanged(value, DateValueType.Month);
-                                                })
-                                                .Minimum(1)
-                                                .Maximum(12)
-                                        )
-                                    ),
-                                    Cell(
-                                        JsonWebTokenExpirationGridRow.Content,
-                                        JsonWebTokenExpirationGridColumn.Day,
-                                        Stack()
-                                        .Vertical()
-                                        .SmallSpacing()
-                                        .WithChildren(
-                                            _encodeTokenExpirationDayInputNumber
-                                                .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationDayInputTitle)
-                                                .HideCommandBar()
-                                                .OnTextChanged((value) =>
-                                                {
-                                                    OnExpirationChanged(value, DateValueType.Day);
-                                                })
-                                                .Minimum(1)
-                                                .Maximum(31)
-                                        )
-                                    ),
-                                    Cell(
-                                        JsonWebTokenExpirationGridRow.Content,
-                                        JsonWebTokenExpirationGridColumn.Hour,
-                                        Stack()
-                                        .Vertical()
-                                        .SmallSpacing()
-                                        .WithChildren(
-                                            _encodeTokenExpirationHourInputNumber
-                                                .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationHourInputTitle)
-                                                .HideCommandBar()
-                                                .OnTextChanged((value) =>
-                                                {
-                                                    OnExpirationChanged(value, DateValueType.Hour);
-                                                })
-                                                .Minimum(0)
-                                                .Maximum(24)
-                                        )
-                                    ),
-                                    Cell(
-                                        JsonWebTokenExpirationGridRow.Content,
-                                        JsonWebTokenExpirationGridColumn.Minute,
-                                        Stack()
-                                        .Vertical()
-                                        .SmallSpacing()
-                                        .WithChildren(
-                                            _encodeTokenExpirationMinuteInputNumber
-                                                .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationMinuteInputTitle)
-                                                .HideCommandBar()
-                                                .OnTextChanged((value) =>
-                                                {
-                                                    OnExpirationChanged(value, DateValueType.Minute);
-                                                })
-                                                .Minimum(0)
-                                                .Maximum(59)
-                                        )
+                                SettingGroup("jwt-encode-token-issuer-setting-group")
+                                    .Icon("FluentSystemIcons", '\ue30a')
+                                    .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasIssuerTitle)
+                                    .InteractiveElement(
+                                        _encodeTokenHasIssuerSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnTokenHasIssuerChanged)
                                     )
-                                )
-                        ),
-                    Setting("jwt-encode-token-default-time-setting")
-                        .Icon("FluentSystemIcons", '\ue36e')
-                        .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasDefaultTimeTitle)
-                        .InteractiveElement(
-                            _encodeTokenDefaultTimeSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnTokenHasDefaultTimeChanged)
-                        ),
-                    _isSignatureBase64FormatSetting
-                        .Icon("FluentSystemIcons", '\uF18D')
-                        .Title(JsonWebTokenEncoderDecoder.SignatureFormat)
-                        .InteractiveElement(
-                            _isSignatureBase64FormatSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Base64)
-                                .OffText(JsonWebTokenEncoderDecoder.PlainText)
-                                .OnToggle(OnIsSignatureInBase64FormatChanged)
-                        )
-                ),
-            _infoBar
-                .NonClosable(),
-            _tokenInput
-                .Title(JsonWebTokenEncoderDecoder.TokenInputTitle)
-                .AlwaysWrap()
-                .ReadOnly(),
-            SplitGrid()
-                .Vertical()
-                .WithLeftPaneChild(
-                    _headerInput
-                        .Title(JsonWebTokenEncoderDecoder.HeaderInputTitle)
-                        .Extendable()
-                        .Language("json")
-                        .ReadOnly()
-                        .OnTextChanged(OnTextInputChanged)
-                )
-                .WithRightPaneChild(
-                    _payloadInput
-                        .Title(JsonWebTokenEncoderDecoder.PayloadInputTitle)
-                        .Extendable()
-                        .Language("json")
-                        .OnTextChanged(OnTextInputChanged)
-                ),
-            _signatureInput
-                .Title(JsonWebTokenEncoderDecoder.SignatureInputTitle)
-                .OnTextChanged(OnTextInputChanged),
-            _privateKeyInput
-                .Title(JsonWebTokenEncoderDecoder.PrivateKeyInputTitle)
-                .OnTextChanged(OnTextInputChanged)
-
-        );
+                                    .WithChildren(
+                                        _encodeTokenIssuerInput
+                                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenIssuerInputTitle)
+                                            .OnTextChanged(OnTokenIssuerInputChanged)
+                                    ),
+                                SettingGroup("jwt-encode-token-audience-setting-group")
+                                    .Icon("FluentSystemIcons", '\ue30a')
+                                    .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasAudienceTitle)
+                                    .InteractiveElement(
+                                        _encodeTokenHasAudienceSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnTokenHasAudienceChanged)
+                                    )
+                                    .WithChildren(
+                                        _encodeTokenAudienceInput
+                                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenAudienceInputTitle)
+                                            .OnTextChanged(OnTokenAudienceInputChanged)
+                                    ),
+                                SettingGroup("jwt-encode-token-expiration-setting-group")
+                                    .Icon("FluentSystemIcons", '\ue243')
+                                    .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasExpirationTitle)
+                                    .InteractiveElement(
+                                        _encodeTokenHasExpirationSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnTokenHasExpirationChanged)
+                                    )
+                                    .WithChildren(
+                                        _encodeTokenExpirationGrid
+                                            .RowSmallSpacing()
+                                            .ColumnSmallSpacing()
+                                            .Rows(
+                                                (JsonWebTokenExpirationGridRow.Content, Auto)
+                                            )
+                                            .Columns(
+                                                (JsonWebTokenExpirationGridColumn.Year, new UIGridLength(1, UIGridUnitType.Fraction)),
+                                                (JsonWebTokenExpirationGridColumn.Month, new UIGridLength(1, UIGridUnitType.Fraction)),
+                                                (JsonWebTokenExpirationGridColumn.Day, new UIGridLength(1, UIGridUnitType.Fraction)),
+                                                (JsonWebTokenExpirationGridColumn.Hour, new UIGridLength(1, UIGridUnitType.Fraction)),
+                                                (JsonWebTokenExpirationGridColumn.Minute, new UIGridLength(1, UIGridUnitType.Fraction))
+                                            )
+                                            .Cells(
+                                                Cell(
+                                                    JsonWebTokenExpirationGridRow.Content,
+                                                    JsonWebTokenExpirationGridColumn.Year,
+                                                    Stack()
+                                                    .Vertical()
+                                                    .SmallSpacing()
+                                                    .WithChildren(
+                                                        _encodeTokenExpirationYearInputNumber
+                                                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationYearInputTitle)
+                                                            .HideCommandBar()
+                                                            .OnTextChanged((value) =>
+                                                            {
+                                                                OnExpirationChanged(value, DateValueType.Year);
+                                                            })
+                                                            .Minimum(0)
+                                                            .Maximum(9999)
+                                                    )
+                                                ),
+                                                Cell(
+                                                    JsonWebTokenExpirationGridRow.Content,
+                                                    JsonWebTokenExpirationGridColumn.Month,
+                                                    Stack()
+                                                    .Vertical()
+                                                    .SmallSpacing()
+                                                    .WithChildren(
+                                                        _encodeTokenExpirationMonthInputNumber
+                                                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationMonthInputTitle)
+                                                            .HideCommandBar()
+                                                            .OnTextChanged((value) =>
+                                                            {
+                                                                OnExpirationChanged(value, DateValueType.Month);
+                                                            })
+                                                            .Minimum(1)
+                                                            .Maximum(12)
+                                                    )
+                                                ),
+                                                Cell(
+                                                    JsonWebTokenExpirationGridRow.Content,
+                                                    JsonWebTokenExpirationGridColumn.Day,
+                                                    Stack()
+                                                    .Vertical()
+                                                    .SmallSpacing()
+                                                    .WithChildren(
+                                                        _encodeTokenExpirationDayInputNumber
+                                                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationDayInputTitle)
+                                                            .HideCommandBar()
+                                                            .OnTextChanged((value) =>
+                                                            {
+                                                                OnExpirationChanged(value, DateValueType.Day);
+                                                            })
+                                                            .Minimum(1)
+                                                            .Maximum(31)
+                                                    )
+                                                ),
+                                                Cell(
+                                                    JsonWebTokenExpirationGridRow.Content,
+                                                    JsonWebTokenExpirationGridColumn.Hour,
+                                                    Stack()
+                                                    .Vertical()
+                                                    .SmallSpacing()
+                                                    .WithChildren(
+                                                        _encodeTokenExpirationHourInputNumber
+                                                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationHourInputTitle)
+                                                            .HideCommandBar()
+                                                            .OnTextChanged((value) =>
+                                                            {
+                                                                OnExpirationChanged(value, DateValueType.Hour);
+                                                            })
+                                                            .Minimum(0)
+                                                            .Maximum(24)
+                                                    )
+                                                ),
+                                                Cell(
+                                                    JsonWebTokenExpirationGridRow.Content,
+                                                    JsonWebTokenExpirationGridColumn.Minute,
+                                                    Stack()
+                                                    .Vertical()
+                                                    .SmallSpacing()
+                                                    .WithChildren(
+                                                        _encodeTokenExpirationMinuteInputNumber
+                                                            .Title(JsonWebTokenEncoderDecoder.EncodeTokenExpirationMinuteInputTitle)
+                                                            .HideCommandBar()
+                                                            .OnTextChanged((value) =>
+                                                            {
+                                                                OnExpirationChanged(value, DateValueType.Minute);
+                                                            })
+                                                            .Minimum(0)
+                                                            .Maximum(59)
+                                                    )
+                                                )
+                               )
+                       ),
+                                Setting("jwt-encode-token-default-time-setting")
+                                    .Icon("FluentSystemIcons", '\ue36e')
+                                    .Title(JsonWebTokenEncoderDecoder.EncodeTokenHasDefaultTimeTitle)
+                                    .InteractiveElement(
+                                        _encodeTokenDefaultTimeSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnTokenHasDefaultTimeChanged)
+                                    ),
+                                _isSignatureBase64FormatSetting
+                                    .Icon("FluentSystemIcons", '\uF18D')
+                                    .Title(JsonWebTokenEncoderDecoder.SignatureFormat)
+                                    .InteractiveElement(
+                                        _isSignatureBase64FormatSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Base64)
+                                            .OffText(JsonWebTokenEncoderDecoder.PlainText)
+                                            .OnToggle(OnIsSignatureInBase64FormatChanged)
+                                    )
+                            ),
+                       _infoBar.NonClosable()
+                    )
+            ),
+            Cell(
+                JsonWebTokenEncoderGridRows.Token,
+                GridColumns.Stretch,
+                _tokenInput
+                    .Title(JsonWebTokenEncoderDecoder.TokenInputTitle)
+                    .AlwaysWrap()
+                    .ReadOnly()
+            ),
+            Cell(
+                JsonWebTokenEncoderGridRows.TokenPayload,
+                GridColumns.Stretch,
+                SplitGrid()
+                    .Vertical()
+                    .WithLeftPaneChild(
+                        _headerInput
+                            .Title(JsonWebTokenEncoderDecoder.HeaderInputTitle)
+                            .Extendable()
+                            .Language("json")
+                            .ReadOnly()
+                            .OnTextChanged(OnTextInputChanged)
+                    )
+                    .WithRightPaneChild(
+                        _payloadInput
+                            .Title(JsonWebTokenEncoderDecoder.PayloadInputTitle)
+                            .Extendable()
+                            .Language("json")
+                            .OnTextChanged(OnTextInputChanged)
+                    )
+            ),
+            Cell(
+                JsonWebTokenEncoderGridRows.TokenSignature,
+                GridColumns.Stretch,
+                Stack()
+                    .Vertical()
+                    .SmallSpacing()
+                    .WithChildren(
+                        _signatureInput
+                            .Title(JsonWebTokenEncoderDecoder.SignatureInputTitle)
+                            .OnTextChanged(OnTextInputChanged),
+                        _privateKeyInput
+                           .Title(JsonWebTokenEncoderDecoder.PrivateKeyInputTitle)
+                           .OnTextChanged(OnTextInputChanged)
+                    )
+            )
+        )
+ ;
 
     public void Show()
     {
-        _viewStack.Show();
+        _viewGrid.Show();
         _semaphore = new();
         _cancellationTokenSource = new CancellationTokenSource();
     }
 
     public void Hide()
     {
-        _viewStack.Hide();
+        _viewGrid.Hide();
         _cancellationTokenSource?.Cancel();
         _cancellationTokenSource?.Dispose();
         _semaphore.Dispose();

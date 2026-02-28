@@ -89,7 +89,7 @@ internal sealed class JsonWebTokenDecoderGuiTool
     private readonly ISettingsProvider _settingsProvider;
 
     private readonly IUIInfoBar _infoBar = InfoBar("jwt-decode-info-bar");
-    private readonly IUIStack _viewStack = Stack("jwt-decode-view-stack");
+    private readonly IUIGrid _viewGrid = Grid();
     private readonly IUIStack _decodeSettingsStack = Stack("jwt-decode-settings-stack");
 
     private readonly IUISwitch _validateTokenSwitch = Switch("jwt-decode-validate-token-switch");
@@ -125,148 +125,187 @@ internal sealed class JsonWebTokenDecoderGuiTool
 
     internal Task? WorkTask { get; private set; }
 
-    public IUIStack ViewStack
-        => _viewStack
-        .Vertical()
-        .WithChildren(
-            SettingGroup("jwt-decode-validate-token-setting")
-                .Icon("FluentSystemIcons", '\uec9e')
-                .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenSettingsTitle)
-                .Description(JsonWebTokenEncoderDecoder.DecodeValidateTokenSettingsDescription)
-                .InteractiveElement(
-                    _validateTokenSwitch
-                        .OnToggle(OnValidateTokenChanged)
-                )
-                .WithChildren(
-                    SettingGroup("jwt-decode-validate-token-issuer-signing-key-setting")
-                        .Icon("FluentSystemIcons", '\ue30a')
-                        .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenIssuerSigningKeyTitle)
-                        .InteractiveElement(
-                            _validateTokenIssuerSigningKeySwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnValidateTokenIssuerSigningKey)
-                        )
-                        .WithSettings(
-                            _isSignatureKeyInBase64FormatUISetting
-                                .Title(JsonWebTokenEncoderDecoder.SignatureFormat)
-                                .Description($"{JsonWebTokenEncoderDecoder.PlainText} / {JsonWebTokenEncoderDecoder.Base64}")
-                                .Handle(
-                                    _settingsProvider,
-                                    isSignatureKeyInBase64FormatSwitchSetting,
-                                    JsonWebTokenEncoderDecoder.Base64,
-                                    JsonWebTokenEncoderDecoder.PlainText,
-                                    OnIsSigningKeyBase64)
-                        ),
-                    SettingGroup("jwt-decode-validate-token-issuers-setting-group")
-                        .Icon("FluentSystemIcons", '\ue30a')
-                        .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenIssuerTitle)
-                        .InteractiveElement(
-                            _validateTokenIssuersSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnValidateTokenIssuer)
-                        )
-                        .WithChildren(
-                            _validateTokenIssuersInput
-                                .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenIssuerInputLabel)
-                                .OnTextChanged(OnTokenIssuerInputChanged)
-                        ),
-                    SettingGroup("jwt-decode-validate-token-audiences-setting-group")
-                        .Icon("FluentSystemIcons", '\ue30a')
-                        .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenAudiencesTitle)
-                        .InteractiveElement(
-                            _validateTokenAudiencesSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnValidateTokenAudiences)
-                        )
-                        .WithChildren(
-                            _validateTokenAudiencesInput
-                                .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenAudiencesInputLabel)
-                                .OnTextChanged(OnTokenAudiencesInputChanged)
-                        ),
-                    Setting("jwt-decode-validate-token-lifetime-setting")
-                        .Icon("FluentSystemIcons", '\ue30a')
-                        .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenLifetimeTitle)
-                        .InteractiveElement(
-                            _validateLifetimeSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnValidateTokenLifetime)
-                        ),
-                    Setting("jwt-decode-validate-token-actors-setting")
-                        .Icon("FluentSystemIcons", '\ue30a')
-                        .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenActorsTitle)
-                        .InteractiveElement(
-                            _validateActorsSwitch
-                                .OnText(JsonWebTokenEncoderDecoder.Yes)
-                                .OffText(JsonWebTokenEncoderDecoder.No)
-                                .OnToggle(OnValidateTokenActors)
-                        )
-                ),
-            _infoBar
-                .NonClosable(),
-            _tokenInput
-                .Title(JsonWebTokenEncoderDecoder.TokenInputTitle)
-                .AlwaysWrap()
-                .OnTextChanged(OnTokenInputChanged),
-            SplitGrid()
-                .Vertical()
-                .WithLeftPaneChild(
-                    _headerInput
-                        .Title(JsonWebTokenEncoderDecoder.HeaderInputTitle)
-                        .ReadOnly()
-                )
-                .WithRightPaneChild(
-                    Stack()
-                        .Vertical()
-                        .WithChildren(
-                            _payloadInput
-                                .Title(JsonWebTokenEncoderDecoder.PayloadInputTitle)
-                                .ReadOnly()
-                                .Extendable()
-                                .CommandBarExtraContent(
-                                    Stack("jwt-decode-payload-stack")
-                                        .Horizontal()
+    public IUIGrid ViewGrid
+        => _viewGrid
+        .Rows(
+            (JsonWebTokenDecodeGridRow.Settings, Auto),
+            (JsonWebTokenDecodeGridRow.Token, Auto),
+            (JsonWebTokenDecodeGridRow.TokenPayload, new UIGridLength(1, UIGridUnitType.Fraction)))
+        .Columns(
+            (GridColumns.Stretch, new UIGridLength(1, UIGridUnitType.Fraction))
+        )
+        .Cells(
+            Cell(
+                JsonWebTokenDecodeGridRow.Settings,
+                GridColumns.Stretch,
+                Stack("jwt-decode-settings-stack")
+                    .Vertical()
+                    .SmallSpacing()
+                    .WithChildren(
+                        SettingGroup("jwt-decode-validate-token-setting")
+                            .Icon("FluentSystemIcons", '\uec9e')
+                            .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenSettingsTitle)
+                            .Description(JsonWebTokenEncoderDecoder.DecodeValidateTokenSettingsDescription)
+                            .InteractiveElement(
+                                _validateTokenSwitch
+                                    .OnToggle(OnValidateTokenChanged)
+                            )
+                            .WithChildren(
+                                SettingGroup("jwt-decode-validate-token-issuer-signing-key-setting")
+                                    .Icon("FluentSystemIcons", '\ue30a')
+                                    .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenIssuerSigningKeyTitle)
+                                    .InteractiveElement(
+                                        _validateTokenIssuerSigningKeySwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnValidateTokenIssuerSigningKey)
+                                    )
+                                    .WithSettings(
+                                        _isSignatureKeyInBase64FormatUISetting
+                                            .Title(JsonWebTokenEncoderDecoder.SignatureFormat)
+                                            .Description($"{JsonWebTokenEncoderDecoder.PlainText} / {JsonWebTokenEncoderDecoder.Base64}")
+                                            .Handle(
+                                                _settingsProvider,
+                                                isSignatureKeyInBase64FormatSwitchSetting,
+                                                JsonWebTokenEncoderDecoder.Base64,
+                                                JsonWebTokenEncoderDecoder.PlainText,
+                                                OnIsSigningKeyBase64)
+                                    ),
+                                SettingGroup("jwt-decode-validate-token-issuers-setting-group")
+                                    .Icon("FluentSystemIcons", '\ue30a')
+                                    .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenIssuerTitle)
+                                    .InteractiveElement(
+                                        _validateTokenIssuersSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnValidateTokenIssuer)
+                                    )
+                                    .WithChildren(
+                                        _validateTokenIssuersInput
+                                            .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenIssuerInputLabel)
+                                            .OnTextChanged(OnTokenIssuerInputChanged)
+                                    ),
+                                SettingGroup("jwt-decode-validate-token-audiences-setting-group")
+                                    .Icon("FluentSystemIcons", '\ue30a')
+                                    .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenAudiencesTitle)
+                                    .InteractiveElement(
+                                        _validateTokenAudiencesSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnValidateTokenAudiences)
+                                    )
+                                    .WithChildren(
+                                        _validateTokenAudiencesInput
+                                            .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenAudiencesInputLabel)
+                                            .OnTextChanged(OnTokenAudiencesInputChanged)
+                                    ),
+                                Setting("jwt-decode-validate-token-lifetime-setting")
+                                    .Icon("FluentSystemIcons", '\ue30a')
+                                    .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenLifetimeTitle)
+                                    .InteractiveElement(
+                                        _validateLifetimeSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnValidateTokenLifetime)
+                                    ),
+                                Setting("jwt-decode-validate-token-actors-setting")
+                                    .Icon("FluentSystemIcons", '\ue30a')
+                                    .Title(JsonWebTokenEncoderDecoder.DecodeValidateTokenActorsTitle)
+                                    .InteractiveElement(
+                                        _validateActorsSwitch
+                                            .OnText(JsonWebTokenEncoderDecoder.Yes)
+                                            .OffText(JsonWebTokenEncoderDecoder.No)
+                                            .OnToggle(OnValidateTokenActors)
+                                    )
+                            ),
+                        _infoBar.NonClosable()
+                    )
+            ),
+            Cell(
+                JsonWebTokenDecodeGridRow.Token,
+                GridColumns.Stretch,
+                Stack()
+                    .Vertical()
+                    .SmallSpacing()
+                    .WithChildren(
+                        _tokenInput
+                            .Title(JsonWebTokenEncoderDecoder.TokenInputTitle)
+                            .AlwaysWrap()
+                            .OnTextChanged(OnTokenInputChanged),
+                        _signatureInput
+                            .Title(JsonWebTokenEncoderDecoder.SignatureInputTitle)
+                            .OnTextChanged(OnTokenInputChanged),
+                        _publicKeyInput
+                            .Title(JsonWebTokenEncoderDecoder.PublicKeyInputTitle)
+                            .OnTextChanged(OnTokenInputChanged)
+                    )
+            ),
+            Cell(
+                JsonWebTokenDecodeGridRow.TokenPayload,
+                GridColumns.Stretch,
+                Grid()
+                    .Rows((JsonWebTokenDecodeRow.Payload, Auto))
+                    .Columns(
+                        (GridColumns.Stretch, new UIGridLength(1, UIGridUnitType.Fraction))
+                    )
+                    .Cells(
+                        Cell(
+                            JsonWebTokenDecodeRow.Payload,
+                            GridColumns.Stretch,
+                            SplitGrid()
+                                .Vertical()
+                                .WithLeftPaneChild(
+                                    _headerInput
+                                        .Title(JsonWebTokenEncoderDecoder.HeaderInputTitle)
+                                        .ReadOnly()
+                                )
+                                .WithRightPaneChild(
+                                    Stack()
+                                        .Vertical()
+                                        .UseMaxHeight()
                                         .WithChildren(
-                                            Button("jwt-decode-payload-claims-toggle-button")
-                                                .Icon("FluentSystemIcons", '\uf4a5')
-                                                .OnClick(OnPayloadClaimClicked)
-                                        )
-                                ),
-                            _payloadClaimsDataGrid
-                                .Extendable()
-                                .CommandBarExtraContent(
-                                    Stack("jwt-decode-payload-claims-stack")
-                                        .Horizontal()
-                                        .WithChildren(
-                                            Button("jwt-decode-payload-claims-toggle-button")
-                                                .Icon("FluentSystemIcons", '\uf4a5')
-                                                .OnClick(OnPayloadClaimClicked)
+                                            _payloadInput
+                                                .Title(JsonWebTokenEncoderDecoder.PayloadInputTitle)
+                                                .ReadOnly()
+                                                .Extendable()
+                                                .CommandBarExtraContent(
+                                                    Stack("jwt-decode-payload-stack")
+                                                        .Horizontal()
+                                                        .WithChildren(
+                                                            Button("jwt-decode-payload-claims-toggle-button")
+                                                                .Icon("FluentSystemIcons", '\uf4a5')
+                                                                .OnClick(OnPayloadClaimClicked)
+                                                        )
+                                                ),
+                                            _payloadClaimsDataGrid
+                                                .Extendable()
+                                                .CommandBarExtraContent(
+                                                    Stack("jwt-decode-payload-claims-stack")
+                                                        .Horizontal()
+                                                        .WithChildren(
+                                                            Button("jwt-decode-payload-claims-toggle-button")
+                                                                .Icon("FluentSystemIcons", '\uf4a5')
+                                                                .OnClick(OnPayloadClaimClicked)
+                                                        )
+                                                )
+                                                .WithColumns(JsonWebTokenEncoderDecoder.ClaimTypeTitle, JsonWebTokenEncoderDecoder.ClaimValueTitle)
                                         )
                                 )
-                                .WithColumns(JsonWebTokenEncoderDecoder.ClaimTypeTitle, JsonWebTokenEncoderDecoder.ClaimValueTitle)
                         )
-                ),
-            _signatureInput
-                .Title(JsonWebTokenEncoderDecoder.SignatureInputTitle)
-                .OnTextChanged(OnTokenInputChanged),
-            _publicKeyInput
-                .Title(JsonWebTokenEncoderDecoder.PublicKeyInputTitle)
-                .OnTextChanged(OnTokenInputChanged)
+                    )
+            )
         );
 
     public void Show()
     {
-        _viewStack.Show();
+        _viewGrid.Show();
         _semaphore = new();
         _cancellationTokenSource = new CancellationTokenSource();
     }
 
     public void Hide()
     {
-        _viewStack.Hide();
+        _viewGrid.Hide();
         _cancellationTokenSource?.Cancel();
         _cancellationTokenSource?.Dispose();
         _semaphore.Dispose();

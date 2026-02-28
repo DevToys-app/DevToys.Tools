@@ -8,7 +8,9 @@ internal enum JsonWebTokenGridRows
 
 internal enum GridColumns
 {
-    Stretch
+    Stretch,
+    Left,
+    Right
 }
 
 internal enum JsonWebTokenExpirationGridRow
@@ -23,4 +25,30 @@ internal enum JsonWebTokenExpirationGridColumn
     Day,
     Hour,
     Minute
+}
+
+internal enum JsonWebTokenDecodeGridRow
+{
+    Settings,
+    Token,
+    TokenPayload
+}
+
+internal enum JsonWebTokenDecodeRow
+{
+    Payload
+}
+
+internal enum JsonWebTokenDecodeColumns
+{
+    Left,
+    Right
+}
+
+internal enum JsonWebTokenEncoderGridRows
+{
+    Settings,
+    Token,
+    TokenPayload,
+    TokenSignature
 }
