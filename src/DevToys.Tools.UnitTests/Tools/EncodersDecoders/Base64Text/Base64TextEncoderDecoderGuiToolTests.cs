@@ -1,4 +1,5 @@
 ﻿using DevToys.Tools.Tools.EncodersDecoders.Base64Text;
+using Microsoft.VisualStudio.TestPlatform.CoreUtilities.Helpers;
 
 namespace DevToys.Tools.UnitTests.Tools.EncodersDecoders.Base64Text;
 
@@ -24,7 +25,14 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
     {
         _inputBox.Text($"Hello world &é'(-è_çèà){Environment.NewLine}Hello world &é'(-è_çèà)");
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        if (OperatingSystem.IsWindows())
+        {
+            _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        }
+        else
+        {
+            _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQpIZWxsbyB3b3JsZCAmw6knKC3DqF/Dp8Oow6Ap");
+        }
     }
 
     [Fact]
@@ -35,7 +43,15 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
 
         _inputBox.Text($"Hello world &é'(-è_çèà){Environment.NewLine}Hello world &é'(-è_çèà)");
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJj8nKC0/Xz8/PykNCkhlbGxvIHdvcmxkICY/JygtP18/Pz8p");
+
+        if (OperatingSystem.IsWindows())
+        {
+            _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJj8nKC0/Xz8/PykNCkhlbGxvIHdvcmxkICY/JygtP18/Pz8p");
+        }
+        else
+        {
+            _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJj8nKC0/Xz8/PykKSGVsbG8gd29ybGQgJj8nKC0/Xz8/Pyk=");
+        }
     }
 
     [Fact]
@@ -48,7 +64,14 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
         conversionMode.Off(); // Switch to Decode
 
         await _tool.WorkTask;
-        _inputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        if (OperatingSystem.IsWindows())
+        {
+            _inputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        }
+        else
+        {
+            _inputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQpIZWxsbyB3b3JsZCAmw6knKC3DqF/Dp8Oow6Ap");
+        }
         await _tool.WorkTask;
         _outputBox.Text("Hello world &é'(-è_çèà)");
 
@@ -72,8 +95,14 @@ public sealed class Base64TextEncoderDecoderGuiToolTests : TestBase
 
         multilineMode.Off();
         await _tool.WorkTask;
-        _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
-
+        if (OperatingSystem.IsWindows())
+        {
+            _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ0KSGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQ==");
+        }
+        else
+        {
+            _outputBox.Text.Should().Be("SGVsbG8gd29ybGQgJsOpJygtw6hfw6fDqMOgKQpIZWxsbyB3b3JsZCAmw6knKC3DqF/Dp8Oow6Ap");
+        }
         await EncodeUtf8();
     }
 }

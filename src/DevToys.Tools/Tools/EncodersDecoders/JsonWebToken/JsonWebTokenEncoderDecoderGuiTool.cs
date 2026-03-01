@@ -108,12 +108,6 @@ internal sealed partial class JsonWebTokenEncoderDecoderGuiTool : IGuiTool, IDis
                                 EncoderGuiTool.ViewGrid
                             )
                         )
-                //Stack()
-                //.Vertical()
-                //.WithChildren(
-                //    DecoderGuiTool.ViewStack,
-                //    EncoderGuiTool.ViewStack
-                //)
                 )
             )
         );
@@ -133,29 +127,6 @@ internal sealed partial class JsonWebTokenEncoderDecoderGuiTool : IGuiTool, IDis
         _settingsProvider.SetSetting(toolModeSetting, toolMode ? JwtMode.Encode : JwtMode.Decode);
         LoadChildView();
     }
-
-    private IUIGridCell EncodeDecodeSettings()
-        => Cell(
-            JsonWebTokenGridRows.Settings,
-            GridColumns.Stretch,
-            Stack()
-                .Vertical()
-                .SmallSpacing()
-                .WithChildren(
-                    Label()
-                        .Text(JsonWebTokenEncoderDecoder.ConfigurationTitle),
-                    Setting("jwt-token-conversion-mode-setting")
-                        .Icon("FluentSystemIcons", '\uF18D')
-                        .Title(JsonWebTokenEncoderDecoder.ToolModeTitle)
-                        .Description(JsonWebTokenEncoderDecoder.ToolModeDescription)
-                        .InteractiveElement(
-                            _conversionModeSwitch
-                            .OnText(JsonWebTokenEncoderDecoder.EncodeMode)
-                            .OffText(JsonWebTokenEncoderDecoder.DecodeMode)
-                            .OnToggle(OnConversionModeChanged)
-                        )
-                )
-        );
 
     private void LoadChildView()
     {
