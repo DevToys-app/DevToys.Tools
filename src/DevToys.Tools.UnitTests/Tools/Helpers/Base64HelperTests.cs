@@ -13,6 +13,7 @@ public class Base64HelperTests
     [InlineData("aGVsbG8gd2f9ybGQ=", false)]
     [InlineData("SGVsbG8gV29y", true)]
     [InlineData("SGVsbG8gVa29y", false)]
+    [InlineData("aGVsbG8gd29ybGQg8J+Xne+4jwo=", true)]
     public void IsValid(string input, bool expectedResult)
     {
         Base64Helper.IsBase64DataStrict(input).Should().Be(expectedResult);
