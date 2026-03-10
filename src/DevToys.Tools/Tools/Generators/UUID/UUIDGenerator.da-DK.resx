@@ -177,4 +177,7 @@
   <data name="Refresh" xml:space="preserve">
     <value>Opdatér</value>
   </data>
+  <data name="UuidObjectId" xml:space="preserve">
+    <value>ObjectId (MongoDB)</value>
+  </data>
 </root>
