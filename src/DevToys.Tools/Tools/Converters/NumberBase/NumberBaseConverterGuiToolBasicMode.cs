@@ -81,7 +81,7 @@ internal sealed class NumberBaseConverterGuiToolBasicMode : INumberBaseConverter
 
         Guard.IsNotNull(_inputValue);
 
-        bool format = _settingsProvider.GetSetting(NumberBaseConverterGuiTool.formatted);
+        bool format = _settingsProvider.GetSetting(NumberBaseConverterGuiTool.FormattedSetting);
 
         bool succeeded
             = NumberBaseHelper.TryConvertNumberBase(

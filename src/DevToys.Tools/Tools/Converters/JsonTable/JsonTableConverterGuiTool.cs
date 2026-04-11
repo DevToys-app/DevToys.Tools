@@ -1,9 +1,10 @@
 ﻿using System.Data;
+using System.Diagnostics.CodeAnalysis;
 using DevToys.Tools.Tools.Converters.JsonTable;
 using Microsoft.Extensions.Logging;
 using static DevToys.Tools.Helpers.JsonTableHelper;
 
-namespace DevToys.Tools.Tools.Converters.JsonYaml;
+namespace DevToys.Tools.Tools.Converters.JsonTable;
 
 [Export(typeof(IGuiTool))]
 [Name("JsonTableConverter")]
@@ -21,7 +22,6 @@ namespace DevToys.Tools.Tools.Converters.JsonYaml;
 [AcceptedDataTypeName(PredefinedCommonDataTypeNames.JsonArray)]
 internal sealed partial class JsonTableConverterGuiTool : IGuiTool, IDisposable
 {
-    private readonly ILogger _logger;
     private readonly IClipboard _clipboard;
     private readonly IFileStorage _fileStorage;
 
@@ -33,9 +33,9 @@ internal sealed partial class JsonTableConverterGuiTool : IGuiTool, IDisposable
     private CancellationTokenSource? _cancellationTokenSource;
 
     [ImportingConstructor]
+    [SuppressMessage("Style", "IDE0290:Use primary constructor", Justification = "Primary constructors are not compatible with MEF's [ImportingConstructor] attribute.")]
     public JsonTableConverterGuiTool(IClipboard clipboard, IFileStorage fileStorage)
     {
-        _logger = this.Log();
         _clipboard = clipboard;
         _fileStorage = fileStorage;
     }
@@ -167,7 +167,7 @@ internal sealed partial class JsonTableConverterGuiTool : IGuiTool, IDisposable
 
     private void SetDataGridData(DataGridContents table)
     {
-        IUIDataGridRow[] rows = table.Rows.Select(r => Row(null, r)).ToArray();
+        IUIDataGridRow[] rows = [.. table.Rows.Select(r => Row(null, r))];
         _outputDataGrid.WithColumns(table.Headings);
         _outputDataGrid.WithRows(rows);
     }

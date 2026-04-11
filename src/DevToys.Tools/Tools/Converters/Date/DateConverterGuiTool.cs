@@ -1,4 +1,4 @@
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using DevToys.Tools.Helpers;
@@ -66,9 +66,13 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
             name: $"{nameof(DateConverterGuiTool)}.{nameof(formatSettings)}",
             defaultValue: DateFormat.Seconds);
 
-    private bool _ignoreInputTextChange;
+    [GeneratedRegex(@"[+-][0-9]{2}:[0-9]{2}|Z$")]
+    private static partial Regex TimezoneRegex();
 
-    private readonly ILogger _logger;
+    [GeneratedRegex(@"^\(UTC.*\).+$")]
+    private static partial Regex UTCRegex();
+
+    private bool _ignoreInputTextChange;
 
     private readonly DisposableSemaphore _semaphore = new();
 
@@ -138,7 +142,6 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
     [ImportingConstructor]
     public DateConverterGuiTool(ISettingsProvider settingsProvider)
     {
-        _logger = this.Log();
         _settingsProvider = settingsProvider;
 
         switch (_settingsProvider.GetSetting(useCustomEpochSettings))
@@ -448,8 +451,7 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
             return;
         }
 
-        var timeZoneRegex = new Regex(@"[+-][0-9]{2}:[0-9]{2}|Z$");
-        if (!timeZoneRegex.IsMatch(value))
+        if (!TimezoneRegex().IsMatch(value))
         {
             _errorInfoBar.Description(DateConverter.InvalidValue);
             _errorInfoBar.Open();
@@ -1050,7 +1052,7 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
         string timeZoneSelectedId = _settingsProvider.GetSetting(timeZoneIdSettings);
         var timeZoneDropDownItems = new IUIDropDownListItem[systemTimeZone.Count];
 
-        if (!Regex.IsMatch(systemTimeZone.ElementAt(0).DisplayName, @"^\(UTC.*\).+$"))
+        if (!UTCRegex().IsMatch(systemTimeZone.ElementAt(0).DisplayName))
         {
             // version < .Net6
             // This implementation mitigates the changes in the strings
@@ -1081,7 +1083,7 @@ internal sealed partial class DateConverterGuiTool : IGuiTool, IDisposable
                 }
             }
         }
-        return timeZoneDropDownItems.ToArray();
+        return [.. timeZoneDropDownItems];
     }
 
     private void ComputeDstInformation(DateTimeOffset dateTimeOffset, TimeZoneInfo timeZone)

@@ -130,7 +130,7 @@ internal sealed class NumberBaseConverterGuiToolAdvancedMode : INumberBaseConver
         }
 
         // Convert the number.
-        bool format = _settingsProvider.GetSetting(NumberBaseConverterGuiTool.formatted);
+        bool format = _settingsProvider.GetSetting(NumberBaseConverterGuiTool.FormattedSetting);
         bool succeeded
             = NumberBaseHelper.TryConvertNumberBase(
                 _inputText.Text,

@@ -20,7 +20,7 @@ internal sealed class NumberBaseConverterGuiTool : IGuiTool
     /// <summary>
     /// Whether the value should be formatted or not.
     /// </summary>
-    internal static readonly SettingDefinition<bool> formatted
+    private static readonly SettingDefinition<bool> formatted
         = new(
             name: $"{nameof(NumberBaseConverterGuiTool)}.{nameof(formatted)}",
             defaultValue: true);
@@ -33,8 +33,6 @@ internal sealed class NumberBaseConverterGuiTool : IGuiTool
             name: $"{nameof(NumberBaseConverterGuiTool)}.{nameof(advancedMode)}",
             defaultValue: false);
 
-    private readonly DisposableSemaphore _semaphore = new();
-    private readonly ILogger _logger;
     private readonly ISettingsProvider _settingsProvider;
     private readonly IUIStack _modeContainer = Stack();
     private readonly IUIInfoBar _infoBar = InfoBar();
@@ -46,7 +44,6 @@ internal sealed class NumberBaseConverterGuiTool : IGuiTool
     [ImportingConstructor]
     public NumberBaseConverterGuiTool(ISettingsProvider settingsProvider)
     {
-        _logger = this.Log();
         _settingsProvider = settingsProvider;
 
         _basicMode = new(() => new NumberBaseConverterGuiToolBasicMode(_settingsProvider, OnError));
@@ -54,6 +51,9 @@ internal sealed class NumberBaseConverterGuiTool : IGuiTool
 
         ApplyMode();
     }
+
+    public static SettingDefinition<bool> FormattedSetting => formatted;
+    public static SettingDefinition<bool> AdvancedModeSetting => advancedMode;
 
     public UIToolView View
         => new(
