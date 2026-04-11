@@ -27,7 +27,7 @@ public sealed class CronParserCommandLineToolTests : TestBase
     {
         _tool.CronExpression = input;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("");
@@ -42,7 +42,7 @@ public sealed class CronParserCommandLineToolTests : TestBase
         _tool.CronExpression = "* * * * *";
         _tool.DateFormat = input;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("");
@@ -58,7 +58,7 @@ public sealed class CronParserCommandLineToolTests : TestBase
         _tool.CronExpression = input;
         _tool.IncludeSeconds = includeSeconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().StartWith(expectedResult);

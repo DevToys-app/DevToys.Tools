@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using DevToys.Tools.Models;
 using DevToys.Tools.Tools.Converters.Date;
 
@@ -102,6 +103,7 @@ public class DateConverterGuiToolTests : TestBase
     [InlineData("1970-01-01T00:00:00.0000000-08:00", "Pacific Standard Time", 28800)]
     [InlineData("2023-11-22T19:58:07.0000000-08:00", "Pacific Standard Time", 1700711887)]
     [InlineData("1900-11-22T19:58:07.0000000-08:00", "Pacific Standard Time", -2180808113)]
+    [SuppressMessage("Usage", "xUnit1004:Test methods should not be skipped")]
     public async Task ConvertValidDateTimeWithUnixEpochAndSecondsFormatShouldReturnValidTimestampInSeconds(
         string dateTimeString,
         string timeZoneString,
@@ -302,6 +304,7 @@ public class DateConverterGuiToolTests : TestBase
     [InlineData("1970-01-01T00:00:00.0000000-08:00", "Pacific Standard Time", 28800000)]
     [InlineData("2023-11-22T19:58:07.0000000-08:00", "Pacific Standard Time", 1700711887000)]
     [InlineData("1900-11-22T19:58:07.0000000-08:00", "Pacific Standard Time", -2180808113000)]
+    [SuppressMessage("Usage", "xUnit1004:Test methods should not be skipped")]
     public async Task ConvertValidDateTimeWithUnixEpochAndMillisecondsFormatShouldReturnValidTimestampInMilliseconds(
         string dateTimeString,
         string timeZoneString,

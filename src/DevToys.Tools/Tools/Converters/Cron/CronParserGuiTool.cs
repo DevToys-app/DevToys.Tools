@@ -23,7 +23,7 @@ internal sealed class CronParserGuiTool : IGuiTool
     /// <summary>
     /// Whether the tool should include seconds in Cron definition
     /// </summary>
-    internal static readonly SettingDefinition<bool> includeSeconds
+    private static readonly SettingDefinition<bool> includeSeconds
         = new(
             name: $"{nameof(CronParserGuiTool)}.{nameof(includeSeconds)}",
             defaultValue: true);
@@ -72,6 +72,8 @@ internal sealed class CronParserGuiTool : IGuiTool
 
         ParseCronExpression();
     }
+
+    internal static SettingDefinition<bool> IncludeSecondsSetting => includeSeconds;
 
     public UIToolView View
         => new(

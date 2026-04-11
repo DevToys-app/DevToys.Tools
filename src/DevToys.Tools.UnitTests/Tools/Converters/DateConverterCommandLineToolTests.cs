@@ -30,7 +30,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.Input = input;
         _tool.FormatOption = DateFormat.Seconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
     }
 
@@ -54,7 +54,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Seconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -78,7 +78,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Seconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -108,7 +108,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Seconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -132,7 +132,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Seconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -162,7 +162,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Milliseconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -186,7 +186,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Milliseconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -216,7 +216,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Milliseconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -240,7 +240,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Milliseconds;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -266,7 +266,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Ticks;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
@@ -290,7 +290,7 @@ public sealed class DateConverterCommandLineToolTests : TestBase
         _tool.TimeZoneOption = timeZoneString;
         _tool.FormatOption = DateFormat.Ticks;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
 
         result.Should().Be(0);
 
