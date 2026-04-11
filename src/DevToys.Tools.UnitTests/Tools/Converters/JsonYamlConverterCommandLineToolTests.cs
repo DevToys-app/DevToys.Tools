@@ -16,8 +16,10 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
 
     public JsonYamlConverterCommandLineToolTests()
     {
-        _tool = new JsonYamlConverterCommandLineTool();
-        _tool._fileStorage = _fileStorage;
+        _tool = new JsonYamlConverterCommandLineTool
+        {
+            _fileStorage = _fileStorage
+        };
 
         _loggerMock = new Mock<ILogger>();
         Console.SetOut(_consoleWriter);
@@ -32,7 +34,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.ConversionMode = JsonToYamlConversion.JsonToYaml;
         _tool.Input = input;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
     }
 
@@ -44,7 +46,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.ConversionMode = JsonToYamlConversion.JsonToYaml;
         _tool.Input = "   bar { \"foo\": 123 }  ";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
         string consoleOutput = _consoleErrorWriter.ToString().Trim();
         consoleOutput.Should().Be("'b' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 3.");
@@ -57,7 +59,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.IndentationMode = Indentation.TwoSpaces;
         _tool.Input = "{\r\n  \"foo\": \"bar\",\r\n  \"fizz\": [\r\n     \"wizz\"\r\n  ]\r\n}";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("foo: bar\r\nfizz:\r\n  - wizz".Replace("\r\n", Environment.NewLine));
@@ -70,7 +72,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.IndentationMode = Indentation.FourSpaces;
         _tool.Input = "{\r\n  \"foo\": \"bar\",\r\n  \"fizz\": [\r\n     \"wizz\"\r\n  ]\r\n}";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("foo: bar\r\nfizz:\r\n    - wizz".Replace("\r\n", Environment.NewLine));
@@ -86,7 +88,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.OutputFile = new FileInfo("Dummy.yaml");
         _fileStorage.FileExistsResult = false;
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
         string consoleOutput = _consoleErrorWriter.ToString().Trim();
         consoleOutput.Should().Be(JsonYamlConverter.InputFileNotFound);
@@ -101,7 +103,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.Input = inputFile;
         _tool.OutputFile = new FileInfo("Dummy.yaml");
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
         string consoleOutput = _consoleErrorWriter.ToString().Trim();
         consoleOutput.Should().Be("'b' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 3.");
@@ -116,7 +118,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.Input = inputFile;
         _tool.OutputFile = new FileInfo("TwoSpaces.yaml");
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string outputContent = File.ReadAllText(_tool.OutputFile.FullName);
         outputContent.Should().Be("foo: bar\r\nfizz:\r\n  - wizz\r\n".Replace("\r\n", Environment.NewLine));
@@ -132,7 +134,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.Input = inputFile;
         _tool.OutputFile = new FileInfo("FourSpaces.yaml");
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string outputContent = File.ReadAllText(_tool.OutputFile.FullName);
         outputContent.Should().Be("foo: bar\r\nfizz:\r\n    - wizz\r\n".Replace("\r\n", Environment.NewLine));
@@ -145,7 +147,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.IndentationMode = Indentation.TwoSpaces;
         _tool.Input = "{\"Name\": \"Dor\\u00e9\"}";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("Name: Dor\\u00e9".Replace("\r\n", Environment.NewLine));
@@ -158,7 +160,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.IndentationMode = Indentation.TwoSpaces;
         _tool.Input = "{\"Name\": \"doré\"}";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("Name: doré".Replace("\r\n", Environment.NewLine));
@@ -174,7 +176,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.ConversionMode = JsonToYamlConversion.YamlToJson;
         _tool.Input = "'L' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
         string consoleOutput = _consoleErrorWriter.ToString().Trim();
         consoleOutput.Should().Be("While parsing a block mapping, did not find expected key.");
@@ -186,7 +188,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.ConversionMode = JsonToYamlConversion.YamlToJson;
         _tool.Input = "foo: bar\r\nfizz:\r\n - wizz";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("{\r\n  \"foo\": \"bar\",\r\n  \"fizz\": [\r\n    \"wizz\"\r\n  ]\r\n}".Replace("\r\n", Environment.NewLine));
@@ -199,7 +201,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.IndentationMode = Indentation.FourSpaces;
         _tool.Input = "foo: bar\r\nfizz:\r\n - wizz";
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string consoleOutput = _consoleWriter.ToString().Trim();
         consoleOutput.Should().Be("{\r\n    \"foo\": \"bar\",\r\n    \"fizz\": [\r\n        \"wizz\"\r\n    ]\r\n}".Replace("\r\n", Environment.NewLine));
@@ -214,7 +216,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.Input = inputFile;
         _tool.OutputFile = new FileInfo("Dummy.json");
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(-1);
         string consoleOutput = _consoleErrorWriter.ToString().Trim();
         consoleOutput.Should().Be("While parsing a block mapping, did not find expected key.");
@@ -229,7 +231,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.Input = inputFile;
         _tool.OutputFile = new FileInfo("TwoSpaces.json");
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string outputContent = File.ReadAllText(_tool.OutputFile.FullName);
         outputContent.Should().Be("{\r\n  \"foo\": \"bar\",\r\n  \"fizz\": [\r\n    \"wizz\"\r\n  ]\r\n}".Replace("\r\n", Environment.NewLine));
@@ -245,7 +247,7 @@ public sealed class JsonYamlConverterCommandLineToolTests : TestBase
         _tool.Input = inputFile;
         _tool.OutputFile = new FileInfo("FourSpaces.json");
 
-        int result = await _tool.InvokeAsync(_loggerMock.Object, default);
+        int result = await _tool.InvokeAsync(_loggerMock.Object, TestContext.Current.CancellationToken);
         result.Should().Be(0);
         string outputContent = File.ReadAllText(_tool.OutputFile.FullName);
         outputContent.Should().Be("{\r\n    \"foo\": \"bar\",\r\n    \"fizz\": [\r\n        \"wizz\"\r\n    ]\r\n}".Replace("\r\n", Environment.NewLine));

@@ -4,7 +4,7 @@ namespace DevToys.Tools.UnitTests.Tools.Converters;
 
 public sealed class CronParserGuiToolTests : TestBase
 {
-    private readonly ISettingsProvider _settingsProvider;
+    private readonly MockISettingsProvider _settingsProvider;
     private readonly UIToolView _toolView;
     private readonly CronParserGuiTool _tool;
     private readonly IUISingleLineTextInput _dateFormatText;
@@ -24,7 +24,7 @@ public sealed class CronParserGuiToolTests : TestBase
         _outputCronDescriptionText = (IUISingleLineTextInput)_toolView.GetChildElementById("cron-parser-output-description");
         _infoBar = (IUIInfoBar)_toolView.GetChildElementById("cron-parser-info-bar");
 
-        _settingsProvider.SetSetting(CronParserGuiTool.includeSeconds, true);
+        _settingsProvider.SetSetting(CronParserGuiTool.IncludeSecondsSetting, true);
     }
 
     [Theory(DisplayName = "Invalid cron expression")]
@@ -51,7 +51,7 @@ public sealed class CronParserGuiToolTests : TestBase
     [InlineData("* * * * *", false, "Every minute")]
     public void ParseCron(string input, bool includeSeconds, string expectedResult)
     {
-        _settingsProvider.SetSetting(CronParserGuiTool.includeSeconds, includeSeconds);
+        _settingsProvider.SetSetting(CronParserGuiTool.IncludeSecondsSetting, includeSeconds);
         _cronExpressionText.Text(input);
 
         _infoBar.IsOpened.Should().BeFalse();

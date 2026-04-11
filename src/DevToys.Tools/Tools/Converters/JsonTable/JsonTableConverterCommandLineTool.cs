@@ -1,9 +1,10 @@
 ﻿using DevToys.Tools.Helpers;
 using DevToys.Tools.Tools.Converters.JsonTable;
+using DevToys.Tools.Tools.Converters.JsonYaml;
 using Microsoft.Extensions.Logging;
 using OneOf;
 
-namespace DevToys.Tools.Tools.Converters.JsonYaml;
+namespace DevToys.Tools.Tools.Converters.JsonTable;
 
 [Export(typeof(ICommandLineTool))]
 [Name("JsonTableConverter")]
