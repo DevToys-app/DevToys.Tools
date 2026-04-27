@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessibleName" xml:space="preserve">
+    <value>Line Filter</value>
+  </data>
+  <data name="CaseSensitiveOff" xml:space="preserve">
+    <value>Case-insensitive</value>
+  </data>
+  <data name="CaseSensitiveOn" xml:space="preserve">
+    <value>Case-sensitive</value>
+  </data>
+  <data name="ConfigurationTitle" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Filter lines from text by plain text, keywords, or regular expression.</value>
+  </data>
+  <data name="InputTextLabel" xml:space="preserve">
+    <value>Text to filter</value>
+  </data>
+  <data name="InvalidRegexTitle" xml:space="preserve">
+    <value>Invalid regular expression</value>
+  </data>
+  <data name="InvertMatchOff" xml:space="preserve">
+    <value>Keep matching lines</value>
+  </data>
+  <data name="InvertMatchOn" xml:space="preserve">
+    <value>Exclude matching lines</value>
+  </data>
+  <data name="LongDisplayTitle" xml:space="preserve">
+    <value>Line Filter</value>
+  </data>
+  <data name="ModeKeywords" xml:space="preserve">
+    <value>Keywords (any)</value>
+  </data>
+  <data name="ModeLabel" xml:space="preserve">
+    <value>Match mode</value>
+  </data>
+  <data name="ModePlainText" xml:space="preserve">
+    <value>Plain text</value>
+  </data>
+  <data name="ModeRegex" xml:space="preserve">
+    <value>Regular expression</value>
+  </data>
+  <data name="OutputTextLabel" xml:space="preserve">
+    <value>Filtered lines</value>
+  </data>
+  <data name="PatternDescription" xml:space="preserve">
+    <value>In "Keywords" mode, separate keywords with whitespace. A line is kept when it contains any keyword.</value>
+  </data>
+  <data name="PatternLabel" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="SearchKeywords" xml:space="preserve">
+    <value>grep filter log lines regex keywords find search</value>
+  </data>
+  <data name="ShortDisplayTitle" xml:space="preserve">
+    <value>Line Filter</value>
+  </data>
+  <data name="SummaryFormat" xml:space="preserve">
+    <value>Matched {0} of {1} lines</value>
+    <comment>{0} = matched line count, {1} = total line count.</comment>
+  </data>
+</root>
