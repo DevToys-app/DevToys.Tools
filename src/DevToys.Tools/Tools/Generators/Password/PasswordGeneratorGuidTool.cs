@@ -256,13 +256,10 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
         // There are no character sets selected, so we can't generate anything.
         if (!HasAnyCharacterSets)
         {
+            _infoBar.Description(PasswordGenerator.NoCharacterSetsWarning);
             _infoBar.Open();
             _outputText.Text(string.Empty);
             return;
-        }
-        else
-        {
-            _infoBar.Close();
         }
 
         bool hasUppercase = _settingsProvider.GetSetting(uppercase);
@@ -271,6 +268,17 @@ internal sealed class PasswordGeneratorGuidTool : IGuiTool
         bool hasSpecialCharacters = _settingsProvider.GetSetting(specialCharacters);
         char[] excludedCharactersList = _settingsProvider.GetSetting(excludedCharacters).ToCharArray();
         int passwordLength = _settingsProvider.GetSetting(length);
+
+        // The excluded characters cover every character of the selected sets, so we can't generate anything.
+        if (!PasswordGeneratorHelper.HasAnyCharacterAvailable(hasUppercase, hasLowercase, hasNumbers, hasSpecialCharacters, excludedCharactersList))
+        {
+            _infoBar.Description(PasswordGenerator.AllCharactersExcludedWarning);
+            _infoBar.Open();
+            _outputText.Text(string.Empty);
+            return;
+        }
+
+        _infoBar.Close();
 
         // Generate a random password using the the combined character set.
         var newPasswords = new StringBuilder();

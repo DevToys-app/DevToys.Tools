@@ -43,34 +43,11 @@ internal static class PasswordGeneratorHelper
             return string.Empty;
         }
 
-        // Combine all character sets together.
-        var randomCharsBuilder = new StringBuilder();
-        string randomChars;
-
         var rand = new CryptoRandom();
         var newPasswordCharacters = new List<char>();
 
-        if (hasUppercase)
-        {
-            randomCharsBuilder.Append(RemoveExcludedCharacters(UppercaseLetters, excludedCharacters));
-        }
-
-        if (hasLowercase)
-        {
-            randomCharsBuilder.Append(RemoveExcludedCharacters(LowercaseLetters, excludedCharacters));
-        }
-
-        if (hasNumbers)
-        {
-            randomCharsBuilder.Append(RemoveExcludedCharacters(Digits, excludedCharacters));
-        }
-
-        if (hasSpecialCharacters)
-        {
-            randomCharsBuilder.Append(RemoveExcludedCharacters(NonAlphanumeric, excludedCharacters));
-        }
-
-        randomChars = randomCharsBuilder.ToString();
+        // Combine all character sets together.
+        string randomChars = CombineCharacterSets(hasUppercase, hasLowercase, hasNumbers, hasSpecialCharacters, excludedCharacters);
 
         // Only continue if the user hasn't excluded everything.
         if (randomChars.Length != 0)
@@ -82,6 +59,52 @@ internal static class PasswordGeneratorHelper
         }
 
         return new string(newPasswordCharacters.ToArray());
+    }
+
+    /// <summary>
+    /// Indicates whether at least one character remains available to generate a password with,
+    /// once the excluded characters are removed from the enabled character sets.
+    /// </summary>
+    internal static bool HasAnyCharacterAvailable(
+        bool hasUppercase,
+        bool hasLowercase,
+        bool hasNumbers,
+        bool hasSpecialCharacters,
+        char[]? excludedCharacters)
+    {
+        return CombineCharacterSets(hasUppercase, hasLowercase, hasNumbers, hasSpecialCharacters, excludedCharacters).Length > 0;
+    }
+
+    private static string CombineCharacterSets(
+        bool hasUppercase,
+        bool hasLowercase,
+        bool hasNumbers,
+        bool hasSpecialCharacters,
+        char[]? excludedCharacters)
+    {
+        var combinedCharsBuilder = new StringBuilder();
+
+        if (hasUppercase)
+        {
+            combinedCharsBuilder.Append(RemoveExcludedCharacters(UppercaseLetters, excludedCharacters));
+        }
+
+        if (hasLowercase)
+        {
+            combinedCharsBuilder.Append(RemoveExcludedCharacters(LowercaseLetters, excludedCharacters));
+        }
+
+        if (hasNumbers)
+        {
+            combinedCharsBuilder.Append(RemoveExcludedCharacters(Digits, excludedCharacters));
+        }
+
+        if (hasSpecialCharacters)
+        {
+            combinedCharsBuilder.Append(RemoveExcludedCharacters(NonAlphanumeric, excludedCharacters));
+        }
+
+        return combinedCharsBuilder.ToString();
     }
 
     private static string RemoveExcludedCharacters(string input, char[]? excludedCharacters)

@@ -50,6 +50,17 @@ internal sealed class PasswordGeneratorCommandLineTool : ICommandLineTool
 
     public ValueTask<int> InvokeAsync(ILogger logger, CancellationToken cancellationToken)
     {
+        if (!PasswordGeneratorHelper.HasAnyCharacterAvailable(
+                Uppercase,
+                Lowercase,
+                Digits,
+                SpecialCharacters,
+                ExcludedCharacters.ToArray()))
+        {
+            Console.Error.WriteLine(PasswordGenerator.AllCharactersExcludedWarning);
+            return ValueTask.FromResult(-1);
+        }
+
         string password
             = PasswordGeneratorHelper.GeneratePassword(
                 Length,

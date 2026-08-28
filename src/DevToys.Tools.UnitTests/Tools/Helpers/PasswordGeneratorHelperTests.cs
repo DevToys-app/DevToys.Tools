@@ -12,6 +12,8 @@ public class PasswordGeneratorHelperTests
     [InlineData(500, true, true, true, true, null)]
     [InlineData(500, true, true, true, true, "bcdefghijklmnopqrstuvwxyz")]
     [InlineData(500, false, true, false, false, "bcdefghijklmnopqrstuvwxyz")]
+    [InlineData(500, true, true, true, true, "@, :, /, %, &, ?, #, +, !, $, ^, *")] // https://github.com/DevToys-app/DevToys/issues/1663
+    [InlineData(500, true, true, true, true, "^, *")] // https://github.com/DevToys-app/DevToys/issues/1663
     internal void GeneratePassword(int length, bool hasUppercase, bool hasLowercase, bool hasNumber, bool hasSpecialCharacters, string excludedCharacters)
     {
         string password
@@ -64,6 +66,56 @@ public class PasswordGeneratorHelperTests
 
         if (excludedCharacters != null)
             NotContainAny(password, excludedCharacters);
+    }
+
+    [Fact]
+    internal void GeneratePasswordWithAllCharactersExcludedReturnsEmpty()
+    {
+        const string allCharacters
+            = PasswordGeneratorHelper.UppercaseLetters
+            + PasswordGeneratorHelper.LowercaseLetters
+            + PasswordGeneratorHelper.Digits
+            + PasswordGeneratorHelper.NonAlphanumeric;
+
+        string password
+            = PasswordGeneratorHelper.GeneratePassword(
+                36,
+                hasUppercase: true,
+                hasLowercase: true,
+                hasNumbers: true,
+                hasSpecialCharacters: true,
+                allCharacters.ToCharArray());
+
+        password.Should().BeEmpty();
+    }
+
+    [Theory]
+    [InlineData(true, true, true, true, null, true)]
+    [InlineData(true, true, true, true, "@, :, /, %, &, ?, #, +, !, $, ^, *", true)]
+    [InlineData(true, true, true, true, "^, *", true)]
+    [InlineData(false, false, false, true, PasswordGeneratorHelper.NonAlphanumeric, false)]
+    [InlineData(false, true, false, false, PasswordGeneratorHelper.LowercaseLetters, false)]
+    [InlineData(
+        true,
+        true,
+        true,
+        true,
+        PasswordGeneratorHelper.UppercaseLetters
+            + PasswordGeneratorHelper.LowercaseLetters
+            + PasswordGeneratorHelper.Digits
+            + PasswordGeneratorHelper.NonAlphanumeric,
+        false)]
+    internal void HasAnyCharacterAvailable(bool hasUppercase, bool hasLowercase, bool hasNumbers, bool hasSpecialCharacters, string excludedCharacters, bool expectedResult)
+    {
+        bool result
+            = PasswordGeneratorHelper.HasAnyCharacterAvailable(
+                hasUppercase,
+                hasLowercase,
+                hasNumbers,
+                hasSpecialCharacters,
+                excludedCharacters?.ToCharArray());
+
+        result.Should().Be(expectedResult);
     }
 
     private static void ContainAny(string password, string characters)
