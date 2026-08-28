@@ -70,6 +70,15 @@ namespace DevToys.Tools.Tools.Generators.Password {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No password(s) can be generated because all the available characters have been excluded..
+        /// </summary>
+        internal static string AllCharactersExcludedWarning {
+            get {
+                return ResourceManager.GetString("AllCharactersExcludedWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Configuration.
         /// </summary>
         internal static string ConfigurationTitle {
